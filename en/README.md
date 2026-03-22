@@ -2,7 +2,7 @@
 
 > **Languages:** [English](README.md) | [Русский](README_RU.md)
 
-[![DOI Part I](https://zenodo.org/badge/DOI/10.5281/zenodo.19161121.svg)](https://doi.org/10.5281/zenodo.19161121)
+[![DOI](https://zenodo.org/badge/1188736747.svg)](https://doi.org/10.5281/zenodo.19162312)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Theory-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-yellow.svg)](LICENSE)
 
@@ -123,14 +123,14 @@ The theory is presented in three volumes, published on Zenodo:
 
 | # | Title | DOI | Focus |
 |:-:|:------|:----|:------|
-| **I** | [Foundations and the Octahedral Machine](DOT_foundations_and_machine_en.md) | [10.5281/zenodo.19161121](https://doi.org/10.5281/zenodo.19161121) | K(2,2,2), boundary operator ∂²=0, D/F/C triad, 6 statuses, ⊙ operation, Observer |
-| **II** | [Mathematical Framework, Number Theory, and Spectral Geometry](DOT_mathematical_framework_en.md) |  | Ramanujan τ, ζ(s) spectral interpretation, Hecke operators, modular carriers |
-| **III** | [Physical Realization and the Structure of Matter](DOT_physical_realization_en.md) |  | 26 particle masses, cosmological fractions, molecular chemistry, gravity as status diffusion |
+| **I** | [Foundations and the Octahedral Machine](DOT_foundations_and_machine_en.md) | [10.5281/zenodo.19162312](https://doi.org/10.5281/zenodo.19162312) | K(2,2,2), boundary operator ∂²=0, D/F/C triad, 6 statuses, ⊙ operation, Observer |
+| **II** | [Mathematical Framework, Number Theory, and Spectral Geometry](DOT_mathematical_framework_en.md) | [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523) | Ramanujan τ, ζ(s) spectral interpretation, Hecke operators, modular carriers |
+| **III** | [Physical Realization and the Structure of Matter](DOT_physical_realization_en.md) | [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523) | 26 particle masses, cosmological fractions, molecular chemistry, gravity as status diffusion |
 
 **Supplementary:**
 | | Title | Focus |
 |:-:|:------|:------|
-| **IV** | [Octahedral Proof Calculus](DOT_octahedral_proof_calculus_en.md) | Formal verification framework: axioms, lemmas, and derivation chains |
+| **IV** | [Octahedral Proof Calculus](DOT_octahedral_proof_calculus_en.md) | Formal verification framework: axioms, lemmas, and derivation chains (DOI: [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523)) |
 | **V** | [Code Availability Statement](DOT_code_availability_en.md) | Reproducibility guide for the companion code |
 
 ---
@@ -157,7 +157,7 @@ The theory is presented in three volumes, published on Zenodo:
                Mathematical Framework, and Physical Realization},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.19161121},
+  doi       = {10.5281/zenodo.19162312},
   url       = {https://github.com/nondual-observer/distinction-observable-theory}
 }
 ```

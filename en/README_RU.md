@@ -2,7 +2,7 @@
 
 > **Языки:** [English](README.md) | [Русский](README_RU.md)
 
-[![DOI Part I](https://zenodo.org/badge/DOI/10.5281/zenodo.19161121.svg)](https://doi.org/10.5281/zenodo.19161121)
+[![DOI](https://zenodo.org/badge/1188736747.svg)](https://doi.org/10.5281/zenodo.19162312)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Theory-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-yellow.svg)](LICENSE)
 
@@ -121,14 +121,14 @@ companion_code/
 
 | # | Название | DOI | Фокус |
 |:-:|:---------|:----|:------|
-| **I** | [Основания и Октаэдральная Машина](DOT_foundations_and_machine_ru.md) | [10.5281/zenodo.19161121](https://doi.org/10.5281/zenodo.19161121) | K(2,2,2), оператор границы ∂²=0, триада D/F/C, 6 статусов, операция ⊙, Наблюдатель |
-| **II** | [Математический аппарат, теория чисел и спектральная геометрия](DOT_mathematical_framework_ru.md) |  | τ Рамануджана, спектральная интерпретация ζ(s), операторы Гекке, модулярные носители |
-| **III** | [Физическая реализация и структура материи](DOT_physical_realization_ru.md) |  | 26 масс частиц, космологические фракции, молекулярная химия, гравитация как диффузия статусов |
+| **I** | [Основания и Октаэдральная Машина](DOT_foundations_and_machine_ru.md) | [10.5281/zenodo.19162312](https://doi.org/10.5281/zenodo.19162312) | K(2,2,2), оператор границы ∂²=0, триада D/F/C, 6 статусов, операция ⊙, Наблюдатель |
+| **II** | [Математический аппарат, теория чисел и спектральная геометрия](DOT_mathematical_framework_ru.md) | [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523) | τ Рамануджана, спектральная интерпретация ζ(s), операторы Гекке, модулярные носители |
+| **III** | [Физическая реализация и структура материи](DOT_physical_realization_ru.md) | [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523) | 26 масс частиц, космологические фракции, молекулярная химия, гравитация как диффузия статусов |
 
 **Дополнительно:**
 | | Название | Фокус |
 |:-:|:---------|:------|
-| **IV** | [Исчисление октаэдральных доказательств](DOT_octahedral_proof_calculus_ru.md) | Фреймворк формальной верификации: аксиомы, леммы и цепочки вывода |
+| **IV** | [Исчисление октаэдральных доказательств](DOT_octahedral_proof_calculus_ru.md) | Фреймворк формальной верификации: аксиомы, леммы и цепочки вывода (DOI: [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523)) |
 | **V** | [Заявление о доступности кода](DOT_code_availability_ru.md) | Руководство по воспроизведению численных результатов |
 
 ---
@@ -155,7 +155,7 @@ companion_code/
                Mathematical Framework, and Physical Realization},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.19161121},
+  doi       = {10.5281/zenodo.19162312},
   url       = {https://github.com/nondual-observer/distinction-observable-theory}
 }
 ```
