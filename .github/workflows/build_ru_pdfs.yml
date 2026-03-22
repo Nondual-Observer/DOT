@@ -1,0 +1,108 @@
+name: Build Russian PDFs
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'en/DOT_*_ru.md'
+  workflow_dispatch:
+
+jobs:
+  build-pdfs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install TeX Live and Russian support
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y --no-install-recommends \
+            texlive-xetex \
+            texlive-lang-cyrillic \
+            texlive-fonts-recommended \
+            texlive-fonts-extra \
+            pandoc \
+            fonts-freefont-ttf \
+            zip
+
+      - name: Build Russian PDFs
+        run: |
+          mkdir -p pdfs_ru
+          
+          PANDOC_OPTS="--pdf-engine=xelatex \
+            -V mainfont='FreeSerif' \
+            -V sansfont='FreeSans' \
+            -V monofont='FreeMono' \
+            -V lang=ru \
+            -V geometry:margin=2.5cm \
+            -V fontsize=11pt \
+            -V colorlinks=true \
+            -V linkcolor=NavyBlue \
+            -V urlcolor=NavyBlue \
+            --toc \
+            --number-sections \
+            --highlight-style=tango"
+          
+          pandoc en/DOT_foundations_and_machine_ru.md \
+            $PANDOC_OPTS \
+            -o pdfs_ru/DOT_foundations_and_machine_ru.pdf
+          
+          pandoc en/DOT_mathematical_framework_ru.md \
+            $PANDOC_OPTS \
+            -o pdfs_ru/DOT_mathematical_framework_ru.pdf
+          
+          pandoc en/DOT_physical_realization_ru.md \
+            $PANDOC_OPTS \
+            -o pdfs_ru/DOT_physical_realization_ru.pdf
+          
+          pandoc en/DOT_octahedral_proof_calculus_ru.md \
+            $PANDOC_OPTS \
+            -o pdfs_ru/DOT_octahedral_proof_calculus_ru.pdf
+
+      - name: Create ZIP archive
+        run: |
+          cd pdfs_ru
+          zip ../DOT_TNR_russian_tomes.zip *.pdf
+          cd ..
+
+      - name: Upload PDFs as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: DOT-TNR-Russian-PDFs
+          path: |
+            pdfs_ru/*.pdf
+            DOT_TNR_russian_tomes.zip
+          retention-days: 90
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/heads/main')
+        with:
+          tag_name: ru-pdfs-${{ github.run_number }}
+          name: "ТНР — Русские версии томов (PDF)"
+          body: |
+            ## Теория Наблюдаемых Различий (ТНР)
+            ### Русские PDF-версии томов
+            
+            Скачайте архив или отдельные файлы:
+            
+            | Том | Файл |
+            |-----|------|
+            | I: Основания и Машина | `DOT_foundations_and_machine_ru.pdf` |
+            | II: Математический Аппарат | `DOT_mathematical_framework_ru.pdf` |
+            | III: Физическая Реализация | `DOT_physical_realization_ru.pdf` |
+            | IV: Исчисление Доказательств | `DOT_octahedral_proof_calculus_ru.pdf` |
+            
+            **Автор:** Игорь Жук, Краснодар, Россия
+          files: |
+            DOT_TNR_russian_tomes.zip
+            pdfs_ru/DOT_foundations_and_machine_ru.pdf
+            pdfs_ru/DOT_mathematical_framework_ru.pdf
+            pdfs_ru/DOT_physical_realization_ru.pdf
+            pdfs_ru/DOT_octahedral_proof_calculus_ru.pdf
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
