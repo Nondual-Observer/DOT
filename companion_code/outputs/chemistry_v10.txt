@@ -1,0 +1,55 @@
+TNR v10 — Hydride and C2 Hydrocarbon Dynamics
+==============================================================================
+γ = 0.27216553   γ² = 0.07407407   α⁻¹ = 137.036101
+Ry = 13.605673 eV   Ry/3 = 4.535224 eV
+
+Model split:
+- H₂: exact mass-defect / overtone case
+- central hydrides: bond-domain + lone-pair law + period/polar aperture
+- s-block hydrides: explicit unresolved candidate branch
+- C2 hydrocarbons: bounded multi-center branch (C-H + C-C channels)
+
+Mol    Mode                     TNR eV     Exp eV     Err%
+------ -------------------- ---------- ---------- --------
+H₂     exact-h2                 4.4792     4.4780   +0.03%
+LiH    candidate-s-block        2.5196     2.5150   +0.18%
+HF     bond-domain              5.8308     5.8700   -0.67%
+H₂O    bond-domain              9.5744     9.5100   +0.68%
+NH₃    bond-domain             11.9260    11.9500   -0.20%
+CH₄    bond-domain             17.0045    17.0200   -0.09%
+SiH₄   bond-domain             13.0638    13.0700   -0.05%
+PH₃    bond-domain              9.9145    10.0000   -0.86%
+H₂S    bond-domain              7.5260     7.5700   -0.58%
+HCl    bond-domain              4.4134     4.4300   -0.38%
+HBr    bond-domain              3.7573     3.7600   -0.07%
+HI     bond-domain              3.0717     3.0600   +0.38%
+C₂H₆   multi-center-2c         29.7060    29.6000   +0.36%
+C₂H₄   multi-center-2c         24.6918    24.7000   -0.03%
+
+Mean |error| (all)       = 0.32%
+Mean |error| (resolved)  = 0.34%
+
+Branch details:
+- LiH: ionic_collapse=0.5625 (s-block hydride branch remains unresolved (candidate scaling))
+- HF: b=1, l=3, k=+0.7500, period=1.0000, polar=1.0062, bridge=1.0000, lift=1.0000, tetra=1.0000, trig=1.0000, E_rad=4.7872, E_ortho=+1.0078
+- H₂O: b=2, l=2, k=+0.7500, period=1.0000, polar=1.0000, bridge=1.0000, lift=1.0000, tetra=1.0000, trig=1.0000, E_rad=9.5744, E_ortho=+0.0000
+- NH₃: b=3, l=1, k=-1.3333, period=1.0000, polar=1.0000, bridge=1.0000, lift=1.0000, tetra=1.0000, trig=1.0000, E_rad=12.2619, E_ortho=-0.3359
+- CH₄: b=4, l=0, k=-1.0000, period=1.0000, polar=1.0000, bridge=1.0000, lift=1.0000, tetra=1.0123, trig=1.0000, E_rad=16.7971, E_ortho=-0.0000
+- SiH₄: b=4, l=0, k=-1.0000, period=0.7777, polar=1.0000, bridge=1.0000, lift=1.0000, tetra=1.0000, trig=1.0000, E_rad=16.7971, E_ortho=-0.0000
+- PH₃: b=3, l=1, k=-1.3333, period=0.8212, polar=1.0000, bridge=1.0000, lift=1.0000, tetra=1.0000, trig=1.0123, E_rad=12.2619, E_ortho=-0.3359
+- H₂S: b=2, l=2, k=+0.7500, period=0.7861, polar=1.0000, bridge=1.0000, lift=1.0000, tetra=1.0000, trig=1.0000, E_rad=9.5744, E_ortho=+0.0000
+- HCl: b=1, l=3, k=+0.7500, period=0.7538, polar=1.0041, bridge=1.0062, lift=1.0000, tetra=1.0000, trig=1.0000, E_rad=4.7872, E_ortho=+1.0078
+- HBr: b=1, l=3, k=+0.7500, period=0.6049, polar=1.0031, bridge=1.0123, lift=1.0556, tetra=1.0000, trig=1.0000, E_rad=4.7872, E_ortho=+1.0078
+- HI: b=1, l=3, k=+0.7500, period=0.5051, polar=1.0025, bridge=1.0185, lift=1.0278, tetra=1.0000, trig=1.0000, E_rad=4.7872, E_ortho=+1.0078
+- C₂H₆: order=1, hyb=sp3, h(c1)=3, h(c2)=3, E_CH/bond=4.2511, E_CH=25.5067, E_CCσ=4.1993, E_CCπ=0.0000
+- C₂H₄: order=2, hyb=sp2, h(c1)=2, h(c2)=2, E_CH/bond=4.3673, E_CH=17.4690, E_CCσ=4.1993, E_CCπ=3.0235
+
+Unresolved branch policy:
+- `candidate-s-block`: explicit candidate scaling, not claimed as closed law.
+- `multi-center-2c`: bounded extension, no hidden global fit.
+- `unresolved-topology`: outside validated carrier classes; no hidden fit.
+
+========================================================================================
+[dot_companion_verify] RUN current: chemistry v10
+[dot_companion_verify] /Users/abc/.codex/worktrees/7829/abc/Codex_n8n/scripts/tnr_hydrogen_dynamic_v10.py
+========================================================================================

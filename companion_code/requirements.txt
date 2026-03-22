@@ -1,0 +1,2 @@
+# Minimal dependencies for running the DOT companion scripts
+numpy>=1.26
