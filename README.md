@@ -121,12 +121,19 @@ python3 scripts/tnr_comprehensive_engine.py
 | **L3** | 14 molecular bond energies (H₂, H₂O, CH₄, NH₃, HF…) | Mean error: **0.32%** |
 | **L4** | Fundamental readouts: α⁻¹, sin²θ_W, Koide, α_s(M_Z) | **Zero free parameters** |
 
+### Formal Proofs (Lean 4)
+
+We have begun mathematically verifying the physical derivations using the **Lean 4 interactive theorem prover**. 
+- `formal_proofs/DOT_Sn_Isotopes.lean` provides an executable, mathematically rigorous proof that the DOT-SEMF nuclear formula applied to Tin (Sn) isotopes accurately reproduces AME2020 mass defects using the Ramanujan spectrum.
+
 ### Repository Structure
 
 ```
 companion_code/
+├── formal_proofs/
+│   └── DOT_Sn_Isotopes.lean          # ★ Lean 4 mathematical verification
 ├── scripts/
-│   └── tnr_comprehensive_engine.py   # ★ Full 4-level generative engine (L0→L1→L2→L3→L4)
+│   └── tnr_comprehensive_engine.py   # ★ Full 4-level generative engine
 ├── outputs/                          # Saved output snapshots
 ├── requirements.txt                  # numpy>=1.26
 └── README_code.md                    # Code-specific documentation
@@ -228,6 +235,7 @@ The theory is presented in three volumes, published on Zenodo:
 | **V** | [Code Availability Statement](en/DOT_code_availability_en.md) | Reproducibility guide for the companion code |
 | **VI** | [Machine Architecture Overview](en/DOT_machine_architecture_overview_en.md) | Full architectural layer map of the DOT machine |
 | **VII** | [Terminology and Layer Map](en/DOT_terminology_and_layer_map_en.md) | Reference terminology dictionary and structural layer chart |
+| **VIII** | [Formal Verification (Lean 4)](companion_code/formal_proofs/DOT_Sn_Isotopes.lean) | Executable mathematical proof of the DOT-SEMF nuclear formula |
 
 ---
 
