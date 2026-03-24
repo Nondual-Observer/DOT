@@ -1,10 +1,10 @@
 # Distinction Observable Theory (DOT)
 
-> **Languages:** [English](README.md) | [Русский](README_RU.md)
+> **Languages:** [English](README.md) | [Русский](ru/README_RU.md)
 
 [![DOI](https://zenodo.org/badge/1188736747.svg)](https://doi.org/10.5281/zenodo.19162312)
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Theory-CC%20BY--NC--SA%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![License: MIT](https://img.shields.io/badge/Code-MIT-yellow.svg)](LICENSE)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Theory-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE-THEORY.md)
+[![License: Apache-2.0](https://img.shields.io/badge/Code-Apache--2.0-yellow.svg)](LICENSE)
 
 > *"The unmanifest [Prakriti] is endowed with the three gunas… The gunas, by their nature, are pleasure [Sattva], pain [Rajas], and indifference [Tamas]. Their purpose is to illuminate, to activate, and to restrict. They suppress each other, support each other, produce each other, and act together, like a lamp [where oil, wick, and flame act in concert].*
 >
@@ -15,105 +15,199 @@
 
 ---
 
-## What this code does
+## What this repository contains
 
-This repository contains **executable numerical verification** of Distinction Observable Theory (DOT) — a set of Python scripts that reproduce all predictions of the theory **with zero free parameters**.
+This repository does not contain only companion numerical code. It contains an **assembled TNR/DOT package** in three forms:
 
-All constants are derived from the geometry of a single object — the **Octahedron K(2,2,2)** (6 vertices, 12 edges, 8 faces).
+- **theory corpus** — texts that fix the machine’s architectural basis;
+- **reference engine** — an executable generative chain connecting constants, particles, nuclei, and molecular projections;
+- **verification layer** — reproducible audits showing that the same grammar works across different floors of the machine.
+
+In other words, this repository is meant neither only for reading theory nor only for running calculations. It shows how the same structural framework can be written as ontology, as computational architecture, and as executable code.
+
+## What DOT is
+
+**Distinction Observable Theory (DOT)** describes a machine in which primary reality is not made of ready-made objects, but of **distinctions, boundaries, and acts of closure**. In this picture, an object is not the starting point of theory; it appears later as a stabilized readout of a deeper structural grammar. DOT therefore begins not with finished “particles” or “bodies”, but with a lower grammar of prohibition, identity, polarity, boundary, transition, and closure.
+
+In its current canonical form, the lower floor of the machine is read as the ladder
+
+```text
+0 -> 1 -> 2 -> 6 -> 12 -> 8
+```
+
+where `0` is the vacuum fixed-point, `1` is unary identity, `2` is the first polarity, `6` is the full triadic boundary, `12` is the transitional edge-network, and `8` is the first closure. At this same floor, action-types are already separated: addition builds horizons, subtraction reads deficits, multiplication assembles structure, division performs oriented readout, and exponentiation seals and amplifies closure.
+
+From this follows a central DOT thesis: **structure, act, and observation do not reduce to one another**. Structure holds symmetry. Act is asymmetric by definition, because it delineates, orients, normalizes, and leaves a remainder. Observation holds distinction as an invariant and is therefore not just another act. This separation forms the machine’s basic operational block:
+
+```text
+carrier + act + readout
+```
+
+The first strong carrier architecture on which this grammar becomes a reproducible machine is the octahedron `K(2,2,2)`. It is not “the first object of the whole world”, but it is the first stable carrier on which distinction, addressing, seams, and readout assemble into a working topological grammar. From here arise the visible/shadow packets `24 / 48` and `23 / 47`, the shell corridor `94 / 95 / 96`, the higher horizons `120`, `136`, `200`, `252`, `432`, `1728`, and their machine-readable structural dictionary.
+
+## Universality of DOT
+
+DOT does not claim to be only a narrow physical model. It proposes a more general grammar of distinction that can be read simultaneously in several registers.
+
+At the lower level it appears as structural arithmetic: prohibition, identity, polarity, boundary, transition, closure. At the next level the same framework appears as carrier topology: seams, cycles, axes, shells, visible and shadow components. Above that it becomes an operational machine: unresolved tails generate pressure, pressure triggers act, act leaves traces and remainder, readout fixes a new state. In the reference engine the same grammar is already realized as a generative chain for constants, particles, nuclei, and molecular projections.
+
+This is what constitutes the universality of DOT: the same grammar persists when one moves from mathematics to machine architecture and from there to physically readable structure.
+
+Several consequences follow from this:
+- the object is secondary to distinction and boundary;
+- act is asymmetric by definition;
+- observation preserves distinction and is not reducible to act;
+- visible and shadow are assembled as a single packet;
+- higher horizons are derived from lower-floor grammar rather than introduced from outside.
+
+## What is already implemented
+
+At the current stage, the repository contains not merely a set of local formulas but an entire reference chain of the machine.
+
+1. **Structural layer**
+   - the lower floor is assembled;
+   - `structure / act / observation` are separated;
+   - visible/shadow packets are assembled;
+   - the canonical structural dictionary is frozen.
+
+2. **Reference engine**
+   - the generative chain `L0 -> L1 -> L2 -> L3` is implemented, plus `L4` as a layer of fundamental readouts;
+   - geometric constants feed the particle layer, then the nuclear layer, and then molecular projections.
+
+3. **Verification layer**
+   - reproducible structural audits are present;
+   - numerical checks exist for particle, nuclear, and chemistry layers;
+   - a machine-readable package exists for canonical nodes and frontier bands.
+
+4. **Publication layer**
+   - theory is presented as a connected corpus of texts;
+   - machine architecture is separated from the open frontier;
+   - code and theory can already be read as one connected package.
+
+This is an important boundary. In this repository, DOT is no longer just a hypothesis and no longer just a collection of numerical coincidences. It is an assembled architecture of distinction with a reference realization and a verifiable numerical layer.
+
+## What the code does
+
+The code in this repository serves three purposes:
+
+- to reproduce the numerical consequences of the theory;
+- to show that the same grammar truly executes as a generative chain;
+- to connect the theoretical corpus to concrete computable objects.
+
+In practice, this means that the reference engine and related modules:
+- compute fundamental readouts and constants;
+- assemble particle masses and their tail layer;
+- build the nuclear layer;
+- compute molecular projections and bond energies;
+- allow one to check how structural grammar passes into an executable physical scheme.
 
 ### Quick Start
 
 ```bash
-cd ../companion_code
+cd companion_code
 pip install -r requirements.txt    # only numpy
 
-# Run everything:
-python3 scripts/dot_companion_verify.py --all
-
-# Or run individual modules:
-python3 scripts/dot_companion_verify.py --full        # 21 observables dashboard
-python3 scripts/dot_companion_verify.py --vacuum64    # 64-state vacuum engine
-python3 scripts/dot_companion_verify.py --chem        # Molecular bond energies
-python3 scripts/dot_companion_verify.py --tails       # Mellin tail calculator
-python3 scripts/dot_companion_verify.py --hydrogen-dyn  # 48-dim Cayley graph dynamics
+# Run the full 4-level generative chain:
+python3 scripts/tnr_comprehensive_engine.py
 ```
 
-### What each module verifies
+### What the engine computes
 
-| Module | What it verifies | Key metric |
-|:-------|:-----------------|:-----------|
-| `--full` | 21 observables: 9 particle masses, 4 couplings, 4 cosmological fractions, g-2, fine structure, Bethe log | Mean error: **0.0002%** |
-| `--vacuum64` | 64 vacuum states of K(2,2,2), spectral projections → quark charges | All 1/3, 2/3, 1/4 — **exact** |
-| `--chem` | 14 molecules (H₂, H₂O, CH₄, NH₃, HF, C₂H₂, C₂H₄, C₂H₆, etc.) | Mean error: **0.32%** |
-| `--tails` | Complete mass atlas of 26 particles with Mellin corrections | Per-particle δ₀ + Ω breakdown |
-| `--hydrogen-dyn` | 2p→1s decay dynamics on 48-dim Cayley graph | P(1s) → 98.7%, norm = 1.000 |
+| Level | What it computes | Key metric |
+|:------|:-----------------|:-----------|
+| **L0** | Geometric constants: γ = √6/9, precision α, Rydberg | α⁻¹ error: **0.0000068σ** |
+| **L1** | 24 particle masses from topological addresses + Ramanujan carriers | All **< 0.001%** error |
+| **L2** | 98 nuclear isotope masses via DOT-SEMF | All **< 0.001%** error |
+| **L3** | 14 molecular bond energies (H₂, H₂O, CH₄, NH₃, HF…) | Mean error: **0.32%** |
+| **L4** | Fundamental readouts: α⁻¹, sin²θ_W, Koide, α_s(M_Z) | **Zero free parameters** |
 
 ### Repository Structure
 
 ```
 companion_code/
 ├── scripts/
-│   ├── dot_companion_verify.py       # CLI entry point
-│   ├── dot_hydrogen_dynamic_v10.py   # Chemistry model (current)
-│   └── companion_legacy/
-│       ├── dot_full_verification.py          # 21-observable dashboard
-│       ├── dot_all_particles_tail_calculator.py  # Mellin tail atlas
-│       ├── dot_64state_engine.py             # 64-state vacuum engine
-│       ├── dot_hydrogen_dynamic_v5_1.py      # Cayley graph dynamics
-│       └── dot_boundary_engine.py            # Reusable boundary math core
+│   └── tnr_comprehensive_engine.py   # ★ Full 4-level generative engine (L0→L1→L2→L3→L4)
 ├── outputs/                          # Saved output snapshots
 ├── requirements.txt                  # numpy>=1.26
 └── README_code.md                    # Code-specific documentation
 ```
 
+
 ---
 
 ## Theory Overview
 
-**Distinction Observable Theory (DOT)** proposes that the entire architecture of fundamental physics
-can be derived from the combinatorial and spectral properties of one graph:
-the **complete tripartite graph K(2,2,2)** — the 1-skeleton of the regular octahedron.
+**Distinction Observable Theory (DOT)** does not describe a set of isolated physical formulas. It describes a **machine of distinction** in which primary reality is not made of ready-made objects, but of boundaries, prohibitions, polarities, transitions, and acts of closure. In this picture, the object is not the beginning of theory; it appears later as a stabilized readout of a deeper structural grammar.
 
-From this single structure, with **no free parameters**, DOT derives:
+In its present canonical form, the lower layer of the machine is read as the ladder
 
-- **The fine structure constant**: α⁻¹ = 432/π − 47γ³/2 ≈ 137.036 (error < 0.001%)
-- **Particle masses**: 26 particles from a single formula M = C/γᵏ · mₑ · exp(δ₀ + Ω)
-- **Cosmological fractions**: Ωb = 4/81, Ωc = 21/81, ΩΛ = 56/81 (exact closure Σ = 1)
-- **Quark charges**: 1/3, 2/3 computed as spectral projections of K(2,2,2)
-- **The Weinberg angle**: sin²θ_W = 2/9 = 3γ²
-- **Molecular bond energies**: H₂, CH₄, H₂O, HF, … with 0.3% mean accuracy
+```text
+0 -> 1 -> 2 -> 6 -> 12 -> 8
+```
 
-where γ = √6/9 is the **observer anisotropy** — the unique geometric invariant of the octahedron.
+where `0` gives the vacuum fixed-point, `1` gives unary identity, `2` the first polarity, `6` the triadic boundary, `12` the transitional edge-network, and `8` the first closure. At this same level, action-types are already separated: addition builds horizons, subtraction reads deficits, multiplication assembles structure, division performs oriented readout, and exponentiation seals and amplifies closure.
 
----
+From this follows the basic DOT distinction: **structure, act, and observation do not reduce to one another**. Structure holds symmetry. Act is asymmetric by definition, because it delineates, orients, normalizes, and leaves a remainder. Observation preserves distinction as an invariant and therefore is not merely another act. This separation forms the machine’s core operational block:
 
-## Three Principles: Architecture of the Operator
+```text
+carrier + act + readout
+```
 
-The entire theory is built upon **three interconnected principles**, each arising from the previous one:
+The first strong carrier architecture on which this grammar becomes reproducible is the octahedron `K(2,2,2)`. It is not “the first object of the whole world”, but it is the first stable carrier on which distinction, addressing, seams, and readout assemble into a working topology grammar. From this arise the visible/shadow packets `24 / 48` and `23 / 47`, the shell corridor `94 / 95 / 96`, the higher horizons `120`, `136`, `200`, `252`, `432`, `1728`, and the machine-readable structural dictionary that organizes them.
 
-### 1. The Closure Law: ∂² = 0
+The universality of DOT lies in the fact that one and the same grammar operates across several registers. At the lowest level it appears as structural arithmetic. At the next level it appears as carrier topology. Above that it becomes an operational machine of states, traces, and closures. In the reference engine the same grammar is already realized as a generative chain for constants, particles, nuclei, and molecular projections. DOT in this repository is therefore presented not only as theory and not only as code, but as a connected package: texts, canonical package, reference engine, and reproducible audits.
 
-Nothing in nature exists by itself. Every tension must find its absolute compensation — all waves and asymmetries must sum to zero.
+### Lower grammar of the machine
 
-This is the **Principle of Closure** (∂² = 0): the boundary of a boundary is zero. No structure can exist unless it closes upon itself.
+The lower grammar of DOT is not given by a list of objects, but by a handful of hard laws.
 
-### 2. The Face Paradox: three does not divide by two
+### 1. Prohibition of self-readout
 
-The minimal volumetric structure compatible with ∂² = 0 is the **Octahedron** (3 axes × 2 poles = 6 vertices). But each face of the octahedron is a **triangle** (3 edges), while the basic logic of information is **binary** (yes/no, 0/1 — 2 states).
+The machine begins with the restriction `0/0`. As long as distinction has not yet arisen, vacuum cannot be read as a relation to itself. This prohibition generates the entire lower ladder of distinction: identity, polarity, boundary, transition, and closure grow out of it.
 
-A fundamental paradox arises: a wall of 3 edges tries to fit symmetrically into the logic of 2. This is impossible without a remainder. **Three does not divide by two.**
+### 2. Asymmetry of act
 
-This tiny "burr" — a topological mismatch — never disappears. It is the source of all physics: from it arises the observer anisotropy γ = √6/9.
+In DOT, actions are not interchangeable arithmetic operations. They are separated by role:
 
-### 3. The Law of Impenetrability: the magic of coprime numbers
+- `+` builds horizon;
+- `-` reads gap and deficit;
+- `*` assembles structure;
+- `/` performs readout and normalization;
+- `^` gives closure and amplification.
 
-To "spread out" this mismatch, the vacuum is forced to build protective layers around it — horizons nested like Russian dolls. Each layer consists of an **Inner Body** (e.g. the number 80) and an **Outer Background** (the number 81).
+Act in DOT is therefore asymmetric by definition. Symmetry belongs to structure, not to act.
 
-But why don't these layers collapse back into zero? Because two adjacent integers are always **coprime**: 80 and 81 share no common prime divisor. Their internal frequencies are absolutely orthogonal.
+### 3. Separation of structure / act / observation
 
-The Body pulses on its frequencies (twos, fives), and the Background on its own (threes). Sound from the Body strikes the Background wall and is **reflected back 100%**, unable to dissolve. The wall is impenetrable.
+DOT strictly distinguishes carrier, transition, and readout. Structure holds symmetry. Act initiates deformation and routing and leaves transition traces. Observation preserves distinction as a stable invariant. An important consequence follows: observation may be present without a new act, and distinction is not identical to transition.
 
-> **Result:** ∂² = 0 produces the octahedron → the 3-vs-2 incompatibility produces γ → coprimality locks the structure into stable horizons. From these three layers, **everything** grows: particle masses, cosmological fractions, quark charges.
+### 4. Visible / shadow grammar
+
+When the lower floor is assembled into a carrier, the machine yields two linked branches: visible and complement/shadow. Their basic packets are `24 / 48` and `23 / 47`. From them are built shell layers, corridors, and higher bands. The visible branch governs assembly and closure. The shadow branch governs witness, remainder, and complement readout. These branches do not exist independently: the machine state is read only through their linkage.
+
+### 5. Higher horizons as a consequence of the lower floor
+
+Higher machine nodes are not inserted from outside. They are assembled from already discovered lower-floor invariants and shell grammar. This is especially clear in visible assembly:
+
+- `120 = 24*5`
+- `136 = 24*6 - 8`
+- `200 = 24*8 + 8`
+- `252 = 24*10 + 12`
+- `432 = 24*18`
+
+Higher horizons are thus not “magical numbers”; they are consequences of lower-floor grammar, visible shell assembly, and act-level seams `±8`, `+12`, `+24`.
+
+### 6. Realized generative chain
+
+In code, this architecture is already realized as a reference chain:
+
+- `L0` — geometric and coupling constants;
+- `L1` — particle layer;
+- `L2` — nuclear layer;
+- `L3` — molecular projections;
+- `L4` — fundamental readouts.
+
+The repository therefore records more than a collection of theoretical claims. It shows that one and the same grammar can be written as ontology, as structural dictionary, and as executable engine.
 
 ---
 
@@ -132,19 +226,23 @@ The theory is presented in three volumes, published on Zenodo:
 |:-:|:------|:------|
 | **IV** | [Octahedral Proof Calculus](en/DOT_octahedral_proof_calculus_en.md) | Formal verification framework: axioms, lemmas, and derivation chains (DOI: [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523)) |
 | **V** | [Code Availability Statement](en/DOT_code_availability_en.md) | Reproducibility guide for the companion code |
+| **VI** | [Machine Architecture Overview](en/DOT_machine_architecture_overview_en.md) | Full architectural layer map of the DOT machine |
+| **VII** | [Terminology and Layer Map](en/DOT_terminology_and_layer_map_en.md) | Reference terminology dictionary and structural layer chart |
 
 ---
 
 ## Fundamental Constants of DOT
 
+Below are the basic invariants and readouts that in the current codebase and theory texts play the role of the machine’s support constants. For the README, what matters is not only their numerical value, but the fact that they are already read as elements of one architecture grammar: lower-floor geometry, shell assembly, chiral corrections, and modular pivots.
+
 | Symbol | Value | Origin |
 |:-------|:------|:-------|
-| γ = √6/9 | 0.27216553 | Observer anisotropy of K(2,2,2) |
-| γ² = 2/27 | 0.07407407 | Spectral gap ratio |
-| α⁻¹ = 432/π − 47γ³/2 | 137.03600 | Fine structure constant |
-| sin²θ_W = 2/9 | 0.22222 | Weinberg angle (bare) |
-| Koide K₄ = 2/3 | 0.66667 | Lepton mass relation |
-| 432 = j(i)/4 | 16 × 27 | Ramanujan pixel (Dirac ⊗ Higgs) |
+| γ = √6/9 | 0.27216553 | Observer anisotropy on the carrier layer `K(2,2,2)` |
+| γ² = 2/27 | 0.07407407 | Basic spectral / metric ratio |
+| α⁻¹ | 137.035999084… | Precision chiral structural law over nodes `432`, `47`, `72`, `136`, `252` |
+| sin²θ_W = 2/9 | 0.22222 | Basic electroweak readout of the lower layer |
+| Koide K₄ = 2/3 | 0.66667 | Frozen lepton mass readout |
+| 432 = j(i)/4 | 16 × 27 | Universal modular pivot of the machine |
 
 ---
 
@@ -180,8 +278,8 @@ This project is developed as **independent open research** with no institutional
 
 ## License
 
-**Code:** [MIT License](LICENSE) — Free to use, modify, and distribute.  
-**Theory & Documentation:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — Non-commercial use with attribution and share-alike.
+**Code:** [Apache License 2.0](LICENSE) — Open-use software license with explicit patent terms.  
+**Theory & Documentation:** [CC BY-NC-SA 4.0](LICENSE-THEORY.md) — Non-commercial use with attribution and share-alike.
 
 ---
 

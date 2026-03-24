@@ -40,3 +40,8 @@ For GitHub readability, representative runs are saved under `outputs/`:
 
 - Chemistry (`--chem`) is explicitly **exploratory** and limited to specific carrier classes.
 - Legacy scripts are kept as a **snapshot/dashboard** and are not treated as a single closed proof.
+
+## License
+
+- **Code:** [Apache License 2.0](../LICENSE)
+- **Theory and documentation:** [CC BY-NC-SA 4.0](../LICENSE-THEORY.md)
