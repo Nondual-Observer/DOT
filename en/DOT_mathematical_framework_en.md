@@ -4,7 +4,7 @@
 **Affiliation:** Independent (Krasnodar, Russia)  
 **Date:** March 2026  
 
-> **DOI:** [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523)  
+> **DOI:** [10.5281/zenodo.19210790](https://doi.org/10.5281/zenodo.19210790)  
 > **License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
 **Series:** Distinction Observable Theory (DOT), Part II of III  
 **arXiv subject:** Mathematical Physics (math-ph); Number Theory (math.NT)

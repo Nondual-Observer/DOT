@@ -4,7 +4,7 @@
 **Affiliation:** Independent (Krasnodar, Russia)  
 **Date:** March 2026  
 
-> **DOI:** [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523)  
+> **DOI:** [10.5281/zenodo.19210790](https://doi.org/10.5281/zenodo.19210790)  
 > **License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
 **Series:** Distinction Observable Theory (DOT), Part III of III  
 **arXiv subject:** High Energy Physics — Theory (hep-th); High Energy Physics — Phenomenology (hep-ph)

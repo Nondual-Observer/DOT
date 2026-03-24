@@ -2,7 +2,7 @@
 
 > **Languages:** [English](README.md) | [Русский](ru/README_RU.md)
 
-[![DOI](https://zenodo.org/badge/1188736747.svg)](https://doi.org/10.5281/zenodo.19162312)
+[![DOI](https://zenodo.org/badge/1188736747.svg)](https://doi.org/10.5281/zenodo.19210790)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Theory-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE-THEORY.md)
 [![License: Apache-2.0](https://img.shields.io/badge/Code-Apache--2.0-yellow.svg)](LICENSE)
 
@@ -217,14 +217,14 @@ The theory is presented in three volumes, published on Zenodo:
 
 | # | Title | DOI | Focus |
 |:-:|:------|:----|:------|
-| **I** | [Foundations and the Octahedral Machine](en/DOT_foundations_and_machine_en.md) | [10.5281/zenodo.19162312](https://doi.org/10.5281/zenodo.19162312) | K(2,2,2), boundary operator ∂²=0, D/F/C triad, 6 statuses, ⊙ operation, Observer |
-| **II** | [Mathematical Framework, Number Theory, and Spectral Geometry](en/DOT_mathematical_framework_en.md) | [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523) | Ramanujan τ, ζ(s) spectral interpretation, Hecke operators, modular carriers |
-| **III** | [Physical Realization and the Structure of Matter](en/DOT_physical_realization_en.md) | [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523) | 26 particle masses, cosmological fractions, molecular chemistry, gravity as status diffusion |
+| **I** | [Foundations and the Octahedral Machine](en/DOT_foundations_and_machine_en.md) | [10.5281/zenodo.19210790](https://doi.org/10.5281/zenodo.19210790) | K(2,2,2), boundary operator ∂²=0, D/F/C triad, 6 statuses, ⊙ operation, Observer |
+| **II** | [Mathematical Framework, Number Theory, and Spectral Geometry](en/DOT_mathematical_framework_en.md) | [10.5281/zenodo.19210790](https://doi.org/10.5281/zenodo.19210790) | Ramanujan τ, ζ(s) spectral interpretation, Hecke operators, modular carriers |
+| **III** | [Physical Realization and the Structure of Matter](en/DOT_physical_realization_en.md) | [10.5281/zenodo.19210790](https://doi.org/10.5281/zenodo.19210790) | 26 particle masses, cosmological fractions, molecular chemistry, gravity as status diffusion |
 
 **Supplementary:**
 | | Title | Focus |
 |:-:|:------|:------|
-| **IV** | [Octahedral Proof Calculus](en/DOT_octahedral_proof_calculus_en.md) | Formal verification framework: axioms, lemmas, and derivation chains (DOI: [10.5281/zenodo.19162523](https://doi.org/10.5281/zenodo.19162523)) |
+| **IV** | [Octahedral Proof Calculus](en/DOT_octahedral_proof_calculus_en.md) | Formal verification framework: axioms, lemmas, and derivation chains (DOI: [10.5281/zenodo.19210790](https://doi.org/10.5281/zenodo.19210790)) |
 | **V** | [Code Availability Statement](en/DOT_code_availability_en.md) | Reproducibility guide for the companion code |
 | **VI** | [Machine Architecture Overview](en/DOT_machine_architecture_overview_en.md) | Full architectural layer map of the DOT machine |
 | **VII** | [Terminology and Layer Map](en/DOT_terminology_and_layer_map_en.md) | Reference terminology dictionary and structural layer chart |
@@ -255,7 +255,7 @@ Below are the basic invariants and readouts that in the current codebase and the
                Mathematical Framework, and Physical Realization},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.19162312},
+  doi       = {10.5281/zenodo.19210790},
   url       = {https://github.com/nondual-observer/distinction-observable-theory}
 }
 ```
