@@ -126,9 +126,51 @@ python3 scripts/tnr_comprehensive_engine.py
 We have begun mathematically verifying the physical derivations using the **Lean 4 interactive theorem prover**. 
 - `formal_proofs/DOT_Sn_Isotopes.lean` provides an executable, mathematically rigorous proof that the DOT-SEMF nuclear formula applied to Tin (Sn) isotopes accurately reproduces AME2020 mass defects using the Ramanujan spectrum.
 
+### L1 Particle Package (Lean + public entry pages)
+
+The repository also contains a dedicated package for the particle layer:
+- [`24_part_Lean!/tnr_pure_topology_table_post_en.md`](24_part_Lean!/tnr_pure_topology_table_post_en.md)
+
+This folder isolates the current `L1` particle-law material in one place:
+- a short public entry page for the particle table;
+- a compact statement of the particle formula law;
+- the full `L1` unfolding for all current particles;
+- the Lean 4 files that formalize the same layer.
+
+If you want to inspect the particle layer directly, the recommended order is:
+- [`24_part_Lean!/tnr_pure_topology_table_post_en.md`](24_part_Lean!/tnr_pure_topology_table_post_en.md)
+- [`24_part_Lean!/tnr_particle_formula_law_en.md`](24_part_Lean!/tnr_particle_formula_law_en.md)
+- [`24_part_Lean!/tnr_l1_full_unfolding_en.md`](24_part_Lean!/tnr_l1_full_unfolding_en.md)
+- [`24_part_Lean!/TnrFormal.lean`](24_part_Lean!/TnrFormal.lean)
+
+There is also a separate coefficient-focused line of reading for `L1`. In the
+current particle layer, the formulas are not just bare numerators over `γ^k`:
+they are assembled as `B`, `B · exp(δ₀ + Ω)`, or `B · exp(δ₀ + Ω) · T`. This
+means that the coefficient layer has its own architecture: a rigid basis
+alphabet, a shift/closure grammar, and a much narrower frontier of rare tail
+and closure coefficients. The main public entry to this layer remains
+[`24_part_Lean!/tnr_pure_topology_table_post_en.md`](24_part_Lean!/tnr_pure_topology_table_post_en.md).
+The dedicated coefficient/tail deep-dive is currently available in Russian:
+[`24_part_Lean!/tnr_l1_coefficients_article_ru.md`](24_part_Lean!/tnr_l1_coefficients_article_ru.md).
+Supporting references:
+[`24_part_Lean!/tnr_l1_coefficient_registry_ru.md`](24_part_Lean!/tnr_l1_coefficient_registry_ru.md),
+[`24_part_Lean!/tnr_l1_explicit_tails_ru.md`](24_part_Lean!/tnr_l1_explicit_tails_ru.md).
+
 ### Repository Structure
 
 ```
+24_part_Lean!/
+├── tnr_pure_topology_table_post_en.md     # Public particle-table entry page (EN)
+├── tnr_pure_topology_table_post_ru.md     # Public particle-table entry page (RU)
+├── tnr_particle_formula_law_en.md         # L1 particle formula law (EN)
+├── tnr_particle_formula_law_ru.md         # L1 particle formula law (RU)
+├── tnr_l1_full_unfolding_en.md            # Full L1 unfolding (EN)
+├── tnr_l1_full_unfolding_ru.md            # Full L1 unfolding (RU)
+├── tnr_l1_coefficients_article_ru.md      # L1 coefficient classes article (RU)
+├── tnr_l1_coefficient_registry_ru.md      # L1 coefficient registry (RU)
+├── tnr_l1_explicit_tails_ru.md            # Explicit L1 tails (RU)
+└── TnrFormal/                             # Lean 4 formalization of the particle layer
+
 companion_code/
 ├── formal_proofs/
 │   └── DOT_Sn_Isotopes.lean          # ★ Lean 4 mathematical verification

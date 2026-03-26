@@ -1,0 +1,6 @@
+name = "tnr_formal"
+version = "0.1.0"
+defaultTargets = ["TnrFormal"]
+
+[[lean_lib]]
+name = "TnrFormal"

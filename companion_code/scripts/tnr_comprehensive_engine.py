@@ -15,6 +15,26 @@ Source lineage:
   L1: companion_legacy/dot_full_verification.py + tnr_verification_suite.py
   L2: tnr_pure_creator_engine.py (sandbox)
   L3: dot_inter_octahedral_energy_projection.py + tnr_hydrogen_dynamic_v11.py
+
+Important scope boundary:
+  This file is an operational engine, not a full first-principles derivation
+  of the octahedral carrier layer inside executable code. In particular, this
+  script does not explicitly construct K(2,2,2), prove its Laplacian spectrum,
+  derive γ = √6/9 from the metric geometry of the octahedron, or generate the
+  bare carrier numerators C from the lower floor inside Python.
+
+  Those derivations are documented in the theory corpus:
+    - DOT_foundations_and_machine_ru.md:
+        Part I §6; Part II §§8-12 and §15
+    - DOT_mathematical_framework_ru.md:
+        §20.3-§20.8  (octahedral graph and spectral theorem)
+        §21          (metric invariant γ)
+        §26.2-§26.3  (bare mass lever M_bare = C/γ^k · m_e and tail grammar)
+    - DOT_physical_realization_ru.md:
+        §28-§29      (prime-mode alphabet and catalog of realized bases)
+
+  Lean 4 currently formalizes the symbolic L1 assembly layer, but not yet the
+  full octahedral first-principles derivation of these constants.
 """
 import math
 
@@ -226,6 +246,10 @@ def _l1_shift(mode, terms):
         return math.log1p(_l1_sum_terms(terms))
     raise ValueError(mode)
 
+# Bare carrier families are imported here as the current canonical L1 basis.
+# Their full derivation from K(2,2,2), the lower floor, and the packet grammar
+# is documented in the theory corpus cited in the module docstring, but is not
+# executed as a constructive proof inside this Python engine.
 L1_BARE_FAMILIES = {
     "muon_bridge": {"C": 56, "gamma_power": -1, "category": "lepton"},
     "tau_bulk": {"C": 3456, "gamma_power": 0, "category": "lepton"},

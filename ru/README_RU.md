@@ -139,9 +139,50 @@ python3 scripts/tnr_comprehensive_engine.py
 Запущен процесс математической верификации выводов ТНР в интерактивном прувере формальных доказательств **Lean 4**.
 - Файл `formal_proofs/DOT_Sn_Isotopes.lean` предоставляет исполняемое, математически строгое доказательство того, что ядерная формула DOT-SEMF в применении к изотопам олова (Sn) точно воспроизводит массивы дефекта AME2020 через спектр Рамануджана (с ошибкой <0.2%).
 
+### Пакет `L1` для частиц (Lean + публичные входные страницы)
+
+В репозитории также выделен отдельный пакет для слоя частиц:
+- [`../24_part_Lean!/tnr_pure_topology_table_post_ru.md`](../24_part_Lean!/tnr_pure_topology_table_post_ru.md)
+
+В этой папке собран текущий слой `L1` в одном месте:
+- короткая публичная входная страница к таблице частиц;
+- компактная формулировка закона полотна формул частиц;
+- полная развёртка `L1` для текущего набора частиц;
+- файлы Lean 4, которые формализуют тот же слой.
+
+Если идти в слой частиц напрямую, удобный порядок чтения такой:
+- [`../24_part_Lean!/tnr_pure_topology_table_post_ru.md`](../24_part_Lean!/tnr_pure_topology_table_post_ru.md)
+- [`../24_part_Lean!/tnr_particle_formula_law_ru.md`](../24_part_Lean!/tnr_particle_formula_law_ru.md)
+- [`../24_part_Lean!/tnr_l1_full_unfolding_ru.md`](../24_part_Lean!/tnr_l1_full_unfolding_ru.md)
+- [`../24_part_Lean!/TnrFormal.lean`](../24_part_Lean!/TnrFormal.lean)
+
+Есть и отдельная линия чтения про коэффициенты и хвосты `L1`. В текущем
+слое частиц формулы устроены не только как голые числители над `γ^k`, а как
+`B`, `B · exp(δ₀ + Ω)` или `B · exp(δ₀ + Ω) · T`. Это означает, что
+коэффициентный слой имеет собственную архитектуру: жёсткий алфавит баз,
+grammar внутренних сдвигов и более узкий frontier редких хвостовых и
+closure-коэффициентов. Главный текст об этом:
+- [`../24_part_Lean!/tnr_l1_coefficients_article_ru.md`](../24_part_Lean!/tnr_l1_coefficients_article_ru.md)
+
+Сопровождающие документы:
+- [`../24_part_Lean!/tnr_l1_coefficient_registry_ru.md`](../24_part_Lean!/tnr_l1_coefficient_registry_ru.md)
+- [`../24_part_Lean!/tnr_l1_explicit_tails_ru.md`](../24_part_Lean!/tnr_l1_explicit_tails_ru.md)
+
 ### Структура репозитория
 
 ```
+24_part_Lean!/
+├── tnr_pure_topology_table_post_ru.md     # Публичная входная страница (RU)
+├── tnr_pure_topology_table_post_en.md     # Публичная входная страница (EN)
+├── tnr_particle_formula_law_ru.md         # Закон полотна формул частиц (RU)
+├── tnr_particle_formula_law_en.md         # Закон полотна формул частиц (EN)
+├── tnr_l1_full_unfolding_ru.md            # Полная развёртка L1 (RU)
+├── tnr_l1_full_unfolding_en.md            # Полная развёртка L1 (EN)
+├── tnr_l1_coefficients_article_ru.md      # Статья о коэффициентах L1 (RU)
+├── tnr_l1_coefficient_registry_ru.md      # Реестр коэффициентов L1 (RU)
+├── tnr_l1_explicit_tails_ru.md            # Явные хвосты L1 (RU)
+└── TnrFormal/                             # Lean 4 формализация слоя частиц
+
 companion_code/
 ├── formal_proofs/
 │   └── DOT_Sn_Isotopes.lean          # ★ Математическое доказательство на Lean 4
