@@ -3,7 +3,7 @@
 **Игорь Жук**  
 *Краснодар, Россия*  
 
-> **DOI:** [10.5281/zenodo.19210790](https://doi.org/10.5281/zenodo.19210790)  
+> **DOI:** [10.5281/zenodo.19236868](https://doi.org/10.5281/zenodo.19236868)  
 > **Лицензия:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
 
 
