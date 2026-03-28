@@ -470,6 +470,8 @@ constants that currently function as machine invariants in the corpus:
 This project is being developed as **independent open research** without
 institutional funding.
 
+One of our serious upcoming goals is to write a book: **"How to prompt AGI for Dummies"**. Your support makes this and future dedicated work possible.
+
 Donations are voluntary.
 
 | Currency | Network | Address |
