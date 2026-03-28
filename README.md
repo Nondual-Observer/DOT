@@ -470,8 +470,6 @@ constants that currently function as machine invariants in the corpus:
 This project is being developed as **independent open research** without
 institutional funding.
 
-One of our serious upcoming goals is to write a book: **"How to prompt AGI for Dummies"**. Your support makes this and future dedicated work possible.
-
 Donations are voluntary.
 
 | Currency | Network | Address |
@@ -479,6 +477,7 @@ Donations are voluntary.
 | Bitcoin | BTC | `bc1qlaxsrum7fxpml57nsrtkjfkkxl5v3xtj4d0uxe` |
 | USDT | TRC20 | `TM8U2EqVaT3tjvG6NyuKTqY4F5qc2A69Sy` |
 | Ethereum | ETH | `0x4fFc68f0d55d19Fa5EBd5f6570a41E100aFe4a98` |
+ * for the book: **"How to prompt AGI for Dummies"**.
 
 ## License
 

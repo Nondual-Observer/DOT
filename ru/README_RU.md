@@ -474,8 +474,6 @@ lean --run formal_proofs/DOT_Sn_Isotopes.lean
 Этот проект развивается как **независимое открытое исследование** без
 институционального финансирования.
 
-Одна из целей (на полном серьёзе) — выделить время и написать книгу: **«Как промптить AGI для чайников»**. Ваша поддержка делает такую работу возможной.
-
 Пожертвования добровольны.
 
 | Currency | Network | Address |
@@ -483,6 +481,7 @@ lean --run formal_proofs/DOT_Sn_Isotopes.lean
 | Bitcoin | BTC | `bc1qlaxsrum7fxpml57nsrtkjfkkxl5v3xtj4d0uxe` |
 | USDT | TRC20 | `TM8U2EqVaT3tjvG6NyuKTqY4F5qc2A69Sy` |
 | Ethereum | ETH | `0x4fFc68f0d55d19Fa5EBd5f6570a41E100aFe4a98` |
+ * на книгу: **«Как промптить AGI для чайников»**. 
 
 ## Лицензии
 
