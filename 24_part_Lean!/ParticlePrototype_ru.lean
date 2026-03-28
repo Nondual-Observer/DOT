@@ -4,7 +4,6 @@ import TnrFormal.L1Reference
 
 open TnrFormal
 
--- Repository: https://github.com/Nondual-Observer/DOT
 
 /-- URL репозитория для заголовка отчёта. -/
 def repoUrlRu : String :=
@@ -127,3 +126,5 @@ def main : IO Unit := do
     IO.println (particleReportStringRu p)
     IO.println ""
   IO.println "--- Конец русской таблицы DOTheory ---"
+
+-- Repository: https://github.com/Nondual-Observer/DOT

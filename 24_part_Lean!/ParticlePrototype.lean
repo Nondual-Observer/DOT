@@ -4,47 +4,6 @@ import TnrFormal.L1Reference
 
 open TnrFormal
 
-/-!
-# DOTheory Lean entry file: L1 bare formulas vs current particle data
-
-Repository:
-- https://github.com/Nondual-Observer/DOT
-
-If someone opens only one Lean file in this repository, this should be the
-entry point.
-
-What this file shows, in one place:
-- the bare carrier formula used for each canonical `L1` particle;
-- the current bare numerical mass coming directly from that carrier;
-- the current final `L1` mass after the imported correction / tail layer;
-- the current reference mass and uncertainty used by the package;
-- the current percentage error of the bare layer and the final layer.
-
-What is actually formalized here:
-- the symbolic `L1` particle registry;
-- the bare family assignment of each particle;
-- the bare carrier packet `(C, gamma-power)` for each family.
-
-What is *not* yet derived from first principles inside this single Lean file:
-- the full numerical correction / tail layer;
-- the derivation of all packet numerators from an explicit graph construction;
-- the current experimental reference table itself.
-
-So the reading is deliberately honest:
-- `bare mass` = what the Lean-visible bare carrier gives on its own;
-- `final L1`   = what the current package gives after the imported correction layer;
-- `reference`  = the current external target used by the package.
-
-This is useful for a skeptical reader because it separates three different
-things that often get mixed together:
-- the symbolic carrier law;
-- the raw numerical output of that carrier;
-- the final fitted/closed package value.
-
-Run:
-- `lake build particle_prototype`
-- `lake env lean --run ParticlePrototype.lean`
--/
 
 /-- Repository URL shown in the demo header. -/
 def repoUrl : String :=
@@ -124,3 +83,45 @@ def main : IO Unit := do
     IO.println (particleReportString p)
     IO.println ""
   IO.println "--- End of DOTheory L1 reference table ---"
+
+/-!
+# DOTheory Lean entry file: L1 bare formulas vs current particle data
+
+Repository:
+- https://github.com/Nondual-Observer/DOT
+
+If someone opens only one Lean file in this repository, this should be the
+entry point.
+
+What this file shows, in one place:
+- the bare carrier formula used for each canonical `L1` particle;
+- the current bare numerical mass coming directly from that carrier;
+- the current final `L1` mass after the imported correction / tail layer;
+- the current reference mass and uncertainty used by the package;
+- the current percentage error of the bare layer and the final layer.
+
+What is actually formalized here:
+- the symbolic `L1` particle registry;
+- the bare family assignment of each particle;
+- the bare carrier packet `(C, gamma-power)` for each family.
+
+What is *not* yet derived from first principles inside this single Lean file:
+- the full numerical correction / tail layer;
+- the derivation of all packet numerators from an explicit graph construction;
+- the current experimental reference table itself.
+
+So the reading is deliberately honest:
+- `bare mass` = what the Lean-visible bare carrier gives on its own;
+- `final L1`   = what the current package gives after the imported correction layer;
+- `reference`  = the current external target used by the package.
+
+This is useful for a skeptical reader because it separates three different
+things that often get mixed together:
+- the symbolic carrier law;
+- the raw numerical output of that carrier;
+- the final fitted/closed package value.
+
+Run:
+- `lake build particle_prototype`
+- `lake env lean --run ParticlePrototype.lean`
+-/
