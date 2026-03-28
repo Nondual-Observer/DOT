@@ -1,8 +1,8 @@
-# Теория Наблюдаемых Различий (ТНР)
+# Теория Наблюдаемых Различий (ТНР / DOT)
 
 > **Языки:** [English](../README.md) | [Русский](README_RU.md)
 
-[![DOI](https://zenodo.org/badge/1188736747.svg)](https://doi.org/10.5281/zenodo.19236868)
+[![DOI](https://zenodo.org/badge/1188736747.svg)](https://doi.org/10.5281/zenodo.19272459)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Theory-CC%20BY--NC--SA%204.0-blue.svg)](../LICENSE-THEORY.md)
 [![License: Apache-2.0](https://img.shields.io/badge/Code-Apache--2.0-yellow.svg)](../LICENSE)
 
@@ -15,19 +15,46 @@
 
 ---
 
-## Что содержит этот репозиторий
+## Что это за репозиторий
 
-Этот репозиторий содержит не просто численный companion-код, а **собранный пакет ТНР** в трёх формах:
+Это репозиторий ТНР как **собранной системы**, а не как набора разрозненных
+текстов или скриптов.
 
-- **теоретический корпус** — тексты, в которых фиксируется базовая архитектура машины;
-- **reference engine** — исполняемая generative-цепь, связывающая константы, частицы, ядра и молекулярные проекции;
-- **верификационный слой** — воспроизводимые проверки и численные аудиты, подтверждающие, что одна и та же grammar работает на разных этажах машины.
+Здесь есть три связанных слоя:
 
-Иными словами, этот репозиторий нужен не только для чтения теории и не только для запуска расчётов. Он показывает, как один и тот же structural каркас может быть записан как онтология, как вычислительная архитектура и как исполняемый код.
+- **теория** — русский и английский корпус текстов;
+- **машина** — архитектурная карта того, как теория устроена как рабочая
+  структура;
+- **код** — companion-layer, который проводит тот же каркас через константы,
+  частицы, ядра, молекулярные и химические readout-ы.
 
-## Что такое ТНР
+Идея репозитория простая: показать, что один и тот же structural каркас можно
+читать как теорию, как архитектуру машины и как воспроизводимый код.
 
-**Теория Наблюдаемых Различий (ТНР)** описывает машину, в которой первичны не объекты, а **различения, границы и акты замыкания**. Объект в этой картине не является исходной сущностью; он появляется позднее как стабилизированный readout работы более глубокого механизма. Поэтому ТНР начинается не с готовых “частиц” или “тел”, а с нижней grammar различения: запрета, identity, полярности, границы, перехода и замыкания.
+## Что такое ТНР простыми словами
+
+**Теория Наблюдаемых Различий** начинается не с готовых объектов, а с более
+раннего вопроса: *что вообще делает различение возможным*.
+
+В обычном языке мы говорим так, будто сначала существует вещь, а потом мы её
+видим, измеряем и описываем. ТНР предлагает другой порядок. Сначала должны
+появиться:
+
+- граница;
+- запрет совпадения;
+- полярность;
+- переход;
+- замыкание;
+- и только потом объект как устойчивый readout.
+
+Поэтому ТНР — это не просто “ещё одна физическая модель”. Это попытка описать
+каркас, в котором:
+
+- структура;
+- действие;
+- наблюдение
+
+не сводятся друг к другу.
 
 В текущем каноническом виде нижний слой машины читается как лестница:
 
@@ -35,312 +62,431 @@
 0 -> 1 -> 2 -> 6 -> 12 -> 8
 ```
 
-Это означает:
+где:
+
 - `0` — vacuum fixed-point;
 - `1` — unary identity;
 - `2` — первая полярность;
-- `6` — полная триадная граница;
+- `6` — триадная граница;
 - `12` — переходная рёберная сеть;
 - `8` — первое замыкание.
 
-На этом же уровне уже разведены типы действия:
-- `+` строит horizon;
-- `-` читает gap и deficit;
-- `*` собирает структуру;
-- `/` осуществляет ориентированный readout;
-- `^` даёт closure и amplification.
+Это не “магические числа”, а опорные узлы нижней grammar машины.
 
-Из этого следует базовый тезис ТНР: **структура, действие и наблюдение не сводятся друг к другу**. Структура удерживает симметрию. Действие по определению несимметрично, потому что разграничивает, ориентирует, нормирует и оставляет остаток. Наблюдение удерживает различение как инвариант и потому не является просто ещё одним действием. Это разведение и образует базовый operational block машины:
+## Кодовая часть
 
-```text
-carrier + act + readout
-```
+В этом репозитории теория не висит отдельно от кода. Здесь есть полноценный
+вычислительный слой, который показывает, что ТНР работает не только как язык
+описания, но и как **генеративная схема расчёта**.
 
-Следующий устойчивый слой возникает на октаэдре `K(2,2,2)`, который в ТНР играет роль **локального carrier-а состояния**. Октаэдр не является “первым объектом всего мира”, но он является первой сильной архитектурой, на которой различение, поток, адресация и readout собираются в воспроизводимую машину. Отсюда появляются visible/shadow grammar, shell-слой и higher horizons.
+Здесь есть две разные рабочие формы:
 
-## Универсальность ТНР
+- **Python companion-code** — основной численный движок;
+- **Lean 4** — слой формальной проверки отдельных выводов.
 
-ТНР претендует не на частную физическую модель, а на более общий каркас различения, который может быть прочитан сразу в нескольких регистрах.
+### Python companion-code
 
-На нижнем уровне он проявляется как строгая arithmetic grammar: запрет, identity, полярность, граница, переход, замыкание. На следующем уровне тот же каркас читается как топология carrier-а: seams, циклы, оси, оболочки, visible и shadow-компоненты. Ещё выше он становится operational machine: давление незамкнутых хвостов порождает act, act оставляет trace и remainder, readout фиксирует новое состояние. Наконец, в reference engine тот же каркас уже реализован как generative chain для констант, частиц, ядер и молекулярных проекций.
+Основной код лежит в:
 
-Именно это и составляет универсальность ТНР: одна и та же grammar сохраняется при переходе от математики к архитектуре машины и далее к физически читаемому слою.
+- [`../companion_code/`](../companion_code/)
 
-Из этой универсальности следуют несколько принципиальных выводов:
-- объект вторичен по отношению к различению и границе;
-- действие несимметрично по определению;
-- наблюдение удерживает различение и не сводится к действию;
-- visible и shadow собираются как один packet;
-- higher horizons выводятся из lower-floor grammar, а не вводятся извне.
-
-## Что уже реализовано
-
-На текущем этапе в репозитории уже реализован не только набор локальных формул, а целая reference-цепь машины.
-
-1. **Structural layer**
-   - собран lower floor;
-   - разведены `structure / act / observation`;
-   - собраны visible/shadow packet-и;
-   - заморожен canonical structural dictionary.
-
-2. **Reference engine**
-   - реализована generative-цепь `L0 -> L1 -> L2 -> L3`, плюс `L4` как слой фундаментальных readouts;
-   - геометрические константы переходят в particle layer, затем в nuclear layer и далее в molecular projections.
-
-3. **Verification layer**
-   - есть воспроизводимые structural audits;
-   - есть численные проверки particle, nuclear и chemistry-слоя;
-   - есть machine-readable package для canonical nodes и frontier bands.
-
-4. **Publication layer**
-   - теория представлена как связный корпус текстов;
-   - архитектура машины собрана отдельно от открытого frontier;
-   - код и теория уже можно читать как один связанный пакет.
-
-Это важная граница. ТНР в этом репозитории — уже не просто гипотеза и не просто набор вычислительных совпадений. Это собранная архитектура машины различения с reference realization и проверяемым численным слоем.
-
-## Что делает код
-
-Кодовая часть репозитория нужна для трёх задач:
-
-- воспроизводить численные следствия теории;
-- показывать, что одна и та же grammar реально исполняется как generative chain;
-- связывать теоретический корпус с конкретными вычислимыми объектами.
-
-Практически это означает, что reference engine и связанные модули:
-- вычисляют фундаментальные readouts и константы;
-- собирают массы частиц и их tail-слой;
-- строят ядерный слой;
-- вычисляют молекулярные проекции и энергии связи;
-- позволяют проверять, как структурная grammar переходит в исполняемую физическую схему.
-
-## Быстрый запуск
+Главный движок:
 
 ```bash
 cd ../companion_code
-pip install -r requirements.txt    # только numpy
-
-# Запустить полную 4-уровневую generative chain:
 python3 scripts/tnr_comprehensive_engine.py
 ```
 
-### Что вычисляет движок
+Это не black-box fit и не нейросеть, подогнанная под таблицу данных. Принцип
+другой: один и тот же набор топологических и геометрических инвариантов
+проходит через несколько этажей и даёт численные readout-ы разных физических
+слоёв.
 
-| Уровень | Что вычисляет | Ключевая метрика |
-|:--------|:--------------|:-----------------|
-| **L0** | Геометрические константы: γ = √6/9, точная α, Ридберг | Ошибка α⁻¹: **0.0000068σ** |
-| **L1** | 24 массы частиц из топологических адресов + носители Рамануджана | Все **< 0.001%** |
-| **L2** | 98 масс ядерных изотопов по DOT-SEMF | Все **< 0.001%** |
-| **L3** | 14 энергий молекулярных связей (H₂, H₂O, CH₄, NH₃, HF…) | Средняя ошибка: **0.32%** |
-| **L4** | Фундаментальные readouts: α⁻¹, sin²θ_W, Koide, α_s(M_Z) | **Ноль свободных параметров** |
+В текущем виде движок собирает:
 
-### Формальные доказательства (Lean 4)
+- **L0** — фундаментальные константы и базовые readout-ы;
+- **L1** — массы частиц;
+- **L2** — ядерный слой;
+- **L3** — молекулярные и химические проекции;
+- **L4** — фундаментальные контрольные readout-ы.
 
-Запущен процесс математической верификации выводов ТНР в интерактивном прувере формальных доказательств **Lean 4**.
-- Файл `formal_proofs/DOT_Sn_Isotopes.lean` предоставляет исполняемое, математически строгое доказательство того, что ядерная формула DOT-SEMF в применении к изотопам олова (Sn) точно воспроизводит массивы дефекта AME2020 через спектр Рамануджана (с ошибкой <0.2%).
+Если совсем коротко, то код показывает следующее:
 
-### Пакет `L1` для частиц (Lean + публичные входные страницы)
+- массы частиц вычисляются не как свободный fit, а из фиксированных
+  геометрических баз и носителей;
+- ядерный слой строится через тот же каркас, а не через отдельную “другую”
+  теорию;
+- молекулярный и химический слой читаются как более поздняя проекция той же
+  grammar;
+- одна и та же машина проходит через разные масштабы без смены базового
+  алфавита.
 
-В репозитории также выделен отдельный пакет для слоя частиц:
-- [`../24_part_Lean!/tnr_pure_topology_table_post_ru.md`](../24_part_Lean!/tnr_pure_topology_table_post_ru.md)
+Ключевые текущие результаты:
 
-В этой папке собран текущий слой `L1` в одном месте:
-- короткая публичная входная страница к таблице частиц;
-- компактная формулировка закона полотна формул частиц;
-- полная развёртка `L1` для текущего набора частиц;
-- файлы Lean 4, которые формализуют тот же слой.
+- **L1**: 24 массы частиц с ошибками порядка `< 0.001%`;
+- **L2**: 98 ядерных изотопов с ошибками порядка `< 0.001%`;
+- **L3**: 14 молекулярных энергий связей со средней ошибкой около `0.32%`;
+- **L4**: фундаментальные readout-ы без свободных параметров.
 
-Если идти в слой частиц напрямую, удобный порядок чтения такой:
-- [`../24_part_Lean!/tnr_pure_topology_table_post_ru.md`](../24_part_Lean!/tnr_pure_topology_table_post_ru.md)
-- [`../24_part_Lean!/tnr_particle_formula_law_ru.md`](../24_part_Lean!/tnr_particle_formula_law_ru.md)
-- [`../24_part_Lean!/tnr_l1_full_unfolding_ru.md`](../24_part_Lean!/tnr_l1_full_unfolding_ru.md)
-- [`../24_part_Lean!/TnrFormal.lean`](../24_part_Lean!/TnrFormal.lean)
+То есть кодовый слой здесь нужен не “для иллюстрации”, а для демонстрации того,
+что один структурный закон действительно способен вычислительно проходить через
+константы, частицы, ядра и chemistry-layer.
 
-Есть и отдельная линия чтения про коэффициенты и хвосты `L1`. В текущем
-слое частиц формулы устроены не только как голые числители над `γ^k`, а как
-`B`, `B · exp(δ₀ + Ω)` или `B · exp(δ₀ + Ω) · T`. Это означает, что
-коэффициентный слой имеет собственную архитектуру: жёсткий алфавит баз,
-grammar внутренних сдвигов и более узкий frontier редких хвостовых и
-closure-коэффициентов. Главный текст об этом:
-- [`../24_part_Lean!/tnr_l1_coefficients_article_ru.md`](../24_part_Lean!/tnr_l1_coefficients_article_ru.md)
+Если нужна не только команда запуска, а само описание принципа работы кодового
+слоя, правильный документ здесь:
 
-Сопровождающие документы:
-- [`../24_part_Lean!/tnr_l1_coefficient_registry_ru.md`](../24_part_Lean!/tnr_l1_coefficient_registry_ru.md)
-- [`../24_part_Lean!/tnr_l1_explicit_tails_ru.md`](../24_part_Lean!/tnr_l1_explicit_tails_ru.md)
+- [`../companion_code/README_code.md`](../companion_code/README_code.md)
 
-### Структура репозитория
+### Lean 4
 
-```
-24_part_Lean!/
-├── tnr_pure_topology_table_post_ru.md     # Публичная входная страница (RU)
-├── tnr_pure_topology_table_post_en.md     # Публичная входная страница (EN)
-├── tnr_particle_formula_law_ru.md         # Закон полотна формул частиц (RU)
-├── tnr_particle_formula_law_en.md         # Закон полотна формул частиц (EN)
-├── tnr_l1_full_unfolding_ru.md            # Полная развёртка L1 (RU)
-├── tnr_l1_full_unfolding_en.md            # Полная развёртка L1 (EN)
-├── tnr_l1_coefficients_article_ru.md      # Статья о коэффициентах L1 (RU)
-├── tnr_l1_coefficient_registry_ru.md      # Реестр коэффициентов L1 (RU)
-├── tnr_l1_explicit_tails_ru.md            # Явные хвосты L1 (RU)
-└── TnrFormal/                             # Lean 4 формализация слоя частиц
+Lean-слой не заменяет Python-движок. Он нужен для другой задачи: формально и
+исполняемо проверять отдельные выводы ТНР, когда уже нужно не численное
+совпадение, а строгое пошаговое доказательство.
 
-companion_code/
-├── formal_proofs/
-│   └── DOT_Sn_Isotopes.lean          # ★ Математическое доказательство на Lean 4
-├── scripts/
-│   └── tnr_comprehensive_engine.py   # ★ Единый 4-х уровневый генеративный движок
-├── outputs/                          # Снимки эталонных результатов
-├── requirements.txt                  # numpy>=1.26
-└── README_code.md                    # Архитектура и инструкции запуска
-```
+Если нужен самый быстрый вход именно в particle-layer на Lean, то сейчас есть
+два отдельных entry-point файла:
 
----
+- английский bait/prototype:
+  [`../docs/prefin/24_part_Lean!/ParticlePrototype.lean`](../docs/prefin/24_part_Lean!/ParticlePrototype.lean)
+- локальный русский вариант:
+  [`../docs/prefin/24_part_Lean!/ParticlePrototype_ru.lean`](../docs/prefin/24_part_Lean!/ParticlePrototype_ru.lean)
 
-## Обзор теории
+Они показывают не “всю теорию в Lean”, а одну конкретную вещь, которая для
+внешнего человека считывается сразу:
 
-**Теория Наблюдаемых Различий (ТНР)** описывает не набор изолированных физических формул, а **машину различения**, в которой первичны не объекты, а границы, запреты, полярности, переходы и акты замыкания. Объект в этой картине не является началом теории; он появляется позднее как стабилизированный readout более глубокой structural grammar.
+- bare-формулу частицы;
+- bare-массу;
+- финальное значение текущего пакета `L1`;
+- ошибку относительно текущего reference-набора;
+- и сам reference с uncertainty.
 
-В текущем каноническом виде нижний слой машины читается как лестница
+То есть это минимальный наглядный вход, где уже видно, что:
+
+- система не black box;
+- bare-layer и final-layer разведены;
+- и точность сравнения с текущими данными лежит прямо в выводе.
+
+Ключевые файлы лежат здесь:
+
+- [`../companion_code/formal_proofs/DOT_Sn_Isotopes.lean`](../companion_code/formal_proofs/DOT_Sn_Isotopes.lean)
+- [`../companion_code/formal_proofs/DOT_Particle_Spectrum.lean`](../companion_code/formal_proofs/DOT_Particle_Spectrum.lean)
+
+То есть:
+
+- Python показывает широкий численный проход машины через несколько слоёв;
+- Lean фиксирует, что отдельные узлы этой машины уже можно переводить в строгий
+  proof-режим.
+
+## С чего начинать чтение
+
+Если человек вообще не знаком с ТНР, правильный первый вход только один:
+
+- [`Theory_Core/DOT_foundations_and_machine_ru.md`](Theory_Core/DOT_foundations_and_machine_ru.md)
+
+Это главный стартовый текст. Он даёт:
+
+- базовую логику различения;
+- роль октаэдральной машины;
+- разведение `structure / act / observation`;
+- и общий каркас, без которого поздние документы будут читаться как набор
+  сильных, но висящих в воздухе утверждений.
+
+После него разумный порядок такой:
+
+1. [`Machine/DOT_machine_architecture_overview_ru.md`](Machine/DOT_machine_architecture_overview_ru.md)
+2. [`Theory_Science/DOT_physical_realization_ru.md`](Theory_Science/DOT_physical_realization_ru.md)
+
+То есть:
+
+- сначала foundations;
+- потом карта машины;
+- потом уже физическая реализация.
+
+## Как устроен корпус текстов
+
+Русская ветка делится на три больших раздела:
+
+- `Theory_Core/`
+- `Machine/`
+- `Theory_Science/`
+
+Это полезно понимать заранее, потому что документы внутри них имеют разный
+статус.
+
+### 1. Theory Core
+
+Это нижний и средний теоретический каркас ТНР.
+
+Ключевые тексты:
+
+- [`Theory_Core/DOT_foundations_and_machine_ru.md`](Theory_Core/DOT_foundations_and_machine_ru.md)  
+  главный вход в foundations;
+- [`Theory_Core/DOT_tnr_pure_structural_core_ru.md`](Theory_Core/DOT_tnr_pure_structural_core_ru.md)  
+  более чистое ядро ранней structural logic;
+- [`Theory_Core/DOT_tnr_foundations_architectural_full_ru.md`](Theory_Core/DOT_tnr_foundations_architectural_full_ru.md)  
+  полная архитектурная развёртка;
+- [`Theory_Core/DOT_tnr_foundations_formal_appendix_ru.md`](Theory_Core/DOT_tnr_foundations_formal_appendix_ru.md)  
+  формальный supporting appendix;
+- [`Theory_Core/DOT_liminal_canon_ru.md`](Theory_Core/DOT_liminal_canon_ru.md)  
+  пограничный канон и переходные узлы.
+
+Если нужен только один foundational text, начинать надо с:
+
+- [`Theory_Core/DOT_foundations_and_machine_ru.md`](Theory_Core/DOT_foundations_and_machine_ru.md)
+
+### 2. Machine
+
+Это раздел о том, как теория собирается как машина.
+
+Ключевые тексты:
+
+- [`Machine/DOT_machine_architecture_overview_ru.md`](Machine/DOT_machine_architecture_overview_ru.md)
+- [`Machine/DOT_terminologiya_i_sloevaya_karta_ru.md`](Machine/DOT_terminologiya_i_sloevaya_karta_ru.md)
+- [`Machine/DOT_octahedral_proof_calculus_ru.md`](Machine/DOT_octahedral_proof_calculus_ru.md)
+- [`Machine/DOT_code_availability_ru.md`](Machine/DOT_code_availability_ru.md)
+
+Этот раздел лучше читать уже после основного foundational входа, когда нижняя
+grammar различения уже схвачена.
+
+## Научный раздел
+
+`Theory_Science/` — это не один документ и не один “раздел физики”. Это слой,
+где ТНР начинает проецироваться в математические, физические, химические и
+поздние исследовательские коридоры.
+
+Важно держать в голове простое различие:
+
+- часть этих текстов имеет характер **основных томов**;
+- часть — **сильных companion-документов**;
+- часть — **draft / research corridor**, которые важны, но не должны
+  читаться как уже окончательно закрытый канон.
+
+### Математический и операторный вход
+
+Если нужен вход в number-theory и operator-layer ТНР, идти лучше так:
+
+- [`Theory_Science/DOT_mathematical_framework_ru.md`](Theory_Science/DOT_mathematical_framework_ru.md)
+- [`Theory_Science/DOT_tnr_mathematical_operator_line_ru.md`](Theory_Science/DOT_tnr_mathematical_operator_line_ru.md)
+
+Первый текст даёт большой математический каркас.
+Второй — более компактную линию операторных узлов и переходов.
+
+### Физическая реализация
+
+Основной физический том:
+
+- [`Theory_Science/DOT_physical_realization_ru.md`](Theory_Science/DOT_physical_realization_ru.md)
+
+Это главный science-level text, если интересует, как теоретическая машина
+проецируется в слой частиц, ядер и matter-readouts.
+
+### Поздние companion / research-документы
+
+Эти тексты важны, но они уже не самый первый вход:
+
+- [`Theory_Science/DOT_tnr_multiplicative_additive_resonance_ru.md`](Theory_Science/DOT_tnr_multiplicative_additive_resonance_ru.md)  
+  companion-документ о числовых резонансах, prime-ролях и соотношениях
+  аддитивного и мультипликативного чтения;
+- [`Theory_Science/DOT_tnr_processual_boundary_draft_ru.md`](Theory_Science/DOT_tnr_processual_boundary_draft_ru.md)  
+  draft о processual boundary, closure, tail, `2×2`-логике и гравитационном
+  коридоре.
+
+Их лучше читать только после foundations и основного physical layer.
+
+### Химический подкорпус
+
+Химия в ТНР — это уже отдельный подкорпус внутри scientific layer.
+
+Если идти в него, то порядок лучше такой:
+
+1. [`Theory_Science/DOT_tnr_chemical_realization_canon_ru.md`](Theory_Science/DOT_tnr_chemical_realization_canon_ru.md)
+2. [`Theory_Science/DOT_tnr_chemical_realization_appendix_ru.md`](Theory_Science/DOT_tnr_chemical_realization_appendix_ru.md)
+3. [`Theory_Science/DOT_tnr_chemical_realization_topo_map_118_ru.md`](Theory_Science/DOT_tnr_chemical_realization_topo_map_118_ru.md)
+4. [`Theory_Science/DOT_tnr_chemical_screening_family_audit_ru.md`](Theory_Science/DOT_tnr_chemical_screening_family_audit_ru.md)
+5. [`Theory_Science/DOT_tnr_chemical_realization_canon_stabilization_map_ru.md`](Theory_Science/DOT_tnr_chemical_realization_canon_stabilization_map_ru.md)
+
+Здесь важно: chemical canon уже силён как late-stage synthesis, но appendix и
+audit-слой нужны, чтобы не путать сильное соответствие с полностью закрытым
+строгим выводом.
+
+## Как устроен репозиторий сейчас
+
+Актуальная структура `_Agent/` выглядит так:
 
 ```text
-0 -> 1 -> 2 -> 6 -> 12 -> 8
+_Agent/
+├── README.md
+├── LICENSE
+├── LICENSE-THEORY.md
+├── ru/
+│   ├── README_RU.md
+│   ├── Theory_Core/
+│   ├── Theory_Science/
+│   └── Machine/
+├── en/
+│   ├── Theory_Core/
+│   ├── Theory_Science/
+│   └── Machine/
+├── companion_code/
+│   ├── README.md
+│   ├── README_code.md
+│   ├── requirements.txt
+│   ├── docs/
+│   ├── scripts/
+│   ├── formal_proofs/
+│   ├── notes/
+│   └── outputs/
+└── Code/
+    ├── tnr_comprehensive_engine.py
+    ├── tnr_molecular_engine_v2.py
+    ├── ...
 ```
 
-где `0` задаёт vacuum fixed-point, `1` — unary identity, `2` — первую полярность, `6` — триадную границу, `12` — переходную рёберную сеть, а `8` — первое замыкание. На этом же уровне уже разведены типы действия: сложение строит horizons, вычитание читает дефициты, умножение собирает структуру, деление осуществляет ориентированный readout, а возведение в степень запечатывает и усиливает closure.
+Важно не путать роли:
 
-Из этого следует базовое разведение ТНР: **structure, act и observation не сводятся друг к другу**. Структура удерживает симметрию. Действие несимметрично по определению, потому что режет, ориентирует, нормирует и оставляет остаток. Наблюдение удерживает различение как инвариант и потому не является просто ещё одним действием. Это разведение и образует основной operational block машины:
+- `ru/` — актуальная русская ветка корпуса;
+- `en/` — английская ветка;
+- `companion_code/` — repo-ready кодовый слой;
+- `Code/` — плоский source-snapshot актуальных скриптов.
 
-```text
-carrier + act + readout
+Центром кодовой части считается:
+
+- [`../companion_code/README.md`](../companion_code/README.md)
+
+## Как запускать код
+
+Для базового запуска нужен Python 3 и `numpy`.
+
+Минимальный вход:
+
+```bash
+cd ../companion_code
+pip install -r requirements.txt
+python3 scripts/tnr_comprehensive_engine.py
 ```
 
-Первой сильной carrier-архитектурой, на которой эта grammar становится воспроизводимой машиной, выступает октаэдр `K(2,2,2)`. Он не является «первым объектом всего мира», но является первым устойчивым носителем, на котором различение, адресация, seams и readout собираются в рабочую topology grammar. Отсюда возникают visible/shadow packet-и `24 / 48` и `23 / 47`, shell-corridor `94 / 95 / 96`, higher horizons `120`, `136`, `200`, `252`, `432`, `1728` и их machine-readable structural dictionary.
+Этот запуск собирает несколько уровней сразу:
 
-Универсальность ТНР состоит в том, что один и тот же grammar-слой работает сразу в нескольких регистрах. На нижнем уровне он проявляется как structural arithmetic. На следующем — как topology carrier-а. Ещё выше — как operational machine состояний, traces и closures. В reference engine тот же каркас уже реализован как generative chain для констант, частиц, ядер и молекулярных проекций. Именно поэтому ТНР в этом репозитории представлена не только как теория и не только как код, а как связанный пакет: тексты, canonical package, reference engine и воспроизводимые audits.
+- константы;
+- частицы;
+- ядра;
+- молекулярный слой;
+- диагностические readout-ы.
 
-### Нижняя grammar машины
+Если нужен не полный агрегирующий прогон, а локальные отчёты, useful entry
+points такие:
 
-Нижняя grammar ТНР задаётся не перечнем объектов, а несколькими жёсткими законами.
+```bash
+python3 scripts/tnr_molecular_engine_v2.py
+python3 scripts/tnr_l1_particle_readable_report.py
+python3 scripts/tnr_l3_molecule_readable_report.py
+python3 scripts/tnr_l4_element_readable_report.py
+python3 scripts/tnr_same_shell_screening_extractor.py
+python3 scripts/tnr_l4_same_shell_screening_extractor.py
+python3 scripts/tnr_screening_family_audit.py
+python3 scripts/tnr_l4_screening_family_audit.py
+```
 
-### 1. Запрет самочтения
+Lean для обычного Python-запуска не нужен. Он нужен только для formal proof
+layer.
 
-Машина начинается с ограничения `0/0`. Пока различение ещё не возникло, vacuum не может быть прочитан как отношение к самому себе. Этот запрет порождает всю нижнюю лестницу различения: из него вырастают identity, полярность, граница, переход и замыкание.
+## Что уже сохранено в outputs
 
-### 2. Несимметрия действия
+В `companion_code/outputs/` уже лежат не только агрегирующие отчёты, но и
+отдельные readable artifacts:
 
-В ТНР действия не являются взаимозаменяемыми арифметическими операциями. Они разведены по роли:
+- [`../companion_code/outputs/engine_full_report.txt`](../companion_code/outputs/engine_full_report.txt)
+- [`../companion_code/outputs/readable_reports/l1_particle_readable_report.txt`](../companion_code/outputs/readable_reports/l1_particle_readable_report.txt)
+- [`../companion_code/outputs/readable_reports/l4_element_readable_report.txt`](../companion_code/outputs/readable_reports/l4_element_readable_report.txt)
+- [`../companion_code/outputs/readable_reports/l4_element_example_U92.txt`](../companion_code/outputs/readable_reports/l4_element_example_U92.txt)
+- [`../companion_code/outputs/readable_reports/README.md`](../companion_code/outputs/readable_reports/README.md)
 
-- `+` строит horizon;
-- `-` читает gap и deficit;
-- `*` собирает структуру;
-- `/` осуществляет readout и нормировку;
-- `^` даёт closure и amplification.
+То есть кодовый слой уже даёт не только machine outputs, но и человекочитаемые
+входы в particle и chemical layers.
 
-Поэтому act в ТНР по определению несимметричен. Симметрия принадлежит структуре, а не действию.
+## Формальные доказательства
 
-### 3. Разведение structure / act / observation
+Lean-файлы лежат в:
 
-ТНР жёстко различает носитель, переход и чтение. Структура удерживает симметрию. Act запускает деформацию, маршрутизацию и оставляет следы перехода. Observation удерживает различение как устойчивый инвариант. Из этого следует важный тезис: наблюдение может присутствовать без нового действия, а различение не тождественно переходу.
+- [`../companion_code/formal_proofs/`](../companion_code/formal_proofs/)
 
-### 4. Visible / shadow grammar
+Ключевые файлы:
 
-Когда lower floor собирается в carrier, машина даёт две связанные ветви: visible и complement/shadow. Их базовые packet-и — `24 / 48` и `23 / 47`. Из них строятся shell layers, corridors и higher bands. Видимая ветвь отвечает за assembly и closure. Теневая ветвь отвечает за witness, remainder и complement readout. Эти две ветви не существуют отдельно: machine state читается только через их связку.
+- [`../companion_code/formal_proofs/DOT_Sn_Isotopes.lean`](../companion_code/formal_proofs/DOT_Sn_Isotopes.lean)
+- [`../companion_code/formal_proofs/DOT_Particle_Spectrum.lean`](../companion_code/formal_proofs/DOT_Particle_Spectrum.lean)
 
-### 5. Higher horizons как следствие lower floor
+Минимальный запуск:
 
-Higher nodes машины не вводятся извне. Они собираются из уже найденных lower-floor инвариантов и shell grammar. Это особенно видно на visible assembly:
+```bash
+cd ../companion_code
+lean --run formal_proofs/DOT_Sn_Isotopes.lean
+```
 
-- `120 = 24*5`
-- `136 = 24*6 - 8`
-- `200 = 24*8 + 8`
-- `252 = 24*10 + 12`
-- `432 = 24*18`
+## Основные публикационные тома
 
-То есть higher horizons являются не «магическими числами», а следствиями lower-floor grammar, видимой shell assembly и act-level seams `±8`, `+12`, `+24`.
+Если нужен сжатый publication backbone, то читать удобно так:
 
-### 6. Реализованная generative chain
+| # | Текст | Фокус |
+|:-:|:------|:------|
+| **I** | [Foundations and Machine](Theory_Core/DOT_foundations_and_machine_ru.md) | foundations, octahedral machine, базовый carrier |
+| **II** | [Mathematical Framework](Theory_Science/DOT_mathematical_framework_ru.md) | числа, spectral layer, modular and operator readings |
+| **III** | [Physical Realization](Theory_Science/DOT_physical_realization_ru.md) | частицы, ядра, chemistry-layer, physical readouts |
 
-В коде эта архитектура уже реализована как reference chain:
+Дополнительные опорные тексты:
 
-- `L0` — геометрические и coupling-константы;
-- `L1` — particle layer;
-- `L2` — nuclear layer;
-- `L3` — molecular projections;
-- `L4` — фундаментальные readouts.
+| | Текст | Фокус |
+|:-:|:------|:------|
+| **IV** | [Machine Architecture Overview](Machine/DOT_machine_architecture_overview_ru.md) | полная карта слоёв машины |
+| **V** | [Terminology and Layer Map](Machine/DOT_terminologiya_i_sloevaya_karta_ru.md) | словарь терминов и layer-map |
+| **VI** | [Code Availability Statement](Machine/DOT_code_availability_ru.md) | воспроизводимость и кодовый слой |
+| **VII** | [Formal Verification (Lean 4)](../companion_code/formal_proofs/DOT_Sn_Isotopes.lean) | исполняемая математическая проверка |
 
-Поэтому репозиторий фиксирует не только набор теоретических тезисов. Он показывает, что одна и та же grammar может быть записана как ontology, как structural dictionary и как исполняемый engine.
+## Фундаментальные инварианты
 
----
-## Публикации
+Ниже — не “доказательство всей теории”, а минимальный набор опорных констант,
+которые в текущем корпусе играют роль support constants машины:
 
-Теория представлена в трёх томах, опубликованных на Zenodo:
+| Symbol | Value | Origin |
+|:-------|:------|:-------|
+| `γ = √6/9` | `0.27216553` | anisotropy of the Observer on carrier `K(2,2,2)` |
+| `γ² = 2/27` | `0.07407407` | basic spectral / metric ratio |
+| `α⁻¹` | `137.035999084…` | precision chiral structural law |
+| `sin²θ_W = 2/9` | `0.22222` | lower electroweak readout |
+| `Koide K₄ = 2/3` | `0.66667` | frozen lepton mass readout |
+| `432 = j(i)/4` | `16 × 27` | universal modular pivot |
 
-| # | Название | DOI | Фокус |
-|:-:|:---------|:----|:------|
-| **I** | [Основания и Октаэдральная Машина](DOT_foundations_and_machine_ru.md) | [10.5281/zenodo.19236868](https://doi.org/10.5281/zenodo.19236868) | K(2,2,2), оператор границы ∂²=0, триада D/F/C, 6 статусов, операция ⊙, Наблюдатель |
-| **II** | [Математический аппарат, теория чисел и спектральная геометрия](DOT_mathematical_framework_ru.md) | [10.5281/zenodo.19236868](https://doi.org/10.5281/zenodo.19236868) | τ Рамануджана, спектральная интерпретация ζ(s), операторы Гекке, модулярные носители |
-| **III** | [Физическая реализация и структура материи](DOT_physical_realization_ru.md) | [10.5281/zenodo.19236868](https://doi.org/10.5281/zenodo.19236868) | 26 масс частиц, космологические фракции, молекулярная химия, гравитация как диффузия статусов |
-
-**Дополнительно:**
-| | Название | Фокус |
-|:-:|:---------|:------|
-| **IV** | [Исчисление октаэдральных доказательств](DOT_octahedral_proof_calculus_ru.md) | Фреймворк формальной верификации: аксиомы, леммы и цепочки вывода (DOI: [10.5281/zenodo.19236868](https://doi.org/10.5281/zenodo.19236868)) |
-| **V** | [Заявление о доступности кода](DOT_code_availability_ru.md) | Руководство по воспроизведению численных результатов |
-| **VI** | [Архитектура машины](DOT_machine_architecture_overview_ru.md) | Полная послойная карта архитектуры машины DOT |
-| **VII** | [Терминология и слоевая карта](DOT_terminologiya_i_sloevaya_karta_ru.md) | Справочный словарь терминов и карта структурных слоёв |
-| **VIII** | [Формальная верификация (Lean 4)](../companion_code/formal_proofs/DOT_Sn_Isotopes.lean) | Исполняемое математическое доказательство логики ядерной DOT-SEMF |
-
----
-
-## Фундаментальные константы ТНР
-
-Ниже приведены базовые инварианты и readouts, которые в current codebase и текстах играют роль опорных констант машины. Для README важен не только их численный вид, но и то, что они уже читаются как элементы одной architecture grammar: lower-floor geometry, shell assembly, chiral corrections и modular pivots.
-
-| Символ | Значение | Происхождение |
-|:-------|:---------|:--------------|
-| γ = √6/9 | 0.27216553 | Анизотропия наблюдателя на carrier-слое `K(2,2,2)` |
-| γ² = 2/27 | 0.07407407 | Базовое spectral / metric отношение |
-| α⁻¹ | 137.035999084… | Precision chiral structural law поверх узлов `432`, `47`, `72`, `136`, `252` |
-| sin²θ_W = 2/9 | 0.22222 | Базовый electroweak readout нижнего слоя |
-| Koide K₄ = 2/3 | 0.66667 | Lepton mass ratio как frozen readout |
-| 432 = j(i)/4 | 16 × 27 | Universal modular pivot машины |
-
----
-
-## Цитирование
+## Citation
 
 ```bibtex
 @software{zhuk_2026_dot,
   author    = {Zhuk, Igor M.},
-  title     = {Distinction Observable Theory (DOT): Foundations, 
+  title     = {Distinction Observable Theory (DOT): Foundations,
                Mathematical Framework, and Physical Realization},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.19236868},
+  doi       = {10.5281/zenodo.19272459},
   url       = {https://github.com/nondual-observer/distinction-observable-theory}
 }
 ```
 
----
+## Поддержка исследования
 
-## Поддержка исследований
+Этот проект развивается как **независимое открытое исследование** без
+институционального финансирования.
 
-Этот проект развивается как **независимое открытое исследование** без институционального финансирования.
+Пожертвования добровольны.
 
-**Пожертвования добровольны.**
-
-| Валюта | Сеть | Адрес |
-|:-------|:-----|:------|
+| Currency | Network | Address |
+|----------|---------|---------|
 | Bitcoin | BTC | `bc1qlaxsrum7fxpml57nsrtkjfkkxl5v3xtj4d0uxe` |
 | USDT | TRC20 | `TM8U2EqVaT3tjvG6NyuKTqY4F5qc2A69Sy` |
 | Ethereum | ETH | `0x4fFc68f0d55d19Fa5EBd5f6570a41E100aFe4a98` |
 
----
+## Лицензии
 
-## Лицензия
-
-**Код:** [Apache License 2.0](../LICENSE) — Открытая лицензия на программный код с явными патентными условиями.  
-**Теория и документация:** [CC BY-NC-SA 4.0](../LICENSE-THEORY.md) — Некоммерческое использование с указанием авторства и сохранением условий.
+**Code:** [Apache License 2.0](../LICENSE)  
+**Theory & Documentation:** [CC BY-NC-SA 4.0](../LICENSE-THEORY.md)
 
 ---
 
-*© 2026 Игорь М. Жук. Все права защищены в соответствии с указанными лицензиями.*
+*© 2026 Igor M. Zhuk. All rights reserved under the respective licenses.*
