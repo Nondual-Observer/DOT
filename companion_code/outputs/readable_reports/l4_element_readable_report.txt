@@ -1,0 +1,124 @@
+================================================================================================================================================================================
+  TNR L4 ELEMENT READABLE REPORT
+  Columns: registry fraction, node meaning, IE prediction, and family-level screening context
+================================================================================================================================================================================
+  Z    El  Sub  Pos    N/D      Node                       IE_DOT     IE_exp     Err%  Fam closure              Nearest                 Status
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1    H   1s   1/2    3/1      Triad (γ-base)            13.5984    13.5980   0.003%     0.655337                  2/3    representative lock
+  2    He  1s   2/2    38/7     Closed Shell              24.6067    24.5870   0.080%     0.655337                  2/3    representative lock
+  3    Li  2s   1/2    38/32    Closed Shell               5.3827     5.3920   0.172%     0.603379                  2/3     period-depth drift
+  4    Be  2s   2/2    55/27    Deep Boundary              9.2335     9.3230   0.960%     0.603379                  2/3     period-depth drift
+  5    B   2p   1/6    11/6     Boron Bridge               8.3102     8.2980   0.147%     0.808744                  2/3     period-depth drift
+  6    C   2p   2/6    67/27    Li-carrier (67/56)        11.2481    11.2600   0.106%     0.808744                  2/3     period-depth drift
+  7    N   2p   3/6    16/5     Nitrogen Core             14.5050    14.5340   0.200%     0.808744                  2/3     period-depth drift
+  8    O   2p   4/6    3/1      Triad (γ-base)            13.5984    13.6180   0.144%     0.808744                  2/3     period-depth drift
+  9    F   2p   5/6    23/6     Halogen Edge              17.3758    17.4220   0.265%     0.808744                  2/3     period-depth drift
+  10   Ne  2p   6/6    38/8     Closed Shell              21.5309    21.5650   0.158%     0.808744                  2/3     period-depth drift
+  11   Na  3s   1/2    67/59    Li-carrier (67/56)         5.1474     5.1390   0.164%     0.594693                  2/3     period-depth drift
+  12   Mg  3s   2/2    67/40    Li-carrier (67/56)         7.5925     7.6460   0.700%     0.594693                  2/3     period-depth drift
+  13   Al  3p   1/6    67/51    Li-carrier (67/56)         5.9549     5.9860   0.520%     0.752155                  2/3     period-depth drift
+  14   Si  3p   2/6    9/5      Oxygen Bridge              8.1591     8.1520   0.087%     0.752155                  2/3     period-depth drift
+  15   P   3p   3/6    67/29    Li-carrier (67/56)        10.4724    10.4870   0.140%     0.752155                  2/3     period-depth drift
+  16   S   3p   4/6    16/7     Nitrogen Core             10.3607    10.3600   0.007%     0.752155                  2/3     period-depth drift
+  17   Cl  3p   5/6    23/8     Halogen Edge              13.0318    12.9680   0.492%     0.752155                  2/3     period-depth drift
+  18   Ar  3p   6/6    38/11    Closed Shell              15.6588    15.7600   0.642%     0.752155                  2/3     period-depth drift
+  19   K   4s   1/2    67/70    Li-carrier (67/56)         4.3385     4.3410   0.056%     0.578109                  2/3     period-depth drift
+  20   Ca  4s   2/2    23/17    Halogen Edge               6.1326     6.1130   0.321%     0.578109                  2/3     period-depth drift
+  21   Sc  3d   1/10   55/38    Deep Boundary              6.5607     6.5620   0.021%     0.954503       26/27 = 1-γ²/2    representative lock
+  22   Ti  3d   2/10   3/2      Triad (γ-base)             6.7992     6.8280   0.421%     0.954503       26/27 = 1-γ²/2    representative lock
+  23   V   3d   3/10   67/45    Li-carrier (67/56)         6.7489     6.7460   0.042%     0.954503       26/27 = 1-γ²/2    representative lock
+  24   Cr  3d   4/10   67/45    Li-carrier (67/56)         6.7489     6.7670   0.268%     0.954503       26/27 = 1-γ²/2    representative lock
+  25   Mn  3d   5/10   23/14    Halogen Edge               7.4468     7.4340   0.172%     0.954503       26/27 = 1-γ²/2    representative lock
+  26   Fe  3d   6/10   38/22    Closed Shell               7.8294     7.9020   0.919%     0.954503       26/27 = 1-γ²/2    representative lock
+  27   Co  3d   7/10   38/22    Closed Shell               7.8294     7.8810   0.655%     0.954503       26/27 = 1-γ²/2    representative lock
+  28   Ni  3d   8/10   67/40    Li-carrier (67/56)         7.5925     7.6400   0.622%     0.954503       26/27 = 1-γ²/2    representative lock
+  29   Cu  3d   9/10   67/39    Li-carrier (67/56)         7.7871     7.7260   0.791%     0.954503       26/27 = 1-γ²/2    representative lock
+  30   Zn  3d   10/10  23/11    Halogen Edge               9.4777     9.3940   0.891%     0.954503       26/27 = 1-γ²/2    representative lock
+  31   Ga  4p   1/6    67/51    Li-carrier (67/56)         5.9549     5.9990   0.736%     0.719629                  2/3     period-depth drift
+  32   Ge  4p   2/6    38/22    Closed Shell               7.8294     7.8990   0.881%     0.719629                  2/3     period-depth drift
+  33   As  4p   3/6    67/31    Li-carrier (67/56)         9.7967     9.7890   0.079%     0.719629                  2/3     period-depth drift
+  34   Se  4p   4/6    15/7     Carbon Dual                9.7132     9.7520   0.398%     0.719629                  2/3     period-depth drift
+  35   Br  4p   5/6    13/5     Lithium Edge              11.7853    11.8140   0.243%     0.719629                  2/3     period-depth drift
+  36   Kr  4p   6/6    55/18    Deep Boundary             13.8503    14.0000   1.070%     0.719629                  2/3     period-depth drift
+  37   Rb  5s   1/2    23/25    Halogen Edge               4.1702     4.1770   0.163%     0.535405                  2/3     period-depth drift
+  38   Sr  5s   2/2    15/12    Carbon Dual                5.6660     5.6950   0.509%     0.535405                  2/3     period-depth drift
+  39   Y   4d   1/10   11/8     Boron Bridge               6.2326     6.2170   0.251%     0.939062       26/27 = 1-γ²/2     period-depth drift
+  40   Zr  4d   2/10   38/26    Closed Shell               6.6249     6.6340   0.137%     0.939062       26/27 = 1-γ²/2     period-depth drift
+  41   Nb  4d   3/10   67/45    Li-carrier (67/56)         6.7489     6.7590   0.150%     0.939062       26/27 = 1-γ²/2     period-depth drift
+  42   Mo  4d   4/10   67/43    Li-carrier (67/56)         7.0628     7.0920   0.412%     0.939062       26/27 = 1-γ²/2     period-depth drift
+  43   Tc  4d   5/10   16/10    Nitrogen Core              7.2525     7.2800   0.378%     0.939062       26/27 = 1-γ²/2     period-depth drift
+  44   Ru  4d   6/10   13/8     Lithium Edge               7.3658     7.3610   0.066%     0.939062       26/27 = 1-γ²/2     period-depth drift
+  45   Rh  4d   7/10   23/14    Halogen Edge               7.4468     7.4590   0.164%     0.939062       26/27 = 1-γ²/2     period-depth drift
+  46   Pd  4d   8/10   11/6     Boron Bridge               8.3102     8.3370   0.322%     0.939062       26/27 = 1-γ²/2     period-depth drift
+  47   Ag  4d   9/10   67/40    Li-carrier (67/56)         7.5925     7.5760   0.217%     0.939062       26/27 = 1-γ²/2     period-depth drift
+  48   Cd  4d   10/10  67/34    Li-carrier (67/56)         8.9323     8.9940   0.686%     0.939062       26/27 = 1-γ²/2     period-depth drift
+  49   In  5p   1/6    23/18    Halogen Edge               5.7919     5.7860   0.102%     0.707831                  2/3     period-depth drift
+  50   Sn  5p   2/6    55/34    Deep Boundary              7.3325     7.3440   0.157%     0.707831                  2/3     period-depth drift
+  51   Sb  5p   3/6    38/20    Closed Shell               8.6123     8.6080   0.050%     0.707831                  2/3     period-depth drift
+  52   Te  5p   4/6    16/8     Nitrogen Core              9.0656     9.0100   0.617%     0.707831                  2/3     period-depth drift
+  53   I   5p   5/6    67/29    Li-carrier (67/56)        10.4724    10.4510   0.204%     0.707831                  2/3     period-depth drift
+  54   Xe  5p   6/6    67/25    Li-carrier (67/56)        12.1479    12.1300   0.148%     0.707831                  2/3     period-depth drift
+  55   Cs  6s   1/2    67/78    Li-carrier (67/56)         3.8936     3.8940   0.011%     0.496164                  2/3     period-depth drift
+  56   Ba  6s   2/2    23/20    Halogen Edge               5.2127     5.2120   0.014%     0.496164                  2/3     period-depth drift
+  57   La  4f   1/14   16/13    Nitrogen Core              5.5788     5.5770   0.033%     0.988382       80/81 = 1-γ²/3    representative lock
+  58   Ce  4f   2/14   11/9     Boron Bridge               5.5401     5.5390   0.020%     0.988382       80/81 = 1-γ²/3    representative lock
+  59   Pr  4f   3/14   23/19    Halogen Edge               5.4871     5.4730   0.257%     0.988382       80/81 = 1-γ²/3    representative lock
+  60   Nd  4f   4/14   67/55    Li-carrier (67/56)         5.5218     5.5250   0.058%     0.988382       80/81 = 1-γ²/3    representative lock
+  61   Pm  4f   5/14   16/13    Nitrogen Core              5.5788     5.5820   0.056%     0.988382       80/81 = 1-γ²/3    representative lock
+  62   Sm  4f   6/14   67/54    Li-carrier (67/56)         5.6240     5.6440   0.354%     0.988382       80/81 = 1-γ²/3    representative lock
+  63   Eu  4f   7/14   15/12    Carbon Dual                5.6660     5.6700   0.070%     0.988382       80/81 = 1-γ²/3    representative lock
+  64   Gd  4f   8/14   38/28    Closed Shell               6.1517     6.1500   0.027%     0.988382       80/81 = 1-γ²/3    representative lock
+  65   Tb  4f   9/14   67/52    Li-carrier (67/56)         5.8404     5.8640   0.403%     0.988382       80/81 = 1-γ²/3    representative lock
+  66   Dy  4f   10/14  38/29    Closed Shell               5.9395     5.9390   0.009%     0.988382       80/81 = 1-γ²/3    representative lock
+  67   Ho  4f   11/14  16/12    Nitrogen Core              6.0438     6.0220   0.361%     0.988382       80/81 = 1-γ²/3    representative lock
+  68   Er  4f   12/14  23/17    Halogen Edge               6.1326     6.1080   0.403%     0.988382       80/81 = 1-γ²/3    representative lock
+  69   Tm  4f   13/14  15/11    Carbon Dual                6.1811     6.1840   0.047%     0.988382       80/81 = 1-γ²/3    representative lock
+  70   Yb  4f   14/14  11/8     Boron Bridge               6.2326     6.2540   0.342%     0.988382       80/81 = 1-γ²/3    representative lock
+  71   Lu  5d   1/10   67/56    Li-carrier (67/56)         5.4232     5.4260   0.052%     0.864221       26/27 = 1-γ²/2     period-depth drift
+  72   Hf  5d   2/10   3/2      Triad (γ-base)             6.7992     6.8250   0.378%     0.864221       26/27 = 1-γ²/2     period-depth drift
+  73   Ta  5d   3/10   15/9     Carbon Dual                7.5547     7.5500   0.062%     0.864221       26/27 = 1-γ²/2     period-depth drift
+  74   W   5d   4/10   38/22    Closed Shell               7.8294     7.8640   0.440%     0.864221       26/27 = 1-γ²/2     period-depth drift
+  75   Re  5d   5/10   38/22    Closed Shell               7.8294     7.8330   0.046%     0.864221       26/27 = 1-γ²/2     period-depth drift
+  76   Os  5d   6/10   67/36    Li-carrier (67/56)         8.4361     8.4380   0.023%     0.864221       26/27 = 1-γ²/2     period-depth drift
+  77   Ir  5d   7/10   67/34    Li-carrier (67/56)         8.9323     8.9670   0.387%     0.864221       26/27 = 1-γ²/2     period-depth drift
+  78   Pt  5d   8/10   67/34    Li-carrier (67/56)         8.9323     8.9590   0.298%     0.864221       26/27 = 1-γ²/2     period-depth drift
+  79   Au  5d   9/10   55/27    Deep Boundary              9.2335     9.2260   0.081%     0.864221       26/27 = 1-γ²/2     period-depth drift
+  80   Hg  5d   10/10  23/10    Halogen Edge              10.4255    10.4370   0.110%     0.864221       26/27 = 1-γ²/2     period-depth drift
+  81   Tl  6p   1/6    23/17    Halogen Edge               6.1326     6.1080   0.403%     0.737348                  2/3     period-depth drift
+  82   Pb  6p   2/6    67/41    Li-carrier (67/56)         7.4073     7.4170   0.131%     0.737348                  2/3     period-depth drift
+  83   Bi  6p   3/6    16/10    Nitrogen Core              7.2525     7.2860   0.460%     0.737348                  2/3     period-depth drift
+  84   Po  6p   4/6    13/7     Lithium Edge               8.4181     8.4140   0.049%     0.737348                  2/3     period-depth drift
+  85   At  6p   5/6    55/27    Deep Boundary              9.2335     9.3180   0.907%     0.737348                  2/3     period-depth drift
+  86   Rn  6p   6/6    38/16    Closed Shell              10.7654    10.7490   0.153%     0.737348                  2/3     period-depth drift
+  87   Fr  7s   1/2    9/10     Oxygen Bridge              4.0795     4.0730   0.160%     0.469966                  2/3     period-depth drift
+  88   Ra  7s   2/2    55/47    Deep Boundary              5.3044     5.2780   0.499%     0.469966                  2/3     period-depth drift
+  89   Ac  5f   1/14   16/14    Nitrogen Core              5.1804     5.1700   0.200%     0.968189       26/27 = 1-γ²/2    representative lock
+  90   Th  5f   2/14   67/48    Li-carrier (67/56)         6.3271     6.3070   0.318%     0.968189       26/27 = 1-γ²/2    representative lock
+  91   Pa  5f   3/14   13/10    Lithium Edge               5.8927     5.8900   0.045%     0.968189       26/27 = 1-γ²/2    representative lock
+  92   U   5f   4/14   67/49    Li-carrier (67/56)         6.1979     6.1940   0.063%     0.968189       26/27 = 1-γ²/2    representative lock
+  93   Np  5f   5/14   11/8     Boron Bridge               6.2326     6.2660   0.533%     0.968189       26/27 = 1-γ²/2    representative lock
+  94   Pu  5f   6/14   16/12    Nitrogen Core              6.0438     6.0260   0.295%     0.968189       26/27 = 1-γ²/2    representative lock
+  95   Am  5f   7/14   67/51    Li-carrier (67/56)         5.9549     5.9740   0.320%     0.968189       26/27 = 1-γ²/2    representative lock
+  96   Cm  5f   8/14   67/51    Li-carrier (67/56)         5.9549     5.9910   0.603%     0.968189       26/27 = 1-γ²/2    representative lock
+  97   Bk  5f   9/14   67/49    Li-carrier (67/56)         6.1979     6.1980   0.001%     0.968189       26/27 = 1-γ²/2    representative lock
+  98   Cf  5f   10/14  67/48    Li-carrier (67/56)         6.3271     6.2820   0.717%     0.968189       26/27 = 1-γ²/2    representative lock
+  99   Es  5f   11/14  55/39    Deep Boundary              6.3924     6.4200   0.429%     0.968189       26/27 = 1-γ²/2    representative lock
+  100  Fm  5f   12/14  23/16    Halogen Edge               6.5159     6.5000   0.245%     0.968189       26/27 = 1-γ²/2    representative lock
+  101  Md  5f   13/14  16/11    Nitrogen Core              6.5932     6.5800   0.200%     0.968189       26/27 = 1-γ²/2    representative lock
+  102  No  5f   14/14  38/26    Closed Shell               6.6249     6.6500   0.378%     0.968189       26/27 = 1-γ²/2    representative lock
+  103  Lr  6d   1/10   23/21    Halogen Edge               4.9645     4.9600   0.091%     0.781610                  2/3     period-depth drift
+  104  Rf  6d   2/10   16/12    Nitrogen Core              6.0438     6.0100   0.562%     0.781610                  2/3     period-depth drift
+  105  Db  6d   3/10   38/25    Closed Shell               6.8899     6.8900   0.002%     0.781610                  2/3     period-depth drift
+  106  Sg  6d   4/10   11/7     Boron Bridge               7.1230     7.1000   0.324%     0.781610                  2/3     period-depth drift
+  107  Bh  6d   5/10   67/39    Li-carrier (67/56)         7.7871     7.7000   1.132%     0.781610                  2/3     period-depth drift
+  108  Hs  6d   6/10   67/40    Li-carrier (67/56)         7.5925     7.6000   0.099%     0.781610                  2/3     period-depth drift
+  109  Mt  6d   7/10   55/29    Deep Boundary              8.5967     8.6000   0.038%     0.781610                  2/3     period-depth drift
+  110  Ds  6d   8/10   11/5     Boron Bridge               9.9722     9.9000   0.729%     0.781610                  2/3     period-depth drift
+  111  Rg  6d   9/10   67/29    Li-carrier (67/56)        10.4724    10.6000   1.204%     0.781610                  2/3     period-depth drift
+  112  Cn  6d   10/10  13/5     Lithium Edge              11.7853    11.8000   0.124%     0.781610                  2/3     period-depth drift
+  113  Nh  7p   1/6    55/34    Deep Boundary              7.3325     7.3060   0.363%     0.892684       26/27 = 1-γ²/2     period-depth drift
+  114  Fl  7p   2/6    15/8     Carbon Dual                8.4990     8.5400   0.480%     0.892684       26/27 = 1-γ²/2     period-depth drift
+  115  Mc  7p   3/6    16/13    Nitrogen Core              5.5788     5.5790   0.003%     0.892684       26/27 = 1-γ²/2     period-depth drift
+  116  Lv  7p   4/6    67/43    Li-carrier (67/56)         7.0628     7.0100   0.753%     0.892684       26/27 = 1-γ²/2     period-depth drift
+  117  Ts  7p   5/6    67/39    Li-carrier (67/56)         7.7871     7.7000   1.132%     0.892684       26/27 = 1-γ²/2     period-depth drift
+  118  Og  7p   6/6    55/28    Deep Boundary              8.9037     8.9140   0.115%     0.892684       26/27 = 1-γ²/2     period-depth drift

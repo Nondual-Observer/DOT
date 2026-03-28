@@ -1,0 +1,14 @@
+========================================================================================================
+  U  (Z=92)
+========================================================================================================
+  Subshell            : 5f   pos=4/14   block=f   period=7
+  Registry fraction   : 67/49 = (67) / (7²)
+  Numerator node      : Li-carrier (67/56)
+  IE_DOT              : 6.197928 eV
+  IE_exp              : 6.194000 eV
+  Abs error           : 0.063423%
+  Family anchor       : Ac (Z=89)
+  Family closure      : No (Z=102)
+  Family ΔS_closure   : 0.968189
+  Nearest target      : 26/27 = 1-γ²/2   (diff 0.005226)
+  Family status       : representative lock
