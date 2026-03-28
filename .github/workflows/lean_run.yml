@@ -1,0 +1,28 @@
+name: Run Lean 4 tables
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '24_part_Lean!/**'
+  workflow_dispatch:
+
+jobs:
+  run-lean:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install elan + Lean 4
+        run: |
+          curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf \
+            | sh -s -- -y --default-toolchain leanprover/lean4:v4.29.0
+          echo "$HOME/.elan/bin" >> $GITHUB_PATH
+
+      - name: Run English table
+        run: lean --run '24_part_Lean!/ParticlePrototype_table.lean'
+
+      - name: Run Russian table
+        run: lean --run '24_part_Lean!/ParticlePrototype_table_ru.lean'
