@@ -2,7 +2,7 @@
 
 > **Языки:** [English](../README.md) | [Русский](README_RU.md)
 
-[![DOI](https://zenodo.org/badge/1188736747.svg)](https://doi.org/10.5281/zenodo.19236868)
+[![DOI](https://zenodo.org/badge/1188736747.svg)](https://doi.org/10.5281/zenodo.19272459)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Theory-CC%20BY--NC--SA%204.0-blue.svg)](../LICENSE-THEORY.md)
 [![License: Apache-2.0](https://img.shields.io/badge/Code-Apache--2.0-yellow.svg)](../LICENSE)
 
@@ -464,7 +464,7 @@ lean --run formal_proofs/DOT_Sn_Isotopes.lean
                Mathematical Framework, and Physical Realization},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.19236868},
+  doi       = {10.5281/zenodo.19272459},
   url       = {https://github.com/nondual-observer/distinction-observable-theory}
 }
 ```
