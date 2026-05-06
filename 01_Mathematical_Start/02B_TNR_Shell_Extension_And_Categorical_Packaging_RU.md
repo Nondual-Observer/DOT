@@ -57,7 +57,7 @@ $S_1^{(n)}\sqcup S_{n-1}^{(n)}$, а $X_{\mathrm{adm}}$ сохраняется т
 
 ```text
     $$
-    V_n / U_n, O_n, \operatorname{Cham}(O_n)
+    V_n / U_n, O_n, \mathrm{Cham}(O_n)
     $$
     $$
     \to \text{reduction } n \to n-1
@@ -83,7 +83,7 @@ $$
 $$
 G_4 \rightsquigarrow K_{2,2,2} \cong O_3^{(1)},
 \qquad
-\operatorname{Cham}(O_3) \cong Q_3.
+\mathrm{Cham}(O_3) \cong Q_3.
 $$
 
 ### План доказательства 8.0
@@ -115,7 +115,7 @@ $$
 5. Независимо от графовой редукции использовать уже построенную биекцию
 
    $$
-   \operatorname{Cham}(O_3)\cong Q_3
+   \mathrm{Cham}(O_3)\cong Q_3
    $$
 
    и сделать вывод, что полный $4D \to 3D$-переход в ТНР имеет двухшаговую, а не одношаговую природу.
@@ -362,7 +362,7 @@ $$
 Для $V_4=S_1^{(4)}\sqcup S_3^{(4)}$ остаточный граф имеет лапласианов спектр
 
 $$
-\operatorname{Spec}(L_{K_{2,2,2,2}}) = \{0,6,6,6,6,8,8,8\}.
+\mathrm{Spec}(L_{K_{2,2,2,2}}) = \{0,6,6,6,6,8,8,8\}.
 $$
 
 **Доказательство.** Это стандартный спектр полного четырёхдольного графа с долями размера $2$, либо частный случай общего спектра полного многодольного графа. $∎$
@@ -386,7 +386,7 @@ $$
 Множество камер обозначим через
 
 $$
-\operatorname{Cham}(O_n).
+\mathrm{Cham}(O_n).
 $$
 
 ### Предложение 8.2.3 [Д|граф]. Граф камер в размерности $n$
@@ -401,7 +401,7 @@ $$
 $$
 \sigma_i x_i\ge 0\qquad (i=1,\dots,n)
 $$
-выделяют одну камеру кросс-политопа. Каждая такая камера определяется ровно одним набором знаков, поэтому индексирование $\operatorname{Cham}(O_n)$ множеством $\{\pm1\}^n$ естественно.
+выделяют одну камеру кросс-политопа. Каждая такая камера определяется ровно одним набором знаков, поэтому индексирование $\mathrm{Cham}(O_n)$ множеством $\{\pm1\}^n$ естественно.
 
 Пусть теперь $\sigma,\tau\in\{\pm1\}^n$.
 
@@ -561,7 +561,7 @@ $$
 Тогда
 
 $$
-E_-^{(n)} = \operatorname{span}\bigl\{ d_i \oplus t_n \chi_i \;:\; i=1,\dots,n \bigr\},
+E_-^{(n)} = \mathrm{span}\bigl\{ d_i \oplus t_n \chi_i \;:\; i=1,\dots,n \bigr\},
 $$
 
 где
@@ -685,7 +685,7 @@ $$
 задаёт сюръекцию
 
 $$
-\tau_k \colon \operatorname{Cham}(O_n) \twoheadrightarrow \operatorname{Cham}(O_{n-1})
+\tau_k \colon \mathrm{Cham}(O_n) \twoheadrightarrow \mathrm{Cham}(O_{n-1})
 $$
 
 со слоями мощности $2$. Если отождествить две камеры, различающиеся только по $k$-й координате, то фактор-граф камер естественно изоморфен
@@ -697,7 +697,7 @@ $$
 Эквивалентно, $\tau_k$ есть клеточная проекция кубических комплексов
 
 $$
-\operatorname{Cham}(O_n)\cong[0,1]^n \longrightarrow [0,1]^{n-1}\cong \operatorname{Cham}(O_{n-1}),
+\mathrm{Cham}(O_n)\cong[0,1]^n \longrightarrow [0,1]^{n-1}\cong \mathrm{Cham}(O_{n-1}),
 $$
 
 стягивающая пары граней, различающиеся только по $k$-й координате, в единственную грань меньшей размерности.
@@ -728,7 +728,7 @@ $$
 После выбора одной оси размерностный переход в строгом корпусе ТНР всегда распадается на два разных шага:
 
 $$
-V_n \rightsquigarrow V_{n-1}, \qquad \operatorname{Cham}(O_n) \twoheadrightarrow \operatorname{Cham}(O_{n-1}).
+V_n \rightsquigarrow V_{n-1}, \qquad \mathrm{Cham}(O_n) \twoheadrightarrow \mathrm{Cham}(O_{n-1}).
 $$
 
 Первый шаг является графовой редукцией внешнего носителя, второй — факторизацией камерного слоя. Поэтому переход $n\to n-1$ не задаётся одной биекцией между вершинами, а всегда имеет двухуровневую природу.
@@ -740,13 +740,13 @@ $$
 $$
 V_4\rightsquigarrow V_3\cong K_{2,2,2}\cong O_3^{(1)},
 \qquad
-\operatorname{Cham}(O_4)\twoheadrightarrow \operatorname{Cham}(O_3)\cong Q_3.
+\mathrm{Cham}(O_4)\twoheadrightarrow \mathrm{Cham}(O_3)\cong Q_3.
 $$
 
 В частном $4D \to 3D$ описании Теорема 8.5 формулируется только на конечном $3D$-пакете, поэтому там второй шаг записан уже в его целевом виде
 
 $$
-\operatorname{Cham}(O_3)\cong Q_3.
+\mathrm{Cham}(O_3)\cong Q_3.
 $$
 
 ### Лемма 8.3 [Д|К]. Явное комплементарное разбиение множества $V_4$
@@ -792,7 +792,7 @@ $$
 2. Независимая клеточная дуальность:
 
    $$
-   \operatorname{Cham}(O_3)\cong Q_3.
+   \mathrm{Cham}(O_3)\cong Q_3.
    $$
 
 Следовательно, корректный $4D$→$3D$-переход в ТНР описывается не одной биекцией
@@ -806,7 +806,7 @@ $$
 $$
 G_4 \rightsquigarrow O_3^{(1)},
 \qquad
-\operatorname{Cham}(O_3)\cong Q_3.
+\mathrm{Cham}(O_3)\cong Q_3.
 $$
 
 **Доказательство.**
@@ -818,7 +818,7 @@ $$
    который по Теореме 4.2 реализуется как граф октаэдрального носителя $O_3^{(1)}$.
 2. По Следствию 4.4.1 множество камер октаэдра биективно кодируется вершинами куба $Q_3$:
    $$
-   \operatorname{Cham}(O_3)\cong Q_3.
+   \mathrm{Cham}(O_3)\cong Q_3.
    $$
 3. Первый шаг относится к вершинам остаточного графа и уменьшает число полюсных пар с четырёх до трёх. Второй шаг относится уже не к вершинам остаточного графа, а к другому типу объектов — к камерам октаэдра.
 
@@ -826,7 +826,7 @@ $$
 $$
 G_4 \rightsquigarrow O_3^{(1)},
 \qquad
-\operatorname{Cham}(O_3)\cong Q_3.
+\mathrm{Cham}(O_3)\cong Q_3.
 $$
 Они согласованы друг с другом, но не сливаются в одну “универсальную” биекцию между вершинами $V_4$ и вершинами $Q_3$, потому что промежуточный переход меняет сам тип рассматриваемого объекта. $∎$
 
@@ -1158,7 +1158,7 @@ $$
 Для любого конечного неориентированного графа $G$ обозначим через
 
 $$
-\operatorname{Path}(G)
+\mathrm{Path}(G)
 $$
 
 его путевую категорию.
@@ -1173,17 +1173,17 @@ $$
 ### Теорема 8.8.1 [Д|cat]. Универсальное свойство путевой категории
 
 
-Пусть $\vec G$ — ориентированный граф, полученный из неориентированного графа $G$ удвоением рёбер. Тогда $\operatorname{Path}(G)$ есть свободная категория на $\vec G$ в следующем смысле:
+Пусть $\vec G$ — ориентированный граф, полученный из неориентированного графа $G$ удвоением рёбер. Тогда $\mathrm{Path}(G)$ есть свободная категория на $\vec G$ в следующем смысле:
 
 если $\mathcal D$ — любая категория, а $\eta$ задаёт отображение вершин $\vec G$ в объекты $\mathcal D$ и отображение ориентированных рёбер $\vec G$ в морфизмы $\mathcal D$, согласованное с источниками и целями, то существует единственный функтор
 
 $$
-\widetilde{\eta} \colon \operatorname{Path}(G) \to \mathcal{D}
+\widetilde{\eta} \colon \mathrm{Path}(G) \to \mathcal{D}
 $$
 
 продлевающий $\eta$.
 
-**Доказательство.** Любой морфизм в $\operatorname{Path}(G)$ есть конечная конкатенация порождающих ориентированных рёбер. Поэтому образ такого пути обязан быть композицией образов его рёбер, что определяет функтор единственным образом. Корректность следует из ассоциативности композиции в $\mathcal D$. $∎$
+**Доказательство.** Любой морфизм в $\mathrm{Path}(G)$ есть конечная конкатенация порождающих ориентированных рёбер. Поэтому образ такого пути обязан быть композицией образов его рёбер, что определяет функтор единственным образом. Корректность следует из ассоциативности композиции в $\mathcal D$. $∎$
 
 ### Определение 8.9 [Д|cat]. Минимальные категории строгого корпуса
 
@@ -1192,19 +1192,19 @@ $$
 1. категорию внешнего носителя
 
    $$
-   \mathcal{R}_n:=\operatorname{Path}\bigl(G_{\mathrm{res}}(V_n)\bigr);
+   \mathcal{R}_n:=\mathrm{Path}\bigl(G_{\mathrm{res}}(V_n)\bigr);
    $$
 
 2. категорию камер
 
    $$
-   \mathcal{C}_n:=\operatorname{Path}\bigl(\operatorname{Cham}(O_n)\bigr);
+   \mathcal{C}_n:=\mathrm{Path}\bigl(\mathrm{Cham}(O_n)\bigr);
    $$
 
 3. категорию блочного носителя
 
    $$
-   \mathcal{B}_n:=\operatorname{Path}\bigl(A_{\mathrm{block}}^{(n)}\bigr).
+   \mathcal{B}_n:=\mathrm{Path}\bigl(A_{\mathrm{block}}^{(n)}\bigr).
    $$
 
 ### Предложение 8.10 [Д|cat]. Общий камерный функтор знаково-битовой кодировки
@@ -1221,7 +1221,7 @@ $$
 индуцирует изоморфизм категорий
 
 $$
-(\Phi_n)_* \colon \mathcal{C}_n \xrightarrow{\cong} \operatorname{Path}(Q_n).
+(\Phi_n)_* \colon \mathcal{C}_n \xrightarrow{\cong} \mathrm{Path}(Q_n).
 $$
 
 **Доказательство.** На объектах $\Phi_n$ — биекция между $\{\pm1\}^n$ и $\{0,1\}^n$. На порождающих морфизмах-рёбрах она переводит смену одного знака в смену одного бита и обратно. Следовательно, любой путь однозначно переносится и поднимается, то есть $(\Phi_n)_*$ имеет обратный функтор. $∎$
@@ -1234,7 +1234,7 @@ $$
 1. Графовый изоморфизм $\rho_k:V_n^{(k)}\to V_{n-1}$ из Теоремы 8.2.9 индуцирует изоморфизм категорий
 
    $$
-R_k := \operatorname{Path}(\rho_k) \colon \operatorname{Path}\bigl(G_{\mathrm{res}}(V_n^{(k)})\bigr) \xrightarrow{\cong} \mathcal{R}_{n-1}.
+R_k := \mathrm{Path}(\rho_k) \colon \mathrm{Path}\bigl(G_{\mathrm{res}}(V_n^{(k)})\bigr) \xrightarrow{\cong} \mathcal{R}_{n-1}.
    $$
 
 2. Забывание одного знака $\tau_k:\{\pm1\}^n\to\{\pm1\}^{n-1}$ из Теоремы 8.2.10 индуцирует функтор
@@ -1260,14 +1260,14 @@ $$
 — множество инцидентных пар “полюс–камера”. Рассмотрим дискретную категорию
 
 $$
-\mathcal{I}_n := \operatorname{Disc}(I_n).
+\mathcal{I}_n := \mathrm{Disc}(I_n).
 $$
 
 Тогда инцидентность задаётся span-диаграммой категорий
 
 $$
-\operatorname{Disc}(V_n)\xleftarrow{\;\pi_{\mathrm{pole}}\;}\mathcal{I}_n
-\xrightarrow{\;\pi_{\mathrm{ch}}\;}\operatorname{Disc}(\operatorname{Cham}(O_n)).
+\mathrm{Disc}(V_n)\xleftarrow{\;\pi_{\mathrm{pole}}\;}\mathcal{I}_n
+\xrightarrow{\;\pi_{\mathrm{ch}}\;}\mathrm{Disc}(\mathrm{Cham}(O_n)).
 $$
 
 Это и есть корректная минимальная категориальная упаковка матрицы $B_n$.
@@ -1289,11 +1289,11 @@ $$
 Тогда edge-инцидентность задаётся span-диаграммой
 
 $$
-\operatorname{Disc}(X_{\mathrm{adm}})
+\mathrm{Disc}(X_{\mathrm{adm}})
 \xleftarrow{\;\pi_{\mathrm{pole}}\;}
-\operatorname{Disc}(I_3^{\mathrm{edge}})
+\mathrm{Disc}(I_3^{\mathrm{edge}})
 \xrightarrow{\;\pi_{\mathrm{edge}}\;}
-\operatorname{Disc}(E_3^{\mathrm{adm}}).
+\mathrm{Disc}(E_3^{\mathrm{adm}}).
 $$
 
 Это корректная минимальная категориальная упаковка матрицы $M_3$ полюсно-рёберной инцидентности.
@@ -1632,7 +1632,7 @@ $$
 При выборе оси $k$ редукции $\rho_k$ и $\tau_k$ совместимы со span-инцидентностью: после удаления полюсов $\pm e_k$ и факторизации камер по $\tau_k$ получаем span, изоморфный
 
 $$
-\operatorname{Disc}(V_{n-1}) \xleftarrow{\;} \mathcal{I}_{n-1} \xrightarrow{\;} \operatorname{Disc}(\operatorname{Cham}(O_{n-1})).
+\mathrm{Disc}(V_{n-1}) \xleftarrow{\;} \mathcal{I}_{n-1} \xrightarrow{\;} \mathrm{Disc}(\mathrm{Cham}(O_{n-1})).
 $$
 
 **Доказательство.** Это просто категориальная переформулировка Теоремы 8.2.11 о спуске матрицы $B_n\to B_{n-1}$. $∎$
@@ -1642,7 +1642,7 @@ $$
 Span-инцидентность эквивалентно задаётся профунктором
 
 $$
-\mathbb{I}_n \colon \operatorname{Disc}(\operatorname{Cham}(O_n))^{\mathrm{op}} \times \operatorname{Disc}(V_n) \to \mathbf{Set},
+\mathbb{I}_n \colon \mathrm{Disc}(\mathrm{Cham}(O_n))^{\mathrm{op}} \times \mathrm{Disc}(V_n) \to \mathbf{Set},
 $$
 
 где
@@ -1699,16 +1699,16 @@ $$
 
 Фиксируем следующее разведение.
 
-1. $X_{\mathrm{adm}} \to (R_1,R_2,R_3)$  
+1. $X_{\mathrm{adm}} \to (R_1,R_2,R_3)$
    имеет статус **структурированного отношенческого чтения**, а не полного функториального блока;
 
-2. $(R_i) \rightsquigarrow C_6,K_3\sqcup K_3,3K_2,K_{2,2,2}$  
+2. $(R_i) \rightsquigarrow C_6,K_3\sqcup K_3,3K_2,K_{2,2,2}$
    имеет статус **семейства структурированных графовых чтений**, а не единого графового функтора корпуса;
 
-3. $Q_3 \to L(Q_3)$  
+3. $Q_3 \to L(Q_3)$
    имеет статус **сильного структурированного подъёма** к операторному слою, а не общего функтора корпуса;
 
-4. $AMR \to \text{ядро}$  
+4. $AMR \to \text{ядро}$
    не входит в строгое ядро и в $03$ имеет статус **частичного типизированного моста**.
 
 Это разведение принимается как минимальная категорическая дисциплина для стрелок корпуса.
@@ -1803,9 +1803,9 @@ $$
 Для каждого $n\ge 3$ верно:
 
 $$
-\operatorname{Im} P_{\mathrm{shell}}^{(n)}=\mathbb R^{U_n},
+\mathrm{Im} P_{\mathrm{shell}}^{(n)}=\mathbb R^{U_n},
 \qquad
-\operatorname{Im} P_{\mathrm{out}}^{(n)}=\mathbb R^{V_n}.
+\mathrm{Im} P_{\mathrm{out}}^{(n)}=\mathbb R^{V_n}.
 $$
 
 Кроме того,
@@ -2086,7 +2086,7 @@ $$
 Определим
 
 $$
-\mathcal{A}_n^{\mathrm{ap}} := \langle E_n, F_n, H_n, C \rangle \subset \operatorname{End}(\mathcal{H}_n).
+\mathcal{A}_n^{\mathrm{ap}} := \langle E_n, F_n, H_n, C \rangle \subset \mathrm{End}(\mathcal{H}_n).
 $$
 
 ### Следствие 8.27 [Д|alg]. Структура усиленной апертурной алгебры
@@ -2127,7 +2127,7 @@ $$
 где $c$ — нетривиальный элемент группы $\mathbb{Z}_2$. Образ этого гомоморфизма равен
 
 $$
-\operatorname{Im}(\rho_n)=\mathcal A_n^{\mathrm{ap}}.
+\mathrm{Im}(\rho_n)=\mathcal A_n^{\mathrm{ap}}.
 $$
 
 **Доказательство.** По Теореме 8.23 операторы $E_n,F_n,H_n$ удовлетворяют соотношениям $\mathfrak{sl}_2$, поэтому по универсальному свойству обёртывающей алгебры существует единственный гомоморфизм
@@ -2227,7 +2227,7 @@ $$
 Для strict $3$-bit ядра конечная сигнатура
 
 $$
-\Sigma_{\mathrm{core}} = \bigl( \operatorname{relation\_counts}, \operatorname{shared\_chambers}, \operatorname{shell\_types} \bigr)
+\Sigma_{\mathrm{core}} = \bigl( \mathrm{relation\_counts}, \mathrm{shared\_chambers}, \mathrm{shell\_types} \bigr)
 $$
 
 восстанавливается из операторного слоя $(E_3,F_3,H_3,C)$.

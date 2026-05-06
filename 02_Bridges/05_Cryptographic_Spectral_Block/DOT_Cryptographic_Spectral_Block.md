@@ -1,7 +1,7 @@
 # Cryptographic Spectral Block on the Cross-Polytope–Hypercube Composite
 
-**Authors:** Working research draft  
-**Date:** April 2026  
+**Authors:** Working research draft
+**Date:** April 2026
 **Status:** Complete connected theorem-package for:
 
 1. correlation immunity,
@@ -272,7 +272,7 @@ $$
 
 #### Meaning
 
-All Walsh modes of weight at least 2 survive inside the block graph as **pure cube modes**.  
+All Walsh modes of weight at least 2 survive inside the block graph as **pure cube modes**.
 They do not couple back to the octahedral side because $B$ kills them.
 
 This gives the fully decoupled sectors:
@@ -293,7 +293,7 @@ $$
 
 #### Meaning
 
-Weight-1 Walsh characters are not decoupled.  
+Weight-1 Walsh characters are not decoupled.
 Each one couples exactly to one axial mode of the cross-polytope.
 
 This is why the weight-1 sector must be treated differently from the higher-weight sectors.
@@ -305,17 +305,17 @@ This is why the weight-1 sector must be treated differently from the higher-weig
 The incidence matrix $B$ has:
 
 $$
-\operatorname{rank}(B)=n+1.
+\mathrm{rank}(B)=n+1.
 $$
 
 More precisely:
 
 $$
-\operatorname{Im}(B)=\mathrm{Span}\{\mathbf 1_m,\phi_1,\dots,\phi_n\},
+\mathrm{Im}(B)=\mathrm{Span}\{\mathbf 1_m,\phi_1,\dots,\phi_n\},
 $$
 
 $$
-\operatorname{Im}(B^T)=\mathrm{Span}\{\mathbf 1_N,\chi_{e_1},\dots,\chi_{e_n}\},
+\mathrm{Im}(B^T)=\mathrm{Span}\{\mathbf 1_N,\chi_{e_1},\dots,\chi_{e_n}\},
 $$
 
 and the nonzero eigenvalues of $BB^T$ are:
@@ -346,9 +346,9 @@ Since the Walsh basis has total dimension $2^n$, the orthogonal complement of th
 $$
 \mathrm{Span}\{\mathbf 1_N,\chi_{e_1},\dots,\chi_{e_n}\},
 $$
-which therefore coincides with $\operatorname{Im}(B^T)$. Hence
+which therefore coincides with $\mathrm{Im}(B^T)$. Hence
 $$
-\operatorname{rank}(B)=n+1.
+\mathrm{rank}(B)=n+1.
 $$
 
 By Lemma 3,
@@ -357,7 +357,7 @@ B\mathbf 1_N = 2^{n-1}\mathbf 1_m,
 \qquad
 B\chi_{e_i}=2^{n-1}\phi_i.
 $$
-So $\operatorname{Im}(B)$ is contained in
+So $\mathrm{Im}(B)$ is contained in
 $$
 \mathrm{Span}\{\mathbf 1_m,\phi_1,\dots,\phi_n\}.
 $$
@@ -380,7 +380,7 @@ $$
 Thus every axial mode $\phi_i$ is an eigenvector with eigenvalue $2^{n-1}$.
 
 The vectors $\mathbf 1_m,\phi_1,\dots,\phi_n$ are linearly independent, their total
-dimension is $n+1$, and this already equals $\operatorname{rank}(B)$. Hence these are
+dimension is $n+1$, and this already equals $\mathrm{rank}(B)$. Hence these are
 all nonzero eigenvalues of $BB^T$, with multiplicities exactly as stated.
 
 `∎`
@@ -628,7 +628,7 @@ eigenvalue with the nontrivial weight-0 line.
 
 ### Meaning
 
-Correlation immunity is no longer read only as a Walsh-table condition.  
+Correlation immunity is no longer read only as a Walsh-table condition.
 It becomes a **spectral non-resonance condition** with specific low-weight sectors of the block graph.
 
 ---
@@ -658,7 +658,7 @@ $$
 C_0^+=\mathrm{Span}\{(2^{n-1}\mathbf 1_m,-n\mathbf 1_N)\}.
 $$
 
-The first is the global constant mode.  
+The first is the global constant mode.
 The second is the nontrivial coupled weight-0 line.
 
 ---
@@ -756,7 +756,7 @@ Resilience is exactly the statement that the embedded Boolean function has no sp
 2. weight 1,
 3. weights $2,\dots,t$.
 
-So the current block graph does not merely detect CI.  
+So the current block graph does not merely detect CI.
 It detects the whole low-weight Walsh package:
 
 - balancedness,
@@ -767,7 +767,7 @@ It detects the whole low-weight Walsh package:
 
 ## 11. What This Block Really Achieves
 
-The real value of this theorem-package is not that it invents new cryptographic properties.  
+The real value of this theorem-package is not that it invents new cryptographic properties.
 These properties are classical.
 
 The value is that it gives a **new spectral-geometric packaging**:

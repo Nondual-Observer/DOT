@@ -48,17 +48,17 @@ $$
 c(x)=1-x.
 $$
 
-The target side is algebraic. After the standard linear realization of one triangle as the three coordinate weights \(e_1,e_2,e_3\), the edge differences give the root system of type \(A_2\). The two triangles then read as the weight diagrams of the fundamental module and its dual:
+The target side is algebraic. After the standard linear realization of one triangle as the three coordinate weights $e_1,e_2,e_3$, the edge differences give the root system of type $A_2$. The two triangles then read as the weight diagrams of the fundamental module and its dual:
 
 $$
 \mathbf 3\oplus\overline{\mathbf 3}.
 $$
 
-From this root datum one obtains the standard Chevalley realization of \(\mathfrak{sl}_3(\mathbb C)\). After choosing the standard Hermitian form, the compact real form \(\mathfrak{su}(3)\) is recovered in the usual Lie-theoretic sense.
+From this root datum one obtains the standard Chevalley realization of $\mathfrak{sl}_3(\mathbb C)$. After choosing the standard Hermitian form, the compact real form $\mathfrak{su}(3)$ is recovered in the usual Lie-theoretic sense.
 
-The bridge records the following correspondence: the same six-state datum that appears in the strict finite core admits a precise algebraic reading by two triangles, a complement exchange, an \(A_2\) root datum, and the standard \(3\oplus\bar 3\) representation package. In this role, a bridge adds no new native objects to the strict finite core. It gives a controlled external realization of already constructed finite data.
+The bridge records the following correspondence: the same six-state datum that appears in the strict finite core admits a precise algebraic reading by two triangles, a complement exchange, an $A_2$ root datum, and the standard $3\oplus\bar 3$ representation package. In this role, a bridge adds no new native objects to the strict finite core. It gives a controlled external realization of already constructed finite data.
 
-The boundary is part of the statement. The finite datum \((X,R_2,c)\) does not contain a physical gauge theory, particle dynamics, or the Lie group \(SU(3)\) as a geometric object. Those require additional structures. This note proves only the finite-to-algebraic reconstruction described below.
+The boundary is part of the statement. The finite datum $(X,R_2,c)$ does not contain a physical gauge theory, particle dynamics, or the Lie group $SU(3)$ as a geometric object. Those require additional structures. This note proves only the finite-to-algebraic reconstruction described below.
 
 ## Abstract
 
@@ -268,8 +268,8 @@ f_1=E_{21},\qquad f_2=E_{32},
 $$
 
 $$
-h_1=[e_1,f_1]=\operatorname{diag}(1,-1,0),\qquad
-h_2=[e_2,f_2]=\operatorname{diag}(0,1,-1).
+h_1=[e_1,f_1]=\mathrm{diag}(1,-1,0),\qquad
+h_2=[e_2,f_2]=\mathrm{diag}(0,1,-1).
 $$
 
 Direct computation gives
@@ -290,13 +290,13 @@ $$
 and the Serre relations
 
 $$
-(\operatorname{ad}e_1)^2e_2=0,\qquad
-(\operatorname{ad}e_2)^2e_1=0,
+(\mathrm{ad}e_1)^2e_2=0,\qquad
+(\mathrm{ad}e_2)^2e_1=0,
 $$
 
 $$
-(\operatorname{ad}f_1)^2f_2=0,\qquad
-(\operatorname{ad}f_2)^2f_1=0.
+(\mathrm{ad}f_1)^2f_2=0,\qquad
+(\mathrm{ad}f_2)^2f_1=0.
 $$
 
 Further,

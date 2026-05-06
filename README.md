@@ -22,7 +22,7 @@ Four roles are used for this: **carrier**, **relation**, **reading**, and **reco
 These four roles define a way to record finite data, not an external interpretation. The formal unit of this record is a **representation**.
 
 $$
-(X, R, q, \operatorname{rec}).
+(X, R, q, \mathrm{rec}).
 $$
 
 A representation gives every distinction a checkable finite form. Every statement in the theory reduces to checking properties of such a tuple on a finite carrier.
@@ -42,7 +42,7 @@ The point is not to collect familiar graphs. Cycles, the octahedron, the Peterse
 At the end of the strict part one obtains a finite core up to rank 5. It contains constructed carriers, relations, readings, recoveries, chambers, incidence relations, cycles, and transition operators. This core is closed as a coherent finite-rank package:
 
 $$
-\mathfrak{R}_{\leq 5}^{\operatorname{fin}}=(\Pi_1,\mathfrak{C}_2,\mathfrak{C}_3,\mathfrak{C}_4,\mathfrak{A}_5).
+\mathfrak{R}_{\leq 5}^{\mathrm{fin}}=(\Pi_1,\mathfrak{C}_2,\mathfrak{C}_3,\mathfrak{C}_4,\mathfrak{A}_5).
 $$
 
 The general growth law is then stated: the passage from rank $n$ to rank $n+1$ is given by adding a new binary coordinate. The construction up to rank 5 is therefore not just an example; it fixes a checkable finite pattern for how distinctions grow, are repackaged, and are read again inside larger structures.
