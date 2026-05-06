@@ -525,7 +525,11 @@ $$
 \text{полное восстановление полярного отношения}.
 $$
 
-![Полярный слой $(P,R_P)$](../assets/figures/1.1-P_R_P.png)
+<p align="center">
+  <a href="../assets/figures/1.1-P_R_P.png">
+    <img src="../assets/figures/1.1-P_R_P.png" width="500" alt="Полярный слой $(P,R_P)$">
+  </a>
+</p>
 
 Пустой круг $I$ на рисунке не является вершиной носителя $P$. Он обозначает образ чтения:
 
@@ -1315,7 +1319,11 @@ Q_2=\mathbb{F}_2^2
 \{00,01,10,11\}.
 $$
 
-![Двухбитный носитель $Q_2$](../assets/figures/1.2-2_bits_Q_2.png)
+<p align="center">
+  <a href="../assets/figures/1.2-2_bits_Q_2.png">
+    <img src="../assets/figures/1.2-2_bits_Q_2.png" width="500" alt="Двухбитный носитель $Q_2$">
+  </a>
+</p>
 
 Запись
 
@@ -1670,7 +1678,11 @@ $$
 
 Orientation и path-composition здесь не заданы.
 
-![Graph-reading $C_4$ на $Q_2$](../assets/figures/1.3-C_4.png)
+<p align="center">
+  <a href="../assets/figures/1.3-C_4.png">
+    <img src="../assets/figures/1.3-C_4.png" width="500" alt="Graph-reading $C_4$ на $Q_2$">
+  </a>
+</p>
 
 
 ## §4.9. Graph-reading $2K_2$
@@ -1721,7 +1733,11 @@ $$
 (Q_2,H_2^{(2)})\cong K_2\sqcup K_2=2K_2.
 $$
 
-![Graph-reading $2K_2$ на $Q_2$](../assets/figures/1.4-2K_2.png)
+<p align="center">
+  <a href="../assets/figures/1.4-2K_2.png">
+    <img src="../assets/figures/1.4-2K_2.png" width="500" alt="Graph-reading $2K_2$ на $Q_2$">
+  </a>
+</p>
 
 
 ## §4.10. Компаратор $\chi$
@@ -2116,7 +2132,11 @@ $$
 (Q_2,R_{K_4}^{(2)})\cong K_4.
 $$
 
-![Полное graph-reading $K_4$ на $Q_2$](../assets/figures/1.5-K_4.png)
+<p align="center">
+  <a href="../assets/figures/1.5-K_4.png">
+    <img src="../assets/figures/1.5-K_4.png" width="500" alt="Полное graph-reading $K_4$ на $Q_2$">
+  </a>
+</p>
 
 
 ## §4.16. Симплексные секторы
@@ -2371,7 +2391,11 @@ $$
 (\Delta_{\vee},R_{\Delta_{\vee}}).
 $$
 
-![Partial closure $K_4-e$ на $Q_2$](../assets/figures/1.6-K_4-e.png)
+<p align="center">
+  <a href="../assets/figures/1.6-K_4-e.png">
+    <img src="../assets/figures/1.6-K_4-e.png" width="500" alt="Partial closure $K_4-e$ на $Q_2$">
+  </a>
+</p>
 
 
 ## §4.18. Relation-readings ранга 2
@@ -2469,7 +2493,11 @@ Q_3=
 \{000,001,010,011,100,101,110,111\}.
 $$
 
-![Трёхбитный carrier $Q_3$](../assets/figures/2.1-Q_3.png)
+<p align="center">
+  <a href="../assets/figures/2.1-Q_3.png">
+    <img src="../assets/figures/2.1-Q_3.png" width="500" alt="Трёхбитный carrier $Q_3$">
+  </a>
+</p>
 
 Запись
 
@@ -2659,7 +2687,11 @@ X_{\mathrm{adm}}
 \{001,010,011,100,101,110\}.
 $$
 
-![Admissible carrier $X_{\mathrm{adm}}$](../assets/figures/2.2-X_adm.png)
+<p align="center">
+  <a href="../assets/figures/2.2-X_adm.png">
+    <img src="../assets/figures/2.2-X_adm.png" width="500" alt="Admissible carrier $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 В §5 $X_{\mathrm{adm}}$ вводится как carrier-множество.
 
@@ -2850,7 +2882,11 @@ $$
 100\leftrightarrow 011.
 $$
 
-![Complement-пары на $X_{\mathrm{adm}}$](../assets/figures/3.3-R_3-3K_2.png)
+<p align="center">
+  <a href="../assets/figures/3.3-R_3-3K_2.png">
+    <img src="../assets/figures/3.3-R_3-3K_2.png" width="500" alt="Complement-пары на $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 На этом уровне complement является инволюцией ($x \mapsto \overline{x} \mapsto x$), продолжая complement-переход, введённый в §4.
 
@@ -3027,7 +3063,11 @@ $$
 (X_{\mathrm{adm}},R_1)\cong C_6.
 $$
 
-![Graph-reading $R_1\cong C_6$ на $X_{\mathrm{adm}}$](../assets/figures/3.1-R_1-C_6.png)
+<p align="center">
+  <a href="../assets/figures/3.1-R_1-C_6.png">
+    <img src="../assets/figures/3.1-R_1-C_6.png" width="500" alt="Graph-reading $R_1\cong C_6$ на $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 **Замечание.**
 В полном $Q_3$ каждая вершина имеет три одношаговых Hamming-соседа. При переходе к $X_{\mathrm{adm}}$ вершины из $S_1^{(3)}$ теряют соседство с $000$, а вершины из $S_2^{(3)}$ теряют соседство с $111$. Оставшаяся одношаговая смежность даёт $C_6$.
@@ -3120,7 +3160,11 @@ $$
 |E(R_2)|=6.
 $$
 
-![Graph-reading $R_2\cong K_3\sqcup K_3$ на $X_{\mathrm{adm}}$](../assets/figures/3.2-R_2-2_triangles.png)
+<p align="center">
+  <a href="../assets/figures/3.2-R_2-2_triangles.png">
+    <img src="../assets/figures/3.2-R_2-2_triangles.png" width="500" alt="Graph-reading $R_2\cong K_3\sqcup K_3$ на $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 
 ## §6.6. Relation $R_3$: complement-отношение
@@ -3208,7 +3252,11 @@ $$
 (X_{\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
-![Graph-reading $R_3\cong 3K_2$ на $X_{\mathrm{adm}}$](../assets/figures/3.3-R_3-3K_2.png)
+<p align="center">
+  <a href="../assets/figures/3.3-R_3-3K_2.png">
+    <img src="../assets/figures/3.3-R_3-3K_2.png" width="500" alt="Graph-reading $R_3\cong 3K_2$ на $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 **Замечание.**
 $R_1$ и $R_3$ используют один и тот же carrier $X_{\mathrm{adm}}$, но задают разные relation-readings. $R_1$ связывает одношаговых Hamming-соседей, а $R_3$ связывает complement-пары.
@@ -3662,7 +3710,11 @@ $$
 
 Подсчёт согласуется со структурной проверкой.
 
-![Union-relation $R_1\cup R_2$ как $K_{2,2,2}$](../assets/figures/4.1-R_12-octahedron.png)
+<p align="center">
+  <a href="../assets/figures/4.1-R_12-octahedron.png">
+    <img src="../assets/figures/4.1-R_12-octahedron.png" width="500" alt="Union-relation $R_1\cup R_2$ как $K_{2,2,2}$">
+  </a>
+</p>
 
 
 ## §7.6. $K_{2,2,2}$ как $1$-скелет октаэдра
@@ -4196,7 +4248,11 @@ $$
 \Box
 $$
 
-![Коды камер $C_\varepsilon$](../assets/figures/4.8-chamber_code_projection_overview.png)
+<p align="center">
+  <a href="../assets/figures/4.8-chamber_code_projection_overview.png">
+    <img src="../assets/figures/4.8-chamber_code_projection_overview.png" width="500" alt="Коды камер $C_\varepsilon$">
+  </a>
+</p>
 
 
 ## §8.5. Координатная запись камер
@@ -4321,7 +4377,11 @@ $$
 \mathrm{Cham}(O_3)\cong Q_3.
 $$
 
-![Две октаэдральные проекции chamber-layer-а](../assets/figures/4.10-chambers_two_octahedron_views.png)
+<p align="center">
+  <a href="../assets/figures/4.10-chambers_two_octahedron_views.png">
+    <img src="../assets/figures/4.10-chambers_two_octahedron_views.png" width="500" alt="Две октаэдральные проекции chamber-layer-а">
+  </a>
+</p>
 
 Эта биекция кодирует камеры октаэдра элементами $Q_3$. Carrier вершин $X_{\mathrm{adm}}$ и carrier камер остаются разными типами объектов.
 
@@ -11141,7 +11201,11 @@ $$
 Q_4=\mathbb{F}_2^4.
 $$
 
-![Полный carrier $Q_4$](../assets/figures/5.1-Q4_full_tesseract.png)
+<p align="center">
+  <a href="../assets/figures/5.1-Q4_full_tesseract.png">
+    <img src="../assets/figures/5.1-Q4_full_tesseract.png" width="500" alt="Полный carrier $Q_4$">
+  </a>
+</p>
 
 Ненулевой layer:
 
@@ -11149,7 +11213,11 @@ $$
 \mathcal P_4=Q_4\setminus\{0000\}.
 $$
 
-![Ненулевой layer $\mathcal P_4$](../assets/figures/5.2-P4_nonzero_layer.png)
+<p align="center">
+  <a href="../assets/figures/5.2-P4_nonzero_layer.png">
+    <img src="../assets/figures/5.2-P4_nonzero_layer.png" width="500" alt="Ненулевой layer $\mathcal P_4$">
+  </a>
+</p>
 
 Полный нетривиальный carrier:
 
@@ -11157,7 +11225,11 @@ $$
 U_4=Q_4\setminus\{0000,1111\}.
 $$
 
-![Нетривиальный carrier $U_4$](../assets/figures/5.3-U4_full_nontrivial_layer.png)
+<p align="center">
+  <a href="../assets/figures/5.3-U4_full_nontrivial_layer.png">
+    <img src="../assets/figures/5.3-U4_full_nontrivial_layer.png" width="500" alt="Нетривиальный carrier $U_4$">
+  </a>
+</p>
 
 Outer shell:
 
@@ -11619,7 +11691,11 @@ $$
 \Box
 $$
 
-![Middle shell $S_2^{(4)}$ как $K_{2,2,2}$](../assets/figures/5.4-S2_rank4_octahedral_graph.png)
+<p align="center">
+  <a href="../assets/figures/5.4-S2_rank4_octahedral_graph.png">
+    <img src="../assets/figures/5.4-S2_rank4_octahedral_graph.png" width="500" alt="Middle shell $S_2^{(4)}$ как $K_{2,2,2}$">
+  </a>
+</p>
 
 **Утверждение 19.4.**
 
@@ -11834,7 +11910,11 @@ $$
 \Box
 $$
 
-![Outer shell $V_4$ как $K_{2,2,2,2}$](../assets/figures/5.5-V4_outer_shell_16_cell_graph.png)
+<p align="center">
+  <a href="../assets/figures/5.5-V4_outer_shell_16_cell_graph.png">
+    <img src="../assets/figures/5.5-V4_outer_shell_16_cell_graph.png" width="500" alt="Outer shell $V_4$ как $K_{2,2,2,2}$">
+  </a>
+</p>
 
 ## §20.3. Hamming decomposition $\Omega_4$
 
@@ -15405,7 +15485,11 @@ $$
 
 [Цветовой мост RGB/CMY/Kuhn/HSV](../02_Bridges/01_Color_RGB_Kuhn/TNR_RGB_Kuhn_Color_Bridge_RU.md) показывает одну реализованную проекцию ранга $3$: вершины $Q_3$ читаются как RGB/CMY-куб, $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$ становится шестивершинным цветовым носителем, отношения $R_1$, $R_2$, $R_3$ дают соответственно цветовой цикл, две триады и три комплементарные оси, а $R_1\cup R_2$ реализуется как октаэдральная оболочка $K_{2,2,2}$.
 
-![Цветовая октаэдральная оболочка $($X_{\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$](../assets/figures/B6_octahedral_shell_R12_K222.png)
+<p align="center">
+  <a href="../assets/figures/B6_octahedral_shell_R12_K222.png">
+    <img src="../assets/figures/B6_octahedral_shell_R12_K222.png" width="500" alt="Цветовая октаэдральная оболочка $($X_{\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$">
+  </a>
+</p>
 
 Арифметическая линия теперь разделена на две самостоятельные ветки. [03A AMR-SR](../01_Mathematical_Start/03A_TNR_AMR_Scale_Residue_Line_RU.md) работает на носителе $\mathcal R=\mathbb N_{>0}^2$, разбирает пары через $(a,b)=g(p,q)$, примитивные лучи, слои разности и скалярный остаток $\mathrm{Res}_{\mathrm{sr}}$. [03B AMR-DC](../01_Mathematical_Start/03B_AMR_Divisor_Carrier_and_Chain_Extension.md) работает на носителе делителей $D(N)=\{d:d\mid N\}$, читает его как произведение конечных цепей и выделяет $D^\circ(30)=\{2,3,5,6,10,15\}$ как арифметический аватар шеститочечной сцены. Эти две ветки не отождествляются: $\mathrm{Res}_{\mathrm{sr}}$ не является отношением $R_{\mathrm{oct}}$, а носители $\mathbb N_{>0}^2$ и $D(N)$ связываются только через явно заданные мостовые отображения.
 

@@ -164,153 +164,301 @@ $$
 
 **`1.1-P_R_P.png`** — полярный слой $(P,R_P)$, $P=\{a,-a\}$; $I$ является образом чтения, а не вершиной carrier-а.
 
-![Полярный слой](../assets/figures/1.1-P_R_P.png)
+<p align="center">
+  <a href="../assets/figures/1.1-P_R_P.png">
+    <img src="../assets/figures/1.1-P_R_P.png" width="500" alt="Полярный слой">
+  </a>
+</p>
 
 **`1.2-2_bits_Q_2.png`** — полный двухбитный carrier $Q_2=\{00,01,10,11\}$.
 
-![Двухбитный carrier](../assets/figures/1.2-2_bits_Q_2.png)
+<p align="center">
+  <a href="../assets/figures/1.2-2_bits_Q_2.png">
+    <img src="../assets/figures/1.2-2_bits_Q_2.png" width="500" alt="Двухбитный carrier">
+  </a>
+</p>
 
 **`1.3-C_4.png`** — graph-reading $(Q_2,H_1^{(2)})\cong C_4$.
 
-![C4 на Q2](../assets/figures/1.3-C_4.png)
+<p align="center">
+  <a href="../assets/figures/1.3-C_4.png">
+    <img src="../assets/figures/1.3-C_4.png" width="500" alt="C4 на Q2">
+  </a>
+</p>
 
 **`1.4-2K_2.png`** — graph-reading $(Q_2,H_2^{(2)})\cong 2K_2$.
 
-![2K2 на Q2](../assets/figures/1.4-2K_2.png)
+<p align="center">
+  <a href="../assets/figures/1.4-2K_2.png">
+    <img src="../assets/figures/1.4-2K_2.png" width="500" alt="2K2 на Q2">
+  </a>
+</p>
 
 **`1.5-K_4.png`** — complete graph-reading $(Q_2,R_{K_4}^{(2)})\cong K_4$.
 
-![K4 на Q2](../assets/figures/1.5-K_4.png)
+<p align="center">
+  <a href="../assets/figures/1.5-K_4.png">
+    <img src="../assets/figures/1.5-K_4.png" width="500" alt="K4 на Q2">
+  </a>
+</p>
 
 **`1.6-K_4-e.png`** — partial closure $(Q_2,R_{K_4-e}^{(2)})\cong K_4-e$.
 
-![K4 minus edge](../assets/figures/1.6-K_4-e.png)
+<p align="center">
+  <a href="../assets/figures/1.6-K_4-e.png">
+    <img src="../assets/figures/1.6-K_4-e.png" width="500" alt="K4 minus edge">
+  </a>
+</p>
 
 **`2.1-$Q_3$.png`** — полный трёхбитный carrier $Q_3=\{0,1\}^3$.
 
-![Q3](../assets/figures/2.1-Q_3.png)
+<p align="center">
+  <a href="../assets/figures/2.1-Q_3.png">
+    <img src="../assets/figures/2.1-Q_3.png" width="500" alt="Q3">
+  </a>
+</p>
 
 **`2.2-X_adm.png`** — admissible carrier $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$.
 
-![Xadm](../assets/figures/2.2-X_adm.png)
+<p align="center">
+  <a href="../assets/figures/2.2-X_adm.png">
+    <img src="../assets/figures/2.2-X_adm.png" width="500" alt="Xadm">
+  </a>
+</p>
 
 **`3.1-$R_1$-$C_6$.png`** — relation $R_1$: $($X_{\mathrm{adm}}$,$R_1$)\cong C_6$.
 
-![R1 C6](../assets/figures/3.1-R_1-C_6.png)
+<p align="center">
+  <a href="../assets/figures/3.1-R_1-C_6.png">
+    <img src="../assets/figures/3.1-R_1-C_6.png" width="500" alt="R1 C6">
+  </a>
+</p>
 
 **`3.2-$R_2$-2_triangles.png`** — relation $R_2$: $($X_{\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$.
 
-![R2 two triangles](../assets/figures/3.2-R_2-2_triangles.png)
+<p align="center">
+  <a href="../assets/figures/3.2-R_2-2_triangles.png">
+    <img src="../assets/figures/3.2-R_2-2_triangles.png" width="500" alt="R2 two triangles">
+  </a>
+</p>
 
 **`3.3-$R_3$-$3K_2$.png`** — relation $R_3$: $($X_{\mathrm{adm}}$,$R_3$)\cong 3K_2$.
 
-![R3 3K2](../assets/figures/3.3-R_3-3K_2.png)
+<p align="center">
+  <a href="../assets/figures/3.3-R_3-3K_2.png">
+    <img src="../assets/figures/3.3-R_3-3K_2.png" width="500" alt="R3 3K2">
+  </a>
+</p>
 
 **`4.1-$R_1$2-octahedron.png`** — union relation $R_{12} = R_1 \cup R_2$: $($X_{\mathrm{adm}}$,R_{12})\cong K_{2,2,2}$.
 
-![R12 octahedron](../assets/figures/4.1-R_12-octahedron.png)
+<p align="center">
+  <a href="../assets/figures/4.1-R_12-octahedron.png">
+    <img src="../assets/figures/4.1-R_12-octahedron.png" width="500" alt="R12 octahedron">
+  </a>
+</p>
 
 **`4.2-$R_1$-$C_6$.png`** — тот же relation $R_1\cong C_6$, показанный на октаэдральной раскладке.
 
-![R1 octahedral view](../assets/figures/4.2-R_1-C_6.png)
+<p align="center">
+  <a href="../assets/figures/4.2-R_1-C_6.png">
+    <img src="../assets/figures/4.2-R_1-C_6.png" width="500" alt="R1 octahedral view">
+  </a>
+</p>
 
 **`4.3-$R_2$-K_3-U-K_3.png`** — тот же relation $R_2\cong K_3\sqcup K_3$, показанный на октаэдральной раскладке.
 
-![R2 octahedral view](../assets/figures/4.3-R_2-K_3-U-K_3.png)
+<p align="center">
+  <a href="../assets/figures/4.3-R_2-K_3-U-K_3.png">
+    <img src="../assets/figures/4.3-R_2-K_3-U-K_3.png" width="500" alt="R2 octahedral view">
+  </a>
+</p>
 
 **`4.4-$R_3$-3K2.png`** — axial factorization $X_{\mathrm{adm}}\cong I_3\times\{-,+\}$ и relation $R_3\cong 3K_2$.
 
-![R3 axial view](../assets/figures/4.4-R_3-3K2.png)
+<p align="center">
+  <a href="../assets/figures/4.4-R_3-3K2.png">
+    <img src="../assets/figures/4.4-R_3-3K2.png" width="500" alt="R3 axial view">
+  </a>
+</p>
 
 **`4.5-S_1-S_2.png`** — shell split $S_1^{(3)}=\{001,010,100\}$, $S_2^{(3)}=\{011,101,110\}$.
 
-![Rank 3 shell split](../assets/figures/4.5-S_1-S_2.png)
+<p align="center">
+  <a href="../assets/figures/4.5-S_1-S_2.png">
+    <img src="../assets/figures/4.5-S_1-S_2.png" width="500" alt="Rank 3 shell split">
+  </a>
+</p>
 
 **`4.6-$R_1$-C6.png`** — oriented/transport reading of $R_1\cong C_6$ after choosing a cycle orientation.
 
-![Directed R1 cycle](../assets/figures/4.6-R_1-C6.png)
+<p align="center">
+  <a href="../assets/figures/4.6-R_1-C6.png">
+    <img src="../assets/figures/4.6-R_1-C6.png" width="500" alt="Directed R1 cycle">
+  </a>
+</p>
 
 **`4.8-chamber_code_projection_overview.png`** — chamber-code projection, $C_\varepsilon=\{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}$.
 
-![Chamber code overview](../assets/figures/4.8-chamber_code_projection_overview.png)
+<p align="center">
+  <a href="../assets/figures/4.8-chamber_code_projection_overview.png">
+    <img src="../assets/figures/4.8-chamber_code_projection_overview.png" width="500" alt="Chamber code overview">
+  </a>
+</p>
 
 **`4.9-chamber_pair_projection_tiles.png`** — pair projection tiles for the same chamber-code layer.
 
-![Chamber pair projection tiles](../assets/figures/4.9-chamber_pair_projection_tiles.png)
+<p align="center">
+  <a href="../assets/figures/4.9-chamber_pair_projection_tiles.png">
+    <img src="../assets/figures/4.9-chamber_pair_projection_tiles.png" width="500" alt="Chamber pair projection tiles">
+  </a>
+</p>
 
 **`4.10-chambers_two_octahedron_views.png`** — two-octahedron chamber view, $\mathrm{Cham}($O_3$)\cong Q_3$.
 
-![Two octahedron chamber views](../assets/figures/4.10-chambers_two_octahedron_views.png)
+<p align="center">
+  <a href="../assets/figures/4.10-chambers_two_octahedron_views.png">
+    <img src="../assets/figures/4.10-chambers_two_octahedron_views.png" width="500" alt="Two octahedron chamber views">
+  </a>
+</p>
 
 **`5.1-Q4_full_tesseract.png`** — полный carrier $Q_4\cong\mathbb{F}_2^4$.
 
-![Q4](../assets/figures/5.1-Q4_full_tesseract.png)
+<p align="center">
+  <a href="../assets/figures/5.1-Q4_full_tesseract.png">
+    <img src="../assets/figures/5.1-Q4_full_tesseract.png" width="500" alt="Q4">
+  </a>
+</p>
 
 **`5.2-P4_nonzero_layer.png`** — ненулевой layer $\mathcal P_4=Q_4\setminus\{0000\}$.
 
-![P4 nonzero layer](../assets/figures/5.2-P4_nonzero_layer.png)
+<p align="center">
+  <a href="../assets/figures/5.2-P4_nonzero_layer.png">
+    <img src="../assets/figures/5.2-P4_nonzero_layer.png" width="500" alt="P4 nonzero layer">
+  </a>
+</p>
 
 **`5.3-U4_full_nontrivial_layer.png`** — нетривиальный carrier $U_4=Q_4\setminus\{0000,1111\}$.
 
-![U4 nontrivial layer](../assets/figures/5.3-U4_full_nontrivial_layer.png)
+<p align="center">
+  <a href="../assets/figures/5.3-U4_full_nontrivial_layer.png">
+    <img src="../assets/figures/5.3-U4_full_nontrivial_layer.png" width="500" alt="U4 nontrivial layer">
+  </a>
+</p>
 
 **`5.4-S2_rank4_octahedral_graph.png`** — middle shell graph $(S_2^{(4)},\mathsf H_2^{(4)}|_{S_2^{(4)}})\cong K_{2,2,2}$.
 
-![S2 rank 4 octahedral graph](../assets/figures/5.4-S2_rank4_octahedral_graph.png)
+<p align="center">
+  <a href="../assets/figures/5.4-S2_rank4_octahedral_graph.png">
+    <img src="../assets/figures/5.4-S2_rank4_octahedral_graph.png" width="500" alt="S2 rank 4 octahedral graph">
+  </a>
+</p>
 
 **`5.5-V4_outer_shell_16_cell_graph.png`** — outer shell graph $(V_4,\Omega_4)\cong K_{2,2,2,2}$.
 
-![V4 outer shell](../assets/figures/5.5-V4_outer_shell_16_cell_graph.png)
+<p align="center">
+  <a href="../assets/figures/5.5-V4_outer_shell_16_cell_graph.png">
+    <img src="../assets/figures/5.5-V4_outer_shell_16_cell_graph.png" width="500" alt="V4 outer shell">
+  </a>
+</p>
 
 ### AF.9.2. Цветовой bridge-атлас
 
 **`B1_color_cube_Q3.png`** — полный RGB-cube $Q_3=\{0,1\}^3$.
 
-![RGB cube Q3](../assets/figures/B1_color_cube_Q3.png)
+<p align="center">
+  <a href="../assets/figures/B1_color_cube_Q3.png">
+    <img src="../assets/figures/B1_color_cube_Q3.png" width="500" alt="RGB cube Q3">
+  </a>
+</p>
 
 **`B2_chromatic_carrier_Xadm.png`** — $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$ как chromatic carrier.
 
-![Chromatic Xadm](../assets/figures/B2_chromatic_carrier_Xadm.png)
+<p align="center">
+  <a href="../assets/figures/B2_chromatic_carrier_Xadm.png">
+    <img src="../assets/figures/B2_chromatic_carrier_Xadm.png" width="500" alt="Chromatic Xadm">
+  </a>
+</p>
 
 **`B3_R1_hamming_cycle_C6.png`** — $($X_{\mathrm{adm}}$,$R_1$)\cong C_6$, цветовой Hamming-cycle.
 
-![Color R1 C6](../assets/figures/B3_R1_hamming_cycle_C6.png)
+<p align="center">
+  <a href="../assets/figures/B3_R1_hamming_cycle_C6.png">
+    <img src="../assets/figures/B3_R1_hamming_cycle_C6.png" width="500" alt="Color R1 C6">
+  </a>
+</p>
 
 **`B4_R2_two_triads_K3sqcupK3.png`** — $($X_{\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$, две цветовые triads.
 
-![Color R2 two triads](../assets/figures/B4_R2_two_triads_K3sqcupK3.png)
+<p align="center">
+  <a href="../assets/figures/B4_R2_two_triads_K3sqcupK3.png">
+    <img src="../assets/figures/B4_R2_two_triads_K3sqcupK3.png" width="500" alt="Color R2 two triads">
+  </a>
+</p>
 
 **`B5_R3_complementary_axes_3K2.png`** — $($X_{\mathrm{adm}}$,$R_3$)\cong 3K_2$, complementary colour axes.
 
-![Color R3 complementary axes](../assets/figures/B5_R3_complementary_axes_3K2.png)
+<p align="center">
+  <a href="../assets/figures/B5_R3_complementary_axes_3K2.png">
+    <img src="../assets/figures/B5_R3_complementary_axes_3K2.png" width="500" alt="Color R3 complementary axes">
+  </a>
+</p>
 
 **`B6_octahedral_shell_R12_K222.png`** — $($X_{\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$, octahedral chromatic shell.
 
-![Color octahedral shell](../assets/figures/B6_octahedral_shell_R12_K222.png)
+<p align="center">
+  <a href="../assets/figures/B6_octahedral_shell_R12_K222.png">
+    <img src="../assets/figures/B6_octahedral_shell_R12_K222.png" width="500" alt="Color octahedral shell">
+  </a>
+</p>
 
 **`B7a_TNR_chambers_RGB_CMY_side_A.png`** — colour chamber view, side A.
 
-![Colour chamber side A](../assets/figures/B7a_TNR_chambers_RGB_CMY_side_A.png)
+<p align="center">
+  <a href="../assets/figures/B7a_TNR_chambers_RGB_CMY_side_A.png">
+    <img src="../assets/figures/B7a_TNR_chambers_RGB_CMY_side_A.png" width="500" alt="Colour chamber side A">
+  </a>
+</p>
 
 **`B7b_TNR_chambers_RGB_CMY_side_B.png`** — colour chamber view, side B.
 
-![Colour chamber side B](../assets/figures/B7b_TNR_chambers_RGB_CMY_side_B.png)
+<p align="center">
+  <a href="../assets/figures/B7b_TNR_chambers_RGB_CMY_side_B.png">
+    <img src="../assets/figures/B7b_TNR_chambers_RGB_CMY_side_B.png" width="500" alt="Colour chamber side B">
+  </a>
+</p>
 
 **`B7c_TNR_chambers_two_octahedron_views.png`** — two colour chamber octahedron views, $\mathrm{Cham}($O_3$)\cong Q_3$.
 
-![Colour two chamber views](../assets/figures/B7c_TNR_chambers_two_octahedron_views.png)
+<p align="center">
+  <a href="../assets/figures/B7c_TNR_chambers_two_octahedron_views.png">
+    <img src="../assets/figures/B7c_TNR_chambers_two_octahedron_views.png" width="500" alt="Colour two chamber views">
+  </a>
+</p>
 
 **`B7d_chamber_code_projection_overview.png`** — chamber-code projection in colour.
 
-![Colour chamber code overview](../assets/figures/B7d_chamber_code_projection_overview.png)
+<p align="center">
+  <a href="../assets/figures/B7d_chamber_code_projection_overview.png">
+    <img src="../assets/figures/B7d_chamber_code_projection_overview.png" width="500" alt="Colour chamber code overview">
+  </a>
+</p>
 
 **`B7e_chamber_pair_projection_tiles.png`** — paired chamber projections in colour.
 
-![Colour chamber pair projection tiles](../assets/figures/B7e_chamber_pair_projection_tiles.png)
+<p align="center">
+  <a href="../assets/figures/B7e_chamber_pair_projection_tiles.png">
+    <img src="../assets/figures/B7e_chamber_pair_projection_tiles.png" width="500" alt="Colour chamber pair projection tiles">
+  </a>
+</p>
 
 **`B8_RGB_cube_Kuhn_HSV_sectors.png`** — RGB cube with Kuhn/HSV sectors, $[0,1]^3=\bigcup_{\sigma\in S_3}K_\sigma$.
 
-![RGB cube Kuhn HSV sectors](../assets/figures/B8_RGB_cube_Kuhn_HSV_sectors.png)
+<p align="center">
+  <a href="../assets/figures/B8_RGB_cube_Kuhn_HSV_sectors.png">
+    <img src="../assets/figures/B8_RGB_cube_Kuhn_HSV_sectors.png" width="500" alt="RGB cube Kuhn HSV sectors">
+  </a>
+</p>
 
 ### AF.9.3. Проверка наличия фигур
 

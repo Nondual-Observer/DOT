@@ -31,7 +31,11 @@ Held distinction passes through three levels of closure. At the **pair level**, 
 
 The minimal complete scene contains three opposite pairs: six positions forming the first complete geometric configuration of the theory.
 
-![Rank-3 octahedral shell](assets/figures/4.1-R_12-octahedron.png)
+<p align="center">
+  <a href="assets/figures/4.1-R_12-octahedron.png">
+    <img src="assets/figures/4.1-R_12-octahedron.png" width="500" alt="Rank-3 octahedral shell">
+  </a>
+</p>
 
 ## Tools and Result
 
@@ -57,7 +61,11 @@ Rank $3$ gives the first complete scene: two homogeneous positions are removed f
 
 Ranks $4$ and $5$ develop the same scheme on larger carriers. In rank $4$, the rank-3 octahedral structure reappears inside the middle layer of a fifteen-position carrier. In rank $5$, a thirty-one-position carrier is built with shell decomposition $5+10+10+5+1$, middle layers, an outer layer, the Petersen graph, selected cycles, and a Singer cycle. The final part states the general rank-growth law and the universal outer layer.
 
-![Rank-4 middle-layer octahedral structure](assets/figures/5.4-S2_rank4_octahedral_graph.png)
+<p align="center">
+  <a href="assets/figures/5.4-S2_rank4_octahedral_graph.png">
+    <img src="assets/figures/5.4-S2_rank4_octahedral_graph.png" width="500" alt="Rank-4 middle-layer octahedral structure">
+  </a>
+</p>
 
 ## Mathematical Start
 
@@ -93,7 +101,11 @@ Ranks $4$ and $5$ develop the same scheme on larger carriers. In rank $4$, the r
 
   A color projection of rank $3$. The carrier $Q_3$ is read as an RGB/CMY cube, while the six-point layer $X_{\mathrm{adm}}$ is read as the chromatic carrier without the black and white poles. The relations $R_1, R_2, R_3$ receive color forms: a cycle, two triads, and three complementary axes. The octahedral shell and the decomposition of the RGB cube into Kuhn sectors are fixed separately.
 
-  ![DOT chambers on the color octahedron](assets/figures/B7c_DOT_chambers_two_octahedron_views.png)
+  <p align="center">
+    <a href="assets/figures/B7c_DOT_chambers_two_octahedron_views.png">
+      <img src="assets/figures/B7c_DOT_chambers_two_octahedron_views.png" width="500" alt="DOT chambers on the color octahedron">
+    </a>
+  </p>
 
   Figure from the color bridge: DOT chambers on the color octahedron and the two RGB/CMY sides.
 

@@ -533,7 +533,11 @@ $$
 \text{full recovery of the polar relation}.
 $$
 
-![Polar layer $(P,R_P)$](../assets/figures/1.1-P_R_P.png)
+<p align="center">
+  <a href="../assets/figures/1.1-P_R_P.png">
+    <img src="../assets/figures/1.1-P_R_P.png" width="500" alt="Polar layer $(P,R_P)$">
+  </a>
+</p>
 
 The empty circle $I$ in the figure is not a vertex of the carrier $P$. It
 denotes the image of the reading:
@@ -1337,7 +1341,11 @@ Q_2=\mathbb{F}_2^2
 \{00,01,10,11\}.
 $$
 
-![Two-bit carrier $Q_2$](../assets/figures/1.2-2_bits_Q_2.png)
+<p align="center">
+  <a href="../assets/figures/1.2-2_bits_Q_2.png">
+    <img src="../assets/figures/1.2-2_bits_Q_2.png" width="500" alt="Two-bit carrier $Q_2$">
+  </a>
+</p>
 
 The notation
 
@@ -1695,7 +1703,11 @@ $$
 
 Orientation and path composition are not specified here.
 
-![Graph reading $C_4$ on $Q_2$](../assets/figures/1.3-C_4.png)
+<p align="center">
+  <a href="../assets/figures/1.3-C_4.png">
+    <img src="../assets/figures/1.3-C_4.png" width="500" alt="Graph reading $C_4$ on $Q_2$">
+  </a>
+</p>
 
 ## §4.9. Graph Reading $2K_2$
 
@@ -1746,7 +1758,11 @@ $$
 (Q_2,H_2^{(2)})\cong K_2\sqcup K_2=2K_2.
 $$
 
-![Graph reading $2K_2$ on $Q_2$](../assets/figures/1.4-2K_2.png)
+<p align="center">
+  <a href="../assets/figures/1.4-2K_2.png">
+    <img src="../assets/figures/1.4-2K_2.png" width="500" alt="Graph reading $2K_2$ on $Q_2$">
+  </a>
+</p>
 
 ## §4.10. Comparator $\chi$
 
@@ -2150,7 +2166,11 @@ $$
 (Q_2,R_{K_4}^{(2)})\cong K_4.
 $$
 
-![Full graph reading $K_4$ on $Q_2$](../assets/figures/1.5-K_4.png)
+<p align="center">
+  <a href="../assets/figures/1.5-K_4.png">
+    <img src="../assets/figures/1.5-K_4.png" width="500" alt="Full graph reading $K_4$ on $Q_2$">
+  </a>
+</p>
 
 ## §4.16. Simplex Sectors
 
@@ -2411,7 +2431,11 @@ $$
 (\Delta_{\vee},R_{\Delta_{\vee}}).
 $$
 
-![Partial closure $K_4-e$ on $Q_2$](../assets/figures/1.6-K_4-e.png)
+<p align="center">
+  <a href="../assets/figures/1.6-K_4-e.png">
+    <img src="../assets/figures/1.6-K_4-e.png" width="500" alt="Partial closure $K_4-e$ on $Q_2$">
+  </a>
+</p>
 
 ## §4.18. Relation Readings of Rank 2
 
@@ -2511,7 +2535,11 @@ Q_3=
 \{000,001,010,011,100,101,110,111\}.
 $$
 
-![Three-bit carrier $Q_3$](../assets/figures/2.1-Q_3.png)
+<p align="center">
+  <a href="../assets/figures/2.1-Q_3.png">
+    <img src="../assets/figures/2.1-Q_3.png" width="500" alt="Three-bit carrier $Q_3$">
+  </a>
+</p>
 
 The notation
 
@@ -2708,7 +2736,11 @@ X_{\mathrm{adm}}
 \{001,010,011,100,101,110\}.
 $$
 
-![Admissible carrier $X_{\mathrm{adm}}$](../assets/figures/2.2-X_adm.png)
+<p align="center">
+  <a href="../assets/figures/2.2-X_adm.png">
+    <img src="../assets/figures/2.2-X_adm.png" width="500" alt="Admissible carrier $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 In §5, $X_{\mathrm{adm}}$ is introduced as a carrier set.
 
@@ -2902,7 +2934,11 @@ $$
 100\leftrightarrow 011.
 $$
 
-![Complement pairs on $X_{\mathrm{adm}}$](../assets/figures/3.3-R_3-3K_2.png)
+<p align="center">
+  <a href="../assets/figures/3.3-R_3-3K_2.png">
+    <img src="../assets/figures/3.3-R_3-3K_2.png" width="500" alt="Complement pairs on $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 At this level, complement is an involution $(x \mapsto \overline{x} \mapsto x)$,
 extending the complement transition introduced in §4.
@@ -3082,7 +3118,11 @@ $$
 (X_{\mathrm{adm}},R_1)\cong C_6.
 $$
 
-![Graph reading $R_1\cong C_6$ on $X_{\mathrm{adm}}$](../assets/figures/3.1-R_1-C_6.png)
+<p align="center">
+  <a href="../assets/figures/3.1-R_1-C_6.png">
+    <img src="../assets/figures/3.1-R_1-C_6.png" width="500" alt="Graph reading $R_1\cong C_6$ on $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 **Remark.**
 In the full $Q_3$, each vertex has three one-step Hamming neighbors. In the
@@ -3181,7 +3221,11 @@ $$
 |E(R_2)|=6.
 $$
 
-![Graph reading $R_2\cong K_3\sqcup K_3$ on $X_{\mathrm{adm}}$](../assets/figures/3.2-R_2-2_triangles.png)
+<p align="center">
+  <a href="../assets/figures/3.2-R_2-2_triangles.png">
+    <img src="../assets/figures/3.2-R_2-2_triangles.png" width="500" alt="Graph reading $R_2\cong K_3\sqcup K_3$ on $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 ## §6.6. Relation $R_3$: Complement Relation
 
@@ -3270,7 +3314,11 @@ $$
 (X_{\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
-![Graph reading $R_3\cong 3K_2$ on $X_{\mathrm{adm}}$](../assets/figures/3.3-R_3-3K_2.png)
+<p align="center">
+  <a href="../assets/figures/3.3-R_3-3K_2.png">
+    <img src="../assets/figures/3.3-R_3-3K_2.png" width="500" alt="Graph reading $R_3\cong 3K_2$ on $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 **Remark.**
 $R_1$ and $R_3$ use the same carrier $X_{\mathrm{adm}}$, but define
@@ -3744,7 +3792,11 @@ $$
 
 The count agrees with the structural check.
 
-![Union relation $R_1\cup R_2$ as $K_{2,2,2}$](../assets/figures/4.1-R_12-octahedron.png)
+<p align="center">
+  <a href="../assets/figures/4.1-R_12-octahedron.png">
+    <img src="../assets/figures/4.1-R_12-octahedron.png" width="500" alt="Union relation $R_1\cup R_2$ as $K_{2,2,2}$">
+  </a>
+</p>
 
 ## §7.6. $K_{2,2,2}$ as the $1$-Skeleton of the Octahedron
 
@@ -4298,7 +4350,11 @@ $$
 \Box
 $$
 
-![Chamber codes $C_\varepsilon$](../assets/figures/4.8-chamber_code_projection_overview.png)
+<p align="center">
+  <a href="../assets/figures/4.8-chamber_code_projection_overview.png">
+    <img src="../assets/figures/4.8-chamber_code_projection_overview.png" width="500" alt="Chamber codes $C_\varepsilon$">
+  </a>
+</p>
 
 ## §8.5. Coordinate Notation of Chambers
 
@@ -4427,7 +4483,11 @@ $$
 \mathrm{Cham}(O_3)\cong Q_3.
 $$
 
-![Two octahedral projections of the chamber layer](../assets/figures/4.10-chambers_two_octahedron_views.png)
+<p align="center">
+  <a href="../assets/figures/4.10-chambers_two_octahedron_views.png">
+    <img src="../assets/figures/4.10-chambers_two_octahedron_views.png" width="500" alt="Two octahedral projections of the chamber layer">
+  </a>
+</p>
 
 This bijection codes the chambers of the octahedron by elements of $Q_3$.
 The vertex carrier $X_{\mathrm{adm}}$ and the chamber carrier remain
@@ -11460,7 +11520,11 @@ $$
 Q_4=\mathbb{F}_2^4.
 $$
 
-![Full carrier $Q_4$](../assets/figures/5.1-Q4_full_tesseract.png)
+<p align="center">
+  <a href="../assets/figures/5.1-Q4_full_tesseract.png">
+    <img src="../assets/figures/5.1-Q4_full_tesseract.png" width="500" alt="Full carrier $Q_4$">
+  </a>
+</p>
 
 The nonzero layer:
 
@@ -11468,7 +11532,11 @@ $$
 \mathcal P_4=Q_4\setminus\{0000\}.
 $$
 
-![Nonzero layer $\mathcal P_4$](../assets/figures/5.2-P4_nonzero_layer.png)
+<p align="center">
+  <a href="../assets/figures/5.2-P4_nonzero_layer.png">
+    <img src="../assets/figures/5.2-P4_nonzero_layer.png" width="500" alt="Nonzero layer $\mathcal P_4$">
+  </a>
+</p>
 
 The full nontrivial carrier:
 
@@ -11476,7 +11544,11 @@ $$
 U_4=Q_4\setminus\{0000,1111\}.
 $$
 
-![Nontrivial carrier $U_4$](../assets/figures/5.3-U4_full_nontrivial_layer.png)
+<p align="center">
+  <a href="../assets/figures/5.3-U4_full_nontrivial_layer.png">
+    <img src="../assets/figures/5.3-U4_full_nontrivial_layer.png" width="500" alt="Nontrivial carrier $U_4$">
+  </a>
+</p>
 
 Outer shell:
 
@@ -11964,7 +12036,11 @@ $$
 \Box
 $$
 
-![Middle shell $S_2^{(4)}$ as $K_{2,2,2}$](../assets/figures/5.4-S2_rank4_octahedral_graph.png)
+<p align="center">
+  <a href="../assets/figures/5.4-S2_rank4_octahedral_graph.png">
+    <img src="../assets/figures/5.4-S2_rank4_octahedral_graph.png" width="500" alt="Middle shell $S_2^{(4)}$ as $K_{2,2,2}$">
+  </a>
+</p>
 
 **Statement 19.4.**
 
@@ -12197,7 +12273,11 @@ $$
 \Box
 $$
 
-![Outer shell $V_4$ as $K_{2,2,2,2}$](../assets/figures/5.5-V4_outer_shell_16_cell_graph.png)
+<p align="center">
+  <a href="../assets/figures/5.5-V4_outer_shell_16_cell_graph.png">
+    <img src="../assets/figures/5.5-V4_outer_shell_16_cell_graph.png" width="500" alt="Outer shell $V_4$ as $K_{2,2,2,2}$">
+  </a>
+</p>
 
 ## §20.3. Hamming Decomposition of $\Omega_4$
 
@@ -15977,7 +16057,11 @@ six-vertex color carrier, the relations $R_1$, $R_2$, and $R_3$ give
 respectively the color cycle, two triads, and three complementary axes, and
 $R_1\cup R_2$ is realized as the octahedral shell $K_{2,2,2}$.
 
-![Color octahedral shell $($X_{\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$](../assets/figures/B6_octahedral_shell_R12_K222.png)
+<p align="center">
+  <a href="../assets/figures/B6_octahedral_shell_R12_K222.png">
+    <img src="../assets/figures/B6_octahedral_shell_R12_K222.png" width="500" alt="Color octahedral shell $($X_{\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$">
+  </a>
+</p>
 
 The arithmetic line is now split into two separate branches. [03A AMR-SR](../01_Mathematical_Start/03A_DOT_AMR_Scale_Residue_Line_EN.md)
 works on the carrier $\mathcal R=\mathbb N_{>0}^2$, analyzes pairs through

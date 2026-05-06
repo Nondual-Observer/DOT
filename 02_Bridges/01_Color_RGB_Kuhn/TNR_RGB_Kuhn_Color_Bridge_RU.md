@@ -78,7 +78,11 @@ $$
 Q_3=\{0,1\}^3.
 $$
 
-![Бинарный RGB-куб $Q_3$](../../assets/figures/B1_color_cube_Q3.png)
+<p align="center">
+  <a href="../../assets/figures/B1_color_cube_Q3.png">
+    <img src="../../assets/figures/B1_color_cube_Q3.png" width="500" alt="Бинарный RGB-куб $Q_3$">
+  </a>
+</p>
 
 Фиксируется стандартная RGB-конвенция:
 
@@ -138,7 +142,11 @@ $$
 Q_3\setminus\{000,111\}.
 $$
 
-![Хроматический carrier $X_{\mathrm{adm}}$](../../assets/figures/B2_chromatic_carrier_Xadm.png)
+<p align="center">
+  <a href="../../assets/figures/B2_chromatic_carrier_Xadm.png">
+    <img src="../../assets/figures/B2_chromatic_carrier_Xadm.png" width="500" alt="Хроматический carrier $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 ---
 
@@ -184,7 +192,11 @@ $$
 
 является конечным graph-фактом на $X_{\mathrm{adm}}$.
 
-![Цикл $R_1$ на $X_{\mathrm{adm}}$](../../assets/figures/B3_R1_hamming_cycle_C6.png)
+<p align="center">
+  <a href="../../assets/figures/B3_R1_hamming_cycle_C6.png">
+    <img src="../../assets/figures/B3_R1_hamming_cycle_C6.png" width="500" alt="Цикл $R_1$ на $X_{\mathrm{adm}}$">
+  </a>
+</p>
 
 ### B.3.2. $R_2=K_3\sqcup K_3$
 
@@ -214,7 +226,11 @@ $$
 R_2=K_3\sqcup K_3.
 $$
 
-![Две цветовые триады $R_2$](../../assets/figures/B4_R2_two_triads_K3sqcupK3.png)
+<p align="center">
+  <a href="../../assets/figures/B4_R2_two_triads_K3sqcupK3.png">
+    <img src="../../assets/figures/B4_R2_two_triads_K3sqcupK3.png" width="500" alt="Две цветовые триады $R_2$">
+  </a>
+</p>
 
 ### B.3.3. $R_3=3K_2$
 
@@ -258,7 +274,11 @@ $$
 R_3=3K_2.
 $$
 
-![Комплементарные оси $R_3$](../../assets/figures/B5_R3_complementary_axes_3K2.png)
+<p align="center">
+  <a href="../../assets/figures/B5_R3_complementary_axes_3K2.png">
+    <img src="../../assets/figures/B5_R3_complementary_axes_3K2.png" width="500" alt="Комплементарные оси $R_3$">
+  </a>
+</p>
 
 ---
 
@@ -310,19 +330,43 @@ $$
 
 Октаэдральный цветовой shell является реализованным геометрическим видом этого конечного графа.
 
-![Октаэдральный shell $R_1\cup R_2$](../../assets/figures/B6_octahedral_shell_R12_K222.png)
+<p align="center">
+  <a href="../../assets/figures/B6_octahedral_shell_R12_K222.png">
+    <img src="../../assets/figures/B6_octahedral_shell_R12_K222.png" width="500" alt="Октаэдральный shell $R_1\cup R_2$">
+  </a>
+</p>
 
 Chamber-reading этого shell-а даёт восемь chamber-состояний:
 
-![ТНР chambers, сторона A](../../assets/figures/B7a_TNR_chambers_RGB_CMY_side_A.png)
+<p align="center">
+  <a href="../../assets/figures/B7a_TNR_chambers_RGB_CMY_side_A.png">
+    <img src="../../assets/figures/B7a_TNR_chambers_RGB_CMY_side_A.png" width="500" alt="ТНР chambers, сторона A">
+  </a>
+</p>
 
-![ТНР chambers, сторона B](../../assets/figures/B7b_TNR_chambers_RGB_CMY_side_B.png)
+<p align="center">
+  <a href="../../assets/figures/B7b_TNR_chambers_RGB_CMY_side_B.png">
+    <img src="../../assets/figures/B7b_TNR_chambers_RGB_CMY_side_B.png" width="500" alt="ТНР chambers, сторона B">
+  </a>
+</p>
 
-![Две октаэдральные проекции chamber-layer-а](../../assets/figures/B7c_TNR_chambers_two_octahedron_views.png)
+<p align="center">
+  <a href="../../assets/figures/B7c_TNR_chambers_two_octahedron_views.png">
+    <img src="../../assets/figures/B7c_TNR_chambers_two_octahedron_views.png" width="500" alt="Две октаэдральные проекции chamber-layer-а">
+  </a>
+</p>
 
-![Коды chamber-проекции](../../assets/figures/B7d_chamber_code_projection_overview.png)
+<p align="center">
+  <a href="../../assets/figures/B7d_chamber_code_projection_overview.png">
+    <img src="../../assets/figures/B7d_chamber_code_projection_overview.png" width="500" alt="Коды chamber-проекции">
+  </a>
+</p>
 
-![Парные chamber-проекции](../../assets/figures/B7e_chamber_pair_projection_tiles.png)
+<p align="center">
+  <a href="../../assets/figures/B7e_chamber_pair_projection_tiles.png">
+    <img src="../../assets/figures/B7e_chamber_pair_projection_tiles.png" width="500" alt="Парные chamber-проекции">
+  </a>
+</p>
 
 ---
 
@@ -402,7 +446,11 @@ $$
 
 Этот слой является последующей реализацией strict finite core.
 
-![RGB cube with Kuhn/HSV sectors](../../assets/figures/B8_RGB_cube_Kuhn_HSV_sectors.png)
+<p align="center">
+  <a href="../../assets/figures/B8_RGB_cube_Kuhn_HSV_sectors.png">
+    <img src="../../assets/figures/B8_RGB_cube_Kuhn_HSV_sectors.png" width="500" alt="RGB cube with Kuhn/HSV sectors">
+  </a>
+</p>
 
 ---
 
