@@ -33,7 +33,7 @@ $$
 
 <p align="center">
   <a href="assets/figures/4.1-R_12-octahedron.png">
-    <img src="assets/figures/4.1-R_12-octahedron.png" width="600" alt="Октаэдральная оболочка ранга 3">
+    <img src="assets/figures/4.1-R_12-octahedron.png" width="500" alt="Октаэдральная оболочка ранга 3">
   </a>
 </p>
 
@@ -63,7 +63,7 @@ $$
 
 <p align="center">
   <a href="assets/figures/5.4-S2_rank4_octahedral_graph.png">
-    <img src="assets/figures/5.4-S2_rank4_octahedral_graph.png" width="600" alt="Октаэдральная структура в среднем слое ранга 4">
+    <img src="assets/figures/5.4-S2_rank4_octahedral_graph.png" width="500" alt="Октаэдральная структура в среднем слое ранга 4">
   </a>
 </p>
 
@@ -103,7 +103,7 @@ $$
 
   <p align="center">
     <a href="assets/figures/B7c_TNR_chambers_two_octahedron_views.png">
-      <img src="assets/figures/B7c_TNR_chambers_two_octahedron_views.png" width="600" alt="Камеры ТНР на цветовом октаэдре">
+      <img src="assets/figures/B7c_TNR_chambers_two_octahedron_views.png" width="500" alt="Камеры ТНР на цветовом октаэдре">
     </a>
   </p>
 
