@@ -71,15 +71,14 @@ $$
 equipped with:
 
 1. the involution
-   $$
+$$
    c(x)=1-x,
-   $$
+$$
    where subtraction is taken coordinatewise;
 2. the relation $R_2$ consisting of the edges inside the two triples
-   $$
+$$
    \{100,010,001\},\qquad \{011,101,110\}.
-   $$
-
+$$
 We prove that this finite combinatorial datum determines a canonical combinatorial model of:
 
 1. the root system of type $A_2$;
@@ -162,10 +161,9 @@ We interpret:
 - $X_1$ as the weight diagram of the fundamental representation $\mathbf 3$;
 - $X_2$ as the weight diagram of the dual representation $\overline{\mathbf 3}$;
 - $c$ as the discrete exchange
-  $$
+$$
   \mathbf 3 \leftrightarrow \overline{\mathbf 3}.
-  $$
-
+$$
 Thus the six-point set carries the combinatorial shape of
 
 $$

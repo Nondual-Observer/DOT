@@ -60,12 +60,12 @@ Reading order:
 In compressed form, the structure of the section is:
 
 ```text
-    $$
+$$
     V_n / U_n, O_n, \mathrm{Cham}(O_n)
-    $$
-    $$
+$$
+$$
     \to \text{reduction } n \to n-1
-    $$
+$$
 -> \text{categorical formulations}
 -> \text{operator layer}
 -> \text{exact closure in } n=3.
@@ -99,33 +99,29 @@ The proof is built in five steps.
 
 1. Fix the external $4$-dimensional layer
 
-   $$
+$$
    V_4=S_1^{(4)}\sqcup S_3^{(4)}
-   $$
-
+$$
    and do not mix it with the full cube $\{0,1\}^4$ or with the future
    $6$-vertex reduction.
 
 2. Show that the residual graph on $V_4$ is
 
-   $$
+$$
    K_{2,2,2,2}.
-   $$
-
+$$
 3. Delete one complementary pair and prove that the induced subgraph is
 
-   $$
+$$
    K_{2,2,2}.
-   $$
-
+$$
 4. Identify this graph with the standard $1$-skeleton of the octahedron.
 
 5. Independently of the graph reduction, use the already constructed bijection
 
-   $$
+$$
    \mathrm{Cham}(O_3)\cong Q_3
-   $$
-
+$$
    and conclude that the full $4D \to 3D$ transition in DOT has a two-step,
    not one-step, nature.
 
@@ -234,25 +230,22 @@ This yields three different combinatorial entities:
 
 1. the external cross-polytope layer
 
-   $$
+$$
    V_4=S_1^{(4)}\sqcup S_3^{(4)},
    \qquad |V_4|=8;
-   $$
-
+$$
 2. the equatorial shell
 
-   $$
+$$
    S_2^{(4)},
    \qquad |S_2^{(4)}|=6;
-   $$
-
+$$
 3. the full nontrivial package
 
-   $$
+$$
    U_4:=S_1^{(4)}\sqcup S_2^{(4)}\sqcup S_3^{(4)},
    \qquad |U_4|=14.
-   $$
-
+$$
 **Proof.** This is a direct binomial count. $∎$
 
 Theorem 8.5 on the correct transition $4D \to 3D$ uses only the external layer
@@ -272,16 +265,14 @@ For each $n\ge 3$, define two structurally different objects:
 
 1. the strict external carrier
 
-   $$
+$$
    V_n:=S_1^{(n)}\sqcup S_{n-1}^{(n)};
-   $$
-
+$$
 2. the extended nontrivial shell package
 
-   $$
+$$
    U_n:=\bigsqcup_{k=1}^{n-1} S_k^{(n)}=\{0,1\}^n\setminus\{0^n,1^n\}.
-   $$
-
+$$
 The object $V_n$ is intended for the strict cross-polytope carrier, while
 $U_n$ is intended for the broader shell extension.
 
@@ -328,18 +319,16 @@ $$
 3. On $V_n$, the bitwise complement partitions the vertices into exactly $n$
    complementary pairs, and the residual graph on $V_n$ is
 
-   $$
+$$
    K_{2,2,\dots,2}
-   $$
-
+$$
    with $n$ parts.
 
 4. For even $n$, the middle shell
 
-   $$
+$$
    S_{n/2}^{(n)}
-   $$
-
+$$
    enters $U_n$, but does not enter $V_n$.
 
 Consequently, the external cross-polytope carrier and the full nontrivial shell
@@ -489,9 +478,9 @@ $s\in\{\pm1\}$.
 
 1. The incidence condition has the form $\sigma_i=s$. The remaining $n-1$
    signs are free, so the pole belongs to exactly
-   $$
+$$
    2^{n-1}
-   $$
+$$
    chambers. This gives
 $$
 B_n \mathbf{1}_{2^n} = 2^{n-1} \mathbf{1}_{2n}.
@@ -506,13 +495,13 @@ $$
    incident to pole $v$, that is, $2^{n-1}$.
 4. Let $v=s e_i$ and $w=t e_j$ with $i\neq j$. Then the incidence
    conditions are
-   $$
+$$
    \sigma_i=s,\qquad \sigma_j=t.
-   $$
+$$
    The remaining $n-2$ coordinates are free, so the number of common chambers is
-   $$
+$$
    2^{n-2}.
-   $$
+$$
    Exactly such pairs form the edges of $K_{2,2,\dots,2}$.
 5. If $w=-v$, then one would need simultaneously $\sigma_i=s$ and
    $\sigma_i=-s$, which is impossible. Therefore the corresponding entry for
@@ -894,16 +883,14 @@ $4D$-layer to the $3D$-package of DOT.
 
 1. Graph reduction:
 
-   $$
+$$
    G_4 = K_{2,2,2,2} \rightsquigarrow K_{2,2,2}\cong O_3^{(1)}.
-   $$
-
+$$
 2. Independent cellular duality:
 
-   $$
+$$
    \mathrm{Cham}(O_3)\cong Q_3.
-   $$
-
+$$
 Therefore the correct $4D\to3D$ transition in DOT is not described by one
 bijection
 
@@ -923,16 +910,16 @@ $$
 
 1. By Lemma 8.4, deleting one complementary pair from $V_4$ sends the residual
    graph $K_{2,2,2,2}$ to the induced subgraph
-   $$
+$$
    K_{2,2,2},
-   $$
+$$
    which by Theorem 4.2 is realized as the graph of the octahedral carrier
    $O_3^{(1)}$.
 2. By Corollary 4.4.1, the set of octahedral chambers is bijectively encoded by
    the vertices of the cube $Q_3$:
-   $$
+$$
    \mathrm{Cham}(O_3)\cong Q_3.
-   $$
+$$
 3. The first step concerns vertices of the residual graph and reduces the number
    of polar pairs from four to three. The second step concerns no longer the
    vertices of the residual graph, but another type of object: chambers of the
@@ -1089,20 +1076,18 @@ that specifies the working axis of the corresponding octahedral pole.
 1. If $v=100$, then $w(v)=1$ and the minority bit is on axis $1$. The
    condition gives
 
-   $$
+$$
    \sigma_1=(-1)^1=-1,
-   $$
-
+$$
    while $\sigma_2,\sigma_3$ are free. We obtain $4$ chambers of the form
    $(-1,\pm1,\pm1)$.
 
 2. If $v=011$, then $w(v)=2$ and the minority bit is again on axis $1$.
    The condition gives
 
-   $$
+$$
    \sigma_1=(-1)^0=+1,
-   $$
-
+$$
    while $\sigma_2,\sigma_3$ are free. We obtain $4$ chambers of the form
    $(+1,\pm1,\pm1)$.
 
@@ -1151,30 +1136,26 @@ be the orthogonal projection forgetting the $k$-th coordinate. Then:
 
 1. the section of the cross-polytope is given by
 
-   $$
+$$
    O_n\cap H_k=\iota_k(O_{n-1});
-   $$
-
+$$
 2. the projection is surjective:
 
-   $$
+$$
    \pi_k(O_n)=O_{n-1};
-   $$
-
+$$
 3. for every $y\in O_{n-1}$, the preimage is the segment
 
-   $$
+$$
    \pi_k^{-1}(y)\cap O_n
    =
    \{\iota_k(y)+t e_k:\ |t|\le 1-\|y\|_1\};
-   $$
-
+$$
 4. the vertices of the section are
 
-   $$
+$$
    \{\pm e_i:\ i\neq k\},
-   $$
-
+$$
    that is, exactly the poles of the $(n-1)$-dimensional cross-polytope.
 
 **Proof.** For a point $x=(x_1,\dots,x_n)\in H_k$, the condition $x\in O_n$
@@ -1286,10 +1267,9 @@ For $n=4$ and the choice of axis $k=4$, we have:
 
 1. the $16$-cell
 
-   $$
+$$
    O_4=\{x\in\mathbb R^4:\ |x_1|+|x_2|+|x_3|+|x_4|\le 1\}
-   $$
-
+$$
    intersects the hyperplane $x_4=0$ in the standard octahedron $O_3$;
 
 2. its $16$ sign chambers collapse pairwise by the sign of $x_4$ into the
@@ -1374,22 +1354,19 @@ For each $n\ge 3$, define:
 
 1. the category of the external carrier
 
-   $$
+$$
    \mathcal{R}_n:=\mathrm{Path}\bigl(G_{\mathrm{res}}(V_n)\bigr);
-   $$
-
+$$
 2. the category of chambers
 
-   $$
+$$
    \mathcal{C}_n:=\mathrm{Path}\bigl(\mathrm{Cham}(O_n)\bigr);
-   $$
-
+$$
 3. the category of the block carrier
 
-   $$
+$$
    \mathcal{B}_n:=\mathrm{Path}\bigl(A_{\mathrm{block}}^{(n)}\bigr).
-   $$
-
+$$
 ### Proposition 8.10 [D|cat]. General Chamber Functor of Sign-Bit Encoding
 
 The map
@@ -1418,18 +1395,16 @@ Fix an axis $k$.
 1. The graph isomorphism $\rho_k:V_n^{(k)}\to V_{n-1}$ from Theorem 8.2.9
    induces an isomorphism of categories
 
-   $$
+$$
 R_k := \mathrm{Path}(\rho_k) \colon \mathrm{Path}\bigl(G_{\mathrm{res}}(V_n^{(k)})\bigr) \xrightarrow{\cong} \mathcal{R}_{n-1}.
-   $$
-
+$$
 2. Forgetting one sign,
    $\tau_k:\{\pm1\}^n\to\{\pm1\}^{n-1}$, from Theorem 8.2.10 induces a
    functor
 
-   $$
+$$
 T_k \colon \mathcal{C}_n \to \mathcal{C}_{n-1},
-   $$
-
+$$
    acting on generating edges as follows:
    - an edge changing the sign on axis $k$ is sent to an identity;
    - an edge changing the sign on another axis is sent to the corresponding
@@ -1631,18 +1606,16 @@ Then:
    two-bit cell as a square face of $Q_3$;
 2. the induced subgraph on the vertices of the face defines a functor
 
-   $$
+$$
    V_{\mathrm{sq}}:\mathbf{Face}_2(Q_3)\to \mathbf{Graph}_{\mathrm{locinj}},
-   $$
-
+$$
    and always gives $C_4$;
 
 3. the edge reading of the same face inside $L(Q_3)$ defines a functor
 
-   $$
+$$
    E_{\mathrm{sq}}:\mathbf{Face}_2(Q_3)\to \mathbf{Graph}_{\mathrm{locinj}},
-   $$
-
+$$
    and also always gives $C_4$.
 
 Thus the local two-bit square functor enters the strict $3$-bit layer through
@@ -1706,10 +1679,9 @@ naturally split into three classes:
    these are the edges of the cube $Q_3$ whose two endpoints both lie in the
    admissible layer
 
-   $$
+$$
    X_{\mathrm{adm}}=Q_3\setminus\{000,111\};
-   $$
-
+$$
 2. **three descending polar edges**
 
    these are edges incident to the pole $000$;
@@ -1802,45 +1774,37 @@ This is the minimal type vocabulary that should not be mixed below.
 For the same objects, distinguish the following basic arrow types:
 
 1. **local embedding**
-   $$
+$$
    \mathbb F_2^2 \hookrightarrow Q_3;
-   $$
-
+$$
 2. **restriction / deletion of poles**
-   $$
+$$
    Q_3 \to X_{\mathrm{adm}};
-   $$
-
+$$
 3. **relational reading**
-   $$
+$$
    X_{\mathrm{adm}} \to (R_1,R_2,R_3);
-   $$
-
+$$
 4. **graph realization**
-   $$
+$$
    (R_i) \rightsquigarrow C_6,K_3\sqcup K_3,3K_2,K_{2,2,2};
-   $$
-
+$$
 5. **incidence lift**
-   $$
+$$
    (X_{\mathrm{adm}},R_i)\to B,M;
-   $$
-
+$$
 6. **operator lift**
-   $$
+$$
    Q_3 \to L(Q_3);
-   $$
-
+$$
 7. **restricted square functor**
-   $$
+$$
    \mathrm{Sq}:\mathbf{Bin}_2^{\mathrm{sq}}\to \mathbf{Graph}_{\mathrm{locinj}};
-   $$
-
+$$
 8. **reduction**
-   $$
+$$
    n \to n-1.
-   $$
-
+$$
 Here the different notational arrows $(\hookrightarrow,\to,\rightsquigarrow)$
 do not indicate different formal categories; they indicate that the transition
 types are different and should not be identified without an additional proof.
@@ -2008,9 +1972,9 @@ are possible without changing their global status in the body.
 
 - $X_{\mathrm{adm}} \to (R_1,R_2,R_3)$ admits a restricted functorial
   refinement
-  $$
+$$
   \mathrm{Rel}:\mathbf{Adm3}^{\mathrm{iso}}\to \mathbf{ASch}_3^{\mathrm{lab}},
-  $$
+$$
   where $\mathbf{Adm3}^{\mathrm{iso}}$ is the small groupoid of strict
   admissible $3$-bit realizations and relation-preserving bijections;
 - graph reading admits a functorial refinement not as one general functor of the
@@ -2618,9 +2582,9 @@ More precisely:
    $A_{R_1},A_{R_2},A_{R_3}$;
 2. $\mathrm{shell\_types}$ is extracted from the block behavior of these
    matrices with respect to the decomposition
-   $$
+$$
    P\mathcal H_3=\mathcal C_1\oplus \mathcal C_2;
-   $$
+$$
 3. $\mathrm{shared\_chambers}$ is extracted from the clique incidence of
    the graph $K_{2,2,2}$, recovered from $A_{R_1}+A_{R_2}$.
 
@@ -2759,10 +2723,9 @@ The strict DOT core takes the following form.
 2. **The strict finite carrier is defined.**
    The axiomatic layer [A] is formalized by the three initial constraints
    $Z_D,Z_F,Z_C$, after which the admissible carrier takes the exact form
-   $$
+$$
    X_{\mathrm{adm}} = \{0, 1\}^3 \setminus \{000, 111\}.
-   $$
-
+$$
 3. **The relational layer is defined.**
    The six admissible states carry the package $R_0,R_1,R_2,R_3$, from which
    two main exact graph structures are extracted: the primitive cycle $C_6$

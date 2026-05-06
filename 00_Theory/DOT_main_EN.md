@@ -190,7 +190,7 @@ $$
 the fiber
 
 $$
-X_y=q^{-1}(y)={x\in X:q(x)=y}
+X_y=q^{-1}(y)=\{x\in X:q(x)=y\}
 $$
 
 is defined. The fiber shows which elements of the original carrier are read as
@@ -333,7 +333,7 @@ $$
 The formal structure of a presentation admits trivial cases. For example,
 
 $$
-X={*},
+X=\{*\},
 $$
 
 $$
@@ -341,11 +341,11 @@ R=\varnothing,
 $$
 
 $$
-q=\mathrm{id}_{{*}},
+q=\mathrm{id}_{\{*\}},
 $$
 
 $$
-\mathrm{rec}(*)=({*},\varnothing).
+\mathrm{rec}(*)=(\{*\},\varnothing).
 $$
 
 This is a correct presentation with a one-point fiber of the identity reading.
@@ -369,13 +369,13 @@ $$
 where
 
 $$
-P={a,-a},
+P=\{a,-a\},
 $$
 
 and
 
 $$
-R_P={(a,-a),(-a,a)}.
+R_P=\{(a,-a),(-a,a)\}.
 $$
 
 The relation $R_P$ is symmetric and irreflexive. It is written using ordered
@@ -400,7 +400,7 @@ are called polarities.
 Let
 
 $$
-\mathbf I={I}.
+\mathbf I=\{I\}.
 $$
 
 Define the reading
@@ -445,7 +445,7 @@ Therefore $I$ is called the invariant reading of the polar layer.
 The fiber over $I$ is
 
 $$
-\pi^{-1}(I)=P={a,-a}.
+\pi^{-1}(I)=P=\{a,-a\}.
 $$
 
 The restriction of the relation to this fiber is
@@ -475,11 +475,11 @@ $$
 where
 
 $$
-P={a,-a},
+P=\{a,-a\},
 $$
 
 $$
-R_P={(a,-a),(-a,a)},
+R_P=\{(a,-a),(-a,a)\},
 $$
 
 $$
@@ -610,7 +610,7 @@ $$
 **Statement 2.2.**
 
 $$
-\mathrm{Aut}_I(P,R_P)={\mathrm{id}_P,\tau}.
+\mathrm{Aut}_I(P,R_P)=\{\mathrm{id}_P,\tau\}.
 $$
 
 **Check.**
@@ -632,7 +632,7 @@ There are no other bijections of a two-element set.
 Both bijections preserve $R_P$ and $\pi$. Therefore
 
 $$
-\mathrm{Aut}_I(P,R_P)={\mathrm{id}_P,\tau}.
+\mathrm{Aut}_I(P,R_P)=\{\mathrm{id}_P,\tau\}.
 $$
 
 ### §2.3. Canonical Swap
@@ -693,7 +693,7 @@ Sections §§0-2 define the local involution of the exact polar fiber.
 The polar layer
 
 $$
-P={a,-a}
+P=\{a,-a\}
 $$
 
 defines two distinguishable polarities of one invariant reading.
@@ -764,13 +764,13 @@ $\mathbb F_2$.
 The coordinate carrier of rank $1$ is
 
 $$
-Q_1=\mathbb F_2={0,1}.
+Q_1=\mathbb F_2=\{0,1\}.
 $$
 
 On it, the polar relation is defined by
 
 $$
-R_1^{\mathrm{pol}}={(0,1),(1,0)}.
+R_1^{\mathrm{pol}}=\{(0,1),(1,0)\}.
 $$
 
 The reading of rank $1$ is
@@ -866,17 +866,17 @@ $1$.
 The set of all manifest states is denoted
 
 $$
-Q_n^*=\mathbb F_2^n\setminus{0^n}.
+Q_n^*=\mathbb F_2^n\setminus\{0^n\}.
 $$
 
 For $n=1$:
 
 $$
-Q_1={0,1},
+Q_1=\{0,1\},
 $$
 
 $$
-Q_1^*={1}.
+Q_1^*=\{1\}.
 $$
 
 Here $Q_1$ is the full coordinate carrier of the polar layer, while
@@ -955,7 +955,7 @@ $$
 we identify the old carrier with the subset
 
 $$
-Q_{n-1}\cong {0}\times Q_{n-1}\subset Q_n.
+Q_{n-1}\cong \{0\}\times Q_{n-1}\subset Q_n.
 $$
 
 The new basis bit is
@@ -983,7 +983,7 @@ It contains all states in which the new bit is switched on.
 Set
 
 $$
-Q_0={0},
+Q_0=\{0\},
 \qquad
 Q_0^*=\varnothing.
 $$
@@ -996,7 +996,7 @@ Q_n^*
 =
 Q_{n-1}^*
 \sqcup
-{e_n}
+\{e_n\}
 \sqcup
 (e_n+Q_{n-1}^*).
 $$
@@ -1083,7 +1083,7 @@ Q_n^*
 =
 Q_{n-1}^*
 \sqcup
-{e_n}
+\{e_n\}
 \sqcup
 (e_n+Q_{n-1}^*).
 $$
@@ -1125,7 +1125,7 @@ $$
 The new bit gives a separate coordinate:
 
 $$
-{e_n}.
+\{e_n\}.
 $$
 
 The old layer with the new coordinate load is
@@ -1140,35 +1140,35 @@ assembled nonzero layer.
 The first emergence blocks are
 
 $$
-B_1={1},
+B_1=\{1\},
 $$
 
 $$
-B_2={10,11},
+B_2=\{10,11\},
 $$
 
 $$
-B_3={100,101,110,111}.
+B_3=\{100,101,110,111\}.
 $$
 
 The full nonzero layers are then
 
 $$
-Q_1^*={1},
+Q_1^*=\{1\},
 $$
 
 $$
-Q_2^*={01}\sqcup{10}\sqcup{11},
+Q_2^*=\{01\}\sqcup\{10\}\sqcup\{11\},
 $$
 
 $$
 Q_3^*
 =
-{001,010,011}
+\{001,010,011\}
 \sqcup
-{100}
+\{100\}
 \sqcup
-{101,110,111}.
+\{101,110,111\}.
 $$
 
 Emergence order specifies the order in which new blocks appear:

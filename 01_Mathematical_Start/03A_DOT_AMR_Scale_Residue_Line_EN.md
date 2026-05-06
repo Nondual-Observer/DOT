@@ -75,10 +75,9 @@ Statements without status [P] are explicitly marked as bridges or interpretive l
    - the case $k=4$;
    - the boundary pair $(3,4)$;
    - the type of partial arrows
-     $$
+$$
      \beta_3, \beta_4.
-     $$
-
+$$
 3. **Continuation after the threshold**: paragraph `3.3`.
    This part fixes a locally closed picture after the direct bridge.
 
@@ -411,9 +410,9 @@ Fix the following:
 
 - the chromatic six-point shell and the cycle $C_6$ have an exact model in the colour body;
 - the local sector form $(a,b)=g(p,q)$ and the metric law
-  $$
+$$
   D^2_{\mathrm{chroma}} = \frac23 g^2 N_{\mathrm{Eis}}(p,q)
-  $$
+$$
   are compatible with the colour reading;
 - $\mathrm{AMR\text{-}SR}$ is read as local arithmetic inside the chosen sector and does not generate the whole colour body;
 - detailed colorimetry is moved to a separate dossier.
@@ -732,9 +731,9 @@ These arrows are AMR-SR bridge arrows, not AMR-DC divisor-carrier theorems.
 
 1. AMR-SR is not part of the strict core.
 2. The links have the status of partial typed bridge arrows:
-   $$
+$$
    \beta_3 \colon \mathrm{AMR\text{-}SR}_{k=3} \to (R_1, R_2), \qquad \beta_4 \colon \mathrm{AMR\text{-}SR}_{k=4} \to R_3.
-   $$
+$$
 3. The arrows $\beta$ are not a shell realisation, operator lift, or full functor.
 4. The shell, colour, and operator layers are realisations of an already found structure, not a direct derivation from $\mathrm{AMR\text{-}SR}$.
 5. Adjacent arrow typing is imported from `02A` and `02B`.
@@ -1075,36 +1074,31 @@ In its shortest form, `03A` asserts the following.
 
 1. AMR-SR defines scale/residue arithmetic on the carrier
 
-   $$
+$$
    \mathcal R=\mathbb N_{>0}^2.
-   $$
-
+$$
 2. The basic decomposition is
 
-   $$
+$$
    (a,b)=g(p,q),
    \qquad
    g=\gcd(a,b),
    \qquad
    \gcd(p,q)=1.
-   $$
-
+$$
 3. The basic scalar residue is
 
-   $$
+$$
    \mathrm{Res}_{\mathrm{sr}}=(g-1)|p-q|.
-   $$
-
+$$
 4. AMR-SR yields only a partial typed bridge:
 
-   $$
+$$
    \beta_3:\mathrm{AMR\text{-}SR}_{k=3}\to(R_1,R_2),
-   $$
-
-   $$
+$$
+$$
    \beta_4:\mathrm{AMR\text{-}SR}_{k=4}\to R_3.
-   $$
-
+$$
 5. For $k=2$ there is an exception, and for $k\ge5$ no general bridge is asserted.
 
 6. AMR-SR is not divisor-carrier theory.
