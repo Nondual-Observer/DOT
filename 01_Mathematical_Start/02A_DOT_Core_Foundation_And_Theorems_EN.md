@@ -24,7 +24,7 @@ In this volume, the rank $3$ layer is isolated as an independent finite block.
 Its main carrier is:
 
 $$
-X_{\mathrm{adm}}=Q_3\setminus\{000,111\}.
+X_{\\mathrm{adm}}=Q_3\setminus\{000,111\}.
 $$
 
 On this carrier we construct the relation scheme, the graph readings $C_6$,
@@ -33,11 +33,11 @@ incidence matrix, the spectral layer, the discrete $Z_2$-transport, and the
 finite signature of the core.
 
 The octahedron in this file is not the first foundation of the theory. It is the
-graph reading of the combined relation $R_{12}=R_1\cup R_2$ on the already
+graph reading of the combined relation $R_{12}=$R_1$\cup R_2$ on the already
 constructed carrier $X_{\mathrm{adm}}$:
 
 $$
-(X_{\mathrm{adm}},R_{12})\cong K_{2,2,2}\cong O_3^{(1)}.
+(X_{\\mathrm{adm}},R_{12})\cong K_{2,2,2}\cong O_3^{(1)}.
 $$
 
 In the current package this volume should be read as the strict rank $3$
@@ -59,10 +59,10 @@ Short scheme:
 
 ```text
 \mathbb{F}_2^1 / \mathbb{F}_2^2
--> Q_3
--> X_{\mathrm{adm}}
+-> $Q_3$
+-> $X_{\\mathrm{adm}}$
 -> \mathrm{Rel}
--> C_6, K_{2,2,2}, \text{chambers}, \text{incidence}, \text{transport}.
+-> $C_6$, $K_{2,2,2}$, \text{chambers}, \text{incidence}, \text{transport}.
 ```
 
 - $\mathbb{F}_2^1/\mathbb{F}_2^2$ specify the pre-core binary foundation;
@@ -78,7 +78,7 @@ rank $2$. Within the present volume, this already prepared layer is taken as
 the main proof object:
 
 $$
-X_{\mathrm{adm}}=\{0,1\}^3\setminus\{000,111\},
+X_{\\mathrm{adm}}=\{0,1\}^3\setminus\{000,111\},
 $$
 
 from which the cycle $C_6$, the relation carrier $K_{2,2,2}$, and the
@@ -102,43 +102,50 @@ ranks $4$ and $5$ are not the object of proof in `02A`.
 
 1. **One-bit primitive**
 
+   $$
+\mathbb{F}_2^1=\{0,1\},
 $$
-   \mathbb{F}_2^1=\{0,1\},
-$$
+
    the minimal dipole of distinction.
 
 2. **Two-bit local carrier**
 
+   $$
+\mathbb{F}_2^2=\{00,01,10,11\},
 $$
-   \mathbb{F}_2^2=\{00,01,10,11\},
-$$
+
    the first local finite carrier of two independent binary axes of distinction.
 
 3. **Four local graph readings of $\mathbb{F}_2^2$**
 
    - explicit reading:
+     $$
+C_4;
 $$
-     C_4;
-$$
+
    - opposite-pair reading:
+     $$
+2K_2;
 $$
-     2K_2;
-$$
+
    - partial closure:
+     $$
+K_4-e;
 $$
-     K_4-e;
-$$
+
    - full closure:
+     $$
+K_4.
 $$
-     K_4.
-$$
+
 4. **Minimal simplex sector**
 
    The nonzero triple
 
+   $$
+\{01,10,11\}
 $$
-   \{01,10,11\}
-$$
+
    is the visible simplex sector, with the hidden algebraic role of the element
    $00$.
 
@@ -146,9 +153,10 @@ $$
 
    The full cube
 
+   $$
+Q_3=\mathbb{F}_2^3
 $$
-   Q_3=\mathbb{F}_2^3
-$$
+
    contains coordinate square faces, each isomorphic to $\mathbb{F}_2^2$. The
    $3$-bit layer is assembled from intersecting $2$-bit cells.
 
@@ -157,7 +165,7 @@ $$
 The transition
 
 $$
-\mathbb F_2^2 \longrightarrow Q_3
+\mathbb{F}_2^2 \longrightarrow Q_3
 $$
 
 should not be understood as a single embedding. In the strict extension of the
@@ -165,7 +173,7 @@ binary foundation, at least five typed lift modes must be distinguished.
 
 #### (i) Face-lift
 
-The two-bit carrier $\mathbb F_2^2$ is realized as a coordinate square face of
+The two-bit carrier $\mathbb{F}_2^2$ is realized as a coordinate square face of
 the full cube $Q_3$ with the third coordinate fixed.
 
 This is the basic geometric lift of a two-bit cell into the full three-bit
@@ -225,7 +233,7 @@ lifts to one of the two triadic readings of the admissible hexad, that is, to
 one component of the graph
 
 $$
-K_3\sqcup K_3.
+K_3\\sqcup K_3.
 $$
 
 Thus the two-bit simplex sector has a strict three-bit shadow inside the
@@ -250,7 +258,7 @@ $$
 
 where a local admissible step changes one coordinate and preserves mixedness.
 
-### Corollary 0.1.A2 [C]. Strict Meaning of the Transition $\mathbb F_2^2\to Q_3$
+### Corollary 0.1.A2 [C]. Strict Meaning of the Transition $\mathbb{F}_2^2\to Q_3$
 
 Thus the two-bit foundation enters the strict $3$-bit layer not in one way but
 through several compatible modes:
@@ -262,7 +270,7 @@ through several compatible modes:
 - as a degenerate preform of the transport-cycle.
 
 Therefore $Q_3$ should be understood not as a sharp break with
-$\mathbb F_2^2$, but as the first carrier in which all main two-bit motifs
+$\mathbb{F}_2^2$, but as the first carrier in which all main two-bit motifs
 begin to coexist simultaneously.
 
 ### Remark 0.1.B [C]. Status of the Pre-Core Binary Foundation
@@ -301,7 +309,7 @@ are assembled as an intermediate bridge between `01` and the strict core.
 Therefore the pre-core binary foundation
 
 $$
-\mathbb F_2^1,\ \mathbb F_2^2
+\mathbb{F}_2^1,\ \mathbb{F}_2^2
 $$
 
 in the present volume should not be read as an alternative start instead of the
@@ -315,25 +323,28 @@ We consider three model levels.
 
 1. **Model A: the strict $3$-bit core.**
 
+   $$
+X_{\\mathrm{adm}}^{(3)}=\{0,1\}^3\setminus\{000,111\}.
 $$
-   X_{\mathrm{adm}}^{(3)}=\{0,1\}^3\setminus\{000,111\}.
-$$
+
    This level contains the relation scheme, the graphs $C_6$ and
    $K_{2,2,2}$, the octahedron, the chambers $Q_3$, and the transport layer.
 
 2. **Model B: the external shell carrier.**
 
+   $$
+V_n:=S_1^{(n)}\sqcup S_{n-1}^{(n)}.
 $$
-   V_n:=S_1^{(n)}\sqcup S_{n-1}^{(n)}.
-$$
+
    This level contains the general cross-polytope carriers, chamber graphs
    $Q_n$, incidence matrices $B_n$, and reductions $n\to n-1$.
 
 3. **Model C: the extended nontrivial shell package.**
 
+   $$
+U_n:=\bigsqcup_{k=1}^{n-1}S_k^{(n)}.
 $$
-   U_n:=\bigsqcup_{k=1}^{n-1}S_k^{(n)}.
-$$
+
    This level is needed only where the full nontrivial package without the
    extreme shells is considered, and is not the main carrier of this volume.
 
@@ -346,44 +357,58 @@ The following object types are strictly distinguished.
 
 1. **State space.**
    A finite set of admissible binary states. Examples:
+
+   $$
+X_{\\mathrm{adm}},\qquad V_n,\qquad U_n.
 $$
-   X_{\mathrm{adm}},\qquad V_n,\qquad U_n.
-$$
+
 2. **Relation.**
    A symmetric subset of the square of states. Examples:
+
+   $$
+R_0,$R_1, R_2, R_3$.
 $$
-   R_0,R_1,R_2,R_3.
-$$
+
 3. **Graph.**
    A vertex set with one fixed adjacency relation. Examples:
+
+   $$
+C_6,\qquad K_{2,2,2},\qquad Q_n.
 $$
-   C_6,\qquad K_{2,2,2},\qquad Q_n.
-$$
+
 4. **Geometric package.**
    A geometric carrier together with its poles, chambers, and their adjacency.
    Examples:
+
+   $$
+O_3,\qquad \mathrm{Cham}(O_3).
 $$
-   O_3,\qquad \mathrm{Cham}(O_3).
-$$
+
 5. **Incidence structure.**
    A Boolean matrix or an equivalent binary relation between two different
    object types, for example between poles and chambers:
+
+   $$
+B,\qquad B_n.
 $$
-   B,\qquad B_n.
-$$
+
 6. **Categorical layer.**
    A path category of a graph, or an equivalent packaging of incidence in terms
    of maps and compositions.
 
 7. **Operator layer.**
    Operators on the space of functions on the Boolean cube
+
+   $$
+\mathcal H_n=\mathbb R^{\{0,1\}^n},
 $$
-   \mathcal H_n=\mathbb R^{\{0,1\}^n},
-$$
+
    such as
+
+   $$
+\Pi_k,\ E_n,\ F_n,\ H_n,\ C.
 $$
-   \Pi_k,\ E_n,\ F_n,\ H_n,\ C.
-$$
+
 The further text does not mix these types.
 
 ### Remark 0.3.1 [C]. Use of the Words “Standard” and “Fixed”
@@ -495,7 +520,7 @@ denotes the projector onto admissible states, then it encodes the state-level
 admissibility filtering
 
 $$
-X_{\mathrm{adm}}=X_0\setminus\{000,111\},
+X_{\\mathrm{adm}}=X_0\setminus\{000,111\},
 $$
 
 not all three prohibitions at once.
@@ -507,9 +532,10 @@ following chosen model class:
 
 1. the raw carrier is
 
+   $$
+X_0=\{0,1\}^3;
 $$
-   X_0=\{0,1\}^3;
-$$
+
 2. state admissibility is specified by deleting $000$ and $111$;
 3. primitive dynamics is specified by admissible one-bit transitions;
 4. the residual carrier is specified by the rule “all pairs except complementary pairs”;
@@ -522,6 +548,7 @@ below.
 ### Remark 1.2.1 [C]. Boundary of the Model Class
 
 This section considers the set
+
 $$
 \{0,1\}^3\setminus\{000,111\}.
 $$
@@ -529,9 +556,10 @@ $$
 
 - this is the minimal $3$-bit realization of the state-level prohibition;
 - on it we construct the graphs
+  $$
+C_6,\qquad K_3\\sqcup K_3,\qquad 3K_2,\qquad K_{2,2,2};
 $$
-  C_6,\qquad K_3\sqcup K_3,\qquad 3K_2,\qquad K_{2,2,2};
-$$
+
 - more complex shell constructions do not enter here.
 
 Two different objects must not be mixed:
@@ -552,35 +580,40 @@ prohibition is weakened.
    The prohibition $\mathcal{Z}_D$ is removed, and therefore the carrier state
    space is the whole raw cube
 
+   $$
+X_0=\{0,1\}^3.
 $$
-   X_0=\{0,1\}^3.
-$$
+
    On it we define residual adjacency by
 
+   $$
+x\sim y \iff x\neq y \text{ and } y\neq \bar x.
 $$
-   x\sim y \iff x\neq y \text{ and } y\neq \bar x.
-$$
+
 2. **Countermodel $\mathfrak M_{\neg F}$.**
    The prohibition $\mathcal{Z}_F$ is removed, but the fixed cycle $C_6$ is
    preserved. On all its edges we take the trivial connection
 
+   $$
+\varepsilon_i=+1.
 $$
-   \varepsilon_i=+1.
-$$
+
 3. **Countermodel $\mathfrak M_{\neg C}$.**
    The prohibition $\mathcal{Z}_C$ is removed by adding an external binary
    flag. The carrier becomes
 
+   $$
+X_{\\mathrm{adm}}\times\{0,1\},
 $$
-   X_{\mathrm{adm}}\times\{0,1\},
-$$
+
    and residual adjacency is specified by the rule
 
-$$
-   (x,a)\sim (y,b)
+   $$
+(x,a)\sim (y,b)
    \iff
    a=b \text{ and } x\sim_{\mathrm{res}} y.
 $$
+
 Here $\sim_{\mathrm{res}}$ is the usual residual adjacency of the strict
 $6$-vertex core.
 
@@ -592,9 +625,10 @@ own type of degeneration.
 1. In the countermodel $\mathfrak M_{\neg D}$, the residual graph is
    isomorphic to
 
+   $$
+K_{2,2,2,2},
 $$
-   K_{2,2,2,2},
-$$
+
    and therefore has $8$ vertices and $\lambda_2 = 6 \neq 4$.
 
 2. In the countermodel $\mathfrak M_{\neg F}$, every $\mathbb{Z}_2$-gauge
@@ -604,9 +638,10 @@ $$
 3. In the countermodel $\mathfrak M_{\neg C}$, the carrier graph splits as
    the disjoint union of two copies of the residual graph:
 
+   $$
+G(\mathfrak{M}_{\neg C}) \cong G_{\mathrm{res}} \sqcup G_{\mathrm{res}}.
 $$
-   G(\mathfrak{M}_{\neg C}) \cong G_{\mathrm{res}} \sqcup G_{\mathrm{res}}.
-$$
+
    In particular, it is disconnected.
 
 
@@ -617,22 +652,24 @@ $$
    and are absent only inside a pair. Therefore we obtain the complete
    four-partite graph $K_{2,2,2,2}$. Its Laplacian has spectrum
 
+   $$
+\{0,6,6,6,6,8,8,8\},
 $$
-   \{0,6,6,6,6,8,8,8\},
-$$
+
    hence $\lambda_2=6$.
 
 2. For the trivial connection $\varepsilon_i=+1$ on all edges of the cycle,
    the product around the cycle is $+1$. Under a gauge transformation
 
-$$
-   \varepsilon_i' = g_{i+1}\varepsilon_i g_i,
+   $$
+\varepsilon_i' = g_{i+1}\varepsilon_i g_i,
    \qquad g_i \in \{\pm1\},
 $$
+
    we have
 
-$$
-   \prod_{i=1}^{6}\varepsilon_i'
+   $$
+\prod_{i=1}^{6}\varepsilon_i'
    =
    \prod_{i=1}^{6} g_{i+1}\varepsilon_i g_i
    =
@@ -640,6 +677,7 @@ $$
    =
    +1.
 $$
+
    Therefore the trivial class cannot produce holonomy $-1$.
 
 3. In the definition of $\mathfrak M_{\neg C}$, adjacency is allowed only when
@@ -647,9 +685,10 @@ $$
    with flag $1$ are not connected to each other at all. Inside each flag
    layer lives the ordinary residual graph $G_{\mathrm{res}}$. Hence
 
+   $$
+G(\mathfrak M_{\neg C}) \cong G_{\mathrm{res}} \sqcup G_{\mathrm{res}},
 $$
-   G(\mathfrak M_{\neg C}) \cong G_{\mathrm{res}} \sqcup G_{\mathrm{res}},
-$$
+
    and the graph is disconnected. $∎$
 
 ### Remark 1.4.1 [D|mod]. On the Tautological Nature of $\mathfrak M_{\neg C}$ and Its Function
@@ -697,7 +736,7 @@ The strict core of the model consists of four layers.
    - Hamming distance $1$ gives the cycle $C_6$;
    - Hamming distance $2$ gives the shell graph $K_3 \sqcup K_3$;
    - Hamming distance $3$ gives the three complementary axes $3K_2$;
-   - the carrier graphs used are $C_6$ and the residual carrier $K_{2,2,2}=R_1\cup R_2$.
+   - the carrier graphs used are $C_6$ and the residual carrier $K_{2,2,2}=$R_1$\cup R_2$.
 3. **Geometric realization.** The residual graph is realized as the $1$-skeleton
    of the standard octahedron. Its eight sign chambers form the cube $Q_3$.
 4. **Transport of local status.** The topological transport law acts on the
@@ -718,10 +757,11 @@ Structural summary:
 The strict core uses two different but related objects:
 
 - the active state carrier
+  $$
+X_{\\mathrm{adm}}=\{0,1\}^3\setminus\{000,111\},
 $$
-  X_{\mathrm{adm}}=\{0,1\}^3\setminus\{000,111\},
-$$
-  on which the relations $R_1,R_2,R_3$ live;
+
+  on which the relations $R_1, R_2, R_3$ live;
 - the surrounding sign cube of chambers $Q_3$, which encodes the eight
   chambers of the octahedron.
 
@@ -762,7 +802,7 @@ they belong to the full carrier as its two extreme limiting states.
 The transition
 
 $$
-Q_3 \longrightarrow X_{\mathrm{adm}}=Q_3\setminus\{000,111\}
+Q_3 \longrightarrow X_{\\mathrm{adm}}=Q_3\setminus\{000,111\}
 $$
 
 will be called the basic shell-puncture of the full carrier.
@@ -796,7 +836,7 @@ This operator language adds no new theory; it only makes explicit the already
 used transition
 
 $$
-Q_3 \to X_{\mathrm{adm}}.
+Q_3 \to X_{\\mathrm{adm}}.
 $$
 
 It is compatible both with the state reading of the strict core and with the
@@ -811,9 +851,10 @@ In this prologue the logical prohibitions are matched with a carrier ladder:
 - the sequence of intermediate steps is specified;
 - the first explicit carrier is isolated;
 - then the transition to the order
+  $$
+8 \to 6 \to C_6 \to ($R_1, R_2, R_3$)
 $$
-  8 \to 6 \to C_6 \to (R_1,R_2,R_3)
-$$
+
   is constructed.
 
 The ladder:
@@ -866,9 +907,10 @@ that is, it is the $n$-dimensional cross-polytope.
 3. Therefore the number of vertices cannot exceed $2n$.
 4. Hence the vertex set is fixed as
 
+   $$
+\pm e_1,\dots,\pm e_n.
 $$
-   \pm e_1,\dots,\pm e_n.
-$$
+
 5. This vertex set determines the $n$-dimensional cross-polytope. $∎$
 
 In dimension $3$, this immediately implies:
@@ -994,9 +1036,10 @@ After this, the carrier ladder prepares the shell combinatorics:
 - the simplex specifies the germ of future triads;
 - the self-lock stabilizes the local chamber structure;
 - the six-vertex carrier first makes possible the simultaneous reading
+  $$
+R_1 = C_6,\qquad R_2 = K_3\\sqcup K_3,\qquad R_3 = 3K_2.
 $$
-  R_1 = C_6,\qquad R_2 = K_3\sqcup K_3,\qquad R_3 = 3K_2.
-$$
+
 We obtain the chain
 
 ```text
@@ -1010,7 +1053,7 @@ The strict combinatorial skeleton begins below.
 To remove unnecessary heuristic weight from the choice
 
 $$
-X_{\mathrm{adm}} = \{0,1\}^3 \setminus \{000,111\},
+X_{\\mathrm{adm}} = \{0,1\}^3 \setminus \{000,111\},
 $$
 
 we fix a class of finite models.
@@ -1028,11 +1071,12 @@ where:
 3. the orbits of the action of $c$ are interpreted as complementary axes, and their number is $m$;
 4. the residual relation is specified by the rule
 
-$$
-   x R_{\mathrm{res}} y
+   $$
+x R_{\mathrm{res}} y
    \iff
    x \neq y \text{ and } y \neq c(x);
 $$
+
    that is, inside a complementary pair there are no edges, and between
    different pairs all possible edges are drawn;
 5. the primitive process $R_{\mathrm{prim}}$ is a connected $2$-regular
@@ -1049,28 +1093,32 @@ following hold:
 
 1. always
 
+   $$
+|V| \ge 6;
 $$
-   |V| \ge 6;
-$$
+
 2. the minimal case $|V|=6$ is equivalent to $m=3$;
 3. in the minimal case the residual carrier is isomorphic to
 
+   $$
+K_{2,2,2}.
 $$
-   K_{2,2,2}.
-$$
+
 **Proof.**
 
 1. Since $c$ is an involution without fixed points, the set $V$ splits into
    orbits of size $2$. If the number of such orbits is $m$, then
 
+   $$
+|V|=2m.
 $$
-   |V|=2m.
-$$
+
 2. By definition we consider the case $m\ge 3$, hence
 
+   $$
+|V|=2m\ge 6.
 $$
-   |V|=2m\ge 6.
-$$
+
 3. Equality $|V|=6$ is possible if and only if $m=3$.
 
 4. In this case $V$ splits into exactly three complementary pairs. By the
@@ -1080,9 +1128,10 @@ $$
 5. This is precisely the definition of the complete tripartite graph with parts
    of size $2$, that is,
 
+   $$
+(V,R_{\mathrm{res}})\cong K_{2,2,2}.
 $$
-   (V,R_{\mathrm{res}})\cong K_{2,2,2}.
-$$
+
 This proves the claim. $∎$
 
 #### 2.0.6. Uniqueness Theorem for the Primitive Process in the Minimal Case
@@ -1108,9 +1157,10 @@ $$
 3. Every finite connected $2$-regular graph is a cycle.
 4. On six vertices this means
 
+   $$
+(V,R_{\mathrm{prim}})\cong C_6.
 $$
-   (V,R_{\mathrm{prim}})\cong C_6.
-$$
+
 $∎$
 
 #### 2.0.7. Corollary. Standard Realization of the Strict Core
@@ -1128,15 +1178,17 @@ $$
 which:
 
 - sends complementary pairs to the pairs
-$$
-  100\leftrightarrow 011,\quad
+  $$
+100\leftrightarrow 011,\quad
   010\leftrightarrow 101,\quad
   001\leftrightarrow 110;
 $$
+
 - sends the residual carrier to
+  $$
+K_{2,2,2}=R_1\cup R_2;
 $$
-  K_{2,2,2}=R_1\cup R_2;
-$$
+
 - sends the primitive process to some graph isomorphic to $C_6$.
 
 Therefore the $3$-bit admissible core is the standard representative of the
@@ -1221,13 +1273,13 @@ $$
 Define the admissible subspace by deleting the two extreme states:
 
 $$
-X_{\mathrm{adm}} := X_0 \setminus \{000,111\}.
+X_{\\mathrm{adm}} := X_0 \setminus \{000,111\}.
 $$
 
 ### Theorem 2.2 [D]. Cardinalities
 
 $$
-|X_0| = 8, \qquad |X_{\mathrm{adm}}| = 6.
+|X_0| = 8, \qquad |X_{\\mathrm{adm}}| = 6.
 $$
 
 **Proof.** The set $X_0$ contains exactly $2^3$ states. By definition, two
@@ -1238,8 +1290,8 @@ states are deleted. $∎$
 Let $w(x)$ be the Hamming weight of the state $x$. Then
 
 $$
-\mathcal{C}_1 := \{x \in X_{\mathrm{adm}} : w(x)=1\}, \qquad
-\mathcal{C}_2 := \{x \in X_{\mathrm{adm}} : w(x)=2\}.
+\mathcal{C}_1 := \{x \in X_{\\mathrm{adm}} : w(x)=1\}, \qquad
+\mathcal{C}_2 := \{x \in X_{\\mathrm{adm}} : w(x)=2\}.
 $$
 
 Explicitly:
@@ -1279,7 +1331,7 @@ which is impossible over $\{0,1\}$. $∎$
 For every state
 
 $$
-x\in X_{\mathrm{adm}}=\{0,1\}^3\setminus\{000,111\}
+x\in X_{\\mathrm{adm}}=\{0,1\}^3\setminus\{000,111\}
 $$
 
 there exists exactly one coordinate different from the other two. Denote the
@@ -1317,7 +1369,7 @@ just a set of six words, but a set of axis-polar states.
 The map
 
 $$
-\Phi:X_{\mathrm{adm}}\to\{D,F,C\}\times\{-,+\},
+\Phi:X_{\\mathrm{adm}}\to\{D,F,C\}\times\{-,+\},
 \qquad
 \Phi(x):=(\iota(x),\pi(x)),
 $$
@@ -1327,7 +1379,7 @@ is a bijection.
 Equivalently, the admissible hexad of the strict core factorizes as
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 \cong
 \{D,F,C\}\times\{-,+\}.
 $$
@@ -1342,7 +1394,7 @@ Thus every admissible state is determined by two independent data:
 For each axis $\alpha\in\{D,F,C\}$, define a projector-like indicator
 
 $$
-P_\alpha : \mathbb R^{X_{\mathrm{adm}}}\to \mathbb R^{X_{\mathrm{adm}}},
+P_\alpha : \mathbb R^{X_{\\mathrm{adm}}}\to \mathbb R^{X_{\\mathrm{adm}}},
 $$
 
 which preserves only those basis states $|x\rangle$ for which
@@ -1360,7 +1412,7 @@ Then:
 and
 
 $$
-P_D+P_F+P_C=I_{\mathbb R^{X_{\mathrm{adm}}}}.
+P_D+P_F+P_C=I_{\mathbb R^{X_{\\mathrm{adm}}}}.
 $$
 
 These operators do not add a new layer beyond the strict core. They only make
@@ -1372,7 +1424,7 @@ the relation scheme through the graph $3K_2$.
 After the factorization
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 \cong
 \{D,F,C\}\times\{-,+\}
 $$
@@ -1382,28 +1434,32 @@ the four standard graph readings of the strict core arise automatically.
 1. **Pair-reading.**
    Fixing an axis and changing polarity gives
 
+   $$
+3K_2.
 $$
-   3K_2.
-$$
+
 2. **Triad-reading.**
    Fixing polarity and changing the axis gives
 
+   $$
+K_3\\sqcup K_3.
 $$
-   K_3\sqcup K_3.
-$$
+
 3. **Relation-shell.**
    If all states with different axes are connected, one obtains
 
+   $$
+K_{2,2,2}.
 $$
-   K_{2,2,2}.
-$$
+
 4. **Primitive transport-reading.**
    If one moves by local admissible steps that change one coordinate and
    preserve mixedness, one obtains
 
+   $$
+C_6.
 $$
-   C_6.
-$$
+
 Therefore the graphs of the strict core should be understood not as an unrelated
 collection of objects, but as four readings of the same axis-polar
 factorization.
@@ -1454,62 +1510,70 @@ Do not mix two steps.
 
 1. First the triad of prohibitions selects the admissible six-point shell
 
+   $$
+X_{\\mathrm{adm}}=\{0,1\}^3\setminus\{000,111\}.
 $$
-   X_{\mathrm{adm}}=\{0,1\}^3\setminus\{000,111\}.
-$$
+
 2. The first graph law on this shell is the distance-$1$ layer, that is,
 
+   $$
+G_1\cong C_6.
 $$
-   G_1\cong C_6.
-$$
+
 3. Only after this does the full Hamming metric unfold the whole package of
    relations
 
+   $$
+G_1,\quad G_2,\quad G_3.
 $$
-   G_1,\quad G_2,\quad G_3.
-$$
+
 Thus the hierarchy is
 
 $$
-8 \to 6 \to C_6 \to (R_1,R_2,R_3),
+8 \to 6 \to C_6 \to ($R_1, R_2, R_3$),
 $$
 
 not a simple enumeration of unrelated graphs.
 
-### Definition 2.6.1 [D|comb]. Standard Relations $R_1, R_2, R_3$
+### Definition 2.6.1 [D|comb]. Standard Relations $R_1, $R_2$, R_3$
 
 On the set $X_{\mathrm{adm}}$, define three symmetric relations:
 
 $$
-R_k := \bigl\{\{x,y\} \subset X_{\mathrm{adm}} : d_H(x,y)=k\bigr\},
+R_k := \bigl\{\{x,y\} \subset X_{\\mathrm{adm}} : d_H(x,y)=k\bigr\},
 \qquad
 k \in \{1,2,3\}.
 $$
 
-Let $G_k=(X_{\mathrm{adm}},R_k)$ denote the corresponding undirected graph.
+Let $G_k=($X_{\\mathrm{adm}}$,R_k)$ denote the corresponding undirected graph.
 
 ### Theorem 2.6.2 [D]. Three Standard Graphs of the Relation Scheme
 
 For the graphs $G_1,G_2,G_3$, the following hold:
 
 1.
+   $$
+G_1 \cong C_6;
 $$
-   G_1 \cong C_6;
-$$
+
 2.
+   $$
+G_2 \cong K_3 \sqcup K_3,
 $$
-   G_2 \cong K_3 \sqcup K_3,
-$$
+
    and its two components are the complete graphs on the shells
-$$
-   \mathcal C_1=\{100,010,001\},
+
+   $$
+\mathcal C_1=\{100,010,001\},
    \qquad
    \mathcal C_2=\{011,101,110\};
 $$
+
 3.
+   $$
+G_3 \cong 3K_2,
 $$
-   G_3 \cong 3K_2,
-$$
+
    and its three edges are the complementary pairs from Theorem 2.5.
 
 **Proof.**
@@ -1531,7 +1595,7 @@ $$
 Below it is preferable to use the notation
 
 $$
-K_3\sqcup K_3
+K_3\\sqcup K_3
 $$
 
 instead of the informal notation $2K_3$. This emphasizes that the object in
@@ -1540,7 +1604,7 @@ new single figure.
 
 ### Corollary 2.6.3 [D|graph]. Decomposition of Complete and Residual Adjacency
 
-Let $A_{R_1},A_{R_2},A_{R_3}$ be the adjacency matrices of the graphs
+Let $A_{$R_1$},A_{$R_2$},A_{$R_3$}$ be the adjacency matrices of the graphs
 $G_1,G_2,G_3$ on the same vertex order of $X_{\mathrm{adm}}$. Then:
 
 $$
@@ -1560,7 +1624,7 @@ where $A_{\mathrm{res}}$ is residual adjacency and $C$ is the complementary
 matching matrix.
 
 **Proof.** By Theorem 2.6 and Definition 2.6.1, every unordered pair of distinct
-vertices lies in exactly one of the three relations $R_1,R_2,R_3$. This gives
+vertices lies in exactly one of the three relations $R_1, R_2, R_3$. This gives
 the first formula. Residual adjacency, by definition, excludes only identity and
 complementary pairs, so it consists exactly of the distance $1$ and $2$
 layers. Finally, the distance $3$ layer is precisely the complementary
@@ -1593,7 +1657,7 @@ This partition fixes the following roles:
 Consider the partition
 
 $$
-X_{\mathrm{adm}} = \mathcal{C}_1 \sqcup \mathcal{C}_2,
+X_{\\mathrm{adm}} = \mathcal{C}_1 \sqcup \mathcal{C}_2,
 $$
 
 where
@@ -1611,8 +1675,8 @@ Then:
 3. the relation $R_3$ gives a perfect matching between $\mathcal C_1$ and $\mathcal C_2$;
 4. for the corresponding adjacency matrices, the quotient matrices with respect to the partition $\mathcal C_1\sqcup\mathcal C_2$ are
 
-$$
-   Q(R_1)=
+   $$
+Q(R_1)=
    \begin{pmatrix}
    0&2\\
    2&0
@@ -1630,15 +1694,17 @@ $$
    1&0
    \end{pmatrix};
 $$
+
 5. consequently,
 
-$$
-   Q(A_{\mathrm{res}})=Q(R_1)+Q(R_2)=
+   $$
+Q(A_{\mathrm{res}})=Q(R_1)+Q(R_2)=
    \begin{pmatrix}
    2&2\\
    2&2
    \end{pmatrix}.
 $$
+
 **Proof.** For vertices of weights $1$ and $2$, Hamming distance $1$ occurs
 only between shells, while distance $2$ occurs only inside each shell. By
 Theorem 2.6.2, distance $3$ is realized only by complementary pairs, each of
@@ -1663,9 +1729,9 @@ $$
 Then the family of relations
 
 $$
-\{R_0,R_1,R_2,R_3\},
+\{R_0,$R_1, R_2, R_3$\},
 \qquad
-R_0:=\{(x,x):x\in X_{\mathrm{adm}}\},
+R_0:=\{(x,x):x\in X_{\\mathrm{adm}}\},
 $$
 
 forms a commutative symmetric association scheme of class $3$ on the set
@@ -1675,27 +1741,30 @@ Equivalently, the matrices $A_0,A_1,A_2,A_3$ satisfy:
 
 1. they are pairwise orthogonal $0$-$1$ matrices and
 
+   $$
+A_0+A_1+A_2+A_3=J;
 $$
-   A_0+A_1+A_2+A_3=J;
-$$
+
 2. each of them is symmetric;
 
 3. their linear span is closed under multiplication, with
 
-$$
-   A_1^2 = 2A_0 + A_2,
+   $$
+A_1^2 = 2A_0 + A_2,
    \qquad
    A_2^2 = 2A_0 + A_2,
    \qquad
    A_3^2 = A_0,
 $$
-$$
-   A_1A_2 = A_2A_1 = A_1 + 2A_3,
+
+   $$
+A_1A_2 = A_2A_1 = A_1 + 2A_3,
    \qquad
    A_1A_3 = A_3A_1 = A_2,
    \qquad
    A_2A_3 = A_3A_2 = A_1.
 $$
+
 In particular, the intersection numbers are uniquely defined and do not depend
 on the choice of a vertex pair inside the given relation.
 
@@ -1709,37 +1778,49 @@ $(x,y)$ in each relation.
 - From the graph $G_1\cong C_6$, each vertex has exactly two neighbors in
   $R_1$, and for a pair in $R_2$ there is exactly one two-step path through
   $R_1$. Therefore
+
+  $$
+A_1^2 = 2A_0 + A_2.
 $$
-  A_1^2 = 2A_0 + A_2.
-$$
+
 - From the graph $G_2\cong K_3\sqcup K_3$, similarly, inside each triangle a
   vertex has exactly two neighbors, and for an adjacent pair in $R_2$ there is
   exactly one two-step path through $R_2$. Therefore
+
+  $$
+A_2^2 = 2A_0 + A_2.
 $$
-  A_2^2 = 2A_0 + A_2.
-$$
+
 - Since $G_3\cong 3K_2$ is a perfect matching, applying a complementary edge
   twice returns the initial vertex:
+
+  $$
+A_3^2 = A_0.
 $$
-  A_3^2 = A_0.
-$$
-- For a pair in $R_1$ there is exactly one path of type $(R_1,R_2)$, and for
+
+- For a pair in $R_1$ there is exactly one path of type $($R_1$,$R_2$)$, and for
   a pair in $R_3$ there are exactly two such paths; no other cases occur.
   Hence
+
+  $$
+A_1A_2=A_1+2A_3.
 $$
-  A_1A_2=A_1+2A_3.
-$$
+
 - If one first traverses a complementary edge and then an edge of distance $1$,
   the endpoint is always at distance $2$; moreover, for each pair in $R_2$
   such a path is unique. Thus
+
+  $$
+A_1A_3=A_2.
 $$
-  A_1A_3=A_2.
-$$
+
 - Similarly, traversing an edge of distance $2$ after a complementary edge
   gives exactly the relation $R_1$, that is,
+
+  $$
+A_2A_3=A_1.
 $$
-  A_2A_3=A_1.
-$$
+
 Commutativity follows from the symmetry of the same intersection numbers. Hence
 all axioms of a commutative symmetric association scheme are satisfied. $∎$
 
@@ -1752,9 +1833,10 @@ It can be viewed as:
 
 - an association scheme on the six vertices of the three-dimensional cross-polytope;
 - a refinement of the pair
+  $$
+K_{2,2,2}\quad\text{and}\quad 3K_2,
 $$
-  K_{2,2,2}\quad\text{and}\quad 3K_2,
-$$
+
   where the first relation specifies octahedral adjacency and the second
   specifies antipodal matching;
 - a small orbital scheme on the signed coordinate carrier, lying in the same
@@ -1782,7 +1864,7 @@ $$
 whose objects are labeled three-class symmetric association schemes
 
 $$
-(X;R_0,R_1,R_2,R_3)
+(X;R_0,$R_1, R_2, R_3$)
 $$
 
 of the same type as the six-point relation scheme of the strict core, and whose
@@ -1791,29 +1873,29 @@ morphisms are scheme isomorphisms preserving the numbering of relation classes.
 Then functors to the category of graphs arise:
 
 $$
-\mathrm{Ev}_1(X;R_0,R_1,R_2,R_3)=(X,R_1),
+\mathrm{Ev}_1(X;R_0,$R_1, R_2, R_3$)=(X,R_1),
 $$
 
 $$
-\mathrm{Ev}_2(X;R_0,R_1,R_2,R_3)=(X,R_2),
+\mathrm{Ev}_2(X;R_0,$R_1, R_2, R_3$)=(X,R_2),
 $$
 
 $$
-\mathrm{Ev}_3(X;R_0,R_1,R_2,R_3)=(X,R_3),
+\mathrm{Ev}_3(X;R_0,$R_1, R_2, R_3$)=(X,R_3),
 $$
 
 $$
-\mathrm{Ev}_{\mathrm{res}}(X;R_0,R_1,R_2,R_3)=(X,R_1\cup R_2).
+\mathrm{Ev}_{\mathrm{res}}(X;R_0,$R_1, R_2, R_3$)=(X,R_1\cup R_2).
 $$
 
-Thus the graphs $(X,R_1)$, $(X,R_2)$, $(X,R_3)$, and
-$(X,R_1\cup R_2)$ are obtained as values of functors on one and the same
+Thus the graphs $(X,$R_1$)$, $(X,$R_2$)$, $(X,$R_3$)$, and
+$(X,$R_1$\cup $R_2$)$ are obtained as values of functors on one and the same
 relation scheme.
 
 **Proof.** A morphism in $\mathbf{ASch}_3^{\mathrm{lab}}$, by definition,
 preserves the carrier and sends each relation $R_i$ to the corresponding
 $R'_i$. Therefore the same vertex bijection is an isomorphism of each graph
-$(X,R_i)$ and of $(X,R_1\cup R_2)$. Identities and composition are inherited
+$(X,R_i)$ and of $(X,$R_1$\cup $R_2$)$. Identities and composition are inherited
 directly. $∎$
 
 ### Remark 2.6.7. What Is Carrier-Level in This Relation Scheme and What Is Not
@@ -1844,13 +1926,14 @@ $$
 \bigr),
 $$
 
-where for each of the three relations $R_1,R_2,R_3$:
+where for each of the three relations $R_1, R_2, R_3$:
 
-1. $relation_counts(R_i)$ is the number of edges of the graph $G_i=(X_{\mathrm{adm}},R_i)$;
+1. $relation_counts(R_i)$ is the number of edges of the graph $G_i=($X_{\\mathrm{adm}}$,R_i)$;
 2. $shared_chambers(R_i)$ is the number of chambers shared by a typical pair of poles from $R_i$, computed from the fixed incidence matrix $B$; in the computational files the service name $chamber_support(R_i)$ is preserved for this quantity;
 3. $shell_types(R_i)$ is a coarse positional label of the relation class relative to the partition
+
 $$
-X_{\mathrm{adm}} = \mathcal{C}_1 \sqcup \mathcal{C}_2.
+X_{\\mathrm{adm}} = \mathcal{C}_1 \sqcup \mathcal{C}_2.
 $$
 
 ### Theorem 2.6.9 [D]. Exact Values of the Finite Core Signature
@@ -1878,9 +1961,11 @@ $$
 2. By the fixed incidence matrix $B$, every pair in $R_1$ and every pair in
    $R_2$ has exactly two common chambers, while every pair in $R_3$ has no
    common chambers. Therefore
+
 $$
 \mathrm{shared\_chambers} = \{2, 2, 0\}.
 $$
+
 3. By Theorem 2.6.5, the relation $R_1$ lies entirely between the shells
    $\mathcal C_1,\mathcal C_2$, the relation $R_2$ lies entirely inside the
    shells, and the relation $R_3$ coincides with complementary axial
@@ -1906,7 +1991,7 @@ $$
 3 \rightsquigarrow (R_1, R_2), \qquad 4 \rightsquigarrow R_3.
 $$
 
-Here $3 \rightsquigarrow (R_1, R_2)$ means the supported pair, while
+Here $3 \rightsquigarrow ($R_1$, $R_2$)$ means the supported pair, while
 $4 \rightsquigarrow R_3$ means the axially locked layer. A full functor
 $k \mapsto R_k$ is not claimed, and the case $k \ge 5$ is not considered.
 
@@ -1950,7 +2035,7 @@ The minimal cycle requires no separate choice: it is uniquely specified by the
 operator $A_{\mathrm{prim}}$, that is,
 
 $$
-\gamma_{\mathrm{prim}} := (X_{\mathrm{adm}}, A_{\mathrm{prim}})
+\gamma_{\mathrm{prim}} := (X_{\\mathrm{adm}}, A_{\mathrm{prim}})
 $$
 
 is the unique connected graph on $X_{\mathrm{adm}}$ whose edges coincide
@@ -2013,11 +2098,12 @@ same set of six states.
 - $A_{\mathrm{prim}}$ has degree $2$ and the spectrum of the cycle $C_6$;
 - $A_{\mathrm{res}}$ has degree $4$ and the spectrum of $K_{2,2,2}$.
 - more precisely,
-$$
-  A_{\mathrm{prim}}=A_{R_1},
+  $$
+A_{\mathrm{prim}}=A_{R_1},
   \qquad
   A_{\mathrm{res}}=A_{R_1}+A_{R_2}.
 $$
+
 This separation removes the main internal conflation of the previous version.
 
 ---
@@ -2056,14 +2142,18 @@ The eight chambers $T_\sigma$ are tetrahedra. Their adjacency graph is
 isomorphic to the cube $Q_3$.
 
 **Proof.** For fixed $\sigma$, the conditions
+
 $$
 \sigma_i x_i \ge 0 \qquad (i=1, 2, 3)
 $$
+
 cut out one of the eight sign sectors in the octahedron. Its vertices are the
 three poles
+
 $$
 \sigma_1 e_1, \qquad \sigma_2 e_2, \qquad \sigma_3 e_3
 $$
+
 and the common center $0$, so each chamber is indeed a tetrahedron.
 
 Now compare two chambers $T_\sigma$ and $T_\tau$.
@@ -2102,6 +2192,7 @@ Moreover, two chambers are adjacent if and only if their images differ in
 exactly one bit.
 
 **Proof.** The formula
+
 $$
 \Phi(\sigma_1,\sigma_2,\sigma_3)
 =
@@ -2111,12 +2202,15 @@ $$
 \frac{1+\sigma_3}{2}
 \right)
 $$
+
 sends the sign $-1$ to the bit $0$, and the sign $+1$ to the bit $1$.
 Therefore the inverse map is explicit:
+
 $$
 \Phi^{-1}(b_1, b_2, b_3) = (2b_1-1,\ 2b_2-1,\ 2b_3-1),
 \qquad (b_1, b_2, b_3) \in \{0, 1\}^3.
 $$
+
 Thus $\Phi$ is a bijection between sign triples and cube vertices.
 
 By Theorem 4.4, two chambers are adjacent if and only if the corresponding sign
@@ -2165,7 +2259,7 @@ surjective on objects.
 
 **Proof.** By Corollary 4.4.1, the map $\Phi$ is bijective on objects and
 sends edges to edges and non-edges to non-edges. Therefore every path in $Q_3$
-lifts uniquely along $\Phi^{-1}$ to a path in $\mathrm{Cham}(O_3)$,
+lifts uniquely along $\Phi^{-1}$ to a path in $\mathrm{Cham}($O_3$)$,
 and conversely. Hence $\Phi_*$ has an inverse functor induced by
 $\Phi^{-1}$. $∎$
 
@@ -2199,48 +2293,55 @@ $s,t\in\{\pm1\}$ and $i,j\in\{1,2,3\}$.
 
 1. The pole $v=s e_i$ lies in the chamber $T_\sigma$ if and only if
 
+   $$
+\sigma_i=s.
 $$
-   \sigma_i=s.
-$$
+
    The other two signs are free, so each pole is incident to exactly $2^2=4$
    chambers. This gives the diagonal entries
 
+   $$
+(BB^\top)_{v,v}=4.
 $$
-   (BB^\top)_{v,v}=4.
-$$
+
 2. If $v=s e_i$ and $w=-s e_i$ are opposite poles of the same axis, then the
    conditions
 
-$$
-   \sigma_i=s,
+   $$
+\sigma_i=s,
    \qquad
    \sigma_i=-s
 $$
+
    are incompatible. Hence
 
+   $$
+(BB^\top)_{v,w}=0.
 $$
-   (BB^\top)_{v,w}=0.
-$$
+
 3. If $i\neq j$, joint incidence requires only
 
-$$
-   \sigma_i=s,
+   $$
+\sigma_i=s,
    \qquad
    \sigma_j=t.
 $$
+
    The third sign is free, so there are exactly $2$ common chambers. Therefore
 
-$$
-   (BB^\top)_{v,w}=2
+   $$
+(BB^\top)_{v,w}=2
    \qquad (i\neq j).
 $$
+
    But exactly such pairs form the edges of the $1$-skeleton of the
    octahedron, that is,
 
-$$
-   (A_{\mathrm{oct}})_{v,w}=1
+   $$
+(A_{\mathrm{oct}})_{v,w}=1
    \qquad \Longleftrightarrow \qquad i\neq j.
 $$
+
 Consequently,
 
 $$
@@ -2363,6 +2464,7 @@ $$
 $$
 
 In particular,
+
 $$
 \lambda_2(L_{\mathrm{block}})=4.
 $$
@@ -2373,28 +2475,30 @@ $$
    On the linear span of the vectors $(\mathbf{1}_6,0)$ and
    $(0,\mathbf{1}_8)$, the block Laplacian reduces to the matrix
 
-$$
-   \begin{pmatrix}
+   $$
+\begin{pmatrix}
    4 & -4\\
    -3 & 3
    \end{pmatrix},
 $$
+
    whose eigenvalues are $0$ and $7$.
 
 2. **Axial sector.**
    For each axis $i$, the space $\mathrm{span}\{(d_i,0),(0,\chi_i)\}$ is
    invariant. In this basis, the block Laplacian has the form
 
-$$
-   \begin{pmatrix}
+   $$
+\begin{pmatrix}
    8 & -4\\
    -1 & 5
    \end{pmatrix},
 $$
+
    whose eigenvalues are $4$ and $9$. For $\lambda=4$, we obtain
 
-$$
-   \begin{pmatrix}
+   $$
+\begin{pmatrix}
    8 & -4\\
    -1 & 5
    \end{pmatrix}
@@ -2404,6 +2508,7 @@ $$
    \quad\Longleftrightarrow\quad
    \alpha=\beta,
 $$
+
    so in each axis the eigenline for $\lambda=4$ is
    $\mathrm{span}\{d_i\oplus\chi_i\}$. This contributes $4^3$ and $9^3$.
 
@@ -2500,16 +2605,18 @@ facts:
 
 1. in the axial basis of the slow subspace, the coupling coefficient between the polar and chamber layers is
 
+   $$
+t_3=1;
 $$
-   t_3=1;
-$$
+
 2. the norms of the basic axial and chamber vectors are
 
-$$
-   \|d_i\|^2=2,
+   $$
+\|d_i\|^2=2,
    \qquad
    \|\chi_i\|^2=8.
 $$
+
 The first fact comes from the axial $2\times2$ block of Theorem 6.3, and the
 second from the explicit norm computation in the proof of Theorem 6.4.
 
@@ -2573,9 +2680,10 @@ Then the following statements hold.
    of coordinate permutations and global complement on the polar and chamber layers.
 2. The restriction
 
+   $$
+U:=B^\top\!\mid_D : D\to\mathcal X
 $$
-   U:=B^\top\!\mid_D : D\to\mathcal X
-$$
+
    is an equivariant isomorphism, with
 
 $$
@@ -2584,11 +2692,12 @@ $$
 
 3. After normalization
 
-$$
-   \widehat d_i:=\frac{d_i}{\sqrt2},
+   $$
+\widehat d_i:=\frac{d_i}{\sqrt2},
    \qquad
    \widehat\chi_i:=\frac{\chi_i}{\sqrt8}
 $$
+
    the matrices $B$ and $B^\top$ act on the axial sector as the scalar $2$:
 
 $$
@@ -2607,28 +2716,31 @@ $$
 1. A coordinate permutation sends axis $i$ to axis $\pi(i)$, while global
    complement changes the sign of axial differences and sign characters:
 
+   $$
+d_i\mapsto d_{\pi(i)},\qquad \chi_i\mapsto \chi_{\pi(i)},
 $$
-   d_i\mapsto d_{\pi(i)},\qquad \chi_i\mapsto \chi_{\pi(i)},
+
+   $$
+d_i\mapsto -d_i,\qquad \chi_i\mapsto -\chi_i.
 $$
-$$
-   d_i\mapsto -d_i,\qquad \chi_i\mapsto -\chi_i.
-$$
+
    Therefore both $D$ and $\mathcal X$ are invariant subspaces.
 2. From Definition 6.2 we already know that
 
-$$
-   B^\top d_i=\chi_i,
+   $$
+B^\top d_i=\chi_i,
    \qquad
    B\chi_i=4d_i.
 $$
+
    Hence $U=B^\top\!\mid_D$ sends the basis $\{d_i\}$ to the basis
    $\{\chi_i\}$ and is therefore an isomorphism. Equivariance follows from the
    fact that admissible symmetries simultaneously permute axes on the polar and
    chamber layers and preserve the incidence relation.
 3. The normalized formulas are obtained by direct substitution:
 
-$$
-   B^\top \widehat d_i
+   $$
+B^\top \widehat d_i
    =
    \frac{1}{\sqrt2}B^\top d_i
    =
@@ -2636,8 +2748,9 @@ $$
    =
    2\widehat\chi_i,
 $$
-$$
-   B\widehat\chi_i
+
+   $$
+B\widehat\chi_i
    =
    \frac{1}{\sqrt8}B\chi_i
    =
@@ -2645,6 +2758,7 @@ $$
    =
    2\widehat d_i.
 $$
+
    Therefore, on the normalized axial sector, the incidence-coupling has the
    single singular value $2$, and the coefficient $4$ is its square. $∎$
 
@@ -2681,7 +2795,7 @@ from the file `DOT_Core_verifier.py`.
 Let
 
 $$
-\gamma := \gamma_{\mathrm{prim}} = (X_{\mathrm{adm}}, A_{\mathrm{prim}}).
+\gamma := \gamma_{\mathrm{prim}} = (X_{\\mathrm{adm}}, A_{\mathrm{prim}}).
 $$
 
 By Corollary 3.2.1, this is the fixed primitive cycle of length $6$ inside the
@@ -2738,9 +2852,10 @@ monodromy** of a flat $Z_2$-connection on the cycle.
   and monodromy.
 - After identifying $\gamma \cong S^1$, this is the action
 
+  $$
+\pi_1(S^1)\cong \mathbb Z
 $$
-  \pi_1(S^1)\cong \mathbb Z
-$$
+
   on the fiber $\{\pm 1\}$ through a representation into $\mathbb{Z}_2$.
 
 ### Theorem 7.4 [D|C]. Classification of the Transport Class over $S^1$
@@ -2796,16 +2911,18 @@ holonomy class $-1$.
 
 1. The associated interval bundle
 
+   $$
+P \times_{Z_2} [-1,1]
 $$
-   P \times_{Z_2} [-1,1]
-$$
+
    is the Mobius band.
 
 2. The associated real line bundle
 
+   $$
+L := P \times_{Z_2} \mathbb{R}
 $$
-   L := P \times_{Z_2} \mathbb{R}
-$$
+
    is the nontrivial real line bundle over $S^1$.
 
 3. The principal bundle $P$ has no global section.
@@ -2849,9 +2966,10 @@ $X_0=\{0,1\}^3$ as follows:
 1. an element $\pi\in S_3$ permutes coordinates;
 2. the nontrivial element of $\mathbb Z_2^{\mathrm{glob}}$ acts by global complement
 
+   $$
+x\mapsto \bar x.
 $$
-   x\mapsto \bar x.
-$$
+
 Thus an admissible change of presentation consists of a coordinate permutation
 and, possibly, a subsequent full bitwise inversion.
 
@@ -2863,19 +2981,22 @@ For every element $g\in\Gamma_3$, the following statements hold.
 2. $g$ preserves Hamming distance on $X_{\mathrm{adm}}$.
 3. Consequently, $g$ preserves all relations
 
+   $$
+R_0,$R_1, R_2, R_3$,
 $$
-   R_0,R_1,R_2,R_3,
-$$
+
    and hence also the relation scheme, the graph of the primitive process
 
+   $$
+A_{\mathrm{prim}}=A_{R_1},
 $$
-   A_{\mathrm{prim}}=A_{R_1},
-$$
+
    and the residual carrier
 
+   $$
+A_{\mathrm{res}}=A_{R_1}+A_{R_2}.
 $$
-   A_{\mathrm{res}}=A_{R_1}+A_{R_2}.
-$$
+
 4. On the geometric level, there is an induced isometry of the cross-polytope
    $O_3$ that sends poles to poles, chambers to chambers, and preserves the
    incidence matrix $B$ up to row and column permutations.
@@ -2885,9 +3006,9 @@ Therefore the package
 $$
 \mathfrak N_3:=
 \bigl(
-X_{\mathrm{adm}},\,
+X_{\\mathrm{adm}},\,
 \mathcal C_1\sqcup\mathcal C_2,\,
-R_0,R_1,R_2,R_3,\,
+R_0,$R_1, R_2, R_3$,\,
 A_{\mathrm{prim}},\,
 A_{\mathrm{res}},\,
 O_3,\,
@@ -2905,20 +3026,22 @@ $\Gamma_3$, up to natural isomorphism.
    same weights. Global complement sends weight $k$ to weight $3-k$. Hence
    the set
 
+   $$
+X_{\\mathrm{adm}}=\{0,1\}^3\setminus\{000,111\}
 $$
-   X_{\mathrm{adm}}=\{0,1\}^3\setminus\{000,111\}
-$$
+
    is preserved.
 2. Both coordinate permutation and global complement preserve Hamming distance.
    Thus for any $x,y\in X_{\mathrm{adm}}$ and any $k\in\{0,1,2,3\}$, we have
 
-$$
-   d_H(x,y)=k
+   $$
+d_H(x,y)=k
    \iff
    d_H(gx,gy)=k.
 $$
+
    Therefore each relation $R_k$ is preserved.
-3. Since $A_{\mathrm{prim}}=A_{R_1}$ and $A_{\mathrm{res}}=A_{R_1}+A_{R_2}$,
+3. Since $A_{\mathrm{prim}}=A_{$R_1$}$ and $A_{\mathrm{res}}=A_{$R_1$}+A_{$R_2$}$,
    the graph of the primitive process and the residual carrier are preserved automatically.
 4. A coordinate permutation is realized by a permutation linear isometry of
    $\mathbb R^3$, while global complement is the central symmetry $x\mapsto -x$.
@@ -2938,7 +3061,7 @@ $$
 $$
 
 Then $\mathcal A_6$ is a commutative finite-dimensional subalgebra, and in the
-basis $\{I,A_{R_1},A_{R_2},A_{R_3}\}$ the following formulas hold:
+basis $\{I,A_{$R_1$},A_{$R_2$},A_{$R_3$}\}$ the following formulas hold:
 
 $$
 A_{R_1}^2 = 2I + A_{R_2},\qquad
@@ -2961,7 +3084,7 @@ $A_{R_i}A_{R_j}$ counts the number of intermediate states $y$ through which
 one can pass from $x$ to $z$, first along $R_i$ and then along $R_j$. By
 Theorem 7.8.1 and the symmetry of the six-point carrier, this number depends
 only on the class of the pair $(x,z)$, and therefore decomposes in the basis
-$\{I,A_{R_1},A_{R_2},A_{R_3}\}$. Direct counting gives the stated
+$\{I,A_{$R_1$},A_{$R_2$},A_{$R_3$}\}$. Direct counting gives the stated
 coefficients, and symmetry of the two-step schemes gives commutativity. $∎$
 
 ### Corollary 7.8.2 [D|C]. Invariance of the Transport Layer under Change of Presentation
@@ -2996,20 +3119,20 @@ realizations of an abstract six-vertex object. The following is established:
 Let
 
 $$
-\mathrm{Aut}_{\mathrm{rel}}(X_{\mathrm{adm}})
+\mathrm{Aut}_{\mathrm{rel}}(X_{\\mathrm{adm}})
 $$
 
 denote the group of all permutations of the set $X_{\mathrm{adm}}$ preserving
 the relations
 
 $$
-R_0,R_1,R_2,R_3.
+R_0,$R_1, R_2, R_3$.
 $$
 
 Then
 
 $$
-\mathrm{Aut}_{\mathrm{rel}}(X_{\mathrm{adm}})
+\mathrm{Aut}_{\mathrm{rel}}(X_{\\mathrm{adm}})
 \cong
 \Gamma_3
 \cong
@@ -3023,9 +3146,10 @@ $\mathcal C_1$ and $\mathcal C_2$ separately is isomorphic to $S_3$.
 
 1. The relation $R_2$ forms the graph
 
+   $$
+K_3\\sqcup K_3,
 $$
-   K_3\sqcup K_3,
-$$
+
    that is, exactly two connected components, each a triangle. Therefore any
    automorphism of the relation scheme either preserves both components
    separately or swaps them.
@@ -3039,16 +3163,18 @@ $$
 
    Therefore
 
-$$
-   |\mathrm{Aut}_{\mathrm{rel}}(X_{\mathrm{adm}})|
+   $$
+|\mathrm{Aut}_{\mathrm{rel}}(X_{\\mathrm{adm}})|
    \le 2\cdot 3! = 12.
 $$
-4. Conversely, all elements of $\Gamma_3$ from Definition 7.8 preserve Hamming
-   distance, and hence preserve all relations $R_0,R_1,R_2,R_3$. Therefore
 
+4. Conversely, all elements of $\Gamma_3$ from Definition 7.8 preserve Hamming
+   distance, and hence preserve all relations $R_0,$R_1$,$R_2$,R_3$. Therefore
+
+   $$
+\Gamma_3 \subseteq \mathrm{Aut}_{\mathrm{rel}}(X_{\\mathrm{adm}}).
 $$
-   \Gamma_3 \subseteq \mathrm{Aut}_{\mathrm{rel}}(X_{\mathrm{adm}}).
-$$
+
    Since $|\Gamma_3|=12$, the groups are equal.
 5. If one additionally requires preserving the shells $\mathcal C_1$ and
    $\mathcal C_2$ separately, then the global exchange of the two triangles is
@@ -3063,12 +3189,12 @@ group of color-preserving automorphisms of the strict $3$-bit core preserving
 the relations
 
 $$
-R_0,R_1,R_2,R_3.
+R_0,$R_1, R_2, R_3$.
 $$
 
 Therefore Theorem 7.8.1 exhausts the largest possible class of symmetries
 preserving the relations. The stronger claim that every admissible presentation
-symmetry automatically preserves the relations $R_0,R_1,R_2,R_3$ is not made.
+symmetry automatically preserves the relations $R_0,$R_1$,$R_2$,R_3$ is not made.
 
 
 ---
@@ -3079,3 +3205,18 @@ The shell extension, categorical packaging, operator closure, and sections
 $8$-$11$ are moved to the separate volume
 `02B_DOT_Shell_Extension_And_Categorical_Packaging_EN.md`. The present file
 contains sections $0$-$7$.
+
+
+[A]: # (Status Marker)
+[D]: # (Status Marker)
+[C]: # (Status Marker)
+[D|mod]: # (Status Marker)
+[G1]: # (Status Marker)
+
+
+[D|comb]: # (Status Marker)
+[D|C]: # (Status Marker)
+[D|graph]: # (Status Marker)
+[Context]: # (Status Marker)
+[Packaging]: # (Status Marker)
+[D|cat]: # (Status Marker)

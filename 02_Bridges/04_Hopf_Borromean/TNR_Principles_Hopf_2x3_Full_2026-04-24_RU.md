@@ -2,7 +2,7 @@
 
 Статус: мостовой документ / протокол топологических прообразов.
 
-Этот документ фиксирует место чтений типа Möbius, Hopf и Borromean относительно строгого конечного ядра. Источник конечен: $Q_3$, $X_{\mathrm{adm}}$, отношения $R_1,R_2,R_3$, транспорт $T$, осевое разложение и точные осевые представления. Топологические прообразы получают отдельный мостовой статус.
+Этот документ фиксирует место чтений типа Möbius, Hopf и Borromean относительно строгого конечного ядра. Источник конечен: $Q_3$, $X_{\mathrm{adm}}$, отношения $R_1, R_2, R_3$, транспорт $T$, осевое разложение и точные осевые представления. Топологические прообразы получают отдельный мостовой статус.
 
 ---
 
@@ -29,7 +29,7 @@ $$
 Третья структура — разбиение всего шестипозиционного носителя на три осевые пары:
 
 $$
-X_{\mathrm{adm}}=H_1\sqcup H_2\sqcup H_3.
+X_{\\mathrm{adm}}=H_1\sqcup H_2\sqcup H_3.
 $$
 
 В топологическом чтении эта тройка может быть сопоставлена борромеевской триаде блоков. Такое чтение не утверждает наличие буквальных борромеевских колец внутри конечного ядра. Оно фиксирует только схему: три блока удерживают общий мотив, который не сводится к одной выбранной паре.
@@ -59,19 +59,19 @@ $$
 Rank $3$ задаёт полный carrier:
 
 $$
-Q_3=\mathbb F_2^3.
+Q_3=\mathbb{F}_2^3.
 $$
 
 Admissible carrier:
 
 $$
-X_{\mathrm{adm}}=Q_3\setminus\{000,111\}.
+X_{\\mathrm{adm}}=Q_3\setminus\{000,111\}.
 $$
 
 На $X_{\mathrm{adm}}$ заданы Hamming relations:
 
 $$
-R_k=\{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:
+R_k=\{(x,y)\in X_{\\mathrm{adm}}\times X_{\\mathrm{adm}}:
 x\neq y,\ d_H(x,y)=k\},
 \qquad
 k=1,2,3.
@@ -80,15 +80,15 @@ $$
 Graph-readings:
 
 $$
-(X_{\mathrm{adm}},R_1)\cong C_6,
+(X_{\\mathrm{adm}},R_1)\cong C_6,
 $$
 
 $$
-(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3,
+(X_{\\mathrm{adm}},R_2)\cong K_3\\sqcup K_3,
 $$
 
 $$
-(X_{\mathrm{adm}},R_3)\cong 3K_2.
+(X_{\\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
 Union relation:
@@ -96,13 +96,13 @@ Union relation:
 $$
 R_{12}=R_1\cup R_2,
 \qquad
-(X_{\mathrm{adm}},R_{12})\cong K_{2,2,2}.
+(X_{\\mathrm{adm}},R_{12})\cong K_{2,2,2}.
 $$
 
 Strict-источник для Hopf/Borromean bridge — relation $R_3$ и axial factorization:
 
 $$
-X_{\mathrm{adm}}\cong I_3\times\Sigma,
+X_{\\mathrm{adm}}\cong I_3\times\Sigma,
 \qquad
 I_3=\{I_1,I_2,I_3\},
 \qquad
@@ -116,13 +116,13 @@ $$
 Для $i\in\{1,2,3\}$:
 
 $$
-H_i=\{I_i^-,I_i^+\}\subset X_{\mathrm{adm}}.
+H_i=\{I_i^-,I_i^+\}\subset X_{\\mathrm{adm}}.
 $$
 
 Три axial pairs разбивают carrier:
 
 $$
-X_{\mathrm{adm}}=H_1\sqcup H_2\sqcup H_3.
+X_{\\mathrm{adm}}=H_1\sqcup H_2\sqcup H_3.
 $$
 
 Relation $R_3$ ограничивается на каждую pair как $K_2$:
@@ -134,7 +134,7 @@ $$
 Вся $R_3$-структура:
 
 $$
-(X_{\mathrm{adm}},R_3)
+(X_{\\mathrm{adm}},R_3)
 \cong
 H_1\sqcup H_2\sqcup H_3
 \cong
@@ -194,9 +194,9 @@ $$
 Transport $T$ на $X_{\mathrm{adm}}$ строится после выбора orientation на $C_6$-reading relation $R_1$:
 
 $$
-T:X_{\mathrm{adm}}\to X_{\mathrm{adm}},
+T:X_{\\mathrm{adm}}\to X_{\\mathrm{adm}},
 \qquad
-T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 Half-return:
@@ -316,7 +316,7 @@ $$
 Каждый $H_i$ является two-point axial block. Триада blocks фиксируется после factorization:
 
 $$
-X_{\mathrm{adm}}\cong I_3\times\Sigma.
+X_{\\mathrm{adm}}\cong I_3\times\Sigma.
 $$
 
 Borromean-type bridge reading:
@@ -493,7 +493,7 @@ $$
 Показать:
 
 $$
-X_{\mathrm{adm}}\cong I_3\times\Sigma.
+X_{\\mathrm{adm}}\cong I_3\times\Sigma.
 $$
 
 Строки: $I_1,I_2,I_3$. Колонки: $-,+$.
@@ -561,9 +561,9 @@ Hopf/Borromean layer имеет корректный bridge-статус.
 Strict finite source:
 
 $$
-(X_{\mathrm{adm}},R_3)\cong 3K_2,
+(X_{\\mathrm{adm}},R_3)\cong 3K_2,
 \qquad
-X_{\mathrm{adm}}\cong I_3\times\Sigma.
+X_{\\mathrm{adm}}\cong I_3\times\Sigma.
 $$
 
 Exact axial presentations:

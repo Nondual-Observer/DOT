@@ -53,7 +53,7 @@ The general growth law is then stated: the passage from rank $n$ to rank $n+1$ i
 
 The main manuscript is the central document of the package. It builds DOT as a finite theory in which each object is specified by a carrier, relation, reading, and recovery. Rank $1$ introduces the polar pair. Rank $2$ builds the binary carrier $Q_2$ and several readings of it: a cycle, opposite pairs, complete connectivity, and partial closure.
 
-Rank $3$ gives the first complete scene: two homogeneous positions are removed from $Q_3$, leaving the six-point carrier $X_{\mathrm{adm}}$. The relations $R_1,R_2,R_3$, the octahedral shell, chambers, incidence, and a six-step transport appear on this carrier. These constructions provide the basic form of later growth.
+Rank $3$ gives the first complete scene: two homogeneous positions are removed from $Q_3$, leaving the six-point carrier $X_{\mathrm{adm}}$. The relations $R_1, R_2, R_3$, the octahedral shell, chambers, incidence, and a six-step transport appear on this carrier. These constructions provide the basic form of later growth.
 
 Ranks $4$ and $5$ develop the same scheme on larger carriers. In rank $4$, the rank-3 octahedral structure reappears inside the middle layer of a fifteen-position carrier. In rank $5$, a thirty-one-position carrier is built with shell decomposition $5+10+10+5+1$, middle layers, an outer layer, the Petersen graph, selected cycles, and a Singer cycle. The final part states the general rank-growth law and the universal outer layer.
 
@@ -91,7 +91,7 @@ Ranks $4$ and $5$ develop the same scheme on larger carriers. In rank $4$, the r
 
 - [RGB / CMY / Kuhn / HSV color bridge](02_Bridges/01_Color_RGB_Kuhn/DOT_RGB_Kuhn_Color_Bridge_EN.md)
 
-  A color projection of rank $3$. The carrier $Q_3$ is read as an RGB/CMY cube, while the six-point layer $X_{\mathrm{adm}}$ is read as the chromatic carrier without the black and white poles. The relations $R_1,R_2,R_3$ receive color forms: a cycle, two triads, and three complementary axes. The octahedral shell and the decomposition of the RGB cube into Kuhn sectors are fixed separately.
+  A color projection of rank $3$. The carrier $Q_3$ is read as an RGB/CMY cube, while the six-point layer $X_{\mathrm{adm}}$ is read as the chromatic carrier without the black and white poles. The relations $R_1, R_2, R_3$ receive color forms: a cycle, two triads, and three complementary axes. The octahedral shell and the decomposition of the RGB cube into Kuhn sectors are fixed separately.
 
   ![DOT chambers on the color octahedron](assets/figures/B7c_DOT_chambers_two_octahedron_views.png)
 

@@ -15,9 +15,9 @@ All strict constructions are in the main manuscript and in the Mathematical Star
 
 | Notation | Meaning | Where Used |
 |---|---|---|
-| $Q_n=\mathbb F_2^n$ | full binary carrier of rank $n$ | main manuscript, Mathematical Start |
-| $Q_n^*=Q_n\setminus\{0^n\}$ | nonzero layer | ranks $1$–$5$ |
-| $U_n=Q_n\setminus\{0^n,1^n\}$ | full nontrivial layer with the two total poles removed | ranks $3$–$5$, general law |
+| $Q_n=\mathbb{F}_2^n$ | full binary carrier of rank $n$ | main manuscript, Mathematical Start |
+| $Q_n^*=$Q_n$\setminus\{0^n\}$ | nonzero layer | ranks $1$–$5$ |
+| $U_n=$Q_n$\setminus\{0^n,1^n\}$ | full nontrivial layer with the two total poles removed | ranks $3$–$5$, general law |
 | $S_k^{(n)}$ | weight-$k$ layer, i.e. states with $k$ ones | all ranks |
 | $V_n=S_1^{(n)}\sqcup S_{n-1}^{(n)}$ | outer shell: basis points and dual basis points | general outer shell |
 | $X_{\mathrm{adm}}$ | six-position admissible carrier of rank $3$ | strict finite center of rank $3$ |
@@ -67,7 +67,7 @@ For rank $3$, the outer shell coincides with $U_3$. Starting from rank $4$, the 
 | $\mathsf H_k^{(n)}$ | $Q_n^*$ or its sublayers | Hamming-distance-$k$ relation |
 | $\kappa_n(x)=x+1^n$ | $Q_n$ | complement involution |
 | $\Omega_n$ | $V_n$ | residual outer-shell relation: all pairs except complementary pairs |
-| $\Lambda_n(\varepsilon,x)=\varepsilon\,|\,x$ | $\mathbb F_2\times Q_n\to Q_{n+1}$ | transition to the next rank through a new highest bit |
+| $\Lambda_n(\varepsilon,x)=\varepsilon\,|\,x$ | $\mathbb{F}_2\times $Q_n$\to Q_{n+1}$ | transition to the next rank through a new highest bit |
 
 The relation $\mathsf H_k^{(n)}$ is treated as an undirected graph relation when edge counts are discussed. If an ordered-pair relation is meant, it must be stated explicitly.
 
@@ -95,9 +95,9 @@ Graph names are used only after the carrier and the relation have been fixed. Fo
 | $C_6$ | $X_{\mathrm{adm}}$ | cycle of the relation $R_1$ |
 | $C_6^{(4),\mathrm{mid}}$ | $S_2^{(4)}$ | chosen cycle on the middle shell of rank $4$ |
 | $C_8^{(4)}$ | $V_4$ | chosen Hamilton cycle on the outer shell of rank $4$ |
-| $C_{15}^{(4)}$ | $\mathcal P_4$ | Singer cycle after choosing a primitive polynomial over $\mathbb F_2$ |
+| $C_{15}^{(4)}$ | $\mathcal P_4$ | Singer cycle after choosing a primitive polynomial over $\mathbb{F}_2$ |
 | $C_{10}^{(5)}$ | $V_5$ | chosen Hamilton cycle on the outer shell of rank $5$ |
-| $C_{31}^{(5)}$ | $P^{(5)}$ | Singer cycle after choosing a primitive polynomial over $\mathbb F_2$ |
+| $C_{31}^{(5)}$ | $P^{(5)}$ | Singer cycle after choosing a primitive polynomial over $\mathbb{F}_2$ |
 
 A Hamilton cycle on the outer shell is a chosen representative inside the graph $K_{2,\ldots,2}$. The outer graph itself does not determine a unique cycle without an additional choice.
 
@@ -137,7 +137,7 @@ A scheme differs from a finite package because it is formulated for arbitrary $n
 
 | Status | Meaning | Examples |
 |---|---|---|
-| Constructed | the object has a carrier, a relation, a reading, and recovery data or an explicitly specified operator role | $Q_n$, $X_{\mathrm{adm}}$, $R_1,R_2,R_3$, $\kappa_n$, $\Lambda_n$, axial presentations |
+| Constructed | the object has a carrier, a relation, a reading, and recovery data or an explicitly specified operator role | $Q_n$, $X_{\mathrm{adm}}$, $R_1, R_2, R_3$, $\kappa_n$, $\Lambda_n$, axial presentations |
 | Reading | the name describes an already constructed structure in another register | colour realization, algebraic reading $A_2/\mathfrak{sl}_3/\mathfrak{su}_3$, topological image |
 | Deferred | the name denotes a future construction not used in the proofs of the current layer | physical interpretation, continuous topology as its own carrier, general cycle decomposition without an explicit construction |
 
@@ -186,39 +186,39 @@ All links below point to files in `assets/figures/`. The figures illustrate alre
 
 ![K4 minus edge](../assets/figures/1.6-K_4-e.png)
 
-**`2.1-Q_3.png`** — full three-bit carrier $Q_3=\{0,1\}^3$.
+**`2.1-$Q_3$.png`** — full three-bit carrier $Q_3=\{0,1\}^3$.
 
 ![Q3](../assets/figures/2.1-Q_3.png)
 
-**`2.2-X_adm.png`** — admissible carrier $X_{\mathrm{adm}}=Q_3\setminus\{000,111\}$.
+**`2.2-X_adm.png`** — admissible carrier $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$.
 
 ![Xadm](../assets/figures/2.2-X_adm.png)
 
-**`3.1-R_1-C_6.png`** — relation $R_1$: $(X_{\mathrm{adm}},R_1)\cong C_6$.
+**`3.1-$R_1$-$C_6$.png`** — relation $R_1$: $($X_{\\mathrm{adm}}$,$R_1$)\cong C_6$.
 
 ![R1 C6](../assets/figures/3.1-R_1-C_6.png)
 
-**`3.2-R_2-2_triangles.png`** — relation $R_2$: $(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3$.
+**`3.2-$R_2$-2_triangles.png`** — relation $R_2$: $($X_{\\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$.
 
 ![R2 two triangles](../assets/figures/3.2-R_2-2_triangles.png)
 
-**`3.3-R_3-3K_2.png`** — relation $R_3$: $(X_{\mathrm{adm}},R_3)\cong 3K_2$.
+**`3.3-$R_3$-$3K_2$.png`** — relation $R_3$: $($X_{\\mathrm{adm}}$,$R_3$)\cong 3K_2$.
 
 ![R3 3K2](../assets/figures/3.3-R_3-3K_2.png)
 
-**`4.1-R_12-octahedron.png`** — union relation $R_{12}=R_1\cup R_2$: $(X_{\mathrm{adm}},R_{12})\cong K_{2,2,2}$.
+**`4.1-$R_1$2-octahedron.png`** — union relation $R_{12}=$R_1$\cup R_2$: $($X_{\\mathrm{adm}}$,R_{12})\cong K_{2,2,2}$.
 
 ![R12 octahedron](../assets/figures/4.1-R_12-octahedron.png)
 
-**`4.2-R_1-C_6.png`** — the same relation $R_1\cong C_6$, shown in the octahedral layout.
+**`4.2-$R_1$-$C_6$.png`** — the same relation $R_1\cong C_6$, shown in the octahedral layout.
 
 ![R1 octahedral view](../assets/figures/4.2-R_1-C_6.png)
 
-**`4.3-R_2-K_3-U-K_3.png`** — the same relation $R_2\cong K_3\sqcup K_3$, shown in the octahedral layout.
+**`4.3-$R_2$-K_3-U-K_3.png`** — the same relation $R_2\cong K_3\sqcup K_3$, shown in the octahedral layout.
 
 ![R2 octahedral view](../assets/figures/4.3-R_2-K_3-U-K_3.png)
 
-**`4.4-R_3-3K2.png`** — axial factorization $X_{\mathrm{adm}}\cong I_3\times\{-,+\}$ and relation $R_3\cong 3K_2$.
+**`4.4-$R_3$-3K2.png`** — axial factorization $X_{\mathrm{adm}}\cong I_3\times\{-,+\}$ and relation $R_3\cong 3K_2$.
 
 ![R3 axial view](../assets/figures/4.4-R_3-3K2.png)
 
@@ -226,7 +226,7 @@ All links below point to files in `assets/figures/`. The figures illustrate alre
 
 ![Rank 3 shell split](../assets/figures/4.5-S_1-S_2.png)
 
-**`4.6-R_1-C6.png`** — oriented/transport reading of $R_1\cong C_6$ after choosing a cycle orientation.
+**`4.6-$R_1$-C6.png`** — oriented/transport reading of $R_1\cong C_6$ after choosing a cycle orientation.
 
 ![Directed R1 cycle](../assets/figures/4.6-R_1-C6.png)
 
@@ -238,11 +238,11 @@ All links below point to files in `assets/figures/`. The figures illustrate alre
 
 ![Chamber pair projection tiles](../assets/figures/4.9-chamber_pair_projection_tiles.png)
 
-**`4.10-chambers_two_octahedron_views.png`** — two-octahedron chamber view, $\mathrm{Cham}(O_3)\cong Q_3$.
+**`4.10-chambers_two_octahedron_views.png`** — two-octahedron chamber view, $\mathrm{Cham}($O_3$)\cong Q_3$.
 
 ![Two octahedron chamber views](../assets/figures/4.10-chambers_two_octahedron_views.png)
 
-**`5.1-Q4_full_tesseract.png`** — full carrier $Q_4\cong\mathbb F_2^4$.
+**`5.1-Q4_full_tesseract.png`** — full carrier $Q_4\cong\mathbb{F}_2^4$.
 
 ![Q4](../assets/figures/5.1-Q4_full_tesseract.png)
 
@@ -268,23 +268,23 @@ All links below point to files in `assets/figures/`. The figures illustrate alre
 
 ![RGB cube Q3](../assets/figures/B1_color_cube_Q3.png)
 
-**`B2_chromatic_carrier_Xadm.png`** — $X_{\mathrm{adm}}=Q_3\setminus\{000,111\}$ as a chromatic carrier.
+**`B2_chromatic_carrier_Xadm.png`** — $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$ as a chromatic carrier.
 
 ![Chromatic Xadm](../assets/figures/B2_chromatic_carrier_Xadm.png)
 
-**`B3_R1_hamming_cycle_C6.png`** — $(X_{\mathrm{adm}},R_1)\cong C_6$, the colour Hamming cycle.
+**`B3_R1_hamming_cycle_C6.png`** — $($X_{\\mathrm{adm}}$,$R_1$)\cong C_6$, the colour Hamming cycle.
 
 ![Color R1 C6](../assets/figures/B3_R1_hamming_cycle_C6.png)
 
-**`B4_R2_two_triads_K3sqcupK3.png`** — $(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3$, two colour triads.
+**`B4_R2_two_triads_K3sqcupK3.png`** — $($X_{\\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$, two colour triads.
 
 ![Color R2 two triads](../assets/figures/B4_R2_two_triads_K3sqcupK3.png)
 
-**`B5_R3_complementary_axes_3K2.png`** — $(X_{\mathrm{adm}},R_3)\cong 3K_2$, complementary colour axes.
+**`B5_R3_complementary_axes_3K2.png`** — $($X_{\\mathrm{adm}}$,$R_3$)\cong 3K_2$, complementary colour axes.
 
 ![Color R3 complementary axes](../assets/figures/B5_R3_complementary_axes_3K2.png)
 
-**`B6_octahedral_shell_R12_K222.png`** — $(X_{\mathrm{adm}},R_1\cup R_2)\cong K_{2,2,2}$, the octahedral chromatic shell.
+**`B6_octahedral_shell_R12_K222.png`** — $($X_{\\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$, the octahedral chromatic shell.
 
 ![Color octahedral shell](../assets/figures/B6_octahedral_shell_R12_K222.png)
 
@@ -296,7 +296,7 @@ All links below point to files in `assets/figures/`. The figures illustrate alre
 
 ![Colour chamber side B](../assets/figures/B7b_DOT_chambers_RGB_CMY_side_B.png)
 
-**`B7c_DOT_chambers_two_octahedron_views.png`** — two colour chamber octahedron views, $\mathrm{Cham}(O_3)\cong Q_3$.
+**`B7c_DOT_chambers_two_octahedron_views.png`** — two colour chamber octahedron views, $\mathrm{Cham}($O_3$)\cong Q_3$.
 
 ![Colour two chamber views](../assets/figures/B7c_DOT_chambers_two_octahedron_views.png)
 
@@ -320,7 +320,7 @@ All PNG files listed above are present in `assets/figures/` and have nonzero siz
 
 | Symbol | Meaning |
 |---|---|
-| $\mathbb F_2$ | field with two elements |
+| $\mathbb{F}_2$ | field with two elements |
 | $d_H(x,y)$ | Hamming distance |
 | $|x|$ | Hamming weight |
 | $1^n$ | word of $n$ ones |
@@ -362,10 +362,10 @@ This set is enough to read the Mathematical Start and bridge documents without c
 | shell-order | constructed | decomposition of a carrier by Hamming weight |
 | relation-order | constructed | decomposition of pair-relations by Hamming distance |
 | Hamming weight | constructed | $|x|$, the number of ones in a bit-string |
-| Hamming distance | constructed | $d_H(x,y)=|x+y|$ over $\mathbb F_2$ |
+| Hamming distance | constructed | $d_H(x,y)=|x+y|$ over $\mathbb{F}_2$ |
 | total poles | constructed | the two extreme points $0^n$ and $1^n$ |
 | puncture | constructed | removal of the total poles from $Q_n$ |
-| admissible carrier | constructed | $X_{\mathrm{adm}}=Q_3\setminus\{000,111\}$ |
+| admissible carrier | constructed | $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$ |
 | complement | constructed | $\kappa_n(x)=x+1^n$ |
 | complement-pair | constructed | pair $\{x,\kappa_n(x)\}$ |
 | outer shell | constructed | $V_n=S_1^{(n)}\sqcup S_{n-1}^{(n)}$ |
@@ -373,12 +373,12 @@ This set is enough to read the Mathematical Start and bridge documents without c
 | residual relation | constructed | $\Omega_n$, all outer pairs except complement-pairs |
 | axial pair | constructed | $H_i^{(n)}=\{e_i,1^n-e_i\}$ |
 | chamber | constructed | choice of one vertex from each complement-pair of $O_3$ |
-| chamber-coordinate reading | constructed | $\mathrm{Cham}(O_3)\cong Q_3$ |
+| chamber-coordinate reading | constructed | $\mathrm{Cham}($O_3$)\cong Q_3$ |
 | incidence relation | constructed | relation between vertex-side $V_O$ and chamber-side $C_O$ |
 | star | constructed | set of chambers incident to a given vertex |
-| coordinate face | constructed | subset $F_i^\eta=\{\varepsilon\in Q_3:\varepsilon_i=\eta\}$ |
+| coordinate face | constructed | subset $F_i^\eta=\{\varepsilon\in $Q_3$:\varepsilon_i=\eta\}$ |
 | graph-reading | constructed | reading of a relation-layer as a graph type |
-| octahedral shell | graph reading | $(X_{\mathrm{adm}},R_1\cup R_2)\cong K_{2,2,2}\cong O_3^{(1)}$ |
+| octahedral shell | graph reading | $($X_{\\mathrm{adm}}$,$R_1$\cup $R_2$)\cong $K_{2,2,2}$\cong $O_3$^{(1)}$ |
 | line graph | standard graph term | $L(G)$, graph of the edges of $G$ |
 | Singer cycle | constructed after a choice | cycle on $Q_n^*$ after choosing a primitive polynomial |
 | Hamilton-cycle | chosen object | cycle passing through all vertices of the chosen graph |

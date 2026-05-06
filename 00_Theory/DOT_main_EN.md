@@ -47,14 +47,14 @@ The document begins with the protocol of presentation: relational carrier, readi
 Rank 2 introduces a four-position carrier and the first different graph readings of one and the same carrier: a cycle, complement pairs, complete connectedness, and partial connectedness with a distinguished seam. Rank 3 constructs the admissible carrier
 
 $$
-X_{\mathrm{adm}} = Q_3 \setminus \{000,111\},
+X_{\\mathrm{adm}} = Q_3 \setminus \{000,111\},
 $$
 
-on which the relation grammar $R_1,R_2,R_3$, the cycle reading $C_6$, two triangular components $K_3\sqcup K_3$, complement pairs $3K_2$, the octahedral shell $K_{2,2,2}$, the chamber layer, the incidence package, and cyclic transport appear together.
+on which the relation grammar $R_1, R_2, R_3$, the cycle reading $C_6$, two triangular components $K_3\sqcup K_3$, complement pairs $3K_2$, the octahedral shell $K_{2,2,2}$, the chamber layer, the incidence package, and cyclic transport appear together.
 
 Rank 4 shows how the octahedral structure already constructed is re-read inside a larger carrier. Here one obtains the shell decomposition $4+6+4+1$, the self-dual middle layer, the outer shell, the residual graph $K_{2,2,2,2}$, the cycle atlas, and the Singer cycle $C_{15}$.
 
-Rank 5 closes the finite carrier atlas of the manuscript. Its carrier has $31$ positions and the shell decomposition $5+10+10+5+1$. In the two middle layers one obtains relation grammars on ten-position carriers, including graph readings by intersecting and disjoint pairs; in the outer layer one obtains the residual graph $K_{2,2,2,2,2}$, the cycle $C_{10}$, the checked edge-disjoint cover $5C_8$, and the projective Singer cycle $C_{31}$ through $\mathbb F_{32}$.
+Rank 5 closes the finite carrier atlas of the manuscript. Its carrier has $31$ positions and the shell decomposition $5+10+10+5+1$. In the two middle layers one obtains relation grammars on ten-position carriers, including graph readings by intersecting and disjoint pairs; in the outer layer one obtains the residual graph $K_{2,2,2,2,2}$, the cycle $C_{10}$, the checked edge-disjoint cover $5C_8$, and the projective Singer cycle $C_{31}$ through $\mathbb{F}_{32}$.
 
 After the rank construction, the general law of growth is formulated. The transition from rank $n$ to rank $n+1$ is written as the addition of a new highest binary digit:
 
@@ -78,7 +78,7 @@ which gathers the constructed ranks under one name.
 
 The main document fixes the strict finite core. External readings are not mixed into the core automatically: a bridge receives structural status only when its carrier, relation, reading, and recovery or operator role are specified.
 
-The accompanying notes develop several such projections. The binary growth note separately unfolds the rank lift and binary-coordinate mechanism. The color bridge reads $Q_3$ as the RGB/CMY cube and $X_{\mathrm{adm}}$ as a six-color carrier with relations $R_1,R_2,R_3$, the octahedral shell, and Kuhn/HSV sectors. The spectral block isolates checkable spectral statements for finite graph structures. The six-state $A_2/sl_3/su(3)$ bridge shows how the six-state carrier may be compared with root and representation-theoretic grammar while preserving its bridge-layer status.
+The accompanying notes develop several such projections. The binary growth note separately unfolds the rank lift and binary-coordinate mechanism. The color bridge reads $Q_3$ as the RGB/CMY cube and $X_{\mathrm{adm}}$ as a six-color carrier with relations $R_1, R_2, R_3$, the octahedral shell, and Kuhn/HSV sectors. The spectral block isolates checkable spectral statements for finite graph structures. The six-state $A_2/sl_3/su(3)$ bridge shows how the six-state carrier may be compared with root and representation-theoretic grammar while preserving its bridge-layer status.
 
 These notes show which projection readings become possible after the finite core has already been constructed.
 
@@ -705,7 +705,7 @@ layers can be placed side by side as coordinates. This notation is a bit.
 A coordinate notation of the polar layer is a bijection
 
 $$
-c:P\to \mathbb F_2
+c:P\to \mathbb{F}_2
 $$
 
 of the form
@@ -744,7 +744,7 @@ In the chosen coordinate notation, the canonical swap takes the form
 $$
 c\circ\tau\circ c^{-1}(x)=x+1
 \qquad
-(x\in\mathbb F_2).
+(x\in\mathbb{F}_2).
 $$
 
 Check:
@@ -756,7 +756,7 @@ $$
 $$
 
 Thus the local swap receives the algebraic notation of adding one in
-$\mathbb F_2$.
+$\mathbb{F}_2$.
 
 ### §3.2. Rank 1 as the Coordinate Form of the First Layer
 
@@ -764,7 +764,7 @@ $\mathbb F_2$.
 The coordinate carrier of rank $1$ is
 
 $$
-Q_1=\mathbb F_2=\{0,1\}.
+Q_1=\mathbb{F}_2=\{0,1\}.
 $$
 
 On it, the polar relation is defined by
@@ -835,7 +835,7 @@ independent bits.
 The full coordinate carrier of rank $n$ is
 
 $$
-Q_n=\mathbb F_2^n.
+Q_n=\mathbb{F}_2^n.
 $$
 
 Its element
@@ -866,7 +866,7 @@ $1$.
 The set of all manifest states is denoted
 
 $$
-Q_n^*=\mathbb F_2^n\setminus\{0^n\}.
+Q_n^*=\mathbb{F}_2^n\setminus\{0^n\}.
 $$
 
 For $n=1$:
@@ -889,7 +889,7 @@ $Q_1$ and $Q_1^*$ have different carrier roles.
 The carrier
 
 $$
-Q_n=\mathbb F_2^n
+Q_n=\mathbb{F}_2^n
 $$
 
 is used as the coordinate domain of states.
@@ -922,7 +922,7 @@ $$
 \sigma_i(x)=x+e_i.
 $$
 
-Here addition is taken in $\mathbb F_2^n$.
+Here addition is taken in $\mathbb{F}_2^n$.
 
 For $n=1$, this coincides with the notation of the canonical swap:
 
@@ -967,7 +967,7 @@ $$
 Then
 
 $$
-Q_n=\mathbb F_2 e_n\oplus Q_{n-1}.
+Q_n=\mathbb{F}_2 e_n\oplus Q_{n-1}.
 $$
 
 The block of the new bit is
@@ -1011,7 +1011,7 @@ $$
 where
 
 $$
-\varepsilon\in\mathbb F_2,
+\varepsilon\in\mathbb{F}_2,
 \qquad
 y\in Q_{n-1}.
 $$
@@ -1332,7 +1332,7 @@ $$
 The two-bit carrier is
 
 $$
-Q_2=\mathbb F_2^2
+Q_2=\mathbb{F}_2^2
 =
 \{00,01,10,11\}.
 $$
@@ -1765,7 +1765,7 @@ contains two coordinates. Therefore a comparison reading is introduced.
 The comparator of rank $2$ is the map
 
 $$
-\chi:Q_2\to\mathbb F_2
+\chi:Q_2\to\mathbb{F}_2
 $$
 
 defined by
@@ -2501,7 +2501,7 @@ the five already constructed presentations.
 The three-bit carrier is
 
 $$
-Q_3=\mathbb F_2^3.
+Q_3=\mathbb{F}_2^3.
 $$
 
 In expanded notation:
@@ -2693,7 +2693,7 @@ The admissible carrier of rank $3$ is the punctured coordinate subset of
 rank $3$:
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 Q_3^\circ
 =
@@ -2703,7 +2703,7 @@ $$
 That is,
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 \{001,010,011,100,101,110\}.
 $$
@@ -2724,7 +2724,7 @@ $X_{\mathrm{adm}}$ is its active mixed residue.
 ## §5.6. Shell Decomposition of $X_{\mathrm{adm}}$
 
 By Definition 3.5 (§3.9), the shell of rank $n$ is
-$S_k^{(n)} = \{x \in Q_n : |x| = k\}$. For $n = 3$:
+$S_k^{(n)} = \{x \in $Q_n$ : |x| = k\}$. For $n = 3$:
 
 $$
 S_k^{(3)}=\{x\in Q_3:|x|=k\}.
@@ -2759,7 +2759,7 @@ $$
 After puncture, the middle shells remain:
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 S_1^{(3)}
 \sqcup
@@ -2769,7 +2769,7 @@ $$
 That is,
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 \{001,010,100\}
 \sqcup
@@ -2800,7 +2800,7 @@ $$
 The cardinality of the admissible carrier of rank $3$ is $6$:
 
 $$
-|X_{\mathrm{adm}}| = 2^3 - 2 = 6.
+|X_{\\mathrm{adm}}| = 2^3 - 2 = 6.
 $$
 
 At rank $2$, the cardinality of the punctured coordinate subset is $2$.
@@ -2827,7 +2827,7 @@ Unlike rank $2$, where puncture leaves a two-point subset, rank $3$ first
 gives a six-point mixed carrier:
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 Q_3\setminus\{000,111\}.
 $$
@@ -2851,9 +2851,9 @@ $$
 It also preserves the admissible carrier:
 
 $$
-x\in X_{\mathrm{adm}}
+x\in X_{\\mathrm{adm}}
 \quad\Longrightarrow\quad
-\overline{x}\in X_{\mathrm{adm}}.
+\overline{x}\in X_{\\mathrm{adm}}.
 $$
 
 **Statement 5.6.**
@@ -2914,7 +2914,7 @@ extending the complement transition introduced in §4.
 Section §6 uses the carrier constructed in §5:
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 Q_3\setminus\{000,111\}
 =
@@ -2932,13 +2932,13 @@ $$
 d_H(x,y)=|x+y|,
 $$
 
-where addition is taken in $\mathbb F_2^n$, and $|x+y|$ denotes Hamming
+where addition is taken in $\mathbb{F}_2^n$, and $|x+y|$ denotes Hamming
 weight. Section §6 uses the case $n=3$.
 
 For distinct
 
 $$
-x,y\in X_{\mathrm{adm}},
+x,y\in X_{\\mathrm{adm}},
 $$
 
 exactly three values are possible:
@@ -2963,7 +2963,7 @@ the relation $R_k$ on $X_{\mathrm{adm}}$ is defined by
 $$
 R_k
 =
-\{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:
+\{(x,y)\in X_{\\mathrm{adm}}\times X_{\\mathrm{adm}}:
 x\neq y,\ d_H(x,y)=k\}.
 $$
 
@@ -2983,9 +2983,9 @@ $$
 \Pi_{3,k}
 =
 \bigl(
-X_{\mathrm{adm}},
+X_{\\mathrm{adm}},
 R_k,
-\mathrm{id}_{X_{\mathrm{adm}}},
+\mathrm{id}_{X_{\\mathrm{adm}}},
 \mathrm{rec}_{\mathrm{id}}
 \bigr).
 $$
@@ -3069,17 +3069,17 @@ $$
 **Statement 6.2.**
 
 $$
-(X_{\mathrm{adm}},R_1)\cong C_6.
+(X_{\\mathrm{adm}},R_1)\cong C_6.
 $$
 
 **Check.**
 The listed sequence passes through all six vertices of $X_{\mathrm{adm}}$ and
 returns to the starting vertex. Each vertex has exactly two $R_1$-adjacent
-vertices. Therefore the graph reading $(X_{\mathrm{adm}},R_1)$ is a
+vertices. Therefore the graph reading $($X_{\\mathrm{adm}}$,$R_1$)$ is a
 connected $2$-regular graph on six vertices. Hence
 
 $$
-(X_{\mathrm{adm}},R_1)\cong C_6.
+(X_{\\mathrm{adm}},R_1)\cong C_6.
 $$
 
 ![Graph reading $R_1\cong C_6$ on $X_{\mathrm{adm}}$](../assets/figures/3.1-R_1-C_6.png)
@@ -3106,9 +3106,9 @@ $$
 **Statement 6.3.**
 
 $$
-(X_{\mathrm{adm}},R_2)
+(X_{\\mathrm{adm}},R_2)
 \cong
-K_3\sqcup K_3.
+K_3\\sqcup K_3.
 $$
 
 **Check.**
@@ -3170,9 +3170,9 @@ $$
 are possible. The value $2$ does not occur between shells. Hence
 
 $$
-(X_{\mathrm{adm}},R_2)
+(X_{\\mathrm{adm}},R_2)
 \cong
-K_3\sqcup K_3.
+K_3\\sqcup K_3.
 $$
 
 Each $K_3$ contains $3$ edges, so
@@ -3224,14 +3224,14 @@ $$
 **Statement 6.4.**
 
 $$
-(X_{\mathrm{adm}},R_3)\cong 3K_2.
+(X_{\\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
 **Check.**
 For each
 
 $$
-x\in X_{\mathrm{adm}},
+x\in X_{\\mathrm{adm}},
 $$
 
 the state
@@ -3267,7 +3267,7 @@ Each pair has type $K_2$, and relation $R_3$ gives no edges between
 different complement pairs. Therefore
 
 $$
-(X_{\mathrm{adm}},R_3)\cong 3K_2.
+(X_{\\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
 ![Graph reading $R_3\cong 3K_2$ on $X_{\mathrm{adm}}$](../assets/figures/3.3-R_3-3K_2.png)
@@ -3293,7 +3293,7 @@ $X_{\mathrm{adm}}$.
 For any distinct
 
 $$
-x,y\in X_{\mathrm{adm}}\subset Q_3,
+x,y\in X_{\\mathrm{adm}}\subset Q_3,
 $$
 
 the distance $d_H(x,y)$ takes one of the values
@@ -3305,13 +3305,13 @@ $$
 There are no other positive Hamming distances in $Q_3$.
 
 The pair $\{x,y\}$ belongs to exactly one relation $R_k$, since the value
-of $d_H(x,y)$ is unique. Hence the relations $R_1,R_2,R_3$ are pairwise
+of $d_H(x,y)$ is unique. Hence the relations $R_1, R_2, R_3$ are pairwise
 disjoint and together cover all pairs of distinct states.
 
 Control count:
 
 $$
-\binom{|X_{\mathrm{adm}}|}{2}
+\binom{|X_{\\mathrm{adm}}|}{2}
 =
 \binom{6}{2}
 =
@@ -3343,7 +3343,7 @@ Therefore
 $$
 \mathcal R_{\mathrm{adm}}^{(3)}
 =
-\{R_1,R_2,R_3\}
+\{$R_1, R_2, R_3$\}
 $$
 
 is the full static Hamming relation grammar of $X_{\mathrm{adm}}$.
@@ -3384,7 +3384,7 @@ $$
 The relation $R_2$ reads each shell separately and gives
 
 $$
-K_3\sqcup K_3.
+K_3\\sqcup K_3.
 $$
 
 The relation $R_3$ connects shells by complement pairs and gives
@@ -3426,7 +3426,7 @@ The complement-pair partition of the carrier $X_{\mathrm{adm}}$ is the
 decomposition
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 \beta_1\sqcup\beta_2\sqcup\beta_3,
 $$
@@ -3448,7 +3448,7 @@ $$
 Each $\beta_i$ is one component of the graph reading
 
 $$
-(X_{\mathrm{adm}},R_3)\cong 3K_2.
+(X_{\\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
 In §7, these pairs define the parts of the complete tripartite graph reading.
@@ -3469,7 +3469,7 @@ $$
 Thus for
 
 $$
-x,y\in X_{\mathrm{adm}},
+x,y\in X_{\\mathrm{adm}},
 \qquad
 x\neq y,
 $$
@@ -3492,7 +3492,7 @@ $$
 d_H(x,y)=2.
 $$
 
-By Statement 6.5, the relations $R_1,R_2,R_3$ partition all pairs of
+By Statement 6.5, the relations $R_1, R_2, R_3$ partition all pairs of
 distinct states of $X_{\mathrm{adm}}$. Therefore $R_{12}$ can be read as
 the residue relative to the complement relation $R_3$: it contains exactly
 the pairs that are not complement pairs.
@@ -3542,9 +3542,9 @@ $$
 \Pi_{12}
 =
 \bigl(
-X_{\mathrm{adm}},
+X_{\\mathrm{adm}},
 R_{12},
-\mathrm{id}_{X_{\mathrm{adm}}},
+\mathrm{id}_{X_{\\mathrm{adm}}},
 \mathrm{rec}_{\mathrm{id}}
 \bigr).
 $$
@@ -3604,7 +3604,7 @@ parts connected by an edge.
 **Statement 7.4.**
 
 $$
-(X_{\mathrm{adm}},R_{12})
+(X_{\\mathrm{adm}},R_{12})
 \cong
 K_{2,2,2}.
 $$
@@ -3627,7 +3627,7 @@ from Definition 7.3.
 Use the decomposition
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 \beta_1\sqcup\beta_2\sqcup\beta_3,
 $$
@@ -3829,7 +3829,7 @@ $$
 **Corollary 7.7.**
 
 $$
-(X_{\mathrm{adm}},R_{12})
+(X_{\\mathrm{adm}},R_{12})
 \cong
 O_3^{(1)}.
 $$
@@ -3838,7 +3838,7 @@ $$
 By Statement 7.4:
 
 $$
-(X_{\mathrm{adm}},R_{12})
+(X_{\\mathrm{adm}},R_{12})
 \cong
 K_{2,2,2}.
 $$
@@ -3854,7 +3854,7 @@ $$
 Transitivity of isomorphism gives
 
 $$
-(X_{\mathrm{adm}},R_{12})
+(X_{\\mathrm{adm}},R_{12})
 \cong
 O_3^{(1)}.
 $$
@@ -3869,7 +3869,7 @@ $$
 =
 \bigl(
 \Pi_{12},
-[(X_{\mathrm{adm}},R_{12})\cong O_3^{(1)}]
+[(X_{\\mathrm{adm}},R_{12})\cong O_3^{(1)}]
 \bigr),
 $$
 
@@ -3877,7 +3877,7 @@ where $\Pi_{12}$ is the presentation from §7.3, and the second component
 means the isomorphism type
 
 $$
-(X_{\mathrm{adm}},R_{12})
+(X_{\\mathrm{adm}},R_{12})
 \cong
 O_3^{(1)}
 $$
@@ -3891,7 +3891,7 @@ A concrete drawing of the octahedron is obtained only after choosing an
 isomorphism
 
 $$
-\varphi:(X_{\mathrm{adm}},R_{12})\to O_3^{(1)}.
+\varphi:(X_{\\mathrm{adm}},R_{12})\to O_3^{(1)}.
 $$
 
 The octahedral graph reading itself does not depend on one chosen drawing.
@@ -3900,7 +3900,7 @@ The octahedral graph reading itself does not depend on one chosen drawing.
 Graph isomorphism preserves non-adjacency. The non-edges of the graph reading
 
 $$
-(X_{\mathrm{adm}},R_{12})
+(X_{\\mathrm{adm}},R_{12})
 $$
 
 are exactly the complement pairs
@@ -3918,7 +3918,7 @@ $$
 Therefore any isomorphism
 
 $$
-\varphi:(X_{\mathrm{adm}},R_{12})\to O_3^{(1)}
+\varphi:(X_{\\mathrm{adm}},R_{12})\to O_3^{(1)}
 $$
 
 induces a bijection
@@ -4021,13 +4021,13 @@ At the same time, the distinction between $R_1$ and $R_2$ is preserved.
 The relation $R_1$ remains the one-step Hamming relation:
 
 $$
-(X_{\mathrm{adm}},R_1)\cong C_6.
+(X_{\\mathrm{adm}},R_1)\cong C_6.
 $$
 
 The relation $R_2$ remains the two-step Hamming relation:
 
 $$
-(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3.
+(X_{\\mathrm{adm}},R_2)\cong K_3\\sqcup K_3.
 $$
 
 The relation $R_{12}$ combines Hamming distance $1$ and Hamming distance
@@ -4054,7 +4054,7 @@ Section §7 uses another decomposition of the already assembled carrier.
 The shell order from §5 gives
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 S_1^{(3)}
 \sqcup
@@ -4072,7 +4072,7 @@ $$
 Section §7 uses a different decomposition:
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 \beta_1\sqcup\beta_2\sqcup\beta_3.
 $$
@@ -4100,7 +4100,7 @@ carrier.
 The carrier of §7 is
 
 $$
-X_{\mathrm{adm}}.
+X_{\\mathrm{adm}}.
 $$
 
 The new layer consists of choosing the union relation
@@ -4112,7 +4112,7 @@ $$
 and its graph reading
 
 $$
-(X_{\mathrm{adm}},R_{12})
+(X_{\\mathrm{adm}},R_{12})
 \cong
 O_3^{(1)}.
 $$
@@ -4124,7 +4124,7 @@ $$
 By §7.1, the admissible carrier is partitioned into complement pairs:
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 \beta_1\sqcup\beta_2\sqcup\beta_3,
 $$
@@ -4172,7 +4172,7 @@ $R_{12}$.
 A chamber of the chamber layer $O_3$ is a subset
 
 $$
-C\subset X_{\mathrm{adm}}
+C\subset X_{\\mathrm{adm}}
 $$
 
 such that
@@ -4211,7 +4211,7 @@ of §8 uses only the finite chamber carrier.
 For a subset
 
 $$
-C\subset X_{\mathrm{adm}},
+C\subset X_{\\mathrm{adm}},
 \qquad
 |C|=3,
 $$
@@ -4225,7 +4225,7 @@ $$
 $$
 C
 \text{ is a three-vertex clique in }
-(X_{\mathrm{adm}},R_{12}).
+(X_{\\mathrm{adm}},R_{12}).
 $$
 
 **Check.**
@@ -4557,7 +4557,7 @@ as a chamber graph reading.
 Denote the vertex side by
 
 $$
-V_O:=X_{\mathrm{adm}}.
+V_O:=X_{\\mathrm{adm}}.
 $$
 
 Denote the chamber side by
@@ -5559,7 +5559,7 @@ $$
 on
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 \{001,010,011,100,101,110\}
 $$
@@ -5575,7 +5575,7 @@ $$
 The graph reading is
 
 $$
-(X_{\mathrm{adm}},R_1)\cong C_6.
+(X_{\\mathrm{adm}},R_1)\cong C_6.
 $$
 
 One cyclic order compatible with $R_1$ is
@@ -5624,7 +5624,7 @@ orientation is added.
 Fix the orientation on
 
 $$
-(X_{\mathrm{adm}},R_1)\cong C_6
+(X_{\\mathrm{adm}},R_1)\cong C_6
 $$
 
 as follows:
@@ -5663,7 +5663,7 @@ $$
 The cyclic transport operator
 
 $$
-T:X_{\mathrm{adm}}\to X_{\mathrm{adm}}
+T:X_{\\mathrm{adm}}\to X_{\\mathrm{adm}}
 $$
 
 is defined by the chosen orientation:
@@ -5707,7 +5707,7 @@ corresponds to the opposite orientation.
 For every
 
 $$
-x\in X_{\mathrm{adm}}
+x\in X_{\\mathrm{adm}}
 $$
 
 we have
@@ -5760,7 +5760,7 @@ The directed transport relation is the relation
 $$
 \vec R_T
 \subset
-X_{\mathrm{adm}}\times X_{\mathrm{adm}}
+X_{\\mathrm{adm}}\times X_{\\mathrm{adm}}
 $$
 
 such that
@@ -5776,7 +5776,7 @@ That is,
 $$
 \vec R_T
 =
-\{(x,T(x)):x\in X_{\mathrm{adm}}\}.
+\{(x,T(x)):x\in X_{\\mathrm{adm}}\}.
 $$
 
 Explicitly:
@@ -5799,7 +5799,7 @@ The opposite directed relation is
 $$
 \vec R_T^{-1}
 =
-\{(T(x),x):x\in X_{\mathrm{adm}}\}.
+\{(T(x),x):x\in X_{\\mathrm{adm}}\}.
 $$
 
 **Corollary 10.5.**
@@ -5847,7 +5847,7 @@ The relation grammar of §6 was static:
 $$
 \mathcal R_{\mathrm{adm}}^{(3)}
 =
-\{R_1,R_2,R_3\}.
+\{$R_1, R_2, R_3$\}.
 $$
 
 The transport layer adds direction, composition, paths, iteration, and
@@ -5888,7 +5888,7 @@ Its objects are
 $$
 \mathrm{Ob}(\mathrm{Path}_T(C_6))
 =
-X_{\mathrm{adm}}.
+X_{\\mathrm{adm}}.
 $$
 
 The generating arrows are
@@ -5900,7 +5900,7 @@ $$
 for all
 
 $$
-x\in X_{\mathrm{adm}}.
+x\in X_{\\mathrm{adm}}.
 $$
 
 Composition is given by iteration:
@@ -5936,7 +5936,7 @@ $$
 The operator $T$ defines integer iteration:
 
 $$
-\rho_T:\mathbb Z\to \mathrm{Sym}(X_{\mathrm{adm}})
+\rho_T:\mathbb Z\to \mathrm{Sym}(X_{\\mathrm{adm}})
 $$
 
 by the formula
@@ -5948,13 +5948,13 @@ $$
 For every
 
 $$
-x\in X_{\mathrm{adm}}
+x\in X_{\\mathrm{adm}}
 $$
 
 we obtain the orbit map
 
 $$
-\gamma_x:\mathbb Z\to X_{\mathrm{adm}},
+\gamma_x:\mathbb Z\to X_{\\mathrm{adm}},
 \qquad
 \gamma_x(k)=T^k(x).
 $$
@@ -6020,7 +6020,7 @@ Hence $T$ permutes the complement pairs and preserves $R_3$.
 By §6.7 the relation grammar
 
 $$
-\{R_1,R_2,R_3\}
+\{$R_1, R_2, R_3$\}
 $$
 
 partitions all pairs of distinct elements of $X_{\mathrm{adm}}$ by
@@ -6038,8 +6038,8 @@ $$
 T\in
 \mathrm{Aut}
 \bigl(
-X_{\mathrm{adm}},
-R_1,R_2,R_3
+X_{\\mathrm{adm}},
+$R_1, R_2, R_3$
 \bigr).
 $$
 
@@ -6158,7 +6158,7 @@ $$
 where
 
 $$
-V_O=X_{\mathrm{adm}},
+V_O=X_{\\mathrm{adm}},
 \qquad
 C_O=\mathrm{Cham}(O_3).
 $$
@@ -6222,9 +6222,9 @@ $$
 \Pi_T^{V}
 =
 \left(
-X_{\mathrm{adm}},
+X_{\\mathrm{adm}},
 \vec R_T,
-\mathrm{id}_{X_{\mathrm{adm}}},
+\mathrm{id}_{X_{\\mathrm{adm}}},
 \mathrm{rec}_{\mathrm{id}}
 \right),
 $$
@@ -6234,7 +6234,7 @@ where
 $$
 \vec R_T
 =
-\{(x,T(x)):x\in X_{\mathrm{adm}}\}.
+\{(x,T(x)):x\in X_{\\mathrm{adm}}\}.
 $$
 
 The reading is the identity reading. The recovery datum is
@@ -6286,7 +6286,7 @@ $$
 The power $T^0$:
 
 $$
-T^0=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^0=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 The power $T^1$:
@@ -6346,7 +6346,7 @@ $$
 The power $T^6$:
 
 $$
-T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 
@@ -6356,7 +6356,7 @@ $$
 For every
 
 $$
-x\in X_{\mathrm{adm}}
+x\in X_{\\mathrm{adm}}
 $$
 
 we have
@@ -6393,7 +6393,7 @@ $$
 for all
 
 $$
-x\in X_{\mathrm{adm}}.
+x\in X_{\\mathrm{adm}}.
 $$
 
 $$
@@ -6412,7 +6412,7 @@ $$
 By §5,
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 S_1^{(3)}
 \sqcup
@@ -6465,7 +6465,7 @@ $$
 Since
 
 $$
-(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3,
+(X_{\\mathrm{adm}},R_2)\cong K_3\\sqcup K_3,
 $$
 
 the operator $T^2$ chooses an orientation inside each $K_3$-component.
@@ -6542,7 +6542,7 @@ $$
 for all
 
 $$
-x\in X_{\mathrm{adm}}.
+x\in X_{\\mathrm{adm}}.
 $$
 
 **Check.**
@@ -6627,7 +6627,7 @@ $$
 for every
 
 $$
-x\in X_{\mathrm{adm}}.
+x\in X_{\\mathrm{adm}}.
 $$
 
 Moreover,
@@ -6639,13 +6639,13 @@ $$
 where
 
 $$
-\vec R_{T^3}:=\{(x,T^3(x)):x\in X_{\mathrm{adm}}\}.
+\vec R_{T^3}:=\{(x,T^3(x)):x\in X_{\\mathrm{adm}}\}.
 $$
 
 Indeed, $T^3$ is an involution, since
 
 $$
-T^3\circ T^3=T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^3\circ T^3=T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 If
@@ -6666,7 +6666,7 @@ each complement pair. This is exactly $R_3$.
 In compact form:
 
 $$
-T^3=\text{complement-phase}=\text{$R_3$-phase}.
+T^3=\text{complement-phase}=\text{R_3-phase}.
 $$
 
 
@@ -6675,7 +6675,7 @@ $$
 **Statement 11.5.**
 
 $$
-T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 **Check.**
@@ -6694,13 +6694,13 @@ $$
 for all
 
 $$
-x\in X_{\mathrm{adm}}.
+x\in X_{\\mathrm{adm}}.
 $$
 
 Therefore
 
 $$
-T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 $$
@@ -6716,7 +6716,7 @@ The period of $T$ on $X_{\mathrm{adm}}$ is exactly $6$.
 That is, if
 
 $$
-T^k=\mathrm{id}_{X_{\mathrm{adm}}},
+T^k=\mathrm{id}_{X_{\\mathrm{adm}}},
 \qquad
 k>0,
 $$
@@ -6796,7 +6796,7 @@ state of the carrier depends only on the path-length class modulo $6$.
 The carrier remains finite:
 
 $$
-|X_{\mathrm{adm}}|=6.
+|X_{\\mathrm{adm}}|=6.
 $$
 
 
@@ -6823,7 +6823,7 @@ Here
 $$
 \vec R_{T^k}
 =
-\{(x,T^k(x)):x\in X_{\mathrm{adm}}\}.
+\{(x,T^k(x)):x\in X_{\\mathrm{adm}}\}.
 $$
 
 For $k=1$:
@@ -6877,13 +6877,13 @@ $$
 For every
 
 $$
-x\in X_{\mathrm{adm}}
+x\in X_{\\mathrm{adm}}
 $$
 
 the orbit map
 
 $$
-\gamma_x:\mathbb Z\to X_{\mathrm{adm}},
+\gamma_x:\mathbb Z\to X_{\\mathrm{adm}},
 \qquad
 \gamma_x(k)=T^k(x)
 $$
@@ -6895,7 +6895,7 @@ $$
 \xrightarrow{q_{\mathrm{per}}}
 \mathbb Z/6\mathbb Z
 \xrightarrow{\tilde\gamma_x}
-X_{\mathrm{adm}},
+X_{\\mathrm{adm}},
 $$
 
 where
@@ -6940,7 +6940,7 @@ $$
 Define the projection
 
 $$
-p_\beta:X_{\mathrm{adm}}\to B_\beta
+p_\beta:X_{\\mathrm{adm}}\to B_\beta
 $$
 
 by the rule
@@ -7001,11 +7001,11 @@ $$
 $$
 
 $$
-T^3=\overline{(\cdot)}\neq\mathrm{id}_{X_{\mathrm{adm}}},
+T^3=\overline{(\cdot)}\neq\mathrm{id}_{X_{\\mathrm{adm}}},
 $$
 
 $$
-T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 **Check.**
@@ -7033,7 +7033,7 @@ vertex to its complement inside the same $\beta$-pair.
 By §11.7,
 
 $$
-T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 $$
@@ -7061,7 +7061,7 @@ $$
 with respect to the projection
 
 $$
-p_\beta:X_{\mathrm{adm}}\to B_\beta
+p_\beta:X_{\\mathrm{adm}}\to B_\beta
 $$
 
 is the family of fiber automorphisms
@@ -7105,7 +7105,7 @@ $$
 By Statement 11.5,
 
 $$
-(T^3)^2=T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+(T^3)^2=T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 Hence each fiber holonomy has order $2$.
@@ -7132,7 +7132,7 @@ This is a local rank-1 involution on one two-element polar layer.
 In §11 another law is obtained:
 
 $$
-T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 This is global rank-3 periodization on the six-point admissible carrier.
@@ -7171,7 +7171,7 @@ $$
 \mathcal P_T^{(3)}
 =
 \left(
-X_{\mathrm{adm}},
+X_{\\mathrm{adm}},
 \vec R_T,
 T,
 \langle T\rangle,
@@ -7185,7 +7185,7 @@ $$
 Here:
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 $$
 
 is the admissible carrier;
@@ -7215,7 +7215,7 @@ $$
 is the period quotient of path length;
 
 $$
-p_\beta:X_{\mathrm{adm}}\to B_\beta
+p_\beta:X_{\\mathrm{adm}}\to B_\beta
 $$
 
 is the quotient projection to the complement-pair carrier;
@@ -7297,7 +7297,7 @@ $$
 The support reading on $X_{\mathrm{adm}}$ is the map
 
 $$
-\mathrm{supp}:X_{\mathrm{adm}}\to \mathcal P^\circ(J_3)
+\mathrm{supp}:X_{\\mathrm{adm}}\to \mathcal P^\circ(J_3)
 $$
 
 defined by
@@ -7309,7 +7309,7 @@ $$
 Since
 
 $$
-X_{\mathrm{adm}}=Q_3\setminus\{000,111\},
+X_{\\mathrm{adm}}=Q_3\setminus\{000,111\},
 $$
 
 the support of every $x\in X_{\mathrm{adm}}$ is a proper nonempty subset
@@ -7347,7 +7347,7 @@ $$
 **Statement 12.4.**
 
 $$
-\mathrm{supp}:X_{\mathrm{adm}}\to\mathcal P^\circ(J_3)
+\mathrm{supp}:X_{\\mathrm{adm}}\to\mathcal P^\circ(J_3)
 $$
 
 is a bijection.
@@ -7365,7 +7365,7 @@ $$
 uniquely determines a bit state
 
 $$
-\chi_A\in X_{\mathrm{adm}}
+\chi_A\in X_{\\mathrm{adm}}
 $$
 
 by the rule
@@ -7382,7 +7382,7 @@ Since $A$ is nonempty and not equal to $J_3$, the state $\chi_A$ is
 neither $000$ nor $111$. Therefore
 
 $$
-\chi_A\in X_{\mathrm{adm}}.
+\chi_A\in X_{\\mathrm{adm}}.
 $$
 
 Hence
@@ -7427,14 +7427,14 @@ $$
 is symmetric difference.
 
 The relations $\rho_1,\rho_2,\rho_3$ are the transfer of the already
-constructed $R_1,R_2,R_3$ through the bijection $\mathrm{supp}$.
+constructed $R_1, R_2, R_3$ through the bijection $\mathrm{supp}$.
 The relation layer on $X_{\mathrm{adm}}$ remains the same.
 
 **Statement 12.5.**
 For
 
 $$
-x,y\in X_{\mathrm{adm}}
+x,y\in X_{\\mathrm{adm}}
 $$
 
 and
@@ -7501,7 +7501,7 @@ $$
 Thus the support reading preserves the relation grammar:
 
 $$
-(X_{\mathrm{adm}},R_1,R_2,R_3)
+(X_{\\mathrm{adm}},$R_1, R_2, R_3$)
 \cong
 (\mathcal P^\circ(J_3),\rho_1,\rho_2,\rho_3).
 $$
@@ -7511,7 +7511,7 @@ $$
 By §5.6,
 
 $$
-X_{\mathrm{adm}}=S_1^{(3)}\sqcup S_2^{(3)},
+X_{\\mathrm{adm}}=S_1^{(3)}\sqcup S_2^{(3)},
 $$
 
 where
@@ -7561,7 +7561,7 @@ $$
 For
 
 $$
-x\in X_{\mathrm{adm}}
+x\in X_{\\mathrm{adm}}
 $$
 
 the manifest support is the set
@@ -7611,7 +7611,7 @@ $$
 A state
 
 $$
-x\in X_{\mathrm{adm}}
+x\in X_{\\mathrm{adm}}
 $$
 
 is called $1+2$ mixed-admissible if its coordinate support has one of the
@@ -7634,7 +7634,7 @@ one of these two profiles.
 **Statement 12.8.**
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 $$
 
 consists exactly of the $1+2$ mixed-admissible states of rank $3$.
@@ -7643,7 +7643,7 @@ consists exactly of the $1+2$ mixed-admissible states of rank $3$.
 If
 
 $$
-x\in X_{\mathrm{adm}},
+x\in X_{\\mathrm{adm}},
 $$
 
 then
@@ -7684,7 +7684,7 @@ Conversely, if a state $x\in Q_3$ has profile $1+2$ or $2+1$, then
 it is neither $000$ nor $111$. Hence
 
 $$
-x\in X_{\mathrm{adm}}.
+x\in X_{\\mathrm{adm}}.
 $$
 
 $$
@@ -7787,7 +7787,7 @@ This is an internal semantic layer of the carrier.
 Since
 
 $$
-\mathrm{supp}:X_{\mathrm{adm}}\to\mathcal P^\circ(J_3)
+\mathrm{supp}:X_{\\mathrm{adm}}\to\mathcal P^\circ(J_3)
 $$
 
 is a bijection, every fiber of the support reading is a singleton:
@@ -7929,7 +7929,7 @@ Therefore $1+2$ mixed admissibility describes the internal shell
 semantics of the already assembled carrier
 
 $$
-X_{\mathrm{adm}}.
+X_{\\mathrm{adm}}.
 $$
 
 
@@ -7981,7 +7981,7 @@ $$
 That is,
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 \cong
 V_\Delta\sqcup E_\Delta.
 $$
@@ -8060,7 +8060,7 @@ edge side of the coordinate triangle.
 For
 
 $$
-x,y\in X_{\mathrm{adm}},
+x,y\in X_{\\mathrm{adm}},
 \qquad
 x\neq y,
 $$
@@ -8362,7 +8362,7 @@ $$
 This is why the graph reading
 
 $$
-(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3
+(X_{\\mathrm{adm}},R_2)\cong K_3\\sqcup K_3
 $$
 
 decomposes into two components:
@@ -8488,13 +8488,13 @@ $$
 on
 
 $$
-X_{\mathrm{adm}}.
+X_{\\mathrm{adm}}.
 $$
 
 Take the reading
 
 $$
-q_{v/e}=\mathrm{supp}:X_{\mathrm{adm}}\to \mathcal P^\circ(J_3).
+q_{v/e}=\mathrm{supp}:X_{\\mathrm{adm}}\to \mathcal P^\circ(J_3).
 $$
 
 The recovery datum is defined as in §12.9:
@@ -8511,7 +8511,7 @@ $$
 \Pi_{v/e}^{(3)}
 =
 \left(
-X_{\mathrm{adm}},
+X_{\\mathrm{adm}},
 R_3,
 q_{v/e},
 \mathrm{rec}_{v/e}
@@ -8629,7 +8629,7 @@ of signs would give an isomorphic packaging.
 The axial map
 
 $$
-a:X_{\mathrm{adm}}\to I_3
+a:X_{\\mathrm{adm}}\to I_3
 $$
 
 is defined by
@@ -8643,7 +8643,7 @@ $$
 The sign map
 
 $$
-\mathrm{sgn}:X_{\mathrm{adm}}\to\{-,+\}
+\mathrm{sgn}:X_{\\mathrm{adm}}\to\{-,+\}
 $$
 
 is defined in §14.2.
@@ -8651,7 +8651,7 @@ is defined in §14.2.
 Define
 
 $$
-\Theta:X_{\mathrm{adm}}\to I_3\times\{-,+\}
+\Theta:X_{\\mathrm{adm}}\to I_3\times\{-,+\}
 $$
 
 by
@@ -8711,20 +8711,20 @@ $$
 **Statement 14.4.**
 
 $$
-\Theta:X_{\mathrm{adm}}\to I_3\times\{-,+\}
+\Theta:X_{\\mathrm{adm}}\to I_3\times\{-,+\}
 $$
 
 is a bijection. Therefore
 
 $$
-X_{\mathrm{adm}}\cong I_3\times\{-,+\}.
+X_{\\mathrm{adm}}\cong I_3\times\{-,+\}.
 $$
 
 **Check.**
 The carrier $X_{\mathrm{adm}}$ is partitioned into three complement pairs:
 
 $$
-X_{\mathrm{adm}}=\beta_1\sqcup\beta_2\sqcup\beta_3.
+X_{\\mathrm{adm}}=\beta_1\sqcup\beta_2\sqcup\beta_3.
 $$
 
 Each pair $\beta_i$ contains exactly two states:
@@ -8739,7 +8739,7 @@ Hence for each $I_i\in I_3$ and each $\eta\in\{-,+\}$ there exists
 exactly one state
 
 $$
-I_i^\eta\in X_{\mathrm{adm}}.
+I_i^\eta\in X_{\\mathrm{adm}}.
 $$
 
 Therefore $\Theta$ is surjective and injective.
@@ -8753,7 +8753,7 @@ $$
 and
 
 $$
-|X_{\mathrm{adm}}|=6,
+|X_{\\mathrm{adm}}|=6,
 $$
 
 we obtain a bijection.
@@ -8874,10 +8874,10 @@ $$
 Through the bijection
 
 $$
-\Theta:X_{\mathrm{adm}}\to I_3\times\{-,+\}
+\Theta:X_{\\mathrm{adm}}\to I_3\times\{-,+\}
 $$
 
-the relations $R_1,R_2,R_3$ obtain axial form.
+the relations $R_1, R_2, R_3$ obtain axial form.
 
 Let
 
@@ -8956,7 +8956,7 @@ $$
 ## §14.8. Check of the Axial Relation Grammar
 
 **Statement 14.6.**
-The axial formulas of §14.7 define the same relations $R_1,R_2,R_3$ as
+The axial formulas of §14.7 define the same relations $R_1, R_2, R_3$ as
 the Hamming-distance grammar of §6.
 
 **Check.**
@@ -8970,7 +8970,7 @@ $$
 By §7 each $\beta_i$ is a component of the graph reading
 
 $$
-(X_{\mathrm{adm}},R_3)\cong 3K_2.
+(X_{\\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
 Therefore such states are connected by $R_3$. Conversely, $R_3$
@@ -9013,7 +9013,7 @@ i\neq j,
 $$
 
 Since all pairs of distinct states of $X_{\mathrm{adm}}$ are partitioned
-into $R_1,R_2,R_3$, these pairs give $R_1$.
+into $R_1, R_2, R_3$, these pairs give $R_1$.
 
 $$
 \Box
@@ -9102,7 +9102,7 @@ $$
 changes complement inside the same axis,
 
 $$
-T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 ## §14.10. $I_3\times\{-,+\}$ and Vertex/Opposite-Edge
@@ -9182,8 +9182,8 @@ $$
 \mathcal A^{(3)}
 =
 \left(
-X_{\mathrm{adm}},
-R_1,R_2,R_3,
+X_{\\mathrm{adm}},
+$R_1, R_2, R_3$,
 \mathrm{supp},
 J_3,
 I_3,
@@ -9195,13 +9195,13 @@ $$
 Here:
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 $$
 
 is the admissible carrier;
 
 $$
-R_1,R_2,R_3
+$R_1, R_2, R_3$
 $$
 
 is the relation grammar;
@@ -9225,7 +9225,7 @@ $$
 is the axial invariant carrier;
 
 $$
-\Theta:X_{\mathrm{adm}}\to I_3\times\{-,+\}
+\Theta:X_{\\mathrm{adm}}\to I_3\times\{-,+\}
 $$
 
 is the axial factorization;
@@ -9247,7 +9247,7 @@ collection of data assembled in §§12-14.
 By §4 the two-bit carrier is
 
 $$
-Q_2=\mathbb F_2^2=\{00,01,10,11\}.
+Q_2=\mathbb{F}_2^2=\{00,01,10,11\}.
 $$
 
 Inside $Q_2$ four source patterns are distinguished, with different lift
@@ -9307,11 +9307,11 @@ In rank $3$ the following target carriers and relation layers have
 already been constructed:
 
 $$
-Q_3=\mathbb F_2^3,
+Q_3=\mathbb{F}_2^3,
 $$
 
 $$
-X_{\mathrm{adm}}=Q_3\setminus\{000,111\},
+X_{\\mathrm{adm}}=Q_3\setminus\{000,111\},
 $$
 
 $$
@@ -9329,7 +9329,7 @@ H_i=\{I_i^-,I_i^+\}
 $$
 
 $$
-X_{\mathrm{adm}}\cong I_3\times\{-,+\}.
+X_{\\mathrm{adm}}\cong I_3\times\{-,+\}.
 $$
 
 Relations:
@@ -9421,7 +9421,7 @@ $$
 
 In §9 this notation was used on the chamber-coordinate carrier
 $C_O\cong Q_3$. In §15 the same combinatorial face is used in the role of
-a coordinate face of the full coordinate carrier $Q_3=\mathbb F_2^3$ from
+a coordinate face of the full coordinate carrier $Q_3=\mathbb{F}_2^3$ from
 §5. The carrier roles differ; the subset formula is the same.
 
 For
@@ -9429,7 +9429,7 @@ For
 $$
 i\in J_3=\{1,2,3\},
 \qquad
-\varepsilon\in\mathbb F_2
+\varepsilon\in\mathbb{F}_2
 $$
 
 we have:
@@ -9555,7 +9555,7 @@ $$
 Its admissible trace
 
 $$
-F_i^\varepsilon\cap X_{\mathrm{adm}}
+F_i^\varepsilon\cap X_{\\mathrm{adm}}
 $$
 
 is obtained after puncturing the total poles.
@@ -9581,7 +9581,7 @@ $$
 Therefore
 
 $$
-F_i^\varepsilon\cap X_{\mathrm{adm}}
+F_i^\varepsilon\cap X_{\\mathrm{adm}}
 $$
 
 has three points.
@@ -9593,7 +9593,7 @@ F_3^0=\{000,001,010,011\},
 $$
 
 $$
-F_3^0\cap X_{\mathrm{adm}}=\{001,010,011\}.
+F_3^0\cap X_{\\mathrm{adm}}=\{001,010,011\}.
 $$
 
 And:
@@ -9603,7 +9603,7 @@ F_3^1=\{100,101,110,111\},
 $$
 
 $$
-F_3^1\cap X_{\mathrm{adm}}=\{100,101,110\}.
+F_3^1\cap X_{\\mathrm{adm}}=\{100,101,110\}.
 $$
 
 Thus the face lift gives a full $Q_2$-slice in $Q_3$, and after
@@ -9655,7 +9655,7 @@ carrier:
 $$
 P_{\mathrm{tot}}^{(3)}
 =
-Q_3\setminus X_{\mathrm{adm}}.
+Q_3\setminus X_{\\mathrm{adm}}.
 $$
 
 On $P_{\mathrm{tot}}^{(2)}$ and $P_{\mathrm{tot}}^{(3)}$ the complete
@@ -9924,7 +9924,7 @@ The triad lift sends a two-bit closure sector to the target role of one of
 the two shell components of the relation $R_2$:
 
 $$
-K_3\sqcup K_3.
+K_3\\sqcup K_3.
 $$
 
 ## §15.10. Transport Lift
@@ -9961,11 +9961,11 @@ restricted to the punctured carrier $Q_2^\circ$.
 In rank $3$, transport has already been built:
 
 $$
-T:X_{\mathrm{adm}}\to X_{\mathrm{adm}},
+T:X_{\\mathrm{adm}}\to X_{\\mathrm{adm}},
 $$
 
 $$
-T^6=\mathrm{id}_{X_{\mathrm{adm}}},
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}},
 $$
 
 $$
@@ -10140,7 +10140,7 @@ $$
 \text{total-pole} & \{00,11\} & \{000,111\} & K_2\cong K_2\\
 \text{pair} & Q_2^\circ=\{01,10\} & H_i & R_\circ^{(2)}\cong R_3|_{H_i}\\
 \text{triad} & \Delta^{(2)} & S_\eta^{(3)} & K_\Delta\cong R_2|_{S_\eta^{(3)}}\\
-\text{transport} & (Q_2^\circ,\tau_2) & (X_{\mathrm{adm}},T) & \tau_2\leadsto T^3|_{H_i},\ T\text{ globalizes}
+\text{transport} & (Q_2^\circ,\tau_2) & (X_{\\mathrm{adm}},T) & \tau_2\leadsto T^3|_{H_i},\ T\text{ globalizes}
 \end{array}
 $$
 
@@ -10236,7 +10236,7 @@ $$
 After puncturing the upper total pole $111$:
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 \{001,010,011\}
 \sqcup
@@ -10346,7 +10346,7 @@ $$
 $$
 \mathfrak L_{\mathrm{tr}}
 =
-\{(Q_2^\circ,\tau_2)\leadsto (X_{\mathrm{adm}},T)\}.
+\{(Q_2^\circ,\tau_2)\leadsto (X_{\\mathrm{adm}},T)\}.
 $$
 
 ## §16.2. Carrier Side and Relation Side
@@ -10441,7 +10441,7 @@ Transport lift:
 $$
 Q_2^\circ
 \to
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 $$
 
 on the carrier side through axial pairs;
@@ -10667,7 +10667,7 @@ Target:
 $$
 P_{\mathrm{tot}}^{(3)}
 =
-Q_3\setminus X_{\mathrm{adm}}.
+Q_3\setminus X_{\\mathrm{adm}}.
 $$
 
 Therefore the total-pole lift does not send source poles into the active
@@ -10676,7 +10676,7 @@ shell. It preserves them as the limit pair of the full carrier.
 In §5 the puncture defined
 
 $$
-X_{\mathrm{adm}}=Q_3\setminus\{000,111\}.
+X_{\\mathrm{adm}}=Q_3\setminus\{000,111\}.
 $$
 
 §16 fixes the source role of this pair:
@@ -10700,7 +10700,7 @@ $$
 passes to
 
 $$
-T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
 $$
 
 Locally:
@@ -10935,7 +10935,7 @@ $$
 has a lift
 
 $$
-\lambda:A\to B\subset X_{\mathrm{adm}}
+\lambda:A\to B\subset X_{\\mathrm{adm}}
 $$
 
 such that
@@ -10987,8 +10987,8 @@ $$
 =
 \left(
 Q_3,
-X_{\mathrm{adm}},
-R_1,R_2,R_3,R_{12},
+X_{\\mathrm{adm}},
+$R_1, R_2, R_3$,R_{12},
 O_3^{\leq \mathrm{ch}},
 \Pi_O^{\mathrm{inc}},
 \mathcal P_T^{(3)},
@@ -11011,13 +11011,13 @@ $$
 is the full rank-3 carrier of §5;
 
 $$
-X_{\mathrm{adm}}=Q_3\setminus\{000,111\}
+X_{\\mathrm{adm}}=Q_3\setminus\{000,111\}
 $$
 
 is the admissible carrier of §5;
 
 $$
-R_1,R_2,R_3,R_{12}
+$R_1, R_2, R_3$,R_{12}
 $$
 
 is the relation grammar of §§6-7;
@@ -11059,7 +11059,7 @@ The carrier side of the structure $\mathfrak C_3$ consists of
 $$
 Q_3,
 \qquad
-X_{\mathrm{adm}},
+X_{\\mathrm{adm}},
 \qquad
 S_1^{(3)},S_2^{(3)},
 \qquad
@@ -11085,7 +11085,7 @@ $$
 The relation side on $X_{\mathrm{adm}}$:
 
 $$
-R_k=\{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:x\neq y,\ d_H(x,y)=k\},
+R_k=\{(x,y)\in X_{\\mathrm{adm}}\times X_{\\mathrm{adm}}:x\neq y,\ d_H(x,y)=k\},
 \qquad
 k=1,2,3,
 $$
@@ -11093,15 +11093,15 @@ $$
 with graph readings:
 
 $$
-(X_{\mathrm{adm}},R_1)\cong C_6,
+(X_{\\mathrm{adm}},R_1)\cong C_6,
 $$
 
 $$
-(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3,
+(X_{\\mathrm{adm}},R_2)\cong K_3\\sqcup K_3,
 $$
 
 $$
-(X_{\mathrm{adm}},R_3)\cong 3K_2.
+(X_{\\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
 The union relation
@@ -11113,7 +11113,7 @@ $$
 has the octahedral graph reading
 
 $$
-(X_{\mathrm{adm}},R_{12})
+(X_{\\mathrm{adm}},R_{12})
 \cong
 K_{2,2,2}
 \cong
@@ -11142,7 +11142,7 @@ $$
 O_3^{\leq \mathrm{ch}}
 =
 \bigl(
-X_{\mathrm{adm}},
+X_{\\mathrm{adm}},
 R_{12},
 \mathrm{Cham}(O_3),
 R_{\mathrm{ch}}
@@ -11173,7 +11173,7 @@ where
 $$
 Z_O=V_O\sqcup C_O,
 \qquad
-V_O=X_{\mathrm{adm}},
+V_O=X_{\\mathrm{adm}},
 \qquad
 C_O=\mathrm{Cham}(O_3).
 $$
@@ -11204,7 +11204,7 @@ T^3(x)=x+111,
 $$
 
 $$
-T^6=\mathrm{id}_{X_{\mathrm{adm}}},
+T^6=\mathrm{id}_{X_{\\mathrm{adm}}},
 $$
 
 and
@@ -11239,8 +11239,8 @@ $$
 \mathcal A^{(3)}
 =
 \left(
-X_{\mathrm{adm}},
-R_1,R_2,R_3,
+X_{\\mathrm{adm}},
+$R_1, R_2, R_3$,
 \mathrm{supp},
 J_3,
 I_3,
@@ -11252,25 +11252,25 @@ $$
 It contains the support reading
 
 $$
-\mathrm{supp}:X_{\mathrm{adm}}\to\mathcal P^\circ(J_3),
+\mathrm{supp}:X_{\\mathrm{adm}}\to\mathcal P^\circ(J_3),
 $$
 
 the vertex/opposite-edge reading
 
 $$
-X_{\mathrm{adm}}\cong V_\Delta\sqcup E_\Delta,
+X_{\\mathrm{adm}}\cong V_\Delta\sqcup E_\Delta,
 $$
 
 and the axial factorization
 
 $$
-\Theta:X_{\mathrm{adm}}\to I_3\times\{-,+\}.
+\Theta:X_{\\mathrm{adm}}\to I_3\times\{-,+\}.
 $$
 
 Therefore:
 
 $$
-X_{\mathrm{adm}}\cong I_3\times\{-,+\}.
+X_{\\mathrm{adm}}\cong I_3\times\{-,+\}.
 $$
 
 ## §17.4. Recoverability
@@ -11278,7 +11278,7 @@ $$
 Exact readings inside $\mathfrak C_3$:
 
 $$
-\mathrm{supp}:X_{\mathrm{adm}}\to\mathcal P^\circ(J_3),
+\mathrm{supp}:X_{\\mathrm{adm}}\to\mathcal P^\circ(J_3),
 $$
 
 is an exact reading because it is bijective;
@@ -11342,7 +11342,7 @@ $$
 After puncture:
 
 $$
-X_{\mathrm{adm}}
+X_{\\mathrm{adm}}
 =
 \{001,010,011\}
 \sqcup
@@ -11457,7 +11457,7 @@ carrier is assembled.
 The full carrier:
 
 $$
-Q_4=\mathbb F_2^4.
+Q_4=\mathbb{F}_2^4.
 $$
 
 ![Full carrier $Q_4$](../assets/figures/5.1-Q4_full_tesseract.png)
@@ -11507,7 +11507,7 @@ $$
 $$
 
 **Check.**
-Since $Q_4=\mathbb F_2^4$, we have $|Q_4|=2^4=16$. The carrier
+Since $Q_4=\mathbb{F}_2^4$, we have $|Q_4|=2^4=16$. The carrier
 $\mathcal P_4$ is obtained by deleting $0000$, so
 $|\mathcal P_4|=15$. The carrier $U_4$ is obtained by deleting the two
 total poles, so $|U_4|=14$.
@@ -11808,7 +11808,7 @@ $$
 In §18 the carrier and shell atlas of rank $4$ has been built:
 
 $$
-\mathcal P_4=\mathbb F_2^4\setminus\{0000\}.
+\mathcal P_4=\mathbb{F}_2^4\setminus\{0000\}.
 $$
 
 The main shell decomposition:
@@ -11996,7 +11996,7 @@ $$
 In rank $3$:
 
 $$
-(X_{\mathrm{adm}},R_1\cup R_2)\cong K_{2,2,2}.
+(X_{\\mathrm{adm}},R_1\cup R_2)\cong K_{2,2,2}.
 $$
 
 In rank $4$:
@@ -12439,11 +12439,11 @@ $$
 For an explicit construction, introduce
 
 $$
-\mathbb F_{16}=\mathbb F_2[t]/(t^4+t+1).
+\mathbb{F}_{16}=\mathbb{F}_2[t]/(t^4+t+1).
 $$
 
 The polynomial $t^4+t+1$ is chosen as a primitive polynomial.
-Multiplication by $t$ on $\mathbb F_{16}^{\times}$ gives a
+Multiplication by $t$ on $\mathbb{F}_{16}^{\times}$ gives a
 $15$-cycle.
 
 One representative:
@@ -12469,9 +12469,9 @@ After choosing the primitive polynomial $t^4+t+1$, multiplication by
 $t$ defines a $15$-cycle on $\mathcal P_4$.
 
 **Check.**
-In the field $\mathbb F_{16}$, the group $\mathbb F_{16}^{\times}$ has
+In the field $\mathbb{F}_{16}$, the group $\mathbb{F}_{16}^{\times}$ has
 $15$ elements. Since $t^4+t+1$ is chosen primitive, the class $t$
-generates $\mathbb F_{16}^{\times}$. Therefore the sequence of
+generates $\mathbb{F}_{16}^{\times}$. Therefore the sequence of
 multiplications by $t$ passes through all $15$ nonzero elements and
 returns to the starting point after $15$ steps. The displayed cycle is
 this sequence in the bit basis $1,t,t^2,t^3$.
@@ -12770,7 +12770,7 @@ Several carriers are distinguished in §22.
 The full carrier:
 
 $$
-Q_5=\mathbb F_2^5.
+Q_5=\mathbb{F}_2^5.
 $$
 
 It contains $32$ states.
@@ -12785,7 +12785,7 @@ $$
 |P^{(5)}|=31.
 $$
 
-Over $\mathbb F_2$, all nonzero vectors already give projective points.
+Over $\mathbb{F}_2$, all nonzero vectors already give projective points.
 Therefore $P^{(5)}$ admits a readable $PG(4,2)$-reading; in §22 the
 native carrier remains $P^{(5)}$.
 
@@ -12842,7 +12842,7 @@ $$
 $$
 
 **Check.**
-Since $Q_5=\mathbb F_2^5$, we have
+Since $Q_5=\mathbb{F}_2^5$, we have
 
 $$
 |Q_5|=2^5=32.
@@ -13374,7 +13374,7 @@ $$
 On
 
 $$
-P^{(5)}=\mathbb F_2^5\setminus\{00000\}
+P^{(5)}=\mathbb{F}_2^5\setminus\{00000\}
 $$
 
 we define:
@@ -14513,7 +14513,7 @@ $\mathcal C_{5C_8}$ fixes one representative.
 The full nonzero layer
 
 $$
-P^{(5)}=\mathbb F_2^5\setminus\{00000\}
+P^{(5)}=\mathbb{F}_2^5\setminus\{00000\}
 $$
 
 supports a projective cycle of length $31$, that is, a Singer cycle.
@@ -14521,9 +14521,9 @@ supports a projective cycle of length $31$, that is, a Singer cycle.
 For an explicit construction introduce:
 
 $$
-\mathbb F_{32}
+\mathbb{F}_{32}
 =
-\mathbb F_2[t]/(t^5+t^2+1).
+\mathbb{F}_2[t]/(t^5+t^2+1).
 $$
 
 The polynomial
@@ -14533,7 +14533,7 @@ t^5+t^2+1
 $$
 
 is chosen as a primitive polynomial. Multiplication by $t$ in
-$\mathbb F_{32}^{\times}$ gives a $31$-cycle on the nonzero vectors.
+$\mathbb{F}_{32}^{\times}$ gives a $31$-cycle on the nonzero vectors.
 
 Other primitive polynomials or primitive generators give isomorphic Singer
 cycles through another coordinate enumeration. The displayed cycle fixes one
@@ -14613,7 +14613,7 @@ is a finite-field multiplication cycle. The Hamming-one cycle in rank $3$
 was defined by a separate graph reading:
 
 $$
-C_6=(X_{\mathrm{adm}},R_1),
+C_6=(X_{\\mathrm{adm}},R_1),
 $$
 
 where the cycle itself was a Hamming-distance-one graph reading.
@@ -14624,7 +14624,7 @@ $t$ defines a $31$-cycle on $P^{(5)}$.
 
 **Check.**
 The polynomial $t^5+t^2+1$ is chosen as a primitive polynomial, so the
-class $t$ generates the multiplicative group $\mathbb F_{32}^{\times}$,
+class $t$ generates the multiplicative group $\mathbb{F}_{32}^{\times}$,
 which has order $31$. Therefore the sequence of multiplications by $t$
 passes through all $31$ nonzero elements and returns to the initial element
 after $31$ steps.
@@ -14646,7 +14646,7 @@ is a local swap on one polar fiber.
 Rank $3$:
 
 $$
-(X_{\mathrm{adm}},R_1)\cong C_6.
+(X_{\\mathrm{adm}},R_1)\cong C_6.
 $$
 
 After choosing an orientation:
@@ -14876,7 +14876,7 @@ $$
 This is the rank-5 outer analogue of the rank-3 axial-pair reading:
 
 $$
-X_{\mathrm{adm}}\cong I_3\times\{-,+\}.
+X_{\\mathrm{adm}}\cong I_3\times\{-,+\}.
 $$
 
 ## §25.11. Closure of the Finite Carrier Atlas
@@ -14884,7 +14884,7 @@ $$
 The rank-5 finite carrier atlas consists of:
 
 $$
-P^{(5)}=\mathbb F_2^5\setminus\{00000\},
+P^{(5)}=\mathbb{F}_2^5\setminus\{00000\},
 $$
 
 the shell decomposition
@@ -14955,7 +14955,7 @@ are fixed as readings of the constructed finite structures.
 ## §26.1. Carrier Family
 
 In the previous sections, each rank was built on the coordinate carrier
-$Q_n=\mathbb F_2^n$. We now fix this notation as a family.
+$Q_n=\mathbb{F}_2^n$. We now fix this notation as a family.
 
 **Definition 26.1.**
 Carrier family:
@@ -14963,7 +14963,7 @@ Carrier family:
 $$
 \mathcal Q=\{Q_n\}_{n\geq1},
 \qquad
-Q_n=\mathbb F_2^n.
+Q_n=\mathbb{F}_2^n.
 $$
 
 For each $n$:
@@ -14987,7 +14987,7 @@ denotes the full nontrivial carrier of rank $n$.
 The new bit occupies the leftmost, highest-order position.
 
 **Definition 26.2.**
-For $\varepsilon\in\mathbb F_2$ and $x=(x_n,\ldots,x_1)\in Q_n$:
+For $\varepsilon\in\mathbb{F}_2$ and $x=(x_n,\ldots,x_1)\in Q_n$:
 
 $$
 \varepsilon\,|\,x
@@ -15016,7 +15016,7 @@ $$
 Binary rank lift:
 
 $$
-\Lambda_n:\mathbb F_2\times Q_n\to Q_{n+1},
+\Lambda_n:\mathbb{F}_2\times Q_n\to Q_{n+1},
 \qquad
 \Lambda_n(\varepsilon,x)=\varepsilon\,|\,x.
 $$
@@ -15036,7 +15036,7 @@ Directly:
 $$
 \Lambda_n\circ\Lambda_n^{-1}=\mathrm{id}_{Q_{n+1}},
 \qquad
-\Lambda_n^{-1}\circ\Lambda_n=\mathrm{id}_{\mathbb F_2\times Q_n}.
+\Lambda_n^{-1}\circ\Lambda_n=\mathrm{id}_{\mathbb{F}_2\times Q_n}.
 $$
 
 $$
@@ -15069,9 +15069,9 @@ $$
 **Check.**
 The nonzero carrier $Q_{n+1}^*$ consists of all nonzero states in the two
 faces $0\,|\,Q_n$ and $1\,|\,Q_n$. In the face $0\,|\,Q_n$, the point
-$0\,|\,0^n=0^{n+1}$ is removed, leaving $0\,|\,Q_n^*$. In the face
+$0\,|\,0^n=0^{n+1}$ is removed, leaving $0\,|\,$Q_n$^*$. In the face
 $1\,|\,Q_n$, there is the new basis point $1\,|\,0^n$ and all points
-$1\,|\,Q_n^*$. These parts are disjoint.
+$1\,|\,$Q_n$^*$. These parts are disjoint.
 
 $$
 \Box
@@ -15959,7 +15959,7 @@ separate graphs, but as a coherent grammar of finite ranks. Carrier
 transitions, shell decompositions, complement pairs, middle and outer shells,
 relations, and cycle readings share one mode of notation and verification. In
 this version, rank $5$ fixes the carrier
-$P^{(5)}=\mathbb F_2^5\setminus\{00000\}$, the shell structure
+$P^{(5)}=\mathbb{F}_2^5\setminus\{00000\}$, the shell structure
 $31=5+10+10+5+1$, the duality $S_2^{(5)}\leftrightarrow S_3^{(5)}$, the
 outer shell $V_5\cong K_{2,2,2,2,2}$, a chosen $C_{10}$, the projective
 cycle $C_{31}$, and $5C_8$ as a chosen checked cover of the outer graph.
@@ -15972,12 +15972,12 @@ $U_n$, and $V_n$ appear as stable parts of the general scheme.
 
 The [RGB/CMY/Kuhn/HSV color bridge](../02_Bridges/01_Color_RGB_Kuhn/DOT_RGB_Kuhn_Color_Bridge_EN.md)
 shows one realized projection of rank $3$: the vertices of $Q_3$ are read
-as the RGB/CMY cube, $X_{\mathrm{adm}}=Q_3\setminus\{000,111\}$ becomes a
+as the RGB/CMY cube, $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$ becomes a
 six-vertex color carrier, the relations $R_1$, $R_2$, and $R_3$ give
 respectively the color cycle, two triads, and three complementary axes, and
 $R_1\cup R_2$ is realized as the octahedral shell $K_{2,2,2}$.
 
-![Color octahedral shell $(X_{\mathrm{adm}},R_1\cup R_2)\cong K_{2,2,2}$](../assets/figures/B6_octahedral_shell_R12_K222.png)
+![Color octahedral shell $($X_{\\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$](../assets/figures/B6_octahedral_shell_R12_K222.png)
 
 The arithmetic line is now split into two separate branches. [03A AMR-SR](../01_Mathematical_Start/03A_DOT_AMR_Scale_Residue_Line_EN.md)
 works on the carrier $\mathcal R=\mathbb N_{>0}^2$, analyzes pairs through
@@ -16005,3 +16005,10 @@ None of these bridges automatically extends the strict core. They show which
 external mathematical languages can be attached to the constructed atlas of
 finite carriers while preserving the boundary between core, reading, and
 hypothesis.
+
+
+[C]: # (Status Marker)
+
+
+[t]: # (Status Marker)
+[k]: # (Status Marker)

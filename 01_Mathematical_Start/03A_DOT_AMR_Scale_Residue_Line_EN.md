@@ -53,7 +53,7 @@ Text structure:
 The prenuclear binary foundation
 
 $$
-\mathbb F_2^1, \qquad \mathbb F_2^2
+\mathbb{F}_2^1, \qquad \mathbb{F}_2^2
 $$
 
 is already fixed in `02A` as a preparatory layer.
@@ -75,9 +75,10 @@ Statements without status [P] are explicitly marked as bridges or interpretive l
    - the case $k=4$;
    - the boundary pair $(3,4)$;
    - the type of partial arrows
+     $$
+\beta_3, \beta_4.
 $$
-     \beta_3, \beta_4.
-$$
+
 3. **Continuation after the threshold**: paragraph `3.3`.
    This part fixes a locally closed picture after the direct bridge.
 
@@ -410,9 +411,10 @@ Fix the following:
 
 - the chromatic six-point shell and the cycle $C_6$ have an exact model in the colour body;
 - the local sector form $(a,b)=g(p,q)$ and the metric law
+  $$
+D^2_{\mathrm{chroma}} = \frac23 g^2 N_{\mathrm{Eis}}(p,q)
 $$
-  D^2_{\mathrm{chroma}} = \frac23 g^2 N_{\mathrm{Eis}}(p,q)
-$$
+
   are compatible with the colour reading;
 - $\mathrm{AMR\text{-}SR}$ is read as local arithmetic inside the chosen sector and does not generate the whole colour body;
 - detailed colorimetry is moved to a separate dossier.
@@ -644,7 +646,7 @@ Configuration:
 
 - $\mathrm{AMR\text{-}SR}$ functions here as local sector arithmetic;
 - the strict core is taken in shell order
-  $8 \to 6 \to C_6 \to (R_1, R_2, R_3) \to R_1 \cup R_2$;
+  $8 \to 6 \to $C_6$ \to ($R_1$, $R_2$, $R_3$) \to $R_1$ \cup R_2$;
 - the bridge fixes the first coarse interface between layers.
 
 Chain for $k = 3$:
@@ -653,7 +655,7 @@ $$
 \text{AMR-SR: nontrivial exact signature} \to \text{balanced finite signature} \to (R_1, R_2).
 $$
 
-Target object: the supported pair $(R_1, R_2)$.
+Target object: the supported pair $($R_1$, $R_2$)$.
 
 For $k = 4$:
 
@@ -667,13 +669,13 @@ Target object: the axial layer $R_3$.
 
 The pair $(3,4)$ falls onto the internal decomposition of the finite core into supported and axial parts:
 
-$k=3$ corresponds to the supported pair $(R_1,R_2)$, while $k=4$ corresponds to the axial layer $R_3$.
+$k=3$ corresponds to the supported pair $($R_1$,$R_2$)$, while $k=4$ corresponds to the axial layer $R_3$.
 
 ### 3.1. Bridge Restrictions
 
 Asserted points:
 
-- $3 \to (R_1, R_2)$;
+- $3 \to ($R_1$, $R_2$)$;
 - $4 \to R_3$;
 - $2$ gives no separate core relation;
 - for $k \ge 5$, no general transition to core relations is defined.
@@ -731,9 +733,10 @@ These arrows are AMR-SR bridge arrows, not AMR-DC divisor-carrier theorems.
 
 1. AMR-SR is not part of the strict core.
 2. The links have the status of partial typed bridge arrows:
+   $$
+\beta_3 \colon \mathrm{AMR\text{-}SR}_{k=3} \to (R_1, R_2), \qquad \beta_4 \colon \mathrm{AMR\text{-}SR}_{k=4} \to R_3.
 $$
-   \beta_3 \colon \mathrm{AMR\text{-}SR}_{k=3} \to (R_1, R_2), \qquad \beta_4 \colon \mathrm{AMR\text{-}SR}_{k=4} \to R_3.
-$$
+
 3. The arrows $\beta$ are not a shell realisation, operator lift, or full functor.
 4. The shell, colour, and operator layers are realisations of an already found structure, not a direct derivation from $\mathrm{AMR\text{-}SR}$.
 5. Adjacent arrow typing is imported from `02A` and `02B`.
@@ -758,7 +761,7 @@ Two exact towers ($P_n$ and $A_n$) start at $n = 2$:
 
 The case $n = 2$ coincides with the boundary node of the direct bridge:
 
-- $3 \to (R_1, R_2)$
+- $3 \to ($R_1$, $R_2$)$
 - $4 \to R_3$
 
 and serves as the initial boundary point.
@@ -824,7 +827,7 @@ $$
 
 Thus in the post-threshold zone there are two exact sources:
 
-- paired carriers directed toward $(R_1,R_2)$;
+- paired carriers directed toward $($R_1$,$R_2$)$;
 - axial carriers directed toward $R_3$.
 
 #### 3.3.3. Current Completion Scheme $\mathfrak C_{\mathrm{AMR\text{-}SR}}$
@@ -1074,33 +1077,42 @@ In its shortest form, `03A` asserts the following.
 
 1. AMR-SR defines scale/residue arithmetic on the carrier
 
+   $$
+\mathcal R=\mathbb N_{>0}^2.
 $$
-   \mathcal R=\mathbb N_{>0}^2.
-$$
+
 2. The basic decomposition is
 
-$$
-   (a,b)=g(p,q),
+   $$
+(a,b)=g(p,q),
    \qquad
    g=\gcd(a,b),
    \qquad
    \gcd(p,q)=1.
 $$
+
 3. The basic scalar residue is
 
+   $$
+\mathrm{Res}_{\mathrm{sr}}=(g-1)|p-q|.
 $$
-   \mathrm{Res}_{\mathrm{sr}}=(g-1)|p-q|.
-$$
+
 4. AMR-SR yields only a partial typed bridge:
 
+   $$
+\beta_3:\mathrm{AMR\text{-}SR}_{k=3}\to(R_1,R_2),
 $$
-   \beta_3:\mathrm{AMR\text{-}SR}_{k=3}\to(R_1,R_2),
+
+   $$
+\beta_4:\mathrm{AMR\text{-}SR}_{k=4}\to R_3.
 $$
-$$
-   \beta_4:\mathrm{AMR\text{-}SR}_{k=4}\to R_3.
-$$
+
 5. For $k=2$ there is an exception, and for $k\ge5$ no general bridge is asserted.
 
 6. AMR-SR is not divisor-carrier theory.
 
 7. The divisor-carrier branch is developed in `03B_AMR_Divisor_Carrier_and_Chain_Extension.md`.
+
+
+[P|cat]: # (Status Marker)
+[P]: # (Status Marker)

@@ -11,7 +11,7 @@ This note has the status of an internal explanatory note. It fixes the binary co
 For rank $n$:
 
 $$
-Q_n=\mathbb F_2^n.
+Q_n=\mathbb{F}_2^n.
 $$
 
 An element
@@ -101,7 +101,7 @@ $$
 In rank $3$, on the carrier
 
 $$
-X_{\mathrm{adm}}=Q_3\setminus\{000,111\},
+X_{\\mathrm{adm}}=Q_3\setminus\{000,111\},
 $$
 
 these relation-layers are:
@@ -115,7 +115,7 @@ They give:
 $$
 R_1\cong C_6,
 \qquad
-R_2\cong K_3\sqcup K_3,
+R_2\cong K_3\\sqcup K_3,
 \qquad
 R_3\cong 3K_2.
 $$
@@ -171,7 +171,7 @@ $$
 Binary rank-lift:
 
 $$
-\Lambda_n:\mathbb F_2\times Q_n\to Q_{n+1},
+\Lambda_n:\mathbb{F}_2\times Q_n\to Q_{n+1},
 \qquad
 \Lambda_n(\varepsilon,x)=\varepsilon\,|\,x.
 $$

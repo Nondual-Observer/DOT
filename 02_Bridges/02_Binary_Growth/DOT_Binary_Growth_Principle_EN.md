@@ -47,7 +47,7 @@ Here $0$ and $1$ denote two positions of one coordinate. The arithmetic meaning 
 The rank-$1$ formula:
 
 $$
-Q_1=\mathbb F_2=\{0,1\}.
+Q_1=\mathbb{F}_2=\{0,1\}.
 $$
 
 ---
@@ -59,7 +59,7 @@ In DOT, a coordinate is one place where a distinction takes one of two values.
 For rank $n$:
 
 $$
-Q_n=\mathbb F_2^n.
+Q_n=\mathbb{F}_2^n.
 $$
 
 A state:
@@ -89,7 +89,7 @@ $$
 The transition $n\to n+1$ is given by rank-lift:
 
 $$
-\Lambda_n:\mathbb F_2\times Q_n\to Q_{n+1},
+\Lambda_n:\mathbb{F}_2\times Q_n\to Q_{n+1},
 \qquad
 \Lambda_n(\varepsilon,x)=\varepsilon\,|\,x.
 $$
@@ -517,7 +517,7 @@ $$
 Therefore the entire active carrier of rank $3$ is already the outer shell:
 
 $$
-X_{\mathrm{adm}}=S_1^{(3)}\sqcup S_2^{(3)}.
+X_{\\mathrm{adm}}=S_1^{(3)}\sqcup S_2^{(3)}.
 $$
 
 Starting with rank $4$, the middle shells separate from the outer shell.
@@ -556,7 +556,7 @@ $$
 (1+\varepsilon)\,|\,\kappa_n(x).
 $$
 
-Ternary or $q$-valued carriers may be constructed as future extensions once their own relations, readings, and recovery data have been specified. The current strict finite core uses binary carriers: minimal polarity, complement involution, shell duality, and rank-lift work in one algebraic form over $\mathbb F_2$.
+Ternary or $q$-valued carriers may be constructed as future extensions once their own relations, readings, and recovery data have been specified. The current strict finite core uses binary carriers: minimal polarity, complement involution, shell duality, and rank-lift work in one algebraic form over $\mathbb{F}_2$.
 
 ---
 

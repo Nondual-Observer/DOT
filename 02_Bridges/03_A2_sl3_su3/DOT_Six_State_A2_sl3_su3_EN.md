@@ -39,7 +39,7 @@ $$
 the two-triangle relation
 
 $$
-(X,R_2)\cong K_3\sqcup K_3,
+(X,R_2)\cong K_3\\sqcup K_3,
 $$
 
 and the complement involution
@@ -58,7 +58,7 @@ From this root datum one obtains the standard Chevalley realization of $\mathfra
 
 The bridge records the following correspondence: the same six-state datum that appears in the strict finite core admits a precise algebraic reading by two triangles, a complement exchange, an $A_2$ root datum, and the standard $3\oplus\bar 3$ representation package. In this role, a bridge adds no new native objects to the strict finite core. It gives a controlled external realization of already constructed finite data.
 
-The boundary is part of the statement. The finite datum $(X,R_2,c)$ does not contain a physical gauge theory, particle dynamics, or the Lie group $SU(3)$ as a geometric object. Those require additional structures. This note proves only the finite-to-algebraic reconstruction described below.
+The boundary is part of the statement. The finite datum $(X,$R_2$,c)$ does not contain a physical gauge theory, particle dynamics, or the Lie group $SU(3)$ as a geometric object. Those require additional structures. This note proves only the finite-to-algebraic reconstruction described below.
 
 ## Abstract
 
@@ -71,14 +71,16 @@ $$
 equipped with:
 
 1. the involution
+   $$
+c(x)=1-x,
 $$
-   c(x)=1-x,
-$$
+
    where subtraction is taken coordinatewise;
 2. the relation $R_2$ consisting of the edges inside the two triples
+   $$
+\{100,010,001\},\qquad \{011,101,110\}.
 $$
-   \{100,010,001\},\qquad \{011,101,110\}.
-$$
+
 We prove that this finite combinatorial datum determines a canonical combinatorial model of:
 
 1. the root system of type $A_2$;
@@ -105,7 +107,7 @@ the finite six-state combinatorial datum itself.
 
 In DOT language, this is the strict finite nucleus of the theory. In the present note,
 the same object is read externally in standard mathematical language as the finite datum
-$(X,R_2,c)$.
+$(X,$R_2$,c)$.
 
 So the claim of this note is intentionally limited:
 
@@ -161,9 +163,10 @@ We interpret:
 - $X_1$ as the weight diagram of the fundamental representation $\mathbf 3$;
 - $X_2$ as the weight diagram of the dual representation $\overline{\mathbf 3}$;
 - $c$ as the discrete exchange
+  $$
+\mathbf 3 \leftrightarrow \overline{\mathbf 3}.
 $$
-  \mathbf 3 \leftrightarrow \overline{\mathbf 3}.
-$$
+
 Thus the six-point set carries the combinatorial shape of
 
 $$
@@ -464,3 +467,6 @@ It checks:
 - that the chosen compact basis indeed spans $\mathfrak{su}(3)$.
 
 The script uses only the Python standard library.
+
+
+[D]: # (Status Marker)

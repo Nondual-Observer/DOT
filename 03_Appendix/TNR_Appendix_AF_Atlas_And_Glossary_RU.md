@@ -15,9 +15,9 @@
 
 | Обозначение | Смысл | Где используется |
 |---|---|---|
-| $Q_n=\mathbb F_2^n$ | полный двоичный носитель ранга $n$ | основная рукопись, математическое начало |
-| $Q_n^*=Q_n\setminus\{0^n\}$ | ненулевой слой | ранги $1$–$5$ |
-| $U_n=Q_n\setminus\{0^n,1^n\}$ | полный нетривиальный слой без двух предельных точек | ранги $3$–$5$, общий закон |
+| $Q_n=\mathbb{F}_2^n$ | полный двоичный носитель ранга $n$ | основная рукопись, математическое начало |
+| $Q_n^*=$Q_n$\setminus\{0^n\}$ | ненулевой слой | ранги $1$–$5$ |
+| $U_n=$Q_n$\setminus\{0^n,1^n\}$ | полный нетривиальный слой без двух предельных точек | ранги $3$–$5$, общий закон |
 | $S_k^{(n)}$ | слой веса $k$, то есть состояния с $k$ единицами | все ранги |
 | $V_n=S_1^{(n)}\sqcup S_{n-1}^{(n)}$ | внешний слой: базисные точки и двойственные базисные точки | общий внешний слой |
 | $X_{\mathrm{adm}}$ | шестипозиционный допустимый носитель ранга $3$ | строгий конечный центр ранга $3$ |
@@ -67,7 +67,7 @@ $$
 | $\mathsf H_k^{(n)}$ | $Q_n^*$ или его подслои | отношение расстояния Хэмминга $k$ |
 | $\kappa_n(x)=x+1^n$ | $Q_n$ | комплементарная инволюция |
 | $\Omega_n$ | $V_n$ | остаточное отношение внешнего слоя: все пары, кроме комплементарных |
-| $\Lambda_n(\varepsilon,x)=\varepsilon\,|\,x$ | $\mathbb F_2\times Q_n\to Q_{n+1}$ | переход к следующему рангу через новый старший разряд |
+| $\Lambda_n(\varepsilon,x)=\varepsilon\,|\,x$ | $\mathbb{F}_2\times $Q_n$\to Q_{n+1}$ | переход к следующему рангу через новый старший разряд |
 
 Отношение $\mathsf H_k^{(n)}$ считается как неориентированное графовое отношение, если речь идёт о числе рёбер. Если используется отношение на упорядоченных парах, это должно быть указано отдельно.
 
@@ -95,9 +95,9 @@ $$
 | $C_6$ | $X_{\mathrm{adm}}$ | цикл отношения $R_1$ |
 | $C_6^{(4),\mathrm{mid}}$ | $S_2^{(4)}$ | выбранный цикл на среднем слое ранга $4$ |
 | $C_8^{(4)}$ | $V_4$ | выбранный гамильтонов цикл на внешнем слое ранга $4$ |
-| $C_{15}^{(4)}$ | $\mathcal P_4$ | цикл Зингера после выбора примитивного многочлена над $\mathbb F_2$ |
+| $C_{15}^{(4)}$ | $\mathcal P_4$ | цикл Зингера после выбора примитивного многочлена над $\mathbb{F}_2$ |
 | $C_{10}^{(5)}$ | $V_5$ | выбранный гамильтонов цикл на внешнем слое ранга $5$ |
-| $C_{31}^{(5)}$ | $P^{(5)}$ | цикл Зингера после выбора примитивного многочлена над $\mathbb F_2$ |
+| $C_{31}^{(5)}$ | $P^{(5)}$ | цикл Зингера после выбора примитивного многочлена над $\mathbb{F}_2$ |
 
 Гамильтонов цикл на внешнем слое является выбранным представителем внутри графа $K_{2,\ldots,2}$. Сам внешний граф не задаёт единственного цикла без дополнительного выбора.
 
@@ -137,7 +137,7 @@ $$
 
 | Статус | Смысл | Примеры |
 |---|---|---|
-| Построено | объект имеет носитель, отношение, чтение и восстановление или явно заданную операторную роль | $Q_n$, $X_{\mathrm{adm}}$, $R_1,R_2,R_3$, $\kappa_n$, $\Lambda_n$, осевые презентации |
+| Построено | объект имеет носитель, отношение, чтение и восстановление или явно заданную операторную роль | $Q_n$, $X_{\mathrm{adm}}$, $R_1, R_2, R_3$, $\kappa_n$, $\Lambda_n$, осевые презентации |
 | Чтение | имя описывает уже построенную структуру в другом регистре | цветовая реализация, алгебраическое чтение $A_2/\mathfrak{sl}_3/\mathfrak{su}_3$, топологический образ |
 | Отложено | имя обозначает будущую конструкцию, не используемую в доказательствах текущего слоя | физическая интерпретация, непрерывная топология как собственный носитель, общее разложение циклов без явного построения |
 
@@ -186,39 +186,39 @@ $$
 
 ![K4 minus edge](../assets/figures/1.6-K_4-e.png)
 
-**`2.1-Q_3.png`** — полный трёхбитный carrier $Q_3=\{0,1\}^3$.
+**`2.1-$Q_3$.png`** — полный трёхбитный carrier $Q_3=\{0,1\}^3$.
 
 ![Q3](../assets/figures/2.1-Q_3.png)
 
-**`2.2-X_adm.png`** — admissible carrier $X_{\mathrm{adm}}=Q_3\setminus\{000,111\}$.
+**`2.2-X_adm.png`** — admissible carrier $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$.
 
 ![Xadm](../assets/figures/2.2-X_adm.png)
 
-**`3.1-R_1-C_6.png`** — relation $R_1$: $(X_{\mathrm{adm}},R_1)\cong C_6$.
+**`3.1-$R_1$-$C_6$.png`** — relation $R_1$: $($X_{\\mathrm{adm}}$,$R_1$)\cong C_6$.
 
 ![R1 C6](../assets/figures/3.1-R_1-C_6.png)
 
-**`3.2-R_2-2_triangles.png`** — relation $R_2$: $(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3$.
+**`3.2-$R_2$-2_triangles.png`** — relation $R_2$: $($X_{\\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$.
 
 ![R2 two triangles](../assets/figures/3.2-R_2-2_triangles.png)
 
-**`3.3-R_3-3K_2.png`** — relation $R_3$: $(X_{\mathrm{adm}},R_3)\cong 3K_2$.
+**`3.3-$R_3$-$3K_2$.png`** — relation $R_3$: $($X_{\\mathrm{adm}}$,$R_3$)\cong 3K_2$.
 
 ![R3 3K2](../assets/figures/3.3-R_3-3K_2.png)
 
-**`4.1-R_12-octahedron.png`** — union relation $R_{12}=R_1\cup R_2$: $(X_{\mathrm{adm}},R_{12})\cong K_{2,2,2}$.
+**`4.1-$R_1$2-octahedron.png`** — union relation $R_{12}=$R_1$\cup R_2$: $($X_{\\mathrm{adm}}$,R_{12})\cong K_{2,2,2}$.
 
 ![R12 octahedron](../assets/figures/4.1-R_12-octahedron.png)
 
-**`4.2-R_1-C_6.png`** — тот же relation $R_1\cong C_6$, показанный на октаэдральной раскладке.
+**`4.2-$R_1$-$C_6$.png`** — тот же relation $R_1\cong C_6$, показанный на октаэдральной раскладке.
 
 ![R1 octahedral view](../assets/figures/4.2-R_1-C_6.png)
 
-**`4.3-R_2-K_3-U-K_3.png`** — тот же relation $R_2\cong K_3\sqcup K_3$, показанный на октаэдральной раскладке.
+**`4.3-$R_2$-K_3-U-K_3.png`** — тот же relation $R_2\cong K_3\sqcup K_3$, показанный на октаэдральной раскладке.
 
 ![R2 octahedral view](../assets/figures/4.3-R_2-K_3-U-K_3.png)
 
-**`4.4-R_3-3K2.png`** — axial factorization $X_{\mathrm{adm}}\cong I_3\times\{-,+\}$ и relation $R_3\cong 3K_2$.
+**`4.4-$R_3$-3K2.png`** — axial factorization $X_{\mathrm{adm}}\cong I_3\times\{-,+\}$ и relation $R_3\cong 3K_2$.
 
 ![R3 axial view](../assets/figures/4.4-R_3-3K2.png)
 
@@ -226,7 +226,7 @@ $$
 
 ![Rank 3 shell split](../assets/figures/4.5-S_1-S_2.png)
 
-**`4.6-R_1-C6.png`** — oriented/transport reading of $R_1\cong C_6$ after choosing a cycle orientation.
+**`4.6-$R_1$-C6.png`** — oriented/transport reading of $R_1\cong C_6$ after choosing a cycle orientation.
 
 ![Directed R1 cycle](../assets/figures/4.6-R_1-C6.png)
 
@@ -238,11 +238,11 @@ $$
 
 ![Chamber pair projection tiles](../assets/figures/4.9-chamber_pair_projection_tiles.png)
 
-**`4.10-chambers_two_octahedron_views.png`** — two-octahedron chamber view, $\mathrm{Cham}(O_3)\cong Q_3$.
+**`4.10-chambers_two_octahedron_views.png`** — two-octahedron chamber view, $\mathrm{Cham}($O_3$)\cong Q_3$.
 
 ![Two octahedron chamber views](../assets/figures/4.10-chambers_two_octahedron_views.png)
 
-**`5.1-Q4_full_tesseract.png`** — полный carrier $Q_4\cong\mathbb F_2^4$.
+**`5.1-Q4_full_tesseract.png`** — полный carrier $Q_4\cong\mathbb{F}_2^4$.
 
 ![Q4](../assets/figures/5.1-Q4_full_tesseract.png)
 
@@ -268,23 +268,23 @@ $$
 
 ![RGB cube Q3](../assets/figures/B1_color_cube_Q3.png)
 
-**`B2_chromatic_carrier_Xadm.png`** — $X_{\mathrm{adm}}=Q_3\setminus\{000,111\}$ как chromatic carrier.
+**`B2_chromatic_carrier_Xadm.png`** — $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$ как chromatic carrier.
 
 ![Chromatic Xadm](../assets/figures/B2_chromatic_carrier_Xadm.png)
 
-**`B3_R1_hamming_cycle_C6.png`** — $(X_{\mathrm{adm}},R_1)\cong C_6$, цветовой Hamming-cycle.
+**`B3_R1_hamming_cycle_C6.png`** — $($X_{\\mathrm{adm}}$,$R_1$)\cong C_6$, цветовой Hamming-cycle.
 
 ![Color R1 C6](../assets/figures/B3_R1_hamming_cycle_C6.png)
 
-**`B4_R2_two_triads_K3sqcupK3.png`** — $(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3$, две цветовые triads.
+**`B4_R2_two_triads_K3sqcupK3.png`** — $($X_{\\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$, две цветовые triads.
 
 ![Color R2 two triads](../assets/figures/B4_R2_two_triads_K3sqcupK3.png)
 
-**`B5_R3_complementary_axes_3K2.png`** — $(X_{\mathrm{adm}},R_3)\cong 3K_2$, complementary colour axes.
+**`B5_R3_complementary_axes_3K2.png`** — $($X_{\\mathrm{adm}}$,$R_3$)\cong 3K_2$, complementary colour axes.
 
 ![Color R3 complementary axes](../assets/figures/B5_R3_complementary_axes_3K2.png)
 
-**`B6_octahedral_shell_R12_K222.png`** — $(X_{\mathrm{adm}},R_1\cup R_2)\cong K_{2,2,2}$, octahedral chromatic shell.
+**`B6_octahedral_shell_R12_K222.png`** — $($X_{\\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$, octahedral chromatic shell.
 
 ![Color octahedral shell](../assets/figures/B6_octahedral_shell_R12_K222.png)
 
@@ -296,7 +296,7 @@ $$
 
 ![Colour chamber side B](../assets/figures/B7b_TNR_chambers_RGB_CMY_side_B.png)
 
-**`B7c_TNR_chambers_two_octahedron_views.png`** — two colour chamber octahedron views, $\mathrm{Cham}(O_3)\cong Q_3$.
+**`B7c_TNR_chambers_two_octahedron_views.png`** — two colour chamber octahedron views, $\mathrm{Cham}($O_3$)\cong Q_3$.
 
 ![Colour two chamber views](../assets/figures/B7c_TNR_chambers_two_octahedron_views.png)
 
@@ -320,7 +320,7 @@ $$
 
 | Символ | Значение |
 |---|---|
-| $\mathbb F_2$ | поле из двух элементов |
+| $\mathbb{F}_2$ | поле из двух элементов |
 | $d_H(x,y)$ | расстояние Хэмминга |
 | $|x|$ | вес Хэмминга |
 | $1^n$ | строка из $n$ единиц |
@@ -362,10 +362,10 @@ $$
 | shell-order | построено | разложение carrier-а по Hamming-весу |
 | relation-order | построено | разложение pair-отношений по Hamming-distance |
 | Hamming weight | построено | $|x|$, число единиц в bit-string-е |
-| Hamming distance | построено | $d_H(x,y)=|x+y|$ над $\mathbb F_2$ |
+| Hamming distance | построено | $d_H(x,y)=|x+y|$ над $\mathbb{F}_2$ |
 | total poles | построено | две крайние точки $0^n$ и $1^n$ |
 | puncture | построено | удаление total poles из $Q_n$ |
-| admissible carrier | построено | $X_{\mathrm{adm}}=Q_3\setminus\{000,111\}$ |
+| admissible carrier | построено | $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$ |
 | complement | построено | $\kappa_n(x)=x+1^n$ |
 | complement-pair | построено | пара $\{x,\kappa_n(x)\}$ |
 | outer shell | построено | $V_n=S_1^{(n)}\sqcup S_{n-1}^{(n)}$ |
@@ -373,12 +373,12 @@ $$
 | residual relation | построено | $\Omega_n$, все outer-pairs кроме complement-pairs |
 | axial pair | построено | $H_i^{(n)}=\{e_i,1^n-e_i\}$ |
 | chamber | построено | выбор одной вершины из каждой complement-пары $O_3$ |
-| chamber-coordinate reading | построено | $\mathrm{Cham}(O_3)\cong Q_3$ |
+| chamber-coordinate reading | построено | $\mathrm{Cham}($O_3$)\cong Q_3$ |
 | incidence relation | построено | relation между vertex-side $V_O$ и chamber-side $C_O$ |
 | star | построено | множество камер, incident данной вершине |
-| coordinate face | построено | подмножество $F_i^\eta=\{\varepsilon\in Q_3:\varepsilon_i=\eta\}$ |
+| coordinate face | построено | подмножество $F_i^\eta=\{\varepsilon\in $Q_3$:\varepsilon_i=\eta\}$ |
 | graph-reading | построено | чтение relation-layer-а как graph type |
-| octahedral shell | чтение graph-а | $(X_{\mathrm{adm}},R_1\cup R_2)\cong K_{2,2,2}\cong O_3^{(1)}$ |
+| octahedral shell | чтение graph-а | $($X_{\\mathrm{adm}}$,$R_1$\cup $R_2$)\cong $K_{2,2,2}$\cong $O_3$^{(1)}$ |
 | line graph | стандартный graph term | $L(G)$, graph рёбер graph-а $G$ |
 | Singer cycle | построено после выбора | cycle на $Q_n^*$ после выбора primitive polynomial |
 | Hamilton-cycle | выбранный объект | cycle, проходящий все вершины выбранного graph-а |
