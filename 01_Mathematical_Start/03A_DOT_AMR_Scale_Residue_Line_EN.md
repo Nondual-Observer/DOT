@@ -75,8 +75,8 @@ Statements without status [P] are explicitly marked as bridges or interpretive l
    - the case $k=4$;
    - the boundary pair $(3,4)$;
    - the type of partial arrows
-     $$
-\beta_3, \beta_4.
+$$
+     \beta_3, \beta_4.
 $$
 
 3. **Continuation after the threshold**: paragraph `3.3`.
@@ -86,9 +86,9 @@ Connection scheme:
 
 $$
 \begin{aligned}
-&\text{AMR-SR arithmetic package} \\
-&\to \text{partial bridge } (\beta_3, \beta_4) \\
-&\to \text{selected core relations} \\
+&\text{AMR-SR arithmetic package} \
+&\to \text{partial bridge } (\beta_3, \beta_4) \
+&\to \text{selected core relations} \
 &\to \text{subsequent realisations}.
 \end{aligned}
 $$
@@ -335,7 +335,7 @@ In the chosen sector normalization, the two generators have Gram matrix
 $$
 G=
 \begin{pmatrix}
-2/3 & -1/3\\
+2/3 & -1/3\
 -1/3 & 2/3
 \end{pmatrix}.
 $$
@@ -411,8 +411,8 @@ Fix the following:
 
 - the chromatic six-point shell and the cycle $C_6$ have an exact model in the colour body;
 - the local sector form $(a,b)=g(p,q)$ and the metric law
-  $$
-D^2_{\mathrm{chroma}} = \frac23 g^2 N_{\mathrm{Eis}}(p,q)
+$$
+  D^2_{\mathrm{chroma}} = \frac23 g^2 N_{\mathrm{Eis}}(p,q)
 $$
 
   are compatible with the colour reading;
@@ -701,9 +701,9 @@ This list exhausts the minimal bridge fixed in the text.
 
 $$
 \begin{aligned}
-3 &\to (R_1, R_2) \\
-4 &\to R_3 \\
-2 &\to \text{no separate core relation} \\
+3 &\to (R_1, R_2) \
+4 &\to R_3 \
+2 &\to \text{no separate core relation} \
 k \ge 5 &\to \text{no general transition defined}
 \end{aligned}
 $$
@@ -733,8 +733,8 @@ These arrows are AMR-SR bridge arrows, not AMR-DC divisor-carrier theorems.
 
 1. AMR-SR is not part of the strict core.
 2. The links have the status of partial typed bridge arrows:
-   $$
-\beta_3 \colon \mathrm{AMR\text{-}SR}_{k=3} \to (R_1, R_2), \qquad \beta_4 \colon \mathrm{AMR\text{-}SR}_{k=4} \to R_3.
+$$
+   \beta_3 \colon \mathrm{AMR\text{-}SR}_{k=3} \to (R_1, R_2), \qquad \beta_4 \colon \mathrm{AMR\text{-}SR}_{k=4} \to R_3.
 $$
 
 3. The arrows $\beta$ are not a shell realisation, operator lift, or full functor.
@@ -854,9 +854,9 @@ If these conditions hold, the same fixed bridge profile is returned:
 
 $$
 \begin{aligned}
-\mathrm{relation\_counts} &= \{R_1: 6, R_2: 6, R_3: 3\} \\
-\mathrm{shared\_chambers} &= \{R_1: 2, R_2: 2, R_3: 0\} \\
-\mathrm{shell\_types} &= \{R_1: \text{between}, R_2: \text{inside}, R_3: \text{axial}\} \\
+\mathrm{relation\_counts} &= \{R_1: 6, R_2: 6, R_3: 3\} \
+\mathrm{shared\_chambers} &= \{R_1: 2, R_2: 2, R_3: 0\} \
+\mathrm{shell\_types} &= \{R_1: \text{between}, R_2: \text{inside}, R_3: \text{axial}\} \
 \mathrm{completion\_mode} &= \text{reciprocal plus axial}
 \end{aligned}
 $$
@@ -867,8 +867,8 @@ Local machine verification of this completion block is performed by the function
 
 $$
 \begin{gathered}
-\mathrm{frontier\_completion\_signature}() \\
-\mathrm{frontier\_reciprocal\_split\_signature}() \\
+\mathrm{frontier\_completion\_signature}() \
+\mathrm{frontier\_reciprocal\_split\_signature}() \
 \mathrm{frontier\_core\_facing\_signature}()
 \end{gathered}
 $$
@@ -1077,14 +1077,14 @@ In its shortest form, `03A` asserts the following.
 
 1. AMR-SR defines scale/residue arithmetic on the carrier
 
-   $$
-\mathcal R=\mathbb N_{>0}^2.
+$$
+   \mathcal R=\mathbb N_{>0}^2.
 $$
 
 2. The basic decomposition is
 
-   $$
-(a,b)=g(p,q),
+$$
+   (a,b)=g(p,q),
    \qquad
    g=\gcd(a,b),
    \qquad
@@ -1093,18 +1093,18 @@ $$
 
 3. The basic scalar residue is
 
-   $$
-\mathrm{Res}_{\mathrm{sr}}=(g-1)|p-q|.
+$$
+   \mathrm{Res}_{\mathrm{sr}}=(g-1)|p-q|.
 $$
 
 4. AMR-SR yields only a partial typed bridge:
 
-   $$
-\beta_3:\mathrm{AMR\text{-}SR}_{k=3}\to(R_1,R_2),
+$$
+   \beta_3:\mathrm{AMR\text{-}SR}_{k=3}\to(R_1,R_2),
 $$
 
-   $$
-\beta_4:\mathrm{AMR\text{-}SR}_{k=4}\to R_3.
+$$
+   \beta_4:\mathrm{AMR\text{-}SR}_{k=4}\to R_3.
 $$
 
 5. For $k=2$ there is an exception, and for $k\ge5$ no general bridge is asserted.

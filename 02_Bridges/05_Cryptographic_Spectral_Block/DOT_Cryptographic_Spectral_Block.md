@@ -50,20 +50,20 @@ Fix $n \ge 3$.
 We combine three ingredients:
 
 1. the $n$-dimensional cross-polytope graph
-   $$
-O_n \cong K_{2,\dots,2},
+$$
+   O_n \cong K_{2,\dots,2},
 $$
 
    with $2n$ pole vertices;
 2. the $n$-dimensional hypercube graph
-   $$
-Q_n
+$$
+   Q_n
 $$
 
    with $2^n$ cube vertices;
 3. a binary incidence matrix
-   $$
-B \in \{0,1\}^{2n \times 2^n}
+$$
+   B \in \{0,1\}^{2n \times 2^n}
 $$
 
    coupling poles to cube vertices.
@@ -126,7 +126,7 @@ Then the Laplacian of the full block graph is:
 $$
 L_{\mathrm{block}} =
 \begin{pmatrix}
-L_{\mathrm{oct}} + 2^{n-1}I_m & -B \\
+L_{\mathrm{oct}} + 2^{n-1}I_m & -B \
 -B^T & L_{\mathrm{cube}} + nI_N
 \end{pmatrix}.
 $$
@@ -263,7 +263,7 @@ $$
 \sum_{t_j\in\{0,1\}}(-1)^{u_j t_j}
 =
 \begin{cases}
-2,&u_j=0,\\
+2,&u_j=0,\
 0,&u_j=1.
 \end{cases}
 $$
@@ -475,7 +475,7 @@ spans an invariant $2\times 2$ block:
 $$
 M_1=
 \begin{pmatrix}
-2(n-1)+2^{n-1} & -2^{n-1}\\
+2(n-1)+2^{n-1} & -2^{n-1}\
 -1 & n+2
 \end{pmatrix}.
 $$
@@ -628,24 +628,24 @@ valid for every $k\ge 2$.
 Indeed:
 
 - from
-  $$
-\sqrt{(n-4+2^{n-1})^2+2^{n+1}} > n-4+2^{n-1}
+$$
+  \sqrt{(n-4+2^{n-1})^2+2^{n+1}} > n-4+2^{n-1}
 $$
 
   we get
 
-  $$
-\lambda_{w1}^{-} < n+2;
+$$
+  \lambda_{w1}^{-} < n+2;
 $$
 
 - for $k\ge 2$,
-  $$
-2k+n \ge n+4;
+$$
+  2k+n \ge n+4;
 $$
 
 - and for $n\ge 5$,
-  $$
-3n < n+2^{n-1}
+$$
+  3n < n+2^{n-1}
 $$
 
   because $2^{n-1} > 2n$.
@@ -679,8 +679,8 @@ Indeed:
 - every vector in $D_k$ has the form $(0_m,\chi_u)$ and therefore has zero
   octahedral component;
 - the vector spanning $C_0^+$ is
-  $$
-(2^{n-1}\mathbf 1_m,-n\mathbf 1_N),
+$$
+  (2^{n-1}\mathbf 1_m,-n\mathbf 1_N),
 $$
 
   whose octahedral component is nonzero.
@@ -888,8 +888,8 @@ claim to supersede the standard Walsh/Fourier criteria.
 What is new here is the following package:
 
 1. one fixed composite graph
-   $$
-G_{\mathrm{block}}^{(n)}=O_n\cup Q_n\cup B,
+$$
+   G_{\mathrm{block}}^{(n)}=O_n\cup Q_n\cup B,
 $$
 
 2. one explicit Laplacian with complete analytic spectrum,

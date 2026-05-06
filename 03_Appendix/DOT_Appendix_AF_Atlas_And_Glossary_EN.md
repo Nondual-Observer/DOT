@@ -194,19 +194,19 @@ All links below point to files in `assets/figures/`. The figures illustrate alre
 
 ![Xadm](../assets/figures/2.2-X_adm.png)
 
-**`3.1-$R_1$-$C_6$.png`** — relation $R_1$: $($X_{\\mathrm{adm}}$,$R_1$)\cong C_6$.
+**`3.1-$R_1$-$C_6$.png`** — relation $R_1$: $($X_{\mathrm{adm}}$,$R_1$)\cong C_6$.
 
 ![R1 C6](../assets/figures/3.1-R_1-C_6.png)
 
-**`3.2-$R_2$-2_triangles.png`** — relation $R_2$: $($X_{\\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$.
+**`3.2-$R_2$-2_triangles.png`** — relation $R_2$: $($X_{\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$.
 
 ![R2 two triangles](../assets/figures/3.2-R_2-2_triangles.png)
 
-**`3.3-$R_3$-$3K_2$.png`** — relation $R_3$: $($X_{\\mathrm{adm}}$,$R_3$)\cong 3K_2$.
+**`3.3-$R_3$-$3K_2$.png`** — relation $R_3$: $($X_{\mathrm{adm}}$,$R_3$)\cong 3K_2$.
 
 ![R3 3K2](../assets/figures/3.3-R_3-3K_2.png)
 
-**`4.1-$R_1$2-octahedron.png`** — union relation $R_{12}=$R_1$\cup R_2$: $($X_{\\mathrm{adm}}$,R_{12})\cong K_{2,2,2}$.
+**`4.1-$R_1$2-octahedron.png`** — union relation $R_{12} = R_1 \cup R_2$: $($X_{\mathrm{adm}}$,R_{12})\cong K_{2,2,2}$.
 
 ![R12 octahedron](../assets/figures/4.1-R_12-octahedron.png)
 
@@ -272,19 +272,19 @@ All links below point to files in `assets/figures/`. The figures illustrate alre
 
 ![Chromatic Xadm](../assets/figures/B2_chromatic_carrier_Xadm.png)
 
-**`B3_R1_hamming_cycle_C6.png`** — $($X_{\\mathrm{adm}}$,$R_1$)\cong C_6$, the colour Hamming cycle.
+**`B3_R1_hamming_cycle_C6.png`** — $($X_{\mathrm{adm}}$,$R_1$)\cong C_6$, the colour Hamming cycle.
 
 ![Color R1 C6](../assets/figures/B3_R1_hamming_cycle_C6.png)
 
-**`B4_R2_two_triads_K3sqcupK3.png`** — $($X_{\\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$, two colour triads.
+**`B4_R2_two_triads_K3sqcupK3.png`** — $($X_{\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$, two colour triads.
 
 ![Color R2 two triads](../assets/figures/B4_R2_two_triads_K3sqcupK3.png)
 
-**`B5_R3_complementary_axes_3K2.png`** — $($X_{\\mathrm{adm}}$,$R_3$)\cong 3K_2$, complementary colour axes.
+**`B5_R3_complementary_axes_3K2.png`** — $($X_{\mathrm{adm}}$,$R_3$)\cong 3K_2$, complementary colour axes.
 
 ![Color R3 complementary axes](../assets/figures/B5_R3_complementary_axes_3K2.png)
 
-**`B6_octahedral_shell_R12_K222.png`** — $($X_{\\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$, the octahedral chromatic shell.
+**`B6_octahedral_shell_R12_K222.png`** — $($X_{\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$, the octahedral chromatic shell.
 
 ![Color octahedral shell](../assets/figures/B6_octahedral_shell_R12_K222.png)
 
@@ -378,7 +378,7 @@ This set is enough to read the Mathematical Start and bridge documents without c
 | star | constructed | set of chambers incident to a given vertex |
 | coordinate face | constructed | subset $F_i^\eta=\{\varepsilon\in $Q_3$:\varepsilon_i=\eta\}$ |
 | graph-reading | constructed | reading of a relation-layer as a graph type |
-| octahedral shell | graph reading | $($X_{\\mathrm{adm}}$,$R_1$\cup $R_2$)\cong $K_{2,2,2}$\cong $O_3$^{(1)}$ |
+| octahedral shell | graph reading | $($X_{\mathrm{adm}}$,$R_1$\cup $R_2$)\cong $K_{2,2,2}$\cong $O_3$^{(1)}$ |
 | line graph | standard graph term | $L(G)$, graph of the edges of $G$ |
 | Singer cycle | constructed after a choice | cycle on $Q_n^*$ after choosing a primitive polynomial |
 | Hamilton-cycle | chosen object | cycle passing through all vertices of the chosen graph |

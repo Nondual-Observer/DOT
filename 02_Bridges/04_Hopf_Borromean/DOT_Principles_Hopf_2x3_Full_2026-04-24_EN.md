@@ -29,7 +29,7 @@ It is a finite $Z_2$-holonomy on $X_{\mathrm{adm}}$. In the topological reading,
 The third structure is the decomposition of the whole six-position carrier into three axial pairs:
 
 $$
-X_{\\mathrm{adm}}=H_1\sqcup H_2\sqcup H_3.
+X_{\mathrm{adm}}=H_1\sqcup H_2\sqcup H_3.
 $$
 
 In the topological reading, this triple may be matched with a Borromean triad of blocks. This reading does not assert the presence of literal Borromean rings inside the finite core. It fixes only the schema: three blocks hold a common motif that is not reducible to one selected pair.
@@ -65,13 +65,13 @@ $$
 Admissible carrier:
 
 $$
-X_{\\mathrm{adm}}=Q_3\setminus\{000,111\}.
+X_{\mathrm{adm}}=Q_3\setminus\{000,111\}.
 $$
 
 On $X_{\mathrm{adm}}$, the Hamming relations are defined by:
 
 $$
-R_k=\{(x,y)\in X_{\\mathrm{adm}}\times X_{\\mathrm{adm}}:
+R_k=\{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:
 x\neq y,\ d_H(x,y)=k\},
 \qquad
 k=1,2,3.
@@ -80,15 +80,15 @@ $$
 Graph-readings:
 
 $$
-(X_{\\mathrm{adm}},R_1)\cong C_6,
+(X_{\mathrm{adm}},R_1)\cong C_6,
 $$
 
 $$
-(X_{\\mathrm{adm}},R_2)\cong K_3\\sqcup K_3,
+(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3,
 $$
 
 $$
-(X_{\\mathrm{adm}},R_3)\cong 3K_2.
+(X_{\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
 Union relation:
@@ -96,13 +96,13 @@ Union relation:
 $$
 R_{12}=R_1\cup R_2,
 \qquad
-(X_{\\mathrm{adm}},R_{12})\cong K_{2,2,2}.
+(X_{\mathrm{adm}},R_{12})\cong K_{2,2,2}.
 $$
 
 The strict source for the Hopf/Borromean bridge is the relation $R_3$ and axial factorization:
 
 $$
-X_{\\mathrm{adm}}\cong I_3\times\Sigma,
+X_{\mathrm{adm}}\cong I_3\times\Sigma,
 \qquad
 I_3=\{I_1,I_2,I_3\},
 \qquad
@@ -116,13 +116,13 @@ $$
 For $i\in\{1,2,3\}$:
 
 $$
-H_i=\{I_i^-,I_i^+\}\subset X_{\\mathrm{adm}}.
+H_i=\{I_i^-,I_i^+\}\subset X_{\mathrm{adm}}.
 $$
 
 The three axial pairs decompose the carrier:
 
 $$
-X_{\\mathrm{adm}}=H_1\sqcup H_2\sqcup H_3.
+X_{\mathrm{adm}}=H_1\sqcup H_2\sqcup H_3.
 $$
 
 The relation $R_3$ restricts to each pair as $K_2$:
@@ -134,7 +134,7 @@ $$
 The whole $R_3$-structure:
 
 $$
-(X_{\\mathrm{adm}},R_3)
+(X_{\mathrm{adm}},R_3)
 \cong
 H_1\sqcup H_2\sqcup H_3
 \cong
@@ -194,9 +194,9 @@ $$
 Transport $T$ on $X_{\mathrm{adm}}$ is constructed after choosing an orientation on the $C_6$-reading of the relation $R_1$:
 
 $$
-T:X_{\\mathrm{adm}}\to X_{\\mathrm{adm}},
+T:X_{\mathrm{adm}}\to X_{\mathrm{adm}},
 \qquad
-T^6=\mathrm{id}_{X_{\\mathrm{adm}}}.
+T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
 Half-return:
@@ -316,7 +316,7 @@ $$
 Each $H_i$ is a two-point axial block. The triad of blocks is fixed after the factorization:
 
 $$
-X_{\\mathrm{adm}}\cong I_3\times\Sigma.
+X_{\mathrm{adm}}\cong I_3\times\Sigma.
 $$
 
 Borromean-type bridge reading:
@@ -493,7 +493,7 @@ Purpose: strict finite source for Hopf-type reading.
 Show:
 
 $$
-X_{\\mathrm{adm}}\cong I_3\times\Sigma.
+X_{\mathrm{adm}}\cong I_3\times\Sigma.
 $$
 
 Rows: $I_1,I_2,I_3$. Columns: $-,+$.
@@ -561,9 +561,9 @@ The Hopf/Borromean layer has correct bridge status.
 Strict finite source:
 
 $$
-(X_{\\mathrm{adm}},R_3)\cong 3K_2,
+(X_{\mathrm{adm}},R_3)\cong 3K_2,
 \qquad
-X_{\\mathrm{adm}}\cong I_3\times\Sigma.
+X_{\mathrm{adm}}\cong I_3\times\Sigma.
 $$
 
 Exact axial presentations:

@@ -75,8 +75,8 @@ $$
    - случай $k=4$;
    - граничная пара $(3,4)$;
    - тип частичных стрелок
-     $$
-\beta_3, \beta_4.
+$$
+     \beta_3, \beta_4.
 $$
 
 3. **Продолжение после порога**: параграф `3.3`.
@@ -86,9 +86,9 @@ $$
 
 $$
 \begin{aligned}
-&\text{арифметический пакет AMR-SR} \\
-&\to \text{частичный мост } (\beta_3, \beta_4) \\
-&\to \text{выделенные отношения ядра} \\
+&\text{арифметический пакет AMR-SR} \
+&\to \text{частичный мост } (\beta_3, \beta_4) \
+&\to \text{выделенные отношения ядра} \
 &\to \text{дальнейшие реализации}.
 \end{aligned}
 $$
@@ -336,7 +336,7 @@ $$
 $$
 G=
 \begin{pmatrix}
-2/3 & -1/3\\
+2/3 & -1/3\
 -1/3 & 2/3
 \end{pmatrix}.
 $$
@@ -414,8 +414,8 @@ $$
 
 - хроматическая шеститочечная оболочка и цикл $C_6$ имеют точную модель в цветовом теле;
 - локальная секторная форма $(a,b)=g(p,q)$ и метрический закон
-  $$
-D^2_{\mathrm{chroma}} = \frac23 g^2 N_{\mathrm{Eis}}(p,q)
+$$
+  D^2_{\mathrm{chroma}} = \frac23 g^2 N_{\mathrm{Eis}}(p,q)
 $$
 
   согласованы с цветовым чтением;
@@ -700,9 +700,9 @@ $\mathrm{AMR\text{-}SR}$ не порождает автономно:
 
 $$
 \begin{aligned}
-3 &\to (R_1, R_2) \\
-4 &\to R_3 \\
-2 &\to \text{нет отдельного отношения ядра} \\
+3 &\to (R_1, R_2) \
+4 &\to R_3 \
+2 &\to \text{нет отдельного отношения ядра} \
 k \ge 5 &\to \text{общий переход не задан}
 \end{aligned}
 $$
@@ -731,8 +731,8 @@ $$
 
 1. AMR-SR не входит в строгое ядро.
 2. Связи имеют статус частичных типизированных стрелок моста:
-   $$
-\beta_3 \colon \mathrm{AMR\text{-}SR}_{k=3} \to (R_1, R_2), \qquad \beta_4 \colon \mathrm{AMR\text{-}SR}_{k=4} \to R_3.
+$$
+   \beta_3 \colon \mathrm{AMR\text{-}SR}_{k=3} \to (R_1, R_2), \qquad \beta_4 \colon \mathrm{AMR\text{-}SR}_{k=4} \to R_3.
 $$
 
 3. Стрелки $\beta$ не являются оболочечной реализацией, операторным подъёмом или полным функтором.
@@ -853,9 +853,9 @@ $$
 
 $$
 \begin{aligned}
-\mathrm{relation\_counts} &= \{R_1: 6, R_2: 6, R_3: 3\} \\
-\mathrm{shared\_chambers} &= \{R_1: 2, R_2: 2, R_3: 0\} \\
-\mathrm{shell\_types} &= \{R_1: \text{между}, R_2: \text{внутри}, R_3: \text{осевой}\} \\
+\mathrm{relation\_counts} &= \{R_1: 6, R_2: 6, R_3: 3\} \
+\mathrm{shared\_chambers} &= \{R_1: 2, R_2: 2, R_3: 0\} \
+\mathrm{shell\_types} &= \{R_1: \text{между}, R_2: \text{внутри}, R_3: \text{осевой}\} \
 \mathrm{completion\_mode} &= \text{взаимное плюс осевое}
 \end{aligned}
 $$
@@ -866,8 +866,8 @@ $$
 
 $$
 \begin{gathered}
-\mathrm{frontier\_completion\_signature}() \\
-\mathrm{frontier\_reciprocal\_split\_signature}() \\
+\mathrm{frontier\_completion\_signature}() \
+\mathrm{frontier\_reciprocal\_split\_signature}() \
 \mathrm{frontier\_core\_facing\_signature}()
 \end{gathered}
 $$
@@ -1081,14 +1081,14 @@ $$
 
 1. AMR-SR задаёт арифметику масштаба и остатка на носителе
 
-   $$
-\mathcal R=\mathbb N_{>0}^2.
+$$
+   \mathcal R=\mathbb N_{>0}^2.
 $$
 
 2. Основная декомпозиция:
 
-   $$
-(a,b)=g(p,q),
+$$
+   (a,b)=g(p,q),
    \qquad
    g=\gcd(a,b),
    \qquad
@@ -1097,18 +1097,18 @@ $$
 
 3. Основной скалярный остаток:
 
-   $$
-\mathrm{Res}_{\mathrm{sr}}=(g-1)|p-q|.
+$$
+   \mathrm{Res}_{\mathrm{sr}}=(g-1)|p-q|.
 $$
 
 4. Из AMR-SR извлекается только частичный типизированный мост:
 
-   $$
-\beta_3:\mathrm{AMR\text{-}SR}_{k=3}\to(R_1,R_2),
+$$
+   \beta_3:\mathrm{AMR\text{-}SR}_{k=3}\to(R_1,R_2),
 $$
 
-   $$
-\beta_4:\mathrm{AMR\text{-}SR}_{k=4}\to R_3.
+$$
+   \beta_4:\mathrm{AMR\text{-}SR}_{k=4}\to R_3.
 $$
 
 5. Для $k=2$ действует исключение, а для $k\ge5$ общий мост не утверждается.

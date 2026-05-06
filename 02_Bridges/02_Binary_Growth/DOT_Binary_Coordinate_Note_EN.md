@@ -101,7 +101,7 @@ $$
 In rank $3$, on the carrier
 
 $$
-X_{\\mathrm{adm}}=Q_3\setminus\{000,111\},
+X_{\mathrm{adm}}=Q_3\setminus\{000,111\},
 $$
 
 these relation-layers are:
@@ -115,7 +115,7 @@ They give:
 $$
 R_1\cong C_6,
 \qquad
-R_2\cong K_3\\sqcup K_3,
+R_2\cong K_3\sqcup K_3,
 \qquad
 R_3\cong 3K_2.
 $$

@@ -517,7 +517,7 @@ $$
 Therefore the entire active carrier of rank $3$ is already the outer shell:
 
 $$
-X_{\\mathrm{adm}}=S_1^{(3)}\sqcup S_2^{(3)}.
+X_{\mathrm{adm}}=S_1^{(3)}\sqcup S_2^{(3)}.
 $$
 
 Starting with rank $4$, the middle shells separate from the outer shell.

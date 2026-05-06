@@ -16,7 +16,7 @@ manuscript are needed to enter `02A`, and why the proof block `02A` begins with
 the carrier
 
 $$
-X_{\\mathrm{adm}}=Q_3\setminus\{000,111\}.
+X_{\mathrm{adm}} = Q_3\setminus\{000,111\}.
 $$
 
 This document introduces no new DOT objects. All objects used below are either
@@ -173,17 +173,13 @@ $$
 The strict active carrier of rank $3$ is obtained by removing these two poles:
 
 $$
-X_{\\mathrm{adm}}
-=
-Q_3\setminus\{000,111\}.
+X_{\mathrm{adm}} = Q_3\setminus\{000,111\}.
 $$
 
 Therefore,
 
 $$
-X_{\\mathrm{adm}}
-=
-\{001,010,011,100,101,110\}.
+X_{\mathrm{adm}} = \{001,010,011,100,101,110\}.
 $$
 
 This is the main carrier of `02A`. Its cardinality is $6$.
@@ -217,7 +213,7 @@ $$
 After removing $000$ and $111$, one obtains
 
 $$
-X_{\\mathrm{adm}}=S_1^{(3)}\sqcup S_2^{(3)}.
+X_{\mathrm{adm}} = S_1^{(3)}\sqcup S_2^{(3)}.
 $$
 
 This is exactly what makes rank $3$ special: the active carrier coincides with
@@ -231,7 +227,7 @@ In higher ranks, the full nontrivial layer $U_n$ and the outer shell $V_n$
 are different. In rank $3$, they coincide:
 
 $$
-U_3=V_3=X_{\\mathrm{adm}}.
+U_3=V_3=X_{\mathrm{adm}}.
 $$
 
 This feature explains why `02A` can build the whole strict core of rank $3$ on
@@ -261,15 +257,15 @@ $$
 In graph reading they give:
 
 $$
-(X_{\\mathrm{adm}},R_1)\cong C_6,
+(X_{\mathrm{adm}},R_1)\cong C_6,
 $$
 
 $$
-(X_{\\mathrm{adm}},R_2)\cong K_3\\sqcup K_3,
+(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3,
 $$
 
 $$
-(X_{\\mathrm{adm}},R_3)\cong 3K_2.
+(X_{\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
 Conceptually:
@@ -292,7 +288,7 @@ $$
 gives the graph
 
 $$
-(X_{\\mathrm{adm}},R_{12})
+(X_{\mathrm{adm}},R_{12})
 \cong
 K_{2,2,2}.
 $$
@@ -347,7 +343,7 @@ Then one chooses an orientation of the cycle $C_6$ defined by the relation
 $R_1$. After choosing an orientation, one obtains a cyclic transport operator:
 
 $$
-T:X_{\\mathrm{adm}}\to X_{\\mathrm{adm}},
+T:X_{\mathrm{adm}}\to X_{\mathrm{adm}},
 $$
 
 $$
@@ -370,7 +366,7 @@ Its main parts are:
 3. relations $R_1, R_2, R_3$;
 4. graph readings $C_6$, $K_3\sqcup K_3$, $3K_2$;
 5. union relation $R_{12}$ and octahedral reading $K_{2,2,2}$;
-6. chamber layer $\mathrm{Cham}($O_3$)\cong Q_3$;
+6. chamber layer $\mathrm{Cham}(O_3) \cong Q_3$;
 7. incidence between vertices and chambers;
 8. spectral checks;
 9. cyclic $Z_2$-transport;
@@ -397,9 +393,9 @@ $$
 \longrightarrow
 Q_3
 \longrightarrow
-X_{\\mathrm{adm}}
+X_{\mathrm{adm}}
 \longrightarrow
-($R_1, R_2, R_3$)
+(R_1, R_2, R_3)
 \longrightarrow
 02A.
 $$

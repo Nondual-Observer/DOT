@@ -79,7 +79,7 @@ Ranks $4$ and $5$ develop the same scheme on larger carriers. In rank $4$, the r
 
   The role of 03A is to fix the scale/residue line and its partial bridge to the strict core: the arrows $\beta_3,\beta_4$ connect selected arithmetic cases with rank-3 relations. After 03B is separated, this document should not be read as the whole AMR package. It is the AMR-SR branch, not the divisor-carrier theory.
 
-- [03B. AMR-DC: divisor carrier and chain extension](01_Mathematical_Start/03B_AMR_Divisor_Carrier_and_Chain_Extension.md)
+- [03B. AMR-DC: divisor carrier and chain extension](01_Mathematical_Start/03B_DOT_AMR_Divisor_Carrier_and_Chain_Extension_EN.md)
 
   The second arithmetic AMR branch. Its carrier is the finite divisor lattice $D(N)=\{d:d\mid N\}$. The document shows that if $N=p_1^{a_1}\cdots p_r^{a_r}$, then $D(N)$ is read as the product of finite chains $\prod_i\{0,\ldots,a_i\}$. For square-free numbers this gives the Boolean carrier $Q_n$; after the lower and upper poles are removed, the proper carrier $D^\circ(N)\cong U_n$ appears.
 

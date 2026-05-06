@@ -19,7 +19,7 @@ The source strict layer:
 $$
 Q_3=\mathbb{F}_2^3,
 \qquad
-X_{\\mathrm{adm}}=Q_3\setminus\{000,111\},
+X_{\mathrm{adm}}=Q_3\setminus\{000,111\},
 $$
 
 $$
@@ -45,7 +45,7 @@ The colour bridge has three levels.
 **Finite strict frame.**
 
 $$
-Q_3,\quad X_{\\mathrm{adm}},\quad $R_1, R_2, R_3$,\quad R_{12}=R_1\cup R_2
+Q_3,\quad X_{\mathrm{adm}},\quad R_1, R_2, R_3,\quad R_{12}=R_1\cup R_2
 $$
 
 are native objects of the strict core.
@@ -61,7 +61,7 @@ with the chosen coordinate convention $(R,G,B)$, eight vertices, six chromatic v
 **Bridge-reading.**
 
 $$
-X_{\\mathrm{adm}}
+X_{\mathrm{adm}}
 \longleftrightarrow
 \text{six chromatic vertices }RGB\sqcup CMY\text{ of the colour cube}.
 $$
@@ -115,7 +115,7 @@ $$
 Chromatic shell:
 
 $$
-X_{\\mathrm{adm}}
+X_{\mathrm{adm}}
 =
 \{100,010,001,110,101,011\}.
 $$
@@ -127,7 +127,7 @@ Q_3
 =
 \{000\}
 \sqcup
-X_{\\mathrm{adm}}
+X_{\mathrm{adm}}
 \sqcup
 \{111\}.
 $$
@@ -147,7 +147,7 @@ $$
 On the strict carrier $X_{\mathrm{adm}}$:
 
 $$
-R_k=\{(x,y)\in X_{\\mathrm{adm}}\times X_{\\mathrm{adm}}:x\neq y,\ d_H(x,y)=k\},
+R_k=\{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:x\neq y,\ d_H(x,y)=k\},
 \qquad
 k=1,2,3.
 $$
@@ -155,7 +155,7 @@ $$
 ### B.3.1. $R_1=C_6$
 
 $$
-(X_{\\mathrm{adm}},R_1)\cong C_6.
+(X_{\mathrm{adm}},R_1)\cong C_6.
 $$
 
 One standard order:
@@ -189,7 +189,7 @@ is a finite graph fact on $X_{\mathrm{adm}}$.
 ### B.3.2. $R_2=K_3\sqcup K_3$
 
 $$
-(X_{\\mathrm{adm}},R_2)\cong K_3\\sqcup K_3.
+(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3.
 $$
 
 Two triads:
@@ -211,7 +211,7 @@ $$
 Strict status:
 
 $$
-R_2=K_3\\sqcup K_3.
+R_2=K_3\sqcup K_3.
 $$
 
 ![Two colour triads $R_2$](../../assets/figures/B4_R2_two_triads_K3sqcupK3.png)
@@ -219,7 +219,7 @@ $$
 ### B.3.3. $R_3=3K_2$
 
 $$
-(X_{\\mathrm{adm}},R_3)\cong 3K_2.
+(X_{\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
 Complement pairs:
@@ -273,7 +273,7 @@ $$
 Strict graph-reading:
 
 $$
-(X_{\\mathrm{adm}},R_{12})
+(X_{\mathrm{adm}},R_{12})
 \cong
 K_{2,2,2}.
 $$
@@ -287,7 +287,7 @@ $$
 \quad
 \longleftrightarrow
 \quad
-X_{\\mathrm{adm}}
+X_{\mathrm{adm}}
 \quad
 \longleftrightarrow
 \quad
@@ -297,7 +297,7 @@ $$
 Bridge-reading:
 
 $$
-X_{\\mathrm{adm}}
+X_{\mathrm{adm}}
 =
 \text{six-vertex chromatic shell}.
 $$
@@ -305,7 +305,7 @@ $$
 Strict object:
 
 $$
-(X_{\\mathrm{adm}},R_{12}).
+(X_{\mathrm{adm}},R_{12}).
 $$
 
 The octahedral colour shell is a realised geometric view of this finite graph.
@@ -417,7 +417,7 @@ $$
 as a finite carrier;
 
 $$
-X_{\\mathrm{adm}}=Q_3\setminus\{000,111\}
+X_{\mathrm{adm}}=Q_3\setminus\{000,111\}
 $$
 
 as the six-state admissible shell;
@@ -425,7 +425,7 @@ as the six-state admissible shell;
 $$
 R_1=C_6,
 \qquad
-R_2=K_3\\sqcup K_3,
+R_2=K_3\sqcup K_3,
 \qquad
 R_3=3K_2,
 $$
@@ -495,10 +495,10 @@ The module uses the following figure files:
 |---|---|
 | `B1_color_cube_Q3.png` | full RGB cube $Q_3=\{0,1\}^3$ |
 | `B2_chromatic_carrier_Xadm.png` | punctured carrier $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$ |
-| `B3_R1_hamming_cycle_C6.png` | $($X_{\\mathrm{adm}}$,$R_1$)\cong C_6$ |
-| `B4_R2_two_triads_K3sqcupK3.png` | $($X_{\\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$ |
-| `B5_R3_complementary_axes_3K2.png` | $($X_{\\mathrm{adm}}$,$R_3$)\cong 3K_2$ |
-| `B6_octahedral_shell_R12_K222.png` | $($X_{\\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$ |
+| `B3_R1_hamming_cycle_C6.png` | $($X_{\mathrm{adm}}$,$R_1$)\cong C_6$ |
+| `B4_R2_two_triads_K3sqcupK3.png` | $($X_{\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$ |
+| `B5_R3_complementary_axes_3K2.png` | $($X_{\mathrm{adm}}$,$R_3$)\cong 3K_2$ |
+| `B6_octahedral_shell_R12_K222.png` | $($X_{\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$ |
 | `B7a_DOT_chambers_RGB_CMY_side_A.png` | chamber-layer, first side |
 | `B7b_DOT_chambers_RGB_CMY_side_B.png` | chamber-layer, second side |
 | `B7c_DOT_chambers_two_octahedron_views.png` | two octahedral projections of the chamber-layer |
