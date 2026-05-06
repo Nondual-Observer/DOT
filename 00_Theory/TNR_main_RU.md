@@ -59,17 +59,13 @@ $$
 После построения рангов формулируется общий закон роста. Переход от ранга $n$ к рангу $n+1$ записывается как добавление нового старшего двоичного разряда:
 
 $$
-\Lambda_n: \{0,1\}\times Q_n\to Q_{n+1},
-\qquad
-\Lambda_n(\varepsilon,x)=\varepsilon\mid x.
+\Lambda_n: \{0,1\} \times Q_n \to Q_{n+1}, \qquad \Lambda_n(\varepsilon, x)=\varepsilon \mid x.
 $$
 
 Этот закон объясняет, как переносятся carrier-ы, shell-и, complement-пары, outer shell-и и operator layers. Конечная часть рукописи закрывается как пакет
 
 $$
-\mathfrak{R}_{\leq 5}^{\mathrm{fin}}
-=
-(\Pi_1,\mathfrak{C}_2,\mathfrak{C}_3,\mathfrak{C}_4,\mathfrak{A}_5),
+\mathfrak{R}_{\leq 5}^{\mathrm{fin}} = (\Pi_1, \mathfrak{C}_2, \mathfrak{C}_3, \mathfrak{C}_4, \mathfrak{A}_5),
 $$
 
 объединяющий построенные ранги под одним именем.
@@ -14603,9 +14599,7 @@ $$
 Binary rank-lift:
 
 $$
-\Lambda_n:\mathbb{F}_2\times Q_n\to Q_{n+1},
-\qquad
-\Lambda_n(\varepsilon,x)=\varepsilon\,|\,x.
+\Lambda_n:\mathbb{F}_2 \times Q_n \to Q_{n+1}, \qquad \Lambda_n(\varepsilon, x)=\varepsilon\,|\,x.
 $$
 
 **Утверждение 26.4.**
@@ -14896,7 +14890,7 @@ $$
 
 $$
 \boxed{
-\Lambda_n(\varepsilon,x)=\varepsilon\,|\,x
+\Lambda_n(\varepsilon, x)=\varepsilon\,|\,x
 }
 $$
 
@@ -15212,9 +15206,7 @@ $\mathfrak V$ имеет статус structure/package universal outer shell-а
 Finite closure package до rank $5$:
 
 $$
-\mathfrak R_{\leq5}^{\mathrm{fin}}
-=
-(\Pi_1,\mathfrak C_2,\mathfrak C_3,\mathfrak C_4,\mathfrak A_5).
+\mathfrak R_{\leq 5}^{\mathrm{fin}} = (\Pi_1, \mathfrak C_2, \mathfrak C_3, \mathfrak C_4, \mathfrak A_5).
 $$
 
 Здесь:
@@ -15254,9 +15246,7 @@ $$
 Общие law-packages:
 
 $$
-\mathfrak S_{\mathrm{law}}
-=
-(\mathfrak N,\mathfrak V),
+\mathfrak S_{\mathrm{law}} = (\mathfrak N, \mathfrak V),
 $$
 
 где $\mathfrak N$ — rank-growth law §26, а $\mathfrak V$ — universal outer shell package §27.
@@ -15264,22 +15254,20 @@ $$
 Полное closure-name:
 
 $$
-\mathfrak R_{\leq5}
-=
-(\mathfrak R_{\leq5}^{\mathrm{fin}},\mathfrak S_{\mathrm{law}}).
+\mathfrak R_{\leq 5} = (\mathfrak R_{\leq 5}^{\mathrm{fin}}, \mathfrak S_{\mathrm{law}}).
 $$
 
-$\mathfrak R_{\leq5}^{\mathrm{fin}}$ является finite combinatorial package. $\mathfrak R_{\leq5}$ является closure-name, включающим finite core и finitely specified law-packages.
+$\mathfrak R_{\leq 5}^{\mathrm{fin}}$ является finite combinatorial package. $\mathfrak R_{\leq 5}$ является closure-name, включающим finite core и finitely specified law-packages.
 
 ## §28.2. Что входит в closure
 
 **Утверждение 28.2.**
-Документ §§0–25 строит $\mathfrak R_{\leq5}^{\mathrm{fin}}$ как finite combinatorial package, а §§26–27 строят law-packages $\mathfrak N$ и $\mathfrak V$.
+Документ §§0–25 строит $\mathfrak R_{\leq 5}^{\mathrm{fin}}$ как finite combinatorial package, а §§26–27 строят law-packages $\mathfrak N$ и $\mathfrak V$.
 
 **Проверка.**
 Polar presentation $\Pi_1$ построена в §1, её automorphism $\tau$ — в §2. Rank-2 comparison package $\mathfrak C_2$ построен в §4.19 после построения rank-2 presentations в §4. Strict rank-3 core закрыт в §17 после построения carriers, relations, chamber/incidence, transport, semantics и lifts в §§5–16. Rank-4 finite carrier atlas построен в §§18–21. Rank-5 atlas построен в §§22–25.
 
-Эти пять компонентов имеют конечные carriers и конечные relation/presentation/operator данные, поэтому образуют finite package $\mathfrak R_{\leq5}^{\mathrm{fin}}$.
+Эти пять компонентов имеют конечные carriers и конечные relation/presentation/operator данные, поэтому образуют finite package $\mathfrak R_{\leq 5}^{\mathrm{fin}}$.
 
 Общий закон rank-growth $\mathfrak N$ построен в §26. Universal outer shell $\mathfrak V$ построен в §27. Они являются law-packages, индексированными по $n$, и относятся к $\mathfrak S_{\mathrm{law}}$; finite core содержит только finite carrier-компоненты.
 
@@ -15332,49 +15320,33 @@ $$
 Собранная башня имеет вид:
 
 $$
-\Pi_1
-\to
-\mathfrak C_2
-\to
-\mathfrak C_3
-\to
-\mathfrak C_4
-\to
-\mathfrak A_5
-=
-\mathfrak R_{\leq5}^{\mathrm{fin}}.
+\Pi_1 \to \mathfrak C_2 \to \mathfrak C_3 \to \mathfrak C_4 \to \mathfrak A_5 = \mathfrak R_{\leq 5}^{\mathrm{fin}}.
 $$
 
 Law-packages:
 
 $$
-\mathfrak S_{\mathrm{law}}=(\mathfrak N,\mathfrak V).
+\mathfrak S_{\mathrm{law}} = (\mathfrak N, \mathfrak V).
 $$
 
 Full closure-name:
 
 $$
-\mathfrak R_{\leq5}
-=
-(\mathfrak R_{\leq5}^{\mathrm{fin}},\mathfrak S_{\mathrm{law}}).
+\mathfrak R_{\leq 5} = (\mathfrak R_{\leq 5}^{\mathrm{fin}}, \mathfrak S_{\mathrm{law}}).
 $$
 
-$\mathfrak R_{\leq5}$ служит именем для уже построенного finite core вместе с общими law-packages.
+$\mathfrak R_{\leq 5}$ служит именем для уже построенного finite core вместе с общими law-packages.
 
 # §29. Boundary statement
 
 ## §29.1. Две линии продолжения
 
-После closure package $\mathfrak R_{\leq5}$ есть две разные линии продолжения.
+После closure package $\mathfrak R_{\leq 5}$ есть две разные линии продолжения.
 
 Первая линия остаётся finite combinatorial:
 
 $$
-(\mathfrak R_{\leq5}^{\mathrm{fin}},\mathfrak S_{\mathrm{law}})
-\to
-\mathfrak R_{\leq n}^{\mathrm{fin}},
-\qquad
-n\geq6.
+(\mathfrak R_{\leq 5}^{\mathrm{fin}}, \mathfrak S_{\mathrm{law}}) \to \mathfrak R_{\leq n}^{\mathrm{fin}}, \qquad n\geq 6.
 $$
 
 Она использует $\Lambda_n$, shell-lift и universal outer shell.
@@ -15382,7 +15354,7 @@ $$
 Вторая линия вводит bridge-layer:
 
 $$
-\mathfrak R_{\leq5}^{\mathrm{fin}}\to \text{bridge protocol}.
+\mathfrak R_{\leq 5}^{\mathrm{fin}} \to \text{bridge protocol}.
 $$
 
 Она требует отдельного carrier-а и отдельного relation-layer-а для каждого нового bridge-объекта.
@@ -15440,9 +15412,7 @@ $$
 Strict finite core документа:
 
 $$
-\mathfrak R_{\leq5}^{\mathrm{fin}}
-=
-(\Pi_1,\mathfrak C_2,\mathfrak C_3,\mathfrak C_4,\mathfrak A_5).
+\mathfrak R_{\leq 5}^{\mathrm{fin}} = (\Pi_1, \mathfrak C_2, \mathfrak C_3, \mathfrak C_4, \mathfrak A_5).
 $$
 
 Он содержит finite carriers, relations, readings, recovery-data и operator packages ranks $1$–$5$.
@@ -15450,10 +15420,10 @@ $$
 Общие law-packages:
 
 $$
-\mathfrak S_{\mathrm{law}}=(\mathfrak N,\mathfrak V)
+\mathfrak S_{\mathrm{law}} = (\mathfrak N, \mathfrak V)
 $$
 
-остаются доступными для higher ranks, но не являются finite carrier-компонентами $\mathfrak R_{\leq5}^{\mathrm{fin}}$.
+остаются доступными для higher ranks, но не являются finite carrier-компонентами $\mathfrak R_{\leq 5}^{\mathrm{fin}}$.
 
 Дальнейшее расширение выбирает одну из двух линий:
 
@@ -15474,9 +15444,7 @@ $$
 В документе построено конечное ядро ТНР до ранга $5$. Оно задаёт систему конечных носителей, отношений, чтений, данных восстановления, камер, принадлежностей, циклов и операторов перехода. Построение начинается с полярной пары ранга $1$, проходит через $Q_2$, шеститочечный носитель $X_{\mathrm{adm}}\subset Q_3$, камерный слой октаэдра, ранги $4$ и $5$, после чего закрывается как конечный пакет
 
 $$
-\mathfrak R_{\leq5}^{\mathrm{fin}}
-=
-(\Pi_1,\mathfrak C_2,\mathfrak C_3,\mathfrak C_4,\mathfrak A_5).
+\mathfrak R_{\leq 5}^{\mathrm{fin}} = (\Pi_1, \mathfrak C_2, \mathfrak C_3, \mathfrak C_4, \mathfrak A_5).
 $$
 
 Основной результат состоит в том, что эти объекты собираются не как набор отдельных графов, а как согласованная грамматика конечных рангов. Переходы носителей, разложения по слоям, пары дополнения, средние и внешние слои, отношения и циклические чтения имеют общий способ записи и проверки. Ранг $5$ в этой версии фиксирует носитель $P^{(5)}=\mathbb{F}_2^5\setminus\{00000\}$, слоевую структуру $31=5+10+10+5+1$, двойственность $S_2^{(5)}\leftrightarrow S_3^{(5)}$, внешний слой $V_5\cong K_{2,2,2,2,2}$, выбранный $C_{10}$, проективный цикл $C_{31}$ и $5C_8$ как выбранное проверенное покрытие внешнего графа.
