@@ -10,44 +10,7 @@ Each item repeats the same mathematical content in several forms:
 
 
 ---
-### §3.7. Emergence-разложение
 
-Положим
-
-$$
-Q_0=\lbrace 0\rbrace,
-\qquad
-Q_0^*=\varnothing.
-$$
-
-**Утверждение 3.4.**
-Для $n\geq 1$
-
-$$
-Q_n^* = Q_{n-1}^* \sqcup \lbrace e_n\rbrace \sqcup (e_n+Q_{n-1}^*).
-$$
-
-**Проверка.**
-Каждый элемент $x\in Q_n$ имеет вид
-
-$$
-x=\varepsilon e_n+y,
-$$
-
-где
-
-$$
-\varepsilon\in\mathbb{F}_2,
-\qquad
-y\in Q_{n-1}.
-$$
-Если
-$$
-\varepsilon=0,
-$$
-то
-$$
-x=y.
 $$
 Так как $x\neq 0^n$, получаем
 $$
