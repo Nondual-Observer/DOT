@@ -345,7 +345,7 @@ q=\mathrm{id}_{\{*\}},
 $$
 
 $$
-\mathrm{rec}(*)=(\{*\},\varnothing).
+\mathrm{rec}(*) =(\{*\}, \varnothing).
 $$
 
 This is a correct presentation with a one-point fiber of the identity reading.

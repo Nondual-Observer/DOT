@@ -25,7 +25,9 @@
 Эти четыре роли задают способ записи конечных данных, а не внешнее толкование. Формальная единица такой записи — **представление**, четвёрка
 
 $$
-(X, R, q, \mathrm{rec}).
+\begin{aligned}
+(X, R, q, \mathrm{rec})
+\end{aligned}
 $$
 
 Представление обеспечивает каждому различению проверяемую конечную форму. Любое утверждение теории сводится к проверке свойств такой четвёрки на конечном носителе.
@@ -49,7 +51,9 @@ $$
 Ранг 2 вводит четырёхпозиционный носитель и первые разные graph-readings одного и того же carrier-а: цикл, complement-пары, полную связность и частичную связность с выделенным швом. Ранг 3 строит admissible carrier
 
 $$
-X_{\mathrm{adm}} = Q_3 \setminus \lbrace 000,111\rbrace,
+\begin{aligned}
+X_{\mathrm{adm}} &= Q_3 \setminus \lbrace 000,111\rbrace
+\end{aligned}
 $$
 
 на котором одновременно появляются relation-грамматика $R_1, R_2, R_3$, cycle-reading $C_6$, две треугольные компоненты $K_3\sqcup K_3$, complement-пары $3K_2$, octahedral shell $K_{2,2,2}$, chamber layer, incidence package и cyclic transport.
@@ -61,13 +65,18 @@ $$
 После построения рангов формулируется общий закон роста. Переход от ранга $n$ к рангу $n+1$ записывается как добавление нового старшего двоичного разряда:
 
 $$
-\Lambda_n: \lbrace 0,1\rbrace \times Q_n \to Q_{n+1}, \qquad \Lambda_n(\varepsilon, x)=\varepsilon \mid x.
+\begin{aligned}
+\Lambda_n &: \lbrace 0,1\rbrace \times Q_n \to Q_{n+1}, \\
+\Lambda_n(\varepsilon, x) &= \varepsilon \mid x.
+\end{aligned}
 $$
 
 Этот закон объясняет, как переносятся carrier-ы, shell-и, complement-пары, outer shell-и и operator layers. Конечная часть рукописи закрывается как пакет
 
 $$
-\mathfrak{R}_{\leq 5}^{\mathrm{fin}} = (\Pi_1, \mathfrak{C}_2, \mathfrak{C}_3, \mathfrak{C}_4, \mathfrak{A}_5),
+\begin{aligned}
+\mathfrak{R}_{\leq 5}^{\mathrm{fin}} &= (\Pi_1, \mathfrak{C}_2, \mathfrak{C}_3, \mathfrak{C}_4, \mathfrak{A}_5)
+\end{aligned}
 $$
 
 объединяющий построенные ранги под одним именем.
@@ -932,75 +941,124 @@ $$
 Положим
 
 $$
-Q_0=\lbrace 0\rbrace,
-\qquad
-Q_0^*=\varnothing.
+\begin{aligned}
+Q_0 &= \lbrace 0\rbrace, \\
+Q_0^* &= \varnothing.
+\end{aligned}
 $$
 
 **Утверждение 3.4.**
 Для $n\geq 1$
 
 $$
-Q_n^* = Q_{n-1}^* \sqcup \lbrace e_n\rbrace \sqcup (e_n+Q_{n-1}^*).
+\begin{aligned}
+Q_n^* &= Q_{n-1}^* \sqcup \lbrace e_n\rbrace \sqcup (e_n+Q_{n-1}^*).
+\end{aligned}
 $$
 
 **Проверка.**
 Каждый элемент $x\in Q_n$ имеет вид
 
 $$
-x=\varepsilon e_n+y,
+\begin{aligned}
+x &= \varepsilon e_n+y,
+\end{aligned}
 $$
 
 где
 
 $$
-\varepsilon\in\mathbb{F}_2,
-\qquad
-y\in Q_{n-1}.
+\begin{aligned}
+\varepsilon &\in \mathbb{F}_2, \\
+y &\in Q_{n-1}.
+\end{aligned}
 $$
+
 Если
+
 $$
-\varepsilon=0,
+\begin{aligned}
+\varepsilon &= 0,
+\end{aligned}
 $$
+
 то
+
 $$
-x=y.
+\begin{aligned}
+x &= y.
+\end{aligned}
 $$
+
 Так как $x\neq 0^n$, получаем
+
 $$
-y\in Q_{n-1}^*.
+\begin{aligned}
+y &\in Q_{n-1}^*.
+\end{aligned}
 $$
+
 Значит,
 $$
-x\in Q_{n-1}^*.
+\begin{aligned}
+x &\in Q_{n-1}^*.
+\end{aligned}
 $$
+
 Если
+
 $$
-\varepsilon=1,
+\begin{aligned}
+\varepsilon &= 1,
+\end{aligned}
 $$
+
 то
+
 $$
-x=e_n+y.
+\begin{aligned}
+x &= e_n+y.
+\end{aligned}
 $$
+
 При
+
 $$
-y=0
+\begin{aligned}
+y &= 0
+\end{aligned}
 $$
+
 получаем
+
 $$
-x=e_n.
+\begin{aligned}
+x &= e_n.
+\end{aligned}
 $$
+
 При
+
 $$
-y\neq0
+\begin{aligned}
+y &\neq 0
+\end{aligned}
 $$
+
 получаем
+
 $$
-x\in e_n+Q_{n-1}^*.
+\begin{aligned}
+x &\in e_n+Q_{n-1}^*.
+\end{aligned}
 $$
+
 Три случая не пересекаются. Следовательно,
+
 $$
-Q_n^* = Q_{n-1}^* \sqcup \lbrace e_n\rbrace \sqcup (e_n+Q_{n-1}^*).
+\begin{aligned}
+Q_n^* &= Q_{n-1}^* \sqcup \lbrace e_n\rbrace \sqcup (e_n+Q_{n-1}^*).
+\end{aligned}
 $$
 
 ### §3.8. Смысл rank-lift
@@ -4928,35 +4986,45 @@ $$
 **Определение 10.1.**
 Зафиксируем orientation на
 
-```math
-(X_{\mathrm{adm}},R_1)\cong C_6
-```
+$$
+\begin{aligned}
+(X_{\mathrm{adm}}, R_1) &\cong C_6
+\end{aligned}
+$$
 
 следующим образом:
 
-```math
-\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}.
-```
+$$
+\begin{aligned}
+\mathtt{001} &\to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}
+\end{aligned}
+$$
 
 Обозначим ориентированный цикл через
 
-```math
-\vec C_6.
-```
+$$
+\begin{aligned}
+\vec C_6
+\end{aligned}
+$$
 
 Этот выбор не следует из одного только отношения $R_1$. Relation $R_1$ задаёт неориентированный цикл; orientation является новым transport-данным.
 
 Обратная orientation тоже допустима:
 
-```math
-\mathtt{001} \to \mathtt{101} \to \mathtt{100} \to \mathtt{110} \to \mathtt{010} \to \mathtt{011} \to \mathtt{001}.
-```
+$$
+\begin{aligned}
+\mathtt{001} &\to \mathtt{101} \to \mathtt{100} \to \mathtt{110} \to \mathtt{010} \to \mathtt{011} \to \mathtt{001}
+\end{aligned}
+$$
 
 В текущем transport-layer-е фиксируется первая orientation. Обратная orientation дала бы оператор
 
-```math
-T^{-1}.
-```
+$$
+\begin{aligned}
+T^{-1}
+\end{aligned}
+$$
 
 
 ## §10.3. Cyclic transport operator
