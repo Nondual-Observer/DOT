@@ -4,6 +4,13 @@ Temporary diagnostic file generated from `00_Theory/TNR_main_RU.md`.
 
 Each block keeps the source line range so broken GitHub rendering can be traced back quickly.
 
+$$\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}.$$
+
+$$\vec C_6.$$
+
+
+
+
 ## Formula 1 — source lines 27-29
 
 $$
