@@ -1,4 +1,404 @@
 
+# §8. Chamber layer октаэдра
+
+## §8.1. Skeleton-данные из §7
+
+По §7.1 admissible carrier разбит на complement-пары:
+
+$$
+X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3,
+$$
+
+где
+
+$$
+\beta_1=\lbrace 001,110\rbrace,
+$$
+
+$$
+\beta_2=\lbrace 010,101\rbrace,
+$$
+
+$$
+\beta_3=\lbrace 100,011\rbrace.
+$$
+
+По Утверждению 7.4 relation $R_{12}$ связывает две вершины тогда и только тогда, когда они принадлежат разным complement-парам. В octahedral graph-reading-е §7.7 каждая $\beta_i$ читается как пара противоположных вершин.
+
+Иначе:
+
+$$
+x\in\beta_i,
+\qquad
+y\in\beta_j,
+\qquad
+i\neq j
+$$
+даёт
+$$
+(x,y)\in R_{12},
+$$
+
+а две разные вершины одной и той же $\beta_i$ не смежны в $R_{12}$.
+
+
+## §8.2. Камеры как выборы из complement-пар
+
+**Определение 8.1.**
+Камерой chamber-layer-а $O_3$ называется подмножество
+
+$$
+C\subset X_{\mathrm{adm}}
+$$
+
+такое, что
+
+$$
+|C\cap \beta_i|=1
+$$
+
+для каждого
+
+$$
+i=1,2,3.
+$$
+
+Множество всех камер обозначается
+
+$$
+\mathrm{Cham}(O_3).
+$$
+
+Камера выбирает ровно одну вершину из каждой пары противоположных вершин:
+
+$$
+C=\lbrace x_1,x_2,x_3\rbrace,
+\qquad
+x_i\in\beta_i.
+$$
+
+В §8 камера и её vertex-support совпадают: vertex-support камеры $C$ есть само подмножество $C\subset X_{\mathrm{adm}}$. Определение §8 использует только finite chamber carrier.
+
+
+## §8.3. Камеры и трёхвершинные clique-и
+
+**Утверждение 8.2.**
+Для подмножества
+
+$$
+C\subset X_{\mathrm{adm}},
+\qquad
+|C|=3,
+$$
+следующие условия эквивалентны:
+$$
+C\in \mathrm{Cham}(O_3);
+$$
+
+$$
+C\subset X_{\mathrm{adm}}, \qquad |C|=3, \qquad C\ \mathrm{is\ a\ clique\ in}\ (X_{\mathrm{adm}},R_{12}).
+$$
+
+**Проверка.**
+Пусть
+
+$$
+C\in \mathrm{Cham}(O_3).
+$$
+
+Тогда $C$ содержит ровно по одной вершине из каждой $\beta_i$. Поэтому любые две разные вершины $x,y\in C$ принадлежат разным complement-парам. По §8.1:
+
+$$
+(x,y)\in R_{12}.
+$$
+
+Значит, $C$ является трёхвершинным clique-ом.
+
+Обратно, пусть
+
+$$
+C=\lbrace x,y,z\rbrace
+$$
+
+является трёхвершинным clique-ом в $R_{12}$. Две разные вершины одной complement-пары не смежны в $R_{12}$. Поэтому $C$ не может содержать две вершины одной $\beta_i$. Так как complement-пар ровно три и $|C|=3$, множество $C$ содержит ровно по одной вершине из каждой $\beta_i$. Следовательно,
+
+$$
+C\in\mathrm{Cham}(O_3).
+$$
+
+$$
+\Box
+$$
+
+
+## §8.4. Число камер
+
+**Утверждение 8.3.**
+
+$$
+|\mathrm{Cham}(O_3)|=8.
+$$
+
+**Проверка.**
+Камера задаётся независимым выбором одного элемента в каждой из трёх complement-пар:
+
+$$
+\beta_1,
+\quad
+\beta_2,
+\quad
+\beta_3.
+$$
+В каждой паре есть два выбора. Поэтому
+$$
+|\mathrm{Cham}(O_3)| = 2\cdot 2\cdot 2 = 8.
+$$
+
+$$
+\Box
+$$
+
+<p align="center">
+  <a href="../assets/figures/4.8-chamber_code_projection_overview.png">
+    <img src="../assets/figures/4.8-chamber_code_projection_overview.png" width="500" alt="Коды камер $C_\varepsilon$">
+  </a>
+</p>
+
+
+## §8.5. Координатная запись камер
+
+Зафиксируем порядок complement-пар:
+
+$$
+\beta_1,
+\beta_2,
+\beta_3.
+$$
+Внутри каждой пары выберем двоичную маркировку:
+$$
+b_1^0=001,
+\qquad
+b_1^1=110,
+$$
+
+$$
+b_2^0=010,
+\qquad
+b_2^1=101,
+$$
+
+$$
+b_3^0=100,
+\qquad
+b_3^1=011.
+$$
+
+Эта маркировка реализует знаковый произвол §7.6: внутри каждой complement-пары можно поменять marker $0$ и marker $1$. Другой выбор даёт изоморфную координатную запись через независимые перестановки двух элементов внутри complement-пар.
+
+Для
+
+$$
+\varepsilon=(\varepsilon_1,\varepsilon_2,\varepsilon_3)\in\lbrace 0,1\rbrace^3
+$$
+
+задаётся камера
+
+$$
+C_\varepsilon = \lbrace b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\rbrace.
+$$
+
+В согласии с bit-order §3.6 запись индекса камеры как трёхбитной строки идёт в порядке
+
+$$
+\varepsilon_3\,\varepsilon_2\,\varepsilon_1.
+$$
+
+То есть
+
+$$
+C_{\varepsilon_3\,\varepsilon_2\,\varepsilon_1} = \lbrace b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\rbrace.
+$$
+
+Получаем отображение
+
+$$
+\Phi:\mathrm{Cham}(O_3)\to Q_3
+$$
+
+по формуле
+
+$$
+\Phi(C_\varepsilon)=\varepsilon_3\,\varepsilon_2\,\varepsilon_1.
+$$
+
+Здесь $Q_3$ означает полный трёхбитный carrier из §5.1:
+
+$$
+Q_3=\lbrace 0,1\rbrace^3.
+$$
+
+Он содержит все восемь состояний, включая
+
+$$
+000
+\qquad
+\mathrm{and}
+\qquad
+111.
+$$
+
+**Утверждение 8.4.**
+Отображение
+
+$$
+\Phi:\mathrm{Cham}(O_3)\to Q_3
+$$
+
+является биекцией.
+
+**Проверка.**
+Каждая камера содержит ровно один элемент из каждой пары $\beta_i$. Поэтому она однозначно задаёт тройку выборов
+
+$$
+(\varepsilon_1,\varepsilon_2,\varepsilon_3).
+$$
+
+Обратно, каждая тройка
+
+$$
+\varepsilon\in\lbrace 0,1\rbrace^3
+$$
+
+задаёт ровно одну камеру $C_\varepsilon$. Следовательно, $\Phi$ биективно.
+
+$$
+\Box
+$$
+
+В сжатой записи:
+
+$$
+\mathrm{Cham}(O_3)\cong Q_3.
+$$
+
+<p align="center">
+  <a href="../assets/figures/4.10-chambers_two_octahedron_views.png">
+    <img src="../assets/figures/4.10-chambers_two_octahedron_views.png" width="500" alt="Две октаэдральные проекции chamber-layer-а">
+  </a>
+</p>
+
+Эта биекция кодирует камеры октаэдра элементами $Q_3$. Carrier вершин $X_{\mathrm{adm}}$ и carrier камер остаются разными типами объектов.
+
+
+## §8.6. Chamber-adjacency и cube graph
+
+**Определение 8.5.**
+Для $n\geq 1$ graph-reading
+
+$$
+Q_n^{(1)}
+$$
+
+есть Hamming-one graph на полном carrier-е $Q_n$. Его relation задаётся правилом
+
+$$
+(x,y)\in R_{Q_n}^{(1)}
+\quad\Longleftrightarrow\quad
+x\neq y \land d_H(x,y)=1.
+$$
+
+Для $n=3$ graph $Q_3^{(1)}$ имеет $8$ вершин и $12$ рёбер. Для $n=2$ это тот же one-step Hamming graph-reading, который в §4 читался как $C_4$.
+
+**Определение 8.6.**
+Для
+
+$$
+C,D\in\mathrm{Cham}(O_3)
+$$
+
+положим
+
+$$
+(C,D)\in R_{\mathrm{ch}}
+$$
+
+тогда и только тогда, когда
+
+$$
+C\neq D
+$$
+
+и
+
+$$
+|C\cap D|=2.
+$$
+
+То есть две камеры смежны, если они имеют две общие вершины.
+
+**Утверждение 8.7.**
+
+$$
+(\mathrm{Cham}(O_3),R_{\mathrm{ch}}) \cong Q_3^{(1)}.
+$$
+
+**Проверка.**
+Пусть
+
+$$
+C_\varepsilon,
+\qquad
+C_\delta
+$$
+
+— две камеры.
+
+Они имеют общую вершину из пары $\beta_i$ тогда и только тогда, когда
+
+$$
+\varepsilon_i=\delta_i.
+$$
+
+Поэтому
+
+$$
+|C_\varepsilon\cap C_\delta|=2
+$$
+
+тогда и только тогда, когда $\varepsilon$ и $\delta$ совпадают ровно в двух координатах и различаются ровно в одной координате:
+
+$$
+d_H(\varepsilon,\delta)=1.
+$$
+
+Это правило смежности в cube graph $Q_3^{(1)}$. Следовательно,
+
+$$
+(\mathrm{Cham}(O_3),R_{\mathrm{ch}}) \cong Q_3^{(1)}.
+$$
+
+$$
+\Box
+$$
+
+Таким образом,
+
+$$
+\mathrm{Cham}(O_3)\cong Q_3
+$$
+
+как chamber carrier, а
+
+$$
+(\mathrm{Cham}(O_3),R_{\mathrm{ch}})
+\cong Q_3^{(1)}
+$$
+
+как chamber graph-reading.
+
+
+
+
 # §9. Incidence package октаэдрального слоя
 
 ## §9.1. Две стороны incidence-слоя
