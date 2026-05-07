@@ -500,17 +500,9 @@ $$
 
 В $\Pi_1$ зафиксированы:
 
-$$
-\text{две полярности},
-$$
-
-$$
-\text{одно инвариантное чтение},
-$$
-
-$$
-\text{полное восстановление полярного отношения}.
-$$
+- две полярности;
+- одно инвариантное чтение;
+- полное восстановление полярного отношения.
 
 <p align="center">
   <a href="../assets/figures/1.1-P_R_P.png">
@@ -1813,11 +1805,7 @@ $$
 
 Reading $\chi$ сводит $Q_2$ к двум режимам:
 
-$$
-\text{совпадение},
-\qquad
-\text{различие}.
-$$
+совпадение и различие.
 
 Recovery datum сохраняет complement-пары, на которых эти режимы реализуются.
 
@@ -3259,9 +3247,7 @@ $$
 $$
 (x,y)\in R_{12}
 \quad\Longleftrightarrow\quad
-x\neq y
-\ \text{и}
-y\neq x+111.
+x\neq y \land y\neq x+111.
 $$
 
 Иными словами, $R_{12}$ соединяет все различные admissible-состояния, кроме complement-состояния данного $x$.
@@ -3475,9 +3461,7 @@ $$
 $$
 u\sim v
 \quad\Longleftrightarrow\quad
-u\neq v
-\ \text{и}
-u\neq -v.
+u\neq v \land u\neq -v.
 $$
 
 Противоположные пары:
@@ -3881,9 +3865,7 @@ C\in \mathrm{Cham}(O_3);
 $$
 
 $$
-C
-\text{ является трёхвершинным clique-ом в }
-(X_{\mathrm{adm}},R_{12}).
+C\subset X_{\mathrm{adm}}, \qquad |C|=3, \qquad C\ \mathrm{is\ a\ clique\ in}\ (X_{\mathrm{adm}},R_{12}).
 $$
 
 **Проверка.**
@@ -4033,7 +4015,7 @@ $$
 $$
 000
 \qquad
-\text{и}
+\mathrm{and}
 \qquad
 111.
 $$
@@ -4095,9 +4077,7 @@ $$
 $$
 (x,y)\in R_{Q_n}^{(1)}
 \quad\Longleftrightarrow\quad
-x\neq y
-\text{ и }
-d_H(x,y)=1.
+x\neq y \land d_H(x,y)=1.
 $$
 
 Для $n=3$ graph $Q_3^{(1)}$ имеет $8$ вершин и $12$ рёбер. Для $n=2$ это тот же one-step Hamming graph-reading, который в §4 читался как $C_4$.
@@ -4689,9 +4669,7 @@ $$
 $$
 (C,D)\in R_{\mathrm{ch}}
 \quad\Longleftrightarrow\quad
-C\neq D
-\text{ и }
-|C\cap D|=2.
+C\neq D \land |C\cap D|=2.
 $$
 
 Но $C$ и $D$ в §8 уже являются vertex-support-ами камер, поэтому
@@ -4703,11 +4681,7 @@ $$
 Также по §8.6:
 
 $$
-|C_\varepsilon\cap C_\delta|=2
-\quad\Longleftrightarrow\quad
-\varepsilon\text{ и }\delta\text{ отличаются ровно в одной координате}
-\quad\Longleftrightarrow\quad
-d_H(\varepsilon,\delta)=1.
+|C_\varepsilon\cap C_\delta|=2 \quad\Longleftrightarrow\quad d_H(\varepsilon,\delta)=1.
 $$
 
 Значит, определение через пересечение vertex-support-ов и Hamming-one definition на $Q_3$ дают одно и то же отношение $R_{\mathrm{ch}}$.
@@ -4797,13 +4771,13 @@ $$
 В выбранном порядке строк и столбцов:
 
 $$
-B_O=
+B_O =
 \begin{pmatrix}
-1&0&1&0&1&0&1&0\
-0&1&0&1&0&1&0&1\
-1&1&0&0&1&1&0&0\
-0&0&1&1&0&0&1&1\
-1&1&1&1&0&0&0&0\
+1&0&1&0&1&0&1&0\\
+0&1&0&1&0&1&0&1\\
+1&1&0&0&1&1&0&0\\
+0&0&1&1&0&0&1&1\\
+1&1&1&1&0&0&0&0\\
 0&0&0&0&1&1&1&1
 \end{pmatrix}.
 $$
@@ -4841,7 +4815,7 @@ $$
 и рёбрами
 
 $$
-x---C
+x \mathrel{-} C
 $$
 
 тогда и только тогда, когда
@@ -4869,15 +4843,11 @@ $$
 Степени двух типов различны:
 
 $$
-\deg(x)=4
-\quad
-\text{для }x\in V_O,
+\deg(x)=4 \quad (x\in V_O),
 $$
 
 $$
-\deg(C)=3
-\quad
-\text{для }C\in C_O.
+\deg(C)=3 \quad (C\in C_O).
 $$
 
 То есть
@@ -4897,9 +4867,7 @@ $$
 здесь означает typed sum:
 
 $$
-6\ \text{vertices}
-+
-8\ \text{chambers}.
+6\ \text{vertices} + 8\ \text{chambers}.
 $$
 
 Это дизъюнктный $14$-элементный carrier с двумя типами вершин.
@@ -4916,7 +4884,11 @@ $$
 Элементы $Z_O$ имеют type:
 
 $$
-\mathrm{type}(z)=\begin{cases}\mathrm{v}, & z\in V_O,\\ \mathrm{c}, & z\in C_O.\end{cases}
+\mathrm{type}(z)=
+\begin{cases}
+\mathrm{v}, & z\in V_O,\\
+\mathrm{c}, & z\in C_O.
+\end{cases}
 $$
 
 Здесь $\mathrm{v}$ означает vertex-type, а $\mathrm{c}$ означает chamber-type.
@@ -5056,7 +5028,7 @@ $$
 $$
 O_3^{(1)}
 \quad
-\text{и}
+\mathrm{and}
 \quad
 \mathrm{Cham}(O_3)\cong Q_3
 $$
@@ -6216,14 +6188,14 @@ $$
 
 $$
 \begin{array}{c|c|c}
-\text{степень} & \text{relation-reading} & \text{смысл}\
+\text{power} & \text{relation-reading} & \text{meaning}\\
 \hline
-T^0 & \mathrm{id} & \text{исходная фаза}\
-T^1 & \vec R_T\subset R_1 & \text{oriented }R_1\text{-step}\
-T^2 & \vec R_{T^2}\subset R_2 & \text{oriented }R_2\text{-phase}\
-T^3 & \vec R_{T^3}=R_3 & \text{complement / half-period}\
-T^4 & \vec R_{T^4}\subset R_2 & \text{reverse }R_2\text{-phase}\
-T^5 & \vec R_{T^5}\subset R_1 & \text{reverse }R_1\text{-step}\
+T^0 & \mathrm{id} & \text{initial phase}\\
+T^1 & \vec R_T\subset R_1 & \text{oriented }R_1\text{-step}\\
+T^2 & \vec R_{T^2}\subset R_2 & \text{oriented }R_2\text{-phase}\\
+T^3 & \vec R_{T^3}=R_3 & \text{complement / half-period}\\
+T^4 & \vec R_{T^4}\subset R_2 & \text{reverse }R_2\text{-phase}\\
+T^5 & \vec R_{T^5}\subset R_1 & \text{reverse }R_1\text{-step}\\
 T^6 & \mathrm{id} & \text{full return}
 \end{array}
 $$
@@ -6351,7 +6323,7 @@ $$
 $$
 p_\beta(x)=\beta_i
 \quad
-\text{если}
+\mathrm{if}
 \quad
 x\in\beta_i.
 $$
@@ -6749,7 +6721,7 @@ $$
 $$
 (\chi_A)_i=
 \begin{cases}
-1,& i\in A,\
+1,& i\in A,\\
 0,& i\notin A.
 \end{cases}
 $$
@@ -7116,7 +7088,7 @@ $$
 $$
 1\mid 2
 \qquad
-\text{и}
+\mathrm{and}
 \qquad
 2\mid 1.
 $$
@@ -7557,7 +7529,7 @@ $$
 $$
 001\leftrightarrow 110
 \quad
-\text{то есть}
+\mathrm{i.e.}
 \quad
 \{1\}\leftrightarrow\{2,3\},
 $$
@@ -7565,7 +7537,7 @@ $$
 $$
 010\leftrightarrow 101
 \quad
-\text{то есть}
+\mathrm{i.e.}
 \quad
 \{2\}\leftrightarrow\{1,3\},
 $$
@@ -7573,7 +7545,7 @@ $$
 $$
 100\leftrightarrow 011
 \quad
-\text{то есть}
+\mathrm{i.e.}
 \quad
 \{3\}\leftrightarrow\{1,2\}.
 $$
@@ -7819,9 +7791,7 @@ $$
 $$
 (x,y)\in R_1
 \quad\Longleftrightarrow\quad
-A\subset B
-\text{ или }
-B\subset A,
+A\subset B \lor B\subset A,
 \quad
 \{|A|,|B|\}=\{1,2\}.
 $$
@@ -8768,7 +8738,7 @@ $$
 $$
 000
 \quad
-\text{или}
+\mathrm{or}
 \quad
 111.
 $$
@@ -9272,12 +9242,12 @@ $$
 
 $$
 \begin{array}{c|c|c|c}
-\text{lift} & \text{source} & \text{target} & \text{relation / role}\
+\text{lift} & \text{source} & \text{target} & \text{relation / role}\\
 \hline
-\text{face} & Q_2 & F_i^\varepsilon\subset Q_3 & Q_2^{(1)}\cong Q_3^{(1)}|_{F_i^\varepsilon}\
-\text{total-pole} & \{00,11\} & \{000,111\} & K_2\cong K_2\
-\text{pair} & Q_2^\circ=\{01,10\} & H_i & R_\circ^{(2)}\cong R_3|_{H_i}\
-\text{triad} & \Delta^{(2)} & S_\eta^{(3)} & K_\Delta\cong R_2|_{S_\eta^{(3)}}\
+\text{face} & Q_2 & F_i^\varepsilon\subset Q_3 & Q_2^{(1)}\cong Q_3^{(1)}|_{F_i^\varepsilon}\\
+\text{total-pole} & \{00,11\} & \{000,111\} & K_2\cong K_2\\
+\text{pair} & Q_2^\circ=\{01,10\} & H_i & R_\circ^{(2)}\cong R_3|_{H_i}\\
+\text{triad} & \Delta^{(2)} & S_\eta^{(3)} & K_\Delta\cong R_2|_{S_\eta^{(3)}}\\
 \text{transport} & (Q_2^\circ,\tau_2) & (X_{\mathrm{adm}},T) & \tau_2\leadsto T^3|_{H_i},\ T\text{ globalizes}
 \end{array}
 $$
@@ -10458,22 +10428,22 @@ $$
 
 $$
 \begin{array}{c|c|c}
-\text{элемент} & \text{bit} & \text{support}\
+\text{element} & \text{bit} & \text{support}\\
 \hline
-P_1 & 0001 & A\
-P_2 & 0010 & B\
-P_3 & 0011 & AB\
-P_4 & 0100 & C\
-P_5 & 0101 & AC\
-P_6 & 0110 & BC\
-P_7 & 0111 & ABC\
-P_8 & 1000 & D\
-P_9 & 1001 & AD\
-P_{10} & 1010 & BD\
-P_{11} & 1011 & ABD\
-P_{12} & 1100 & CD\
-P_{13} & 1101 & ACD\
-P_{14} & 1110 & BCD\
+P_1 & 0001 & A\\
+P_2 & 0010 & B\\
+P_3 & 0011 & AB\\
+P_4 & 0100 & C\\
+P_5 & 0101 & AC\\
+P_6 & 0110 & BC\\
+P_7 & 0111 & ABC\\
+P_8 & 1000 & D\\
+P_9 & 1001 & AD\\
+P_{10} & 1010 & BD\\
+P_{11} & 1011 & ABD\\
+P_{12} & 1100 & CD\\
+P_{13} & 1101 & ACD\\
+P_{14} & 1110 & BCD\\
 P_{15} & 1111 & ABCD
 \end{array}
 $$
@@ -10782,7 +10752,7 @@ $$
 Line graph $L(K_4)$ имеет vertices, равные edges graph-а $K_4$. Поэтому:
 
 $$
-V(L(K_4))=\{\text{двухэлементные subsets }J_4\}.
+V(L(K_4))=\{A\subset J_4: |A|=2\}.
 $$
 
 Две vertices $L(K_4)$ смежны тогда и только тогда, когда соответствующие $2$-subsets имеют одну общую координату.
@@ -14281,15 +14251,7 @@ $$
 
 Bridge-object вводится как структурный объект только если указаны:
 
-$$
-\text{carrier},
-\qquad
-\text{relation},
-\qquad
-\text{reading},
-\qquad
-\text{recovery или operator-role},
-$$
+carrier, relation, reading, recovery или operator-role,
 
 и handoff к finite core.
 
