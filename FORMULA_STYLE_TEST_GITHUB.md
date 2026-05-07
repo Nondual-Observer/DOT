@@ -8,6 +8,89 @@ Each item repeats the same mathematical content in several forms:
 - **B**: display formula with `aligned`;
 - **C**: split multiline formula without `aligned` where useful, to test whether GitHub breaks it.
 
+
+---
+### §3.7. Emergence-разложение
+
+Положим
+
+$$
+Q_0=\lbrace 0\rbrace,
+\qquad
+Q_0^*=\varnothing.
+$$
+
+**Утверждение 3.4.**
+Для $n\geq 1$
+
+$$
+Q_n^* = Q_{n-1}^* \sqcup \lbrace e_n\rbrace \sqcup (e_n+Q_{n-1}^*).
+$$
+
+**Проверка.**
+Каждый элемент $x\in Q_n$ имеет вид
+
+$$
+x=\varepsilon e_n+y,
+$$
+
+где
+
+$$
+\varepsilon\in\mathbb{F}_2,
+\qquad
+y\in Q_{n-1}.
+$$
+Если
+$$
+\varepsilon=0,
+$$
+то
+$$
+x=y.
+$$
+Так как $x\neq 0^n$, получаем
+$$
+y\in Q_{n-1}^*.
+$$
+Значит,
+$$
+x\in Q_{n-1}^*.
+$$
+Если
+$$
+\varepsilon=1,
+$$
+то
+$$
+x=e_n+y.
+$$
+При
+$$
+y=0
+$$
+получаем
+$$
+x=e_n.
+$$
+При
+$$
+y\neq0
+$$
+получаем
+$$
+x\in e_n+Q_{n-1}^*.
+$$
+Три случая не пересекаются. Следовательно,
+$$
+Q_n^* = Q_{n-1}^* \sqcup \lbrace e_n\rbrace \sqcup (e_n+Q_{n-1}^*).
+$$
+
+
+---
+
+
+
 ## 1. Representation Tuple
 
 ### 1A. One-line display
