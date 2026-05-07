@@ -126,7 +126,7 @@ Then the Laplacian of the full block graph is:
 $$
 L_{\mathrm{block}} =
 \begin{pmatrix}
-L_{\mathrm{oct}} + 2^{n-1}I_m & -B \
+L_{\mathrm{oct}} + 2^{n-1}I_m & -B \\
 -B^T & L_{\mathrm{cube}} + nI_N
 \end{pmatrix}.
 $$
@@ -263,7 +263,7 @@ $$
 \sum_{t_j\in\{0,1\}}(-1)^{u_j t_j}
 =
 \begin{cases}
-2,&u_j=0,\
+2,&u_j=0,\\
 0,&u_j=1.
 \end{cases}
 $$
@@ -475,7 +475,7 @@ spans an invariant $2\times 2$ block:
 $$
 M_1=
 \begin{pmatrix}
-2(n-1)+2^{n-1} & -2^{n-1}\
+2(n-1)+2^{n-1} & -2^{n-1}\\
 -1 & n+2
 \end{pmatrix}.
 $$
@@ -599,7 +599,7 @@ $$
 \mathrm{CI}(f)\ge t
 \iff
 \mathrm{proj}(f_{\mathrm{block}},E_{\lambda_{w1}^{-}})=0
-\ \wedge\
+\wedge
 \forall k\in[2,t]:
 \mathrm{proj}(f_{\mathrm{block}},D_k)=0
 }
@@ -612,7 +612,7 @@ $$
 \mathrm{CI}(f)\ge t
 \iff
 \mathrm{proj}(f_{\mathrm{block}},E_{\lambda_{w1}^{-}})=0
-\ \wedge\
+\wedge
 \forall k\in[2,t]:
 \mathrm{proj}(f_{\mathrm{block}},E_{\lambda=2k+n})=0
 }
@@ -823,9 +823,9 @@ $$
 \mathrm{Res}(f)\ge t
 \iff
 \mathrm{proj}(f_{\mathrm{block}},C_0^+)=0
-\ \wedge\
+\wedge
 \mathrm{proj}(f_{\mathrm{block}},E_{\lambda_{w1}^{-}})=0
-\ \wedge\
+\wedge
 \forall k\in[2,t]:
 \mathrm{proj}(f_{\mathrm{block}},D_k)=0
 }
@@ -838,9 +838,9 @@ $$
 \mathrm{Res}(f)\ge t
 \iff
 \mathrm{proj}(f_{\mathrm{block}},E_{\lambda=n+2^{n-1}})=0
-\ \wedge\
+\wedge
 \mathrm{proj}(f_{\mathrm{block}},E_{\lambda_{w1}^{-}})=0
-\ \wedge\
+\wedge
 \forall k\in[2,t]:
 \mathrm{proj}(f_{\mathrm{block}},E_{\lambda=2k+n})=0
 }
