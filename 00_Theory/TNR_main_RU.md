@@ -218,10 +218,7 @@ X_y^{\mathrm{rec}}\subseteq q^{-1}(y),
 $$
 
 $$
-R_y^{\mathrm{rec}}
-\subseteq
-R\cap
-\bigl(X_y^{\mathrm{rec}}\times X_y^{\mathrm{rec}}\bigr).
+R_y^{\mathrm{rec}} \subseteq R\cap \bigl(X_y^{\mathrm{rec}}\times X_y^{\mathrm{rec}}\bigr).
 $$
 
 Recovery datum фиксирует, какие элементы волокна и какое отношение внутри них остаются восстановимыми.
@@ -283,17 +280,13 @@ $$
 Recovery datum называется полным над $y\in Y$, если
 
 $$
-\mathrm{rec}(y)
-=
-\bigl(q^{-1}(y),\ R|_{q^{-1}(y)}\bigr),
+\mathrm{rec}(y) = \bigl(q^{-1}(y),\ R|_{q^{-1}(y)}\bigr),
 $$
 
 где
 
 $$
-R|_{q^{-1}(y)}
-=
-R\cap(q^{-1}(y)\times q^{-1}(y)).
+R|_{q^{-1}(y)} = R\cap(q^{-1}(y)\times q^{-1}(y)).
 $$
 
 В этом случае над $y$ восстановимо всё волокно reading-а вместе с индуцированным отношением.
@@ -494,9 +487,7 @@ $$
 поэтому
 
 $$
-\mathrm{rec}_P(I)=(P,R_P)
-=
-\bigl(\pi^{-1}(I),R_P|_{\pi^{-1}(I)}\bigr).
+\mathrm{rec}_P(I)=(P,R_P) = \bigl(\pi^{-1}(I),R_P|_{\pi^{-1}(I)}\bigr).
 $$
 
 Сжатая запись:
@@ -776,9 +767,7 @@ $$
 Получается координатная presentation
 
 $$
-\Pi_1^{\mathrm{coord}}
-=
-(Q_1,R_1^{\mathrm{pol}},q_1,\mathrm{rec}_1).
+\Pi_1^{\mathrm{coord}} = (Q_1,R_1^{\mathrm{pol}},q_1,\mathrm{rec}_1).
 $$
 
 Эта запись получается из $\Pi_1$ заменой имён элементов через $c$:
@@ -974,13 +963,7 @@ $$
 Для $n\geq 1$
 
 $$
-Q_n^*
-=
-Q_{n-1}^*
-\sqcup
-\{e_n\}
-\sqcup
-(e_n+Q_{n-1}^*).
+Q_n^* = Q_{n-1}^* \sqcup \{e_n\} \sqcup (e_n+Q_{n-1}^*).
 $$
 
 **Проверка.**
@@ -1061,13 +1044,7 @@ $$
 Три случая не пересекаются. Следовательно,
 
 $$
-Q_n^*
-=
-Q_{n-1}^*
-\sqcup
-\{e_n\}
-\sqcup
-(e_n+Q_{n-1}^*).
+Q_n^* = Q_{n-1}^* \sqcup \{e_n\} \sqcup (e_n+Q_{n-1}^*).
 $$
 
 ### §3.8. Смысл rank-lift
@@ -1089,13 +1066,7 @@ $$
 В формуле:
 
 $$
-Q_n^*
-=
-Q_{n-1}^*
-\sqcup
-\{e_n\}
-\sqcup
-(e_n+Q_{n-1}^*).
+Q_n^* = Q_{n-1}^* \sqcup \{e_n\} \sqcup (e_n+Q_{n-1}^*).
 $$
 
 Старый слой сохраняется:
@@ -1143,13 +1114,7 @@ Q_2^*=\{01\}\sqcup\{10\}\sqcup\{11\},
 $$
 
 $$
-Q_3^*
-=
-\{001,010,011\}
-\sqcup
-\{100\}
-\sqcup
-\{101,110,111\}.
+Q_3^* = \{001,010,011\} \sqcup \{100\} \sqcup \{101,110,111\}.
 $$
 
 Emergence-order задаёт порядок появления новых блоков:
@@ -1186,9 +1151,7 @@ $$
 Shell ранга $n$:
 
 $$
-S_k^{(n)}
-=
-\{x\in Q_n:\ |x|=k\}.
+S_k^{(n)} = \{x\in Q_n:\ |x|=k\}.
 $$
 
 Emergence-order отвечает за порядок появления разрядов.
@@ -1284,11 +1247,7 @@ $$
 Если $R$ иррефлексивно, то
 
 $$
-R|_{\{x\}}
-=
-R\cap(\{x\}\times\{x\})
-=
-\varnothing.
+R|_{\{x\}} = R\cap(\{x\}\times\{x\}) = \varnothing.
 $$
 
 Поэтому exact recovery для identity graph-reading-а задаётся формулой
@@ -1310,9 +1269,7 @@ $$
 Двухбитный carrier есть
 
 $$
-Q_2=\mathbb{F}_2^2
-=
-\{00,01,10,11\}.
+Q_2=\mathbb{F}_2^2 = \{00,01,10,11\}.
 $$
 
 <p align="center">
@@ -1341,25 +1298,13 @@ $$
 По emergence-разложению:
 
 $$
-Q_2^*
-=
-Q_1^*
-\sqcup
-\{e_2\}
-\sqcup
-(e_2+Q_1^*).
+Q_2^* = Q_1^* \sqcup \{e_2\} \sqcup (e_2+Q_1^*).
 $$
 
 В битовой записи:
 
 $$
-Q_2^*
-=
-\{01\}
-\sqcup
-\{10\}
-\sqcup
-\{11\}.
+Q_2^* = \{01\} \sqcup \{10\} \sqcup \{11\}.
 $$
 
 Здесь
@@ -1449,25 +1394,13 @@ $$
 Для любого $x\in Q_2$:
 
 $$
-\sigma_1\sigma_2(x)
-=
-\sigma_1(x+10)
-=
-x+10+01
-=
-x+11.
+\sigma_1\sigma_2(x) = \sigma_1(x+10) = x+10+01 = x+11.
 $$
 
 Аналогично,
 
 $$
-\sigma_2\sigma_1(x)
-=
-\sigma_2(x+01)
-=
-x+01+10
-=
-x+11.
+\sigma_2\sigma_1(x) = \sigma_2(x+01) = x+01+10 = x+11.
 $$
 
 Следовательно,
@@ -1499,29 +1432,21 @@ $$
 На $Q_2$ есть два нетривиальных Hamming-отношения:
 
 $$
-H_1^{(2)}
-=
-\{(x,y)\in Q_2^2:x\neq y,\ d_H(x,y)=1\},
+H_1^{(2)} = \{(x,y)\in Q_2^2:x\neq y,\ d_H(x,y)=1\},
 $$
 
 $$
-H_2^{(2)}
-=
-\{(x,y)\in Q_2^2:x\neq y,\ d_H(x,y)=2\}.
+H_2^{(2)} = \{(x,y)\in Q_2^2:x\neq y,\ d_H(x,y)=2\}.
 $$
 
 **Утверждение 4.7.**
 
 $$
-H_1^{(2)}
-=
-\{(x,x+e_i):x\in Q_2,\ i=1,2\}.
+H_1^{(2)} = \{(x,x+e_i):x\in Q_2,\ i=1,2\}.
 $$
 
 $$
-H_2^{(2)}
-=
-\{(x,x+11):x\in Q_2\}.
+H_2^{(2)} = \{(x,x+11):x\in Q_2\}.
 $$
 
 **Проверка.**
@@ -1616,9 +1541,7 @@ $$
 Graph-reading $C_4$ на $Q_2$ есть presentation
 
 $$
-\Pi_2^{C_4}
-=
-(Q_2,H_1^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}),
+\Pi_2^{C_4} = (Q_2,H_1^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}),
 $$
 
 где
@@ -1687,9 +1610,7 @@ Orientation и path-composition здесь не заданы.
 Graph-reading $2K_2$ на $Q_2$ есть presentation
 
 $$
-\Pi_2^{2K_2}
-=
-(Q_2,H_2^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
+\Pi_2^{2K_2} = (Q_2,H_2^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
 $$
 
 **Утверждение 4.11.**
@@ -1796,19 +1717,11 @@ $$
 Компаратор $\chi$ имеет два волокна:
 
 $$
-\mathrm{Eq}
-=
-\chi^{-1}(0)
-=
-\{00,11\},
+\mathrm{Eq} = \chi^{-1}(0) = \{00,11\},
 $$
 
 $$
-\mathrm{Opp}
-=
-\chi^{-1}(1)
-=
-\{01,10\}.
+\mathrm{Opp} = \chi^{-1}(1) = \{01,10\}.
 $$
 
 Для comparison-presentation выбирается отношение
@@ -1822,9 +1735,7 @@ $$
 Действительно,
 
 $$
-H_2^{(2)}
-=
-\{00\leftrightarrow 11,\ 01\leftrightarrow 10\}.
+H_2^{(2)} = \{00\leftrightarrow 11,\ 01\leftrightarrow 10\}.
 $$
 
 Обе связи находятся внутри волокон:
@@ -1855,23 +1766,17 @@ $$
 Comparison-presentation ранга $2$ есть
 
 $$
-\Pi_2^\chi
-=
-(Q_2,H_2^{(2)},\chi,\mathrm{rec}_\chi),
+\Pi_2^\chi = (Q_2,H_2^{(2)},\chi,\mathrm{rec}_\chi),
 $$
 
 где
 
 $$
-\mathrm{rec}_\chi(0)
-=
-(\{00,11\},H_2^{(2)}|_{\{00,11\}}),
+\mathrm{rec}_\chi(0) = (\{00,11\},H_2^{(2)}|_{\{00,11\}}),
 $$
 
 $$
-\mathrm{rec}_\chi(1)
-=
-(\{01,10\},H_2^{(2)}|_{\{01,10\}}).
+\mathrm{rec}_\chi(1) = (\{01,10\},H_2^{(2)}|_{\{01,10\}}).
 $$
 
 **Утверждение 4.14.**
@@ -1897,15 +1802,11 @@ $$
 Recovery datum на каждом волокне совпадает с индуцированным отношением $H_2^{(2)}$:
 
 $$
-\mathrm{rec}_\chi(0)
-=
-(\chi^{-1}(0),H_2^{(2)}|_{\chi^{-1}(0)}),
+\mathrm{rec}_\chi(0) = (\chi^{-1}(0),H_2^{(2)}|_{\chi^{-1}(0)}),
 $$
 
 $$
-\mathrm{rec}_\chi(1)
-=
-(\chi^{-1}(1),H_2^{(2)}|_{\chi^{-1}(1)}).
+\mathrm{rec}_\chi(1) = (\chi^{-1}(1),H_2^{(2)}|_{\chi^{-1}(1)}).
 $$
 
 Следовательно, $\Pi_2^\chi$ exact.
@@ -1952,15 +1853,7 @@ $$
 Следовательно,
 
 $$
-\chi(x+11)
-=
-(x_2+1)+(x_1+1)
-=
-x_2+x_1+1+1
-=
-x_2+x_1
-=
-\chi(x).
+\chi(x+11) = (x_2+1)+(x_1+1) = x_2+x_1+1+1 = x_2+x_1 = \chi(x).
 $$
 
 Значит, complement сохраняет режим сравнения: совпадение остаётся совпадением, различие остаётся различием.
@@ -2002,9 +1895,7 @@ $$
 Punctured coordinate subset ранга $2$ есть подмножество
 
 $$
-Q_2^\circ
-=
-Q_2\setminus\{00,11\}.
+Q_2^\circ = Q_2\setminus\{00,11\}.
 $$
 
 То есть
@@ -2017,11 +1908,7 @@ $$
 Rank-2 puncture называется переход от полного coordinate carrier-а $Q_2$ к подмножеству $Q_2^\circ$, полученному исключением total poles:
 
 $$
-Q_2
-\rightsquigarrow
-Q_2^\circ
-=
-Q_2\setminus\{00,11\}.
+Q_2 \rightsquigarrow Q_2^\circ = Q_2\setminus\{00,11\}.
 $$
 
 Puncture здесь означает переход от полного координатного carrier-а к выделенному подмножеству.
@@ -2042,9 +1929,7 @@ $$
 Центральным швом ранга $2$ называется подноситель
 
 $$
-A_2
-=
-(\{01,10\},H_2^{(2)}|_{\{01,10\}}).
+A_2 = (\{01,10\},H_2^{(2)}|_{\{01,10\}}).
 $$
 
 В графовой записи:
@@ -2094,17 +1979,13 @@ $$
 Полное relation-reading на $Q_2$ задаётся отношением
 
 $$
-R_{K_4}^{(2)}
-=
-\{(x,y)\in Q_2^2:x\neq y\}.
+R_{K_4}^{(2)} = \{(x,y)\in Q_2^2:x\neq y\}.
 $$
 
 Соответствующая presentation:
 
 $$
-\Pi_2^{K_4}
-=
-(Q_2,R_{K_4}^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
+\Pi_2^{K_4} = (Q_2,R_{K_4}^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
 $$
 
 **Утверждение 4.22.**
@@ -2143,25 +2024,19 @@ $$
 Нижний сектор:
 
 $$
-\Delta_{\wedge}
-=
-\{00,01,10\}.
+\Delta_{\wedge} = \{00,01,10\}.
 $$
 
 Верхний сектор:
 
 $$
-\Delta_{\vee}
-=
-\{11,01,10\}.
+\Delta_{\vee} = \{11,01,10\}.
 $$
 
 Их пересечение:
 
 $$
-\Delta_{\wedge}\cap\Delta_{\vee}
-=
-\{01,10\}.
+\Delta_{\wedge}\cap\Delta_{\vee} = \{01,10\}.
 $$
 
 Следовательно, оба сектора имеют общий центральный шов
@@ -2176,15 +2051,11 @@ $$
 Это
 
 $$
-\Delta_{\wedge}
-=
-A_2\cup\{00\},
+\Delta_{\wedge} = A_2\cup\{00\},
 $$
 
 $$
-\Delta_{\vee}
-=
-A_2\cup\{11\}.
+\Delta_{\vee} = A_2\cup\{11\}.
 $$
 
 **Проверка.**
@@ -2241,19 +2112,13 @@ $$
 задаётся удалением total-pole diagonal из полного relation-reading-а $K_4$:
 
 $$
-R_{K_4-e}^{(2)}
-=
-R_{K_4}^{(2)}
-\setminus
-\{(00,11),(11,00)\}.
+R_{K_4-e}^{(2)} = R_{K_4}^{(2)} \setminus \{(00,11),(11,00)\}.
 $$
 
 Соответствующая presentation:
 
 $$
-\Pi_2^{K_4-e}
-=
-(Q_2,R_{K_4-e}^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
+\Pi_2^{K_4-e} = (Q_2,R_{K_4-e}^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
 $$
 
 **Утверждение 4.26.**
@@ -2364,19 +2229,11 @@ $$
 Relation на симплексных секторах берётся индуцированным из partial closure:
 
 $$
-R_{\Delta_{\wedge}}
-=
-R_{K_4-e}^{(2)}
-\cap
-(\Delta_{\wedge}\times\Delta_{\wedge}),
+R_{\Delta_{\wedge}} = R_{K_4-e}^{(2)} \cap (\Delta_{\wedge}\times\Delta_{\wedge}),
 $$
 
 $$
-R_{\Delta_{\vee}}
-=
-R_{K_4-e}^{(2)}
-\cap
-(\Delta_{\vee}\times\Delta_{\vee}).
+R_{\Delta_{\vee}} = R_{K_4-e}^{(2)} \cap (\Delta_{\vee}\times\Delta_{\vee}).
 $$
 
 Тем самым симплексные секторы как relation-carriers имеют вид
@@ -2453,17 +2310,7 @@ $$
 Rank-2 comparison package фиксирует все relation-presentations, построенные на $Q_2$:
 
 $$
-\mathfrak C_2
-=
-\left(
-Q_2,
-\Pi_2^{C_4},
-\Pi_2^{2K_2},
-\Pi_2^\chi,
-\Pi_2^{K_4},
-\Pi_2^{K_4-e},
-A_2
-\right).
+\mathfrak C_2 = \left( Q_2, \Pi_2^{C_4}, \Pi_2^{2K_2}, \Pi_2^\chi, \Pi_2^{K_4}, \Pi_2^{K_4-e}, A_2 \right).
 $$
 
 Здесь $A_2=\{01,10\}$ — центральный шов §4.14.
@@ -2515,13 +2362,7 @@ $$
 По Утверждению 3.4 (§3.7) для rank-lift при $n=3$:
 
 $$
-Q_3^*
-=
-Q_2^*
-\sqcup
-\{e_3\}
-\sqcup
-(e_3+Q_2^*).
+Q_3^* = Q_2^* \sqcup \{e_3\} \sqcup (e_3+Q_2^*).
 $$
 
 Здесь
@@ -2539,13 +2380,7 @@ $$
 в трёхбитной записи получаем:
 
 $$
-Q_3^*
-=
-\{001,010,011\}
-\sqcup
-\{100\}
-\sqcup
-\{101,110,111\}.
+Q_3^* = \{001,010,011\} \sqcup \{100\} \sqcup \{101,110,111\}.
 $$
 
 Первый блок — старый проявленный слой:
@@ -2639,17 +2474,13 @@ $$
 Punctured coordinate subset ранга $n$ есть подмножество
 
 $$
-Q_n^\circ
-=
-Q_n\setminus\{0^n,1^n\}.
+Q_n^\circ = Q_n\setminus\{0^n,1^n\}.
 $$
 
 Rank-$n$ puncture называется переход
 
 $$
-Q_n
-\rightsquigarrow
-Q_n^\circ
+Q_n \rightsquigarrow Q_n^\circ
 $$
 
 от полного coordinate carrier-а к подмножеству, полученному исключением двух total poles.
@@ -2668,19 +2499,13 @@ $$
 Admissible carrier ранга $3$ есть punctured coordinate subset ранга $3$:
 
 $$
-X_{\mathrm{adm}}
-=
-Q_3^\circ
-=
-Q_3\setminus\{000,111\}.
+X_{\mathrm{adm}} = Q_3^\circ = Q_3\setminus\{000,111\}.
 $$
 
 То есть
 
 $$
-X_{\mathrm{adm}}
-=
-\{001,010,011,100,101,110\}.
+X_{\mathrm{adm}} = \{001,010,011,100,101,110\}.
 $$
 
 <p align="center">
@@ -2736,21 +2561,13 @@ $$
 После puncture остаются средние shell-и:
 
 $$
-X_{\mathrm{adm}}
-=
-S_1^{(3)}
-\sqcup
-S_2^{(3)}.
+X_{\mathrm{adm}} = S_1^{(3)} \sqcup S_2^{(3)}.
 $$
 
 То есть
 
 $$
-X_{\mathrm{adm}}
-=
-\{001,010,100\}
-\sqcup
-\{011,101,110\}.
+X_{\mathrm{adm}} = \{001,010,100\} \sqcup \{011,101,110\}.
 $$
 
 
@@ -2760,9 +2577,7 @@ $$
 Rank-2 puncture:
 
 $$
-Q_2\setminus\{00,11\}
-=
-\{01,10\}.
+Q_2\setminus\{00,11\} = \{01,10\}.
 $$
 
 Остаток имеет два состояния и возвращает carrier типа $K_2$.
@@ -2770,9 +2585,7 @@ $$
 Rank-3 puncture:
 
 $$
-Q_3\setminus\{000,111\}
-=
-\{001,010,011,100,101,110\}.
+Q_3\setminus\{000,111\} = \{001,010,011,100,101,110\}.
 $$
 
 **Утверждение 5.5.**
@@ -2805,9 +2618,7 @@ $$
 В отличие от ранга $2$, где после puncture остаётся двухточечное подмножество, ранг $3$ впервые даёт шеститочечный mixed-carrier:
 
 $$
-X_{\mathrm{adm}}
-=
-Q_3\setminus\{000,111\}.
+X_{\mathrm{adm}} = Q_3\setminus\{000,111\}.
 $$
 
 В §5 фиксируется carrier-слой.
@@ -2895,11 +2706,7 @@ $$
 В §6 используется carrier, построенный в §5:
 
 $$
-X_{\mathrm{adm}}
-=
-Q_3\setminus\{000,111\}
-=
-S_1^{(3)}\sqcup S_2^{(3)}.
+X_{\mathrm{adm}} = Q_3\setminus\{000,111\} = S_1^{(3)}\sqcup S_2^{(3)}.
 $$
 
 Carrier §6 равен $X_{\mathrm{adm}}$. Новый слой задаёт отношения между уже построенными admissible-состояниями.
@@ -2941,10 +2748,7 @@ $$
 отношение $R_k$ на $X_{\mathrm{adm}}$ задаётся формулой
 
 $$
-R_k
-=
-\{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:
-x\neq y,\ d_H(x,y)=k\}.
+R_k = \{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}: x\neq y,\ d_H(x,y)=k\}.
 $$
 
 Каждое $R_k$ симметрично и иррефлексивно.
@@ -2961,22 +2765,13 @@ $$
 рассматривается identity graph-reading
 
 $$
-\Pi_{3,k}
-=
-\bigl(
-X_{\mathrm{adm}},
-R_k,
-\mathrm{id}_{X_{\mathrm{adm}}},
-\mathrm{rec}_{\mathrm{id}}
-\bigr).
+\Pi_{3,k} = \bigl( X_{\mathrm{adm}}, R_k, \mathrm{id}_{X_{\mathrm{adm}}}, \mathrm{rec}_{\mathrm{id}} \bigr).
 $$
 
 По §4.3, для identity graph-reading-а с иррефлексивным отношением $R$ recovery datum имеет вид
 
 $$
-\mathrm{rec}_{\mathrm{id}}(x)
-=
-(\{x\},\varnothing).
+\mathrm{rec}_{\mathrm{id}}(x) = (\{x\},\varnothing).
 $$
 
 Поскольку $R_k$ иррефлексивно, эта формула применима к каждому $\Pi_{3,k}$. Поэтому все
@@ -3031,19 +2826,7 @@ $$
 Эти рёбра образуют шестичленный цикл:
 
 $$
-001
-\leftrightarrow
-011
-\leftrightarrow
-010
-\leftrightarrow
-110
-\leftrightarrow
-100
-\leftrightarrow
-101
-\leftrightarrow
-001.
+001 \leftrightarrow 011 \leftrightarrow 010 \leftrightarrow 110 \leftrightarrow 100 \leftrightarrow 101 \leftrightarrow 001.
 $$
 
 **Утверждение 6.2.**
@@ -3084,9 +2867,7 @@ $$
 **Утверждение 6.3.**
 
 $$
-(X_{\mathrm{adm}},R_2)
-\cong
-K_3\sqcup K_3.
+(X_{\mathrm{adm}},R_2) \cong K_3\sqcup K_3.
 $$
 
 **Проверка.**
@@ -3145,9 +2926,7 @@ $$
 Значение $2$ между shell-ами не возникает. Следовательно,
 
 $$
-(X_{\mathrm{adm}},R_2)
-\cong
-K_3\sqcup K_3.
+(X_{\mathrm{adm}},R_2) \cong K_3\sqcup K_3.
 $$
 
 Каждый $K_3$ содержит $3$ ребра, поэтому
@@ -3182,9 +2961,7 @@ $$
 По Утверждению 5.6 (§5.8), complement-инволюция переводит
 
 $$
-S_1^{(3)}
-\leftrightarrow
-S_2^{(3)}.
+S_1^{(3)} \leftrightarrow S_2^{(3)}.
 $$
 
 Она разбивает $X_{\mathrm{adm}}$ на три complement-пары:
@@ -3289,11 +3066,7 @@ $$
 Контрольный подсчёт:
 
 $$
-\binom{|X_{\mathrm{adm}}|}{2}
-=
-\binom{6}{2}
-=
-15.
+\binom{|X_{\mathrm{adm}}|}{2} = \binom{6}{2} = 15.
 $$
 
 Из Утверждений 6.2–6.4:
@@ -3319,9 +3092,7 @@ $$
 Следовательно,
 
 $$
-\mathcal R_{\mathrm{adm}}^{(3)}
-=
-\{R_1, R_2, R_3\}
+\mathcal R_{\mathrm{adm}}^{(3)} = \{R_1, R_2, R_3\}
 $$
 
 является полной static Hamming relation-грамматикой $X_{\mathrm{adm}}$.
@@ -3402,9 +3173,7 @@ $$
 Complement-pair partition carrier-а $X_{\mathrm{adm}}$ есть разбиение
 
 $$
-X_{\mathrm{adm}}
-=
-\beta_1\sqcup\beta_2\sqcup\beta_3,
+X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3,
 $$
 
 где
@@ -3436,9 +3205,7 @@ $$
 На $X_{\mathrm{adm}}$ задаётся relation
 
 $$
-R_{12}
-=
-R_1\cup R_2.
+R_{12} = R_1\cup R_2.
 $$
 
 То есть для
@@ -3511,14 +3278,7 @@ $$
 задаётся identity graph-reading
 
 $$
-\Pi_{12}
-=
-\bigl(
-X_{\mathrm{adm}},
-R_{12},
-\mathrm{id}_{X_{\mathrm{adm}}},
-\mathrm{rec}_{\mathrm{id}}
-\bigr).
+\Pi_{12} = \bigl( X_{\mathrm{adm}}, R_{12}, \mathrm{id}_{X_{\mathrm{adm}}}, \mathrm{rec}_{\mathrm{id}} \bigr).
 $$
 
 Отношения $R_1$ и $R_2$ симметричны и иррефлексивны. Поэтому их объединение
@@ -3532,9 +3292,7 @@ $$
 По §4.3, для identity graph-reading-а с иррефлексивным отношением $R$ recovery datum имеет вид
 
 $$
-\mathrm{rec}_{\mathrm{id}}(x)
-=
-(\{x\},\varnothing).
+\mathrm{rec}_{\mathrm{id}}(x) = (\{x\},\varnothing).
 $$
 
 Поскольку $R_{12}$ иррефлексивно, эта формула применима к $\Pi_{12}$. Поэтому $\Pi_{12}$ является exact identity graph-reading-ом.
@@ -3556,11 +3314,7 @@ $$
 есть complete tripartite graph с тремя долями мощности $2$. Это означает, что множество вершин разложено как
 
 $$
-V
-=
-V_1\sqcup V_2\sqcup V_3,
-\qquad
-|V_1|=|V_2|=|V_3|=2,
+V = V_1\sqcup V_2\sqcup V_3, \qquad |V_1|=|V_2|=|V_3|=2,
 $$
 
 при этом внутри каждой $V_i$ рёбер нет, а любые две вершины из разных долей соединены ребром.
@@ -3571,9 +3325,7 @@ $$
 **Утверждение 7.4.**
 
 $$
-(X_{\mathrm{adm}},R_{12})
-\cong
-K_{2,2,2}.
+(X_{\mathrm{adm}},R_{12}) \cong K_{2,2,2}.
 $$
 
 **Проверка.**
@@ -3594,9 +3346,7 @@ $$
 Используем разбиение
 
 $$
-X_{\mathrm{adm}}
-=
-\beta_1\sqcup\beta_2\sqcup\beta_3,
+X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3,
 $$
 
 где
@@ -3679,13 +3429,7 @@ $$
 По Утверждению 6.5 отношения $R_1$ и $R_2$ не пересекаются. Поэтому
 
 $$
-|E(R_{12})|
-=
-|E(R_1)|+|E(R_2)|
-=
-6+6
-=
-12.
+|E(R_{12})| = |E(R_1)|+|E(R_2)| = 6+6 = 12.
 $$
 
 С другой стороны, в $K_{2,2,2}$ есть три пары долей, а между каждой парой долей проходит
@@ -3697,11 +3441,7 @@ $$
 ребра. Поэтому
 
 $$
-|E(K_{2,2,2})|
-=
-3\cdot4
-=
-12.
+|E(K_{2,2,2})| = 3\cdot4 = 12.
 $$
 
 Подсчёт согласуется со структурной проверкой.
@@ -3757,9 +3497,7 @@ $$
 **Утверждение 7.6.**
 
 $$
-K_{2,2,2}
-\cong
-O_3^{(1)}.
+K_{2,2,2} \cong O_3^{(1)}.
 $$
 
 **Проверка.**
@@ -3784,42 +3522,32 @@ $$
 Следовательно, $O_3^{(1)}$ является complete tripartite graph с тремя долями мощности $2$:
 
 $$
-O_3^{(1)}
-\cong
-K_{2,2,2}.
+O_3^{(1)} \cong K_{2,2,2}.
 $$
 
 **Следствие 7.7.**
 
 $$
-(X_{\mathrm{adm}},R_{12})
-\cong
-O_3^{(1)}.
+(X_{\mathrm{adm}},R_{12}) \cong O_3^{(1)}.
 $$
 
 **Проверка.**
 По Утверждению 7.4:
 
 $$
-(X_{\mathrm{adm}},R_{12})
-\cong
-K_{2,2,2}.
+(X_{\mathrm{adm}},R_{12}) \cong K_{2,2,2}.
 $$
 
 По Утверждению 7.6:
 
 $$
-K_{2,2,2}
-\cong
-O_3^{(1)}.
+K_{2,2,2} \cong O_3^{(1)}.
 $$
 
 Транзитивность изоморфизма даёт
 
 $$
-(X_{\mathrm{adm}},R_{12})
-\cong
-O_3^{(1)}.
+(X_{\mathrm{adm}},R_{12}) \cong O_3^{(1)}.
 $$
 
 
@@ -3829,20 +3557,13 @@ $$
 Octahedral graph-reading package на $X_{\mathrm{adm}}$ есть structure
 
 $$
-\mathcal O_{12}
-=
-\bigl(
-\Pi_{12},
-[(X_{\mathrm{adm}},R_{12})\cong O_3^{(1)}]
-\bigr)
+\mathcal O_{12} = \bigl( \Pi_{12}, [(X_{\mathrm{adm}},R_{12})\cong O_3^{(1)}] \bigr)
 $$
 
 где $\Pi_{12}$ — presentation из §7.3, а второй компонент означает изоморфный тип
 
 $$
-(X_{\mathrm{adm}},R_{12})
-\cong
-O_3^{(1)}
+(X_{\mathrm{adm}},R_{12}) \cong O_3^{(1)}
 $$
 
 из Следствия 7.7.
@@ -3885,9 +3606,7 @@ $$
 индуцирует биекцию
 
 $$
-\{\beta_1,\beta_2,\beta_3\}
-\to
-\{E_1,E_2,E_3\}.
+\{\beta_1,\beta_2,\beta_3\} \to \{E_1,E_2,E_3\}.
 $$
 
 Один допустимый выбор изоморфизма:
@@ -3947,9 +3666,7 @@ $$
 Первый — блочный: можно выбрать любую биекцию
 
 $$
-\{\beta_1,\beta_2,\beta_3\}
-\to
-\{E_1,E_2,E_3\}.
+\{\beta_1,\beta_2,\beta_3\} \to \{E_1,E_2,E_3\}.
 $$
 
 Второй — знаковый: внутри каждой пары можно поменять $+e_i$ и $-e_i$.
@@ -4009,11 +3726,7 @@ Relation-грамматика §6 сохраняется. Graph-reading §7 со
 Shell-order из §5 задаёт
 
 $$
-X_{\mathrm{adm}}
-=
-S_1^{(3)}
-\sqcup
-S_2^{(3)}.
+X_{\mathrm{adm}} = S_1^{(3)} \sqcup S_2^{(3)}.
 $$
 
 В §6 relation $R_2$ читала это shell-разложение напрямую:
@@ -4027,9 +3740,7 @@ $$
 В §7 используется другое разложение:
 
 $$
-X_{\mathrm{adm}}
-=
-\beta_1\sqcup\beta_2\sqcup\beta_3.
+X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3.
 $$
 
 Это octahedral partition. Оно задаётся complement-парностью.
@@ -4065,9 +3776,7 @@ $$
 и его graph-reading-е
 
 $$
-(X_{\mathrm{adm}},R_{12})
-\cong
-O_3^{(1)}.
+(X_{\mathrm{adm}},R_{12}) \cong O_3^{(1)}.
 $$
 
 
@@ -4078,9 +3787,7 @@ $$
 По §7.1 admissible carrier разбит на complement-пары:
 
 $$
-X_{\mathrm{adm}}
-=
-\beta_1\sqcup\beta_2\sqcup\beta_3,
+X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3,
 $$
 
 где
@@ -4233,11 +3940,7 @@ $$
 В каждой паре есть два выбора. Поэтому
 
 $$
-|\mathrm{Cham}(O_3)|
-=
-2\cdot 2\cdot 2
-=
-8.
+|\mathrm{Cham}(O_3)| = 2\cdot 2\cdot 2 = 8.
 $$
 
 $$
@@ -4292,9 +3995,7 @@ $$
 задаётся камера
 
 $$
-C_\varepsilon
-=
-\{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
+C_\varepsilon = \{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
 $$
 
 В согласии с bit-order §3.6 запись индекса камеры как трёхбитной строки идёт в порядке
@@ -4306,9 +4007,7 @@ $$
 То есть
 
 $$
-C_{\varepsilon_3\varepsilon_2\varepsilon_1}
-=
-\{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
+C_{\varepsilon_3\varepsilon_2\varepsilon_1} = \{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
 $$
 
 Получаем отображение
@@ -4433,9 +4132,7 @@ $$
 **Утверждение 8.7.**
 
 $$
-(\mathrm{Cham}(O_3),R_{\mathrm{ch}})
-\cong
-Q_3^{(1)}.
+(\mathrm{Cham}(O_3),R_{\mathrm{ch}}) \cong Q_3^{(1)}.
 $$
 
 **Проверка.**
@@ -4470,9 +4167,7 @@ $$
 Это правило смежности в cube graph $Q_3^{(1)}$. Следовательно,
 
 $$
-(\mathrm{Cham}(O_3),R_{\mathrm{ch}})
-\cong
-Q_3^{(1)}.
+(\mathrm{Cham}(O_3),R_{\mathrm{ch}}) \cong Q_3^{(1)}.
 $$
 
 $$
@@ -4514,9 +4209,7 @@ $$
 По §7:
 
 $$
-V_O
-=
-\{001,010,011,100,101,110\}.
+V_O = \{001,010,011,100,101,110\}.
 $$
 
 По §8.5 зафиксирована маркировка complement-пар:
@@ -4554,11 +4247,7 @@ $$
 Камера имеет вид
 
 $$
-C_\varepsilon
-=
-\{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\},
-\qquad
-\varepsilon=(\varepsilon_1,\varepsilon_2,\varepsilon_3)\in\{0,1\}^3.
+C_\varepsilon = \{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}, \qquad \varepsilon=(\varepsilon_1,\varepsilon_2,\varepsilon_3)\in\{0,1\}^3.
 $$
 
 В битовой записи §3.6 та же камера обозначается
@@ -4582,9 +4271,7 @@ $$
 Incidence relation октаэдрального package-а есть отношение
 
 $$
-\mathrm{Inc}_O
-\subset
-V_O\times C_O
+\mathrm{Inc}_O \subset V_O\times C_O
 $$
 
 такое, что
@@ -4659,9 +4346,7 @@ $$
 связывает объекты разных типов:
 
 $$
-\text{vertex}
-\longleftrightarrow
-\text{chamber}.
+\text{vertex} \longleftrightarrow \text{chamber}.
 $$
 
 Поэтому §9 вводит новый two-type relation-layer на $V_O\sqcup C_O$.
@@ -4675,9 +4360,7 @@ $$
 Действительно, камера имеет вид
 
 $$
-C_\varepsilon
-=
-\{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
+C_\varepsilon = \{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
 $$
 
 Она содержит ровно по одной вершине из каждой complement-пары, значит ровно три вершины.
@@ -4709,19 +4392,11 @@ $$
 Оно вычисляется с двух сторон:
 
 $$
-|C_O|\cdot 3
-=
-8\cdot 3
-=
-24,
+|C_O|\cdot 3 = 8\cdot 3 = 24,
 $$
 
 $$
-|V_O|\cdot 4
-=
-6\cdot 4
-=
-24.
+|V_O|\cdot 4 = 6\cdot 4 = 24.
 $$
 
 
@@ -4737,9 +4412,7 @@ $$
 её incidence-star называется множество
 
 $$
-\mathrm{Star}(x)
-=
-\{C\in C_O:(x,C)\in\mathrm{Inc}_O\}.
+\mathrm{Star}(x) = \{C\in C_O:(x,C)\in\mathrm{Inc}_O\}.
 $$
 
 То есть $\mathrm{Star}(x)$ есть множество всех камер, содержащих вершину $x$.
@@ -4753,9 +4426,7 @@ $$
 получаем координатную формулу:
 
 $$
-\mathrm{Star}(b_i^\eta)
-=
-\{C_\varepsilon:\varepsilon_i=\eta\}.
+\mathrm{Star}(b_i^\eta) = \{C_\varepsilon:\varepsilon_i=\eta\}.
 $$
 
 По §9.4:
@@ -4768,9 +4439,7 @@ $$
 Coordinate face в $Q_3$ называется подмножество вида
 
 $$
-F_i^\eta
-=
-\{\varepsilon\in Q_3:\varepsilon_i=\eta\},
+F_i^\eta = \{\varepsilon\in Q_3:\varepsilon_i=\eta\},
 $$
 
 где
@@ -4798,9 +4467,7 @@ $$
 Следовательно, каждая вершина октаэдрального skeleton-а соответствует одной coordinate face chamber-cube:
 
 $$
-\text{vertex of }O_3^{(1)}
-\longleftrightarrow
-\text{coordinate face of }Q_3.
+\text{vertex of }O_3^{(1)} \longleftrightarrow \text{coordinate face of }Q_3.
 $$
 
 Это прямое следствие incidence relation.
@@ -4819,48 +4486,30 @@ $$
 Тогда
 
 $$
-\mathrm{Star}(b_i^0)
-=
-\{C_\varepsilon:\varepsilon_i=0\},
+\mathrm{Star}(b_i^0) = \{C_\varepsilon:\varepsilon_i=0\},
 $$
 
 $$
-\mathrm{Star}(b_i^1)
-=
-\{C_\varepsilon:\varepsilon_i=1\}.
+\mathrm{Star}(b_i^1) = \{C_\varepsilon:\varepsilon_i=1\}.
 $$
 
 **Замечание 9.5.**
 Эти два множества не пересекаются:
 
 $$
-\mathrm{Star}(b_i^0)
-\cap
-\mathrm{Star}(b_i^1)
-=
-\varnothing.
+\mathrm{Star}(b_i^0) \cap \mathrm{Star}(b_i^1) = \varnothing.
 $$
 
 Их объединение даёт весь chamber-side:
 
 $$
-\mathrm{Star}(b_i^0)
-\cup
-\mathrm{Star}(b_i^1)
-=
-C_O.
+\mathrm{Star}(b_i^0) \cup \mathrm{Star}(b_i^1) = C_O.
 $$
 
 Следовательно, complement-пара вершин октаэдрального skeleton-а читается на chamber-side как пара противоположных coordinate faces в $Q_3$:
 
 $$
-\beta_i
-=
-\{b_i^0,b_i^1\}
-\quad
-\longleftrightarrow
-\quad
-\{F_i^0,F_i^1\}.
+\beta_i = \{b_i^0,b_i^1\} \quad \longleftrightarrow \quad \{F_i^0,F_i^1\}.
 $$
 
 Это следствие выбранной координатной записи камер.
@@ -4919,15 +4568,11 @@ $$
 Тогда
 
 $$
-\mathrm{Star}(x)
-=
-\{C_\varepsilon:\varepsilon_i=\eta\},
+\mathrm{Star}(x) = \{C_\varepsilon:\varepsilon_i=\eta\},
 $$
 
 $$
-\mathrm{Star}(y)
-=
-\{C_\varepsilon:\varepsilon_j=\mu\}.
+\mathrm{Star}(y) = \{C_\varepsilon:\varepsilon_j=\mu\}.
 $$
 
 Если
@@ -5010,9 +4655,7 @@ $$
 обозначим её vertex-support:
 
 $$
-\mathrm{Vert}(C)
-=
-\{x\in V_O:(x,C)\in\mathrm{Inc}_O\}.
+\mathrm{Vert}(C) = \{x\in V_O:(x,C)\in\mathrm{Inc}_O\}.
 $$
 
 По определению камеры:
@@ -5054,9 +4697,7 @@ $$
 Но $C$ и $D$ в §8 уже являются vertex-support-ами камер, поэтому
 
 $$
-C\cap D
-=
-\mathrm{Vert}(C)\cap\mathrm{Vert}(D).
+C\cap D = \mathrm{Vert}(C)\cap\mathrm{Vert}(D).
 $$
 
 Также по §8.6:
@@ -5138,9 +4779,7 @@ $$
 с элементами
 
 $$
-(B_O)_{b_i^\eta,\varepsilon}
-=
-1
+(B_O)_{b_i^\eta,\varepsilon} = 1
 $$
 
 тогда и только тогда, когда
@@ -5152,11 +4791,7 @@ $$
 По формуле §9.2 это равносильно:
 
 $$
-(B_O)_{b_i^\eta,\varepsilon}
-=
-1
-\quad\Longleftrightarrow\quad
-\varepsilon_i=\eta.
+(B_O)_{b_i^\eta,\varepsilon} = 1 \quad\Longleftrightarrow\quad \varepsilon_i=\eta.
 $$
 
 В выбранном порядке строк и столбцов:
@@ -5275,22 +4910,13 @@ $$
 Чтобы записать incidence как relation на одном carrier-е, вводится дизъюнктная сумма:
 
 $$
-Z_O
-=
-V_O
-\sqcup
-C_O.
+Z_O = V_O \sqcup C_O.
 $$
 
 Элементы $Z_O$ имеют type:
 
 $$
-\mathrm{type}(z)
-=
-\begin{cases}
-\mathrm{v}, & z\in V_O,\
-\mathrm{c}, & z\in C_O.
-\end{cases}
+\mathrm{type}(z)=\begin{cases}\mathrm{v}, & z\in V_O,\\ \mathrm{c}, & z\in C_O.\end{cases}
 $$
 
 Здесь $\mathrm{v}$ означает vertex-type, а $\mathrm{c}$ означает chamber-type.
@@ -5300,48 +4926,32 @@ $$
 Vertex-relation:
 
 $$
-R_{vv}:=R_{12}
-\subset
-V_O\times V_O.
+R_{vv}:=R_{12} \subset V_O\times V_O.
 $$
 
 Chamber-relation:
 
 $$
-R_{cc}:=R_{\mathrm{ch}}
-\subset
-C_O\times C_O.
+R_{cc}:=R_{\mathrm{ch}} \subset C_O\times C_O.
 $$
 
 Cross-type incidence relation:
 
 $$
-R_{vc}
-\subset
-Z_O\times Z_O
+R_{vc} \subset Z_O\times Z_O
 $$
 
 задаётся как симметризация $\mathrm{Inc}_O$:
 
 $$
-R_{vc}
-=
-\{(x,C),(C,x):x\in V_O,
-\ C\in C_O,
-\ (x,C)\in\mathrm{Inc}_O\}.
+R_{vc} = \{(x,C),(C,x):x\in V_O, \ C\in C_O, \ (x,C)\in\mathrm{Inc}_O\}.
 $$
 
 **Определение 9.10.**
 Полное relation-package §9 есть
 
 $$
-R_O
-=
-R_{vv}
-\cup
-R_{cc}
-\cup
-R_{vc}.
+R_O = R_{vv} \cup R_{cc} \cup R_{vc}.
 $$
 
 Тогда
@@ -5359,14 +4969,7 @@ $$
 Incidence presentation октаэдрального слоя есть
 
 $$
-\Pi_O^{\mathrm{inc}}
-=
-\left(
-Z_O,
-R_O,
-\mathrm{id}_{Z_O},
-\mathrm{rec}_{\mathrm{id}}
-\right),
+\Pi_O^{\mathrm{inc}} = \left( Z_O, R_O, \mathrm{id}_{Z_O}, \mathrm{rec}_{\mathrm{id}} \right),
 $$
 
 где
@@ -5400,9 +5003,7 @@ $$
 Recovery datum задаётся как
 
 $$
-\mathrm{rec}_{\mathrm{id}}(z)
-=
-(\{z\},\varnothing).
+\mathrm{rec}_{\mathrm{id}}(z) = (\{z\},\varnothing).
 $$
 
 Так как reading является identity-reading-ом, presentation exact.
@@ -5476,9 +5077,7 @@ $$
 на
 
 $$
-X_{\mathrm{adm}}
-=
-\{001,010,011,100,101,110\}
+X_{\mathrm{adm}} = \{001,010,011,100,101,110\}
 $$
 
 задано правилом:
@@ -5498,19 +5097,7 @@ $$
 Один cyclic order, совместимый с $R_1$, имеет вид:
 
 $$
-001
-\to
-011
-\to
-010
-\to
-110
-\to
-100
-\to
-101
-\to
-001.
+001 \to 011 \to 010 \to 110 \to 100 \to 101 \to 001.
 $$
 
 Каждая соседняя пара имеет Hamming-distance $1$:
@@ -5670,9 +5257,7 @@ $$
 Directed transport relation есть отношение
 
 $$
-\vec R_T
-\subset
-X_{\mathrm{adm}}\times X_{\mathrm{adm}}
+\vec R_T \subset X_{\mathrm{adm}}\times X_{\mathrm{adm}}
 $$
 
 такое, что
@@ -5686,43 +5271,26 @@ $$
 То есть
 
 $$
-\vec R_T
-=
-\{(x,T(x)):x\in X_{\mathrm{adm}}\}.
+\vec R_T = \{(x,T(x)):x\in X_{\mathrm{adm}}\}.
 $$
 
 В явном виде:
 
 $$
-\vec R_T
-=
-\{
-(001,011),
-(011,010),
-(010,110),
-(110,100),
-(100,101),
-(101,001)
-\}.
+\vec R_T = \{ (001,011), (011,010), (010,110), (110,100), (100,101), (101,001) \}.
 $$
 
 Обратное directed relation:
 
 $$
-\vec R_T^{-1}
-=
-\{(T(x),x):x\in X_{\mathrm{adm}}\}.
+\vec R_T^{-1} = \{(T(x),x):x\in X_{\mathrm{adm}}\}.
 $$
 
 **Следствие 10.5.**
 Симметризация directed transport relation восстанавливает $R_1$:
 
 $$
-R_1
-=
-\vec R_T
-\cup
-\vec R_T^{-1}.
+R_1 = \vec R_T \cup \vec R_T^{-1}.
 $$
 
 **Проверка.**
@@ -5752,9 +5320,7 @@ $$
 Relation-грамматика §6 была static:
 
 $$
-\mathcal R_{\mathrm{adm}}^{(3)}
-=
-\{R_1, R_2, R_3\}.
+\mathcal R_{\mathrm{adm}}^{(3)} = \{R_1, R_2, R_3\}.
 $$
 
 Transport-layer добавляет direction, composition, path, iteration и return. В этой записи
@@ -5792,9 +5358,7 @@ $$
 Её объекты:
 
 $$
-\mathrm{Ob}(\mathrm{Path}_T(C_6))
-=
-X_{\mathrm{adm}}.
+\mathrm{Ob}(\mathrm{Path}_T(C_6)) = X_{\mathrm{adm}}.
 $$
 
 Порождающие стрелки:
@@ -5812,15 +5376,7 @@ $$
 Композиция задаётся итерацией:
 
 $$
-x
-\to
-T(x)
-\to
-T^2(x)
-\to
-\cdots
-\to
-T^k(x).
+x \to T(x) \to T^2(x) \to \cdots \to T^k(x).
 $$
 
 То есть путь длины $k$ из $x$ приходит в
@@ -6047,9 +5603,7 @@ $$
 По §9 был построен two-type carrier:
 
 $$
-Z_O
-=
-V_O\sqcup C_O,
+Z_O = V_O\sqcup C_O,
 $$
 
 где
@@ -6101,9 +5655,7 @@ $$
 Здесь
 
 $$
-R_O
-=
-R_{vv}\cup R_{cc}\cup R_{vc}
+R_O = R_{vv}\cup R_{cc}\cup R_{vc}
 $$
 
 — full relation-package §9.
@@ -6115,30 +5667,19 @@ $$
 Vertex transport presentation есть exact presentation
 
 $$
-\Pi_T^{V}
-=
-\left(
-X_{\mathrm{adm}},
-\vec R_T,
-\mathrm{id}_{X_{\mathrm{adm}}},
-\mathrm{rec}_{\mathrm{id}}
-\right),
+\Pi_T^{V} = \left( X_{\mathrm{adm}}, \vec R_T, \mathrm{id}_{X_{\mathrm{adm}}}, \mathrm{rec}_{\mathrm{id}} \right),
 $$
 
 где
 
 $$
-\vec R_T
-=
-\{(x,T(x)):x\in X_{\mathrm{adm}}\}.
+\vec R_T = \{(x,T(x)):x\in X_{\mathrm{adm}}\}.
 $$
 
 Reading является identity-reading-ом. Recovery datum задаётся как
 
 $$
-\mathrm{rec}_{\mathrm{id}}(x)
-=
-(\{x\},\varnothing),
+\mathrm{rec}_{\mathrm{id}}(x) = (\{x\},\varnothing),
 $$
 
 поскольку $\vec R_T$ иррефлексивно.
@@ -6147,14 +5688,7 @@ $$
 Incidence transport presentation есть exact incidence presentation §9:
 
 $$
-\Pi_O^{\mathrm{inc}}
-=
-\left(
-Z_O,
-R_O,
-\mathrm{id}_{Z_O},
-\mathrm{rec}_{\mathrm{id}}
-\right),
+\Pi_O^{\mathrm{inc}} = \left( Z_O, R_O, \mathrm{id}_{Z_O}, \mathrm{rec}_{\mathrm{id}} \right),
 $$
 
 рассматриваемая вместе с дополнительным automorphism-данным
@@ -6306,25 +5840,17 @@ $$
 По §5:
 
 $$
-X_{\mathrm{adm}}
-=
-S_1^{(3)}
-\sqcup
-S_2^{(3)},
+X_{\mathrm{adm}} = S_1^{(3)} \sqcup S_2^{(3)},
 $$
 
 где
 
 $$
-S_1^{(3)}
-=
-\{001,010,100\},
+S_1^{(3)} = \{001,010,100\},
 $$
 
 $$
-S_2^{(3)}
-=
-\{011,101,110\}.
+S_2^{(3)} = \{011,101,110\}.
 $$
 
 **Утверждение 11.2.**
@@ -6648,11 +6174,7 @@ $$
 **Следствие 11.7.**
 
 $$
-\langle T\rangle
-=
-\{
-T^0,T^1,T^2,T^3,T^4,T^5
-\}
+\langle T\rangle = \{ T^0,T^1,T^2,T^3,T^4,T^5 \}
 $$
 
 и
@@ -6709,9 +6231,7 @@ $$
 Здесь
 
 $$
-\vec R_{T^k}
-=
-\{(x,T^k(x)):x\in X_{\mathrm{adm}}\}.
+\vec R_{T^k} = \{(x,T^k(x)):x\in X_{\mathrm{adm}}\}.
 $$
 
 Для $k=1$:
@@ -6865,9 +6385,7 @@ $$
 Получаем коммутативность:
 
 $$
-p_\beta\circ T
-=
-\bar T\circ p_\beta.
+p_\beta\circ T = \bar T\circ p_\beta.
 $$
 
 То есть transport $T$ на $X_{\mathrm{adm}}$ накрывает $3$-cycle на quotient carrier-е $B_\beta$.
@@ -7046,18 +6564,7 @@ $$
 Periodization package ранга $3$ есть structure, то есть единая запись всех transport-данных §10–§11, используемая для последующих ссылок:
 
 $$
-\mathcal P_T^{(3)}
-=
-\left(
-X_{\mathrm{adm}},
-\vec R_T,
-T,
-\langle T\rangle,
-q_{\mathrm{per}},
-p_\beta,
-\bar T,
-\mathrm{hol}_\beta
-\right).
+\mathcal P_T^{(3)} = \left( X_{\mathrm{adm}}, \vec R_T, T, \langle T\rangle, q_{\mathrm{per}}, p_\beta, \bar T, \mathrm{hol}_\beta \right).
 $$
 
 Здесь:
@@ -7156,17 +6663,13 @@ $$
 Proper nonempty support carrier координатного множества $J_3$ есть
 
 $$
-\mathcal P^\circ(J_3)
-=
-\{A\subset J_3:A\neq\varnothing,\ A\neq J_3\}.
+\mathcal P^\circ(J_3) = \{A\subset J_3:A\neq\varnothing,\ A\neq J_3\}.
 $$
 
 В развёрнутой записи:
 
 $$
-\mathcal P^\circ(J_3)
-=
-\{\{1\},\{2\},\{3\},\{1,2\},\{1,3\},\{2,3\}\}.
+\mathcal P^\circ(J_3) = \{\{1\},\{2\},\{3\},\{1,2\},\{1,3\},\{2,3\}\}.
 $$
 
 **Определение 12.3.**
@@ -7282,11 +6785,7 @@ $$
 зададим
 
 $$
-\rho_k
-=
-\{(A,B):A\neq B,\ |A\triangle B|=k\},
-\qquad
-k=1,2,3,
+\rho_k = \{(A,B):A\neq B,\ |A\triangle B|=k\}, \qquad k=1,2,3,
 $$
 
 где
@@ -7346,17 +6845,13 @@ $$
 То есть
 
 $$
-\{i:x_i\neq y_i\}
-=
-\mathrm{supp}(x)\triangle\mathrm{supp}(y).
+\{i:x_i\neq y_i\} = \mathrm{supp}(x)\triangle\mathrm{supp}(y).
 $$
 
 Следовательно,
 
 $$
-d_H(x,y)
-=
-|\mathrm{supp}(x)\triangle\mathrm{supp}(y)|.
+d_H(x,y) = |\mathrm{supp}(x)\triangle\mathrm{supp}(y)|.
 $$
 
 По определению $R_k$ и $\rho_k$ это даёт требуемую эквивалентность.
@@ -7368,9 +6863,7 @@ $$
 Тем самым support-reading сохраняет relation-грамматику:
 
 $$
-(X_{\mathrm{adm}},R_1, R_2, R_3)
-\cong
-(\mathcal P^\circ(J_3),\rho_1,\rho_2,\rho_3).
+(X_{\mathrm{adm}},R_1, R_2, R_3) \cong (\mathcal P^\circ(J_3),\rho_1,\rho_2,\rho_3).
 $$
 
 ## §12.5. Shell-reading через support
@@ -7394,15 +6887,11 @@ $$
 Через support-reading это разложение принимает вид:
 
 $$
-S_1^{(3)}
-\cong
-\{A\subset J_3:|A|=1\},
+S_1^{(3)} \cong \{A\subset J_3:|A|=1\},
 $$
 
 $$
-S_2^{(3)}
-\cong
-\{A\subset J_3:|A|=2\}.
+S_2^{(3)} \cong \{A\subset J_3:|A|=2\}.
 $$
 
 То есть $S_1^{(3)}$ есть singleton-shell, а $S_2^{(3)}$ есть pair-shell.
@@ -7410,15 +6899,11 @@ $$
 В развёрнутой записи:
 
 $$
-S_1^{(3)}
-\longleftrightarrow
-\{1\},\{2\},\{3\},
+S_1^{(3)} \longleftrightarrow \{1\},\{2\},\{3\},
 $$
 
 $$
-S_2^{(3)}
-\longleftrightarrow
-\{1,2\},\{1,3\},\{2,3\}.
+S_2^{(3)} \longleftrightarrow \{1,2\},\{1,3\},\{2,3\}.
 $$
 
 ## §12.6. Manifest support и complementary support
@@ -7655,9 +7140,7 @@ $$
 Recovery datum задаётся формулой
 
 $$
-\mathrm{rec}_{\mathrm{supp}}(A)
-=
-(\{\chi_A\},\varnothing).
+\mathrm{rec}_{\mathrm{supp}}(A) = (\{\chi_A\},\varnothing).
 $$
 
 Если relation берётся как любое из отношений
@@ -7677,11 +7160,7 @@ $$
 Более того, relation-package восстанавливается по формуле
 
 $$
-R_k
-=
-(\mathrm{supp}\times\mathrm{supp})^{-1}(\rho_k),
-\qquad
-k=1,2,3.
+R_k = (\mathrm{supp}\times\mathrm{supp})^{-1}(\rho_k), \qquad k=1,2,3.
 $$
 
 То есть support-reading является lossless semantic reading-ом relation-грамматики ранга $3$.
@@ -7818,23 +7297,17 @@ $$
 По §12:
 
 $$
-S_1^{(3)}
-\cong
-V_\Delta,
+S_1^{(3)} \cong V_\Delta,
 $$
 
 $$
-S_2^{(3)}
-\cong
-E_\Delta.
+S_2^{(3)} \cong E_\Delta.
 $$
 
 То есть
 
 $$
-X_{\mathrm{adm}}
-\cong
-V_\Delta\sqcup E_\Delta.
+X_{\mathrm{adm}} \cong V_\Delta\sqcup E_\Delta.
 $$
 
 ## §13.2. Vertex/edge form support-reading-а
@@ -7993,9 +7466,7 @@ $$
 В vertex/edge language:
 
 $$
-R_1
-=
-\text{incidence between vertex and incident edge}.
+R_1 = \text{incidence between vertex and incident edge}.
 $$
 
 ## §13.4. Opposite-edge operator и relation $R_3$
@@ -8053,9 +7524,7 @@ $$
 тогда и только тогда, когда
 
 $$
-\mathrm{supp}(y)
-=
-J_3\setminus\mathrm{supp}(x).
+\mathrm{supp}(y) = J_3\setminus\mathrm{supp}(x).
 $$
 
 **Проверка.**
@@ -8070,19 +7539,13 @@ $$
 Побитовое прибавление $111$ меняет $1$ на $0$ и $0$ на $1$. Поэтому
 
 $$
-\mathrm{supp}(x+111)
-=
-J_3\setminus\mathrm{supp}(x).
+\mathrm{supp}(x+111) = J_3\setminus\mathrm{supp}(x).
 $$
 
 Следовательно,
 
 $$
-(x,y)\in R_3
-\quad\Longleftrightarrow\quad
-\mathrm{supp}(y)
-=
-J_3\setminus\mathrm{supp}(x).
+(x,y)\in R_3 \quad\Longleftrightarrow\quad \mathrm{supp}(y) = J_3\setminus\mathrm{supp}(x).
 $$
 
 $$
@@ -8124,9 +7587,7 @@ $$
 получают semantic reading:
 
 $$
-\text{vertex}
-\leftrightarrow
-\text{opposite edge}.
+\text{vertex} \leftrightarrow \text{opposite edge}.
 $$
 
 ## §13.5. Relation $R_2$ как same-type shift
@@ -8135,9 +7596,7 @@ $$
 Relation $R_2$ связывает разные vertices между собой и разные edges между собой:
 
 $$
-R_2
-=
-R_2|_{S_1^{(3)}}\sqcup R_2|_{S_2^{(3)}}.
+R_2 = R_2|_{S_1^{(3)}}\sqcup R_2|_{S_2^{(3)}}.
 $$
 
 Через support-reading:
@@ -8328,30 +7787,19 @@ $$
 Recovery datum задаётся как в §12.9:
 
 $$
-\mathrm{rec}_{v/e}(A)
-=
-(\{\chi_A\},\varnothing).
+\mathrm{rec}_{v/e}(A) = (\{\chi_A\},\varnothing).
 $$
 
 Получаем exact relation-reading:
 
 $$
-\Pi_{v/e}^{(3)}
-=
-\left(
-X_{\mathrm{adm}},
-R_3,
-q_{v/e},
-\mathrm{rec}_{v/e}
-\right).
+\Pi_{v/e}^{(3)} = \left( X_{\mathrm{adm}}, R_3, q_{v/e}, \mathrm{rec}_{v/e} \right).
 $$
 
 В этом reading-е структурная нагрузка отношения $R_3$ читается как:
 
 $$
-\text{vertex}
-\leftrightarrow
-\text{opposite edge}.
+\text{vertex} \leftrightarrow \text{opposite edge}.
 $$
 
 ## §13.9. Relation-package в vertex/edge grammar
@@ -8658,17 +8106,13 @@ $$
 Recovery datum:
 
 $$
-\mathrm{rec}_i(I_i)
-=
-(H_i,R_3|_{H_i}).
+\mathrm{rec}_i(I_i) = (H_i,R_3|_{H_i}).
 $$
 
 Получаем exact axial presentation:
 
 $$
-\Pi_i^{\mathrm{ax}}
-=
-(H_i,R_3|_{H_i},\pi_i,\mathrm{rec}_i).
+\Pi_i^{\mathrm{ax}} = (H_i,R_3|_{H_i},\pi_i,\mathrm{rec}_i).
 $$
 
 Это rank-3 повторение базовой формы §1:
@@ -8726,9 +8170,7 @@ $$
 То есть
 
 $$
-R_3
-=
-\text{same axis / opposite polarity}.
+R_3 = \text{same axis / opposite polarity}.
 $$
 
 ### $R_2$: different axis, same sign
@@ -8748,9 +8190,7 @@ $$
 То есть
 
 $$
-R_2
-=
-\text{same shell / axis shift}.
+R_2 = \text{same shell / axis shift}.
 $$
 
 ### $R_1$: different axis, opposite sign
@@ -8770,9 +8210,7 @@ $$
 То есть
 
 $$
-R_1
-=
-\text{axis shift with polarity switch}.
+R_1 = \text{axis shift with polarity switch}.
 $$
 
 ## §14.8. Проверка axial relation-грамматики
@@ -8843,19 +8281,7 @@ $$
 В axial notation:
 
 $$
-I_1^-
-\to
-I_3^+
-\to
-I_2^-
-\to
-I_1^+
-\to
-I_3^-
-\to
-I_2^+
-\to
-I_1^-.
+I_1^- \to I_3^+ \to I_2^- \to I_1^+ \to I_3^- \to I_2^+ \to I_1^-.
 $$
 
 На quotient carrier-е осей $I_3$ induced base-cycle имеет вид:
@@ -8919,15 +8345,11 @@ $$
 Связь §13 и §14 задаётся формулой:
 
 $$
-I_i^-
-\leftrightarrow
-\{i\},
+I_i^- \leftrightarrow \{i\},
 $$
 
 $$
-I_i^+
-\leftrightarrow
-J_3\setminus\{i\}.
+I_i^+ \leftrightarrow J_3\setminus\{i\}.
 $$
 
 То есть $I_i^-$ есть vertex-reading осевого invariant-а $I_i$, а $I_i^+$ есть opposite-edge-reading того же invariant-а.
@@ -8935,39 +8357,27 @@ $$
 В развёрнутой записи:
 
 $$
-I_1^- = 001
-\leftrightarrow
-\{1\},
+I_1^- = 001 \leftrightarrow \{1\},
 $$
 
 $$
-I_1^+ = 110
-\leftrightarrow
-\{2,3\};
+I_1^+ = 110 \leftrightarrow \{2,3\};
 $$
 
 $$
-I_2^- = 010
-\leftrightarrow
-\{2\},
+I_2^- = 010 \leftrightarrow \{2\},
 $$
 
 $$
-I_2^+ = 101
-\leftrightarrow
-\{1,3\};
+I_2^+ = 101 \leftrightarrow \{1,3\};
 $$
 
 $$
-I_3^- = 100
-\leftrightarrow
-\{3\},
+I_3^- = 100 \leftrightarrow \{3\},
 $$
 
 $$
-I_3^+ = 011
-\leftrightarrow
-\{1,2\}.
+I_3^+ = 011 \leftrightarrow \{1,2\}.
 $$
 
 Каждый axial invariant имеет две manifestations:
@@ -8987,17 +8397,7 @@ $$
 Собранный semantic package блока D можно записать как:
 
 $$
-\mathcal A^{(3)}
-=
-\left(
-X_{\mathrm{adm}},
-R_1, R_2, R_3,
-\mathrm{supp},
-J_3,
-I_3,
-\Theta,
-\{H_i\}_{i=1}^3
-\right).
+\mathcal A^{(3)} = \left( X_{\mathrm{adm}}, R_1, R_2, R_3, \mathrm{supp}, J_3, I_3, \Theta, \{H_i\}_{i=1}^3 \right).
 $$
 
 Здесь:
@@ -9313,9 +8713,7 @@ $$
 является graph-isomorphism:
 
 $$
-(Q_2,Q_2^{(1)})
-\cong
-(F_i^\varepsilon,Q_3^{(1)}|_{F_i^\varepsilon}).
+(Q_2,Q_2^{(1)}) \cong (F_i^\varepsilon,Q_3^{(1)}|_{F_i^\varepsilon}).
 $$
 
 **Проверка.**
@@ -9433,23 +8831,17 @@ $$
 Этот lift сохраняет pole-type:
 
 $$
-\text{lower total pole}
-\mapsto
-\text{lower total pole},
+\text{lower total pole} \mapsto \text{lower total pole},
 $$
 
 $$
-\text{upper total pole}
-\mapsto
-\text{upper total pole}.
+\text{upper total pole} \mapsto \text{upper total pole}.
 $$
 
 Total-pole lift не направлен в active-shell $X_{\mathrm{adm}}$. Его target лежит в предельной паре полного carrier-а:
 
 $$
-P_{\mathrm{tot}}^{(3)}
-=
-Q_3\setminus X_{\mathrm{adm}}.
+P_{\mathrm{tot}}^{(3)} = Q_3\setminus X_{\mathrm{adm}}.
 $$
 
 На $P_{\mathrm{tot}}^{(2)}$ и $P_{\mathrm{tot}}^{(3)}$ используется complete two-point relation.
@@ -9551,9 +8943,7 @@ $$
 pair-lift даёт isomorphism:
 
 $$
-(Q_2^\circ,R_\circ^{(2)})
-\cong
-(H_i,R_3|_{H_i}).
+(Q_2^\circ,R_\circ^{(2)}) \cong (H_i,R_3|_{H_i}).
 $$
 
 **Проверка.**
@@ -9580,10 +8970,7 @@ $$
 Pair-lift переводит единственную two-point relation source-а в единственную two-point relation target-а:
 
 $$
-(\lambda_i^{\mathrm{pair}}\times\lambda_i^{\mathrm{pair}})
-(R_\circ^{(2)})
-=
-R_3|_{H_i}.
+(\lambda_i^{\mathrm{pair}}\times\lambda_i^{\mathrm{pair}}) (R_\circ^{(2)}) = R_3|_{H_i}.
 $$
 
 $$
@@ -9679,9 +9066,7 @@ $$
 Triad-lift даёт graph-isomorphism:
 
 $$
-(\Delta,K_\Delta)
-\cong
-(S_\eta^{(3)},R_2|_{S_\eta^{(3)}}).
+(\Delta,K_\Delta) \cong (S_\eta^{(3)},R_2|_{S_\eta^{(3)}}).
 $$
 
 **Проверка.**
@@ -9775,9 +9160,7 @@ $$
 выполнена commutative identity:
 
 $$
-T^3\circ \lambda_i^{\mathrm{pair}}
-=
-\lambda_i^{\mathrm{pair}}\circ \tau_2.
+T^3\circ \lambda_i^{\mathrm{pair}} = \lambda_i^{\mathrm{pair}}\circ \tau_2.
 $$
 
 **Проверка.**
@@ -9790,11 +9173,7 @@ $$
 Тогда
 
 $$
-T^3(\lambda_i^{\mathrm{pair}}(01))
-=
-T^3(I_i^-)
-=
-I_i^+.
+T^3(\lambda_i^{\mathrm{pair}}(01)) = T^3(I_i^-) = I_i^+.
 $$
 
 С другой стороны:
@@ -9804,11 +9183,7 @@ $$
 $$
 
 $$
-\lambda_i^{\mathrm{pair}}(\tau_2(01))
-=
-\lambda_i^{\mathrm{pair}}(10)
-=
-I_i^+.
+\lambda_i^{\mathrm{pair}}(\tau_2(01)) = \lambda_i^{\mathrm{pair}}(10) = I_i^+.
 $$
 
 Equality верна на $01$.
@@ -9854,9 +9229,7 @@ Transport-lift имеет две части.
 Первая часть — local recovery на каждой осевой паре:
 
 $$
-\tau_2
-\leadsto
-T^3|_{H_i}.
+\tau_2 \leadsto T^3|_{H_i}.
 $$
 
 Вторая часть — global cyclic extension:
@@ -9878,19 +9251,7 @@ $$
 Оператор $T$ проходит через все три оси и две polar manifestations:
 
 $$
-I_1^-
-\to
-I_3^+
-\to
-I_2^-
-\to
-I_1^+
-\to
-I_3^-
-\to
-I_2^+
-\to
-I_1^-.
+I_1^- \to I_3^+ \to I_2^- \to I_1^+ \to I_3^- \to I_2^+ \to I_1^-.
 $$
 
 Rank $2$ даёт local two-sided preform:
@@ -9950,9 +9311,7 @@ $$
 Recovery datum:
 
 $$
-\mathrm{rec}_i^{\mathrm{pair}}(u)
-=
-(\{\lambda_i^{\mathrm{pair}}(u)\},\varnothing)
+\mathrm{rec}_i^{\mathrm{pair}}(u) = (\{\lambda_i^{\mathrm{pair}}(u)\},\varnothing)
 $$
 
 для одноточечных fibers, если reading берётся как inverse bijection.
@@ -9966,9 +9325,7 @@ $$
 то recovery datum уже имеет вид §14:
 
 $$
-\mathrm{rec}_i(I_i)
-=
-(H_i,R_3|_{H_i}).
+\mathrm{rec}_i(I_i) = (H_i,R_3|_{H_i}).
 $$
 
 Обе записи exact, но отвечают разным reading-goals: в первом случае восстанавливается координатная точка source-а, во втором случае восстанавливается полное полярное волокно над invariant-ом.
@@ -9978,13 +9335,7 @@ $$
 Rank-lift formula из §3 даёт:
 
 $$
-Q_3^*
-=
-Q_2^*
-\sqcup
-\{e_3\}
-\sqcup
-(e_3+Q_2^*).
+Q_3^* = Q_2^* \sqcup \{e_3\} \sqcup (e_3+Q_2^*).
 $$
 
 При
@@ -9996,25 +9347,13 @@ $$
 получаем:
 
 $$
-Q_3^*
-=
-\{001,010,011\}
-\sqcup
-\{100\}
-\sqcup
-\{101,110,111\}.
+Q_3^* = \{001,010,011\} \sqcup \{100\} \sqcup \{101,110,111\}.
 $$
 
 После puncture верхнего total pole $111$:
 
 $$
-X_{\mathrm{adm}}
-=
-\{001,010,011\}
-\sqcup
-\{100\}
-\sqcup
-\{101,110\}.
+X_{\mathrm{adm}} = \{001,010,011\} \sqcup \{100\} \sqcup \{101,110\}.
 $$
 
 Это emergence-order.
@@ -10073,15 +9412,7 @@ $$
 есть structure/package
 
 $$
-\mathfrak L_{2\to3}
-=
-\left(
-\mathfrak L_{\mathrm{face}},
-\mathfrak L_{\mathrm{tot}},
-\mathfrak L_{\mathrm{pair}},
-\mathfrak L_{\mathrm{triad}},
-\mathfrak L_{\mathrm{tr}}
-\right).
+\mathfrak L_{2\to3} = \left( \mathfrak L_{\mathrm{face}}, \mathfrak L_{\mathrm{tot}}, \mathfrak L_{\mathrm{pair}}, \mathfrak L_{\mathrm{triad}}, \mathfrak L_{\mathrm{tr}} \right).
 $$
 
 Это совокупность lift-данных со статусом structure/package.
@@ -10089,33 +9420,23 @@ $$
 Компоненты:
 
 $$
-\mathfrak L_{\mathrm{face}}
-=
-\{\iota_i^\varepsilon:Q_2\to F_i^\varepsilon\}_{i,\varepsilon},
+\mathfrak L_{\mathrm{face}} = \{\iota_i^\varepsilon:Q_2\to F_i^\varepsilon\}_{i,\varepsilon},
 $$
 
 $$
-\mathfrak L_{\mathrm{tot}}
-=
-\{\mathrm{tp}_{2\to3}:P_{\mathrm{tot}}^{(2)}\to P_{\mathrm{tot}}^{(3)}\},
+\mathfrak L_{\mathrm{tot}} = \{\mathrm{tp}_{2\to3}:P_{\mathrm{tot}}^{(2)}\to P_{\mathrm{tot}}^{(3)}\},
 $$
 
 $$
-\mathfrak L_{\mathrm{pair}}
-=
-\{\lambda_i^{\mathrm{pair}}:Q_2^\circ\to H_i\}_{i=1}^3,
+\mathfrak L_{\mathrm{pair}} = \{\lambda_i^{\mathrm{pair}}:Q_2^\circ\to H_i\}_{i=1}^3,
 $$
 
 $$
-\mathfrak L_{\mathrm{triad}}
-=
-\{\lambda_{\Delta,\eta,r}^{\mathrm{triad}}:\Delta\to S_\eta^{(3)}\},
+\mathfrak L_{\mathrm{triad}} = \{\lambda_{\Delta,\eta,r}^{\mathrm{triad}}:\Delta\to S_\eta^{(3)}\},
 $$
 
 $$
-\mathfrak L_{\mathrm{tr}}
-=
-\{(Q_2^\circ,\tau_2)\leadsto (X_{\mathrm{adm}},T)\}.
+\mathfrak L_{\mathrm{tr}} = \{(Q_2^\circ,\tau_2)\leadsto (X_{\mathrm{adm}},T)\}.
 $$
 
 ## §16.2. Carrier-side и relation-side
@@ -10135,17 +9456,13 @@ $$
 Face-lift:
 
 $$
-Q_2
-\to
-F_i^\varepsilon\subset Q_3
+Q_2 \to F_i^\varepsilon\subset Q_3
 $$
 
 carrier-side;
 
 $$
-Q_2^{(1)}
-\to
-Q_3^{(1)}|_{F_i^\varepsilon}
+Q_2^{(1)} \to Q_3^{(1)}|_{F_i^\varepsilon}
 $$
 
 relation-side.
@@ -10153,17 +9470,13 @@ relation-side.
 Total-pole lift:
 
 $$
-\{00,11\}
-\to
-\{000,111\}
+\{00,11\} \to \{000,111\}
 $$
 
 carrier-side;
 
 $$
-K_2
-\to
-K_2
+K_2 \to K_2
 $$
 
 relation-side, где $K_2$ означает complete two-point relation на соответствующей pole-pair.
@@ -10171,17 +9484,13 @@ relation-side, где $K_2$ означает complete two-point relation на с
 Pair-lift:
 
 $$
-Q_2^\circ
-\to
-H_i
+Q_2^\circ \to H_i
 $$
 
 carrier-side;
 
 $$
-R_\circ^{(2)}
-\to
-R_3|_{H_i}
+R_\circ^{(2)} \to R_3|_{H_i}
 $$
 
 relation-side.
@@ -10189,17 +9498,13 @@ relation-side.
 Triad-lift:
 
 $$
-\Delta^{(2)}
-\to
-S_\eta^{(3)}
+\Delta^{(2)} \to S_\eta^{(3)}
 $$
 
 carrier-side;
 
 $$
-K_\Delta
-\to
-R_2|_{S_\eta^{(3)}}
+K_\Delta \to R_2|_{S_\eta^{(3)}}
 $$
 
 relation-side.
@@ -10207,19 +9512,13 @@ relation-side.
 Transport-lift:
 
 $$
-Q_2^\circ
-\to
-X_{\mathrm{adm}}
+Q_2^\circ \to X_{\mathrm{adm}}
 $$
 
 carrier-side through axial pairs;
 
 $$
-\tau_2
-\to
-T^3|_{H_i}
-\to
-T
+\tau_2 \to T^3|_{H_i} \to T
 $$
 
 operator-side.
@@ -10270,9 +9569,7 @@ $$
 по commutative identity:
 
 $$
-T^3\circ \lambda_i^{\mathrm{pair}}
-=
-\lambda_i^{\mathrm{pair}}\circ \tau_2.
+T^3\circ \lambda_i^{\mathrm{pair}} = \lambda_i^{\mathrm{pair}}\circ \tau_2.
 $$
 
 Следовательно, source operator $\tau_2$ recoverable внутри target transport package-а.
@@ -10282,9 +9579,7 @@ $$
 Pair-lift показывает первый concrete finite transition:
 
 $$
-R_\circ^{(2)}
-\to
-H_i.
+R_\circ^{(2)} \to H_i.
 $$
 
 На rank $2$ punctured layer
@@ -10314,9 +9609,7 @@ $$
 Source relation получает object-role в старшем carrier-е:
 
 $$
-(Q_2^\circ,R_\circ^{(2)})
-\leadsto
-(H_i,R_3|_{H_i}).
+(Q_2^\circ,R_\circ^{(2)}) \leadsto (H_i,R_3|_{H_i}).
 $$
 
 Это concrete finite relation/object transition $2\to3$.
@@ -10360,9 +9653,7 @@ $$
 Таким образом:
 
 $$
-K_\Delta
-\leadsto
-S_\eta^{(3)}.
+K_\Delta \leadsto S_\eta^{(3)}.
 $$
 
 Здесь relation-shape $K_3$ rank $2$ становится object-shell rank $3$.
@@ -10372,9 +9663,7 @@ $$
 Face-lift фиксирует другой тип role-reading:
 
 $$
-Q_2
-\to
-F_i^\varepsilon\subset Q_3.
+Q_2 \to F_i^\varepsilon\subset Q_3.
 $$
 
 Здесь source carrier rank $2$ становится coordinate face внутри полного rank-3 coordinate carrier-а $Q_3$ из §5.
@@ -10414,17 +9703,13 @@ $$
 Total-pole lift фиксирует предельный режим:
 
 $$
-\{00,11\}
-\to
-\{000,111\}.
+\{00,11\} \to \{000,111\}.
 $$
 
 Target:
 
 $$
-P_{\mathrm{tot}}^{(3)}
-=
-Q_3\setminus X_{\mathrm{adm}}.
+P_{\mathrm{tot}}^{(3)} = Q_3\setminus X_{\mathrm{adm}}.
 $$
 
 Поэтому total-pole lift не направляет source poles в active-shell. Он сохраняет их как limit pair полного carrier-а.
@@ -10438,9 +9723,7 @@ $$
 §16 фиксирует source-role этой пары:
 
 $$
-\{00,11\}
-\leadsto
-\{000,111\}.
+\{00,11\} \leadsto \{000,111\}.
 $$
 
 То есть totality rank $2$ получает limit-role rank $3$.
@@ -10462,9 +9745,7 @@ $$
 Локально:
 
 $$
-\tau_2
-\leadsto
-T^3|_{H_i}.
+\tau_2 \leadsto T^3|_{H_i}.
 $$
 
 Глобально:
@@ -10504,45 +9785,23 @@ Rank $2$ даёт local involutive seed. Rank $3$ даёт cyclic transport pack
 Сводка §15.13 уже дала техническую таблицу source/target/relation. В §16 та же информация читается как role distribution:
 
 $$
-Q_2
-\leadsto
-F_i^\varepsilon
-\quad
-\text{as face-target};
+Q_2 \leadsto F_i^\varepsilon \quad \text{as face-target};
 $$
 
 $$
-P_{\mathrm{tot}}^{(2)}
-\leadsto
-P_{\mathrm{tot}}^{(3)}
-\quad
-\text{as limit pair};
+P_{\mathrm{tot}}^{(2)} \leadsto P_{\mathrm{tot}}^{(3)} \quad \text{as limit pair};
 $$
 
 $$
-Q_2^\circ
-\leadsto
-H_i
-\quad
-\text{as axial object};
+Q_2^\circ \leadsto H_i \quad \text{as axial object};
 $$
 
 $$
-\Delta^{(2)}
-\leadsto
-S_\eta^{(3)}
-\quad
-\text{as shell object};
+\Delta^{(2)} \leadsto S_\eta^{(3)} \quad \text{as shell object};
 $$
 
 $$
-\tau_2
-\leadsto
-T^3|_{H_i}
-\leadsto
-T
-\quad
-\text{as transport law}.
+\tau_2 \leadsto T^3|_{H_i} \leadsto T \quad \text{as transport law}.
 $$
 
 Source structures $Q_2$ распределяются по ролям старшего carrier-а.
@@ -10554,9 +9813,7 @@ Axial packaging §14 делает pair-lift и transport-lift прозрачны
 Pair-lift:
 
 $$
-Q_2^\circ
-\to
-H_i=\{I_i^-,I_i^+\}.
+Q_2^\circ \to H_i=\{I_i^-,I_i^+\}.
 $$
 
 Transport-lift:
@@ -10572,9 +9829,7 @@ $$
 Triad-lift:
 
 $$
-\Delta^{(2)}
-\to
-\{I_1^\eta,I_2^\eta,I_3^\eta\}.
+\Delta^{(2)} \to \{I_1^\eta,I_2^\eta,I_3^\eta\}.
 $$
 
 То есть:
@@ -10634,11 +9889,7 @@ $$
 То есть pair-lift связывает два профиля:
 
 $$
-1+2
-\quad
-\leftrightarrow
-\quad
-2+1.
+1+2 \quad \leftrightarrow \quad 2+1.
 $$
 
 Triad-lift target:
@@ -10705,15 +9956,11 @@ $$
 В §16 есть два concrete strict cases:
 
 $$
-(Q_2^\circ,R_\circ^{(2)})
-\leadsto
-(H_i,R_3|_{H_i}),
+(Q_2^\circ,R_\circ^{(2)}) \leadsto (H_i,R_3|_{H_i}),
 $$
 
 $$
-(\Delta^{(2)},K_\Delta)
-\leadsto
-(S_\eta^{(3)},R_2|_{S_\eta^{(3)}}).
+(\Delta^{(2)},K_\Delta) \leadsto (S_\eta^{(3)},R_2|_{S_\eta^{(3)}}).
 $$
 
 Они являются finite cases. Обобщающая запись
@@ -10732,18 +9979,7 @@ $$
 Closure package strict rank $3$ есть structure/package
 
 $$
-\mathfrak C_3
-=
-\left(
-Q_3,
-X_{\mathrm{adm}},
-R_1, R_2, R_3,R_{12},
-O_3^{\leq \mathrm{ch}},
-\Pi_O^{\mathrm{inc}},
-\mathcal P_T^{(3)},
-\mathcal A^{(3)},
-\mathfrak L_{2\to3}
-\right).
+\mathfrak C_3 = \left( Q_3, X_{\mathrm{adm}}, R_1, R_2, R_3,R_{12}, O_3^{\leq \mathrm{ch}}, \Pi_O^{\mathrm{inc}}, \mathcal P_T^{(3)}, \mathcal A^{(3)}, \mathfrak L_{2\to3} \right).
 $$
 
 Это closure-name для уже построенного rank-3 module. Он собирает компоненты §§5--16 в одну ссылочную запись и сохраняет их прежние типы: carriers остаются carriers, presentations остаются presentations, packages остаются packages.
@@ -10859,11 +10095,7 @@ $$
 имеет octahedral graph-reading
 
 $$
-(X_{\mathrm{adm}},R_{12})
-\cong
-K_{2,2,2}
-\cong
-O_3^{(1)}.
+(X_{\mathrm{adm}},R_{12}) \cong K_{2,2,2} \cong O_3^{(1)}.
 $$
 
 В internal semantic coordinates:
@@ -10885,14 +10117,7 @@ $$
 Chamber-layer package:
 
 $$
-O_3^{\leq \mathrm{ch}}
-=
-\bigl(
-X_{\mathrm{adm}},
-R_{12},
-\mathrm{Cham}(O_3),
-R_{\mathrm{ch}}
-\bigr).
+O_3^{\leq \mathrm{ch}} = \bigl( X_{\mathrm{adm}}, R_{12}, \mathrm{Cham}(O_3), R_{\mathrm{ch}} \bigr).
 $$
 
 Его chamber-coordinate reading:
@@ -10904,14 +10129,7 @@ $$
 Incidence presentation:
 
 $$
-\Pi_O^{\mathrm{inc}}
-=
-\left(
-Z_O,
-R_O,
-\mathrm{id}_{Z_O},
-\mathrm{rec}_{\mathrm{id}}
-\right),
+\Pi_O^{\mathrm{inc}} = \left( Z_O, R_O, \mathrm{id}_{Z_O}, \mathrm{rec}_{\mathrm{id}} \right),
 $$
 
 где
@@ -10982,17 +10200,7 @@ $$
 Internal semantic package:
 
 $$
-\mathcal A^{(3)}
-=
-\left(
-X_{\mathrm{adm}},
-R_1, R_2, R_3,
-\mathrm{supp},
-J_3,
-I_3,
-\Theta,
-\{H_i\}_{i=1}^3
-\right).
+\mathcal A^{(3)} = \left( X_{\mathrm{adm}}, R_1, R_2, R_3, \mathrm{supp}, J_3, I_3, \Theta, \{H_i\}_{i=1}^3 \right).
 $$
 
 Он содержит support-reading
@@ -11036,9 +10244,7 @@ $$
 это exact presentation, поскольку используется identity-reading на $Z_O$;
 
 $$
-\Pi_i^{\mathrm{ax}}
-=
-(H_i,R_3|_{H_i},\pi_i,\mathrm{rec}_i),
+\Pi_i^{\mathrm{ax}} = (H_i,R_3|_{H_i},\pi_i,\mathrm{rec}_i),
 $$
 
 где
@@ -11050,9 +10256,7 @@ $$
 Lift package сохраняет source structures через bijective face-, total-pole-, pair- и triad-lifts. Transport-lift восстанавливает rank-2 local swap по формуле
 
 $$
-T^3\circ \lambda_i^{\mathrm{pair}}
-=
-\lambda_i^{\mathrm{pair}}\circ \tau_2.
+T^3\circ \lambda_i^{\mathrm{pair}} = \lambda_i^{\mathrm{pair}}\circ \tau_2.
 $$
 
 ## §17.5. Emergence-order и shell-order
@@ -11062,37 +10266,19 @@ Rank $3$ использует два разных порядка.
 Emergence-order:
 
 $$
-Q_3^*
-=
-Q_2^*
-\sqcup
-\{e_3\}
-\sqcup
-(e_3+Q_2^*).
+Q_3^* = Q_2^* \sqcup \{e_3\} \sqcup (e_3+Q_2^*).
 $$
 
 При $e_3=100$:
 
 $$
-Q_3^*
-=
-\{001,010,011\}
-\sqcup
-\{100\}
-\sqcup
-\{101,110,111\}.
+Q_3^* = \{001,010,011\} \sqcup \{100\} \sqcup \{101,110,111\}.
 $$
 
 После puncture:
 
 $$
-X_{\mathrm{adm}}
-=
-\{001,010,011\}
-\sqcup
-\{100\}
-\sqcup
-\{101,110\}.
+X_{\mathrm{adm}} = \{001,010,011\} \sqcup \{100\} \sqcup \{101,110\}.
 $$
 
 Shell-order:
@@ -11160,13 +10346,7 @@ $$
 По Утверждению 3.4 для rank $4$:
 
 $$
-Q_4^*
-=
-Q_3^*
-\sqcup
-\{e_D\}
-\sqcup
-(e_D+Q_3^*).
+Q_4^* = Q_3^* \sqcup \{e_D\} \sqcup (e_D+Q_3^*).
 $$
 
 Здесь:
@@ -11178,13 +10358,7 @@ $$
 В развёрнутой форме:
 
 $$
-Q_4^*
-=
-\{P_1,\ldots,P_7\}
-\sqcup
-\{P_8\}
-\sqcup
-\{P_9,\ldots,P_{15}\}.
+Q_4^* = \{P_1,\ldots,P_7\} \sqcup \{P_8\} \sqcup \{P_9,\ldots,P_{15}\}.
 $$
 
 Это emergence-order. Shell-order задаётся отдельно после сборки carrier-а.
@@ -11321,15 +10495,7 @@ $$
 ## §18.5. Shell-order rank $4$
 
 $$
-\mathcal P_4
-=
-S_1^{(4)}
-\sqcup
-S_2^{(4)}
-\sqcup
-S_3^{(4)}
-\sqcup
-S_4^{(4)}.
+\mathcal P_4 = S_1^{(4)} \sqcup S_2^{(4)} \sqcup S_3^{(4)} \sqcup S_4^{(4)}.
 $$
 
 **Утверждение 18.2.**
@@ -11398,21 +10564,13 @@ $$
 Второй shell:
 
 $$
-S_2^{(4)}
-=
-\{P_3,P_5,P_6,P_9,P_{10},P_{12}\}
-=
-\{AB,AC,BC,AD,BD,CD\}.
+S_2^{(4)} = \{P_3,P_5,P_6,P_9,P_{10},P_{12}\} = \{AB,AC,BC,AD,BD,CD\}.
 $$
 
 Третий shell:
 
 $$
-S_3^{(4)}
-=
-\{P_7,P_{11},P_{13},P_{14}\}
-=
-\{ABC,ABD,ACD,BCD\}.
+S_3^{(4)} = \{P_7,P_{11},P_{13},P_{14}\} = \{ABC,ABD,ACD,BCD\}.
 $$
 
 Четвёртый shell:
@@ -11515,13 +10673,7 @@ $$
 Complement-инволюция $\kappa_4$ разбивает middle shell $S_2^{(4)}$ на три complement-пары:
 
 $$
-S_2^{(4)}
-=
-\{P_3,P_{12}\}
-\sqcup
-\{P_5,P_{10}\}
-\sqcup
-\{P_6,P_9\}.
+S_2^{(4)} = \{P_3,P_{12}\} \sqcup \{P_5,P_{10}\} \sqcup \{P_6,P_9\}.
 $$
 
 **Проверка.**
@@ -11572,11 +10724,7 @@ Rank $4$ является even-rank interlayer: его middle shell самодв
 На $\mathcal P_4$ задаются Hamming relations:
 
 $$
-\mathsf H_k^{(4)}
-=
-\{(x,y)\in \mathcal P_4\times\mathcal P_4:x\neq y,\ d_H(x,y)=k\},
-\qquad
-k=1,2,3,4.
+\mathsf H_k^{(4)} = \{(x,y)\in \mathcal P_4\times\mathcal P_4:x\neq y,\ d_H(x,y)=k\}, \qquad k=1,2,3,4.
 $$
 
 **Утверждение 19.1.**
@@ -11872,9 +11020,7 @@ $$
 Residual relation:
 
 $$
-\Omega_4
-=
-\{(x,y)\in V_4\times V_4:x\neq y,\ y\neq\kappa_4(x)\}.
+\Omega_4 = \{(x,y)\in V_4\times V_4:x\neq y,\ y\neq\kappa_4(x)\}.
 $$
 
 **Утверждение 20.2.**
@@ -11917,9 +11063,7 @@ $$
 **Утверждение 20.3.**
 
 $$
-\Omega_4
-=
-\mathsf H_2^{(4)}\cap(V_4\times V_4).
+\Omega_4 = \mathsf H_2^{(4)}\cap(V_4\times V_4).
 $$
 
 То есть все residual edges на $V_4$ являются Hamming-distance $2$ edges.
@@ -11952,22 +11096,13 @@ $$
 Recovery:
 
 $$
-\mathrm{rec}_i^{(4)}(I_i)
-=
-(H_i^{(4)},\mathsf H_4^{(4)}|_{H_i^{(4)}}).
+\mathrm{rec}_i^{(4)}(I_i) = (H_i^{(4)},\mathsf H_4^{(4)}|_{H_i^{(4)}}).
 $$
 
 Presentation:
 
 $$
-\Pi_i^{\mathrm{ax},(4)}
-=
-\left(
-H_i^{(4)},
-\mathsf H_4^{(4)}|_{H_i^{(4)}},
-\pi_i^{(4)},
-\mathrm{rec}_i^{(4)}
-\right).
+\Pi_i^{\mathrm{ax},(4)} = \left( H_i^{(4)}, \mathsf H_4^{(4)}|_{H_i^{(4)}}, \pi_i^{(4)}, \mathrm{rec}_i^{(4)} \right).
 $$
 
 Каждая $\Pi_i^{\mathrm{ax},(4)}$ exact: единственное волокно reading-а равно $H_i^{(4)}$, а recovery возвращает это волокно с induced relation.
@@ -12049,9 +11184,7 @@ $$
 Rank-4 cycle atlas есть structure/package:
 
 $$
-\mathcal C_4
-=
-(C_8^{(4)},C_6^{(4),\mathrm{mid}},C_{15}^{(4)}),
+\mathcal C_4 = (C_8^{(4)},C_6^{(4),\mathrm{mid}},C_{15}^{(4)}),
 $$
 
 где $C_8^{(4)}$ — выбранный Hamilton-cycle на $V_4$, $C_6^{(4),\mathrm{mid}}$ — выбранный Hamilton-cycle на middle shell $S_2^{(4)}$, а $C_{15}^{(4)}$ — Singer-cycle на $\mathcal P_4$.
@@ -12171,9 +11304,7 @@ $$
 Complement-pair reading на $\mathcal P_4\setminus\{P_{15}\}$:
 
 $$
-B_7^{(4)}
-=
-\{\{x,\kappa_4(x)\}:x\in\mathcal P_4\setminus\{P_{15}\}\}.
+B_7^{(4)} = \{\{x,\kappa_4(x)\}:x\in\mathcal P_4\setminus\{P_{15}\}\}.
 $$
 
 Это set из $7$ complement-pairs.
@@ -12189,22 +11320,13 @@ $$
 Recovery:
 
 $$
-\mathrm{rec}_\kappa^{(4)}(\{x,\kappa_4(x)\})
-=
-(\{x,\kappa_4(x)\},\mathsf H_4^{(4)}|_{\{x,\kappa_4(x)\}}).
+\mathrm{rec}_\kappa^{(4)}(\{x,\kappa_4(x)\}) = (\{x,\kappa_4(x)\},\mathsf H_4^{(4)}|_{\{x,\kappa_4(x)\}}).
 $$
 
 Presentation:
 
 $$
-\Pi_\kappa^{(4)}
-=
-\left(
-\mathcal P_4\setminus\{P_{15}\},
-\mathsf H_4^{(4)}|_{\mathcal P_4\setminus\{P_{15}\}},
-\pi_\kappa^{(4)},
-\mathrm{rec}_\kappa^{(4)}
-\right).
+\Pi_\kappa^{(4)} = \left( \mathcal P_4\setminus\{P_{15}\}, \mathsf H_4^{(4)}|_{\mathcal P_4\setminus\{P_{15}\}}, \pi_\kappa^{(4)}, \mathrm{rec}_\kappa^{(4)} \right).
 $$
 
 Presentation $\Pi_\kappa^{(4)}$ exact: каждое волокно reading-а равно одной complement-паре, а recovery возвращает эту пару вместе с induced $\mathsf H_4^{(4)}$-relation.
@@ -12232,20 +11354,11 @@ $$
 $$
 
 $$
-\mathrm{rec}_j^{\mathrm{mid}}(I_j^{\mathrm{mid}})
-=
-(H_j^{\mathrm{mid}},\mathsf H_4^{(4)}|_{H_j^{\mathrm{mid}}}).
+\mathrm{rec}_j^{\mathrm{mid}}(I_j^{\mathrm{mid}}) = (H_j^{\mathrm{mid}},\mathsf H_4^{(4)}|_{H_j^{\mathrm{mid}}}).
 $$
 
 $$
-\Pi_j^{\mathrm{mid-ax},(4)}
-=
-\left(
-H_j^{\mathrm{mid}},
-\mathsf H_4^{(4)}|_{H_j^{\mathrm{mid}}},
-\pi_j^{\mathrm{mid}},
-\mathrm{rec}_j^{\mathrm{mid}}
-\right),
+\Pi_j^{\mathrm{mid-ax},(4)} = \left( H_j^{\mathrm{mid}}, \mathsf H_4^{(4)}|_{H_j^{\mathrm{mid}}}, \pi_j^{\mathrm{mid}}, \mathrm{rec}_j^{\mathrm{mid}} \right),
 $$
 
 Эти presentations exact по тому же аргументу, что и axial presentations §20.4.
@@ -12255,20 +11368,7 @@ $$
 Rank-4 finite package:
 
 $$
-\mathfrak C_4
-=
-\left(
-\mathcal P_4,
-\{S_k^{(4)}\}_{k=1}^4,
-\mathsf H_1^{(4)},\mathsf H_2^{(4)},\mathsf H_3^{(4)},\mathsf H_4^{(4)},
-V_4,
-S_2^{(4)},
-\Omega_4,
-\mathcal C_4,
-\Pi_\kappa^{(4)},
-\{\Pi_i^{\mathrm{ax},(4)}\}_{i\in J_4},
-\{\Pi_j^{\mathrm{mid-ax},(4)}\}_{j\in\{AB|CD,\ AC|BD,\ AD|BC\}}
-\right).
+\mathfrak C_4 = \left( \mathcal P_4, \{S_k^{(4)}\}_{k=1}^4, \mathsf H_1^{(4)},\mathsf H_2^{(4)},\mathsf H_3^{(4)},\mathsf H_4^{(4)}, V_4, S_2^{(4)}, \Omega_4, \mathcal C_4, \Pi_\kappa^{(4)}, \{\Pi_i^{\mathrm{ax},(4)}\}_{i\in J_4}, \{\Pi_j^{\mathrm{mid-ax},(4)}\}_{j\in\{AB|CD,\ AC|BD,\ AD|BC\}} \right).
 $$
 
 Это structure/package в смысле closure-name для rank-4 finite carrier atlas-а.
@@ -12376,25 +11476,13 @@ $$
 По rank-lift formula §3:
 
 $$
-Q_n^*
-=
-Q_{n-1}^*
-\sqcup
-\{e_n\}
-\sqcup
-(e_n+Q_{n-1}^*).
+Q_n^* = Q_{n-1}^* \sqcup \{e_n\} \sqcup (e_n+Q_{n-1}^*).
 $$
 
 Для rank $5$:
 
 $$
-Q_5^*
-=
-Q_4^*
-\sqcup
-\{e_E\}
-\sqcup
-(e_E+Q_4^*).
+Q_5^* = Q_4^* \sqcup \{e_E\} \sqcup (e_E+Q_4^*).
 $$
 
 Здесь:
@@ -12426,13 +11514,7 @@ $$
 В развёрнутой форме:
 
 $$
-Q_5^*
-=
-\{P_1,\ldots,P_{15}\}
-\sqcup
-\{P_{16}\}
-\sqcup
-\{P_{17},\ldots,P_{31}\}.
+Q_5^* = \{P_1,\ldots,P_{15}\} \sqcup \{P_{16}\} \sqcup \{P_{17},\ldots,P_{31}\}.
 $$
 
 Это emergence-order. Shell-order задаётся отдельно после сборки carrier-а.
@@ -12606,17 +11688,7 @@ $$
 По shell-order после сборки carrier-а:
 
 $$
-P^{(5)}
-=
-S_1^{(5)}
-\sqcup
-S_2^{(5)}
-\sqcup
-S_3^{(5)}
-\sqcup
-S_4^{(5)}
-\sqcup
-S_5^{(5)}.
+P^{(5)} = S_1^{(5)} \sqcup S_2^{(5)} \sqcup S_3^{(5)} \sqcup S_4^{(5)} \sqcup S_5^{(5)}.
 $$
 
 Shell-мощности биномиальны:
@@ -12682,17 +11754,13 @@ $$
 ## §22.7. Второй shell $S_2^{(5)}$
 
 $$
-S_2^{(5)}
-=
-\{P_3,P_5,P_6,P_9,P_{10},P_{12},P_{17},P_{18},P_{20},P_{24}\}.
+S_2^{(5)} = \{P_3,P_5,P_6,P_9,P_{10},P_{12},P_{17},P_{18},P_{20},P_{24}\}.
 $$
 
 В support notation:
 
 $$
-S_2^{(5)}
-=
-\{AB,AC,BC,AD,BD,CD,AE,BE,CE,DE\}.
+S_2^{(5)} = \{AB,AC,BC,AD,BD,CD,AE,BE,CE,DE\}.
 $$
 
 Это множество $2$-элементных subsets $J_5$:
@@ -12710,17 +11778,13 @@ $$
 ## §22.8. Третий shell $S_3^{(5)}$
 
 $$
-S_3^{(5)}
-=
-\{P_7,P_{11},P_{13},P_{14},P_{19},P_{21},P_{22},P_{25},P_{26},P_{28}\}.
+S_3^{(5)} = \{P_7,P_{11},P_{13},P_{14},P_{19},P_{21},P_{22},P_{25},P_{26},P_{28}\}.
 $$
 
 В support notation:
 
 $$
-S_3^{(5)}
-=
-\{ABC,ABD,ACD,BCD,ABE,ACE,BCE,ADE,BDE,CDE\}.
+S_3^{(5)} = \{ABC,ABD,ACD,BCD,ABE,ACE,BCE,ADE,BDE,CDE\}.
 $$
 
 Это множество $3$-элементных subsets $J_5$:
@@ -12946,19 +12010,13 @@ $$
 Второе соответствие является основным rank-5 finite-duality fact:
 
 $$
-S_2^{(5)}
-\leftrightarrow
-S_3^{(5)},
-\qquad
-10\leftrightarrow10.
+S_2^{(5)} \leftrightarrow S_3^{(5)}, \qquad 10\leftrightarrow10.
 $$
 
 В subset language:
 
 $$
-\{i,j\}
-\longleftrightarrow
-J_5\setminus\{i,j\}.
+\{i,j\} \longleftrightarrow J_5\setminus\{i,j\}.
 $$
 
 Примеры:
@@ -12998,18 +12056,13 @@ $$
 Семантическое чтение:
 
 $$
-\text{pair interaction}
-\leftrightarrow
-\text{triple closure}.
+\text{pair interaction} \leftrightarrow \text{triple closure}.
 $$
 
 Формальная тождественность:
 
 $$
-S_2^{(5)}
-\leftrightarrow
-S_3^{(5)}
-\text{ by }\kappa_5.
+S_2^{(5)} \leftrightarrow S_3^{(5)} \text{ by }\kappa_5.
 $$
 
 **Утверждение 22.4.**
@@ -13039,10 +12092,7 @@ $$
 задаются:
 
 $$
-\mathsf H_k^{(5)}
-=
-\{(x,y)\in P^{(5)}\times P^{(5)}:
-x\neq y,\ d_H(x,y)=k\},
+\mathsf H_k^{(5)} = \{(x,y)\in P^{(5)}\times P^{(5)}: x\neq y,\ d_H(x,y)=k\},
 $$
 
 где
@@ -13078,9 +12128,7 @@ $$
 В полном $Q_5$ число неупорядоченных Hamming-distance $k$ edges равно:
 
 $$
-2^{5-1}\binom{5}{k}
-=
-16\binom{5}{k}.
+2^{5-1}\binom{5}{k} = 16\binom{5}{k}.
 $$
 
 Переход к $P^{(5)}$ удаляет $00000$. При этом удаляются edges от $00000$ к shell $S_k^{(5)}$, и их число равно:
@@ -13092,11 +12140,7 @@ $$
 Следовательно:
 
 $$
-|\mathsf H_k^{(5)}|
-=
-16\binom{5}{k}-\binom{5}{k}
-=
-15\binom{5}{k}.
+|\mathsf H_k^{(5)}| = 16\binom{5}{k}-\binom{5}{k} = 15\binom{5}{k}.
 $$
 
 Это даёт:
@@ -13235,9 +12279,7 @@ $$
 Следовательно:
 
 $$
-\mathsf H_2^{(5)}|_{S_2}
-\cong
-T(5).
+\mathsf H_2^{(5)}|_{S_2} \cong T(5).
 $$
 
 А также:
@@ -13255,9 +12297,7 @@ $$
 Следовательно:
 
 $$
-\mathsf H_4^{(5)}|_{S_2}
-\cong
-KG(5,2).
+\mathsf H_4^{(5)}|_{S_2} \cong KG(5,2).
 $$
 
 Семантическое чтение:
@@ -13347,9 +12387,7 @@ $$
 Следовательно:
 
 $$
-\mathsf H_2^{(5)}|_{S_3}
-\cong
-T(5).
+\mathsf H_2^{(5)}|_{S_3} \cong T(5).
 $$
 
 А также:
@@ -13363,9 +12401,7 @@ $$
 Следовательно:
 
 $$
-\mathsf H_4^{(5)}|_{S_3}
-\cong
-KG(5,2).
+\mathsf H_4^{(5)}|_{S_3} \cong KG(5,2).
 $$
 
 Семантическое чтение:
@@ -13411,13 +12447,7 @@ $$
 Тогда:
 
 $$
-d_H(X,Y)
-=
-|X\triangle Y|
-=
-|X|+|Y|-2|X\cap Y|
-=
-5-2|X\cap Y|.
+d_H(X,Y) = |X\triangle Y| = |X|+|Y|-2|X\cap Y| = 5-2|X\cap Y|.
 $$
 
 Есть три случая.
@@ -13602,17 +12632,7 @@ $$
 Следовательно:
 
 $$
-V_5
-=
-H_A^{(5)}
-\sqcup
-H_B^{(5)}
-\sqcup
-H_C^{(5)}
-\sqcup
-H_D^{(5)}
-\sqcup
-H_E^{(5)}.
+V_5 = H_A^{(5)} \sqcup H_B^{(5)} \sqcup H_C^{(5)} \sqcup H_D^{(5)} \sqcup H_E^{(5)}.
 $$
 
 Под complement:
@@ -13624,9 +12644,7 @@ $$
 Следовательно:
 
 $$
-(V_5,\mathsf H_5^{(5)}|_{V_5})
-\cong
-5K_2.
+(V_5,\mathsf H_5^{(5)}|_{V_5}) \cong 5K_2.
 $$
 
 **Утверждение 24.1.**
@@ -13662,10 +12680,7 @@ $$
 Зададим residual relation:
 
 $$
-\Omega_5
-=
-\{(x,y)\in V_5\times V_5:
-x\neq y,\ y\neq \kappa_5(x)\}.
+\Omega_5 = \{(x,y)\in V_5\times V_5: x\neq y,\ y\neq \kappa_5(x)\}.
 $$
 
 Две vertices $V_5$ связаны тогда и только тогда, когда они не лежат в одной complement-pair.
@@ -13712,11 +12727,7 @@ $$
 $$
 
 $$
-|E(K_{2,2,2,2,2})|
-=
-\binom{5}{2}\cdot2\cdot2
-=
-40.
+|E(K_{2,2,2,2,2})| = \binom{5}{2}\cdot2\cdot2 = 40.
 $$
 
 $$
@@ -13728,13 +12739,7 @@ $$
 Residual relation $\Omega_5$ раскладывается по Hamming-distance layers:
 
 $$
-\Omega_5
-=
-\left(\mathsf H_2^{(5)}|_{S_1}\right)
-\cup
-\left(\mathsf H_2^{(5)}|_{S_4}\right)
-\cup
-\left(\mathsf H_3^{(5)}|_{S_1\times S_4,\ \mathrm{noncomp}}\right).
+\Omega_5 = \left(\mathsf H_2^{(5)}|_{S_1}\right) \cup \left(\mathsf H_2^{(5)}|_{S_4}\right) \cup \left(\mathsf H_3^{(5)}|_{S_1\times S_4,\ \mathrm{noncomp}}\right).
 $$
 
 Здесь:
@@ -13767,13 +12772,7 @@ $$
 Residual relation $\Omega_5$ имеет Hamming decomposition:
 
 $$
-\Omega_5
-=
-\left(\mathsf H_2^{(5)}|_{S_1}\right)
-\cup
-\left(\mathsf H_2^{(5)}|_{S_4}\right)
-\cup
-\left(\mathsf H_3^{(5)}|_{S_1\times S_4,\ \mathrm{noncomp}}\right).
+\Omega_5 = \left(\mathsf H_2^{(5)}|_{S_1}\right) \cup \left(\mathsf H_2^{(5)}|_{S_4}\right) \cup \left(\mathsf H_3^{(5)}|_{S_1\times S_4,\ \mathrm{noncomp}}\right).
 $$
 
 **Проверка.**
@@ -13791,9 +12790,7 @@ $$
 Laplacian spectrum graph-а $K_{2,2,2,2,2}$ равен:
 
 $$
-\mathrm{Spec}(L)
-=
-\{0,\ 8^{\times5},\ 10^{\times4}\}.
+\mathrm{Spec}(L) = \{0,\ 8^{\times5},\ 10^{\times4}\}.
 $$
 
 **Проверка.**
@@ -13858,9 +12855,7 @@ $$
 Следовательно:
 
 $$
-\mathrm{Spec}(L)
-=
-\{0,\ 8^{\times5},\ 10^{\times4}\}.
+\mathrm{Spec}(L) = \{0,\ 8^{\times5},\ 10^{\times4}\}.
 $$
 
 $$
@@ -13902,11 +12897,7 @@ $$
 Следовательно:
 
 $$
-|E(L_5)|
-=
-\frac{40\cdot14}{2}
-=
-280.
+|E(L_5)| = \frac{40\cdot14}{2} = 280.
 $$
 
 Формальный graph:
@@ -13947,9 +12938,7 @@ $$
 Rank-5 cycle atlas есть совокупность выбранных cycle-readings на разных carriers rank $5$:
 
 $$
-\mathcal C_5
-=
-(C_{10},C_{31},\mathcal C_{5C_8}),
+\mathcal C_5 = (C_{10},C_{31},\mathcal C_{5C_8}),
 $$
 
 где $C_{10}$ — выбранный Hamilton-cycle на $V_5$, $C_{31}$ — выбранный Singer-cycle на $P^{(5)}$, а $\mathcal C_{5C_8}$ — edge-disjoint cover graph-а $K_{2,2,2,2,2}$ пятью $C_8$-cycles.
@@ -14012,9 +13001,7 @@ $$
 Cover-claim:
 
 $$
-E(K_{2,2,2,2,2})
-=
-5C_8.
+E(K_{2,2,2,2,2}) = 5C_8.
 $$
 
 На signed vertices $A^\pm,B^\pm,C^\pm,D^\pm,E^\pm$ зададим пять cycles:
@@ -14047,9 +13034,7 @@ $$
 Положим:
 
 $$
-\mathcal C_{5C_8}
-=
-\{\Gamma_1,\Gamma_2,\Gamma_3,\Gamma_4,\Gamma_5\}.
+\mathcal C_{5C_8} = \{\Gamma_1,\Gamma_2,\Gamma_3,\Gamma_4,\Gamma_5\}.
 $$
 
 **Утверждение 25.3.**
@@ -14122,9 +13107,7 @@ $$
 Для явной конструкции вводится:
 
 $$
-\mathbb{F}_{32}
-=
-\mathbb{F}_2[t]/(t^5+t^2+1).
+\mathbb{F}_{32} = \mathbb{F}_2[t]/(t^5+t^2+1).
 $$
 
 Polynomial
@@ -14296,9 +13279,7 @@ $$
 complement maps:
 
 $$
-S_m^{(n)}
-\leftrightarrow
-S_{m+1}^{(n)}.
+S_m^{(n)} \leftrightarrow S_{m+1}^{(n)}.
 $$
 
 Для $n=3$:
@@ -14308,17 +13289,13 @@ m=1,
 $$
 
 $$
-S_1^{(3)}
-\leftrightarrow
-S_2^{(3)}.
+S_1^{(3)} \leftrightarrow S_2^{(3)}.
 $$
 
 Это даёт:
 
 $$
-1+2
-\leftrightarrow
-2+1.
+1+2 \leftrightarrow 2+1.
 $$
 
 Для $n=5$:
@@ -14328,17 +13305,13 @@ m=2,
 $$
 
 $$
-S_2^{(5)}
-\leftrightarrow
-S_3^{(5)}.
+S_2^{(5)} \leftrightarrow S_3^{(5)}.
 $$
 
 Это даёт:
 
 $$
-2+3
-\leftrightarrow
-3+2.
+2+3 \leftrightarrow 3+2.
 $$
 
 Rank $5$ является вторым odd middle-duality carrier после rank $3$.
@@ -14362,9 +13335,7 @@ $$
 Для irreflexive graph relations recovery имеет вид:
 
 $$
-\mathrm{rec}_{\mathrm{id}}(x)
-=
-(\{x\},\varnothing).
+\mathrm{rec}_{\mathrm{id}}(x) = (\{x\},\varnothing).
 $$
 
 Следовательно, identity graph-readings exact.
@@ -14380,9 +13351,7 @@ $$
 задаётся множество complement-pairs:
 
 $$
-B_{15}
-=
-\{\{x,\kappa_5(x)\}:x\neq P_{31}\}.
+B_{15} = \{\{x,\kappa_5(x)\}:x\neq P_{31}\}.
 $$
 
 Таких pairs ровно $15$.
@@ -14400,22 +13369,13 @@ $$
 Recovery:
 
 $$
-\mathrm{rec}_{\kappa}(\{x,\kappa_5(x)\})
-=
-(\{x,\kappa_5(x)\},\mathsf H_5^{(5)}|_{\{x,\kappa_5(x)\}}).
+\mathrm{rec}_{\kappa}(\{x,\kappa_5(x)\}) = (\{x,\kappa_5(x)\},\mathsf H_5^{(5)}|_{\{x,\kappa_5(x)\}}).
 $$
 
 Complement-pair presentation:
 
 $$
-\Pi_{\kappa}^{(5)}
-=
-\left(
-P^{(5)}\setminus\{P_{31}\},
-\mathsf H_5^{(5)}|_{P^{(5)}\setminus\{P_{31}\}},
-\pi_{\kappa},
-\mathrm{rec}_{\kappa}
-\right).
+\Pi_{\kappa}^{(5)} = \left( P^{(5)}\setminus\{P_{31}\}, \mathsf H_5^{(5)}|_{P^{(5)}\setminus\{P_{31}\}}, \pi_{\kappa}, \mathrm{rec}_{\kappa} \right).
 $$
 
 Эта presentation exact над каждой complement-pair.
@@ -14443,22 +13403,13 @@ $$
 Recovery:
 
 $$
-\mathrm{rec}_i^{(5)}(I_i)
-=
-(H_i^{(5)},\mathsf H_5^{(5)}|_{H_i^{(5)}}).
+\mathrm{rec}_i^{(5)}(I_i) = (H_i^{(5)},\mathsf H_5^{(5)}|_{H_i^{(5)}}).
 $$
 
 Presentation:
 
 $$
-\Pi_i^{\mathrm{ax},(5)}
-=
-\left(
-H_i^{(5)},
-\mathsf H_5^{(5)}|_{H_i^{(5)}},
-\pi_i^{(5)},
-\mathrm{rec}_i^{(5)}
-\right).
+\Pi_i^{\mathrm{ax},(5)} = \left( H_i^{(5)}, \mathsf H_5^{(5)}|_{H_i^{(5)}}, \pi_i^{(5)}, \mathrm{rec}_i^{(5)} \right).
 $$
 
 Это rank-5 outer analog rank-3 axial-pair reading:
@@ -14514,20 +13465,7 @@ $$
 Closure-name rank-5 atlas-а:
 
 $$
-\mathfrak A_5
-=
-\left(
-P^{(5)},
-\{S_k^{(5)}\}_{k=1}^5,
-\mathsf H_1^{(5)},\ldots,\mathsf H_5^{(5)},
-M_5,
-V_5,
-\Omega_5,
-L(K_{2,2,2,2,2}),
-\mathcal C_5,
-\Pi_\kappa^{(5)},
-\{\Pi_i^{\mathrm{ax},(5)}\}_{i\in J_5}
-\right).
+\mathfrak A_5 = \left( P^{(5)}, \{S_k^{(5)}\}_{k=1}^5, \mathsf H_1^{(5)},\ldots,\mathsf H_5^{(5)}, M_5, V_5, \Omega_5, L(K_{2,2,2,2,2}), \mathcal C_5, \Pi_\kappa^{(5)}, \{\Pi_i^{\mathrm{ax},(5)}\}_{i\in J_5} \right).
 $$
 
 $\mathfrak A_5$ имеет статус structure/package. Его компоненты являются уже построенными rank-5 carriers, relations, presentations и cycle-readings.
@@ -14638,13 +13576,7 @@ $$
 В записи через $\Lambda_n$:
 
 $$
-Q_{n+1}^*
-=
-(0\,|\,Q_n^*)
-\sqcup
-\{1\,|\,0^n\}
-\sqcup
-(1\,|\,Q_n^*).
+Q_{n+1}^* = (0\,|\,Q_n^*) \sqcup \{1\,|\,0^n\} \sqcup (1\,|\,Q_n^*).
 $$
 
 **Проверка.**
@@ -14694,19 +13626,13 @@ $$
 Total poles ранга $n$ дают при rank-lift две total poles старшего ранга и одну active complement-пару:
 
 $$
-\{0^n,1^n\}
-\leadsto
-\{0^{n+1},1^{n+1}\}
-\sqcup
-H_{\mathrm{new}}^{(n+1)},
+\{0^n,1^n\} \leadsto \{0^{n+1},1^{n+1}\} \sqcup H_{\mathrm{new}}^{(n+1)},
 $$
 
 где
 
 $$
-H_{\mathrm{new}}^{(n+1)}
-=
-\{1\,|\,0^n,\ 0\,|\,1^n\}.
+H_{\mathrm{new}}^{(n+1)} = \{1\,|\,0^n,\ 0\,|\,1^n\}.
 $$
 
 **Проверка.**
@@ -14745,21 +13671,13 @@ $$
 **Утверждение 26.10.**
 
 $$
-\kappa_{n+1}(\varepsilon\,|\,x)
-=
-(1+\varepsilon)\,|\,\kappa_n(x).
+\kappa_{n+1}(\varepsilon\,|\,x) = (1+\varepsilon)\,|\,\kappa_n(x).
 $$
 
 **Проверка.**
 
 $$
-\kappa_{n+1}(\varepsilon\,|\,x)
-=
-(\varepsilon\,|\,x)+1^{n+1}
-=
-(\varepsilon+1)\,|\,(x+1^n)
-=
-(1+\varepsilon)\,|\,\kappa_n(x).
+\kappa_{n+1}(\varepsilon\,|\,x) = (\varepsilon\,|\,x)+1^{n+1} = (\varepsilon+1)\,|\,(x+1^n) = (1+\varepsilon)\,|\,\kappa_n(x).
 $$
 
 $$
@@ -14899,16 +13817,7 @@ $$
 Closure-name общего rank-growth слоя:
 
 $$
-\mathfrak N
-=
-\left(
-\mathcal Q,
-\Lambda_n,
-\varepsilon\,|\,x,
-\kappa_n,
-S_k^{(n)}\leadsto S_k^{(n+1)}\sqcup S_{k+1}^{(n+1)},
-H_{\mathrm{new}}^{(n+1)}
-\right)_{n\geq1}.
+\mathfrak N = \left( \mathcal Q, \Lambda_n, \varepsilon\,|\,x, \kappa_n, S_k^{(n)}\leadsto S_k^{(n+1)}\sqcup S_{k+1}^{(n+1)}, H_{\mathrm{new}}^{(n+1)} \right)_{n\geq1}.
 $$
 
 $\mathfrak N$ имеет статус structure/package общего закона роста rank-а.
@@ -14950,9 +13859,7 @@ $$
 Для $i\in\{1,\ldots,n\}$:
 
 $$
-H_i^{(n)}=\{e_i,\kappa_n(e_i)\}
-=
-\{e_i,1^n-e_i\}\subset V_n.
+H_i^{(n)}=\{e_i,\kappa_n(e_i)\} = \{e_i,1^n-e_i\}\subset V_n.
 $$
 
 **Утверждение 27.4.**
@@ -15032,17 +13939,13 @@ $$
 Recovery datum:
 
 $$
-\mathrm{rec}_i(I_i^{(n)})
-=
-(H_i^{(n)},\mathsf H_n^{(n)}|_{H_i^{(n)}}).
+\mathrm{rec}_i(I_i^{(n)}) = (H_i^{(n)},\mathsf H_n^{(n)}|_{H_i^{(n)}}).
 $$
 
 Presentation:
 
 $$
-\Pi_i^{\mathrm{ax},(n)}
-=
-(H_i^{(n)},\mathsf H_n^{(n)}|_{H_i^{(n)}},\pi_i,\mathrm{rec}_i).
+\Pi_i^{\mathrm{ax},(n)} = (H_i^{(n)},\mathsf H_n^{(n)}|_{H_i^{(n)}},\pi_i,\mathrm{rec}_i).
 $$
 
 **Утверждение 27.9.**
@@ -15158,11 +14061,7 @@ $$
 другими edges. Тогда:
 
 $$
-|E(L_n)|
-=
-\frac{2n(n-1)(4n-6)}{2}
-=
-2n(n-1)(2n-3).
+|E(L_n)| = \frac{2n(n-1)(4n-6)}{2} = 2n(n-1)(2n-3).
 $$
 
 $$
@@ -15182,18 +14081,7 @@ $$
 Closure-name universal outer-shell слоя:
 
 $$
-\mathfrak V
-=
-\left(
-V_n,
-I_n,
-\Sigma,
-\{H_i^{(n)}\}_{i=1}^n,
-\{\Pi_i^{\mathrm{ax},(n)}\}_{i=1}^n,
-\Omega_n,
-K_{\underbrace{2,\ldots,2}_{n}},
-L_n
-\right)_{n\geq3}.
+\mathfrak V = \left( V_n, I_n, \Sigma, \{H_i^{(n)}\}_{i=1}^n, \{\Pi_i^{\mathrm{ax},(n)}\}_{i=1}^n, \Omega_n, K_{\underbrace{2,\ldots,2}_{n}}, L_n \right)_{n\geq3}.
 $$
 
 $\mathfrak V$ имеет статус structure/package universal outer shell-а.
