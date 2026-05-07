@@ -33,53 +33,55 @@ This note is an algebraic bridge from the six-state finite core of DOT to a stan
 The source side is finite. It consists of the six admissible binary states
 
 $$
+\begin{aligned}
 X=\{100,010,001,011,101,110\},
+\end{aligned}
 $$
 
 the two-triangle relation
 
 $$
+\begin{aligned}
 (X,R_2)\cong K_3\sqcup K_3,
+\end{aligned}
 $$
 
 and the complement involution
 
 $$
+\begin{aligned}
 c(x)=1-x.
+\end{aligned}
 $$
 
 The target side is algebraic. After the standard linear realization of one triangle as the three coordinate weights $e_1,e_2,e_3$, the edge differences give the root system of type $A_2$. The two triangles then read as the weight diagrams of the fundamental module and its dual:
 
 $$
+\begin{aligned}
 \mathbf 3\oplus\overline{\mathbf 3}.
+\end{aligned}
 $$
 
 From this root datum one obtains the standard Chevalley realization of $\mathfrak{sl}_3(\mathbb C)$. After choosing the standard Hermitian form, the compact real form $\mathfrak{su}(3)$ is recovered in the usual Lie-theoretic sense.
 
 The bridge records the following correspondence: the same six-state datum that appears in the strict finite core admits a precise algebraic reading by two triangles, a complement exchange, an $A_2$ root datum, and the standard $3\oplus\bar 3$ representation package. In this role, a bridge adds no new native objects to the strict finite core. It gives a controlled external realization of already constructed finite data.
 
-The boundary is part of the statement. The finite datum $(X,$R_2$,c)$ does not contain a physical gauge theory, particle dynamics, or the Lie group $SU(3)$ as a geometric object. Those require additional structures. This note proves only the finite-to-algebraic reconstruction described below.
+The boundary is part of the statement. The finite datum $(X,R_2,c)$ does not contain a physical gauge theory, particle dynamics, or the Lie group $SU(3)$ as a geometric object. Those require additional structures. This note proves only the finite-to-algebraic reconstruction described below.
 
 ## Abstract
 
 We consider the six-point subset
 
 $$
+\begin{aligned}
 X=\{100,010,001,011,101,110\}\subset \{0,1\}^3
+\end{aligned}
 $$
 
 equipped with:
 
-1. the involution
-$$
-   c(x)=1-x,
-$$
-
-   where subtraction is taken coordinatewise;
-2. the relation $R_2$ consisting of the edges inside the two triples
-$$
-   \{100,010,001\},\qquad \{011,101,110\}.
-$$
+1. the involution $c(x)=1-x$, where subtraction is taken coordinatewise;
+2. the relation $R_2$ consisting of the edges inside the two triples $\{100,010,001\}$ and $\{011,101,110\}$.
 
 We prove that this finite combinatorial datum determines a canonical combinatorial model of:
 
@@ -107,7 +109,7 @@ the finite six-state combinatorial datum itself.
 
 In DOT language, this is the strict finite nucleus of the theory. In the present note,
 the same object is read externally in standard mathematical language as the finite datum
-$(X,$R_2$,c)$.
+$(X,R_2,c)$.
 
 So the claim of this note is intentionally limited:
 
@@ -122,25 +124,33 @@ So the claim of this note is intentionally limited:
 Write
 
 $$
+\begin{aligned}
 X_1=\{100,010,001\},\qquad X_2=\{011,101,110\}.
+\end{aligned}
 $$
 
 The relation $R_2$ is the union of the two triangles on $X_1$ and $X_2$:
 
 $$
+\begin{aligned}
 R_2 = K_3(X_1)\ \sqcup\ K_3(X_2).
+\end{aligned}
 $$
 
 The involution $c(x)=1-x$ exchanges the two triangles:
 
 $$
+\begin{aligned}
 100\leftrightarrow 011,\qquad 010\leftrightarrow 101,\qquad 001\leftrightarrow 110.
+\end{aligned}
 $$
 
 We use the standard embedding
 
 $$
+\begin{aligned}
 100\mapsto e_1,\qquad 010\mapsto e_2,\qquad 001\mapsto e_3
+\end{aligned}
 $$
 
 into $\mathbb R^3$, where $e_1,e_2,e_3$ are the standard basis vectors.
@@ -155,22 +165,23 @@ algebra is understood relative to this standard realization.
 The set $X$ splits into two 3-point sectors:
 
 $$
+\begin{aligned}
 X=X_1\sqcup X_2.
+\end{aligned}
 $$
 
 We interpret:
 
 - $X_1$ as the weight diagram of the fundamental representation $\mathbf 3$;
 - $X_2$ as the weight diagram of the dual representation $\overline{\mathbf 3}$;
-- $c$ as the discrete exchange
-$$
-  \mathbf 3 \leftrightarrow \overline{\mathbf 3}.
-$$
+- $c$ as the discrete exchange $\mathbf 3 \leftrightarrow \overline{\mathbf 3}$.
 
 Thus the six-point set carries the combinatorial shape of
 
 $$
+\begin{aligned}
 \mathbf 3 \oplus \overline{\mathbf 3}.
+\end{aligned}
 $$
 
 At this stage no Lie algebra has yet been reconstructed; only the weight splitting and
@@ -183,37 +194,49 @@ the involutive exchange between the two sectors have been fixed.
 Inside the lower triangle $X_1=\{e_1,e_2,e_3\}$, the oriented edges have directions
 
 $$
+\begin{aligned}
 e_2-e_1,\qquad e_3-e_2,\qquad e_3-e_1.
+\end{aligned}
 $$
 
 Set
 
 $$
+\begin{aligned}
 \alpha_1=e_1-e_2,\qquad \alpha_2=e_2-e_3.
+\end{aligned}
 $$
 
 Then
 
 $$
+\begin{aligned}
 \alpha_1+\alpha_2=e_1-e_3.
+\end{aligned}
 $$
 
 Hence the oriented edges of the triangle realize the positive roots
 
 $$
+\begin{aligned}
 \alpha_1,\qquad \alpha_2,\qquad \alpha_1+\alpha_2,
+\end{aligned}
 $$
 
 and, after reversing orientation, the full root system
 
 $$
+\begin{aligned}
 \Delta(A_2)=\{\pm\alpha_1,\pm\alpha_2,\pm(\alpha_1+\alpha_2)\}.
+\end{aligned}
 $$
 
 This is the standard root system of type $A_2$ in the plane
 
 $$
+\begin{aligned}
 \{x_1+x_2+x_3=0\}\subset \mathbb R^3.
+\end{aligned}
 $$
 
 `∎`
@@ -225,20 +248,24 @@ $$
 With the standard Euclidean inner product,
 
 $$
+\begin{aligned}
 \langle\alpha_1,\alpha_1\rangle=2,\qquad
 \langle\alpha_2,\alpha_2\rangle=2,\qquad
 \langle\alpha_1,\alpha_2\rangle=-1.
+\end{aligned}
 $$
 
 Therefore the Cartan matrix is
 
 $$
-A_{ij}=\frac{2\langle\alpha_i,\alpha_j\rangle}{\langle\alpha_j,\alpha_j\rangle}
-=
-\begin{pmatrix}
-2 & -1\
+\begin{aligned}
+A_{ij}
+&= \frac{2\langle\alpha_i,\alpha_j\rangle}{\langle\alpha_j,\alpha_j\rangle}\\
+&= \begin{pmatrix}
+2 & -1\\
 -1 & 2
 \end{pmatrix}.
+\end{aligned}
 $$
 
 This is the Cartan matrix of finite type $A_2$.
@@ -252,72 +279,96 @@ This is the Cartan matrix of finite type $A_2$.
 Let
 
 $$
+\begin{aligned}
 V=\mathbb C^3
+\end{aligned}
 $$
 
 with basis vectors
 
 $$
+\begin{aligned}
 v_1=|100\rangle,\qquad v_2=|010\rangle,\qquad v_3=|001\rangle.
+\end{aligned}
 $$
 
 Let $E_{ij}$ denote the standard matrix units. Define
 
 $$
+\begin{aligned}
 e_1=E_{12},\qquad e_2=E_{23},\qquad
 f_1=E_{21},\qquad f_2=E_{32},
+\end{aligned}
 $$
 
 $$
+\begin{aligned}
 h_1=[e_1,f_1]=\mathrm{diag}(1,-1,0),\qquad
 h_2=[e_2,f_2]=\mathrm{diag}(0,1,-1).
+\end{aligned}
 $$
 
 Direct computation gives
 
 $$
+\begin{aligned}
 [h_i,h_j]=0,
+\end{aligned}
 $$
 
 $$
+\begin{aligned}
 [h_i,e_j]=A_{ij}e_j,\qquad
 [h_i,f_j]=-A_{ij}f_j,
+\end{aligned}
 $$
 
 $$
+\begin{aligned}
 [e_i,f_j]=\delta_{ij}h_i,
+\end{aligned}
 $$
 
 and the Serre relations
 
 $$
+\begin{aligned}
 (\mathrm{ad}e_1)^2e_2=0,\qquad
 (\mathrm{ad}e_2)^2e_1=0,
+\end{aligned}
 $$
 
 $$
+\begin{aligned}
 (\mathrm{ad}f_1)^2f_2=0,\qquad
 (\mathrm{ad}f_2)^2f_1=0.
+\end{aligned}
 $$
 
 Further,
 
 $$
+\begin{aligned}
 e_3=[e_1,e_2]=E_{13},\qquad
 f_3=[f_2,f_1]=E_{31}.
+\end{aligned}
 $$
 
 The eight matrices
 
 $$
+\begin{aligned}
 E_{12},E_{23},E_{13},E_{21},E_{32},E_{31},h_1,h_2
+\end{aligned}
 $$
 
 form a basis of the trace-zero matrix algebra. Hence the Lie algebra generated by the
 Chevalley data is exactly
 
 $$
+\begin{aligned}
 \mathfrak{sl}_3(\mathbb C).
+\end{aligned}
 $$
 
 By the Chevalley-Serre theorem, this is the unique complex semisimple Lie algebra of
@@ -332,23 +383,31 @@ type $A_2$.
 Set
 
 $$
+\begin{aligned}
 W=V\oplus V^\ast
+\end{aligned}
 $$
 
 with basis
 
 $$
+\begin{aligned}
 v_1=|100\rangle,\quad v_2=|010\rangle,\quad v_3=|001\rangle,
+\end{aligned}
 $$
 
 $$
+\begin{aligned}
 w_1=|011\rangle,\quad w_2=|101\rangle,\quad w_3=|110\rangle.
+\end{aligned}
 $$
 
 Define the block representation
 
 $$
+\begin{aligned}
 \rho(X)=X\oplus(-X^\top),\qquad X\in\mathfrak{sl}_3(\mathbb C).
+\end{aligned}
 $$
 
 Then:
@@ -361,19 +420,25 @@ Then:
 For example,
 
 $$
+\begin{aligned}
 e_1:v_2\mapsto v_1,\qquad e_2:v_3\mapsto v_2,\qquad e_3:v_3\mapsto v_1,
+\end{aligned}
 $$
 
 while on the dual sector,
 
 $$
+\begin{aligned}
 e_1:w_1\mapsto -w_2,\qquad e_2:w_2\mapsto -w_3,\qquad e_3:w_1\mapsto -w_3.
+\end{aligned}
 $$
 
 Thus the six-state combinatorial model realizes precisely
 
 $$
+\begin{aligned}
 \mathbf 3\oplus\overline{\mathbf 3}.
+\end{aligned}
 $$
 
 In particular, this is **not** a claim that the six-state space carries a new irreducible
@@ -392,32 +457,44 @@ between the fundamental and dual sectors.
 Up to this point we have reconstructed only the complex Lie algebra
 
 $$
+\begin{aligned}
 \mathfrak{sl}_3(\mathbb C).
+\end{aligned}
 $$
 
 To obtain the compact real form, endow $V=\mathbb C^3$ with the standard Hermitian form
 for which $v_1,v_2,v_3$ are orthonormal. Then
 
 $$
+\begin{aligned}
 \mathfrak{su}(3)=\{X\in \mathfrak{sl}_3(\mathbb C): X^\ast=-X\}.
+\end{aligned}
 $$
 
 A standard real basis is
 
 $$
+\begin{aligned}
 ih_1,\quad ih_2,
+\end{aligned}
 $$
 
 $$
+\begin{aligned}
 E_{12}-E_{21},\quad i(E_{12}+E_{21}),
+\end{aligned}
 $$
 
 $$
+\begin{aligned}
 E_{23}-E_{32},\quad i(E_{23}+E_{32}),
+\end{aligned}
 $$
 
 $$
+\begin{aligned}
 E_{13}-E_{31},\quad i(E_{13}+E_{31}).
+\end{aligned}
 $$
 
 These eight matrices are anti-Hermitian, traceless, and linearly independent over
