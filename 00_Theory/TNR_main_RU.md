@@ -485,15 +485,11 @@ $$
 \qquad
 R_P|_{\pi^{-1}(I)}=R_P,
 $$
-
 поэтому
-
 $$
 \mathrm{rec}_P(I)=(P,R_P) = \bigl(\pi^{-1}(I),R_P|_{\pi^{-1}(I)}\bigr).
 $$
-
 Сжатая запись:
-
 $$
 \lbrace a,-a\rbrace\xrightarrow{\pi} I,
 \qquad
@@ -538,15 +534,11 @@ $$
 \Longleftrightarrow
 (f(x),f(y))\in R_P,
 $$
-
 и
-
 $$
 \pi\circ f=\pi.
 $$
-
 Множество таких автоморфизмов обозначается
-
 $$
 \mathrm{Aut}_I(P,R_P).
 $$
@@ -697,9 +689,7 @@ c'(a)=1,
 \qquad
 c'(-a)=0,
 $$
-
 то
-
 $$
 c'=s\circ c,
 \qquad
@@ -715,9 +705,7 @@ c\circ\tau\circ c^{-1}(x)=x+1
 \qquad
 x\in\mathbb{F}_2.
 $$
-
 Проверка:
-
 $$
 0\mapsto 1,
 \qquad
@@ -771,17 +759,13 @@ a\mapsto 0,
 \qquad
 -a\mapsto 1.
 $$
-
 Reading сохраняется при этой замене:
-
 $$
 q_1(c(x))=\pi(x)
 \qquad
 x\in P.
 $$
-
 Relation и recovery datum также переносятся по $c$:
-
 $$
 (c\times c)(R_P)=R_1^{\mathrm{pol}},
 $$
@@ -974,69 +958,47 @@ $$
 \qquad
 y\in Q_{n-1}.
 $$
-
 Если
-
 $$
 \varepsilon=0,
 $$
-
 то
-
 $$
 x=y.
 $$
-
 Так как $x\neq 0^n$, получаем
-
 $$
 y\in Q_{n-1}^*.
 $$
-
 Значит,
-
 $$
 x\in Q_{n-1}^*.
 $$
-
 Если
-
 $$
 \varepsilon=1,
 $$
-
 то
-
 $$
 x=e_n+y.
 $$
-
 При
-
 $$
 y=0
 $$
-
 получаем
-
 $$
 x=e_n.
 $$
-
 При
-
 $$
 y\neq0
 $$
-
 получаем
-
 $$
 x\in e_n+Q_{n-1}^*.
 $$
-
 Три случая не пересекаются. Следовательно,
-
 $$
 Q_n^* = Q_{n-1}^* \sqcup \lbrace e_n\rbrace \sqcup (e_n+Q_{n-1}^*).
 $$
@@ -1360,9 +1322,7 @@ $$
 \qquad
 01\leftrightarrow 11.
 $$
-
 Оба swap-а продолжают локальный закон ранга $1$:
-
 $$
 x\mapsto x+1.
 $$
@@ -1637,9 +1597,7 @@ $$
 \qquad
 \lbrace 01,10\rbrace.
 $$
-
 Каждая компонента является полным графом на двух вершинах, то есть $K_2$. Следовательно,
-
 $$
 (Q_2,H_2^{(2)})\cong K_2\sqcup K_2=2K_2.
 $$
@@ -1874,9 +1832,7 @@ $$
 \qquad
 11.
 $$
-
 Иными словами, в $Q_2$ это состояния
-
 $$
 x_2=x_1.
 $$
@@ -1992,9 +1948,7 @@ x\neq y
 \quad\Longrightarrow\quad
 (x,y)\in R_{K_4}^{(2)}.
 $$
-
 У carrier-а $Q_2$ четыре состояния. Полный граф на четырёх вершинах есть $K_4$. Следовательно,
-
 $$
 (Q_2,R_{K_4}^{(2)})\cong K_4.
 $$
@@ -2547,15 +2501,11 @@ S_0^{(3)}=\lbrace 000\rbrace,
 \qquad
 S_3^{(3)}=\lbrace 111\rbrace.
 $$
-
 После puncture остаются средние shell-и:
-
 $$
 X_{\mathrm{adm}} = S_1^{(3)} \sqcup S_2^{(3)}.
 $$
-
 То есть
-
 $$
 X_{\mathrm{adm}} = \lbrace 001,010,100\rbrace \sqcup \lbrace 011,101,110\rbrace.
 $$
@@ -2786,9 +2736,7 @@ $$
 \quad\Longleftrightarrow\quad
 d_H(x,y)=1.
 $$
-
 Неориентированные рёбра $R_1$:
-
 $$
 001\leftrightarrow 011,
 $$
@@ -2853,9 +2801,7 @@ $$
 \quad\Longleftrightarrow\quad
 d_H(x,y)=2.
 $$
-
 **Утверждение 6.3.**
-
 $$
 (X_{\mathrm{adm}},R_2) \cong K_3\sqcup K_3.
 $$
@@ -2868,9 +2814,7 @@ x,y\in S_1^{(3)},
 \qquad
 x\neq y.
 $$
-
 Оба состояния имеют вес $1$, и их единицы стоят в разных координатах. Поэтому $x+y$ имеет вес $2$, то есть
-
 $$
 d_H(x,y)=2.
 $$
@@ -2884,9 +2828,7 @@ x,y\in S_2^{(3)},
 \qquad
 x\neq y.
 $$
-
 Оба состояния имеют вес $2$, и их нули стоят в разных координатах. При сложении $x+y$ остаются ровно две единицы. Поэтому
-
 $$
 d_H(x,y)=2.
 $$
@@ -2900,27 +2842,19 @@ x\in S_1^{(3)},
 \qquad
 y\in S_2^{(3)},
 $$
-
 то возможны только значения
-
 $$
 d_H(x,y)=1
 $$
-
 или
-
 $$
 d_H(x,y)=3.
 $$
-
 Значение $2$ между shell-ами не возникает. Следовательно,
-
 $$
 (X_{\mathrm{adm}},R_2) \cong K_3\sqcup K_3.
 $$
-
 Каждый $K_3$ содержит $3$ ребра, поэтому
-
 $$
 |E(R_2)|=6.
 $$
@@ -2941,21 +2875,15 @@ $$
 \quad\Longleftrightarrow\quad
 d_H(x,y)=3.
 $$
-
 Для трёхбитных состояний это равносильно
-
 $$
 y=x+111.
 $$
-
 По Утверждению 5.6 (§5.8), complement-инволюция переводит
-
 $$
 S_1^{(3)} \leftrightarrow S_2^{(3)}.
 $$
-
 Она разбивает $X_{\mathrm{adm}}$ на три complement-пары:
-
 $$
 001\leftrightarrow110,
 $$
@@ -3008,9 +2936,7 @@ $$
 \qquad
 \lbrace 100,011\rbrace.
 $$
-
 Каждая пара имеет тип $K_2$, а между разными complement-парами relation $R_3$ рёбер не задаёт. Следовательно,
-
 $$
 (X_{\mathrm{adm}},R_3)\cong 3K_2.
 $$
@@ -3103,9 +3029,7 @@ S_1^{(3)},
 \qquad
 S_2^{(3)}.
 $$
-
 В §6 используется relation-order, задаваемый Hamming-distance:
-
 $$
 d_H=1,
 \qquad
@@ -3113,21 +3037,15 @@ d_H=2,
 \qquad
 d_H=3.
 $$
-
 Relation $R_1$ чередует shell-и и даёт
-
 $$
 C_6.
 $$
-
 Relation $R_2$ читает каждый shell отдельно и даёт
-
 $$
 K_3\sqcup K_3.
 $$
-
 Relation $R_3$ связывает shell-и complement-парами и даёт
-
 $$
 3K_2.
 $$
@@ -3205,21 +3123,15 @@ x,y\in X_{\mathrm{adm}},
 \qquad
 x\neq y,
 $$
-
 имеем
-
 $$
 (x,y)\in R_{12}
 $$
-
 тогда и только тогда, когда
-
 $$
 d_H(x,y)=1
 $$
-
 или
-
 $$
 d_H(x,y)=2.
 $$
@@ -3368,39 +3280,27 @@ y\in \beta_j,
 \qquad
 i\neq j.
 $$
-
 Тогда $y$ находится вне complement-пары $x$. Поэтому
-
 $$
 d_H(x,y)\neq 3.
 $$
-
 Так как
-
 $$
 x\neq y
 $$
-
 и оба состояния лежат в $Q_3$, остаются только два возможных значения:
-
 $$
 d_H(x,y)=1
 $$
-
 или
-
 $$
 d_H(x,y)=2.
 $$
-
 По определению $R_{12}$ это даёт
-
 $$
 (x,y)\in R_{12}.
 $$
-
 Следовательно, вершины из разных $\beta_i$ соединены всеми возможными рёбрами, а внутри одной $\beta_i$ рёбер нет. Это ровно структура
-
 $$
 K_{2,2,2}.
 $$
@@ -3413,21 +3313,15 @@ $$
 \qquad
 |E(R_2)|=6.
 $$
-
 По Утверждению 6.5 отношения $R_1$ и $R_2$ не пересекаются. Поэтому
-
 $$
 |E(R_{12})| = |E(R_1)|+|E(R_2)| = 6+6 = 12.
 $$
-
 С другой стороны, в $K_{2,2,2}$ есть три пары долей, а между каждой парой долей проходит
-
 $$
 2\cdot2=4
 $$
-
 ребра. Поэтому
-
 $$
 |E(K_{2,2,2})| = 3\cdot4 = 12.
 $$
@@ -3465,9 +3359,7 @@ u\sim v
 \quad\Longleftrightarrow\quad
 u\neq v \land u\neq -v.
 $$
-
 Противоположные пары:
-
 $$
 E_1=\lbrace +e_1,-e_1\rbrace,
 $$
@@ -3614,15 +3506,11 @@ $$
 \qquad
 011\mapsto -e_3.
 $$
-
 При этом
-
 $$
 \beta_1=\lbrace 001,110\rbrace
 $$
-
 переходит в
-
 $$
 E_1=\lbrace +e_1,-e_1\rbrace,
 $$
@@ -3722,9 +3610,7 @@ S_1^{(3)}\mapsto K_3,
 \qquad
 S_2^{(3)}\mapsto K_3.
 $$
-
 В §7 используется другое разложение:
-
 $$
 X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3.
 $$
@@ -3801,9 +3687,7 @@ y\in\beta_j,
 \qquad
 i\neq j
 $$
-
 даёт
-
 $$
 (x,y)\in R_{12},
 $$
@@ -3859,9 +3743,7 @@ C\subset X_{\mathrm{adm}},
 \qquad
 |C|=3,
 $$
-
 следующие условия эквивалентны:
-
 $$
 C\in \mathrm{Cham}(O_3);
 $$
@@ -3920,9 +3802,7 @@ $$
 \quad
 \beta_3.
 $$
-
 В каждой паре есть два выбора. Поэтому
-
 $$
 |\mathrm{Cham}(O_3)| = 2\cdot 2\cdot 2 = 8.
 $$
@@ -3947,9 +3827,7 @@ $$
 \beta_2,
 \beta_3.
 $$
-
 Внутри каждой пары выберем двоичную маркировку:
-
 $$
 b_1^0=001,
 \qquad
@@ -4213,9 +4091,7 @@ b_3^0=100,
 \qquad
 b_3^1=011.
 $$
-
 То есть
-
 $$
 \beta_1=\lbrace b_1^0,b_1^1\rbrace,
 \qquad
@@ -4546,9 +4422,7 @@ x=b_i^\eta,
 \qquad
 y=b_j^\mu.
 $$
-
 Тогда
-
 $$
 \mathrm{Star}(x) = \lbrace C_\varepsilon:\varepsilon_i=\eta\rbrace,
 $$
@@ -4576,9 +4450,7 @@ $$
 \qquad
 \varepsilon_i=\mu
 $$
-
 несовместимы. Поэтому
-
 $$
 \mathrm{Star}(x)\cap\mathrm{Star}(y)=\varnothing.
 $$
@@ -4598,15 +4470,11 @@ $$
 \qquad
 \varepsilon_j=\mu
 $$
-
 фиксируют две координаты $\varepsilon$, а третья остаётся свободной. Поэтому существует ровно две камеры, содержащие одновременно $x$ и $y$:
-
 $$
 |\mathrm{Star}(x)\cap\mathrm{Star}(y)|=2.
 $$
-
 По §7 relation $R_{12}$ связывает ровно вершины из разных complement-пар и не связывает две вершины одной complement-пары. Следовательно,
-
 $$
 (x,y)\in R_{12}
 \quad\Longleftrightarrow\quad
@@ -4673,15 +4541,11 @@ $$
 \quad\Longleftrightarrow\quad
 C\neq D \land |C\cap D|=2.
 $$
-
 Но $C$ и $D$ в §8 уже являются vertex-support-ами камер, поэтому
-
 $$
 C\cap D = \mathrm{Vert}(C)\cap\mathrm{Vert}(D).
 $$
-
 Также по §8.6:
-
 $$
 |C_\varepsilon\cap C_\delta|=2 \quad\Longleftrightarrow\quad d_H(\varepsilon,\delta)=1.
 $$
@@ -4723,16 +4587,12 @@ b_2^1,
 b_3^0,
 b_3^1.
 $$
-
 Пусть столбцы индексируются камерами в порядке, согласованном с bit-order §3.6:
-
 $$
 C_{000},C_{001},C_{010},C_{011},
 C_{100},C_{101},C_{110},C_{111}.
 $$
-
 Здесь индекс $abc$ у $C_{abc}$ означает
-
 $$
 a=\varepsilon_3,
 \qquad
@@ -4749,27 +4609,19 @@ B_O
 \in
 \lbrace 0,1\rbrace^{6\times 8}
 $$
-
 с элементами
-
 $$
 (B_O)_{b_i^\eta,\varepsilon} = 1
 $$
-
 тогда и только тогда, когда
-
 $$
 (b_i^\eta,C_\varepsilon)\in\mathrm{Inc}_O.
 $$
-
 По формуле §9.2 это равносильно:
-
 $$
 (B_O)_{b_i^\eta,\varepsilon} = 1 \quad\Longleftrightarrow\quad \varepsilon_i=\eta.
 $$
-
 В выбранном порядке строк и столбцов:
-
 $$
 B_O =
 \begin{pmatrix}
@@ -4781,15 +4633,11 @@ B_O =
 0&0&0&0&1&1&1&1
 \end{pmatrix}.
 $$
-
 Каждый столбец содержит три единицы:
-
 $$
 \sum_{x\in V_O}(B_O)_{x,\varepsilon}=3.
 $$
-
 Каждая строка содержит четыре единицы:
-
 $$
 \sum_{\varepsilon\in Q_3}(B_O)_{b_i^\eta,\varepsilon}=4.
 $$
@@ -5000,31 +4848,23 @@ $$
 \quad\Longleftrightarrow\quad
 \mathrm{Star}(x)\cap\mathrm{Star}(y)\neq\varnothing.
 $$
-
 Вторая:
-
 $$
 R_{\mathrm{ch}}
 $$
-
 на chamber-side, потому что
-
 $$
 (C,D)\in R_{\mathrm{ch}}
 \quad\Longleftrightarrow\quad
 |\mathrm{Vert}(C)\cap\mathrm{Vert}(D)|=2.
 $$
-
 Дополнительно incidence relation имеет матричную форму:
-
 $$
 (B_O)_{x,C}=1
 \quad\Longleftrightarrow\quad
 (x,C)\in\mathrm{Inc}_O.
 $$
-
 Следовательно, incidence package связывает две стороны октаэдрального graph-reading-а:
-
 $$
 O_3^{(1)}
 \quad
@@ -5048,25 +4888,37 @@ $$
 
 на
 
-$$X_{\mathrm{adm}} = \lbrace \mathtt{001},\mathtt{010},\mathtt{011},\mathtt{100},\mathtt{101},\mathtt{110}\rbrace.$$
+$$
+X_{\mathrm{adm}} = \lbrace \mathtt{001},\mathtt{010},\mathtt{011},\mathtt{100},\mathtt{101},\mathtt{110}\rbrace.
+$$
 
 задано правилом:
 
-$$ (x,y)\in R_1 \quad\Longleftrightarrow\quad d_H(x,y)=1. $$
+$$
+(x,y)\in R_1 \quad\Longleftrightarrow\quad d_H(x,y)=1.
+$$
 
 Graph-reading:
 
-$$ (X_{\mathrm{adm}},R_1)\cong C_6. $$
+$$
+(X_{\mathrm{adm}},R_1)\cong C_6.
+$$
 
 Один cyclic order, совместимый с $R_1$, имеет вид:
 
-$$ \mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
+$$
+\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}.
+$$
 
 Каждая соседняя пара имеет Hamming-distance $1$:
 
-$$ d_H(\mathtt{001},\mathtt{011})=d_H(\mathtt{011},\mathtt{010})=d_H(\mathtt{010},\mathtt{110})=1. $$
+$$
+d_H(\mathtt{001},\mathtt{011})=d_H(\mathtt{011},\mathtt{010})=d_H(\mathtt{010},\mathtt{110})=1.
+$$
 
-$$ d_H(\mathtt{110},\mathtt{100})=d_H(\mathtt{100},\mathtt{101})=d_H(\mathtt{101},\mathtt{001})=1. $$
+$$
+d_H(\mathtt{110},\mathtt{100})=d_H(\mathtt{100},\mathtt{101})=d_H(\mathtt{101},\mathtt{001})=1.
+$$
 
 На уровне §6 это был только неориентированный graph-reading. В §10 добавляется orientation.
 
@@ -5076,25 +4928,35 @@ $$ d_H(\mathtt{110},\mathtt{100})=d_H(\mathtt{100},\mathtt{101})=d_H(\mathtt{101
 **Определение 10.1.**
 Зафиксируем orientation на
 
-$$ (X_{\mathrm{adm}},R_1)\cong C_6 $$
+$$
+(X_{\mathrm{adm}},R_1)\cong C_6
+$$
 
 следующим образом:
 
-$$ \mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
+$$
+\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}.
+$$
 
 Обозначим ориентированный цикл через
 
-$$ \vec C_6. $$
+$$
+\vec C_6.
+$$
 
 Этот выбор не следует из одного только отношения $R_1$. Relation $R_1$ задаёт неориентированный цикл; orientation является новым transport-данным.
 
 Обратная orientation тоже допустима:
 
-$$ \mathtt{001} \to \mathtt{101} \to \mathtt{100} \to \mathtt{110} \to \mathtt{010} \to \mathtt{011} \to \mathtt{001}. $$
+$$
+\mathtt{001} \to \mathtt{101} \to \mathtt{100} \to \mathtt{110} \to \mathtt{010} \to \mathtt{011} \to \mathtt{001}.
+$$
 
 В текущем transport-layer-е фиксируется первая orientation. Обратная orientation дала бы оператор
 
-$$ T^{-1}. $$
+$$
+T^{-1}.
+$$
 
 
 ## §10.3. Cyclic transport operator
@@ -5102,21 +4964,31 @@ $$ T^{-1}. $$
 **Определение 10.2.**
 Cyclic transport operator
 
-$$ T:X_{\mathrm{adm}}\to X_{\mathrm{adm}} $$
+$$
+T:X_{\mathrm{adm}}\to X_{\mathrm{adm}}
+$$
 
 задаётся по выбранной orientation:
 
-$$ T(\mathtt{001})=\mathtt{011}, \quad T(\mathtt{011})=\mathtt{010}, \quad T(\mathtt{010})=\mathtt{110}. $$
+$$
+T(\mathtt{001})=\mathtt{011}, \quad T(\mathtt{011})=\mathtt{010}, \quad T(\mathtt{010})=\mathtt{110}.
+$$
 
-$$ T(\mathtt{110})=\mathtt{100}, \quad T(\mathtt{100})=\mathtt{101}, \quad T(\mathtt{101})=\mathtt{001}. $$
+$$
+T(\mathtt{110})=\mathtt{100}, \quad T(\mathtt{100})=\mathtt{101}, \quad T(\mathtt{101})=\mathtt{001}.
+$$
 
 В строковой форме:
 
-$$ T:\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
+$$
+T:\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}.
+$$
 
 Оператор $T$ является биекцией множества $X_{\mathrm{adm}}$. Его обратный оператор
 
-$$ T^{-1}=T^5 $$
+$$
+T^{-1}=T^5
+$$
 
 соответствует обратной orientation.
 
@@ -5126,28 +4998,40 @@ $$ T^{-1}=T^5 $$
 **Утверждение 10.3.**
 Для каждого
 
-$$ x\in X_{\mathrm{adm}} $$
+$$
+x\in X_{\mathrm{adm}}
+$$
 
 имеем:
 
-$$ (x,T(x))\in R_1. $$
+$$
+(x,T(x))\in R_1.
+$$
 
 **Проверка.**
 По определению $T$ каждая пара
 
-$$ x \to T(x) $$
+$$
+x \to T(x)
+$$
 
 является соседней парой в цикле
 
-$$ \mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
+$$
+\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}.
+$$
 
 Этот цикл есть graph-reading отношения $R_1$. Следовательно,
 
-$$ d_H(x,T(x))=1, $$
+$$
+d_H(x,T(x))=1,
+$$
 
 то есть
 
-$$ (x,T(x))\in R_1. $$
+$$
+(x,T(x))\in R_1.
+$$
 
 $$
 \Box
@@ -5161,37 +5045,53 @@ $$
 **Определение 10.4.**
 Directed transport relation есть отношение
 
-$$ \vec R_T \subset X_{\mathrm{adm}}\times X_{\mathrm{adm}} $$
+$$
+\vec R_T \subset X_{\mathrm{adm}}\times X_{\mathrm{adm}}
+$$
 
 такое, что
 
-$$ (x,y)\in\vec R_T \quad\Longleftrightarrow\quad y=T(x). $$
+$$
+(x,y)\in\vec R_T \quad\Longleftrightarrow\quad y=T(x).
+$$
 
 То есть
 
-$$ \vec R_T = \lbrace (x,T(x)):x\in X_{\mathrm{adm}}\rbrace. $$
+$$
+\vec R_T = \lbrace (x,T(x)):x\in X_{\mathrm{adm}}\rbrace.
+$$
 
 В явном виде:
 
-$$ \vec R_T = \lbrace (\mathtt{001},\mathtt{011}),(\mathtt{011},\mathtt{010}),(\mathtt{010},\mathtt{110}),(\mathtt{110},\mathtt{100}),(\mathtt{100},\mathtt{101}),(\mathtt{101},\mathtt{001}) \rbrace. $$
+$$
+\vec R_T = \lbrace (\mathtt{001},\mathtt{011}),(\mathtt{011},\mathtt{010}),(\mathtt{010},\mathtt{110}),(\mathtt{110},\mathtt{100}),(\mathtt{100},\mathtt{101}),(\mathtt{101},\mathtt{001}) \rbrace.
+$$
 
 Обратное directed relation:
 
-$$ \vec R_T^{-1} = \lbrace (T(x),x):x\in X_{\mathrm{adm}}\rbrace. $$
+$$
+\vec R_T^{-1} = \lbrace (T(x),x):x\in X_{\mathrm{adm}}\rbrace.
+$$
 
 **Следствие 10.5.**
 Симметризация directed transport relation восстанавливает $R_1$:
 
-$$ R_1 = \vec R_T \cup \vec R_T^{-1}. $$
+$$
+R_1 = \vec R_T \cup \vec R_T^{-1}.
+$$
 
 **Проверка.**
 По Утверждению 10.3:
 
-$$ \vec R_T\subset R_1. $$
+$$
+\vec R_T\subset R_1.
+$$
 
 Relation $R_1$ является симметричным неориентированным $6$-cycle-ом в directed записи: он содержит $12$ направленных пар. Relation $\vec R_T$ содержит $6$ направленных пар, по одной orientation для каждого ребра цикла. Поэтому
 
-$$ \vec R_T\cup\vec R_T^{-1} $$
+$$
+\vec R_T\cup\vec R_T^{-1}
+$$
 
 содержит обе направленности всех шести рёбер $R_1$, и совпадает с $R_1$.
 
@@ -5206,7 +5106,9 @@ $$
 
 Relation-грамматика §6 была static:
 
-$$ \mathcal R_{\mathrm{adm}}^{(3)} = \lbrace R_1, R_2, R_3\rbrace. $$
+$$
+\mathcal R_{\mathrm{adm}}^{(3)} = \lbrace R_1, R_2, R_3\rbrace.
+$$
 
 Transport-layer добавляет direction, composition, path, iteration и return. В этой записи
 
@@ -5236,31 +5138,45 @@ $$
 **Определение 10.6.**
 Path category ориентированного transport-cycle-а обозначается
 
-$$ \mathrm{Path}_T(C_6). $$
+$$
+\mathrm{Path}_T(C_6).
+$$
 
 Её объекты:
 
-$$ \mathrm{Ob}(\mathrm{Path}_T(C_6)) = X_{\mathrm{adm}}. $$
+$$
+\mathrm{Ob}(\mathrm{Path}_T(C_6)) = X_{\mathrm{adm}}.
+$$
 
 Порождающие стрелки:
 
-$$ x \to T(x) $$
+$$
+x \to T(x)
+$$
 
 для всех
 
-$$ x\in X_{\mathrm{adm}}. $$
+$$
+x\in X_{\mathrm{adm}}.
+$$
 
 Композиция задаётся итерацией:
 
-$$ x \to T(x) \to T^2(x) \to \cdots \to T^k(x). $$
+$$
+x \to T(x) \to T^2(x) \to \cdots \to T^k(x).
+$$
 
 То есть путь длины $k$ из $x$ приходит в
 
-$$ T^k(x). $$
+$$
+T^k(x).
+$$
 
 В §10 эта категория фиксирует path-composition. В §11 она факторизуется периодом
 
-$$ T^6=\mathrm{id}. $$
+$$
+T^6=\mathrm{id}.
+$$
 
 
 ## §10.8. Cyclic action до periodization
@@ -5290,9 +5206,7 @@ $$
 \qquad
 \gamma_x(k)=T^k(x).
 $$
-
 На уровне §10 это записано как итерация по $\mathbb Z$. В §11 orbit-map факторизуется через
-
 $$
 \mathbb Z/6\mathbb Z.
 $$
@@ -5310,9 +5224,7 @@ $$
 \quad\Longleftrightarrow\quad
 (Tx,Ty)\in R_k
 $$
-
 для
-
 $$
 k=1,2,3.
 $$
@@ -5329,9 +5241,7 @@ $$
 \qquad
 100\leftrightarrow011.
 $$
-
 Проверим действие $T$ на этих парах:
-
 $$
 \lbrace 001,110\rbrace\mapsto\lbrace 011,100\rbrace,
 $$
@@ -5439,23 +5349,17 @@ $$
 \quad\Longleftrightarrow\quad
 x\in C.
 $$
-
 Но
-
 $$
 x\in C
 \quad\Longleftrightarrow\quad
 T(x)\in T[C].
 $$
-
 А
-
 $$
 T[C]=T_{\mathrm{ch}}(C).
 $$
-
 Следовательно,
-
 $$
 (x,C)\in\mathrm{Inc}_O
 \quad\Longleftrightarrow\quad
@@ -5522,9 +5426,7 @@ $$
 T_Z\in
 \mathrm{Aut}(Z_O,R_O).
 $$
-
 Здесь
-
 $$
 R_O = R_{vv}\cup R_{cc}\cup R_{vc}
 $$
@@ -5577,7 +5479,9 @@ $$
 
 По определению:
 
-$$ T:\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
+$$
+T:\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}.
+$$
 
 Степень $T^0$:
 
@@ -5593,15 +5497,23 @@ $$
 
 Степень $T^2$:
 
-$$ \mathtt{001} \to \mathtt{010}, \quad \mathtt{011} \to \mathtt{110}, \quad \mathtt{010} \to \mathtt{100}. $$
+$$
+\mathtt{001} \to \mathtt{010}, \quad \mathtt{011} \to \mathtt{110}, \quad \mathtt{010} \to \mathtt{100}.
+$$
 
-$$ \mathtt{110} \to \mathtt{101}, \quad \mathtt{100} \to \mathtt{001}, \quad \mathtt{101} \to \mathtt{011}. $$
+$$
+\mathtt{110} \to \mathtt{101}, \quad \mathtt{100} \to \mathtt{001}, \quad \mathtt{101} \to \mathtt{011}.
+$$
 
 Степень $T^3$:
 
-$$ \mathtt{001} \to \mathtt{110}, \quad \mathtt{011} \to \mathtt{100}, \quad \mathtt{010} \to \mathtt{101}. $$
+$$
+\mathtt{001} \to \mathtt{110}, \quad \mathtt{011} \to \mathtt{100}, \quad \mathtt{010} \to \mathtt{101}.
+$$
 
-$$ \mathtt{110} \to \mathtt{001}, \quad \mathtt{100} \to \mathtt{011}, \quad \mathtt{101} \to \mathtt{010}. $$
+$$
+\mathtt{110} \to \mathtt{001}, \quad \mathtt{100} \to \mathtt{011}, \quad \mathtt{101} \to \mathtt{010}.
+$$
 
 Степень $T^4$:
 
@@ -5640,9 +5552,13 @@ $$
 **Проверка.**
 Проверим по таблице:
 
-$$ d_H(\mathtt{001},\mathtt{010})=d_H(\mathtt{011},\mathtt{110})=d_H(\mathtt{010},\mathtt{100})=2. $$
+$$
+d_H(\mathtt{001},\mathtt{010})=d_H(\mathtt{011},\mathtt{110})=d_H(\mathtt{010},\mathtt{100})=2.
+$$
 
-$$ d_H(\mathtt{110},\mathtt{101})=d_H(\mathtt{100},\mathtt{001})=d_H(\mathtt{101},\mathtt{011})=2. $$
+$$
+d_H(\mathtt{110},\mathtt{101})=d_H(\mathtt{100},\mathtt{001})=d_H(\mathtt{101},\mathtt{011})=2.
+$$
 
 Следовательно,
 
@@ -5673,9 +5589,13 @@ $$
 
 где
 
-$$ S_1^{(3)} = \lbrace \mathtt{001},\mathtt{010},\mathtt{100}\rbrace. $$
+$$
+S_1^{(3)} = \lbrace \mathtt{001},\mathtt{010},\mathtt{100}\rbrace.
+$$
 
-$$ S_2^{(3)} = \lbrace \mathtt{011},\mathtt{101},\mathtt{110}\rbrace. $$
+$$
+S_2^{(3)} = \lbrace \mathtt{011},\mathtt{101},\mathtt{110}\rbrace.
+$$
 
 **Утверждение 11.2.**
 
@@ -5690,11 +5610,15 @@ $$
 **Проверка.**
 На $S_1^{(3)}$:
 
-$$ \mathtt{001} \to \mathtt{010} \to \mathtt{100} \to \mathtt{001}. $$
+$$
+\mathtt{001} \to \mathtt{010} \to \mathtt{100} \to \mathtt{001}.
+$$
 
 На $S_2^{(3)}$:
 
-$$ \mathtt{011} \to \mathtt{110} \to \mathtt{101} \to \mathtt{011}. $$
+$$
+\mathtt{011} \to \mathtt{110} \to \mathtt{101} \to \mathtt{011}.
+$$
 
 Значит, $T^2$ задаёт два oriented $3$-cycle-а.
 
@@ -5726,7 +5650,9 @@ $$
 **Проверка.**
 Из таблицы $T$:
 
-$$ \mathtt{001}\mapsto\mathtt{011}, \quad \mathtt{010}\mapsto\mathtt{110}, \quad \mathtt{100}\mapsto\mathtt{101}. $$
+$$
+\mathtt{001}\mapsto\mathtt{011}, \quad \mathtt{010}\mapsto\mathtt{110}, \quad \mathtt{100}\mapsto\mathtt{101}.
+$$
 
 Значит,
 
@@ -5736,7 +5662,9 @@ $$
 
 И:
 
-$$ \mathtt{011}\mapsto\mathtt{010}, \quad \mathtt{110}\mapsto\mathtt{100}, \quad \mathtt{101}\mapsto\mathtt{001}. $$
+$$
+\mathtt{011}\mapsto\mathtt{010}, \quad \mathtt{110}\mapsto\mathtt{100}, \quad \mathtt{101}\mapsto\mathtt{001}.
+$$
 
 Значит,
 
@@ -5793,9 +5721,7 @@ T^3(100)=011=100+111,
 \qquad
 T^3(101)=010=101+111.
 $$
-
 Следовательно,
-
 $$
 T^3(x)=x+111
 $$
@@ -5811,15 +5737,11 @@ $$
 \qquad
 100\leftrightarrow011.
 $$
-
 Поэтому $T^3$ совпадает с complement-инволюцией на $X_{\mathrm{adm}}$.
-
 $$
 \Box
 $$
-
 В сжатой форме:
-
 $$
 T^3=\overline{(\cdot)}.
 $$
@@ -5842,45 +5764,31 @@ $$
 \qquad
 100\leftrightarrow011.
 $$
-
 По §11.5:
-
 $$
 (x,T^3(x))\in R_3
 $$
-
 для каждого
-
 $$
 x\in X_{\mathrm{adm}}.
 $$
-
 Более того,
-
 $$
 \vec R_{T^3}=R_3,
 $$
-
 где
-
 $$
 \vec R_{T^3}:=\lbrace (x,T^3(x)):x\in X_{\mathrm{adm}}\rbrace.
 $$
-
 Действительно, $T^3$ является инволюцией, поскольку
-
 $$
 T^3\circ T^3=T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
-
 Если
-
 $$
 (x,y)\in\vec R_{T^3},
 $$
-
 то $y=T^3(x)$, а значит $x=T^3(y)$, и
-
 $$
 (y,x)\in\vec R_{T^3}.
 $$
@@ -5901,7 +5809,9 @@ $$
 **Проверка.**
 Оператор $T$ проходит по шести состояниям:
 
-$$ \mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
+$$
+\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}.
+$$
 
 После шести шагов каждое состояние возвращается в себя. Значит,
 
@@ -5938,9 +5848,7 @@ T^k=\mathrm{id}_{X_{\mathrm{adm}}},
 \qquad
 k>0,
 $$
-
 то
-
 $$
 6\mid k.
 $$
@@ -5957,15 +5865,11 @@ $$
 101,\quad
 001.
 $$
-
 До шестого шага элемент $001$ не возвращается в себя. Следовательно, минимальное положительное $k$, для которого
-
 $$
 T^k(001)=001,
 $$
-
 равно $6$. Значит, минимальный период всего оператора $T$ равен $6$.
-
 $$
 \Box
 $$
@@ -6029,29 +5933,21 @@ T^5 & \vec R_{T^5}\subset R_1 & \text{reverse }R_1\text{-step}\\
 T^6 & \mathrm{id} & \text{full return}
 \end{array}
 $$
-
 Здесь
-
 $$
 \vec R_{T^k} = \lbrace (x,T^k(x)):x\in X_{\mathrm{adm}}\rbrace.
 $$
-
 Для $k=1$:
-
 $$
 R_1=
 \vec R_T\cup \vec R_{T^5}.
 $$
-
 Для $k=2$:
-
 $$
 R_2=
 \vec R_{T^2}\cup \vec R_{T^4}.
 $$
-
 Для $k=3$:
-
 $$
 R_3=
 \vec R_{T^3}.
@@ -6094,9 +5990,7 @@ $$
 \qquad
 \gamma_x(k)=T^k(x)
 $$
-
 факторизуется как
-
 $$
 \mathbb Z
 \xrightarrow{q_{\mathrm{per}}}
@@ -6104,15 +5998,11 @@ $$
 \xrightarrow{\tilde\gamma_x}
 X_{\mathrm{adm}},
 $$
-
 где
-
 $$
 \tilde\gamma_x([k]_6)=T^k(x).
 $$
-
 Это корректно, потому что
-
 $$
 T^{k+6}=T^k.
 $$
@@ -6157,9 +6047,7 @@ p_\beta(x)=\beta_i
 \quad
 x\in\beta_i.
 $$
-
 Оператор $T$ переводит каждую complement-пару в complement-пару:
-
 $$
 T(\beta_1)=\beta_3,
 \qquad
@@ -6167,15 +6055,11 @@ T(\beta_3)=\beta_2,
 \qquad
 T(\beta_2)=\beta_1.
 $$
-
 Поэтому $T$ индуцирует оператор
-
 $$
 \bar T:B_\beta\to B_\beta
 $$
-
 такой, что
-
 $$
 \bar T(\beta_1)=\beta_3,
 \qquad
@@ -6183,9 +6067,7 @@ $$
 \qquad
 \bar T(\beta_2)=\beta_1.
 $$
-
 Получаем коммутативность:
-
 $$
 p_\beta\circ T = \bar T\circ p_\beta.
 $$
@@ -6278,9 +6160,7 @@ $$
 :=
 T^3|_{\beta_i}.
 $$
-
 Для каждой complement-пары $T^3|_{\beta_i}$ меняет две вершины местами:
-
 $$
 T^3|_{\beta_1}:
 001\leftrightarrow110,
@@ -6295,15 +6175,11 @@ $$
 T^3|_{\beta_3}:
 100\leftrightarrow011.
 $$
-
 Поэтому holonomy после одного base-cycle-а является нетривиальной $Z_2$-инволюцией на каждом двухэлементном fiber-е:
-
 $$
 \mathrm{hol}_\beta(\beta_i)\neq\mathrm{id}_{\beta_i}.
 $$
-
 По Утверждению 11.5:
-
 $$
 (T^3)^2=T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
@@ -6555,21 +6431,15 @@ $$
 0,& i\notin A.
 \end{cases}
 $$
-
 Так как $A$ непусто и не равно $J_3$, состояние $\chi_A$ не равно ни $000$, ни $111$. Поэтому
-
 $$
 \chi_A\in X_{\mathrm{adm}}.
 $$
-
 Следовательно,
-
 $$
 \mathrm{supp}^{-1}(A)=\chi_A.
 $$
-
 Значит, support-reading является биекцией.
-
 $$
 \Box
 $$
@@ -6614,9 +6484,7 @@ A=\mathrm{supp}(x),
 \qquad
 B=\mathrm{supp}(y)
 $$
-
 имеем:
-
 $$
 (x,y)\in R_k
 \quad\Longleftrightarrow\quad
@@ -6643,27 +6511,19 @@ $$
 \qquad
 \mathrm{supp}(y).
 $$
-
 То есть
-
 $$
 \lbrace i:x_i\neq y_i\rbrace = \mathrm{supp}(x)\triangle\mathrm{supp}(y).
 $$
-
 Следовательно,
-
 $$
 d_H(x,y) = |\mathrm{supp}(x)\triangle\mathrm{supp}(y)|.
 $$
-
 По определению $R_k$ и $\rho_k$ это даёт требуемую эквивалентность.
-
 $$
 \Box
 $$
-
 Тем самым support-reading сохраняет relation-грамматику:
-
 $$
 (X_{\mathrm{adm}},R_1, R_2, R_3) \cong (\mathcal P^\circ(J_3),\rho_1,\rho_2,\rho_3).
 $$
@@ -6738,21 +6598,15 @@ M(x)\neq\varnothing,
 \qquad
 C(x)\neq\varnothing.
 $$
-
 Кроме того,
-
 $$
 |M(x)|+|C(x)|=3.
 $$
-
 Поэтому возможны только два случая:
-
 $$
 (|M(x)|,|C(x)|)=(1,2)
 $$
-
 или
-
 $$
 (|M(x)|,|C(x)|)=(2,1).
 $$
@@ -6802,23 +6656,17 @@ x\neq 000,
 \qquad
 x\neq 111.
 $$
-
 Значит,
-
 $$
 |M(x)|\neq 0,
 \qquad
 |M(x)|\neq 3.
 $$
-
 Так как ранг равен $3$, остаются только веса
-
 $$
 |M(x)|=1
 $$
-
 и
-
 $$
 |M(x)|=2.
 $$
@@ -6848,9 +6696,7 @@ $$
 \qquad
 |C(x)|=2.
 $$
-
 Shell $S_2^{(3)}$ содержит состояния профиля
-
 $$
 2+1:
 $$
@@ -6860,9 +6706,7 @@ $$
 \qquad
 |C(x)|=1.
 $$
-
 В развёрнутой форме:
-
 $$
 001:
 \quad
@@ -6886,9 +6730,7 @@ M=\lbrace 3\rbrace,
 \qquad
 C=\lbrace 1,2\rbrace;
 $$
-
 и
-
 $$
 011:
 \quad
@@ -6912,9 +6754,7 @@ M=\lbrace 2,3\rbrace,
 \qquad
 C=\lbrace 1\rbrace.
 $$
-
 Таким образом, $X_{\mathrm{adm}}$ состоит из двух асимметричных reading-профилей одного mixed carrier-а:
-
 $$
 1\mid 2
 \qquad
@@ -7187,9 +7027,7 @@ x,y\in X_{\mathrm{adm}},
 \qquad
 x\neq y,
 $$
-
 отношение
-
 $$
 (x,y)\in R_1
 $$
@@ -7203,21 +7041,15 @@ A=\mathrm{supp}(x),
 \qquad
 B=\mathrm{supp}(y),
 $$
-
 то
-
 $$
 (x,y)\in R_1
 $$
-
 тогда и только тогда, когда
-
 $$
 |A|=1,\quad |B|=2,\quad A\subset B,
 $$
-
 или
-
 $$
 |A|=2,\quad |B|=1,\quad B\subset A.
 $$
@@ -7242,21 +7074,15 @@ A=\lbrace i\rbrace,
 \qquad
 B=\lbrace i,j\rbrace,
 $$
-
 то
-
 $$
 A\triangle B=\lbrace j\rbrace,
 $$
-
 и
-
 $$
 |A\triangle B|=1.
 $$
-
 Следовательно,
-
 $$
 (x,y)\in R_1.
 $$
@@ -7337,15 +7163,11 @@ $$
 \quad\Longleftrightarrow\quad
 y=x+111.
 $$
-
 Побитовое прибавление $111$ меняет $1$ на $0$ и $0$ на $1$. Поэтому
-
 $$
 \mathrm{supp}(x+111) = J_3\setminus\mathrm{supp}(x).
 $$
-
 Следовательно,
-
 $$
 (x,y)\in R_3 \quad\Longleftrightarrow\quad \mathrm{supp}(y) = J_3\setminus\mathrm{supp}(x).
 $$
@@ -7379,15 +7201,11 @@ $$
 \quad
 \lbrace 3\rbrace\leftrightarrow\lbrace 1,2\rbrace.
 $$
-
 Таким образом, complement-pairs
-
 $$
 \beta_1,\beta_2,\beta_3
 $$
-
 получают semantic reading:
-
 $$
 \text{vertex} \leftrightarrow \text{opposite edge}.
 $$
@@ -7615,9 +7433,7 @@ A=\mathrm{supp}(x),
 \qquad
 B=\mathrm{supp}(y)
 $$
-
 имеем:
-
 $$
 (x,y)\in R_1
 \quad\Longleftrightarrow\quad
@@ -7710,9 +7526,7 @@ a(x)=I_i
 \quad\Longleftrightarrow\quad
 x\in\beta_i.
 $$
-
 Sign map
-
 $$
 \mathrm{sgn}:X_{\mathrm{adm}}\to\lbrace -,+\rbrace
 $$
@@ -7952,63 +7766,45 @@ i,j\in\lbrace 1,2,3\rbrace,
 \qquad
 \eta,\theta\in\lbrace -,+\rbrace.
 $$
-
 ### $R_3$: same axis, opposite sign
-
 $$
 (I_i^\eta,I_j^\theta)\in R_3
 $$
-
 тогда и только тогда, когда
-
 $$
 i=j,
 \qquad
 \theta\neq\eta.
 $$
-
 То есть
-
 $$
 R_3 = \text{same axis / opposite polarity}.
 $$
-
 ### $R_2$: different axis, same sign
-
 $$
 (I_i^\eta,I_j^\theta)\in R_2
 $$
-
 тогда и только тогда, когда
-
 $$
 i\neq j,
 \qquad
 \theta=\eta.
 $$
-
 То есть
-
 $$
 R_2 = \text{same shell / axis shift}.
 $$
-
 ### $R_1$: different axis, opposite sign
-
 $$
 (I_i^\eta,I_j^\theta)\in R_1
 $$
-
 тогда и только тогда, когда
-
 $$
 i\neq j,
 \qquad
 \theta\neq\eta.
 $$
-
 То есть
-
 $$
 R_1 = \text{axis shift with polarity switch}.
 $$
@@ -8054,17 +7850,13 @@ i\neq j,
 \qquad
 \theta=\eta.
 $$
-
 Для $R_1$: оставшиеся пары различных состояний имеют разные оси и разные знаки:
-
 $$
 i\neq j,
 \qquad
 \theta\neq\eta.
 $$
-
 Так как все пары различных состояний $X_{\mathrm{adm}}$ разбиваются на $R_1, R_2, R_3$, эти пары дают $R_1$.
-
 $$
 \Box
 $$
@@ -8077,21 +7869,15 @@ $$
 T:
 001\to011\to010\to110\to100\to101\to001.
 $$
-
 В axial notation:
-
 $$
 I_1^- \to I_3^+ \to I_2^- \to I_1^+ \to I_3^- \to I_2^+ \to I_1^-.
 $$
-
 На quotient carrier-е осей $I_3$ induced base-cycle имеет вид:
-
 $$
 I_1\to I_3\to I_2\to I_1.
 $$
-
 Обозначим этот $3$-cycle через
-
 $$
 \bar T_I:I_3\to I_3.
 $$
@@ -8111,9 +7897,7 @@ $$
 \qquad
 -(+)=-.
 $$
-
 Отсюда:
-
 $$
 T^2(I_i^\eta)=\bar T_I^2(I_i)^\eta,
 $$
@@ -8345,9 +8129,7 @@ R_2,
 \qquad
 R_3.
 $$
-
 Axial form из §14:
-
 $$
 R_3:
 \text{same axis / opposite sign},
@@ -8362,9 +8144,7 @@ $$
 R_1:
 \text{different axis / opposite sign}.
 $$
-
 Transport:
-
 $$
 T(I_i^\eta)=\bar T_I(I_i)^{-\eta}.
 $$
@@ -8430,21 +8210,15 @@ i\in J_3=\lbrace 1,2,3\rbrace,
 \qquad
 \varepsilon\in\mathbb{F}_2
 $$
-
 имеем:
-
 $$
 F_i^\varepsilon=\lbrace x\in Q_3:x_i=\varepsilon\rbrace.
 $$
-
 Так как одна координата фиксирована, а две свободны,
-
 $$
 F_i^\varepsilon\cong Q_2.
 $$
-
 Face-lift есть insertion-bijection
-
 $$
 \iota_i^\varepsilon:Q_2\to F_i^\varepsilon\subset Q_3,
 $$
@@ -8572,9 +8346,7 @@ $$
 \quad
 111.
 $$
-
 Поэтому
-
 $$
 F_i^\varepsilon\cap X_{\mathrm{adm}}
 $$
@@ -8657,9 +8429,7 @@ $$
 \qquad
 11\mapsto111
 $$
-
 биективно и переводит единственную неупорядоченную pole-pair двухбитного слоя в единственную неупорядоченную pole-pair трёхбитного слоя.
-
 $$
 \Box
 $$
@@ -8756,9 +8526,7 @@ I_i^-,
 \qquad
 I_i^+.
 $$
-
 По §14 они лежат на одной оси и имеют противоположные знаки. Поэтому они связаны relation $R_3$:
-
 $$
 (I_i^-,I_i^+)\in R_3,
 $$
@@ -9081,9 +8849,7 @@ $$
 \text{transport} & (Q_2^\circ,\tau_2) & (X_{\mathrm{adm}},T) & \tau_2\leadsto T^3|_{H_i},\ T\text{ globalizes}
 \end{array}
 $$
-
 Эта таблица фиксирует:
-
 $$
 Q_2\to Q_3
 $$
@@ -9709,15 +9475,11 @@ $$
 S_2^{(3)}:
 2+1.
 $$
-
 Transport-lift чередует профили:
-
 $$
 T:S_1^{(3)}\leftrightarrow S_2^{(3)}.
 $$
-
 И сохраняет профиль на втором шаге:
-
 $$
 T^2:S_\eta^{(3)}\to S_\eta^{(3)}.
 $$
@@ -9849,9 +9611,7 @@ S_1^{(3)},S_2^{(3)},
 \qquad
 Z_O,
 $$
-
 и quotient/semantic carriers
-
 $$
 B_\beta,
 \qquad
@@ -9863,17 +9623,13 @@ I_3,
 \qquad
 \Sigma=\lbrace -,+\rbrace.
 $$
-
 Relation-side на $X_{\mathrm{adm}}$:
-
 $$
 R_k=\lbrace (x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:x\neq y,\ d_H(x,y)=k\rbrace,
 \qquad
 k=1,2,3,
 $$
-
 с graph-readings:
-
 $$
 (X_{\mathrm{adm}},R_1)\cong C_6,
 $$
@@ -9941,24 +9697,18 @@ V_O=X_{\mathrm{adm}},
 \qquad
 C_O=\mathrm{Cham}(O_3).
 $$
-
 Incidence relation:
-
 $$
 (b_i^\eta,C_\varepsilon)\in\mathrm{Inc}_O
 \quad\Longleftrightarrow\quad
 \varepsilon_i=\eta.
 $$
-
 Transport package порождён operator-ом
-
 $$
 T:
 001\to011\to010\to110\to100\to101\to001.
 $$
-
 Его phase formulas:
-
 $$
 T^2:S_i^{(3)}\to S_i^{(3)},
 $$
@@ -9984,45 +9734,31 @@ $$
 \qquad
 \bar T^3=\mathrm{id}_{B_\beta}.
 $$
-
 В axial coordinates соответствующий operator:
-
 $$
 \bar T_I:I_3\to I_3.
 $$
-
 Finite fiber action после одного base-cycle:
-
 $$
 \mathrm{hol}_\beta(\beta_i)=T^3|_{\beta_i}.
 $$
-
 Internal semantic package:
-
 $$
 \mathcal A^{(3)} = \left( X_{\mathrm{adm}}, R_1, R_2, R_3, \mathrm{supp}, J_3, I_3, \Theta, \lbrace H_i\rbrace_{i=1}^3 \right).
 $$
-
 Он содержит support-reading
-
 $$
 \mathrm{supp}:X_{\mathrm{adm}}\to\mathcal P^\circ(J_3),
 $$
-
 vertex/opposite-edge reading
-
 $$
 X_{\mathrm{adm}}\cong V_\Delta\sqcup E_\Delta,
 $$
-
 и axial factorization
-
 $$
 \Theta:X_{\mathrm{adm}}\to I_3\times\lbrace -,+\rbrace.
 $$
-
 Следовательно:
-
 $$
 X_{\mathrm{adm}}\cong I_3\times\lbrace -,+\rbrace.
 $$
@@ -10132,9 +9868,7 @@ $$
 \qquad
 \iota_{3\to4}(x_3x_2x_1)=0x_3x_2x_1.
 $$
-
 То есть rank-3 carrier входит в coordinate face $\lbrace x_D=0\rbrace$ полного rank-4 carrier-а. Например:
-
 $$
 \iota_{3\to4}(111)=0111.
 $$
@@ -10277,15 +10011,11 @@ P_{14} & 1110 & BCD\\
 P_{15} & 1111 & ABCD
 \end{array}
 $$
-
 Saturation point rank $4$:
-
 $$
 P_{15}^{(4)}=1111=ABCD.
 $$
-
 При rank-lift $4\to5$:
-
 $$
 \iota_{4\to5}(P_{15}^{(4)})=01111=P_{15}^{(5)}.
 $$
@@ -10458,9 +10188,7 @@ C\leftrightarrow ABD,
 \qquad
 D\leftrightarrow ABC.
 $$
-
 Middle complement-pairs:
-
 $$
 AB\leftrightarrow CD,
 \qquad
@@ -10486,9 +10214,7 @@ AC\leftrightarrow BD,
 \qquad
 AD\leftrightarrow BC.
 $$
-
 Fixed points нет, поскольку $X=J_4\setminus X$ невозможно для subset-а $X\subset J_4$. Значит, $S_2^{(4)}$ разбивается на три пары.
-
 $$
 \Box
 $$
@@ -10603,9 +10329,7 @@ AC\leftrightarrow BD,
 \qquad
 AD\leftrightarrow BC.
 $$
-
 Эти три disjoint pairs задают три доли размера $2$. Между разными долями все vertices смежны. Поэтому graph имеет вид $K_{2,2,2}$.
-
 $$
 \Box
 $$
@@ -10657,9 +10381,7 @@ AC\leftrightarrow BD,
 \qquad
 AD\leftrightarrow BC.
 $$
-
 Поэтому $\mathsf H_4^{(4)}|_{S_2^{(4)}}$ состоит из трёх непересекающихся $K_2$-компонент.
-
 $$
 \Box
 $$
@@ -10691,9 +10413,7 @@ d_H(X,Y)=1
 \quad\Longleftrightarrow\quad
 Y\subset X.
 $$
-
 Для $X\in S_2^{(4)}$ и $Y\in S_3^{(4)}$:
-
 $$
 d_H(X,Y)=1
 \quad\Longleftrightarrow\quad
@@ -10769,29 +10489,21 @@ I_4=\lbrace I_A,I_B,I_C,I_D\rbrace,
 \qquad
 \Sigma=\lbrace -,+\rbrace.
 $$
-
 Для $i\in J_4$:
-
 $$
 I_i^-=\lbrace i\rbrace\in S_1^{(4)},
 \qquad
 I_i^+=J_4\setminus\lbrace i\rbrace\in S_3^{(4)}.
 $$
-
 Тогда:
-
 $$
 H_i^{(4)}=\lbrace I_i^-,I_i^+\rbrace.
 $$
-
 **Утверждение 20.1.**
-
 $$
 V_4\cong I_4\times\Sigma,
 $$
-
 и
-
 $$
 (V_4,\mathsf H_4^{(4)}|_{V_4})\cong 4K_2.
 $$
@@ -10808,9 +10520,7 @@ C\leftrightarrow ABD,
 \quad
 D\leftrightarrow ABC.
 $$
-
 Знак $-$ означает membership в $S_1^{(4)}$, знак $+$ — membership в $S_3^{(4)}$. Это даёт биекцию $V_4\to I_4\times\Sigma$. Relation $\mathsf H_4^{(4)}$ связывает только complement-partners, поэтому graph-reading равен $4K_2$.
-
 $$
 \Box
 $$
@@ -10892,15 +10602,11 @@ $$
 \qquad
 \pi_i^{(4)}(I_i^-)=\pi_i^{(4)}(I_i^+)=I_i.
 $$
-
 Recovery:
-
 $$
 \mathrm{rec}_i^{(4)}(I_i) = (H_i^{(4)},\mathsf H_4^{(4)}|_{H_i^{(4)}}).
 $$
-
 Presentation:
-
 $$
 \Pi_i^{\mathrm{ax},(4)} = \left( H_i^{(4)}, \mathsf H_4^{(4)}|_{H_i^{(4)}}, \pi_i^{(4)}, \mathrm{rec}_i^{(4)} \right).
 $$
@@ -11054,9 +10760,7 @@ BD\cap AD=D,
 \quad
 AD\cap AB=A.
 $$
-
 Следовательно, каждый переход имеет Hamming-distance $2$, то есть является edge relation $\mathsf H_2^{(4)}|_{S_2^{(4)}}$.
-
 $$
 \Box
 $$
@@ -11079,9 +10783,7 @@ P_1\to P_2\to P_4\to P_8\to P_3
 \to P_7\to P_{14}\to P_{15}\to P_{13}\to P_9
 \to P_1.
 $$
-
 В bits:
-
 $$
 0001\to0010\to0100\to1000\to0011
 \to0110\to1100\to1011\to0101\to1010
@@ -11140,9 +10842,7 @@ H_{AC|BD}^{\mathrm{mid}}=\lbrace AC,BD\rbrace,
 \qquad
 H_{AD|BC}^{\mathrm{mid}}=\lbrace AD,BC\rbrace.
 $$
-
 Для каждой такой middle pair $H_j^{\mathrm{mid}}$ задаётся presentation:
-
 $$
 Y_j^{\mathrm{mid}}=\lbrace I_j^{\mathrm{mid}}\rbrace.
 $$
@@ -11738,9 +11438,7 @@ P_{14}\leftrightarrow P_{17},
 \quad
 P_{15}\leftrightarrow P_{16}.
 $$
-
 Saturation point $P_{31}$ имеет complement:
-
 $$
 \kappa_5(P_{31})=00000,
 $$
@@ -11844,23 +11542,17 @@ S_1^{(3)}\leftrightarrow S_2^{(3)},
 \qquad
 3\leftrightarrow3.
 $$
-
 Rank $5$ имеет:
-
 $$
 S_2^{(5)}\leftrightarrow S_3^{(5)},
 \qquad
 10\leftrightarrow10.
 $$
-
 Семантическое чтение:
-
 $$
 \text{pair interaction} \leftrightarrow \text{triple closure}.
 $$
-
 Формальная тождественность:
-
 $$
 S_2^{(5)} \leftrightarrow S_3^{(5)} \text{ by }\kappa_5.
 $$
@@ -12013,15 +11705,11 @@ X\sim_{\cap}Y
 \quad\Longleftrightarrow\quad
 |X\cap Y|=1.
 $$
-
 Этот graph есть:
-
 $$
 T(5)=L(K_5).
 $$
-
 Подсчёты:
-
 $$
 |V(T(5))|=10,
 $$
@@ -12041,9 +11729,7 @@ X\sim_{\perp}Y
 \quad\Longleftrightarrow\quad
 X\cap Y=\varnothing.
 $$
-
 Этот graph есть:
-
 $$
 KG(5,2),
 $$
@@ -12118,9 +11804,7 @@ $$
 \qquad
 \mathsf H_4^{(5)}|_{S_2}\cong KG(5,2).
 $$
-
 При этом:
-
 $$
 |V(T(5))|=10,
 \qquad
@@ -12243,9 +11927,7 @@ X\in S_2^{(5)},
 \qquad
 Y\in S_3^{(5)}.
 $$
-
 Тогда:
-
 $$
 d_H(X,Y) = |X\triangle Y| = |X|+|Y|-2|X\cap Y| = 5-2|X\cap Y|.
 $$
@@ -12340,15 +12022,11 @@ $$
 \mathsf H_5:
 \text{pair complementary to triple}.
 $$
-
 Общий cross-edge count:
-
 $$
 30+60+10=100,
 $$
-
 что равно
-
 $$
 |S_2^{(5)}|\cdot|S_3^{(5)}|=10\cdot10.
 $$
@@ -12468,9 +12146,7 @@ I_i^-=\lbrace i\rbrace\in S_1^{(5)},
 \qquad
 I_i^+=J_5\setminus\lbrace i\rbrace\in S_4^{(5)}.
 $$
-
 Эти пары покрывают $V_5=S_1^{(5)}\sqcup S_4^{(5)}$ без пересечений, поэтому $V_5\cong I_5\times\lbrace -,+\rbrace$. Complement map меняет $I_i^-$ и $I_i^+$ внутри каждой пары и не связывает разные пары по $\mathsf H_5^{(5)}$. Следовательно, graph-reading равен $5K_2$.
-
 $$
 \Box
 $$
@@ -12627,33 +12303,23 @@ n_i=2,
 \qquad
 N=10.
 $$
-
 Следовательно:
-
 $$
 N-n_i=8
 $$
-
 с общей multiplicity
-
 $$
 5\cdot(2-1)=5,
 $$
-
 и
-
 $$
 N=10
 $$
-
 с multiplicity
-
 $$
 5-1=4.
 $$
-
 Следовательно:
-
 $$
 \mathrm{Spec}(L) = \lbrace 0,\ 8^{\times5},\ 10^{\times4}\rbrace.
 $$
@@ -12830,9 +12496,7 @@ $$
 \Gamma_5:
 A^+\to D^-\to B^+\to D^+\to C^-\to E^-\to C^+\to E^+\to A^+.
 $$
-
 Положим:
-
 $$
 \mathcal C_{5C_8} = \lbrace \Gamma_1,\Gamma_2,\Gamma_3,\Gamma_4,\Gamma_5\rbrace.
 $$
@@ -12869,15 +12533,11 @@ $$
 \Gamma_5:
 A^+D^-,\ D^-B^+,\ B^+D^+,\ D^+C^-,\ C^-E^-,\ E^-C^+,\ C^+E^+,\ E^+A^+.
 $$
-
 В этом списке $5\cdot8=40$ signed edges. Ни одно signed edge не повторяется. Graph $K_{2,2,2,2,2}$ имеет:
-
 $$
 |E|=\binom52\cdot2\cdot2=40
 $$
-
 edges. Поэтому $40$ попарно различных listed edges уже покрывают всё $E(K_{2,2,2,2,2})$.
-
 $$
 \Box
 $$
@@ -13286,17 +12946,13 @@ $$
 \qquad
 Q_n=\mathbb{F}_2^n.
 $$
-
 Для каждого $n$:
-
 $$
 0^n=(0,\ldots,0),
 \qquad
 1^n=(1,\ldots,1)
 $$
-
 обозначают total poles ранга $n$, а
-
 $$
 U_n=Q_n\setminus\lbrace 0^n,1^n\rbrace
 $$
@@ -13316,9 +12972,7 @@ $$
 (\varepsilon,x_n,\ldots,x_1)
 \in Q_{n+1}.
 $$
-
 В частности:
-
 $$
 0\,|\,0^n=0^{n+1},
 \qquad
@@ -13444,15 +13098,11 @@ $$
 0\,|\,1^n,\quad
 1\,|\,1^n.
 $$
-
 Первый равен $0^{n+1}$, последний равен $1^{n+1}$. Два средних состояния имеют веса $1$ и $n$, поэтому принадлежат нетривиальному carrier-у $U_{n+1}$. Их сумма:
-
 $$
 (1\,|\,0^n)+(0\,|\,1^n)=1\,|\,1^n=1^{n+1}.
 $$
-
 Значит, они являются complement-партнёрами.
-
 $$
 \Box
 $$
@@ -13467,15 +13117,11 @@ $$
 \qquad
 \kappa_n(x)=x+1^n.
 $$
-
 **Утверждение 26.10.**
-
 $$
 \kappa_{n+1}(\varepsilon\,|\,x) = (1+\varepsilon)\,|\,\kappa_n(x).
 $$
-
 **Проверка.**
-
 $$
 \kappa_{n+1}(\varepsilon\,|\,x) = (\varepsilon\,|\,x)+1^{n+1} = (\varepsilon+1)\,|\,(x+1^n) = (1+\varepsilon)\,|\,\kappa_n(x).
 $$
@@ -13541,23 +13187,17 @@ U_n=V_n
 \quad\Longleftrightarrow\quad
 n=3.
 $$
-
 **Проверка.**
-
 $$
 U_n=\bigsqcup_{k=1}^{n-1}S_k^{(n)},
 \qquad
 V_n=S_1^{(n)}\sqcup S_{n-1}^{(n)}.
 $$
-
 Равенство $U_n=V_n$ означает отсутствие shell-ов $S_k^{(n)}$ для $2\leq k\leq n-2$. При $n=3$ такого промежуточного $k$ нет. При $n\geq4$ shell $S_2^{(n)}$ непуст, поскольку:
-
 $$
 |S_2^{(n)}|=\binom n2>0.
 $$
-
 Значит, для $n\geq4$ имеем $S_2^{(n)}\subset U_n$, но $S_2^{(n)}\not\subset V_n$. Поэтому равенство возможно только при $n=3$.
-
 $$
 \Box
 $$
@@ -13646,9 +13286,7 @@ $$
 \qquad
 |S_{n-1}^{(n)}|=\binom n{n-1}=n.
 $$
-
 При $n\geq3$ веса $1$ и $n-1$ различны, значит shell-и не пересекаются.
-
 $$
 \Box
 $$
@@ -13703,9 +13341,7 @@ I_i^{(n),-}=e_i,
 \qquad
 I_i^{(n),+}=1^n-e_i.
 $$
-
 **Утверждение 27.7.**
-
 $$
 V_n\cong I_n\times\Sigma.
 $$
@@ -13877,9 +13513,7 @@ $$
 \qquad
 |E(L_5)|=280.
 $$
-
 Closure-name universal outer-shell слоя:
-
 $$
 \mathfrak V = \left( V_n, I_n, \Sigma, \lbrace H_i^{(n)}\rbrace_{i=1}^n, \lbrace \Pi_i^{\mathrm{ax},(n)}\rbrace_{i=1}^n, \Omega_n, K_{\underbrace{2,\ldots,2}_{n}}, L_n \right)_{n\geq3}.
 $$
@@ -13990,9 +13624,7 @@ $$
 \quad
 6,8,10,\ldots
 $$
-
 для $n\geq3$;
-
 $$
 |E(K_{\underbrace{2,\ldots,2}_{n}})|=2n(n-1):
 \quad
