@@ -15,40 +15,6 @@ Each item repeats the same mathematical content in several forms:
 $$
 y\in Q_{n-1}^*.
 $$
-Значит,
-$$
-x\in Q_{n-1}^*.
-$$
-Если
-$$
-\varepsilon=1,
-$$
-то
-$$
-x=e_n+y.
-$$
-При
-$$
-y=0
-$$
-получаем
-$$
-x=e_n.
-$$
-При
-$$
-y\neq0
-$$
-получаем
-$$
-x\in e_n+Q_{n-1}^*.
-$$
-Три случая не пересекаются. Следовательно,
-$$
-Q_n^* = Q_{n-1}^* \sqcup \lbrace e_n\rbrace \sqcup (e_n+Q_{n-1}^*).
-$$
-
-
 ---
 
 
