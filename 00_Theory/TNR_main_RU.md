@@ -5048,47 +5048,25 @@ $$
 
 на
 
-$$
-X_{\mathrm{adm}} = \lbrace 001,010,011,100,101,110\rbrace
-$$
+$$X_{\mathrm{adm}} = \lbrace \mathtt{001},\mathtt{010},\mathtt{011},\mathtt{100},\mathtt{101},\mathtt{110}\rbrace.$$
 
 задано правилом:
 
-$$
-(x,y)\in R_1
-\quad\Longleftrightarrow\quad
-d_H(x,y)=1.
-$$
+$$ (x,y)\in R_1 \quad\Longleftrightarrow\quad d_H(x,y)=1. $$
 
 Graph-reading:
 
-$$
-(X_{\mathrm{adm}},R_1)\cong C_6.
-$$
+$$ (X_{\mathrm{adm}},R_1)\cong C_6. $$
 
 Один cyclic order, совместимый с $R_1$, имеет вид:
 
-$$
-001 \to 011 \to 010 \to 110 \to 100 \to 101 \to 001.
-$$
+$$ \mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
 
 Каждая соседняя пара имеет Hamming-distance $1$:
 
-$$
-d_H(001,011)=1,
-\qquad
-d_H(011,010)=1,
-\qquad
-d_H(010,110)=1,
-$$
+$$ d_H(\mathtt{001},\mathtt{011})=d_H(\mathtt{011},\mathtt{010})=d_H(\mathtt{010},\mathtt{110})=1. $$
 
-$$
-d_H(110,100)=1,
-\qquad
-d_H(100,101)=1,
-\qquad
-d_H(101,001)=1.
-$$
+$$ d_H(\mathtt{110},\mathtt{100})=d_H(\mathtt{100},\mathtt{101})=d_H(\mathtt{101},\mathtt{001})=1. $$
 
 На уровне §6 это был только неориентированный graph-reading. В §10 добавляется orientation.
 
@@ -5098,35 +5076,25 @@ $$
 **Определение 10.1.**
 Зафиксируем orientation на
 
-$$
-(X_{\mathrm{adm}},R_1)\cong C_6
-$$
+$$ (X_{\mathrm{adm}},R_1)\cong C_6 $$
 
 следующим образом:
 
-$$
-001\to011\to010\to110\to100\to101\to001.
-$$
+$$ \mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
 
 Обозначим ориентированный цикл через
 
-$$
-\vec C_6.
-$$
+$$ \vec C_6. $$
 
 Этот выбор не следует из одного только отношения $R_1$. Relation $R_1$ задаёт неориентированный цикл; orientation является новым transport-данным.
 
 Обратная orientation тоже допустима:
 
-$$
-001\to101\to100\to110\to010\to011\to001.
-$$
+$$ \mathtt{001} \to \mathtt{101} \to \mathtt{100} \to \mathtt{110} \to \mathtt{010} \to \mathtt{011} \to \mathtt{001}. $$
 
 В текущем transport-layer-е фиксируется первая orientation. Обратная orientation дала бы оператор
 
-$$
-T^{-1}.
-$$
+$$ T^{-1}. $$
 
 
 ## §10.3. Cyclic transport operator
@@ -5134,40 +5102,21 @@ $$
 **Определение 10.2.**
 Cyclic transport operator
 
-$$
-T:X_{\mathrm{adm}}\to X_{\mathrm{adm}}
-$$
+$$ T:X_{\mathrm{adm}}\to X_{\mathrm{adm}} $$
 
 задаётся по выбранной orientation:
 
-$$
-T(001)=011,
-\qquad
-T(011)=010,
-\qquad
-T(010)=110,
-$$
+$$ T(\mathtt{001})=\mathtt{011}, \quad T(\mathtt{011})=\mathtt{010}, \quad T(\mathtt{010})=\mathtt{110}. $$
 
-$$
-T(110)=100,
-\qquad
-T(100)=101,
-\qquad
-T(101)=001.
-$$
+$$ T(\mathtt{110})=\mathtt{100}, \quad T(\mathtt{100})=\mathtt{101}, \quad T(\mathtt{101})=\mathtt{001}. $$
 
 В строковой форме:
 
-$$
-T:
-001\to011\to010\to110\to100\to101\to001.
-$$
+$$ T:\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
 
 Оператор $T$ является биекцией множества $X_{\mathrm{adm}}$. Его обратный оператор
 
-$$
-T^{-1}=T^5
-$$
+$$ T^{-1}=T^5 $$
 
 соответствует обратной orientation.
 
@@ -5177,50 +5126,34 @@ $$
 **Утверждение 10.3.**
 Для каждого
 
-$$
-x\in X_{\mathrm{adm}}
-$$
+$$ x\in X_{\mathrm{adm}} $$
 
 имеем:
 
-$$
-(x,T(x))\in R_1.
-$$
+$$ (x,T(x))\in R_1. $$
 
 **Проверка.**
 По определению $T$ каждая пара
 
-$$
-x\to T(x)
-$$
+$$ x \to T(x) $$
 
 является соседней парой в цикле
 
-$$
-001\to011\to010\to110\to100\to101\to001.
-$$
+$$ \mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
 
 Этот цикл есть graph-reading отношения $R_1$. Следовательно,
 
-$$
-d_H(x,T(x))=1,
-$$
+$$ d_H(x,T(x))=1, $$
 
 то есть
 
-$$
-(x,T(x))\in R_1.
-$$
+$$ (x,T(x))\in R_1. $$
 
 $$
 \Box
 $$
 
-В сжатой форме:
-
-$$
-T=\text{oriented }R_1\text{-step}.
-$$
+В сжатой форме: $T$ является ориентированным $R_1$-шагом.
 
 
 ## §10.5. Directed transport relation
@@ -5228,55 +5161,37 @@ $$
 **Определение 10.4.**
 Directed transport relation есть отношение
 
-$$
-\vec R_T \subset X_{\mathrm{adm}}\times X_{\mathrm{adm}}
-$$
+$$ \vec R_T \subset X_{\mathrm{adm}}\times X_{\mathrm{adm}} $$
 
 такое, что
 
-$$
-(x,y)\in\vec R_T
-\quad\Longleftrightarrow\quad
-y=T(x).
-$$
+$$ (x,y)\in\vec R_T \quad\Longleftrightarrow\quad y=T(x). $$
 
 То есть
 
-$$
-\vec R_T = \lbrace (x,T(x)):x\in X_{\mathrm{adm}}\rbrace.
-$$
+$$ \vec R_T = \lbrace (x,T(x)):x\in X_{\mathrm{adm}}\rbrace. $$
 
 В явном виде:
 
-$$
-\vec R_T = \lbrace  (001,011), (011,010), (010,110), (110,100), (100,101), (101,001) \rbrace.
-$$
+$$ \vec R_T = \lbrace (\mathtt{001},\mathtt{011}),(\mathtt{011},\mathtt{010}),(\mathtt{010},\mathtt{110}),(\mathtt{110},\mathtt{100}),(\mathtt{100},\mathtt{101}),(\mathtt{101},\mathtt{001}) \rbrace. $$
 
 Обратное directed relation:
 
-$$
-\vec R_T^{-1} = \lbrace (T(x),x):x\in X_{\mathrm{adm}}\rbrace.
-$$
+$$ \vec R_T^{-1} = \lbrace (T(x),x):x\in X_{\mathrm{adm}}\rbrace. $$
 
 **Следствие 10.5.**
 Симметризация directed transport relation восстанавливает $R_1$:
 
-$$
-R_1 = \vec R_T \cup \vec R_T^{-1}.
-$$
+$$ R_1 = \vec R_T \cup \vec R_T^{-1}. $$
 
 **Проверка.**
 По Утверждению 10.3:
 
-$$
-\vec R_T\subset R_1.
-$$
+$$ \vec R_T\subset R_1. $$
 
 Relation $R_1$ является симметричным неориентированным $6$-cycle-ом в directed записи: он содержит $12$ направленных пар. Relation $\vec R_T$ содержит $6$ направленных пар, по одной orientation для каждого ребра цикла. Поэтому
 
-$$
-\vec R_T\cup\vec R_T^{-1}
-$$
+$$ \vec R_T\cup\vec R_T^{-1} $$
 
 содержит обе направленности всех шести рёбер $R_1$, и совпадает с $R_1$.
 
@@ -5291,9 +5206,7 @@ $$
 
 Relation-грамматика §6 была static:
 
-$$
-\mathcal R_{\mathrm{adm}}^{(3)} = \lbrace R_1, R_2, R_3\rbrace.
-$$
+$$ \mathcal R_{\mathrm{adm}}^{(3)} = \lbrace R_1, R_2, R_3\rbrace. $$
 
 Transport-layer добавляет direction, composition, path, iteration и return. В этой записи
 
@@ -5323,45 +5236,31 @@ $$
 **Определение 10.6.**
 Path category ориентированного transport-cycle-а обозначается
 
-$$
-\mathrm{Path}_T(C_6).
-$$
+$$ \mathrm{Path}_T(C_6). $$
 
 Её объекты:
 
-$$
-\mathrm{Ob}(\mathrm{Path}_T(C_6)) = X_{\mathrm{adm}}.
-$$
+$$ \mathrm{Ob}(\mathrm{Path}_T(C_6)) = X_{\mathrm{adm}}. $$
 
 Порождающие стрелки:
 
-$$
-x\to T(x)
-$$
+$$ x \to T(x) $$
 
 для всех
 
-$$
-x\in X_{\mathrm{adm}}.
-$$
+$$ x\in X_{\mathrm{adm}}. $$
 
 Композиция задаётся итерацией:
 
-$$
-x \to T(x) \to T^2(x) \to \cdots \to T^k(x).
-$$
+$$ x \to T(x) \to T^2(x) \to \cdots \to T^k(x). $$
 
 То есть путь длины $k$ из $x$ приходит в
 
-$$
-T^k(x).
-$$
+$$ T^k(x). $$
 
 В §10 эта категория фиксирует path-composition. В §11 она факторизуется периодом
 
-$$
-T^6=\mathrm{id}.
-$$
+$$ T^6=\mathrm{id}. $$
 
 
 ## §10.8. Cyclic action до periodization
@@ -5678,10 +5577,7 @@ $$
 
 По определению:
 
-$$
-T:
-001\to011\to010\to110\to100\to101\to001.
-$$
+$$ T:\mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
 
 Степень $T^0$:
 
@@ -5697,39 +5593,15 @@ $$
 
 Степень $T^2$:
 
-$$
-001\to010,
-\qquad
-011\to110,
-\qquad
-010\to100,
-$$
+$$ \mathtt{001} \to \mathtt{010}, \quad \mathtt{011} \to \mathtt{110}, \quad \mathtt{010} \to \mathtt{100}. $$
 
-$$
-110\to101,
-\qquad
-100\to001,
-\qquad
-101\to011.
-$$
+$$ \mathtt{110} \to \mathtt{101}, \quad \mathtt{100} \to \mathtt{001}, \quad \mathtt{101} \to \mathtt{011}. $$
 
 Степень $T^3$:
 
-$$
-001\to110,
-\qquad
-011\to100,
-\qquad
-010\to101,
-$$
+$$ \mathtt{001} \to \mathtt{110}, \quad \mathtt{011} \to \mathtt{100}, \quad \mathtt{010} \to \mathtt{101}. $$
 
-$$
-110\to001,
-\qquad
-100\to011,
-\qquad
-101\to010.
-$$
+$$ \mathtt{110} \to \mathtt{001}, \quad \mathtt{100} \to \mathtt{011}, \quad \mathtt{101} \to \mathtt{010}. $$
 
 Степень $T^4$:
 
@@ -5768,21 +5640,9 @@ $$
 **Проверка.**
 Проверим по таблице:
 
-$$
-d_H(001,010)=2,
-\qquad
-d_H(011,110)=2,
-\qquad
-d_H(010,100)=2,
-$$
+$$ d_H(\mathtt{001},\mathtt{010})=d_H(\mathtt{011},\mathtt{110})=d_H(\mathtt{010},\mathtt{100})=2. $$
 
-$$
-d_H(110,101)=2,
-\qquad
-d_H(100,001)=2,
-\qquad
-d_H(101,011)=2.
-$$
+$$ d_H(\mathtt{110},\mathtt{101})=d_H(\mathtt{100},\mathtt{001})=d_H(\mathtt{101},\mathtt{011})=2. $$
 
 Следовательно,
 
@@ -5800,11 +5660,7 @@ $$
 \Box
 $$
 
-В сжатой форме:
-
-$$
-T^2=\text{oriented }R_2\text{-phase}.
-$$
+В сжатой форме: $T^2$ является ориентированной $R_2$-фазой.
 
 
 ## §11.3. $T^2$ сохраняет shell-order
@@ -5817,13 +5673,9 @@ $$
 
 где
 
-$$
-S_1^{(3)} = \lbrace 001,010,100\rbrace,
-$$
+$$ S_1^{(3)} = \lbrace \mathtt{001},\mathtt{010},\mathtt{100}\rbrace. $$
 
-$$
-S_2^{(3)} = \lbrace 011,101,110\rbrace.
-$$
+$$ S_2^{(3)} = \lbrace \mathtt{011},\mathtt{101},\mathtt{110}\rbrace. $$
 
 **Утверждение 11.2.**
 
@@ -5838,15 +5690,11 @@ $$
 **Проверка.**
 На $S_1^{(3)}$:
 
-$$
-001\to010\to100\to001.
-$$
+$$ \mathtt{001} \to \mathtt{010} \to \mathtt{100} \to \mathtt{001}. $$
 
 На $S_2^{(3)}$:
 
-$$
-011\to110\to101\to011.
-$$
+$$ \mathtt{011} \to \mathtt{110} \to \mathtt{101} \to \mathtt{011}. $$
 
 Значит, $T^2$ задаёт два oriented $3$-cycle-а.
 
@@ -5878,13 +5726,7 @@ $$
 **Проверка.**
 Из таблицы $T$:
 
-$$
-001\mapsto011,
-\qquad
-010\mapsto110,
-\qquad
-100\mapsto101.
-$$
+$$ \mathtt{001}\mapsto\mathtt{011}, \quad \mathtt{010}\mapsto\mathtt{110}, \quad \mathtt{100}\mapsto\mathtt{101}. $$
 
 Значит,
 
@@ -5894,13 +5736,7 @@ $$
 
 И:
 
-$$
-011\mapsto010,
-\qquad
-110\mapsto100,
-\qquad
-101\mapsto001.
-$$
+$$ \mathtt{011}\mapsto\mathtt{010}, \quad \mathtt{110}\mapsto\mathtt{100}, \quad \mathtt{101}\mapsto\mathtt{001}. $$
 
 Значит,
 
@@ -6051,11 +5887,7 @@ $$
 
 Поэтому $\vec R_{T^3}$ симметрично и содержит обе направленности каждой complement-пары. Это ровно $R_3$.
 
-В сжатой форме:
-
-$$
-T^3=\text{complement-phase}=\text{R_3-phase}.
-$$
+В сжатой форме: $T^3$ является complement-фазой, то есть $R_3$-фазой.
 
 
 ## §11.7. $T^6=\mathrm{id}$
@@ -6069,9 +5901,7 @@ $$
 **Проверка.**
 Оператор $T$ проходит по шести состояниям:
 
-$$
-001\to011\to010\to110\to100\to101\to001.
-$$
+$$ \mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}. $$
 
 После шести шагов каждое состояние возвращается в себя. Значит,
 
