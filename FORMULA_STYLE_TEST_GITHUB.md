@@ -11,8 +11,7 @@ Each item repeats the same mathematical content in several forms:
 
 ---
 
-$$
-Так как $x\neq 0^n$, получаем
+
 $$
 y\in Q_{n-1}^*.
 $$
