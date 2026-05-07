@@ -523,7 +523,7 @@ $$
 BB^T\mathbf 1_m
 &=
 B(n\mathbf 1_N)
-=
+&=
 n\,2^{n-1}\mathbf 1_m.
 \end{aligned}
 $$
@@ -537,7 +537,7 @@ $$
 BB^T\phi_i
 &=
 B\chi_{e_i}
-=
+&=
 2^{n-1}\phi_i.
 \end{aligned}
 $$
