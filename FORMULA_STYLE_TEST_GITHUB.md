@@ -1,3 +1,841 @@
+
+# §9. Incidence package октаэдрального слоя
+
+## §9.1. Две стороны incidence-слоя
+
+Обозначим vertex-side:
+
+$$
+V_O:=X_{\mathrm{adm}}.
+$$
+
+Обозначим chamber-side:
+
+$$
+C_O:=\mathrm{Cham}(O_3).
+$$
+
+По §7:
+
+$$
+V_O = \lbrace 001,010,011,100,101,110\rbrace.
+$$
+
+По §8.5 зафиксирована маркировка complement-пар:
+
+$$
+b_1^0=001,
+\qquad
+b_1^1=110,
+$$
+
+$$
+b_2^0=010,
+\qquad
+b_2^1=101,
+$$
+
+$$
+b_3^0=100,
+\qquad
+b_3^1=011.
+$$
+То есть
+$$
+\beta_1=\lbrace b_1^0,b_1^1\rbrace,
+\qquad
+\beta_2=\lbrace b_2^0,b_2^1\rbrace,
+\qquad
+\beta_3=\lbrace b_3^0,b_3^1\rbrace.
+$$
+
+Эта маркировка реализует знаковый произвол §7.6: перестановка $b_i^0\leftrightarrow b_i^1$ внутри любой $\beta_i$ меняет координатную запись и сохраняет incidence-структуру с точностью до изоморфизма.
+
+Камера имеет вид
+
+$$
+C_\varepsilon = \lbrace b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\rbrace, \qquad \varepsilon=(\varepsilon_1,\varepsilon_2,\varepsilon_3)\in\lbrace 0,1\rbrace^3.
+$$
+
+В битовой записи §3.6 та же камера обозначается
+
+$$
+C_{\varepsilon_3\,\varepsilon_2\,\varepsilon_1}.
+$$
+
+Следовательно,
+
+$$
+|V_O|=6,
+\qquad
+|C_O|=8.
+$$
+
+
+## §9.2. Incidence relation
+
+**Определение 9.1.**
+Incidence relation октаэдрального package-а есть отношение
+
+$$
+\mathrm{Inc}_O \subset V_O\times C_O
+$$
+
+такое, что
+
+$$
+(x,C)\in\mathrm{Inc}_O
+$$
+
+тогда и только тогда, когда
+
+$$
+x\in C.
+$$
+
+То есть вершина incident камере тогда и только тогда, когда она входит в vertex-support этой камеры.
+
+В координатной записи:
+
+$$
+(b_i^\eta,C_\varepsilon)\in\mathrm{Inc}_O
+$$
+
+тогда и только тогда, когда
+
+$$
+\varepsilon_i=\eta.
+$$
+
+Эквивалентно:
+
+$$
+b_i^\eta\in C_\varepsilon
+\quad\Longleftrightarrow\quad
+\varepsilon_i=\eta.
+$$
+
+Эта формула следует прямо из определения камеры в §8.5: камера $C_\varepsilon$ содержит ровно элемент $b_i^{\varepsilon_i}$ из пары $\beta_i$.
+
+
+## §9.3. Incidence как vertex-chamber relation
+
+Incidence relation не совпадает с отношением
+
+$$
+R_{12}
+$$
+
+на vertex-side.
+
+Отношение
+
+$$
+R_{12}\subset V_O\times V_O
+$$
+
+связывает вершины с вершинами.
+
+Отношение
+
+$$
+R_{\mathrm{ch}}\subset C_O\times C_O
+$$
+
+связывает камеры с камерами.
+
+А отношение
+
+$$
+\mathrm{Inc}_O\subset V_O\times C_O
+$$
+
+связывает объекты разных типов:
+
+$$
+\text{vertex} \longleftrightarrow \text{chamber}.
+$$
+
+Поэтому §9 вводит новый two-type relation-layer на $V_O\sqcup C_O$.
+
+
+## §9.4. Incidence-count
+
+**Замечание 9.2.**
+Каждая камера incident ровно трём вершинам, а каждая вершина incident ровно четырём камерам.
+
+Действительно, камера имеет вид
+
+$$
+C_\varepsilon = \lbrace b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\rbrace.
+$$
+
+Она содержит ровно по одной вершине из каждой complement-пары, значит ровно три вершины.
+
+Если
+
+$$
+x=b_i^\eta,
+$$
+
+то камера $C_\varepsilon$ содержит $x$ тогда и только тогда, когда
+
+$$
+\varepsilon_i=\eta.
+$$
+
+Одна координата $\varepsilon_i$ зафиксирована. Две остальные свободны, поэтому число таких камер равно
+
+$$
+2\cdot 2=4.
+$$
+
+Общее число incidences равно
+
+$$
+24.
+$$
+
+Оно вычисляется с двух сторон:
+
+$$
+|C_O|\cdot 3 = 8\cdot 3 = 24,
+$$
+
+$$
+|V_O|\cdot 4 = 6\cdot 4 = 24.
+$$
+
+
+## §9.5. Star вершины и coordinate faces
+
+**Определение 9.3.**
+Для вершины
+
+$$
+x\in V_O
+$$
+
+её incidence-star называется множество
+
+$$
+\mathrm{Star}(x) = \lbrace C\in C_O:(x,C)\in\mathrm{Inc}_O\rbrace.
+$$
+
+То есть $\mathrm{Star}(x)$ есть множество всех камер, содержащих вершину $x$.
+
+Для
+
+$$
+x=b_i^\eta
+$$
+
+получаем координатную формулу:
+
+$$
+\mathrm{Star}(b_i^\eta) = \lbrace C_\varepsilon:\varepsilon_i=\eta\rbrace.
+$$
+
+По §9.4:
+
+$$
+|\mathrm{Star}(b_i^\eta)|=4.
+$$
+
+**Определение 9.4.**
+Coordinate face в $Q_3$ называется подмножество вида
+
+$$
+F_i^\eta = \lbrace \varepsilon\in Q_3:\varepsilon_i=\eta\rbrace,
+$$
+
+где
+
+$$
+i\in\lbrace 1,2,3\rbrace,
+\qquad
+\eta\in\lbrace 0,1\rbrace.
+$$
+
+Каждая coordinate face имеет четыре элемента и изоморфна $Q_2$.
+
+В chamber-coordinate reading-е
+
+$$
+C_O\cong Q_3
+$$
+
+множество $\mathrm{Star}(b_i^\eta)$ читается как coordinate face
+
+$$
+F_i^\eta.
+$$
+
+Следовательно, каждая вершина октаэдрального skeleton-а соответствует одной coordinate face chamber-cube:
+
+$$
+\text{vertex of }O_3^{(1)} \longleftrightarrow \text{coordinate face of }Q_3.
+$$
+
+Это прямое следствие incidence relation.
+
+
+## §9.6. Complement-пары как противоположные coordinate faces
+
+Пусть
+
+$$
+b_i^0,b_i^1\in\beta_i
+$$
+
+— две вершины одной complement-пары.
+
+Тогда
+
+$$
+\mathrm{Star}(b_i^0) = \lbrace C_\varepsilon:\varepsilon_i=0\rbrace,
+$$
+
+$$
+\mathrm{Star}(b_i^1) = \lbrace C_\varepsilon:\varepsilon_i=1\rbrace.
+$$
+
+**Замечание 9.5.**
+Эти два множества не пересекаются:
+
+$$
+\mathrm{Star}(b_i^0) \cap \mathrm{Star}(b_i^1) = \varnothing.
+$$
+
+Их объединение даёт весь chamber-side:
+
+$$
+\mathrm{Star}(b_i^0) \cup \mathrm{Star}(b_i^1) = C_O.
+$$
+
+Следовательно, complement-пара вершин октаэдрального skeleton-а читается на chamber-side как пара противоположных coordinate faces в $Q_3$:
+
+$$
+\beta_i = \lbrace b_i^0,b_i^1\rbrace \quad \longleftrightarrow \quad \lbrace F_i^0,F_i^1\rbrace.
+$$
+
+Это следствие выбранной координатной записи камер.
+
+
+## §9.7. Смежность вершин восстанавливается из incidence
+
+**Утверждение 9.6.**
+Для двух разных вершин
+
+$$
+x,y\in V_O
+$$
+
+имеем:
+
+$$
+(x,y)\in R_{12}
+$$
+
+тогда и только тогда, когда
+
+$$
+\mathrm{Star}(x)\cap\mathrm{Star}(y)\neq\varnothing.
+$$
+
+Более точно:
+
+$$
+|\mathrm{Star}(x)\cap\mathrm{Star}(y)|=2
+$$
+
+если $x$ и $y$ лежат в разных complement-парах, и
+
+$$
+|\mathrm{Star}(x)\cap\mathrm{Star}(y)|=0
+$$
+
+если
+
+$$
+\lbrace x,y\rbrace=\beta_i
+$$
+
+для некоторого $i$.
+
+**Проверка.**
+Пусть
+
+$$
+x=b_i^\eta,
+\qquad
+y=b_j^\mu.
+$$
+Тогда
+$$
+\mathrm{Star}(x) = \lbrace C_\varepsilon:\varepsilon_i=\eta\rbrace,
+$$
+
+$$
+\mathrm{Star}(y) = \lbrace C_\varepsilon:\varepsilon_j=\mu\rbrace.
+$$
+
+Если
+
+$$
+i=j
+$$
+
+и
+
+$$
+\eta\neq \mu,
+$$
+
+то условия
+
+$$
+\varepsilon_i=\eta,
+\qquad
+\varepsilon_i=\mu
+$$
+несовместимы. Поэтому
+$$
+\mathrm{Star}(x)\cap\mathrm{Star}(y)=\varnothing.
+$$
+
+Это случай complement-пары.
+
+Если
+
+$$
+i\neq j,
+$$
+
+то два условия
+
+$$
+\varepsilon_i=\eta,
+\qquad
+\varepsilon_j=\mu
+$$
+фиксируют две координаты $\varepsilon$, а третья остаётся свободной. Поэтому существует ровно две камеры, содержащие одновременно $x$ и $y$:
+$$
+|\mathrm{Star}(x)\cap\mathrm{Star}(y)|=2.
+$$
+По §7 relation $R_{12}$ связывает ровно вершины из разных complement-пар и не связывает две вершины одной complement-пары. Следовательно,
+$$
+(x,y)\in R_{12}
+\quad\Longleftrightarrow\quad
+\mathrm{Star}(x)\cap\mathrm{Star}(y)\neq\varnothing.
+$$
+
+$$
+\Box
+$$
+
+Это означает, что skeleton
+
+$$
+(V_O,R_{12})
+$$
+
+можно восстановить из incidence relation.
+
+
+## §9.8. Chamber-adjacency восстанавливается из incidence
+
+Для камеры
+
+$$
+C\in C_O
+$$
+
+обозначим её vertex-support:
+
+$$
+\mathrm{Vert}(C) = \lbrace x\in V_O:(x,C)\in\mathrm{Inc}_O\rbrace.
+$$
+
+По определению камеры:
+
+$$
+|\mathrm{Vert}(C)|=3.
+$$
+
+**Утверждение 9.7.**
+Для двух разных камер
+
+$$
+C,D\in C_O
+$$
+
+имеем:
+
+$$
+(C,D)\in R_{\mathrm{ch}}
+$$
+
+тогда и только тогда, когда
+
+$$
+|\mathrm{Vert}(C)\cap\mathrm{Vert}(D)|=2.
+$$
+
+**Проверка.**
+По §8.6 relation $R_{\mathrm{ch}}$ было задано правилом:
+
+$$
+(C,D)\in R_{\mathrm{ch}}
+\quad\Longleftrightarrow\quad
+C\neq D \land |C\cap D|=2.
+$$
+Но $C$ и $D$ в §8 уже являются vertex-support-ами камер, поэтому
+$$
+C\cap D = \mathrm{Vert}(C)\cap\mathrm{Vert}(D).
+$$
+Также по §8.6:
+$$
+|C_\varepsilon\cap C_\delta|=2 \quad\Longleftrightarrow\quad d_H(\varepsilon,\delta)=1.
+$$
+
+Значит, определение через пересечение vertex-support-ов и Hamming-one definition на $Q_3$ дают одно и то же отношение $R_{\mathrm{ch}}$.
+
+Следовательно,
+
+$$
+(C,D)\in R_{\mathrm{ch}}
+\quad\Longleftrightarrow\quad
+|\mathrm{Vert}(C)\cap\mathrm{Vert}(D)|=2.
+$$
+
+$$
+\Box
+$$
+
+Таким образом, incidence relation восстанавливает vertex-skeleton и chamber-adjacency.
+
+
+## §9.9. Incidence matrix
+
+После фиксации маркировки камер
+
+$$
+C_{\varepsilon_3\,\varepsilon_2\,\varepsilon_1}, \quad \varepsilon_i \in \lbrace 0,1\rbrace.
+$$
+
+incidence relation можно записать булевой матрицей.
+
+Пусть строки индексируются вершинами:
+
+$$
+b_1^0,
+b_1^1,
+b_2^0,
+b_2^1,
+b_3^0,
+b_3^1.
+$$
+Пусть столбцы индексируются камерами в порядке, согласованном с bit-order §3.6:
+$$
+C_{000},C_{001},C_{010},C_{011},
+C_{100},C_{101},C_{110},C_{111}.
+$$
+Здесь индекс $abc$ у $C_{abc}$ означает
+$$
+a=\varepsilon_3,
+\qquad
+b=\varepsilon_2,
+\qquad
+c=\varepsilon_1.
+$$
+
+**Определение 9.8.**
+Incidence matrix октаэдрального package-а есть матрица
+
+$$
+B_O
+\in
+\lbrace 0,1\rbrace^{6\times 8}
+$$
+с элементами
+$$
+(B_O)_{b_i^\eta,\varepsilon} = 1
+$$
+тогда и только тогда, когда
+$$
+(b_i^\eta,C_\varepsilon)\in\mathrm{Inc}_O.
+$$
+По формуле §9.2 это равносильно:
+$$
+(B_O)_{b_i^\eta,\varepsilon} = 1 \quad\Longleftrightarrow\quad \varepsilon_i=\eta.
+$$
+В выбранном порядке строк и столбцов:
+$$
+B_O =
+\begin{pmatrix}
+1&0&1&0&1&0&1&0\\
+0&1&0&1&0&1&0&1\\
+1&1&0&0&1&1&0&0\\
+0&0&1&1&0&0&1&1\\
+1&1&1&1&0&0&0&0\\
+0&0&0&0&1&1&1&1
+\end{pmatrix}.
+$$
+Каждый столбец содержит три единицы:
+$$
+\sum_{x\in V_O}(B_O)_{x,\varepsilon}=3.
+$$
+Каждая строка содержит четыре единицы:
+$$
+\sum_{\varepsilon\in Q_3}(B_O)_{b_i^\eta,\varepsilon}=4.
+$$
+
+Матрица $B_O$ является записью incidence relation. Relation-грамматика остаётся заданной самими relation-слоями. Другой выбор маркировки внутри complement-пар или другой порядок строк и столбцов даёт матрицу, полученную перестановками строк и столбцов.
+
+
+## §9.10. Incidence graph
+
+**Определение 9.9.**
+Incidence graph октаэдрального package-а есть двудольный граф
+
+$$
+G_{\mathrm{inc}}(O)
+$$
+
+с множеством вершин
+
+$$
+V_O\sqcup C_O
+$$
+
+и рёбрами
+
+$$
+x \mathrel{-} C
+$$
+
+тогда и только тогда, когда
+
+$$
+(x,C)\in\mathrm{Inc}_O.
+$$
+
+Этот graph двудольный, потому что все его рёбра идут только между vertex-side $V_O$ и chamber-side $C_O$.
+
+Он имеет
+
+$$
+|V_O|+|C_O|=6+8=14
+$$
+
+вершин и
+
+$$
+24
+$$
+
+рёбер.
+
+Степени двух типов различны:
+
+$$
+\deg(x)=4 \quad (x\in V_O),
+$$
+
+$$
+\deg(C)=3 \quad (C\in C_O).
+$$
+
+То есть
+
+$$
+G_{\mathrm{inc}}(O)
+$$
+
+является $(4,3)$-bipartite incidence graph-ом.
+
+Число
+
+$$
+14=6+8
+$$
+
+здесь означает typed sum:
+
+$$
+6\ \text{vertices} + 8\ \text{chambers}.
+$$
+
+Это дизъюнктный $14$-элементный carrier с двумя типами вершин.
+
+
+## §9.11. Двухтипный carrier
+
+Чтобы записать incidence как relation на одном carrier-е, вводится дизъюнктная сумма:
+
+$$
+Z_O = V_O \sqcup C_O.
+$$
+
+Элементы $Z_O$ имеют type:
+
+$$
+\mathrm{type}(z)=
+\begin{cases}
+\mathrm{v}, & z\in V_O,\\
+\mathrm{c}, & z\in C_O.
+\end{cases}
+$$
+
+Здесь $\mathrm{v}$ означает vertex-type, а $\mathrm{c}$ означает chamber-type.
+
+На $Z_O$ задаются три отношения.
+
+Vertex-relation:
+
+$$
+R_{vv}:=R_{12} \subset V_O\times V_O.
+$$
+
+Chamber-relation:
+
+$$
+R_{cc}:=R_{\mathrm{ch}} \subset C_O\times C_O.
+$$
+
+Cross-type incidence relation:
+
+$$
+R_{vc} \subset Z_O\times Z_O
+$$
+
+задаётся как симметризация $\mathrm{Inc}_O$:
+
+$$
+R_{vc} = \lbrace (x,C),(C,x):x\in V_O, \ C\in C_O, \ (x,C)\in\mathrm{Inc}_O\rbrace.
+$$
+
+**Определение 9.10.**
+Полное relation-package §9 есть
+
+$$
+R_O = R_{vv} \cup R_{cc} \cup R_{vc}.
+$$
+
+Тогда
+
+$$
+(Z_O,R_O)
+$$
+
+является two-type incidence carrier-ом октаэдрального слоя.
+
+
+## §9.12. Incidence presentation
+
+**Определение 9.11.**
+Incidence presentation октаэдрального слоя есть
+
+$$
+\Pi_O^{\mathrm{inc}} = \left( Z_O, R_O, \mathrm{id}_{Z_O}, \mathrm{rec}_{\mathrm{id}} \right),
+$$
+
+где
+
+$$
+Z_O=V_O\sqcup C_O,
+$$
+
+$$
+R_O=R_{vv}\cup R_{cc}\cup R_{vc},
+$$
+
+$$
+\mathrm{id}_{Z_O}:Z_O\to Z_O
+$$
+
+— identity-reading.
+
+Отношение $R_O$ иррефлексивно: $R_{vv}$ и $R_{cc}$ связывают разные элементы внутри своих типов, а $R_{vc}$ связывает элементы разных типов. Поэтому
+
+$$
+R_O|_{\lbrace z\rbrace}=\varnothing
+$$
+
+для каждого
+
+$$
+z\in Z_O.
+$$
+
+Recovery datum задаётся как
+
+$$
+\mathrm{rec}_{\mathrm{id}}(z) = (\lbrace z\rbrace,\varnothing).
+$$
+
+Так как reading является identity-reading-ом, presentation exact.
+
+Эта presentation записывает incidence-layer как relation-carrier с фиксированным identity-reading и recovery datum.
+
+
+## §9.13. Recoverability incidence package
+
+Из incidence package восстанавливаются две relation-структуры.
+
+Первая:
+
+$$
+\begin{aligned}
+R_{12}
+\end{aligned}
+$$
+
+на vertex-side, потому что
+
+$$
+\begin{aligned}
+(x,y) &\in R_{12} \\
+\Longleftrightarrow\quad \mathrm{Star}(x)\cap\mathrm{Star}(y) &\neq \varnothing.
+\end{aligned}
+$$
+Вторая:
+$$
+\begin{aligned}
+R_{\mathrm{ch}}
+\end{aligned}
+$$
+на chamber-side, потому что
+$$
+\begin{aligned}
+(C,D) &\in R_{\mathrm{ch}} \\
+\Longleftrightarrow\quad |\mathrm{Vert}(C)\cap\mathrm{Vert}(D)| &= 2.
+\end{aligned}
+$$
+Дополнительно incidence relation имеет матричную форму:
+$$
+\begin{aligned}
+(B_O)_{x,C} &= 1 \\
+\Longleftrightarrow\quad (x,C) &\in \mathrm{Inc}_O.
+\end{aligned}
+$$
+Следовательно, incidence package связывает две стороны октаэдрального graph-reading-а:
+$$
+\begin{aligned}
+O_3^{(1)} \\
+\mathrm{and} \\
+\mathrm{Cham}(O_3) &\cong Q_3
+\end{aligned}
+$$
+
+в одну two-type finite structure.
+
+
+
+
+
+
 # §10. Orientation и cyclic transport на $C_6$
 
 ## §10.1. $R_1$ как неориентированный цикл
