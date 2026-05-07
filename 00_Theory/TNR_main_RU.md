@@ -4928,35 +4928,35 @@ $$
 **Определение 10.1.**
 Зафиксируем orientation на
 
-$$
+```math
 (X_{\mathrm{adm}},R_1)\cong C_6
-$$
+```
 
 следующим образом:
 
-$$
+```math
 \mathtt{001} \to \mathtt{011} \to \mathtt{010} \to \mathtt{110} \to \mathtt{100} \to \mathtt{101} \to \mathtt{001}.
-$$
+```
 
 Обозначим ориентированный цикл через
 
-$$
+```math
 \vec C_6.
-$$
+```
 
 Этот выбор не следует из одного только отношения $R_1$. Relation $R_1$ задаёт неориентированный цикл; orientation является новым transport-данным.
 
 Обратная orientation тоже допустима:
 
-$$
+```math
 \mathtt{001} \to \mathtt{101} \to \mathtt{100} \to \mathtt{110} \to \mathtt{010} \to \mathtt{011} \to \mathtt{001}.
-$$
+```
 
 В текущем transport-layer-е фиксируется первая orientation. Обратная orientation дала бы оператор
 
-$$
+```math
 T^{-1}.
-$$
+```
 
 
 ## §10.3. Cyclic transport operator
