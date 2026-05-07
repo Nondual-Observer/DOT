@@ -5,8 +5,7 @@ Status: bridge document / exact realised reference model.
 This document defines a colour realisation of the rank-3 finite core inside the colour cube $[0,1]^3$. The strict source is the binary carrier $Q_3$. The colour layer appears after choosing a convention that assigns the three cube coordinates to three colour axes. In the convention used here, the coordinate axes are denoted $R,G,B$, while the complementary vertices give $C,M,Y$. The six nonzero nonsaturated vertices form the colour layer
 
 $$
-RGB\sqcup CMY
-=
+RGB\sqcup CMY =
 \{R,G,B,C,M,Y\}.
 $$
 
@@ -118,18 +117,12 @@ $$
 
 Chromatic shell:
 
-$$
-X_{\mathrm{adm}}
-=
-\{100,010,001,110,101,011\}.
-$$
+$$ X_{\mathrm{adm}} = \{100, 010, 001, 110, 101, 011\}.$$
 
 Decomposition:
 
 $$
-Q_3
-=
-\{000\}
+Q_3=\{000\}
 \sqcup
 X_{\mathrm{adm}}
 \sqcup
@@ -317,8 +310,7 @@ $$
 Bridge-reading:
 
 $$
-X_{\mathrm{adm}}
-=
+X_{\mathrm{adm}} =
 \text{six-vertex chromatic shell}.
 $$
 
@@ -439,8 +431,7 @@ $$
 Status:
 
 $$
-\text{Kuhn/HSV formula}
-=
+\text{Kuhn/HSV formula} =
 \text{exact realised colour layer}.
 $$
 
@@ -542,11 +533,11 @@ The module uses the following figure files:
 | File | Object |
 |---|---|
 | `B1_color_cube_Q3.png` | full RGB cube $Q_3=\{0,1\}^3$ |
-| `B2_chromatic_carrier_Xadm.png` | punctured carrier $X_{\mathrm{adm}}=$Q_3$\setminus\{000,111\}$ |
-| `B3_R1_hamming_cycle_C6.png` | $($X_{\mathrm{adm}}$,$R_1$)\cong C_6$ |
-| `B4_R2_two_triads_K3sqcupK3.png` | $($X_{\mathrm{adm}}$,$R_2$)\cong K_3\sqcup K_3$ |
-| `B5_R3_complementary_axes_3K2.png` | $($X_{\mathrm{adm}}$,$R_3$)\cong 3K_2$ |
-| `B6_octahedral_shell_R12_K222.png` | $($X_{\mathrm{adm}}$,$R_1$\cup $R_2$)\cong K_{2,2,2}$ |
+| `B2_chromatic_carrier_Xadm.png` | punctured carrier $X_{\mathrm{adm}}=Q_3\setminus\{000,111\}$ |
+| `B3_R1_hamming_cycle_C6.png` | $(X_{\mathrm{adm}},R_1)\cong C_6$ |
+| `B4_R2_two_triads_K3sqcupK3.png` | $(X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3$ |
+| `B5_R3_complementary_axes_3K2.png` | $(X_{\mathrm{adm}},R_3)\cong 3K_2$ |
+| `B6_octahedral_shell_R12_K222.png` | $(X_{\mathrm{adm}},R_1\cup R_2)\cong K_{2,2,2}$ |
 | `B7a_DOT_chambers_RGB_CMY_side_A.png` | chamber-layer, first side |
 | `B7b_DOT_chambers_RGB_CMY_side_B.png` | chamber-layer, second side |
 | `B7c_DOT_chambers_two_octahedron_views.png` | two octahedral projections of the chamber-layer |
