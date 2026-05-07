@@ -3994,15 +3994,13 @@ $$
 \Box
 $$
 
-## Formula 638 — source lines 4708-4712
+## Formula 638 — source lines 4708-4710
 
 $$
-C_{\varepsilon_3\varepsilon_2\varepsilon_1},
-\qquad
-\varepsilon_i\in\{0,1\},
+C_{\varepsilon_3\varepsilon_2\varepsilon_1},\quad \varepsilon_i \in \{0,1\}.
 $$
 
-## Formula 639 — source lines 4718-4725
+## Formula 639 — source lines 4716-4723
 
 $$
 b_1^0,
@@ -4013,14 +4011,14 @@ b_3^0,
 b_3^1.
 $$
 
-## Formula 640 — source lines 4729-4732
+## Formula 640 — source lines 4727-4730
 
 $$
 C_{000},C_{001},C_{010},C_{011},
 C_{100},C_{101},C_{110},C_{111}.
 $$
 
-## Formula 641 — source lines 4736-4742
+## Formula 641 — source lines 4734-4740
 
 $$
 a=\varepsilon_3,
@@ -4030,7 +4028,7 @@ b=\varepsilon_2,
 c=\varepsilon_1.
 $$
 
-## Formula 642 — source lines 4747-4751
+## Formula 642 — source lines 4745-4749
 
 $$
 B_O
@@ -4038,25 +4036,25 @@ B_O
 \{0,1\}^{6\times 8}
 $$
 
-## Formula 643 — source lines 4755-4757
+## Formula 643 — source lines 4753-4755
 
 $$
 (B_O)_{b_i^\eta,\varepsilon} = 1
 $$
 
-## Formula 644 — source lines 4761-4763
+## Formula 644 — source lines 4759-4761
 
 $$
 (b_i^\eta,C_\varepsilon)\in\mathrm{Inc}_O.
 $$
 
-## Formula 645 — source lines 4767-4769
+## Formula 645 — source lines 4765-4767
 
 $$
 (B_O)_{b_i^\eta,\varepsilon} = 1 \quad\Longleftrightarrow\quad \varepsilon_i=\eta.
 $$
 
-## Formula 646 — source lines 4773-4783
+## Formula 646 — source lines 4771-4781
 
 $$
 B_O =
@@ -4070,91 +4068,91 @@ B_O =
 \end{pmatrix}.
 $$
 
-## Formula 647 — source lines 4787-4789
+## Formula 647 — source lines 4785-4787
 
 $$
 \sum_{x\in V_O}(B_O)_{x,\varepsilon}=3.
 $$
 
-## Formula 648 — source lines 4793-4795
+## Formula 648 — source lines 4791-4793
 
 $$
 \sum_{\varepsilon\in Q_3}(B_O)_{b_i^\eta,\varepsilon}=4.
 $$
 
-## Formula 649 — source lines 4805-4807
+## Formula 649 — source lines 4803-4805
 
 $$
 G_{\mathrm{inc}}(O)
 $$
 
-## Formula 650 — source lines 4811-4813
+## Formula 650 — source lines 4809-4811
 
 $$
 V_O\sqcup C_O
 $$
 
-## Formula 651 — source lines 4817-4819
+## Formula 651 — source lines 4815-4817
 
 $$
 x \mathrel{-} C
 $$
 
-## Formula 652 — source lines 4823-4825
+## Formula 652 — source lines 4821-4823
 
 $$
 (x,C)\in\mathrm{Inc}_O.
 $$
 
-## Formula 653 — source lines 4831-4833
+## Formula 653 — source lines 4829-4831
 
 $$
 |V_O|+|C_O|=6+8=14
 $$
 
-## Formula 654 — source lines 4837-4839
+## Formula 654 — source lines 4835-4837
 
 $$
 24
 $$
 
-## Formula 655 — source lines 4845-4847
+## Formula 655 — source lines 4843-4845
 
 $$
 \deg(x)=4 \quad (x\in V_O),
 $$
 
-## Formula 656 — source lines 4849-4851
+## Formula 656 — source lines 4847-4849
 
 $$
 \deg(C)=3 \quad (C\in C_O).
 $$
 
-## Formula 657 — source lines 4855-4857
+## Formula 657 — source lines 4853-4855
 
 $$
 G_{\mathrm{inc}}(O)
 $$
 
-## Formula 658 — source lines 4863-4865
+## Formula 658 — source lines 4861-4863
 
 $$
 14=6+8
 $$
 
-## Formula 659 — source lines 4869-4871
+## Formula 659 — source lines 4867-4869
 
 $$
 6\ \text{vertices} + 8\ \text{chambers}.
 $$
 
-## Formula 660 — source lines 4880-4882
+## Formula 660 — source lines 4878-4880
 
 $$
 Z_O = V_O \sqcup C_O.
 $$
 
-## Formula 661 — source lines 4886-4892
+## Formula 661 — source lines 4884-4890
 
 $$
 \mathrm{type}(z)=
@@ -4164,91 +4162,91 @@ $$
 \end{cases}
 $$
 
-## Formula 662 — source lines 4900-4902
+## Formula 662 — source lines 4898-4900
 
 $$
 R_{vv}:=R_{12} \subset V_O\times V_O.
 $$
 
-## Formula 663 — source lines 4906-4908
+## Formula 663 — source lines 4904-4906
 
 $$
 R_{cc}:=R_{\mathrm{ch}} \subset C_O\times C_O.
 $$
 
-## Formula 664 — source lines 4912-4914
+## Formula 664 — source lines 4910-4912
 
 $$
 R_{vc} \subset Z_O\times Z_O
 $$
 
-## Formula 665 — source lines 4918-4920
+## Formula 665 — source lines 4916-4918
 
 $$
 R_{vc} = \{(x,C),(C,x):x\in V_O, \ C\in C_O, \ (x,C)\in\mathrm{Inc}_O\}.
 $$
 
-## Formula 666 — source lines 4925-4927
+## Formula 666 — source lines 4923-4925
 
 $$
 R_O = R_{vv} \cup R_{cc} \cup R_{vc}.
 $$
 
-## Formula 667 — source lines 4931-4933
+## Formula 667 — source lines 4929-4931
 
 $$
 (Z_O,R_O)
 $$
 
-## Formula 668 — source lines 4943-4945
+## Formula 668 — source lines 4941-4943
 
 $$
 \Pi_O^{\mathrm{inc}} = \left( Z_O, R_O, \mathrm{id}_{Z_O}, \mathrm{rec}_{\mathrm{id}} \right),
 $$
 
-## Formula 669 — source lines 4949-4951
+## Formula 669 — source lines 4947-4949
 
 $$
 Z_O=V_O\sqcup C_O,
 $$
 
-## Formula 670 — source lines 4953-4955
+## Formula 670 — source lines 4951-4953
 
 $$
 R_O=R_{vv}\cup R_{cc}\cup R_{vc},
 $$
 
-## Formula 671 — source lines 4957-4959
+## Formula 671 — source lines 4955-4957
 
 $$
 \mathrm{id}_{Z_O}:Z_O\to Z_O
 $$
 
-## Formula 672 — source lines 4965-4967
+## Formula 672 — source lines 4963-4965
 
 $$
 R_O|_{\{z\}}=\varnothing
 $$
 
-## Formula 673 — source lines 4971-4973
+## Formula 673 — source lines 4969-4971
 
 $$
 z\in Z_O.
 $$
 
-## Formula 674 — source lines 4977-4979
+## Formula 674 — source lines 4975-4977
 
 $$
 \mathrm{rec}_{\mathrm{id}}(z) = (\{z\},\varnothing).
 $$
 
-## Formula 675 — source lines 4992-4994
+## Formula 675 — source lines 4990-4992
 
 $$
 R_{12}
 $$
 
-## Formula 676 — source lines 4998-5002
+## Formula 676 — source lines 4996-5000
 
 $$
 (x,y)\in R_{12}
@@ -4256,13 +4254,13 @@ $$
 \mathrm{Star}(x)\cap\mathrm{Star}(y)\neq\varnothing.
 $$
 
-## Formula 677 — source lines 5006-5008
+## Formula 677 — source lines 5004-5006
 
 $$
 R_{\mathrm{ch}}
 $$
 
-## Formula 678 — source lines 5012-5016
+## Formula 678 — source lines 5010-5014
 
 $$
 (C,D)\in R_{\mathrm{ch}}
@@ -4270,7 +4268,7 @@ $$
 |\mathrm{Vert}(C)\cap\mathrm{Vert}(D)|=2.
 $$
 
-## Formula 679 — source lines 5020-5024
+## Formula 679 — source lines 5018-5022
 
 $$
 (B_O)_{x,C}=1
@@ -4278,7 +4276,7 @@ $$
 (x,C)\in\mathrm{Inc}_O.
 $$
 
-## Formula 680 — source lines 5028-5034
+## Formula 680 — source lines 5026-5032
 
 $$
 O_3^{(1)}
@@ -4288,19 +4286,19 @@ O_3^{(1)}
 \mathrm{Cham}(O_3)\cong Q_3
 $$
 
-## Formula 681 — source lines 5045-5047
+## Formula 681 — source lines 5043-5045
 
 $$
 R_1
 $$
 
-## Formula 682 — source lines 5051-5053
+## Formula 682 — source lines 5049-5051
 
 $$
 X_{\mathrm{adm}} = \{001,010,011,100,101,110\}
 $$
 
-## Formula 683 — source lines 5057-5061
+## Formula 683 — source lines 5055-5059
 
 $$
 (x,y)\in R_1
@@ -4308,19 +4306,19 @@ $$
 d_H(x,y)=1.
 $$
 
-## Formula 684 — source lines 5065-5067
+## Formula 684 — source lines 5063-5065
 
 $$
 (X_{\mathrm{adm}},R_1)\cong C_6.
 $$
 
-## Formula 685 — source lines 5071-5073
+## Formula 685 — source lines 5069-5071
 
 $$
 001 \to 011 \to 010 \to 110 \to 100 \to 101 \to 001.
 $$
 
-## Formula 686 — source lines 5077-5083
+## Formula 686 — source lines 5075-5081
 
 $$
 d_H(001,011)=1,
@@ -4330,7 +4328,7 @@ d_H(011,010)=1,
 d_H(010,110)=1,
 $$
 
-## Formula 687 — source lines 5085-5091
+## Formula 687 — source lines 5083-5089
 
 $$
 d_H(110,100)=1,
@@ -4340,43 +4338,43 @@ d_H(100,101)=1,
 d_H(101,001)=1.
 $$
 
-## Formula 688 — source lines 5101-5103
+## Formula 688 — source lines 5099-5101
 
 $$
 (X_{\mathrm{adm}},R_1)\cong C_6
 $$
 
-## Formula 689 — source lines 5107-5109
+## Formula 689 — source lines 5105-5107
 
 $$
 001\to011\to010\to110\to100\to101\to001.
 $$
 
-## Formula 690 — source lines 5113-5115
+## Formula 690 — source lines 5111-5113
 
 $$
 \vec C_6.
 $$
 
-## Formula 691 — source lines 5121-5123
+## Formula 691 — source lines 5119-5121
 
 $$
 001\to101\to100\to110\to010\to011\to001.
 $$
 
-## Formula 692 — source lines 5127-5129
+## Formula 692 — source lines 5125-5127
 
 $$
 T^{-1}.
 $$
 
-## Formula 693 — source lines 5137-5139
+## Formula 693 — source lines 5135-5137
 
 $$
 T:X_{\mathrm{adm}}\to X_{\mathrm{adm}}
 $$
 
-## Formula 694 — source lines 5143-5149
+## Formula 694 — source lines 5141-5147
 
 $$
 T(001)=011,
@@ -4386,7 +4384,7 @@ T(011)=010,
 T(010)=110,
 $$
 
-## Formula 695 — source lines 5151-5157
+## Formula 695 — source lines 5149-5155
 
 $$
 T(110)=100,
@@ -4396,74 +4394,74 @@ T(100)=101,
 T(101)=001.
 $$
 
-## Formula 696 — source lines 5161-5164
+## Formula 696 — source lines 5159-5162
 
 $$
 T:
 001\to011\to010\to110\to100\to101\to001.
 $$
 
-## Formula 697 — source lines 5168-5170
+## Formula 697 — source lines 5166-5168
 
 $$
 T^{-1}=T^5
 $$
 
-## Formula 698 — source lines 5180-5182
+## Formula 698 — source lines 5178-5180
 
 $$
 x\in X_{\mathrm{adm}}
 $$
 
-## Formula 699 — source lines 5186-5188
+## Formula 699 — source lines 5184-5186
 
 $$
 (x,T(x))\in R_1.
 $$
 
-## Formula 700 — source lines 5193-5195
+## Formula 700 — source lines 5191-5193
 
 $$
 x\to T(x)
 $$
 
-## Formula 701 — source lines 5199-5201
+## Formula 701 — source lines 5197-5199
 
 $$
 001\to011\to010\to110\to100\to101\to001.
 $$
 
-## Formula 702 — source lines 5205-5207
+## Formula 702 — source lines 5203-5205
 
 $$
 d_H(x,T(x))=1,
 $$
 
-## Formula 703 — source lines 5211-5213
+## Formula 703 — source lines 5209-5211
 
 $$
 (x,T(x))\in R_1.
 $$
 
-## Formula 704 — source lines 5215-5217
+## Formula 704 — source lines 5213-5215
 
 $$
 \Box
 $$
 
-## Formula 705 — source lines 5221-5223
+## Formula 705 — source lines 5219-5221
 
 $$
 T=\text{oriented }R_1\text{-step}.
 $$
 
-## Formula 706 — source lines 5231-5233
+## Formula 706 — source lines 5229-5231
 
 $$
 \vec R_T \subset X_{\mathrm{adm}}\times X_{\mathrm{adm}}
 $$
 
-## Formula 707 — source lines 5237-5241
+## Formula 707 — source lines 5235-5239
 
 $$
 (x,y)\in\vec R_T
@@ -4471,133 +4469,133 @@ $$
 y=T(x).
 $$
 
-## Formula 708 — source lines 5245-5247
+## Formula 708 — source lines 5243-5245
 
 $$
 \vec R_T = \{(x,T(x)):x\in X_{\mathrm{adm}}\}.
 $$
 
-## Formula 709 — source lines 5251-5253
+## Formula 709 — source lines 5249-5251
 
 $$
 \vec R_T = \{ (001,011), (011,010), (010,110), (110,100), (100,101), (101,001) \}.
 $$
 
-## Formula 710 — source lines 5257-5259
+## Formula 710 — source lines 5255-5257
 
 $$
 \vec R_T^{-1} = \{(T(x),x):x\in X_{\mathrm{adm}}\}.
 $$
 
-## Formula 711 — source lines 5264-5266
+## Formula 711 — source lines 5262-5264
 
 $$
 R_1 = \vec R_T \cup \vec R_T^{-1}.
 $$
 
-## Formula 712 — source lines 5271-5273
+## Formula 712 — source lines 5269-5271
 
 $$
 \vec R_T\subset R_1.
 $$
 
-## Formula 713 — source lines 5277-5279
+## Formula 713 — source lines 5275-5277
 
 $$
 \vec R_T\cup\vec R_T^{-1}
 $$
 
-## Formula 714 — source lines 5283-5285
+## Formula 714 — source lines 5281-5283
 
 $$
 \Box
 $$
 
-## Formula 715 — source lines 5294-5296
+## Formula 715 — source lines 5292-5294
 
 $$
 \mathcal R_{\mathrm{adm}}^{(3)} = \{R_1, R_2, R_3\}.
 $$
 
-## Formula 716 — source lines 5300-5302
+## Formula 716 — source lines 5298-5300
 
 $$
 R_1
 $$
 
-## Formula 717 — source lines 5306-5308
+## Formula 717 — source lines 5304-5306
 
 $$
 \vec R_T
 $$
 
-## Formula 718 — source lines 5312-5314
+## Formula 718 — source lines 5310-5312
 
 $$
 T
 $$
 
-## Formula 719 — source lines 5326-5328
+## Formula 719 — source lines 5324-5326
 
 $$
 \mathrm{Path}_T(C_6).
 $$
 
-## Formula 720 — source lines 5332-5334
+## Formula 720 — source lines 5330-5332
 
 $$
 \mathrm{Ob}(\mathrm{Path}_T(C_6)) = X_{\mathrm{adm}}.
 $$
 
-## Formula 721 — source lines 5338-5340
+## Formula 721 — source lines 5336-5338
 
 $$
 x\to T(x)
 $$
 
-## Formula 722 — source lines 5344-5346
+## Formula 722 — source lines 5342-5344
 
 $$
 x\in X_{\mathrm{adm}}.
 $$
 
-## Formula 723 — source lines 5350-5352
+## Formula 723 — source lines 5348-5350
 
 $$
 x \to T(x) \to T^2(x) \to \cdots \to T^k(x).
 $$
 
-## Formula 724 — source lines 5356-5358
+## Formula 724 — source lines 5354-5356
 
 $$
 T^k(x).
 $$
 
-## Formula 725 — source lines 5362-5364
+## Formula 725 — source lines 5360-5362
 
 $$
 T^6=\mathrm{id}.
 $$
 
-## Formula 726 — source lines 5371-5373
+## Formula 726 — source lines 5369-5371
 
 $$
 \rho_T:\mathbb Z\to \mathrm{Sym}(X_{\mathrm{adm}})
 $$
 
-## Formula 727 — source lines 5377-5379
+## Formula 727 — source lines 5375-5377
 
 $$
 \rho_T(k)=T^k.
 $$
 
-## Formula 728 — source lines 5383-5385
+## Formula 728 — source lines 5381-5383
 
 $$
 x\in X_{\mathrm{adm}}
 $$
 
-## Formula 729 — source lines 5389-5393
+## Formula 729 — source lines 5387-5391
 
 $$
 \gamma_x:\mathbb Z\to X_{\mathrm{adm}},
@@ -4605,13 +4603,13 @@ $$
 \gamma_x(k)=T^k(x).
 $$
 
-## Formula 730 — source lines 5397-5399
+## Formula 730 — source lines 5395-5397
 
 $$
 \mathbb Z/6\mathbb Z.
 $$
 
-## Formula 731 — source lines 5409-5413
+## Formula 731 — source lines 5407-5411
 
 $$
 (x,y)\in R_k
@@ -4619,13 +4617,13 @@ $$
 (Tx,Ty)\in R_k
 $$
 
-## Formula 732 — source lines 5417-5419
+## Formula 732 — source lines 5415-5417
 
 $$
 k=1,2,3.
 $$
 
-## Formula 733 — source lines 5426-5432
+## Formula 733 — source lines 5424-5430
 
 $$
 001\leftrightarrow110,
@@ -4635,37 +4633,37 @@ $$
 100\leftrightarrow011.
 $$
 
-## Formula 734 — source lines 5436-5438
+## Formula 734 — source lines 5434-5436
 
 $$
 \{001,110\}\mapsto\{011,100\},
 $$
 
-## Formula 735 — source lines 5440-5442
+## Formula 735 — source lines 5438-5440
 
 $$
 \{100,011\}\mapsto\{101,010\},
 $$
 
-## Formula 736 — source lines 5444-5446
+## Formula 736 — source lines 5442-5444
 
 $$
 \{010,101\}\mapsto\{110,001\}.
 $$
 
-## Formula 737 — source lines 5452-5454
+## Formula 737 — source lines 5450-5452
 
 $$
 \{R_1, R_2, R_3\}
 $$
 
-## Formula 738 — source lines 5458-5460
+## Formula 738 — source lines 5456-5458
 
 $$
 \Box
 $$
 
-## Formula 739 — source lines 5464-5471
+## Formula 739 — source lines 5462-5469
 
 $$
 T\in
@@ -4676,49 +4674,49 @@ R_1, R_2, R_3
 \bigr).
 $$
 
-## Formula 740 — source lines 5478-5480
+## Formula 740 — source lines 5476-5478
 
 $$
 C_O=\mathrm{Cham}(O_3).
 $$
 
-## Formula 741 — source lines 5484-5486
+## Formula 741 — source lines 5482-5484
 
 $$
 T[C]:=\{T(x):x\in C\}.
 $$
 
-## Formula 742 — source lines 5490-5492
+## Formula 742 — source lines 5488-5490
 
 $$
 \beta_1,\beta_2,\beta_3,
 $$
 
-## Formula 743 — source lines 5499-5501
+## Formula 743 — source lines 5497-5499
 
 $$
 T_{\mathrm{ch}}:C_O\to C_O
 $$
 
-## Formula 744 — source lines 5505-5507
+## Formula 744 — source lines 5503-5505
 
 $$
 T_{\mathrm{ch}}(C)=T[C].
 $$
 
-## Formula 745 — source lines 5511-5513
+## Formula 745 — source lines 5509-5511
 
 $$
 C\in \mathrm{Cham}(O_3),
 $$
 
-## Formula 746 — source lines 5517-5519
+## Formula 746 — source lines 5515-5517
 
 $$
 T[C]\in \mathrm{Cham}(O_3).
 $$
 
-## Formula 747 — source lines 5529-5533
+## Formula 747 — source lines 5527-5531
 
 $$
 (x,C)\in\mathrm{Inc}_O
@@ -4726,7 +4724,7 @@ $$
 (Tx,T_{\mathrm{ch}}C)\in\mathrm{Inc}_O.
 $$
 
-## Formula 748 — source lines 5538-5542
+## Formula 748 — source lines 5536-5540
 
 $$
 (x,C)\in\mathrm{Inc}_O
@@ -4734,7 +4732,7 @@ $$
 x\in C.
 $$
 
-## Formula 749 — source lines 5546-5550
+## Formula 749 — source lines 5544-5548
 
 $$
 x\in C
@@ -4742,13 +4740,13 @@ x\in C
 T(x)\in T[C].
 $$
 
-## Formula 750 — source lines 5554-5556
+## Formula 750 — source lines 5552-5554
 
 $$
 T[C]=T_{\mathrm{ch}}(C).
 $$
 
-## Formula 751 — source lines 5560-5564
+## Formula 751 — source lines 5558-5562
 
 $$
 (x,C)\in\mathrm{Inc}_O
@@ -4756,19 +4754,19 @@ $$
 (Tx,T_{\mathrm{ch}}C)\in\mathrm{Inc}_O.
 $$
 
-## Formula 752 — source lines 5566-5568
+## Formula 752 — source lines 5564-5566
 
 $$
 \Box
 $$
 
-## Formula 753 — source lines 5577-5579
+## Formula 753 — source lines 5575-5577
 
 $$
 Z_O = V_O\sqcup C_O,
 $$
 
-## Formula 754 — source lines 5583-5587
+## Formula 754 — source lines 5581-5585
 
 $$
 V_O=X_{\mathrm{adm}},
@@ -4776,99 +4774,99 @@ V_O=X_{\mathrm{adm}},
 C_O=\mathrm{Cham}(O_3).
 $$
 
-## Formula 755 — source lines 5592-5594
+## Formula 755 — source lines 5590-5592
 
 $$
 T_Z:Z_O\to Z_O
 $$
 
-## Formula 756 — source lines 5598-5600
+## Formula 756 — source lines 5596-5598
 
 $$
 T_Z(x)=T(x)
 $$
 
-## Formula 757 — source lines 5604-5606
+## Formula 757 — source lines 5602-5604
 
 $$
 x\in V_O,
 $$
 
-## Formula 758 — source lines 5610-5612
+## Formula 758 — source lines 5608-5610
 
 $$
 T_Z(C)=T_{\mathrm{ch}}(C)
 $$
 
-## Formula 759 — source lines 5616-5618
+## Formula 759 — source lines 5614-5616
 
 $$
 C\in C_O.
 $$
 
-## Formula 760 — source lines 5622-5625
+## Formula 760 — source lines 5620-5623
 
 $$
 T_Z\in
 \mathrm{Aut}(Z_O,R_O).
 $$
 
-## Formula 761 — source lines 5629-5631
+## Formula 761 — source lines 5627-5629
 
 $$
 R_O = R_{vv}\cup R_{cc}\cup R_{vc}
 $$
 
-## Formula 762 — source lines 5641-5643
+## Formula 762 — source lines 5639-5641
 
 $$
 \Pi_T^{V} = \left( X_{\mathrm{adm}}, \vec R_T, \mathrm{id}_{X_{\mathrm{adm}}}, \mathrm{rec}_{\mathrm{id}} \right),
 $$
 
-## Formula 763 — source lines 5647-5649
+## Formula 763 — source lines 5645-5647
 
 $$
 \vec R_T = \{(x,T(x)):x\in X_{\mathrm{adm}}\}.
 $$
 
-## Formula 764 — source lines 5653-5655
+## Formula 764 — source lines 5651-5653
 
 $$
 \mathrm{rec}_{\mathrm{id}}(x) = (\{x\},\varnothing),
 $$
 
-## Formula 765 — source lines 5662-5664
+## Formula 765 — source lines 5660-5662
 
 $$
 \Pi_O^{\mathrm{inc}} = \left( Z_O, R_O, \mathrm{id}_{Z_O}, \mathrm{rec}_{\mathrm{id}} \right),
 $$
 
-## Formula 766 — source lines 5668-5670
+## Formula 766 — source lines 5666-5668
 
 $$
 T_Z\in\mathrm{Aut}(Z_O,R_O).
 $$
 
-## Formula 767 — source lines 5681-5684
+## Formula 767 — source lines 5679-5682
 
 $$
 T:
 001\to011\to010\to110\to100\to101\to001.
 $$
 
-## Formula 768 — source lines 5688-5690
+## Formula 768 — source lines 5686-5688
 
 $$
 T^0=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 769 — source lines 5694-5696
+## Formula 769 — source lines 5692-5694
 
 $$
 T^1=T.
 $$
 
-## Formula 770 — source lines 5700-5706
+## Formula 770 — source lines 5698-5704
 
 $$
 001\to010,
@@ -4878,7 +4876,7 @@ $$
 010\to100,
 $$
 
-## Formula 771 — source lines 5708-5714
+## Formula 771 — source lines 5706-5712
 
 $$
 110\to101,
@@ -4888,7 +4886,7 @@ $$
 101\to011.
 $$
 
-## Formula 772 — source lines 5718-5724
+## Formula 772 — source lines 5716-5722
 
 $$
 001\to110,
@@ -4898,7 +4896,7 @@ $$
 010\to101,
 $$
 
-## Formula 773 — source lines 5726-5732
+## Formula 773 — source lines 5724-5730
 
 $$
 110\to001,
@@ -4908,37 +4906,37 @@ $$
 101\to010.
 $$
 
-## Formula 774 — source lines 5736-5738
+## Formula 774 — source lines 5734-5736
 
 $$
 T^4=T^{-2}.
 $$
 
-## Formula 775 — source lines 5742-5744
+## Formula 775 — source lines 5740-5742
 
 $$
 T^5=T^{-1}.
 $$
 
-## Formula 776 — source lines 5748-5750
+## Formula 776 — source lines 5746-5748
 
 $$
 T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 777 — source lines 5758-5760
+## Formula 777 — source lines 5756-5758
 
 $$
 x\in X_{\mathrm{adm}}
 $$
 
-## Formula 778 — source lines 5764-5766
+## Formula 778 — source lines 5762-5764
 
 $$
 (x,T^2(x))\in R_2.
 $$
 
-## Formula 779 — source lines 5771-5777
+## Formula 779 — source lines 5769-5775
 
 $$
 d_H(001,010)=2,
@@ -4948,7 +4946,7 @@ d_H(011,110)=2,
 d_H(010,100)=2,
 $$
 
-## Formula 780 — source lines 5779-5785
+## Formula 780 — source lines 5777-5783
 
 $$
 d_H(110,101)=2,
@@ -4958,97 +4956,97 @@ d_H(100,001)=2,
 d_H(101,011)=2.
 $$
 
-## Formula 781 — source lines 5789-5791
+## Formula 781 — source lines 5787-5789
 
 $$
 (x,T^2(x))\in R_2
 $$
 
-## Formula 782 — source lines 5795-5797
+## Formula 782 — source lines 5793-5795
 
 $$
 x\in X_{\mathrm{adm}}.
 $$
 
-## Formula 783 — source lines 5799-5801
+## Formula 783 — source lines 5797-5799
 
 $$
 \Box
 $$
 
-## Formula 784 — source lines 5805-5807
+## Formula 784 — source lines 5803-5805
 
 $$
 T^2=\text{oriented }R_2\text{-phase}.
 $$
 
-## Formula 785 — source lines 5814-5816
+## Formula 785 — source lines 5812-5814
 
 $$
 X_{\mathrm{adm}} = S_1^{(3)} \sqcup S_2^{(3)},
 $$
 
-## Formula 786 — source lines 5820-5822
+## Formula 786 — source lines 5818-5820
 
 $$
 S_1^{(3)} = \{001,010,100\},
 $$
 
-## Formula 787 — source lines 5824-5826
+## Formula 787 — source lines 5822-5824
 
 $$
 S_2^{(3)} = \{011,101,110\}.
 $$
 
-## Formula 788 — source lines 5830-5832
+## Formula 788 — source lines 5828-5830
 
 $$
 T^2(S_1^{(3)})=S_1^{(3)},
 $$
 
-## Formula 789 — source lines 5834-5836
+## Formula 789 — source lines 5832-5834
 
 $$
 T^2(S_2^{(3)})=S_2^{(3)}.
 $$
 
-## Formula 790 — source lines 5841-5843
+## Formula 790 — source lines 5839-5841
 
 $$
 001\to010\to100\to001.
 $$
 
-## Formula 791 — source lines 5847-5849
+## Formula 791 — source lines 5845-5847
 
 $$
 011\to110\to101\to011.
 $$
 
-## Formula 792 — source lines 5853-5855
+## Formula 792 — source lines 5851-5853
 
 $$
 \Box
 $$
 
-## Formula 793 — source lines 5859-5861
+## Formula 793 — source lines 5857-5859
 
 $$
 (X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3,
 $$
 
-## Formula 794 — source lines 5870-5872
+## Formula 794 — source lines 5868-5870
 
 $$
 T(S_1^{(3)})=S_2^{(3)},
 $$
 
-## Formula 795 — source lines 5874-5876
+## Formula 795 — source lines 5872-5874
 
 $$
 T(S_2^{(3)})=S_1^{(3)}.
 $$
 
-## Formula 796 — source lines 5881-5887
+## Formula 796 — source lines 5879-5885
 
 $$
 001\mapsto011,
@@ -5058,13 +5056,13 @@ $$
 100\mapsto101.
 $$
 
-## Formula 797 — source lines 5891-5893
+## Formula 797 — source lines 5889-5891
 
 $$
 S_1^{(3)}\to S_2^{(3)}.
 $$
 
-## Formula 798 — source lines 5897-5903
+## Formula 798 — source lines 5895-5901
 
 $$
 011\mapsto010,
@@ -5074,43 +5072,43 @@ $$
 101\mapsto001.
 $$
 
-## Formula 799 — source lines 5907-5909
+## Formula 799 — source lines 5905-5907
 
 $$
 S_2^{(3)}\to S_1^{(3)}.
 $$
 
-## Formula 800 — source lines 5911-5913
+## Formula 800 — source lines 5909-5911
 
 $$
 \Box
 $$
 
-## Formula 801 — source lines 5917-5919
+## Formula 801 — source lines 5915-5917
 
 $$
 T:S_1^{(3)}\leftrightarrow S_2^{(3)},
 $$
 
-## Formula 802 — source lines 5921-5923
+## Formula 802 — source lines 5919-5921
 
 $$
 T^2:S_i^{(3)}\to S_i^{(3)}.
 $$
 
-## Formula 803 — source lines 5930-5932
+## Formula 803 — source lines 5928-5930
 
 $$
 T^3(x)=x+111
 $$
 
-## Formula 804 — source lines 5936-5938
+## Formula 804 — source lines 5934-5936
 
 $$
 x\in X_{\mathrm{adm}}.
 $$
 
-## Formula 805 — source lines 5943-5947
+## Formula 805 — source lines 5941-5945
 
 $$
 T^3(001)=110=001+111,
@@ -5118,7 +5116,7 @@ T^3(001)=110=001+111,
 T^3(011)=100=011+111,
 $$
 
-## Formula 806 — source lines 5949-5953
+## Formula 806 — source lines 5947-5951
 
 $$
 T^3(010)=101=010+111,
@@ -5126,7 +5124,7 @@ T^3(010)=101=010+111,
 T^3(110)=001=110+111,
 $$
 
-## Formula 807 — source lines 5955-5959
+## Formula 807 — source lines 5953-5957
 
 $$
 T^3(100)=011=100+111,
@@ -5134,13 +5132,13 @@ T^3(100)=011=100+111,
 T^3(101)=010=101+111.
 $$
 
-## Formula 808 — source lines 5963-5965
+## Formula 808 — source lines 5961-5963
 
 $$
 T^3(x)=x+111
 $$
 
-## Formula 809 — source lines 5971-5977
+## Formula 809 — source lines 5969-5975
 
 $$
 001\leftrightarrow110,
@@ -5150,25 +5148,25 @@ $$
 100\leftrightarrow011.
 $$
 
-## Formula 810 — source lines 5981-5983
+## Formula 810 — source lines 5979-5981
 
 $$
 \Box
 $$
 
-## Formula 811 — source lines 5987-5989
+## Formula 811 — source lines 5985-5987
 
 $$
 T^3=\overline{(\cdot)}.
 $$
 
-## Formula 812 — source lines 5996-5998
+## Formula 812 — source lines 5994-5996
 
 $$
 R_3
 $$
 
-## Formula 813 — source lines 6002-6008
+## Formula 813 — source lines 6000-6006
 
 $$
 001\leftrightarrow110,
@@ -5178,91 +5176,91 @@ $$
 100\leftrightarrow011.
 $$
 
-## Formula 814 — source lines 6012-6014
+## Formula 814 — source lines 6010-6012
 
 $$
 (x,T^3(x))\in R_3
 $$
 
-## Formula 815 — source lines 6018-6020
+## Formula 815 — source lines 6016-6018
 
 $$
 x\in X_{\mathrm{adm}}.
 $$
 
-## Formula 816 — source lines 6024-6026
+## Formula 816 — source lines 6022-6024
 
 $$
 \vec R_{T^3}=R_3,
 $$
 
-## Formula 817 — source lines 6030-6032
+## Formula 817 — source lines 6028-6030
 
 $$
 \vec R_{T^3}:=\{(x,T^3(x)):x\in X_{\mathrm{adm}}\}.
 $$
 
-## Formula 818 — source lines 6036-6038
+## Formula 818 — source lines 6034-6036
 
 $$
 T^3\circ T^3=T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 819 — source lines 6042-6044
+## Formula 819 — source lines 6040-6042
 
 $$
 (x,y)\in\vec R_{T^3},
 $$
 
-## Formula 820 — source lines 6048-6050
+## Formula 820 — source lines 6046-6048
 
 $$
 (y,x)\in\vec R_{T^3}.
 $$
 
-## Formula 821 — source lines 6056-6058
+## Formula 821 — source lines 6054-6056
 
 $$
 T^3=\text{complement-phase}=\text{R_3-phase}.
 $$
 
-## Formula 822 — source lines 6065-6067
+## Formula 822 — source lines 6063-6065
 
 $$
 T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 823 — source lines 6072-6074
+## Formula 823 — source lines 6070-6072
 
 $$
 001\to011\to010\to110\to100\to101\to001.
 $$
 
-## Formula 824 — source lines 6078-6080
+## Formula 824 — source lines 6076-6078
 
 $$
 T^6(x)=x
 $$
 
-## Formula 825 — source lines 6084-6086
+## Formula 825 — source lines 6082-6084
 
 $$
 x\in X_{\mathrm{adm}}.
 $$
 
-## Formula 826 — source lines 6090-6092
+## Formula 826 — source lines 6088-6090
 
 $$
 T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 827 — source lines 6094-6096
+## Formula 827 — source lines 6092-6094
 
 $$
 \Box
 $$
 
-## Formula 828 — source lines 6106-6110
+## Formula 828 — source lines 6104-6108
 
 $$
 T^k=\mathrm{id}_{X_{\mathrm{adm}}},
@@ -5270,13 +5268,13 @@ T^k=\mathrm{id}_{X_{\mathrm{adm}}},
 k>0,
 $$
 
-## Formula 829 — source lines 6114-6116
+## Formula 829 — source lines 6112-6114
 
 $$
 6\mid k.
 $$
 
-## Formula 830 — source lines 6121-6129
+## Formula 830 — source lines 6119-6127
 
 $$
 001,\quad
@@ -5288,55 +5286,55 @@ $$
 001.
 $$
 
-## Formula 831 — source lines 6133-6135
+## Formula 831 — source lines 6131-6133
 
 $$
 T^k(001)=001,
 $$
 
-## Formula 832 — source lines 6139-6141
+## Formula 832 — source lines 6137-6139
 
 $$
 \Box
 $$
 
-## Formula 833 — source lines 6148-6150
+## Formula 833 — source lines 6146-6148
 
 $$
 \langle T\rangle = \{ T^0,T^1,T^2,T^3,T^4,T^5 \}
 $$
 
-## Formula 834 — source lines 6154-6156
+## Formula 834 — source lines 6152-6154
 
 $$
 \langle T\rangle\cong\mathbb Z/6\mathbb Z.
 $$
 
-## Formula 835 — source lines 6160-6162
+## Formula 835 — source lines 6158-6160
 
 $$
 [k]_6\mapsto T^k.
 $$
 
-## Formula 836 — source lines 6166-6168
+## Formula 836 — source lines 6164-6166
 
 $$
 k\mapsto T^k
 $$
 
-## Formula 837 — source lines 6172-6174
+## Formula 837 — source lines 6170-6172
 
 $$
 \mathbb Z\to\mathbb Z/6\mathbb Z.
 $$
 
-## Formula 838 — source lines 6180-6182
+## Formula 838 — source lines 6178-6180
 
 $$
 |X_{\mathrm{adm}}|=6.
 $$
 
-## Formula 839 — source lines 6189-6201
+## Formula 839 — source lines 6187-6199
 
 $$
 \begin{array}{c|c|c}
@@ -5352,58 +5350,58 @@ T^6 & \mathrm{id} & \text{full return}
 \end{array}
 $$
 
-## Formula 840 — source lines 6205-6207
+## Formula 840 — source lines 6203-6205
 
 $$
 \vec R_{T^k} = \{(x,T^k(x)):x\in X_{\mathrm{adm}}\}.
 $$
 
-## Formula 841 — source lines 6211-6214
+## Formula 841 — source lines 6209-6212
 
 $$
 R_1=
 \vec R_T\cup \vec R_{T^5}.
 $$
 
-## Formula 842 — source lines 6218-6221
+## Formula 842 — source lines 6216-6219
 
 $$
 R_2=
 \vec R_{T^2}\cup \vec R_{T^4}.
 $$
 
-## Formula 843 — source lines 6225-6228
+## Formula 843 — source lines 6223-6226
 
 $$
 R_3=
 \vec R_{T^3}.
 $$
 
-## Formula 844 — source lines 6240-6242
+## Formula 844 — source lines 6238-6240
 
 $$
 \mathbb Z.
 $$
 
-## Formula 845 — source lines 6246-6248
+## Formula 845 — source lines 6244-6246
 
 $$
 q_{\mathrm{per}}:\mathbb Z\to\mathbb Z/6\mathbb Z,
 $$
 
-## Formula 846 — source lines 6250-6252
+## Formula 846 — source lines 6248-6250
 
 $$
 q_{\mathrm{per}}(k)=[k]_6.
 $$
 
-## Formula 847 — source lines 6256-6258
+## Formula 847 — source lines 6254-6256
 
 $$
 x\in X_{\mathrm{adm}}
 $$
 
-## Formula 848 — source lines 6262-6266
+## Formula 848 — source lines 6260-6264
 
 $$
 \gamma_x:\mathbb Z\to X_{\mathrm{adm}},
@@ -5411,7 +5409,7 @@ $$
 \gamma_x(k)=T^k(x)
 $$
 
-## Formula 849 — source lines 6270-6276
+## Formula 849 — source lines 6268-6274
 
 $$
 \mathbb Z
@@ -5421,49 +5419,49 @@ $$
 X_{\mathrm{adm}},
 $$
 
-## Formula 850 — source lines 6280-6282
+## Formula 850 — source lines 6278-6280
 
 $$
 \tilde\gamma_x([k]_6)=T^k(x).
 $$
 
-## Formula 851 — source lines 6286-6288
+## Formula 851 — source lines 6284-6286
 
 $$
 T^{k+6}=T^k.
 $$
 
-## Formula 852 — source lines 6297-6299
+## Formula 852 — source lines 6295-6297
 
 $$
 \beta_1=\{001,110\},
 $$
 
-## Formula 853 — source lines 6301-6303
+## Formula 853 — source lines 6299-6301
 
 $$
 \beta_2=\{010,101\},
 $$
 
-## Formula 854 — source lines 6305-6307
+## Formula 854 — source lines 6303-6305
 
 $$
 \beta_3=\{100,011\}.
 $$
 
-## Formula 855 — source lines 6311-6313
+## Formula 855 — source lines 6309-6311
 
 $$
 B_\beta=\{\beta_1,\beta_2,\beta_3\}.
 $$
 
-## Formula 856 — source lines 6317-6319
+## Formula 856 — source lines 6315-6317
 
 $$
 p_\beta:X_{\mathrm{adm}}\to B_\beta
 $$
 
-## Formula 857 — source lines 6323-6329
+## Formula 857 — source lines 6321-6327
 
 $$
 p_\beta(x)=\beta_i
@@ -5473,7 +5471,7 @@ p_\beta(x)=\beta_i
 x\in\beta_i.
 $$
 
-## Formula 858 — source lines 6333-6339
+## Formula 858 — source lines 6331-6337
 
 $$
 T(\beta_1)=\beta_3,
@@ -5483,13 +5481,13 @@ T(\beta_3)=\beta_2,
 T(\beta_2)=\beta_1.
 $$
 
-## Formula 859 — source lines 6343-6345
+## Formula 859 — source lines 6341-6343
 
 $$
 \bar T:B_\beta\to B_\beta
 $$
 
-## Formula 860 — source lines 6349-6355
+## Formula 860 — source lines 6347-6353
 
 $$
 \bar T(\beta_1)=\beta_3,
@@ -5499,61 +5497,61 @@ $$
 \bar T(\beta_2)=\beta_1.
 $$
 
-## Formula 861 — source lines 6359-6361
+## Formula 861 — source lines 6357-6359
 
 $$
 p_\beta\circ T = \bar T\circ p_\beta.
 $$
 
-## Formula 862 — source lines 6371-6373
+## Formula 862 — source lines 6369-6371
 
 $$
 \bar T^3=\mathrm{id}_{B_\beta},
 $$
 
-## Formula 863 — source lines 6375-6377
+## Formula 863 — source lines 6373-6375
 
 $$
 T^3=\overline{(\cdot)}\neq\mathrm{id}_{X_{\mathrm{adm}}},
 $$
 
-## Formula 864 — source lines 6379-6381
+## Formula 864 — source lines 6377-6379
 
 $$
 T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 865 — source lines 6386-6388
+## Formula 865 — source lines 6384-6386
 
 $$
 \beta_1\to\beta_3\to\beta_2\to\beta_1.
 $$
 
-## Formula 866 — source lines 6392-6394
+## Formula 866 — source lines 6390-6392
 
 $$
 \bar T^3=\mathrm{id}_{B_\beta}.
 $$
 
-## Formula 867 — source lines 6398-6400
+## Formula 867 — source lines 6396-6398
 
 $$
 T^3(x)=x+111.
 $$
 
-## Formula 868 — source lines 6406-6408
+## Formula 868 — source lines 6404-6406
 
 $$
 T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 869 — source lines 6410-6412
+## Formula 869 — source lines 6408-6410
 
 $$
 \Box
 $$
 
-## Formula 870 — source lines 6416-6420
+## Formula 870 — source lines 6414-6418
 
 $$
 \text{base-period}=3,
@@ -5561,25 +5559,25 @@ $$
 \text{lift-period}=6.
 $$
 
-## Formula 871 — source lines 6428-6430
+## Formula 871 — source lines 6426-6428
 
 $$
 \bar T^3=\mathrm{id}_{B_\beta}
 $$
 
-## Formula 872 — source lines 6434-6436
+## Formula 872 — source lines 6432-6434
 
 $$
 p_\beta:X_{\mathrm{adm}}\to B_\beta
 $$
 
-## Formula 873 — source lines 6440-6442
+## Formula 873 — source lines 6438-6440
 
 $$
 \mathrm{hol}_\beta(\beta_i):\beta_i\to\beta_i
 $$
 
-## Formula 874 — source lines 6446-6450
+## Formula 874 — source lines 6444-6448
 
 $$
 \mathrm{hol}_\beta(\beta_i)
@@ -5587,250 +5585,250 @@ $$
 T^3|_{\beta_i}.
 $$
 
-## Formula 875 — source lines 6454-6457
+## Formula 875 — source lines 6452-6455
 
 $$
 T^3|_{\beta_1}:
 001\leftrightarrow110,
 $$
 
-## Formula 876 — source lines 6459-6462
+## Formula 876 — source lines 6457-6460
 
 $$
 T^3|_{\beta_2}:
 010\leftrightarrow101,
 $$
 
-## Formula 877 — source lines 6464-6467
+## Formula 877 — source lines 6462-6465
 
 $$
 T^3|_{\beta_3}:
 100\leftrightarrow011.
 $$
 
-## Formula 878 — source lines 6471-6473
+## Formula 878 — source lines 6469-6471
 
 $$
 \mathrm{hol}_\beta(\beta_i)\neq\mathrm{id}_{\beta_i}.
 $$
 
-## Formula 879 — source lines 6477-6479
+## Formula 879 — source lines 6475-6477
 
 $$
 (T^3)^2=T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 880 — source lines 6488-6490
+## Formula 880 — source lines 6486-6488
 
 $$
 \tau(a)=-a,
 $$
 
-## Formula 881 — source lines 6492-6494
+## Formula 881 — source lines 6490-6492
 
 $$
 \tau(-a)=a,
 $$
 
-## Formula 882 — source lines 6496-6498
+## Formula 882 — source lines 6494-6496
 
 $$
 \tau^2=\mathrm{id}.
 $$
 
-## Formula 883 — source lines 6504-6506
+## Formula 883 — source lines 6502-6504
 
 $$
 T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 884 — source lines 6512-6514
+## Formula 884 — source lines 6510-6512
 
 $$
 \tau^2=\mathrm{id}
 $$
 
-## Formula 885 — source lines 6518-6520
+## Formula 885 — source lines 6516-6518
 
 $$
 T^6=\mathrm{id}
 $$
 
-## Formula 886 — source lines 6526-6528
+## Formula 886 — source lines 6524-6526
 
 $$
 T^3,
 $$
 
-## Formula 887 — source lines 6538-6540
+## Formula 887 — source lines 6536-6538
 
 $$
 \mathcal P_T^{(3)} = \left( X_{\mathrm{adm}}, \vec R_T, T, \langle T\rangle, q_{\mathrm{per}}, p_\beta, \bar T, \mathrm{hol}_\beta \right).
 $$
 
-## Formula 888 — source lines 6544-6546
+## Formula 888 — source lines 6542-6544
 
 $$
 X_{\mathrm{adm}}
 $$
 
-## Formula 889 — source lines 6550-6552
+## Formula 889 — source lines 6548-6550
 
 $$
 \vec R_T
 $$
 
-## Formula 890 — source lines 6556-6558
+## Formula 890 — source lines 6554-6556
 
 $$
 T
 $$
 
-## Formula 891 — source lines 6562-6564
+## Formula 891 — source lines 6560-6562
 
 $$
 \langle T\rangle\cong\mathbb Z/6\mathbb Z
 $$
 
-## Formula 892 — source lines 6568-6570
+## Formula 892 — source lines 6566-6568
 
 $$
 q_{\mathrm{per}}:\mathbb Z\to\mathbb Z/6\mathbb Z
 $$
 
-## Formula 893 — source lines 6574-6576
+## Formula 893 — source lines 6572-6574
 
 $$
 p_\beta:X_{\mathrm{adm}}\to B_\beta
 $$
 
-## Formula 894 — source lines 6580-6582
+## Formula 894 — source lines 6578-6580
 
 $$
 \bar T:B_\beta\to B_\beta
 $$
 
-## Formula 895 — source lines 6586-6588
+## Formula 895 — source lines 6584-6586
 
 $$
 \mathrm{hol}_\beta
 $$
 
-## Formula 896 — source lines 6602-6604
+## Formula 896 — source lines 6600-6602
 
 $$
 J_3=\{1,2,3\}.
 $$
 
-## Formula 897 — source lines 6608-6610
+## Formula 897 — source lines 6606-6608
 
 $$
 x=x_3x_2x_1\in Q_3,
 $$
 
-## Formula 898 — source lines 6616-6618
+## Formula 898 — source lines 6614-6616
 
 $$
 x=x_3x_2x_1.
 $$
 
-## Formula 899 — source lines 6622-6624
+## Formula 899 — source lines 6620-6622
 
 $$
 001
 $$
 
-## Formula 900 — source lines 6628-6630
+## Formula 900 — source lines 6626-6628
 
 $$
 x_1=1,\qquad x_2=0,\qquad x_3=0.
 $$
 
-## Formula 901 — source lines 6637-6639
+## Formula 901 — source lines 6635-6637
 
 $$
 \mathcal P^\circ(J_3) = \{A\subset J_3:A\neq\varnothing,\ A\neq J_3\}.
 $$
 
-## Formula 902 — source lines 6643-6645
+## Formula 902 — source lines 6641-6643
 
 $$
 \mathcal P^\circ(J_3) = \{\{1\},\{2\},\{3\},\{1,2\},\{1,3\},\{2,3\}\}.
 $$
 
-## Formula 903 — source lines 6650-6652
+## Formula 903 — source lines 6648-6650
 
 $$
 \mathrm{supp}:X_{\mathrm{adm}}\to \mathcal P^\circ(J_3)
 $$
 
-## Formula 904 — source lines 6656-6658
+## Formula 904 — source lines 6654-6656
 
 $$
 \mathrm{supp}(x)=\{i\in J_3:x_i=1\}.
 $$
 
-## Formula 905 — source lines 6662-6664
+## Formula 905 — source lines 6660-6662
 
 $$
 X_{\mathrm{adm}}=Q_3\setminus\{000,111\},
 $$
 
-## Formula 906 — source lines 6670-6672
+## Formula 906 — source lines 6668-6670
 
 $$
 \mathrm{supp}(001)=\{1\},
 $$
 
-## Formula 907 — source lines 6674-6676
+## Formula 907 — source lines 6672-6674
 
 $$
 \mathrm{supp}(010)=\{2\},
 $$
 
-## Formula 908 — source lines 6678-6680
+## Formula 908 — source lines 6676-6678
 
 $$
 \mathrm{supp}(100)=\{3\},
 $$
 
-## Formula 909 — source lines 6682-6684
+## Formula 909 — source lines 6680-6682
 
 $$
 \mathrm{supp}(011)=\{1,2\},
 $$
 
-## Formula 910 — source lines 6686-6688
+## Formula 910 — source lines 6684-6686
 
 $$
 \mathrm{supp}(101)=\{1,3\},
 $$
 
-## Formula 911 — source lines 6690-6692
+## Formula 911 — source lines 6688-6690
 
 $$
 \mathrm{supp}(110)=\{2,3\}.
 $$
 
-## Formula 912 — source lines 6698-6700
+## Formula 912 — source lines 6696-6698
 
 $$
 \mathrm{supp}:X_{\mathrm{adm}}\to\mathcal P^\circ(J_3)
 $$
 
-## Formula 913 — source lines 6709-6711
+## Formula 913 — source lines 6707-6709
 
 $$
 A\in\mathcal P^\circ(J_3)
 $$
 
-## Formula 914 — source lines 6715-6717
+## Formula 914 — source lines 6713-6715
 
 $$
 \chi_A\in X_{\mathrm{adm}}
 $$
 
-## Formula 915 — source lines 6721-6727
+## Formula 915 — source lines 6719-6725
 
 $$
 (\chi_A)_i=
@@ -5840,49 +5838,49 @@ $$
 \end{cases}
 $$
 
-## Formula 916 — source lines 6731-6733
+## Formula 916 — source lines 6729-6731
 
 $$
 \chi_A\in X_{\mathrm{adm}}.
 $$
 
-## Formula 917 — source lines 6737-6739
+## Formula 917 — source lines 6735-6737
 
 $$
 \mathrm{supp}^{-1}(A)=\chi_A.
 $$
 
-## Formula 918 — source lines 6743-6745
+## Formula 918 — source lines 6741-6743
 
 $$
 \Box
 $$
 
-## Formula 919 — source lines 6753-6755
+## Formula 919 — source lines 6751-6753
 
 $$
 A,B\in\mathcal P^\circ(J_3)
 $$
 
-## Formula 920 — source lines 6759-6761
+## Formula 920 — source lines 6757-6759
 
 $$
 \rho_k = \{(A,B):A\neq B,\ |A\triangle B|=k\}, \qquad k=1,2,3,
 $$
 
-## Formula 921 — source lines 6765-6767
+## Formula 921 — source lines 6763-6765
 
 $$
 A\triangle B=(A\setminus B)\cup(B\setminus A)
 $$
 
-## Formula 922 — source lines 6776-6778
+## Formula 922 — source lines 6774-6776
 
 $$
 x,y\in X_{\mathrm{adm}}
 $$
 
-## Formula 923 — source lines 6782-6786
+## Formula 923 — source lines 6780-6784
 
 $$
 A=\mathrm{supp}(x),
@@ -5890,7 +5888,7 @@ A=\mathrm{supp}(x),
 B=\mathrm{supp}(y)
 $$
 
-## Formula 924 — source lines 6790-6794
+## Formula 924 — source lines 6788-6792
 
 $$
 (x,y)\in R_k
@@ -5898,19 +5896,19 @@ $$
 (A,B)\in \rho_k.
 $$
 
-## Formula 925 — source lines 6799-6801
+## Formula 925 — source lines 6797-6799
 
 $$
 d_H(x,y)=|\{i:x_i\neq y_i\}|.
 $$
 
-## Formula 926 — source lines 6805-6807
+## Formula 926 — source lines 6803-6805
 
 $$
 x_i\neq y_i
 $$
 
-## Formula 927 — source lines 6811-6815
+## Formula 927 — source lines 6809-6813
 
 $$
 \mathrm{supp}(x),
@@ -5918,91 +5916,91 @@ $$
 \mathrm{supp}(y).
 $$
 
-## Formula 928 — source lines 6819-6821
+## Formula 928 — source lines 6817-6819
 
 $$
 \{i:x_i\neq y_i\} = \mathrm{supp}(x)\triangle\mathrm{supp}(y).
 $$
 
-## Formula 929 — source lines 6825-6827
+## Formula 929 — source lines 6823-6825
 
 $$
 d_H(x,y) = |\mathrm{supp}(x)\triangle\mathrm{supp}(y)|.
 $$
 
-## Formula 930 — source lines 6831-6833
+## Formula 930 — source lines 6829-6831
 
 $$
 \Box
 $$
 
-## Formula 931 — source lines 6837-6839
+## Formula 931 — source lines 6835-6837
 
 $$
 (X_{\mathrm{adm}},R_1, R_2, R_3) \cong (\mathcal P^\circ(J_3),\rho_1,\rho_2,\rho_3).
 $$
 
-## Formula 932 — source lines 6845-6847
+## Formula 932 — source lines 6843-6845
 
 $$
 X_{\mathrm{adm}}=S_1^{(3)}\sqcup S_2^{(3)},
 $$
 
-## Formula 933 — source lines 6851-6853
+## Formula 933 — source lines 6849-6851
 
 $$
 S_1^{(3)}=\{001,010,100\},
 $$
 
-## Formula 934 — source lines 6855-6857
+## Formula 934 — source lines 6853-6855
 
 $$
 S_2^{(3)}=\{011,101,110\}.
 $$
 
-## Formula 935 — source lines 6861-6863
+## Formula 935 — source lines 6859-6861
 
 $$
 S_1^{(3)} \cong \{A\subset J_3:|A|=1\},
 $$
 
-## Formula 936 — source lines 6865-6867
+## Formula 936 — source lines 6863-6865
 
 $$
 S_2^{(3)} \cong \{A\subset J_3:|A|=2\}.
 $$
 
-## Formula 937 — source lines 6873-6875
+## Formula 937 — source lines 6871-6873
 
 $$
 S_1^{(3)} \longleftrightarrow \{1\},\{2\},\{3\},
 $$
 
-## Formula 938 — source lines 6877-6879
+## Formula 938 — source lines 6875-6877
 
 $$
 S_2^{(3)} \longleftrightarrow \{1,2\},\{1,3\},\{2,3\}.
 $$
 
-## Formula 939 — source lines 6886-6888
+## Formula 939 — source lines 6884-6886
 
 $$
 x\in X_{\mathrm{adm}}
 $$
 
-## Formula 940 — source lines 6892-6894
+## Formula 940 — source lines 6890-6892
 
 $$
 M(x)=\mathrm{supp}(x).
 $$
 
-## Formula 941 — source lines 6898-6900
+## Formula 941 — source lines 6896-6898
 
 $$
 C(x)=J_3\setminus M(x).
 $$
 
-## Formula 942 — source lines 6906-6910
+## Formula 942 — source lines 6904-6908
 
 $$
 M(x)\neq\varnothing,
@@ -6010,55 +6008,55 @@ M(x)\neq\varnothing,
 C(x)\neq\varnothing.
 $$
 
-## Formula 943 — source lines 6914-6916
+## Formula 943 — source lines 6912-6914
 
 $$
 |M(x)|+|C(x)|=3.
 $$
 
-## Formula 944 — source lines 6920-6922
+## Formula 944 — source lines 6918-6920
 
 $$
 (|M(x)|,|C(x)|)=(1,2)
 $$
 
-## Formula 945 — source lines 6926-6928
+## Formula 945 — source lines 6924-6926
 
 $$
 (|M(x)|,|C(x)|)=(2,1).
 $$
 
-## Formula 946 — source lines 6935-6937
+## Formula 946 — source lines 6933-6935
 
 $$
 x\in X_{\mathrm{adm}}
 $$
 
-## Formula 947 — source lines 6941-6943
+## Formula 947 — source lines 6939-6941
 
 $$
 (|M(x)|,|C(x)|)=(1,2)
 $$
 
-## Formula 948 — source lines 6947-6949
+## Formula 948 — source lines 6945-6947
 
 $$
 (|M(x)|,|C(x)|)=(2,1).
 $$
 
-## Formula 949 — source lines 6955-6957
+## Formula 949 — source lines 6953-6955
 
 $$
 X_{\mathrm{adm}}
 $$
 
-## Formula 950 — source lines 6964-6966
+## Formula 950 — source lines 6962-6964
 
 $$
 x\in X_{\mathrm{adm}},
 $$
 
-## Formula 951 — source lines 6970-6974
+## Formula 951 — source lines 6968-6972
 
 $$
 x\neq 000,
@@ -6066,7 +6064,7 @@ x\neq 000,
 x\neq 111.
 $$
 
-## Formula 952 — source lines 6978-6982
+## Formula 952 — source lines 6976-6980
 
 $$
 |M(x)|\neq 0,
@@ -6074,37 +6072,37 @@ $$
 |M(x)|\neq 3.
 $$
 
-## Formula 953 — source lines 6986-6988
+## Formula 953 — source lines 6984-6986
 
 $$
 |M(x)|=1
 $$
 
-## Formula 954 — source lines 6992-6994
+## Formula 954 — source lines 6990-6992
 
 $$
 |M(x)|=2.
 $$
 
-## Formula 955 — source lines 7000-7002
+## Formula 955 — source lines 6998-7000
 
 $$
 x\in X_{\mathrm{adm}}.
 $$
 
-## Formula 956 — source lines 7004-7006
+## Formula 956 — source lines 7002-7004
 
 $$
 \Box
 $$
 
-## Formula 957 — source lines 7012-7014
+## Formula 957 — source lines 7010-7012
 
 $$
 1+2:
 $$
 
-## Formula 958 — source lines 7016-7020
+## Formula 958 — source lines 7014-7018
 
 $$
 |M(x)|=1,
@@ -6112,13 +6110,13 @@ $$
 |C(x)|=2.
 $$
 
-## Formula 959 — source lines 7024-7026
+## Formula 959 — source lines 7022-7024
 
 $$
 2+1:
 $$
 
-## Formula 960 — source lines 7028-7032
+## Formula 960 — source lines 7026-7030
 
 $$
 |M(x)|=2,
@@ -6126,7 +6124,7 @@ $$
 |C(x)|=1.
 $$
 
-## Formula 961 — source lines 7036-7042
+## Formula 961 — source lines 7034-7040
 
 $$
 001:
@@ -6136,7 +6134,7 @@ M=\{1\},
 C=\{2,3\},
 $$
 
-## Formula 962 — source lines 7044-7050
+## Formula 962 — source lines 7042-7048
 
 $$
 010:
@@ -6146,7 +6144,7 @@ M=\{2\},
 C=\{1,3\},
 $$
 
-## Formula 963 — source lines 7052-7058
+## Formula 963 — source lines 7050-7056
 
 $$
 100:
@@ -6156,7 +6154,7 @@ M=\{3\},
 C=\{1,2\};
 $$
 
-## Formula 964 — source lines 7062-7068
+## Formula 964 — source lines 7060-7066
 
 $$
 011:
@@ -6166,7 +6164,7 @@ M=\{1,2\},
 C=\{3\},
 $$
 
-## Formula 965 — source lines 7070-7076
+## Formula 965 — source lines 7068-7074
 
 $$
 101:
@@ -6176,7 +6174,7 @@ M=\{1,3\},
 C=\{2\},
 $$
 
-## Formula 966 — source lines 7078-7084
+## Formula 966 — source lines 7076-7082
 
 $$
 110:
@@ -6186,7 +6184,7 @@ M=\{2,3\},
 C=\{1\}.
 $$
 
-## Formula 967 — source lines 7088-7094
+## Formula 967 — source lines 7086-7092
 
 $$
 1\mid 2
@@ -6196,247 +6194,247 @@ $$
 2\mid 1.
 $$
 
-## Formula 968 — source lines 7102-7104
+## Formula 968 — source lines 7100-7102
 
 $$
 \mathrm{supp}:X_{\mathrm{adm}}\to\mathcal P^\circ(J_3)
 $$
 
-## Formula 969 — source lines 7108-7110
+## Formula 969 — source lines 7106-7108
 
 $$
 \mathrm{supp}^{-1}(A)=\{\chi_A\}.
 $$
 
-## Formula 970 — source lines 7114-7116
+## Formula 970 — source lines 7112-7114
 
 $$
 \mathrm{rec}_{\mathrm{supp}}(A) = (\{\chi_A\},\varnothing).
 $$
 
-## Formula 971 — source lines 7120-7122
+## Formula 971 — source lines 7118-7120
 
 $$
 R_1,\quad R_2,\quad R_3,\quad R_{12},
 $$
 
-## Formula 972 — source lines 7128-7130
+## Formula 972 — source lines 7126-7128
 
 $$
 A\in\mathcal P^\circ(J_3).
 $$
 
-## Formula 973 — source lines 7134-7136
+## Formula 973 — source lines 7132-7134
 
 $$
 R_k = (\mathrm{supp}\times\mathrm{supp})^{-1}(\rho_k), \qquad k=1,2,3.
 $$
 
-## Formula 974 — source lines 7144-7146
+## Formula 974 — source lines 7142-7144
 
 $$
 T:S_1^{(3)}\leftrightarrow S_2^{(3)},
 $$
 
-## Formula 975 — source lines 7148-7150
+## Formula 975 — source lines 7146-7148
 
 $$
 T^2:S_i^{(3)}\to S_i^{(3)},
 $$
 
-## Formula 976 — source lines 7152-7154
+## Formula 976 — source lines 7150-7152
 
 $$
 T^3(x)=x+111.
 $$
 
-## Formula 977 — source lines 7158-7160
+## Formula 977 — source lines 7156-7158
 
 $$
 T
 $$
 
-## Formula 978 — source lines 7164-7166
+## Formula 978 — source lines 7162-7164
 
 $$
 1+2
 $$
 
-## Formula 979 — source lines 7170-7172
+## Formula 979 — source lines 7168-7170
 
 $$
 2+1
 $$
 
-## Formula 980 — source lines 7176-7178
+## Formula 980 — source lines 7174-7176
 
 $$
 T^2
 $$
 
-## Formula 981 — source lines 7182-7184
+## Formula 981 — source lines 7180-7182
 
 $$
 T^3
 $$
 
-## Formula 982 — source lines 7188-7190
+## Formula 982 — source lines 7186-7188
 
 $$
 M(T^3x)=C(x),
 $$
 
-## Formula 983 — source lines 7192-7194
+## Formula 983 — source lines 7190-7192
 
 $$
 C(T^3x)=M(x).
 $$
 
-## Formula 984 — source lines 7198-7200
+## Formula 984 — source lines 7196-7198
 
 $$
 T^3(x)=x+111
 $$
 
-## Formula 985 — source lines 7210-7212
+## Formula 985 — source lines 7208-7210
 
 $$
 100
 $$
 
-## Formula 986 — source lines 7216-7218
+## Formula 986 — source lines 7214-7216
 
 $$
 S_1^{(3)}.
 $$
 
-## Formula 987 — source lines 7222-7224
+## Formula 987 — source lines 7220-7222
 
 $$
 011
 $$
 
-## Formula 988 — source lines 7228-7230
+## Formula 988 — source lines 7226-7228
 
 $$
 S_2^{(3)}.
 $$
 
-## Formula 989 — source lines 7234-7236
+## Formula 989 — source lines 7232-7234
 
 $$
 X_{\mathrm{adm}}.
 $$
 
-## Formula 990 — source lines 7245-7247
+## Formula 990 — source lines 7243-7245
 
 $$
 K(J_3)
 $$
 
-## Formula 991 — source lines 7251-7253
+## Formula 991 — source lines 7249-7251
 
 $$
 J_3=\{1,2,3\}.
 $$
 
-## Formula 992 — source lines 7257-7259
+## Formula 992 — source lines 7255-7257
 
 $$
 V_\Delta=\{\{1\},\{2\},\{3\}\}.
 $$
 
-## Formula 993 — source lines 7263-7265
+## Formula 993 — source lines 7261-7263
 
 $$
 E_\Delta=\{\{1,2\},\{1,3\},\{2,3\}\}.
 $$
 
-## Formula 994 — source lines 7271-7273
+## Formula 994 — source lines 7269-7271
 
 $$
 S_1^{(3)} \cong V_\Delta,
 $$
 
-## Formula 995 — source lines 7275-7277
+## Formula 995 — source lines 7273-7275
 
 $$
 S_2^{(3)} \cong E_\Delta.
 $$
 
-## Formula 996 — source lines 7281-7283
+## Formula 996 — source lines 7279-7281
 
 $$
 X_{\mathrm{adm}} \cong V_\Delta\sqcup E_\Delta.
 $$
 
-## Formula 997 — source lines 7290-7292
+## Formula 997 — source lines 7288-7290
 
 $$
 \mathcal P^\circ(J_3)=V_\Delta\sqcup E_\Delta.
 $$
 
-## Formula 998 — source lines 7296-7298
+## Formula 998 — source lines 7294-7296
 
 $$
 x\in S_1^{(3)}
 $$
 
-## Formula 999 — source lines 7302-7304
+## Formula 999 — source lines 7300-7302
 
 $$
 \mathrm{supp}(x)=\{i\}.
 $$
 
-## Formula 1000 — source lines 7308-7310
+## Formula 1000 — source lines 7306-7308
 
 $$
 x\in S_2^{(3)}
 $$
 
-## Formula 1001 — source lines 7314-7316
+## Formula 1001 — source lines 7312-7314
 
 $$
 \mathrm{supp}(x)=\{i,j\}.
 $$
 
-## Formula 1002 — source lines 7322-7324
+## Formula 1002 — source lines 7320-7322
 
 $$
 001\leftrightarrow \{1\},
 $$
 
-## Formula 1003 — source lines 7326-7328
+## Formula 1003 — source lines 7324-7326
 
 $$
 010\leftrightarrow \{2\},
 $$
 
-## Formula 1004 — source lines 7330-7332
+## Formula 1004 — source lines 7328-7330
 
 $$
 100\leftrightarrow \{3\},
 $$
 
-## Formula 1005 — source lines 7336-7338
+## Formula 1005 — source lines 7334-7336
 
 $$
 011\leftrightarrow \{1,2\},
 $$
 
-## Formula 1006 — source lines 7340-7342
+## Formula 1006 — source lines 7338-7340
 
 $$
 101\leftrightarrow \{1,3\},
 $$
 
-## Formula 1007 — source lines 7344-7346
+## Formula 1007 — source lines 7342-7344
 
 $$
 110\leftrightarrow \{2,3\}.
 $$
 
-## Formula 1008 — source lines 7355-7359
+## Formula 1008 — source lines 7353-7357
 
 $$
 x,y\in X_{\mathrm{adm}},
@@ -6444,13 +6442,13 @@ x,y\in X_{\mathrm{adm}},
 x\neq y,
 $$
 
-## Formula 1009 — source lines 7363-7365
+## Formula 1009 — source lines 7361-7363
 
 $$
 (x,y)\in R_1
 $$
 
-## Formula 1010 — source lines 7371-7375
+## Formula 1010 — source lines 7369-7373
 
 $$
 A=\mathrm{supp}(x),
@@ -6458,25 +6456,25 @@ A=\mathrm{supp}(x),
 B=\mathrm{supp}(y),
 $$
 
-## Formula 1011 — source lines 7379-7381
+## Formula 1011 — source lines 7377-7379
 
 $$
 (x,y)\in R_1
 $$
 
-## Formula 1012 — source lines 7385-7387
+## Formula 1012 — source lines 7383-7385
 
 $$
 |A|=1,\quad |B|=2,\quad A\subset B,
 $$
 
-## Formula 1013 — source lines 7391-7393
+## Formula 1013 — source lines 7389-7391
 
 $$
 |A|=2,\quad |B|=1,\quad B\subset A.
 $$
 
-## Formula 1014 — source lines 7398-7402
+## Formula 1014 — source lines 7396-7400
 
 $$
 (x,y)\in R_1
@@ -6484,7 +6482,7 @@ $$
 |\mathrm{supp}(x)\triangle\mathrm{supp}(y)|=1.
 $$
 
-## Formula 1015 — source lines 7410-7414
+## Formula 1015 — source lines 7408-7412
 
 $$
 A=\{i\},
@@ -6492,91 +6490,91 @@ A=\{i\},
 B=\{i,j\},
 $$
 
-## Formula 1016 — source lines 7418-7420
+## Formula 1016 — source lines 7416-7418
 
 $$
 A\triangle B=\{j\},
 $$
 
-## Formula 1017 — source lines 7424-7426
+## Formula 1017 — source lines 7422-7424
 
 $$
 |A\triangle B|=1.
 $$
 
-## Formula 1018 — source lines 7430-7432
+## Formula 1018 — source lines 7428-7430
 
 $$
 (x,y)\in R_1.
 $$
 
-## Formula 1019 — source lines 7434-7436
+## Formula 1019 — source lines 7432-7434
 
 $$
 \Box
 $$
 
-## Formula 1020 — source lines 7440-7442
+## Formula 1020 — source lines 7438-7440
 
 $$
 R_1 = \text{incidence between vertex and incident edge}.
 $$
 
-## Formula 1021 — source lines 7449-7451
+## Formula 1021 — source lines 7447-7449
 
 $$
 \{i\}\in V_\Delta
 $$
 
-## Formula 1022 — source lines 7455-7457
+## Formula 1022 — source lines 7453-7455
 
 $$
 \mathrm{opp}(\{i\})=J_3\setminus\{i\}.
 $$
 
-## Formula 1023 — source lines 7461-7463
+## Formula 1023 — source lines 7459-7461
 
 $$
 \mathrm{opp}(\{1\})=\{2,3\},
 $$
 
-## Formula 1024 — source lines 7465-7467
+## Formula 1024 — source lines 7463-7465
 
 $$
 \mathrm{opp}(\{2\})=\{1,3\},
 $$
 
-## Formula 1025 — source lines 7469-7471
+## Formula 1025 — source lines 7467-7469
 
 $$
 \mathrm{opp}(\{3\})=\{1,2\}.
 $$
 
-## Formula 1026 — source lines 7475-7477
+## Formula 1026 — source lines 7473-7475
 
 $$
 \mathrm{opp}(\{i,j\})=J_3\setminus\{i,j\}.
 $$
 
-## Formula 1027 — source lines 7481-7483
+## Formula 1027 — source lines 7479-7481
 
 $$
 \mathrm{opp}^2=\mathrm{id}_{\mathcal P^\circ(J_3)}.
 $$
 
-## Formula 1028 — source lines 7492-7494
+## Formula 1028 — source lines 7490-7492
 
 $$
 (x,y)\in R_3
 $$
 
-## Formula 1029 — source lines 7498-7500
+## Formula 1029 — source lines 7496-7498
 
 $$
 \mathrm{supp}(y) = J_3\setminus\mathrm{supp}(x).
 $$
 
-## Formula 1030 — source lines 7505-7509
+## Formula 1030 — source lines 7503-7507
 
 $$
 (x,y)\in R_3
@@ -6584,25 +6582,25 @@ $$
 y=x+111.
 $$
 
-## Formula 1031 — source lines 7513-7515
+## Formula 1031 — source lines 7511-7513
 
 $$
 \mathrm{supp}(x+111) = J_3\setminus\mathrm{supp}(x).
 $$
 
-## Formula 1032 — source lines 7519-7521
+## Formula 1032 — source lines 7517-7519
 
 $$
 (x,y)\in R_3 \quad\Longleftrightarrow\quad \mathrm{supp}(y) = J_3\setminus\mathrm{supp}(x).
 $$
 
-## Formula 1033 — source lines 7523-7525
+## Formula 1033 — source lines 7521-7523
 
 $$
 \Box
 $$
 
-## Formula 1034 — source lines 7529-7535
+## Formula 1034 — source lines 7527-7533
 
 $$
 001\leftrightarrow 110
@@ -6612,7 +6610,7 @@ $$
 \{1\}\leftrightarrow\{2,3\},
 $$
 
-## Formula 1035 — source lines 7537-7543
+## Formula 1035 — source lines 7535-7541
 
 $$
 010\leftrightarrow 101
@@ -6622,7 +6620,7 @@ $$
 \{2\}\leftrightarrow\{1,3\},
 $$
 
-## Formula 1036 — source lines 7545-7551
+## Formula 1036 — source lines 7543-7549
 
 $$
 100\leftrightarrow 011
@@ -6632,31 +6630,31 @@ $$
 \{3\}\leftrightarrow\{1,2\}.
 $$
 
-## Formula 1037 — source lines 7555-7557
+## Formula 1037 — source lines 7553-7555
 
 $$
 \beta_1,\beta_2,\beta_3
 $$
 
-## Formula 1038 — source lines 7561-7563
+## Formula 1038 — source lines 7559-7561
 
 $$
 \text{vertex} \leftrightarrow \text{opposite edge}.
 $$
 
-## Formula 1039 — source lines 7570-7572
+## Formula 1039 — source lines 7568-7570
 
 $$
 R_2 = R_2|_{S_1^{(3)}}\sqcup R_2|_{S_2^{(3)}}.
 $$
 
-## Formula 1040 — source lines 7576-7578
+## Formula 1040 — source lines 7574-7576
 
 $$
 (x,y)\in R_2
 $$
 
-## Formula 1041 — source lines 7582-7586
+## Formula 1041 — source lines 7580-7584
 
 $$
 |\mathrm{supp}(x)|=|\mathrm{supp}(y)|,
@@ -6664,49 +6662,49 @@ $$
 \mathrm{supp}(x)\neq\mathrm{supp}(y).
 $$
 
-## Formula 1042 — source lines 7591-7593
+## Formula 1042 — source lines 7589-7591
 
 $$
 |A\triangle B|=2.
 $$
 
-## Formula 1043 — source lines 7599-7601
+## Formula 1043 — source lines 7597-7599
 
 $$
 d_H(x,y)=2.
 $$
 
-## Formula 1044 — source lines 7605-7607
+## Formula 1044 — source lines 7603-7605
 
 $$
 (x,y)\in R_2.
 $$
 
-## Formula 1045 — source lines 7613-7615
+## Formula 1045 — source lines 7611-7613
 
 $$
 \text{vertex}\leftrightarrow\text{vertex},
 $$
 
-## Formula 1046 — source lines 7617-7619
+## Formula 1046 — source lines 7615-7617
 
 $$
 \text{edge}\leftrightarrow\text{edge}.
 $$
 
-## Formula 1047 — source lines 7621-7623
+## Formula 1047 — source lines 7619-7621
 
 $$
 \Box
 $$
 
-## Formula 1048 — source lines 7627-7629
+## Formula 1048 — source lines 7625-7627
 
 $$
 (X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3
 $$
 
-## Formula 1049 — source lines 7633-7637
+## Formula 1049 — source lines 7631-7635
 
 $$
 V_\Delta\mapsto K_3,
@@ -6714,139 +6712,139 @@ V_\Delta\mapsto K_3,
 E_\Delta\mapsto K_3.
 $$
 
-## Formula 1050 — source lines 7643-7645
+## Formula 1050 — source lines 7641-7643
 
 $$
 001\to010
 $$
 
-## Formula 1051 — source lines 7649-7651
+## Formula 1051 — source lines 7647-7649
 
 $$
 \{1\}\to\{2\}.
 $$
 
-## Formula 1052 — source lines 7655-7657
+## Formula 1052 — source lines 7653-7655
 
 $$
 d_H(001,010)=2.
 $$
 
-## Formula 1053 — source lines 7663-7665
+## Formula 1053 — source lines 7661-7663
 
 $$
 R_1=\text{vertex-edge incidence},
 $$
 
-## Formula 1054 — source lines 7667-7669
+## Formula 1054 — source lines 7665-7667
 
 $$
 R_2=\text{same-type axis shift},
 $$
 
-## Formula 1055 — source lines 7671-7673
+## Formula 1055 — source lines 7669-7671
 
 $$
 R_3=\text{vertex/opposite-edge duality}.
 $$
 
-## Formula 1056 — source lines 7679-7681
+## Formula 1056 — source lines 7677-7679
 
 $$
 \beta_i
 $$
 
-## Formula 1057 — source lines 7687-7689
+## Formula 1057 — source lines 7685-7687
 
 $$
 \beta_1=\{001,110\}.
 $$
 
-## Formula 1058 — source lines 7693-7695
+## Formula 1058 — source lines 7691-7693
 
 $$
 001\leftrightarrow\{1\},
 $$
 
-## Formula 1059 — source lines 7697-7699
+## Formula 1059 — source lines 7695-7697
 
 $$
 110\leftrightarrow\{2,3\}.
 $$
 
-## Formula 1060 — source lines 7703-7705
+## Formula 1060 — source lines 7701-7703
 
 $$
 \{1\}\mid\{2,3\}
 $$
 
-## Formula 1061 — source lines 7709-7711
+## Formula 1061 — source lines 7707-7709
 
 $$
 \{2,3\}\mid\{1\}.
 $$
 
-## Formula 1062 — source lines 7715-7717
+## Formula 1062 — source lines 7713-7715
 
 $$
 1+2.
 $$
 
-## Formula 1063 — source lines 7721-7723
+## Formula 1063 — source lines 7719-7721
 
 $$
 2+1.
 $$
 
-## Formula 1064 — source lines 7727-7729
+## Formula 1064 — source lines 7725-7727
 
 $$
 x\mapsto x+111
 $$
 
-## Formula 1065 — source lines 7733-7735
+## Formula 1065 — source lines 7731-7733
 
 $$
 M(x)\leftrightarrow C(x).
 $$
 
-## Formula 1066 — source lines 7743-7745
+## Formula 1066 — source lines 7741-7743
 
 $$
 R_3
 $$
 
-## Formula 1067 — source lines 7749-7751
+## Formula 1067 — source lines 7747-7749
 
 $$
 X_{\mathrm{adm}}.
 $$
 
-## Formula 1068 — source lines 7755-7757
+## Formula 1068 — source lines 7753-7755
 
 $$
 q_{v/e}=\mathrm{supp}:X_{\mathrm{adm}}\to \mathcal P^\circ(J_3).
 $$
 
-## Formula 1069 — source lines 7761-7763
+## Formula 1069 — source lines 7759-7761
 
 $$
 \mathrm{rec}_{v/e}(A) = (\{\chi_A\},\varnothing).
 $$
 
-## Formula 1070 — source lines 7767-7769
+## Formula 1070 — source lines 7765-7767
 
 $$
 \Pi_{v/e}^{(3)} = \left( X_{\mathrm{adm}}, R_3, q_{v/e}, \mathrm{rec}_{v/e} \right).
 $$
 
-## Formula 1071 — source lines 7773-7775
+## Formula 1071 — source lines 7771-7773
 
 $$
 \text{vertex} \leftrightarrow \text{opposite edge}.
 $$
 
-## Formula 1072 — source lines 7783-7787
+## Formula 1072 — source lines 7781-7785
 
 $$
 A=\mathrm{supp}(x),
@@ -6854,7 +6852,7 @@ A=\mathrm{supp}(x),
 B=\mathrm{supp}(y)
 $$
 
-## Formula 1073 — source lines 7791-7797
+## Formula 1073 — source lines 7789-7795
 
 $$
 (x,y)\in R_1
@@ -6864,7 +6862,7 @@ A\subset B \lor B\subset A,
 \{|A|,|B|\}=\{1,2\}.
 $$
 
-## Formula 1074 — source lines 7799-7805
+## Formula 1074 — source lines 7797-7803
 
 $$
 (x,y)\in R_2
@@ -6874,7 +6872,7 @@ $$
 A\neq B.
 $$
 
-## Formula 1075 — source lines 7807-7811
+## Formula 1075 — source lines 7805-7809
 
 $$
 (x,y)\in R_3
@@ -6882,31 +6880,31 @@ $$
 B=J_3\setminus A.
 $$
 
-## Formula 1076 — source lines 7822-7824
+## Formula 1076 — source lines 7820-7822
 
 $$
 I_3=\{I_1,I_2,I_3\}.
 $$
 
-## Formula 1077 — source lines 7828-7830
+## Formula 1077 — source lines 7826-7828
 
 $$
 B_\beta=\{\beta_1,\beta_2,\beta_3\}
 $$
 
-## Formula 1078 — source lines 7834-7836
+## Formula 1078 — source lines 7832-7834
 
 $$
 \beta_i\mapsto I_i.
 $$
 
-## Formula 1079 — source lines 7845-7847
+## Formula 1079 — source lines 7843-7845
 
 $$
 \Sigma=\{-,+\}.
 $$
 
-## Formula 1080 — source lines 7851-7855
+## Formula 1080 — source lines 7849-7853
 
 $$
 \mathrm{sgn}(x)=-
@@ -6914,7 +6912,7 @@ $$
 x\in S_1^{(3)},
 $$
 
-## Formula 1081 — source lines 7857-7861
+## Formula 1081 — source lines 7855-7859
 
 $$
 \mathrm{sgn}(x)=+
@@ -6922,13 +6920,13 @@ $$
 x\in S_2^{(3)}.
 $$
 
-## Formula 1082 — source lines 7872-7874
+## Formula 1082 — source lines 7870-7872
 
 $$
 a:X_{\mathrm{adm}}\to I_3
 $$
 
-## Formula 1083 — source lines 7878-7882
+## Formula 1083 — source lines 7876-7880
 
 $$
 a(x)=I_i
@@ -6936,61 +6934,61 @@ a(x)=I_i
 x\in\beta_i.
 $$
 
-## Formula 1084 — source lines 7886-7888
+## Formula 1084 — source lines 7884-7886
 
 $$
 \mathrm{sgn}:X_{\mathrm{adm}}\to\{-,+\}
 $$
 
-## Formula 1085 — source lines 7894-7896
+## Formula 1085 — source lines 7892-7894
 
 $$
 \Theta:X_{\mathrm{adm}}\to I_3\times\{-,+\}
 $$
 
-## Formula 1086 — source lines 7900-7902
+## Formula 1086 — source lines 7898-7900
 
 $$
 \Theta(x)=\bigl(a(x),\mathrm{sgn}(x)\bigr).
 $$
 
-## Formula 1087 — source lines 7906-7908
+## Formula 1087 — source lines 7904-7906
 
 $$
 \Theta(001)=(I_1,-),
 $$
 
-## Formula 1088 — source lines 7910-7912
+## Formula 1088 — source lines 7908-7910
 
 $$
 \Theta(110)=(I_1,+),
 $$
 
-## Formula 1089 — source lines 7914-7916
+## Formula 1089 — source lines 7912-7914
 
 $$
 \Theta(010)=(I_2,-),
 $$
 
-## Formula 1090 — source lines 7918-7920
+## Formula 1090 — source lines 7916-7918
 
 $$
 \Theta(101)=(I_2,+),
 $$
 
-## Formula 1091 — source lines 7922-7924
+## Formula 1091 — source lines 7920-7922
 
 $$
 \Theta(100)=(I_3,-),
 $$
 
-## Formula 1092 — source lines 7926-7928
+## Formula 1092 — source lines 7924-7926
 
 $$
 \Theta(011)=(I_3,+).
 $$
 
-## Formula 1093 — source lines 7932-7936
+## Formula 1093 — source lines 7930-7934
 
 $$
 001=I_1^-,
@@ -6998,7 +6996,7 @@ $$
 110=I_1^+,
 $$
 
-## Formula 1094 — source lines 7938-7942
+## Formula 1094 — source lines 7936-7940
 
 $$
 010=I_2^-,
@@ -7006,7 +7004,7 @@ $$
 101=I_2^+,
 $$
 
-## Formula 1095 — source lines 7944-7948
+## Formula 1095 — source lines 7942-7946
 
 $$
 100=I_3^-,
@@ -7014,151 +7012,151 @@ $$
 011=I_3^+.
 $$
 
-## Formula 1096 — source lines 7954-7956
+## Formula 1096 — source lines 7952-7954
 
 $$
 \Theta:X_{\mathrm{adm}}\to I_3\times\{-,+\}
 $$
 
-## Formula 1097 — source lines 7960-7962
+## Formula 1097 — source lines 7958-7960
 
 $$
 X_{\mathrm{adm}}\cong I_3\times\{-,+\}.
 $$
 
-## Formula 1098 — source lines 7967-7969
+## Formula 1098 — source lines 7965-7967
 
 $$
 X_{\mathrm{adm}}=\beta_1\sqcup\beta_2\sqcup\beta_3.
 $$
 
-## Formula 1099 — source lines 7973-7975
+## Formula 1099 — source lines 7971-7973
 
 $$
 \beta_i=\{I_i^-,I_i^+\},
 $$
 
-## Formula 1100 — source lines 7981-7983
+## Formula 1100 — source lines 7979-7981
 
 $$
 I_i^\eta\in X_{\mathrm{adm}}.
 $$
 
-## Formula 1101 — source lines 7989-7991
+## Formula 1101 — source lines 7987-7989
 
 $$
 |I_3\times\{-,+\}|=3\cdot 2=6
 $$
 
-## Formula 1102 — source lines 7995-7997
+## Formula 1102 — source lines 7993-7995
 
 $$
 |X_{\mathrm{adm}}|=6,
 $$
 
-## Formula 1103 — source lines 8001-8003
+## Formula 1103 — source lines 7999-8001
 
 $$
 \Box
 $$
 
-## Formula 1104 — source lines 8010-8012
+## Formula 1104 — source lines 8008-8010
 
 $$
 I_i\in I_3
 $$
 
-## Formula 1105 — source lines 8016-8018
+## Formula 1105 — source lines 8014-8016
 
 $$
 H_i
 $$
 
-## Formula 1106 — source lines 8022-8024
+## Formula 1106 — source lines 8020-8022
 
 $$
 H_i=a^{-1}(I_i).
 $$
 
-## Formula 1107 — source lines 8028-8030
+## Formula 1107 — source lines 8026-8028
 
 $$
 H_i=\beta_i.
 $$
 
-## Formula 1108 — source lines 8034-8036
+## Formula 1108 — source lines 8032-8034
 
 $$
 H_1=\{I_1^-,I_1^+\}=\{001,110\},
 $$
 
-## Formula 1109 — source lines 8038-8040
+## Formula 1109 — source lines 8036-8038
 
 $$
 H_2=\{I_2^-,I_2^+\}=\{010,101\},
 $$
 
-## Formula 1110 — source lines 8042-8044
+## Formula 1110 — source lines 8040-8042
 
 $$
 H_3=\{I_3^-,I_3^+\}=\{100,011\}.
 $$
 
-## Formula 1111 — source lines 8048-8050
+## Formula 1111 — source lines 8046-8048
 
 $$
 R_3|_{H_i}.
 $$
 
-## Formula 1112 — source lines 8054-8056
+## Formula 1112 — source lines 8052-8054
 
 $$
 (H_i,R_3|_{H_i})\cong K_2.
 $$
 
-## Formula 1113 — source lines 8062-8064
+## Formula 1113 — source lines 8060-8062
 
 $$
 \pi_i:H_i\to\{I_i\}
 $$
 
-## Formula 1114 — source lines 8068-8070
+## Formula 1114 — source lines 8066-8068
 
 $$
 \pi_i(I_i^-)=I_i,
 $$
 
-## Formula 1115 — source lines 8072-8074
+## Formula 1115 — source lines 8070-8072
 
 $$
 \pi_i(I_i^+)=I_i.
 $$
 
-## Formula 1116 — source lines 8078-8080
+## Formula 1116 — source lines 8076-8078
 
 $$
 \mathrm{rec}_i(I_i) = (H_i,R_3|_{H_i}).
 $$
 
-## Formula 1117 — source lines 8084-8086
+## Formula 1117 — source lines 8082-8084
 
 $$
 \Pi_i^{\mathrm{ax}} = (H_i,R_3|_{H_i},\pi_i,\mathrm{rec}_i).
 $$
 
-## Formula 1118 — source lines 8090-8092
+## Formula 1118 — source lines 8088-8090
 
 $$
 P=\{a,-a\}\to I.
 $$
 
-## Formula 1119 — source lines 8096-8098
+## Formula 1119 — source lines 8094-8096
 
 $$
 I_1,\quad I_2,\quad I_3,
 $$
 
-## Formula 1120 — source lines 8102-8106
+## Formula 1120 — source lines 8100-8104
 
 $$
 I_i^-,
@@ -7166,13 +7164,13 @@ I_i^-,
 I_i^+.
 $$
 
-## Formula 1121 — source lines 8112-8114
+## Formula 1121 — source lines 8110-8112
 
 $$
 \Theta:X_{\mathrm{adm}}\to I_3\times\{-,+\}
 $$
 
-## Formula 1122 — source lines 8120-8124
+## Formula 1122 — source lines 8118-8122
 
 $$
 i,j\in\{1,2,3\},
@@ -7180,13 +7178,13 @@ i,j\in\{1,2,3\},
 \eta,\theta\in\{-,+\}.
 $$
 
-## Formula 1123 — source lines 8128-8130
+## Formula 1123 — source lines 8126-8128
 
 $$
 (I_i^\eta,I_j^\theta)\in R_3
 $$
 
-## Formula 1124 — source lines 8134-8138
+## Formula 1124 — source lines 8132-8136
 
 $$
 i=j,
@@ -7194,19 +7192,19 @@ i=j,
 \theta\neq\eta.
 $$
 
-## Formula 1125 — source lines 8142-8144
+## Formula 1125 — source lines 8140-8142
 
 $$
 R_3 = \text{same axis / opposite polarity}.
 $$
 
-## Formula 1126 — source lines 8148-8150
+## Formula 1126 — source lines 8146-8148
 
 $$
 (I_i^\eta,I_j^\theta)\in R_2
 $$
 
-## Formula 1127 — source lines 8154-8158
+## Formula 1127 — source lines 8152-8156
 
 $$
 i\neq j,
@@ -7214,19 +7212,19 @@ i\neq j,
 \theta=\eta.
 $$
 
-## Formula 1128 — source lines 8162-8164
+## Formula 1128 — source lines 8160-8162
 
 $$
 R_2 = \text{same shell / axis shift}.
 $$
 
-## Formula 1129 — source lines 8168-8170
+## Formula 1129 — source lines 8166-8168
 
 $$
 (I_i^\eta,I_j^\theta)\in R_1
 $$
 
-## Formula 1130 — source lines 8174-8178
+## Formula 1130 — source lines 8172-8176
 
 $$
 i\neq j,
@@ -7234,37 +7232,37 @@ i\neq j,
 \theta\neq\eta.
 $$
 
-## Formula 1131 — source lines 8182-8184
+## Formula 1131 — source lines 8180-8182
 
 $$
 R_1 = \text{axis shift with polarity switch}.
 $$
 
-## Formula 1132 — source lines 8194-8196
+## Formula 1132 — source lines 8192-8194
 
 $$
 H_i=\beta_i.
 $$
 
-## Formula 1133 — source lines 8200-8202
+## Formula 1133 — source lines 8198-8200
 
 $$
 (X_{\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
-## Formula 1134 — source lines 8208-8210
+## Formula 1134 — source lines 8206-8208
 
 $$
 S_1^{(3)}
 $$
 
-## Formula 1135 — source lines 8214-8216
+## Formula 1135 — source lines 8212-8214
 
 $$
 S_2^{(3)}
 $$
 
-## Formula 1136 — source lines 8222-8226
+## Formula 1136 — source lines 8220-8224
 
 $$
 i\neq j,
@@ -7272,7 +7270,7 @@ i\neq j,
 \theta=\eta.
 $$
 
-## Formula 1137 — source lines 8230-8234
+## Formula 1137 — source lines 8228-8232
 
 $$
 i\neq j,
@@ -7280,44 +7278,44 @@ i\neq j,
 \theta\neq\eta.
 $$
 
-## Formula 1138 — source lines 8238-8240
+## Formula 1138 — source lines 8236-8238
 
 $$
 \Box
 $$
 
-## Formula 1139 — source lines 8246-8249
+## Formula 1139 — source lines 8244-8247
 
 $$
 T:
 001\to011\to010\to110\to100\to101\to001.
 $$
 
-## Formula 1140 — source lines 8253-8255
+## Formula 1140 — source lines 8251-8253
 
 $$
 I_1^- \to I_3^+ \to I_2^- \to I_1^+ \to I_3^- \to I_2^+ \to I_1^-.
 $$
 
-## Formula 1141 — source lines 8259-8261
+## Formula 1141 — source lines 8257-8259
 
 $$
 I_1\to I_3\to I_2\to I_1.
 $$
 
-## Formula 1142 — source lines 8265-8267
+## Formula 1142 — source lines 8263-8265
 
 $$
 \bar T_I:I_3\to I_3.
 $$
 
-## Formula 1143 — source lines 8273-8275
+## Formula 1143 — source lines 8271-8273
 
 $$
 T(I_i^\eta)=\bar T_I(I_i)^{-\eta},
 $$
 
-## Formula 1144 — source lines 8279-8283
+## Formula 1144 — source lines 8277-8281
 
 $$
 -(-)=+,
@@ -7325,217 +7323,217 @@ $$
 -(+)=-.
 $$
 
-## Formula 1145 — source lines 8287-8289
+## Formula 1145 — source lines 8285-8287
 
 $$
 T^2(I_i^\eta)=\bar T_I^2(I_i)^\eta,
 $$
 
-## Formula 1146 — source lines 8291-8293
+## Formula 1146 — source lines 8289-8291
 
 $$
 T^3(I_i^\eta)=I_i^{-\eta}.
 $$
 
-## Formula 1147 — source lines 8297-8299
+## Formula 1147 — source lines 8295-8297
 
 $$
 T^2
 $$
 
-## Formula 1148 — source lines 8303-8305
+## Formula 1148 — source lines 8301-8303
 
 $$
 T^3
 $$
 
-## Formula 1149 — source lines 8309-8311
+## Formula 1149 — source lines 8307-8309
 
 $$
 T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 1150 — source lines 8317-8319
+## Formula 1150 — source lines 8315-8317
 
 $$
 I_i^- \leftrightarrow \{i\},
 $$
 
-## Formula 1151 — source lines 8321-8323
+## Formula 1151 — source lines 8319-8321
 
 $$
 I_i^+ \leftrightarrow J_3\setminus\{i\}.
 $$
 
-## Formula 1152 — source lines 8329-8331
+## Formula 1152 — source lines 8327-8329
 
 $$
 I_1^- = 001 \leftrightarrow \{1\},
 $$
 
-## Formula 1153 — source lines 8333-8335
+## Formula 1153 — source lines 8331-8333
 
 $$
 I_1^+ = 110 \leftrightarrow \{2,3\};
 $$
 
-## Formula 1154 — source lines 8337-8339
+## Formula 1154 — source lines 8335-8337
 
 $$
 I_2^- = 010 \leftrightarrow \{2\},
 $$
 
-## Formula 1155 — source lines 8341-8343
+## Formula 1155 — source lines 8339-8341
 
 $$
 I_2^+ = 101 \leftrightarrow \{1,3\};
 $$
 
-## Formula 1156 — source lines 8345-8347
+## Formula 1156 — source lines 8343-8345
 
 $$
 I_3^- = 100 \leftrightarrow \{3\},
 $$
 
-## Formula 1157 — source lines 8349-8351
+## Formula 1157 — source lines 8347-8349
 
 $$
 I_3^+ = 011 \leftrightarrow \{1,2\}.
 $$
 
-## Formula 1158 — source lines 8355-8357
+## Formula 1158 — source lines 8353-8355
 
 $$
 \text{vertex-side}
 $$
 
-## Formula 1159 — source lines 8361-8363
+## Formula 1159 — source lines 8359-8361
 
 $$
 \text{opposite-edge-side}.
 $$
 
-## Formula 1160 — source lines 8369-8371
+## Formula 1160 — source lines 8367-8369
 
 $$
 \mathcal A^{(3)} = \left( X_{\mathrm{adm}}, R_1, R_2, R_3, \mathrm{supp}, J_3, I_3, \Theta, \{H_i\}_{i=1}^3 \right).
 $$
 
-## Formula 1161 — source lines 8375-8377
+## Formula 1161 — source lines 8373-8375
 
 $$
 X_{\mathrm{adm}}
 $$
 
-## Formula 1162 — source lines 8381-8383
+## Formula 1162 — source lines 8379-8381
 
 $$
 R_1, R_2, R_3
 $$
 
-## Formula 1163 — source lines 8387-8389
+## Formula 1163 — source lines 8385-8387
 
 $$
 \mathrm{supp}
 $$
 
-## Formula 1164 — source lines 8393-8395
+## Formula 1164 — source lines 8391-8393
 
 $$
 J_3
 $$
 
-## Formula 1165 — source lines 8399-8401
+## Formula 1165 — source lines 8397-8399
 
 $$
 I_3
 $$
 
-## Formula 1166 — source lines 8405-8407
+## Formula 1166 — source lines 8403-8405
 
 $$
 \Theta:X_{\mathrm{adm}}\to I_3\times\{-,+\}
 $$
 
-## Formula 1167 — source lines 8411-8413
+## Formula 1167 — source lines 8409-8411
 
 $$
 H_i=\{I_i^-,I_i^+\}
 $$
 
-## Formula 1168 — source lines 8425-8427
+## Formula 1168 — source lines 8423-8425
 
 $$
 Q_2=\mathbb{F}_2^2=\{00,01,10,11\}.
 $$
 
-## Formula 1169 — source lines 8433-8435
+## Formula 1169 — source lines 8431-8433
 
 $$
 Q_2
 $$
 
-## Formula 1170 — source lines 8441-8443
+## Formula 1170 — source lines 8439-8441
 
 $$
 P_{\mathrm{tot}}^{(2)}=\{00,11\}
 $$
 
-## Formula 1171 — source lines 8449-8451
+## Formula 1171 — source lines 8447-8449
 
 $$
 Q_2^\circ=Q_2\setminus\{00,11\}=\{01,10\}
 $$
 
-## Formula 1172 — source lines 8457-8459
+## Formula 1172 — source lines 8455-8457
 
 $$
 \Delta^{(2)}
 $$
 
-## Formula 1173 — source lines 8465-8467
+## Formula 1173 — source lines 8463-8465
 
 $$
 \Delta_0^{(2)}=Q_2\setminus\{00\}=\{01,10,11\},
 $$
 
-## Formula 1174 — source lines 8469-8471
+## Formula 1174 — source lines 8467-8469
 
 $$
 \Delta_1^{(2)}=Q_2\setminus\{11\}=\{00,01,10\}.
 $$
 
-## Formula 1175 — source lines 8475-8477
+## Formula 1175 — source lines 8473-8475
 
 $$
 x\mapsto x+11.
 $$
 
-## Formula 1176 — source lines 8483-8485
+## Formula 1176 — source lines 8481-8483
 
 $$
 Q_3=\mathbb{F}_2^3,
 $$
 
-## Formula 1177 — source lines 8487-8489
+## Formula 1177 — source lines 8485-8487
 
 $$
 X_{\mathrm{adm}}=Q_3\setminus\{000,111\},
 $$
 
-## Formula 1178 — source lines 8491-8493
+## Formula 1178 — source lines 8489-8491
 
 $$
 S_1^{(3)}=\{001,010,100\},
 $$
 
-## Formula 1179 — source lines 8495-8497
+## Formula 1179 — source lines 8493-8495
 
 $$
 S_2^{(3)}=\{011,101,110\},
 $$
 
-## Formula 1180 — source lines 8499-8503
+## Formula 1180 — source lines 8497-8501
 
 $$
 H_i=\{I_i^-,I_i^+\}
@@ -7543,13 +7541,13 @@ H_i=\{I_i^-,I_i^+\}
 (i=1,2,3),
 $$
 
-## Formula 1181 — source lines 8505-8507
+## Formula 1181 — source lines 8503-8505
 
 $$
 X_{\mathrm{adm}}\cong I_3\times\{-,+\}.
 $$
 
-## Formula 1182 — source lines 8511-8517
+## Formula 1182 — source lines 8509-8515
 
 $$
 R_1,
@@ -7559,70 +7557,70 @@ R_2,
 R_3.
 $$
 
-## Formula 1183 — source lines 8521-8524
+## Formula 1183 — source lines 8519-8522
 
 $$
 R_3:
 \text{same axis / opposite sign},
 $$
 
-## Formula 1184 — source lines 8526-8529
+## Formula 1184 — source lines 8524-8527
 
 $$
 R_2:
 \text{different axis / same sign},
 $$
 
-## Formula 1185 — source lines 8531-8534
+## Formula 1185 — source lines 8529-8532
 
 $$
 R_1:
 \text{different axis / opposite sign}.
 $$
 
-## Formula 1186 — source lines 8538-8540
+## Formula 1186 — source lines 8536-8538
 
 $$
 T(I_i^\eta)=\bar T_I(I_i)^{-\eta}.
 $$
 
-## Formula 1187 — source lines 8546-8548
+## Formula 1187 — source lines 8544-8546
 
 $$
 Q_2\to Q_3
 $$
 
-## Formula 1188 — source lines 8554-8556
+## Formula 1188 — source lines 8552-8554
 
 $$
 \text{face},
 $$
 
-## Formula 1189 — source lines 8558-8560
+## Formula 1189 — source lines 8556-8558
 
 $$
 \text{limit-pole pair},
 $$
 
-## Formula 1190 — source lines 8562-8564
+## Formula 1190 — source lines 8560-8562
 
 $$
 \text{axial pair},
 $$
 
-## Formula 1191 — source lines 8566-8568
+## Formula 1191 — source lines 8564-8566
 
 $$
 \text{triad component},
 $$
 
-## Formula 1192 — source lines 8570-8572
+## Formula 1192 — source lines 8568-8570
 
 $$
 \text{transport preform}.
 $$
 
-## Formula 1193 — source lines 8576-8584
+## Formula 1193 — source lines 8574-8582
 
 $$
 \text{carrier-role},
@@ -7634,13 +7632,13 @@ $$
 \text{recoverability-role}.
 $$
 
-## Formula 1194 — source lines 8590-8592
+## Formula 1194 — source lines 8588-8590
 
 $$
 F_i^\varepsilon=\{z\in Q_3:z_i=\varepsilon\}.
 $$
 
-## Formula 1195 — source lines 8598-8602
+## Formula 1195 — source lines 8596-8600
 
 $$
 i\in J_3=\{1,2,3\},
@@ -7648,97 +7646,97 @@ i\in J_3=\{1,2,3\},
 \varepsilon\in\mathbb{F}_2
 $$
 
-## Formula 1196 — source lines 8606-8608
+## Formula 1196 — source lines 8604-8606
 
 $$
 F_i^\varepsilon=\{x\in Q_3:x_i=\varepsilon\}.
 $$
 
-## Formula 1197 — source lines 8612-8614
+## Formula 1197 — source lines 8610-8612
 
 $$
 F_i^\varepsilon\cong Q_2.
 $$
 
-## Formula 1198 — source lines 8618-8620
+## Formula 1198 — source lines 8616-8618
 
 $$
 \iota_i^\varepsilon:Q_2\to F_i^\varepsilon\subset Q_3,
 $$
 
-## Formula 1199 — source lines 8626-8628
+## Formula 1199 — source lines 8624-8626
 
 $$
 \iota_3^0(00)=000,
 $$
 
-## Formula 1200 — source lines 8630-8632
+## Formula 1200 — source lines 8628-8630
 
 $$
 \iota_3^0(01)=001,
 $$
 
-## Formula 1201 — source lines 8634-8636
+## Formula 1201 — source lines 8632-8634
 
 $$
 \iota_3^0(10)=010,
 $$
 
-## Formula 1202 — source lines 8638-8640
+## Formula 1202 — source lines 8636-8638
 
 $$
 \iota_3^0(11)=011.
 $$
 
-## Formula 1203 — source lines 8644-8646
+## Formula 1203 — source lines 8642-8644
 
 $$
 \iota_3^1(00)=100,
 $$
 
-## Formula 1204 — source lines 8648-8650
+## Formula 1204 — source lines 8646-8648
 
 $$
 \iota_3^1(01)=101,
 $$
 
-## Formula 1205 — source lines 8652-8654
+## Formula 1205 — source lines 8650-8652
 
 $$
 \iota_3^1(10)=110,
 $$
 
-## Formula 1206 — source lines 8656-8658
+## Formula 1206 — source lines 8654-8656
 
 $$
 \iota_3^1(11)=111.
 $$
 
-## Formula 1207 — source lines 8664-8666
+## Formula 1207 — source lines 8662-8664
 
 $$
 Q_2^{(1)}
 $$
 
-## Formula 1208 — source lines 8670-8672
+## Formula 1208 — source lines 8668-8670
 
 $$
 Q_3^{(1)}
 $$
 
-## Formula 1209 — source lines 8679-8681
+## Formula 1209 — source lines 8677-8679
 
 $$
 \iota_i^\varepsilon:Q_2\to F_i^\varepsilon
 $$
 
-## Formula 1210 — source lines 8685-8687
+## Formula 1210 — source lines 8683-8685
 
 $$
 (Q_2,Q_2^{(1)}) \cong (F_i^\varepsilon,Q_3^{(1)}|_{F_i^\varepsilon}).
 $$
 
-## Formula 1211 — source lines 8692-8696
+## Formula 1211 — source lines 8690-8694
 
 $$
 \iota_i^\varepsilon(u),
@@ -7746,7 +7744,7 @@ $$
 \iota_i^\varepsilon(v)
 $$
 
-## Formula 1212 — source lines 8704-8708
+## Formula 1212 — source lines 8702-8706
 
 $$
 d_H(u,v)=1
@@ -7754,31 +7752,31 @@ d_H(u,v)=1
 d_H(\iota_i^\varepsilon(u),\iota_i^\varepsilon(v))=1.
 $$
 
-## Formula 1213 — source lines 8710-8712
+## Formula 1213 — source lines 8708-8710
 
 $$
 \Box
 $$
 
-## Formula 1214 — source lines 8716-8718
+## Formula 1214 — source lines 8714-8716
 
 $$
 Q_3.
 $$
 
-## Formula 1215 — source lines 8722-8724
+## Formula 1215 — source lines 8720-8722
 
 $$
 F_i^\varepsilon\cap X_{\mathrm{adm}}
 $$
 
-## Formula 1216 — source lines 8732-8734
+## Formula 1216 — source lines 8730-8732
 
 $$
 F_i^\varepsilon
 $$
 
-## Formula 1217 — source lines 8738-8744
+## Formula 1217 — source lines 8736-8742
 
 $$
 000
@@ -7788,79 +7786,79 @@ $$
 111.
 $$
 
-## Formula 1218 — source lines 8748-8750
+## Formula 1218 — source lines 8746-8748
 
 $$
 F_i^\varepsilon\cap X_{\mathrm{adm}}
 $$
 
-## Formula 1219 — source lines 8756-8758
+## Formula 1219 — source lines 8754-8756
 
 $$
 F_3^0=\{000,001,010,011\},
 $$
 
-## Formula 1220 — source lines 8760-8762
+## Formula 1220 — source lines 8758-8760
 
 $$
 F_3^0\cap X_{\mathrm{adm}}=\{001,010,011\}.
 $$
 
-## Formula 1221 — source lines 8766-8768
+## Formula 1221 — source lines 8764-8766
 
 $$
 F_3^1=\{100,101,110,111\},
 $$
 
-## Formula 1222 — source lines 8770-8772
+## Formula 1222 — source lines 8768-8770
 
 $$
 F_3^1\cap X_{\mathrm{adm}}=\{100,101,110\}.
 $$
 
-## Formula 1223 — source lines 8781-8783
+## Formula 1223 — source lines 8779-8781
 
 $$
 \mathrm{tp}_{2\to3}:P_{\mathrm{tot}}^{(2)}\to P_{\mathrm{tot}}^{(3)}
 $$
 
-## Formula 1224 — source lines 8787-8789
+## Formula 1224 — source lines 8785-8787
 
 $$
 \mathrm{tp}_{2\to3}(00)=000,
 $$
 
-## Formula 1225 — source lines 8791-8793
+## Formula 1225 — source lines 8789-8791
 
 $$
 \mathrm{tp}_{2\to3}(11)=111.
 $$
 
-## Formula 1226 — source lines 8797-8799
+## Formula 1226 — source lines 8795-8797
 
 $$
 P_{\mathrm{tot}}^{(3)}=\{000,111\}.
 $$
 
-## Formula 1227 — source lines 8803-8805
+## Formula 1227 — source lines 8801-8803
 
 $$
 \text{lower total pole} \mapsto \text{lower total pole},
 $$
 
-## Formula 1228 — source lines 8807-8809
+## Formula 1228 — source lines 8805-8807
 
 $$
 \text{upper total pole} \mapsto \text{upper total pole}.
 $$
 
-## Formula 1229 — source lines 8813-8815
+## Formula 1229 — source lines 8811-8813
 
 $$
 P_{\mathrm{tot}}^{(3)} = Q_3\setminus X_{\mathrm{adm}}.
 $$
 
-## Formula 1230 — source lines 8825-8829
+## Formula 1230 — source lines 8823-8827
 
 $$
 00\mapsto000,
@@ -7868,55 +7866,55 @@ $$
 11\mapsto111
 $$
 
-## Formula 1231 — source lines 8833-8835
+## Formula 1231 — source lines 8831-8833
 
 $$
 \Box
 $$
 
-## Formula 1232 — source lines 8844-8846
+## Formula 1232 — source lines 8842-8844
 
 $$
 Q_2^\circ=\{01,10\}.
 $$
 
-## Formula 1233 — source lines 8850-8852
+## Formula 1233 — source lines 8848-8850
 
 $$
 R_\circ^{(2)}=\{(01,10),(10,01)\}.
 $$
 
-## Formula 1234 — source lines 8856-8858
+## Formula 1234 — source lines 8854-8856
 
 $$
 H_i=\{I_i^-,I_i^+\}
 $$
 
-## Formula 1235 — source lines 8862-8864
+## Formula 1235 — source lines 8860-8862
 
 $$
 R_3|_{H_i}.
 $$
 
-## Formula 1236 — source lines 8868-8870
+## Formula 1236 — source lines 8866-8868
 
 $$
 \lambda_i^{\mathrm{pair}}:Q_2^\circ\to H_i
 $$
 
-## Formula 1237 — source lines 8874-8876
+## Formula 1237 — source lines 8872-8874
 
 $$
 \lambda_i^{\mathrm{pair}}(01)=I_i^-,
 $$
 
-## Formula 1238 — source lines 8878-8880
+## Formula 1238 — source lines 8876-8878
 
 $$
 \lambda_i^{\mathrm{pair}}(10)=I_i^+.
 $$
 
-## Formula 1239 — source lines 8884-8888
+## Formula 1239 — source lines 8882-8886
 
 $$
 01\mapsto I_i^+,
@@ -7924,37 +7922,37 @@ $$
 10\mapsto I_i^-
 $$
 
-## Formula 1240 — source lines 8894-8896
+## Formula 1240 — source lines 8892-8894
 
 $$
 H_1=\{001,110\},
 $$
 
-## Formula 1241 — source lines 8898-8900
+## Formula 1241 — source lines 8896-8898
 
 $$
 H_2=\{010,101\},
 $$
 
-## Formula 1242 — source lines 8902-8904
+## Formula 1242 — source lines 8900-8902
 
 $$
 H_3=\{100,011\}.
 $$
 
-## Formula 1243 — source lines 8909-8911
+## Formula 1243 — source lines 8907-8909
 
 $$
 i\in\{1,2,3\}
 $$
 
-## Formula 1244 — source lines 8915-8917
+## Formula 1244 — source lines 8913-8915
 
 $$
 (Q_2^\circ,R_\circ^{(2)}) \cong (H_i,R_3|_{H_i}).
 $$
 
-## Formula 1245 — source lines 8924-8928
+## Formula 1245 — source lines 8922-8926
 
 $$
 I_i^-,
@@ -7962,79 +7960,79 @@ I_i^-,
 I_i^+.
 $$
 
-## Formula 1246 — source lines 8932-8934
+## Formula 1246 — source lines 8930-8932
 
 $$
 (I_i^-,I_i^+)\in R_3,
 $$
 
-## Formula 1247 — source lines 8936-8938
+## Formula 1247 — source lines 8934-8936
 
 $$
 (I_i^+,I_i^-)\in R_3.
 $$
 
-## Formula 1248 — source lines 8942-8944
+## Formula 1248 — source lines 8940-8942
 
 $$
 (\lambda_i^{\mathrm{pair}}\times\lambda_i^{\mathrm{pair}}) (R_\circ^{(2)}) = R_3|_{H_i}.
 $$
 
-## Formula 1249 — source lines 8946-8948
+## Formula 1249 — source lines 8944-8946
 
 $$
 \Box
 $$
 
-## Formula 1250 — source lines 8952-8954
+## Formula 1250 — source lines 8950-8952
 
 $$
 3K_2.
 $$
 
-## Formula 1251 — source lines 8960-8962
+## Formula 1251 — source lines 8958-8960
 
 $$
 \Delta_0^{(2)}=\{01,10,11\},
 $$
 
-## Formula 1252 — source lines 8964-8966
+## Formula 1252 — source lines 8962-8964
 
 $$
 \Delta_1^{(2)}=\{00,01,10\}.
 $$
 
-## Formula 1253 — source lines 8970-8972
+## Formula 1253 — source lines 8968-8970
 
 $$
 K_\Delta.
 $$
 
-## Formula 1254 — source lines 8978-8980
+## Formula 1254 — source lines 8976-8978
 
 $$
 S_1^{(3)}=\{001,010,100\},
 $$
 
-## Formula 1255 — source lines 8982-8984
+## Formula 1255 — source lines 8980-8982
 
 $$
 S_2^{(3)}=\{011,101,110\}.
 $$
 
-## Formula 1256 — source lines 8988-8990
+## Formula 1256 — source lines 8986-8988
 
 $$
 R_2|_{S_1^{(3)}}\cong K_3,
 $$
 
-## Formula 1257 — source lines 8992-8994
+## Formula 1257 — source lines 8990-8992
 
 $$
 R_2|_{S_2^{(3)}}\cong K_3.
 $$
 
-## Formula 1258 — source lines 8998-9002
+## Formula 1258 — source lines 8996-9000
 
 $$
 S_-^{(3)}=S_1^{(3)},
@@ -8042,187 +8040,187 @@ S_-^{(3)}=S_1^{(3)},
 S_+^{(3)}=S_2^{(3)}.
 $$
 
-## Formula 1259 — source lines 9007-9009
+## Formula 1259 — source lines 9005-9007
 
 $$
 \Delta\in\{\Delta_0^{(2)},\Delta_1^{(2)}\},
 $$
 
-## Formula 1260 — source lines 9011-9013
+## Formula 1260 — source lines 9009-9011
 
 $$
 \eta\in\{-,+\},
 $$
 
-## Formula 1261 — source lines 9017-9019
+## Formula 1261 — source lines 9015-9017
 
 $$
 r:\Delta\to I_3.
 $$
 
-## Formula 1262 — source lines 9023-9025
+## Formula 1262 — source lines 9021-9023
 
 $$
 \lambda_{\Delta,\eta,r}^{\mathrm{triad}}:\Delta\to S_\eta^{(3)}
 $$
 
-## Formula 1263 — source lines 9029-9031
+## Formula 1263 — source lines 9027-9029
 
 $$
 \lambda_{\Delta,\eta,r}^{\mathrm{triad}}(u)=r(u)^\eta.
 $$
 
-## Formula 1264 — source lines 9038-9040
+## Formula 1264 — source lines 9036-9038
 
 $$
 (\Delta,K_\Delta) \cong (S_\eta^{(3)},R_2|_{S_\eta^{(3)}}).
 $$
 
-## Formula 1265 — source lines 9047-9049
+## Formula 1265 — source lines 9045-9047
 
 $$
 R_2|_{S_\eta^{(3)}}
 $$
 
-## Formula 1266 — source lines 9055-9057
+## Formula 1266 — source lines 9053-9055
 
 $$
 \Box
 $$
 
-## Formula 1267 — source lines 9061-9063
+## Formula 1267 — source lines 9059-9061
 
 $$
 K_3\sqcup K_3.
 $$
 
-## Formula 1268 — source lines 9069-9071
+## Formula 1268 — source lines 9067-9069
 
 $$
 \tau_2:Q_2^\circ\to Q_2^\circ,
 $$
 
-## Formula 1269 — source lines 9073-9075
+## Formula 1269 — source lines 9071-9073
 
 $$
 \tau_2(01)=10,
 $$
 
-## Formula 1270 — source lines 9077-9079
+## Formula 1270 — source lines 9075-9077
 
 $$
 \tau_2(10)=01.
 $$
 
-## Formula 1271 — source lines 9083-9085
+## Formula 1271 — source lines 9081-9083
 
 $$
 \tau_2^2=\mathrm{id}_{Q_2^\circ}.
 $$
 
-## Formula 1272 — source lines 9089-9091
+## Formula 1272 — source lines 9087-9089
 
 $$
 \tau_2=(\sigma_1\sigma_2)|_{Q_2^\circ}.
 $$
 
-## Formula 1273 — source lines 9097-9099
+## Formula 1273 — source lines 9095-9097
 
 $$
 T:X_{\mathrm{adm}}\to X_{\mathrm{adm}},
 $$
 
-## Formula 1274 — source lines 9101-9103
+## Formula 1274 — source lines 9099-9101
 
 $$
 T^6=\mathrm{id}_{X_{\mathrm{adm}}},
 $$
 
-## Formula 1275 — source lines 9105-9107
+## Formula 1275 — source lines 9103-9105
 
 $$
 T^3(x)=x+111.
 $$
 
-## Formula 1276 — source lines 9111-9113
+## Formula 1276 — source lines 9109-9111
 
 $$
 T(I_i^\eta)=\bar T_I(I_i)^{-\eta}.
 $$
 
-## Formula 1277 — source lines 9117-9119
+## Formula 1277 — source lines 9115-9117
 
 $$
 T^3(I_i^\eta)=I_i^{-\eta}.
 $$
 
-## Formula 1278 — source lines 9126-9128
+## Formula 1278 — source lines 9124-9126
 
 $$
 \lambda_i^{\mathrm{pair}}:Q_2^\circ\to H_i
 $$
 
-## Formula 1279 — source lines 9132-9134
+## Formula 1279 — source lines 9130-9132
 
 $$
 T^3\circ \lambda_i^{\mathrm{pair}} = \lambda_i^{\mathrm{pair}}\circ \tau_2.
 $$
 
-## Formula 1280 — source lines 9139-9141
+## Formula 1280 — source lines 9137-9139
 
 $$
 \lambda_i^{\mathrm{pair}}(01)=I_i^-.
 $$
 
-## Formula 1281 — source lines 9145-9147
+## Formula 1281 — source lines 9143-9145
 
 $$
 T^3(\lambda_i^{\mathrm{pair}}(01)) = T^3(I_i^-) = I_i^+.
 $$
 
-## Formula 1282 — source lines 9151-9153
+## Formula 1282 — source lines 9149-9151
 
 $$
 \tau_2(01)=10,
 $$
 
-## Formula 1283 — source lines 9155-9157
+## Formula 1283 — source lines 9153-9155
 
 $$
 \lambda_i^{\mathrm{pair}}(\tau_2(01)) = \lambda_i^{\mathrm{pair}}(10) = I_i^+.
 $$
 
-## Formula 1284 — source lines 9163-9165
+## Formula 1284 — source lines 9161-9163
 
 $$
 \lambda_i^{\mathrm{pair}}(10)=I_i^+.
 $$
 
-## Formula 1285 — source lines 9167-9169
+## Formula 1285 — source lines 9165-9167
 
 $$
 T^3(I_i^+)=I_i^-.
 $$
 
-## Formula 1286 — source lines 9173-9175
+## Formula 1286 — source lines 9171-9173
 
 $$
 \tau_2(10)=01,
 $$
 
-## Formula 1287 — source lines 9177-9179
+## Formula 1287 — source lines 9175-9177
 
 $$
 \lambda_i^{\mathrm{pair}}(01)=I_i^-.
 $$
 
-## Formula 1288 — source lines 9183-9185
+## Formula 1288 — source lines 9181-9183
 
 $$
 \Box
 $$
 
-## Formula 1289 — source lines 9189-9193
+## Formula 1289 — source lines 9187-9191
 
 $$
 \tau_2
@@ -8230,49 +8228,49 @@ $$
 T^3|_{H_i}.
 $$
 
-## Formula 1290 — source lines 9201-9203
+## Formula 1290 — source lines 9199-9201
 
 $$
 \tau_2 \leadsto T^3|_{H_i}.
 $$
 
-## Formula 1291 — source lines 9207-9209
+## Formula 1291 — source lines 9205-9207
 
 $$
 T(I_i^\eta)=\bar T_I(I_i)^{-\eta}.
 $$
 
-## Formula 1292 — source lines 9213-9215
+## Formula 1292 — source lines 9211-9213
 
 $$
 \text{moves to another axis},
 $$
 
-## Formula 1293 — source lines 9217-9219
+## Formula 1293 — source lines 9215-9217
 
 $$
 \text{switches sign}.
 $$
 
-## Formula 1294 — source lines 9223-9225
+## Formula 1294 — source lines 9221-9223
 
 $$
 I_1^- \to I_3^+ \to I_2^- \to I_1^+ \to I_3^- \to I_2^+ \to I_1^-.
 $$
 
-## Formula 1295 — source lines 9229-9231
+## Formula 1295 — source lines 9227-9229
 
 $$
 01\leftrightarrow10.
 $$
 
-## Formula 1296 — source lines 9235-9237
+## Formula 1296 — source lines 9233-9235
 
 $$
 C_6.
 $$
 
-## Formula 1297 — source lines 9243-9253
+## Formula 1297 — source lines 9241-9251
 
 $$
 \begin{array}{c|c|c|c}
@@ -8286,675 +8284,675 @@ $$
 \end{array}
 $$
 
-## Formula 1298 — source lines 9257-9259
+## Formula 1298 — source lines 9255-9257
 
 $$
 Q_2\to Q_3
 $$
 
-## Formula 1299 — source lines 9271-9273
+## Formula 1299 — source lines 9269-9271
 
 $$
 \lambda_i^{\mathrm{pair}}:Q_2^\circ\to H_i
 $$
 
-## Formula 1300 — source lines 9277-9279
+## Formula 1300 — source lines 9275-9277
 
 $$
 q_i^{\mathrm{pair}}:H_i\to Q_2^\circ.
 $$
 
-## Formula 1301 — source lines 9283-9285
+## Formula 1301 — source lines 9281-9283
 
 $$
 \mathrm{rec}_i^{\mathrm{pair}}(u) = (\{\lambda_i^{\mathrm{pair}}(u)\},\varnothing)
 $$
 
-## Formula 1302 — source lines 9291-9293
+## Formula 1302 — source lines 9289-9291
 
 $$
 \pi_i:H_i\to\{I_i\},
 $$
 
-## Formula 1303 — source lines 9297-9299
+## Formula 1303 — source lines 9295-9297
 
 $$
 \mathrm{rec}_i(I_i) = (H_i,R_3|_{H_i}).
 $$
 
-## Formula 1304 — source lines 9307-9309
+## Formula 1304 — source lines 9305-9307
 
 $$
 Q_3^* = Q_2^* \sqcup \{e_3\} \sqcup (e_3+Q_2^*).
 $$
 
-## Formula 1305 — source lines 9313-9315
+## Formula 1305 — source lines 9311-9313
 
 $$
 e_3=100
 $$
 
-## Formula 1306 — source lines 9319-9321
+## Formula 1306 — source lines 9317-9319
 
 $$
 Q_3^* = \{001,010,011\} \sqcup \{100\} \sqcup \{101,110,111\}.
 $$
 
-## Formula 1307 — source lines 9325-9327
+## Formula 1307 — source lines 9323-9325
 
 $$
 X_{\mathrm{adm}} = \{001,010,011\} \sqcup \{100\} \sqcup \{101,110\}.
 $$
 
-## Formula 1308 — source lines 9333-9335
+## Formula 1308 — source lines 9331-9333
 
 $$
 S_1^{(3)}=\{001,010,100\},
 $$
 
-## Formula 1309 — source lines 9337-9339
+## Formula 1309 — source lines 9335-9337
 
 $$
 S_2^{(3)}=\{011,101,110\}.
 $$
 
-## Formula 1310 — source lines 9343-9345
+## Formula 1310 — source lines 9341-9343
 
 $$
 100
 $$
 
-## Formula 1311 — source lines 9351-9353
+## Formula 1311 — source lines 9349-9351
 
 $$
 011
 $$
 
-## Formula 1312 — source lines 9359-9361
+## Formula 1312 — source lines 9357-9359
 
 $$
 \text{emergence-order}
 $$
 
-## Formula 1313 — source lines 9365-9367
+## Formula 1313 — source lines 9363-9365
 
 $$
 \text{shell-order}
 $$
 
-## Formula 1314 — source lines 9378-9380
+## Formula 1314 — source lines 9376-9378
 
 $$
 Q_2\to Q_3
 $$
 
-## Formula 1315 — source lines 9384-9386
+## Formula 1315 — source lines 9382-9384
 
 $$
 \mathfrak L_{2\to3} = \left( \mathfrak L_{\mathrm{face}}, \mathfrak L_{\mathrm{tot}}, \mathfrak L_{\mathrm{pair}}, \mathfrak L_{\mathrm{triad}}, \mathfrak L_{\mathrm{tr}} \right).
 $$
 
-## Formula 1316 — source lines 9392-9394
+## Formula 1316 — source lines 9390-9392
 
 $$
 \mathfrak L_{\mathrm{face}} = \{\iota_i^\varepsilon:Q_2\to F_i^\varepsilon\}_{i,\varepsilon},
 $$
 
-## Formula 1317 — source lines 9396-9398
+## Formula 1317 — source lines 9394-9396
 
 $$
 \mathfrak L_{\mathrm{tot}} = \{\mathrm{tp}_{2\to3}:P_{\mathrm{tot}}^{(2)}\to P_{\mathrm{tot}}^{(3)}\},
 $$
 
-## Formula 1318 — source lines 9400-9402
+## Formula 1318 — source lines 9398-9400
 
 $$
 \mathfrak L_{\mathrm{pair}} = \{\lambda_i^{\mathrm{pair}}:Q_2^\circ\to H_i\}_{i=1}^3,
 $$
 
-## Formula 1319 — source lines 9404-9406
+## Formula 1319 — source lines 9402-9404
 
 $$
 \mathfrak L_{\mathrm{triad}} = \{\lambda_{\Delta,\eta,r}^{\mathrm{triad}}:\Delta\to S_\eta^{(3)}\},
 $$
 
-## Formula 1320 — source lines 9408-9410
+## Formula 1320 — source lines 9406-9408
 
 $$
 \mathfrak L_{\mathrm{tr}} = \{(Q_2^\circ,\tau_2)\leadsto (X_{\mathrm{adm}},T)\}.
 $$
 
-## Formula 1321 — source lines 9416-9418
+## Formula 1321 — source lines 9414-9416
 
 $$
 \text{carrier-side}
 $$
 
-## Formula 1322 — source lines 9422-9424
+## Formula 1322 — source lines 9420-9422
 
 $$
 \text{relation-side}.
 $$
 
-## Formula 1323 — source lines 9428-9430
+## Formula 1323 — source lines 9426-9428
 
 $$
 Q_2 \to F_i^\varepsilon\subset Q_3
 $$
 
-## Formula 1324 — source lines 9434-9436
+## Formula 1324 — source lines 9432-9434
 
 $$
 Q_2^{(1)} \to Q_3^{(1)}|_{F_i^\varepsilon}
 $$
 
-## Formula 1325 — source lines 9442-9444
+## Formula 1325 — source lines 9440-9442
 
 $$
 \{00,11\} \to \{000,111\}
 $$
 
-## Formula 1326 — source lines 9448-9450
+## Formula 1326 — source lines 9446-9448
 
 $$
 K_2 \to K_2
 $$
 
-## Formula 1327 — source lines 9456-9458
+## Formula 1327 — source lines 9454-9456
 
 $$
 Q_2^\circ \to H_i
 $$
 
-## Formula 1328 — source lines 9462-9464
+## Formula 1328 — source lines 9460-9462
 
 $$
 R_\circ^{(2)} \to R_3|_{H_i}
 $$
 
-## Formula 1329 — source lines 9470-9472
+## Formula 1329 — source lines 9468-9470
 
 $$
 \Delta^{(2)} \to S_\eta^{(3)}
 $$
 
-## Formula 1330 — source lines 9476-9478
+## Formula 1330 — source lines 9474-9476
 
 $$
 K_\Delta \to R_2|_{S_\eta^{(3)}}
 $$
 
-## Formula 1331 — source lines 9484-9486
+## Formula 1331 — source lines 9482-9484
 
 $$
 Q_2^\circ \to X_{\mathrm{adm}}
 $$
 
-## Formula 1332 — source lines 9490-9492
+## Formula 1332 — source lines 9488-9490
 
 $$
 \tau_2 \to T^3|_{H_i} \to T
 $$
 
-## Formula 1333 — source lines 9503-9505
+## Formula 1333 — source lines 9501-9503
 
 $$
 \iota_i^\varepsilon:Q_2\to F_i^\varepsilon.
 $$
 
-## Formula 1334 — source lines 9511-9513
+## Formula 1334 — source lines 9509-9511
 
 $$
 P_{\mathrm{tot}}^{(2)}\to P_{\mathrm{tot}}^{(3)}.
 $$
 
-## Formula 1335 — source lines 9519-9521
+## Formula 1335 — source lines 9517-9519
 
 $$
 Q_2^\circ\to H_i.
 $$
 
-## Formula 1336 — source lines 9527-9529
+## Formula 1336 — source lines 9525-9527
 
 $$
 \Delta^{(2)}\to S_\eta^{(3)}.
 $$
 
-## Formula 1337 — source lines 9535-9537
+## Formula 1337 — source lines 9533-9535
 
 $$
 T^3|_{H_i}
 $$
 
-## Formula 1338 — source lines 9541-9543
+## Formula 1338 — source lines 9539-9541
 
 $$
 T^3\circ \lambda_i^{\mathrm{pair}} = \lambda_i^{\mathrm{pair}}\circ \tau_2.
 $$
 
-## Formula 1339 — source lines 9551-9553
+## Formula 1339 — source lines 9549-9551
 
 $$
 R_\circ^{(2)} \to H_i.
 $$
 
-## Formula 1340 — source lines 9557-9559
+## Formula 1340 — source lines 9555-9557
 
 $$
 Q_2^\circ=\{01,10\}
 $$
 
-## Formula 1341 — source lines 9563-9565
+## Formula 1341 — source lines 9561-9563
 
 $$
 R_\circ^{(2)}.
 $$
 
-## Formula 1342 — source lines 9569-9571
+## Formula 1342 — source lines 9567-9569
 
 $$
 H_i=\{I_i^-,I_i^+\}.
 $$
 
-## Formula 1343 — source lines 9575-9577
+## Formula 1343 — source lines 9573-9575
 
 $$
 R_3|_{H_i}.
 $$
 
-## Formula 1344 — source lines 9581-9583
+## Formula 1344 — source lines 9579-9581
 
 $$
 (Q_2^\circ,R_\circ^{(2)}) \leadsto (H_i,R_3|_{H_i}).
 $$
 
-## Formula 1345 — source lines 9593-9595
+## Formula 1345 — source lines 9591-9593
 
 $$
 (\Delta^{(2)},K_\Delta).
 $$
 
-## Formula 1346 — source lines 9599-9601
+## Formula 1346 — source lines 9597-9599
 
 $$
 (S_\eta^{(3)},R_2|_{S_\eta^{(3)}}).
 $$
 
-## Formula 1347 — source lines 9607-9609
+## Formula 1347 — source lines 9605-9607
 
 $$
 S_1^{(3)}
 $$
 
-## Formula 1348 — source lines 9613-9615
+## Formula 1348 — source lines 9611-9613
 
 $$
 S_2^{(3)}.
 $$
 
-## Formula 1349 — source lines 9619-9621
+## Formula 1349 — source lines 9617-9619
 
 $$
 R_2|_{S_\eta^{(3)}}\cong K_3.
 $$
 
-## Formula 1350 — source lines 9625-9627
+## Formula 1350 — source lines 9623-9625
 
 $$
 K_\Delta \leadsto S_\eta^{(3)}.
 $$
 
-## Formula 1351 — source lines 9635-9637
+## Formula 1351 — source lines 9633-9635
 
 $$
 Q_2 \to F_i^\varepsilon\subset Q_3.
 $$
 
-## Formula 1352 — source lines 9645-9647
+## Formula 1352 — source lines 9643-9645
 
 $$
 \Phi:\mathrm{Cham}(O_3)\to Q_3.
 $$
 
-## Formula 1353 — source lines 9651-9653
+## Formula 1353 — source lines 9649-9651
 
 $$
 F_i^\varepsilon\subset Q_3
 $$
 
-## Formula 1354 — source lines 9657-9659
+## Formula 1354 — source lines 9655-9657
 
 $$
 Q_3
 $$
 
-## Formula 1355 — source lines 9663-9665
+## Formula 1355 — source lines 9661-9663
 
 $$
 \mathrm{Cham}(O_3)\cong Q_3
 $$
 
-## Formula 1356 — source lines 9675-9677
+## Formula 1356 — source lines 9673-9675
 
 $$
 \{00,11\} \to \{000,111\}.
 $$
 
-## Formula 1357 — source lines 9681-9683
+## Formula 1357 — source lines 9679-9681
 
 $$
 P_{\mathrm{tot}}^{(3)} = Q_3\setminus X_{\mathrm{adm}}.
 $$
 
-## Formula 1358 — source lines 9689-9691
+## Formula 1358 — source lines 9687-9689
 
 $$
 X_{\mathrm{adm}}=Q_3\setminus\{000,111\}.
 $$
 
-## Formula 1359 — source lines 9695-9697
+## Formula 1359 — source lines 9693-9695
 
 $$
 \{00,11\} \leadsto \{000,111\}.
 $$
 
-## Formula 1360 — source lines 9705-9707
+## Formula 1360 — source lines 9703-9705
 
 $$
 \tau_2^2=\mathrm{id}_{Q_2^\circ}
 $$
 
-## Formula 1361 — source lines 9711-9713
+## Formula 1361 — source lines 9709-9711
 
 $$
 T^6=\mathrm{id}_{X_{\mathrm{adm}}}.
 $$
 
-## Formula 1362 — source lines 9717-9719
+## Formula 1362 — source lines 9715-9717
 
 $$
 \tau_2 \leadsto T^3|_{H_i}.
 $$
 
-## Formula 1363 — source lines 9723-9725
+## Formula 1363 — source lines 9721-9723
 
 $$
 T
 $$
 
-## Formula 1364 — source lines 9729-9731
+## Formula 1364 — source lines 9727-9729
 
 $$
 H_1,\quad H_2,\quad H_3.
 $$
 
-## Formula 1365 — source lines 9735-9737
+## Formula 1365 — source lines 9733-9735
 
 $$
 T(I_i^\eta)=\bar T_I(I_i)^{-\eta}.
 $$
 
-## Formula 1366 — source lines 9741-9743
+## Formula 1366 — source lines 9739-9741
 
 $$
 \text{local half-return}
 $$
 
-## Formula 1367 — source lines 9747-9749
+## Formula 1367 — source lines 9745-9747
 
 $$
 \text{global six-cycle}.
 $$
 
-## Formula 1368 — source lines 9757-9759
+## Formula 1368 — source lines 9755-9757
 
 $$
 Q_2 \leadsto F_i^\varepsilon \quad \text{as face-target};
 $$
 
-## Formula 1369 — source lines 9761-9763
+## Formula 1369 — source lines 9759-9761
 
 $$
 P_{\mathrm{tot}}^{(2)} \leadsto P_{\mathrm{tot}}^{(3)} \quad \text{as limit pair};
 $$
 
-## Formula 1370 — source lines 9765-9767
+## Formula 1370 — source lines 9763-9765
 
 $$
 Q_2^\circ \leadsto H_i \quad \text{as axial object};
 $$
 
-## Formula 1371 — source lines 9769-9771
+## Formula 1371 — source lines 9767-9769
 
 $$
 \Delta^{(2)} \leadsto S_\eta^{(3)} \quad \text{as shell object};
 $$
 
-## Formula 1372 — source lines 9773-9775
+## Formula 1372 — source lines 9771-9773
 
 $$
 \tau_2 \leadsto T^3|_{H_i} \leadsto T \quad \text{as transport law}.
 $$
 
-## Formula 1373 — source lines 9785-9787
+## Formula 1373 — source lines 9783-9785
 
 $$
 Q_2^\circ \to H_i=\{I_i^-,I_i^+\}.
 $$
 
-## Formula 1374 — source lines 9791-9793
+## Formula 1374 — source lines 9789-9791
 
 $$
 T^3(I_i^-)=I_i^+,
 $$
 
-## Formula 1375 — source lines 9795-9797
+## Formula 1375 — source lines 9793-9795
 
 $$
 T^3(I_i^+)=I_i^-.
 $$
 
-## Formula 1376 — source lines 9801-9803
+## Formula 1376 — source lines 9799-9801
 
 $$
 \Delta^{(2)} \to \{I_1^\eta,I_2^\eta,I_3^\eta\}.
 $$
 
-## Formula 1377 — source lines 9807-9809
+## Formula 1377 — source lines 9805-9807
 
 $$
 \text{pair-lift fixes axis }I_i;
 $$
 
-## Formula 1378 — source lines 9811-9813
+## Formula 1378 — source lines 9809-9811
 
 $$
 \text{triad-lift fixes sign }\eta;
 $$
 
-## Formula 1379 — source lines 9815-9817
+## Formula 1379 — source lines 9813-9815
 
 $$
 \text{transport-lift changes both axis and sign by }T.
 $$
 
-## Formula 1380 — source lines 9821-9823
+## Formula 1380 — source lines 9819-9821
 
 $$
 \text{same axis / sign switch};
 $$
 
-## Formula 1381 — source lines 9825-9827
+## Formula 1381 — source lines 9823-9825
 
 $$
 \text{same sign / axis shift};
 $$
 
-## Formula 1382 — source lines 9829-9831
+## Formula 1382 — source lines 9827-9829
 
 $$
 \text{axis shift / sign switch}.
 $$
 
-## Formula 1383 — source lines 9835-9837
+## Formula 1383 — source lines 9833-9835
 
 $$
 R_3,\quad R_2,\quad R_1.
 $$
 
-## Formula 1384 — source lines 9843-9845
+## Formula 1384 — source lines 9841-9843
 
 $$
 H_i=\{I_i^-,I_i^+\}
 $$
 
-## Formula 1385 — source lines 9849-9851
+## Formula 1385 — source lines 9847-9849
 
 $$
 S_1^{(3)}
 $$
 
-## Formula 1386 — source lines 9855-9857
+## Formula 1386 — source lines 9853-9855
 
 $$
 S_2^{(3)}.
 $$
 
-## Formula 1387 — source lines 9861-9863
+## Formula 1387 — source lines 9859-9861
 
 $$
 1+2 \quad \leftrightarrow \quad 2+1.
 $$
 
-## Formula 1388 — source lines 9867-9869
+## Formula 1388 — source lines 9865-9867
 
 $$
 S_\eta^{(3)}
 $$
 
-## Formula 1389 — source lines 9873-9876
+## Formula 1389 — source lines 9871-9874
 
 $$
 S_1^{(3)}:
 1+2,
 $$
 
-## Formula 1390 — source lines 9878-9881
+## Formula 1390 — source lines 9876-9879
 
 $$
 S_2^{(3)}:
 2+1.
 $$
 
-## Formula 1391 — source lines 9885-9887
+## Formula 1391 — source lines 9883-9885
 
 $$
 T:S_1^{(3)}\leftrightarrow S_2^{(3)}.
 $$
 
-## Formula 1392 — source lines 9891-9893
+## Formula 1392 — source lines 9889-9891
 
 $$
 T^2:S_\eta^{(3)}\to S_\eta^{(3)}.
 $$
 
-## Formula 1393 — source lines 9902-9904
+## Formula 1393 — source lines 9900-9902
 
 $$
 (A,R_A)
 $$
 
-## Formula 1394 — source lines 9908-9910
+## Formula 1394 — source lines 9906-9908
 
 $$
 \lambda:A\to B\subset X_{\mathrm{adm}}
 $$
 
-## Formula 1395 — source lines 9914-9916
+## Formula 1395 — source lines 9912-9914
 
 $$
 (\lambda\times\lambda)(R_A)=R_B
 $$
 
-## Formula 1396 — source lines 9920-9922
+## Formula 1396 — source lines 9918-9920
 
 $$
 R_B
 $$
 
-## Formula 1397 — source lines 9928-9930
+## Formula 1397 — source lines 9926-9928
 
 $$
 (Q_2^\circ,R_\circ^{(2)}) \leadsto (H_i,R_3|_{H_i}),
 $$
 
-## Formula 1398 — source lines 9932-9934
+## Formula 1398 — source lines 9930-9932
 
 $$
 (\Delta^{(2)},K_\Delta) \leadsto (S_\eta^{(3)},R_2|_{S_\eta^{(3)}}).
 $$
 
-## Formula 1399 — source lines 9938-9940
+## Formula 1399 — source lines 9936-9938
 
 $$
 \text{relation}_n\to\text{object}_{n+1}
 $$
 
-## Formula 1400 — source lines 9951-9953
+## Formula 1400 — source lines 9949-9951
 
 $$
 \mathfrak C_3 = \left( Q_3, X_{\mathrm{adm}}, R_1, R_2, R_3,R_{12}, O_3^{\leq \mathrm{ch}}, \Pi_O^{\mathrm{inc}}, \mathcal P_T^{(3)}, \mathcal A^{(3)}, \mathfrak L_{2\to3} \right).
 $$
 
-## Formula 1401 — source lines 9959-9961
+## Formula 1401 — source lines 9957-9959
 
 $$
 Q_3
 $$
 
-## Formula 1402 — source lines 9965-9967
+## Formula 1402 — source lines 9963-9965
 
 $$
 X_{\mathrm{adm}}=Q_3\setminus\{000,111\}
 $$
 
-## Formula 1403 — source lines 9971-9973
+## Formula 1403 — source lines 9969-9971
 
 $$
 R_1, R_2, R_3,R_{12}
 $$
 
-## Formula 1404 — source lines 9977-9979
+## Formula 1404 — source lines 9975-9977
 
 $$
 O_3^{\leq \mathrm{ch}}
 $$
 
-## Formula 1405 — source lines 9983-9985
+## Formula 1405 — source lines 9981-9983
 
 $$
 \Pi_O^{\mathrm{inc}}
 $$
 
-## Formula 1406 — source lines 9989-9991
+## Formula 1406 — source lines 9987-9989
 
 $$
 \mathcal P_T^{(3)}
 $$
 
-## Formula 1407 — source lines 9995-9997
+## Formula 1407 — source lines 9993-9995
 
 $$
 \mathcal A^{(3)}
 $$
 
-## Formula 1408 — source lines 10001-10003
+## Formula 1408 — source lines 9999-10001
 
 $$
 \mathfrak L_{2\to3}
 $$
 
-## Formula 1409 — source lines 10011-10021
+## Formula 1409 — source lines 10009-10019
 
 $$
 Q_3,
@@ -8968,7 +8966,7 @@ S_1^{(3)},S_2^{(3)},
 Z_O,
 $$
 
-## Formula 1410 — source lines 10025-10035
+## Formula 1410 — source lines 10023-10033
 
 $$
 B_\beta,
@@ -8982,7 +8980,7 @@ I_3,
 \Sigma=\{-,+\}.
 $$
 
-## Formula 1411 — source lines 10039-10043
+## Formula 1411 — source lines 10037-10041
 
 $$
 R_k=\{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:x\neq y,\ d_H(x,y)=k\},
@@ -8990,73 +8988,73 @@ R_k=\{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:x\neq y,\ d_H(x,y)=k\},
 k=1,2,3,
 $$
 
-## Formula 1412 — source lines 10047-10049
+## Formula 1412 — source lines 10045-10047
 
 $$
 (X_{\mathrm{adm}},R_1)\cong C_6,
 $$
 
-## Formula 1413 — source lines 10051-10053
+## Formula 1413 — source lines 10049-10051
 
 $$
 (X_{\mathrm{adm}},R_2)\cong K_3\sqcup K_3,
 $$
 
-## Formula 1414 — source lines 10055-10057
+## Formula 1414 — source lines 10053-10055
 
 $$
 (X_{\mathrm{adm}},R_3)\cong 3K_2.
 $$
 
-## Formula 1415 — source lines 10061-10063
+## Formula 1415 — source lines 10059-10061
 
 $$
 R_{12}=R_1\cup R_2
 $$
 
-## Formula 1416 — source lines 10067-10069
+## Formula 1416 — source lines 10065-10067
 
 $$
 (X_{\mathrm{adm}},R_{12}) \cong K_{2,2,2} \cong O_3^{(1)}.
 $$
 
-## Formula 1417 — source lines 10073-10075
+## Formula 1417 — source lines 10071-10073
 
 $$
 R_1=\text{vertex-edge incidence}=\text{different axis / opposite sign},
 $$
 
-## Formula 1418 — source lines 10077-10079
+## Formula 1418 — source lines 10075-10077
 
 $$
 R_2=\text{same-type shift}=\text{different axis / same sign},
 $$
 
-## Formula 1419 — source lines 10081-10083
+## Formula 1419 — source lines 10079-10081
 
 $$
 R_3=\text{vertex/opposite-edge duality}=\text{same axis / opposite sign}.
 $$
 
-## Formula 1420 — source lines 10089-10091
+## Formula 1420 — source lines 10087-10089
 
 $$
 O_3^{\leq \mathrm{ch}} = \bigl( X_{\mathrm{adm}}, R_{12}, \mathrm{Cham}(O_3), R_{\mathrm{ch}} \bigr).
 $$
 
-## Formula 1421 — source lines 10095-10097
+## Formula 1421 — source lines 10093-10095
 
 $$
 \mathrm{Cham}(O_3)\cong Q_3.
 $$
 
-## Formula 1422 — source lines 10101-10103
+## Formula 1422 — source lines 10099-10101
 
 $$
 \Pi_O^{\mathrm{inc}} = \left( Z_O, R_O, \mathrm{id}_{Z_O}, \mathrm{rec}_{\mathrm{id}} \right),
 $$
 
-## Formula 1423 — source lines 10107-10113
+## Formula 1423 — source lines 10105-10111
 
 $$
 Z_O=V_O\sqcup C_O,
@@ -9066,7 +9064,7 @@ V_O=X_{\mathrm{adm}},
 C_O=\mathrm{Cham}(O_3).
 $$
 
-## Formula 1424 — source lines 10117-10121
+## Formula 1424 — source lines 10115-10119
 
 $$
 (b_i^\eta,C_\varepsilon)\in\mathrm{Inc}_O
@@ -9074,38 +9072,38 @@ $$
 \varepsilon_i=\eta.
 $$
 
-## Formula 1425 — source lines 10125-10128
+## Formula 1425 — source lines 10123-10126
 
 $$
 T:
 001\to011\to010\to110\to100\to101\to001.
 $$
 
-## Formula 1426 — source lines 10132-10134
+## Formula 1426 — source lines 10130-10132
 
 $$
 T^2:S_i^{(3)}\to S_i^{(3)},
 $$
 
-## Formula 1427 — source lines 10136-10138
+## Formula 1427 — source lines 10134-10136
 
 $$
 T^3(x)=x+111,
 $$
 
-## Formula 1428 — source lines 10140-10142
+## Formula 1428 — source lines 10138-10140
 
 $$
 T^6=\mathrm{id}_{X_{\mathrm{adm}}},
 $$
 
-## Formula 1429 — source lines 10146-10148
+## Formula 1429 — source lines 10144-10146
 
 $$
 \langle T\rangle\cong\mathbb Z/6\mathbb Z.
 $$
 
-## Formula 1430 — source lines 10152-10156
+## Formula 1430 — source lines 10150-10154
 
 $$
 \bar T:B_\beta\to B_\beta,
@@ -9113,121 +9111,121 @@ $$
 \bar T^3=\mathrm{id}_{B_\beta}.
 $$
 
-## Formula 1431 — source lines 10160-10162
+## Formula 1431 — source lines 10158-10160
 
 $$
 \bar T_I:I_3\to I_3.
 $$
 
-## Formula 1432 — source lines 10166-10168
+## Formula 1432 — source lines 10164-10166
 
 $$
 \mathrm{hol}_\beta(\beta_i)=T^3|_{\beta_i}.
 $$
 
-## Formula 1433 — source lines 10172-10174
+## Formula 1433 — source lines 10170-10172
 
 $$
 \mathcal A^{(3)} = \left( X_{\mathrm{adm}}, R_1, R_2, R_3, \mathrm{supp}, J_3, I_3, \Theta, \{H_i\}_{i=1}^3 \right).
 $$
 
-## Formula 1434 — source lines 10178-10180
+## Formula 1434 — source lines 10176-10178
 
 $$
 \mathrm{supp}:X_{\mathrm{adm}}\to\mathcal P^\circ(J_3),
 $$
 
-## Formula 1435 — source lines 10184-10186
+## Formula 1435 — source lines 10182-10184
 
 $$
 X_{\mathrm{adm}}\cong V_\Delta\sqcup E_\Delta,
 $$
 
-## Formula 1436 — source lines 10190-10192
+## Formula 1436 — source lines 10188-10190
 
 $$
 \Theta:X_{\mathrm{adm}}\to I_3\times\{-,+\}.
 $$
 
-## Formula 1437 — source lines 10196-10198
+## Formula 1437 — source lines 10194-10196
 
 $$
 X_{\mathrm{adm}}\cong I_3\times\{-,+\}.
 $$
 
-## Formula 1438 — source lines 10204-10206
+## Formula 1438 — source lines 10202-10204
 
 $$
 \mathrm{supp}:X_{\mathrm{adm}}\to\mathcal P^\circ(J_3),
 $$
 
-## Formula 1439 — source lines 10210-10212
+## Formula 1439 — source lines 10208-10210
 
 $$
 \Pi_O^{\mathrm{inc}}
 $$
 
-## Formula 1440 — source lines 10216-10218
+## Formula 1440 — source lines 10214-10216
 
 $$
 \Pi_i^{\mathrm{ax}} = (H_i,R_3|_{H_i},\pi_i,\mathrm{rec}_i),
 $$
 
-## Formula 1441 — source lines 10222-10224
+## Formula 1441 — source lines 10220-10222
 
 $$
 \mathrm{rec}_i(I_i)=(H_i,R_3|_{H_i}).
 $$
 
-## Formula 1442 — source lines 10228-10230
+## Formula 1442 — source lines 10226-10228
 
 $$
 T^3\circ \lambda_i^{\mathrm{pair}} = \lambda_i^{\mathrm{pair}}\circ \tau_2.
 $$
 
-## Formula 1443 — source lines 10238-10240
+## Formula 1443 — source lines 10236-10238
 
 $$
 Q_3^* = Q_2^* \sqcup \{e_3\} \sqcup (e_3+Q_2^*).
 $$
 
-## Formula 1444 — source lines 10244-10246
+## Formula 1444 — source lines 10242-10244
 
 $$
 Q_3^* = \{001,010,011\} \sqcup \{100\} \sqcup \{101,110,111\}.
 $$
 
-## Formula 1445 — source lines 10250-10252
+## Formula 1445 — source lines 10248-10250
 
 $$
 X_{\mathrm{adm}} = \{001,010,011\} \sqcup \{100\} \sqcup \{101,110\}.
 $$
 
-## Formula 1446 — source lines 10256-10258
+## Formula 1446 — source lines 10254-10256
 
 $$
 S_1^{(3)}=\{001,010,100\},
 $$
 
-## Formula 1447 — source lines 10260-10262
+## Formula 1447 — source lines 10258-10260
 
 $$
 S_2^{(3)}=\{011,101,110\}.
 $$
 
-## Formula 1448 — source lines 10272-10274
+## Formula 1448 — source lines 10270-10272
 
 $$
 J_4=\{A,B,C,D\}.
 $$
 
-## Formula 1449 — source lines 10280-10282
+## Formula 1449 — source lines 10278-10280
 
 $$
 D,C,B,A.
 $$
 
-## Formula 1450 — source lines 10286-10294
+## Formula 1450 — source lines 10284-10292
 
 $$
 e_A=0001,
@@ -9239,7 +9237,7 @@ e_C=0100,
 e_D=1000.
 $$
 
-## Formula 1451 — source lines 10300-10304
+## Formula 1451 — source lines 10298-10302
 
 $$
 \iota_{3\to4}:Q_3\to Q_4,
@@ -9247,61 +9245,61 @@ $$
 \iota_{3\to4}(x_3x_2x_1)=0x_3x_2x_1.
 $$
 
-## Formula 1452 — source lines 10308-10310
+## Formula 1452 — source lines 10306-10308
 
 $$
 \iota_{3\to4}(111)=0111.
 $$
 
-## Formula 1453 — source lines 10318-10320
+## Formula 1453 — source lines 10316-10318
 
 $$
 Q_4^* = Q_3^* \sqcup \{e_D\} \sqcup (e_D+Q_3^*).
 $$
 
-## Formula 1454 — source lines 10324-10326
+## Formula 1454 — source lines 10322-10324
 
 $$
 e_D=1000=P_8^{(4)}.
 $$
 
-## Formula 1455 — source lines 10330-10332
+## Formula 1455 — source lines 10328-10330
 
 $$
 Q_4^* = \{P_1,\ldots,P_7\} \sqcup \{P_8\} \sqcup \{P_9,\ldots,P_{15}\}.
 $$
 
-## Formula 1456 — source lines 10340-10342
+## Formula 1456 — source lines 10338-10340
 
 $$
 Q_4=\mathbb{F}_2^4.
 $$
 
-## Formula 1457 — source lines 10352-10354
+## Formula 1457 — source lines 10350-10352
 
 $$
 \mathcal P_4=Q_4\setminus\{0000\}.
 $$
 
-## Formula 1458 — source lines 10364-10366
+## Formula 1458 — source lines 10362-10364
 
 $$
 U_4=Q_4\setminus\{0000,1111\}.
 $$
 
-## Formula 1459 — source lines 10376-10378
+## Formula 1459 — source lines 10374-10376
 
 $$
 V_4=S_1^{(4)}\sqcup S_3^{(4)}.
 $$
 
-## Formula 1460 — source lines 10382-10384
+## Formula 1460 — source lines 10380-10382
 
 $$
 M_4=S_2^{(4)}.
 $$
 
-## Formula 1461 — source lines 10388-10394
+## Formula 1461 — source lines 10386-10392
 
 $$
 |Q_4|=16,
@@ -9311,7 +9309,7 @@ $$
 |U_4|=14,
 $$
 
-## Formula 1462 — source lines 10396-10400
+## Formula 1462 — source lines 10394-10398
 
 $$
 |V_4|=8,
@@ -9319,31 +9317,31 @@ $$
 |M_4|=6.
 $$
 
-## Formula 1463 — source lines 10407-10409
+## Formula 1463 — source lines 10405-10407
 
 $$
 |V_4|=\binom41+\binom43=4+4=8,
 $$
 
-## Formula 1464 — source lines 10411-10413
+## Formula 1464 — source lines 10409-10411
 
 $$
 |M_4|=\binom42=6.
 $$
 
-## Formula 1465 — source lines 10415-10417
+## Formula 1465 — source lines 10413-10415
 
 $$
 \Box
 $$
 
-## Formula 1466 — source lines 10423-10425
+## Formula 1466 — source lines 10421-10423
 
 $$
 P_m^{(4)}=\text{four-bit representation of }m.
 $$
 
-## Formula 1467 — source lines 10429-10449
+## Formula 1467 — source lines 10427-10447
 
 $$
 \begin{array}{c|c|c}
@@ -9367,31 +9365,31 @@ P_{15} & 1111 & ABCD
 \end{array}
 $$
 
-## Formula 1468 — source lines 10453-10455
+## Formula 1468 — source lines 10451-10453
 
 $$
 P_{15}^{(4)}=1111=ABCD.
 $$
 
-## Formula 1469 — source lines 10459-10461
+## Formula 1469 — source lines 10457-10459
 
 $$
 \iota_{4\to5}(P_{15}^{(4)})=01111=P_{15}^{(5)}.
 $$
 
-## Formula 1470 — source lines 10467-10469
+## Formula 1470 — source lines 10465-10467
 
 $$
 \mathcal P_4 = S_1^{(4)} \sqcup S_2^{(4)} \sqcup S_3^{(4)} \sqcup S_4^{(4)}.
 $$
 
-## Formula 1471 — source lines 10473-10475
+## Formula 1471 — source lines 10471-10473
 
 $$
 15=4+6+4+1.
 $$
 
-## Formula 1472 — source lines 10479-10487
+## Formula 1472 — source lines 10477-10485
 
 $$
 |S_1^{(4)}|=4,
@@ -9403,13 +9401,13 @@ $$
 |S_4^{(4)}|=1.
 $$
 
-## Formula 1473 — source lines 10492-10494
+## Formula 1473 — source lines 10490-10492
 
 $$
 |S_k^{(4)}|=\binom4k.
 $$
 
-## Formula 1474 — source lines 10498-10506
+## Formula 1474 — source lines 10496-10504
 
 $$
 \binom41=4,
@@ -9421,61 +9419,61 @@ $$
 \binom44=1.
 $$
 
-## Formula 1475 — source lines 10508-10510
+## Formula 1475 — source lines 10506-10508
 
 $$
 \Box
 $$
 
-## Formula 1476 — source lines 10514-10516
+## Formula 1476 — source lines 10512-10514
 
 $$
 S_1^{(4)}\leftrightarrow S_3^{(4)}
 $$
 
-## Formula 1477 — source lines 10520-10522
+## Formula 1477 — source lines 10518-10520
 
 $$
 S_2^{(4)}\leftrightarrow S_2^{(4)}
 $$
 
-## Formula 1478 — source lines 10530-10532
+## Formula 1478 — source lines 10528-10530
 
 $$
 S_1^{(4)}=\{P_1,P_2,P_4,P_8\}=\{A,B,C,D\}.
 $$
 
-## Formula 1479 — source lines 10536-10538
+## Formula 1479 — source lines 10534-10536
 
 $$
 S_2^{(4)} = \{P_3,P_5,P_6,P_9,P_{10},P_{12}\} = \{AB,AC,BC,AD,BD,CD\}.
 $$
 
-## Formula 1480 — source lines 10542-10544
+## Formula 1480 — source lines 10540-10542
 
 $$
 S_3^{(4)} = \{P_7,P_{11},P_{13},P_{14}\} = \{ABC,ABD,ACD,BCD\}.
 $$
 
-## Formula 1481 — source lines 10548-10550
+## Formula 1481 — source lines 10546-10548
 
 $$
 S_4^{(4)}=\{P_{15}\}=\{ABCD\}.
 $$
 
-## Formula 1482 — source lines 10556-10558
+## Formula 1482 — source lines 10554-10556
 
 $$
 \kappa_4(x)=x+1111.
 $$
 
-## Formula 1483 — source lines 10562-10564
+## Formula 1483 — source lines 10560-10562
 
 $$
 \mathrm{supp}(\kappa_4(x))=J_4\setminus\mathrm{supp}(x).
 $$
 
-## Formula 1484 — source lines 10568-10574
+## Formula 1484 — source lines 10566-10572
 
 $$
 P_1\leftrightarrow P_{14},
@@ -9485,7 +9483,7 @@ P_2\leftrightarrow P_{13},
 P_3\leftrightarrow P_{12},
 $$
 
-## Formula 1485 — source lines 10576-10582
+## Formula 1485 — source lines 10574-10580
 
 $$
 P_4\leftrightarrow P_{11},
@@ -9495,43 +9493,43 @@ P_5\leftrightarrow P_{10},
 P_6\leftrightarrow P_9,
 $$
 
-## Formula 1486 — source lines 10584-10586
+## Formula 1486 — source lines 10582-10584
 
 $$
 P_7\leftrightarrow P_8.
 $$
 
-## Formula 1487 — source lines 10590-10592
+## Formula 1487 — source lines 10588-10590
 
 $$
 \kappa_4(P_{15})=0000.
 $$
 
-## Formula 1488 — source lines 10596-10598
+## Formula 1488 — source lines 10594-10596
 
 $$
 x+\kappa_4(x)=P_{15}.
 $$
 
-## Formula 1489 — source lines 10602-10604
+## Formula 1489 — source lines 10600-10602
 
 $$
 \ell_x=\{x,\kappa_4(x),P_{15}\}.
 $$
 
-## Formula 1490 — source lines 10612-10614
+## Formula 1490 — source lines 10610-10612
 
 $$
 \kappa_4:S_1^{(4)}\xrightarrow{\cong}S_3^{(4)},
 $$
 
-## Formula 1491 — source lines 10616-10618
+## Formula 1491 — source lines 10614-10616
 
 $$
 \kappa_4:S_2^{(4)}\xrightarrow{\cong}S_2^{(4)}.
 $$
 
-## Formula 1492 — source lines 10622-10630
+## Formula 1492 — source lines 10620-10628
 
 $$
 A\leftrightarrow BCD,
@@ -9543,7 +9541,7 @@ C\leftrightarrow ABD,
 D\leftrightarrow ABC.
 $$
 
-## Formula 1493 — source lines 10634-10640
+## Formula 1493 — source lines 10632-10638
 
 $$
 AB\leftrightarrow CD,
@@ -9553,13 +9551,13 @@ AC\leftrightarrow BD,
 AD\leftrightarrow BC.
 $$
 
-## Formula 1494 — source lines 10645-10647
+## Formula 1494 — source lines 10643-10645
 
 $$
 S_2^{(4)} = \{P_3,P_{12}\} \sqcup \{P_5,P_{10}\} \sqcup \{P_6,P_9\}.
 $$
 
-## Formula 1495 — source lines 10652-10658
+## Formula 1495 — source lines 10650-10656
 
 $$
 AB\leftrightarrow CD,
@@ -9569,25 +9567,25 @@ AC\leftrightarrow BD,
 AD\leftrightarrow BC.
 $$
 
-## Formula 1496 — source lines 10662-10664
+## Formula 1496 — source lines 10660-10662
 
 $$
 \Box
 $$
 
-## Formula 1497 — source lines 10670-10672
+## Formula 1497 — source lines 10668-10670
 
 $$
 \mathcal P_4=\mathbb{F}_2^4\setminus\{0000\}.
 $$
 
-## Formula 1498 — source lines 10676-10678
+## Formula 1498 — source lines 10674-10676
 
 $$
 15=4+6+4+1.
 $$
 
-## Formula 1499 — source lines 10682-10686
+## Formula 1499 — source lines 10680-10684
 
 $$
 S_1^{(4)}\leftrightarrow S_3^{(4)},
@@ -9595,13 +9593,13 @@ S_1^{(4)}\leftrightarrow S_3^{(4)},
 S_2^{(4)}\leftrightarrow S_2^{(4)}.
 $$
 
-## Formula 1500 — source lines 10696-10698
+## Formula 1500 — source lines 10694-10696
 
 $$
 \mathsf H_k^{(4)} = \{(x,y)\in \mathcal P_4\times\mathcal P_4:x\neq y,\ d_H(x,y)=k\}, \qquad k=1,2,3,4.
 $$
 
-## Formula 1501 — source lines 10703-10707
+## Formula 1501 — source lines 10701-10705
 
 $$
 |\mathsf H_1^{(4)}|=28,
@@ -9609,7 +9607,7 @@ $$
 |\mathsf H_2^{(4)}|=42,
 $$
 
-## Formula 1502 — source lines 10709-10713
+## Formula 1502 — source lines 10707-10711
 
 $$
 |\mathsf H_3^{(4)}|=28,
@@ -9617,25 +9615,25 @@ $$
 |\mathsf H_4^{(4)}|=7.
 $$
 
-## Formula 1503 — source lines 10718-10720
+## Formula 1503 — source lines 10716-10718
 
 $$
 2^{4-1}\binom4k=8\binom4k.
 $$
 
-## Formula 1504 — source lines 10724-10726
+## Formula 1504 — source lines 10722-10724
 
 $$
 \binom4k.
 $$
 
-## Formula 1505 — source lines 10730-10732
+## Formula 1505 — source lines 10728-10730
 
 $$
 |\mathsf H_k^{(4)}|=8\binom4k-\binom4k=7\binom4k.
 $$
 
-## Formula 1506 — source lines 10736-10744
+## Formula 1506 — source lines 10734-10742
 
 $$
 7\binom41=28,
@@ -9647,25 +9645,25 @@ $$
 7\binom44=7.
 $$
 
-## Formula 1507 — source lines 10746-10748
+## Formula 1507 — source lines 10744-10746
 
 $$
 \Box
 $$
 
-## Formula 1508 — source lines 10754-10756
+## Formula 1508 — source lines 10752-10754
 
 $$
 V(L(K_4))=\{A\subset J_4: |A|=2\}.
 $$
 
-## Formula 1509 — source lines 10762-10764
+## Formula 1509 — source lines 10760-10762
 
 $$
 L(K_4)\cong K_{2,2,2}.
 $$
 
-## Formula 1510 — source lines 10769-10775
+## Formula 1510 — source lines 10767-10773
 
 $$
 AB\leftrightarrow CD,
@@ -9675,43 +9673,43 @@ AC\leftrightarrow BD,
 AD\leftrightarrow BC.
 $$
 
-## Formula 1511 — source lines 10779-10781
+## Formula 1511 — source lines 10777-10779
 
 $$
 \Box
 $$
 
-## Formula 1512 — source lines 10787-10789
+## Formula 1512 — source lines 10785-10787
 
 $$
 |X\triangle Y|=4-2|X\cap Y|.
 $$
 
-## Formula 1513 — source lines 10793-10795
+## Formula 1513 — source lines 10791-10793
 
 $$
 (S_2^{(4)},\mathsf H_2^{(4)}|_{S_2^{(4)}})\cong K_{2,2,2}.
 $$
 
-## Formula 1514 — source lines 10800-10802
+## Formula 1514 — source lines 10798-10800
 
 $$
 L(K_4)\cong K_{2,2,2}.
 $$
 
-## Formula 1515 — source lines 10804-10806
+## Formula 1515 — source lines 10802-10804
 
 $$
 \Box
 $$
 
-## Formula 1516 — source lines 10816-10818
+## Formula 1516 — source lines 10814-10816
 
 $$
 (S_2^{(4)},\mathsf H_4^{(4)}|_{S_2^{(4)}})\cong 3K_2.
 $$
 
-## Formula 1517 — source lines 10823-10829
+## Formula 1517 — source lines 10821-10827
 
 $$
 AB\leftrightarrow CD,
@@ -9721,25 +9719,25 @@ AC\leftrightarrow BD,
 AD\leftrightarrow BC.
 $$
 
-## Formula 1518 — source lines 10833-10835
+## Formula 1518 — source lines 10831-10833
 
 $$
 \Box
 $$
 
-## Formula 1519 — source lines 10841-10843
+## Formula 1519 — source lines 10839-10841
 
 $$
 (X_{\mathrm{adm}},R_1\cup R_2)\cong K_{2,2,2}.
 $$
 
-## Formula 1520 — source lines 10847-10849
+## Formula 1520 — source lines 10845-10847
 
 $$
 (S_2^{(4)},\mathsf H_2^{(4)}|_{S_2^{(4)}})\cong K_{2,2,2}.
 $$
 
-## Formula 1521 — source lines 10859-10863
+## Formula 1521 — source lines 10857-10861
 
 $$
 d_H(X,Y)=1
@@ -9747,7 +9745,7 @@ d_H(X,Y)=1
 Y\subset X.
 $$
 
-## Formula 1522 — source lines 10867-10871
+## Formula 1522 — source lines 10865-10869
 
 $$
 d_H(X,Y)=1
@@ -9755,7 +9753,7 @@ d_H(X,Y)=1
 X\subset Y.
 $$
 
-## Formula 1523 — source lines 10878-10882
+## Formula 1523 — source lines 10876-10880
 
 $$
 |E_{\mathsf H_1}(S_1,S_2)|=12,
@@ -9763,7 +9761,7 @@ $$
 |E_{\mathsf H_3}(S_1,S_2)|=12,
 $$
 
-## Formula 1524 — source lines 10884-10888
+## Formula 1524 — source lines 10882-10886
 
 $$
 |E_{\mathsf H_1}(S_2,S_3)|=12,
@@ -9771,43 +9769,43 @@ $$
 |E_{\mathsf H_3}(S_2,S_3)|=12.
 $$
 
-## Formula 1525 — source lines 10893-10895
+## Formula 1525 — source lines 10891-10893
 
 $$
 6\cdot2=12
 $$
 
-## Formula 1526 — source lines 10901-10903
+## Formula 1526 — source lines 10899-10901
 
 $$
 6\cdot2=12
 $$
 
-## Formula 1527 — source lines 10907-10909
+## Formula 1527 — source lines 10905-10907
 
 $$
 \Box
 $$
 
-## Formula 1528 — source lines 10915-10917
+## Formula 1528 — source lines 10913-10915
 
 $$
 (S_2^{(4)},\mathsf H_2^{(4)}|_{S_2^{(4)}})\cong K_{2,2,2},
 $$
 
-## Formula 1529 — source lines 10919-10921
+## Formula 1529 — source lines 10917-10919
 
 $$
 (S_2^{(4)},\mathsf H_4^{(4)}|_{S_2^{(4)}})\cong 3K_2.
 $$
 
-## Formula 1530 — source lines 10931-10933
+## Formula 1530 — source lines 10929-10931
 
 $$
 V_4=S_1^{(4)}\sqcup S_3^{(4)}.
 $$
 
-## Formula 1531 — source lines 10937-10941
+## Formula 1531 — source lines 10935-10939
 
 $$
 I_4=\{I_A,I_B,I_C,I_D\},
@@ -9815,7 +9813,7 @@ I_4=\{I_A,I_B,I_C,I_D\},
 \Sigma=\{-,+\}.
 $$
 
-## Formula 1532 — source lines 10945-10949
+## Formula 1532 — source lines 10943-10947
 
 $$
 I_i^-=\{i\}\in S_1^{(4)},
@@ -9823,25 +9821,25 @@ I_i^-=\{i\}\in S_1^{(4)},
 I_i^+=J_4\setminus\{i\}\in S_3^{(4)}.
 $$
 
-## Formula 1533 — source lines 10953-10955
+## Formula 1533 — source lines 10951-10953
 
 $$
 H_i^{(4)}=\{I_i^-,I_i^+\}.
 $$
 
-## Formula 1534 — source lines 10959-10961
+## Formula 1534 — source lines 10957-10959
 
 $$
 V_4\cong I_4\times\Sigma,
 $$
 
-## Formula 1535 — source lines 10965-10967
+## Formula 1535 — source lines 10963-10965
 
 $$
 (V_4,\mathsf H_4^{(4)}|_{V_4})\cong 4K_2.
 $$
 
-## Formula 1536 — source lines 10972-10980
+## Formula 1536 — source lines 10970-10978
 
 $$
 A\leftrightarrow BCD,
@@ -9853,25 +9851,25 @@ C\leftrightarrow ABD,
 D\leftrightarrow ABC.
 $$
 
-## Formula 1537 — source lines 10984-10986
+## Formula 1537 — source lines 10982-10984
 
 $$
 \Box
 $$
 
-## Formula 1538 — source lines 10992-10994
+## Formula 1538 — source lines 10990-10992
 
 $$
 \Omega_4 = \{(x,y)\in V_4\times V_4:x\neq y,\ y\neq\kappa_4(x)\}.
 $$
 
-## Formula 1539 — source lines 10998-11000
+## Formula 1539 — source lines 10996-10998
 
 $$
 (V_4,\Omega_4)\cong K_{2,2,2,2}.
 $$
 
-## Formula 1540 — source lines 11004-11010
+## Formula 1540 — source lines 11002-11008
 
 $$
 |V_4|=8,
@@ -9881,37 +9879,37 @@ $$
 |E(K_{2,2,2,2})|=24.
 $$
 
-## Formula 1541 — source lines 11017-11019
+## Formula 1541 — source lines 11015-11017
 
 $$
 |E|=\frac{8\cdot6}{2}=24.
 $$
 
-## Formula 1542 — source lines 11021-11023
+## Formula 1542 — source lines 11019-11021
 
 $$
 \Box
 $$
 
-## Formula 1543 — source lines 11035-11037
+## Formula 1543 — source lines 11033-11035
 
 $$
 \Omega_4 = \mathsf H_2^{(4)}\cap(V_4\times V_4).
 $$
 
-## Formula 1544 — source lines 11046-11048
+## Formula 1544 — source lines 11044-11046
 
 $$
 d_H(\{i\},Y)=|Y|-1=2.
 $$
 
-## Formula 1545 — source lines 11052-11054
+## Formula 1545 — source lines 11050-11052
 
 $$
 \Box
 $$
 
-## Formula 1546 — source lines 11060-11064
+## Formula 1546 — source lines 11058-11062
 
 $$
 \pi_i^{(4)}:H_i^{(4)}\to\{I_i\},
@@ -9919,31 +9917,31 @@ $$
 \pi_i^{(4)}(I_i^-)=\pi_i^{(4)}(I_i^+)=I_i.
 $$
 
-## Formula 1547 — source lines 11068-11070
+## Formula 1547 — source lines 11066-11068
 
 $$
 \mathrm{rec}_i^{(4)}(I_i) = (H_i^{(4)},\mathsf H_4^{(4)}|_{H_i^{(4)}}).
 $$
 
-## Formula 1548 — source lines 11074-11076
+## Formula 1548 — source lines 11072-11074
 
 $$
 \Pi_i^{\mathrm{ax},(4)} = \left( H_i^{(4)}, \mathsf H_4^{(4)}|_{H_i^{(4)}}, \pi_i^{(4)}, \mathrm{rec}_i^{(4)} \right).
 $$
 
-## Formula 1549 — source lines 11084-11086
+## Formula 1549 — source lines 11082-11084
 
 $$
 E_4=E(K_{2,2,2,2}).
 $$
 
-## Formula 1550 — source lines 11090-11092
+## Formula 1550 — source lines 11088-11090
 
 $$
 L_4=L(K_{2,2,2,2}).
 $$
 
-## Formula 1551 — source lines 11096-11102
+## Formula 1551 — source lines 11094-11100
 
 $$
 |V(L_4)|=24,
@@ -9953,91 +9951,91 @@ $$
 |E(L_4)|=120.
 $$
 
-## Formula 1552 — source lines 11107-11109
+## Formula 1552 — source lines 11105-11107
 
 $$
 |V(L_4)|=24.
 $$
 
-## Formula 1553 — source lines 11113-11115
+## Formula 1553 — source lines 11111-11113
 
 $$
 (6-1)+(6-1)=10
 $$
 
-## Formula 1554 — source lines 11119-11121
+## Formula 1554 — source lines 11117-11119
 
 $$
 |E(L_4)|=\frac{24\cdot10}{2}=120.
 $$
 
-## Formula 1555 — source lines 11123-11125
+## Formula 1555 — source lines 11121-11123
 
 $$
 \Box
 $$
 
-## Formula 1556 — source lines 11131-11133
+## Formula 1556 — source lines 11129-11131
 
 $$
 V_4\cong I_4\times\{-,+\},
 $$
 
-## Formula 1557 — source lines 11137-11139
+## Formula 1557 — source lines 11135-11137
 
 $$
 (V_4,\Omega_4)\cong K_{2,2,2,2},
 $$
 
-## Formula 1558 — source lines 11143-11145
+## Formula 1558 — source lines 11141-11143
 
 $$
 L_4=L(K_{2,2,2,2}).
 $$
 
-## Formula 1559 — source lines 11156-11158
+## Formula 1559 — source lines 11154-11156
 
 $$
 \mathcal C_4 = (C_8^{(4)},C_6^{(4),\mathrm{mid}},C_{15}^{(4)}),
 $$
 
-## Formula 1560 — source lines 11168-11170
+## Formula 1560 — source lines 11166-11168
 
 $$
 A^-\to B^-\to C^-\to D^-\to A^+\to B^+\to C^+\to D^+\to A^-.
 $$
 
-## Formula 1561 — source lines 11174-11176
+## Formula 1561 — source lines 11172-11174
 
 $$
 P_1\to P_2\to P_4\to P_8\to P_{14}\to P_{13}\to P_{11}\to P_7\to P_1.
 $$
 
-## Formula 1562 — source lines 11184-11186
+## Formula 1562 — source lines 11182-11184
 
 $$
 \Box
 $$
 
-## Formula 1563 — source lines 11192-11194
+## Formula 1563 — source lines 11190-11192
 
 $$
 AB\to AC\to BC\to CD\to BD\to AD\to AB.
 $$
 
-## Formula 1564 — source lines 11198-11200
+## Formula 1564 — source lines 11196-11198
 
 $$
 P_3\to P_5\to P_6\to P_{12}\to P_{10}\to P_9\to P_3.
 $$
 
-## Formula 1565 — source lines 11205-11207
+## Formula 1565 — source lines 11203-11205
 
 $$
 (S_2^{(4)},\mathsf H_2^{(4)}|_{S_2^{(4)}}).
 $$
 
-## Formula 1566 — source lines 11212-11218
+## Formula 1566 — source lines 11210-11216
 
 $$
 AB\cap AC=A,
@@ -10047,7 +10045,7 @@ AC\cap BC=C,
 BC\cap CD=C,
 $$
 
-## Formula 1567 — source lines 11220-11226
+## Formula 1567 — source lines 11218-11224
 
 $$
 CD\cap BD=D,
@@ -10057,19 +10055,19 @@ BD\cap AD=D,
 AD\cap AB=A.
 $$
 
-## Formula 1568 — source lines 11230-11232
+## Formula 1568 — source lines 11228-11230
 
 $$
 \Box
 $$
 
-## Formula 1569 — source lines 11238-11240
+## Formula 1569 — source lines 11236-11238
 
 $$
 \mathbb{F}_{16}=\mathbb{F}_2[t]/(t^4+t+1).
 $$
 
-## Formula 1570 — source lines 11246-11251
+## Formula 1570 — source lines 11244-11249
 
 $$
 P_1\to P_2\to P_4\to P_8\to P_3
@@ -10078,7 +10076,7 @@ P_1\to P_2\to P_4\to P_8\to P_3
 \to P_1.
 $$
 
-## Formula 1571 — source lines 11255-11260
+## Formula 1571 — source lines 11253-11258
 
 $$
 0001\to0010\to0100\to1000\to0011
@@ -10087,43 +10085,43 @@ $$
 \to0001.
 $$
 
-## Formula 1572 — source lines 11268-11270
+## Formula 1572 — source lines 11266-11268
 
 $$
 \Box
 $$
 
-## Formula 1573 — source lines 11276-11278
+## Formula 1573 — source lines 11274-11276
 
 $$
 B_7^{(4)} = \{\{x,\kappa_4(x)\}:x\in\mathcal P_4\setminus\{P_{15}\}\}.
 $$
 
-## Formula 1574 — source lines 11282-11284
+## Formula 1574 — source lines 11280-11282
 
 $$
 \pi_\kappa^{(4)}:\mathcal P_4\setminus\{P_{15}\}\to B_7^{(4)},
 $$
 
-## Formula 1575 — source lines 11286-11288
+## Formula 1575 — source lines 11284-11286
 
 $$
 \pi_\kappa^{(4)}(x)=\{x,\kappa_4(x)\}.
 $$
 
-## Formula 1576 — source lines 11292-11294
+## Formula 1576 — source lines 11290-11292
 
 $$
 \mathrm{rec}_\kappa^{(4)}(\{x,\kappa_4(x)\}) = (\{x,\kappa_4(x)\},\mathsf H_4^{(4)}|_{\{x,\kappa_4(x)\}}).
 $$
 
-## Formula 1577 — source lines 11298-11300
+## Formula 1577 — source lines 11296-11298
 
 $$
 \Pi_\kappa^{(4)} = \left( \mathcal P_4\setminus\{P_{15}\}, \mathsf H_4^{(4)}|_{\mathcal P_4\setminus\{P_{15}\}}, \pi_\kappa^{(4)}, \mathrm{rec}_\kappa^{(4)} \right).
 $$
 
-## Formula 1578 — source lines 11306-11312
+## Formula 1578 — source lines 11304-11310
 
 $$
 H_{AB|CD}^{\mathrm{mid}}=\{AB,CD\},
@@ -10133,13 +10131,13 @@ H_{AC|BD}^{\mathrm{mid}}=\{AC,BD\},
 H_{AD|BC}^{\mathrm{mid}}=\{AD,BC\}.
 $$
 
-## Formula 1579 — source lines 11316-11318
+## Formula 1579 — source lines 11314-11316
 
 $$
 Y_j^{\mathrm{mid}}=\{I_j^{\mathrm{mid}}\}.
 $$
 
-## Formula 1580 — source lines 11320-11324
+## Formula 1580 — source lines 11318-11322
 
 $$
 \pi_j^{\mathrm{mid}}:H_j^{\mathrm{mid}}\to Y_j^{\mathrm{mid}},
@@ -10147,43 +10145,43 @@ $$
 \pi_j^{\mathrm{mid}}(x)=I_j^{\mathrm{mid}}.
 $$
 
-## Formula 1581 — source lines 11326-11328
+## Formula 1581 — source lines 11324-11326
 
 $$
 \mathrm{rec}_j^{\mathrm{mid}}(I_j^{\mathrm{mid}}) = (H_j^{\mathrm{mid}},\mathsf H_4^{(4)}|_{H_j^{\mathrm{mid}}}).
 $$
 
-## Formula 1582 — source lines 11330-11332
+## Formula 1582 — source lines 11328-11330
 
 $$
 \Pi_j^{\mathrm{mid-ax},(4)} = \left( H_j^{\mathrm{mid}}, \mathsf H_4^{(4)}|_{H_j^{\mathrm{mid}}}, \pi_j^{\mathrm{mid}}, \mathrm{rec}_j^{\mathrm{mid}} \right),
 $$
 
-## Formula 1583 — source lines 11340-11342
+## Formula 1583 — source lines 11338-11340
 
 $$
 \mathfrak C_4 = \left( \mathcal P_4, \{S_k^{(4)}\}_{k=1}^4, \mathsf H_1^{(4)},\mathsf H_2^{(4)},\mathsf H_3^{(4)},\mathsf H_4^{(4)}, V_4, S_2^{(4)}, \Omega_4, \mathcal C_4, \Pi_\kappa^{(4)}, \{\Pi_i^{\mathrm{ax},(4)}\}_{i\in J_4}, \{\Pi_j^{\mathrm{mid-ax},(4)}\}_{j\in\{AB|CD,\ AC|BD,\ AD|BC\}} \right).
 $$
 
-## Formula 1584 — source lines 11354-11356
+## Formula 1584 — source lines 11352-11354
 
 $$
 J_5=\{A,B,C,D,E\}.
 $$
 
-## Formula 1585 — source lines 11360-11362
+## Formula 1585 — source lines 11358-11360
 
 $$
 E
 $$
 
-## Formula 1586 — source lines 11366-11368
+## Formula 1586 — source lines 11364-11366
 
 $$
 E=\text{fifth coordinate of }Q_5.
 $$
 
-## Formula 1587 — source lines 11372-11380
+## Formula 1587 — source lines 11370-11378
 
 $$
 E=\text{composition coordinate},
@@ -10195,169 +10193,169 @@ E=\text{composition coordinate},
 \text{composition/closure}
 $$
 
-## Formula 1588 — source lines 11386-11388
+## Formula 1588 — source lines 11384-11386
 
 $$
 E,D,C,B,A.
 $$
 
-## Formula 1589 — source lines 11392-11394
+## Formula 1589 — source lines 11390-11392
 
 $$
 A=00001,
 $$
 
-## Formula 1590 — source lines 11396-11398
+## Formula 1590 — source lines 11394-11396
 
 $$
 B=00010,
 $$
 
-## Formula 1591 — source lines 11400-11402
+## Formula 1591 — source lines 11398-11400
 
 $$
 C=00100,
 $$
 
-## Formula 1592 — source lines 11404-11406
+## Formula 1592 — source lines 11402-11404
 
 $$
 D=01000,
 $$
 
-## Formula 1593 — source lines 11408-11410
+## Formula 1593 — source lines 11406-11408
 
 $$
 E=10000.
 $$
 
-## Formula 1594 — source lines 11416-11418
+## Formula 1594 — source lines 11414-11416
 
 $$
 \iota_{4\to5}:\mathcal P_4\to P^{(5)},
 $$
 
-## Formula 1595 — source lines 11420-11422
+## Formula 1595 — source lines 11418-11420
 
 $$
 \iota_{4\to5}(x)=0\cdot e_E+x.
 $$
 
-## Formula 1596 — source lines 11426-11428
+## Formula 1596 — source lines 11424-11426
 
 $$
 \iota_{4\to5}(x_4x_3x_2x_1)=0x_4x_3x_2x_1.
 $$
 
-## Formula 1597 — source lines 11432-11434
+## Formula 1597 — source lines 11430-11432
 
 $$
 P_{15}^{(4)}=1111
 $$
 
-## Formula 1598 — source lines 11438-11440
+## Formula 1598 — source lines 11436-11438
 
 $$
 \iota_{4\to5}(P_{15}^{(4)})=P_{15}^{(5)}=01111.
 $$
 
-## Formula 1599 — source lines 11448-11450
+## Formula 1599 — source lines 11446-11448
 
 $$
 Q_n^* = Q_{n-1}^* \sqcup \{e_n\} \sqcup (e_n+Q_{n-1}^*).
 $$
 
-## Formula 1600 — source lines 11454-11456
+## Formula 1600 — source lines 11452-11454
 
 $$
 Q_5^* = Q_4^* \sqcup \{e_E\} \sqcup (e_E+Q_4^*).
 $$
 
-## Formula 1601 — source lines 11460-11462
+## Formula 1601 — source lines 11458-11460
 
 $$
 e_E=10000=P_{16}^{(5)}.
 $$
 
-## Formula 1602 — source lines 11466-11468
+## Formula 1602 — source lines 11464-11466
 
 $$
 P_1^{(5)},\ldots,P_{15}^{(5)}
 $$
 
-## Formula 1603 — source lines 11472-11474
+## Formula 1603 — source lines 11470-11472
 
 $$
 P_{16}^{(5)}
 $$
 
-## Formula 1604 — source lines 11478-11480
+## Formula 1604 — source lines 11476-11478
 
 $$
 P_{17}^{(5)},\ldots,P_{31}^{(5)}
 $$
 
-## Formula 1605 — source lines 11486-11488
+## Formula 1605 — source lines 11484-11486
 
 $$
 Q_5^* = \{P_1,\ldots,P_{15}\} \sqcup \{P_{16}\} \sqcup \{P_{17},\ldots,P_{31}\}.
 $$
 
-## Formula 1606 — source lines 11498-11500
+## Formula 1606 — source lines 11496-11498
 
 $$
 Q_5=\mathbb{F}_2^5.
 $$
 
-## Formula 1607 — source lines 11506-11508
+## Formula 1607 — source lines 11504-11506
 
 $$
 P^{(5)}=Q_5\setminus\{00000\}.
 $$
 
-## Formula 1608 — source lines 11510-11512
+## Formula 1608 — source lines 11508-11510
 
 $$
 |P^{(5)}|=31.
 $$
 
-## Formula 1609 — source lines 11518-11520
+## Formula 1609 — source lines 11516-11518
 
 $$
 U_5=Q_5\setminus\{00000,11111\}.
 $$
 
-## Formula 1610 — source lines 11522-11524
+## Formula 1610 — source lines 11520-11522
 
 $$
 |U_5|=30.
 $$
 
-## Formula 1611 — source lines 11530-11532
+## Formula 1611 — source lines 11528-11530
 
 $$
 V_5=S_1^{(5)}\sqcup S_4^{(5)}.
 $$
 
-## Formula 1612 — source lines 11534-11536
+## Formula 1612 — source lines 11532-11534
 
 $$
 |V_5|=5+5=10.
 $$
 
-## Formula 1613 — source lines 11540-11542
+## Formula 1613 — source lines 11538-11540
 
 $$
 M_5=S_2^{(5)}\sqcup S_3^{(5)}.
 $$
 
-## Formula 1614 — source lines 11544-11546
+## Formula 1614 — source lines 11542-11544
 
 $$
 |M_5|=10+10=20.
 $$
 
-## Formula 1615 — source lines 11553-11559
+## Formula 1615 — source lines 11551-11557
 
 $$
 |Q_5|=32,
@@ -10367,7 +10365,7 @@ $$
 |U_5|=30,
 $$
 
-## Formula 1616 — source lines 11561-11565
+## Formula 1616 — source lines 11559-11563
 
 $$
 |V_5|=10,
@@ -10375,121 +10373,121 @@ $$
 |M_5|=20.
 $$
 
-## Formula 1617 — source lines 11570-11572
+## Formula 1617 — source lines 11568-11570
 
 $$
 |Q_5|=2^5=32.
 $$
 
-## Formula 1618 — source lines 11576-11578
+## Formula 1618 — source lines 11574-11576
 
 $$
 |P^{(5)}|=31.
 $$
 
-## Formula 1619 — source lines 11582-11584
+## Formula 1619 — source lines 11580-11582
 
 $$
 |U_5|=30.
 $$
 
-## Formula 1620 — source lines 11588-11590
+## Formula 1620 — source lines 11586-11588
 
 $$
 |V_5|=|S_1^{(5)}|+|S_4^{(5)}|=\binom51+\binom54=5+5=10.
 $$
 
-## Formula 1621 — source lines 11594-11596
+## Formula 1621 — source lines 11592-11594
 
 $$
 |M_5|=|S_2^{(5)}|+|S_3^{(5)}|=\binom52+\binom53=10+10=20.
 $$
 
-## Formula 1622 — source lines 11598-11600
+## Formula 1622 — source lines 11596-11598
 
 $$
 \Box
 $$
 
-## Formula 1623 — source lines 11606-11608
+## Formula 1623 — source lines 11604-11606
 
 $$
 P_m^{(5)}=\text{five-bit representation of }m.
 $$
 
-## Formula 1624 — source lines 11612-11614
+## Formula 1624 — source lines 11610-11612
 
 $$
 P_1=00001=A,
 $$
 
-## Formula 1625 — source lines 11616-11618
+## Formula 1625 — source lines 11614-11616
 
 $$
 P_2=00010=B,
 $$
 
-## Formula 1626 — source lines 11620-11622
+## Formula 1626 — source lines 11618-11620
 
 $$
 P_4=00100=C,
 $$
 
-## Formula 1627 — source lines 11624-11626
+## Formula 1627 — source lines 11622-11624
 
 $$
 P_8=01000=D,
 $$
 
-## Formula 1628 — source lines 11628-11630
+## Formula 1628 — source lines 11626-11628
 
 $$
 P_{16}=10000=E.
 $$
 
-## Formula 1629 — source lines 11634-11636
+## Formula 1629 — source lines 11632-11634
 
 $$
 P_{31}=11111=A+B+C+D+E.
 $$
 
-## Formula 1630 — source lines 11640-11642
+## Formula 1630 — source lines 11638-11640
 
 $$
 P_{15}^{(5)}=01111=A+B+C+D.
 $$
 
-## Formula 1631 — source lines 11646-11648
+## Formula 1631 — source lines 11644-11646
 
 $$
 P_{15}^{(5)}=A+B+C+D=\text{missing }E.
 $$
 
-## Formula 1632 — source lines 11652-11654
+## Formula 1632 — source lines 11650-11652
 
 $$
 S_4^{(5)}\text{-point missing one coordinate}.
 $$
 
-## Formula 1633 — source lines 11660-11662
+## Formula 1633 — source lines 11658-11660
 
 $$
 P^{(5)} = S_1^{(5)} \sqcup S_2^{(5)} \sqcup S_3^{(5)} \sqcup S_4^{(5)} \sqcup S_5^{(5)}.
 $$
 
-## Formula 1634 — source lines 11666-11668
+## Formula 1634 — source lines 11664-11666
 
 $$
 |S_k^{(5)}|=\binom{5}{k}.
 $$
 
-## Formula 1635 — source lines 11672-11674
+## Formula 1635 — source lines 11670-11672
 
 $$
 31=5+10+10+5+1.
 $$
 
-## Formula 1636 — source lines 11681-11687
+## Formula 1636 — source lines 11679-11685
 
 $$
 |S_1^{(5)}|=5,\quad
@@ -10499,13 +10497,13 @@ $$
 |S_5^{(5)}|=1.
 $$
 
-## Formula 1637 — source lines 11692-11694
+## Formula 1637 — source lines 11690-11692
 
 $$
 |S_k^{(5)}|=\binom5k.
 $$
 
-## Formula 1638 — source lines 11698-11704
+## Formula 1638 — source lines 11696-11702
 
 $$
 \binom51=5,\quad
@@ -10515,187 +10513,187 @@ $$
 \binom55=1.
 $$
 
-## Formula 1639 — source lines 11706-11708
+## Formula 1639 — source lines 11704-11706
 
 $$
 \Box
 $$
 
-## Formula 1640 — source lines 11712-11714
+## Formula 1640 — source lines 11710-11712
 
 $$
 S_1^{(5)}=\{P_1,P_2,P_4,P_8,P_{16}\}.
 $$
 
-## Formula 1641 — source lines 11718-11720
+## Formula 1641 — source lines 11716-11718
 
 $$
 S_1^{(5)}=\{A,B,C,D,E\}.
 $$
 
-## Formula 1642 — source lines 11726-11728
+## Formula 1642 — source lines 11724-11726
 
 $$
 S_2^{(5)} = \{P_3,P_5,P_6,P_9,P_{10},P_{12},P_{17},P_{18},P_{20},P_{24}\}.
 $$
 
-## Formula 1643 — source lines 11732-11734
+## Formula 1643 — source lines 11730-11732
 
 $$
 S_2^{(5)} = \{AB,AC,BC,AD,BD,CD,AE,BE,CE,DE\}.
 $$
 
-## Formula 1644 — source lines 11738-11740
+## Formula 1644 — source lines 11736-11738
 
 $$
 |S_2^{(5)}|=\binom{5}{2}=10.
 $$
 
-## Formula 1645 — source lines 11744-11746
+## Formula 1645 — source lines 11742-11744
 
 $$
 S_2^{(5)}=\text{pair-interaction shell}.
 $$
 
-## Formula 1646 — source lines 11750-11752
+## Formula 1646 — source lines 11748-11750
 
 $$
 S_3^{(5)} = \{P_7,P_{11},P_{13},P_{14},P_{19},P_{21},P_{22},P_{25},P_{26},P_{28}\}.
 $$
 
-## Formula 1647 — source lines 11756-11758
+## Formula 1647 — source lines 11754-11756
 
 $$
 S_3^{(5)} = \{ABC,ABD,ACD,BCD,ABE,ACE,BCE,ADE,BDE,CDE\}.
 $$
 
-## Formula 1648 — source lines 11762-11764
+## Formula 1648 — source lines 11760-11762
 
 $$
 |S_3^{(5)}|=\binom{5}{3}=10.
 $$
 
-## Formula 1649 — source lines 11768-11770
+## Formula 1649 — source lines 11766-11768
 
 $$
 S_3^{(5)}=\text{triple-closure shell}.
 $$
 
-## Formula 1650 — source lines 11774-11776
+## Formula 1650 — source lines 11772-11774
 
 $$
 S_4^{(5)}=\{P_{15},P_{23},P_{27},P_{29},P_{30}\}.
 $$
 
-## Formula 1651 — source lines 11780-11782
+## Formula 1651 — source lines 11778-11780
 
 $$
 S_4^{(5)}=\{ABCD,ABCE,ABDE,ACDE,BCDE\}.
 $$
 
-## Formula 1652 — source lines 11786-11788
+## Formula 1652 — source lines 11784-11786
 
 $$
 ABCD=\text{missing }E,
 $$
 
-## Formula 1653 — source lines 11790-11792
+## Formula 1653 — source lines 11788-11790
 
 $$
 ABCE=\text{missing }D,
 $$
 
-## Formula 1654 — source lines 11794-11796
+## Formula 1654 — source lines 11792-11794
 
 $$
 ABDE=\text{missing }C,
 $$
 
-## Formula 1655 — source lines 11798-11800
+## Formula 1655 — source lines 11796-11798
 
 $$
 ACDE=\text{missing }B,
 $$
 
-## Formula 1656 — source lines 11802-11804
+## Formula 1656 — source lines 11800-11802
 
 $$
 BCDE=\text{missing }A.
 $$
 
-## Formula 1657 — source lines 11808-11810
+## Formula 1657 — source lines 11806-11808
 
 $$
 P_{15}=ABCD=\text{missing }E,
 $$
 
-## Formula 1658 — source lines 11812-11814
+## Formula 1658 — source lines 11810-11812
 
 $$
 P_{23}=ABCE=\text{missing }D,
 $$
 
-## Formula 1659 — source lines 11816-11818
+## Formula 1659 — source lines 11814-11816
 
 $$
 P_{27}=ABDE=\text{missing }C,
 $$
 
-## Formula 1660 — source lines 11820-11822
+## Formula 1660 — source lines 11818-11820
 
 $$
 P_{29}=ACDE=\text{missing }B,
 $$
 
-## Formula 1661 — source lines 11824-11826
+## Formula 1661 — source lines 11822-11824
 
 $$
 P_{30}=BCDE=\text{missing }A.
 $$
 
-## Formula 1662 — source lines 11830-11832
+## Formula 1662 — source lines 11828-11830
 
 $$
 S_5^{(5)}=\{P_{31}\}.
 $$
 
-## Formula 1663 — source lines 11834-11836
+## Formula 1663 — source lines 11832-11834
 
 $$
 P_{31}=11111=A+B+C+D+E.
 $$
 
-## Formula 1664 — source lines 11840-11842
+## Formula 1664 — source lines 11838-11840
 
 $$
 P_{31}=\text{unique weight-5 state}.
 $$
 
-## Formula 1665 — source lines 11846-11848
+## Formula 1665 — source lines 11844-11846
 
 $$
 P_{31}=\text{full composite saturation}.
 $$
 
-## Formula 1666 — source lines 11854-11856
+## Formula 1666 — source lines 11852-11854
 
 $$
 \kappa_5(x)=x+11111.
 $$
 
-## Formula 1667 — source lines 11860-11862
+## Formula 1667 — source lines 11858-11860
 
 $$
 \kappa_5^2=\mathrm{id}_{Q_5}.
 $$
 
-## Formula 1668 — source lines 11866-11868
+## Formula 1668 — source lines 11864-11866
 
 $$
 P_i\leftrightarrow P_{31-i}.
 $$
 
-## Formula 1669 — source lines 11872-11878
+## Formula 1669 — source lines 11870-11876
 
 $$
 P_1\leftrightarrow P_{30},
@@ -10705,7 +10703,7 @@ P_2\leftrightarrow P_{29},
 P_3\leftrightarrow P_{28},
 $$
 
-## Formula 1670 — source lines 11880-11886
+## Formula 1670 — source lines 11878-11884
 
 $$
 P_4\leftrightarrow P_{27},
@@ -10715,7 +10713,7 @@ P_5\leftrightarrow P_{26},
 P_6\leftrightarrow P_{25},
 $$
 
-## Formula 1671 — source lines 11888-11894
+## Formula 1671 — source lines 11886-11892
 
 $$
 P_7\leftrightarrow P_{24},
@@ -10725,7 +10723,7 @@ P_8\leftrightarrow P_{23},
 P_9\leftrightarrow P_{22},
 $$
 
-## Formula 1672 — source lines 11896-11902
+## Formula 1672 — source lines 11894-11900
 
 $$
 P_{10}\leftrightarrow P_{21},
@@ -10735,7 +10733,7 @@ P_{11}\leftrightarrow P_{20},
 P_{12}\leftrightarrow P_{19},
 $$
 
-## Formula 1673 — source lines 11904-11910
+## Formula 1673 — source lines 11902-11908
 
 $$
 P_{13}\leftrightarrow P_{18},
@@ -10745,103 +10743,103 @@ P_{14}\leftrightarrow P_{17},
 P_{15}\leftrightarrow P_{16}.
 $$
 
-## Formula 1674 — source lines 11914-11916
+## Formula 1674 — source lines 11912-11914
 
 $$
 \kappa_5(P_{31})=00000,
 $$
 
-## Formula 1675 — source lines 11922-11924
+## Formula 1675 — source lines 11920-11922
 
 $$
 x+\kappa_5(x)=P_{31}.
 $$
 
-## Formula 1676 — source lines 11928-11930
+## Formula 1676 — source lines 11926-11928
 
 $$
 \ell_x=\{x,\kappa_5(x),P_{31}\}.
 $$
 
-## Formula 1677 — source lines 11940-11942
+## Formula 1677 — source lines 11938-11940
 
 $$
 \frac{30}{2}=15.
 $$
 
-## Formula 1678 — source lines 11946-11948
+## Formula 1678 — source lines 11944-11946
 
 $$
 x+\kappa_5(x)=P_{31}.
 $$
 
-## Formula 1679 — source lines 11952-11954
+## Formula 1679 — source lines 11950-11952
 
 $$
 \{x,\kappa_5(x),P_{31}\}.
 $$
 
-## Formula 1680 — source lines 11958-11960
+## Formula 1680 — source lines 11956-11958
 
 $$
 \Box
 $$
 
-## Formula 1681 — source lines 11966-11968
+## Formula 1681 — source lines 11964-11966
 
 $$
 S_k^{(5)}\leftrightarrow S_{5-k}^{(5)}.
 $$
 
-## Formula 1682 — source lines 11972-11974
+## Formula 1682 — source lines 11970-11972
 
 $$
 S_1^{(5)}\leftrightarrow S_4^{(5)},
 $$
 
-## Formula 1683 — source lines 11976-11978
+## Formula 1683 — source lines 11974-11976
 
 $$
 S_2^{(5)}\leftrightarrow S_3^{(5)}.
 $$
 
-## Formula 1684 — source lines 11982-11984
+## Formula 1684 — source lines 11980-11982
 
 $$
 S_2^{(5)} \leftrightarrow S_3^{(5)}, \qquad 10\leftrightarrow10.
 $$
 
-## Formula 1685 — source lines 11988-11990
+## Formula 1685 — source lines 11986-11988
 
 $$
 \{i,j\} \longleftrightarrow J_5\setminus\{i,j\}.
 $$
 
-## Formula 1686 — source lines 11994-11996
+## Formula 1686 — source lines 11992-11994
 
 $$
 AB\leftrightarrow CDE,
 $$
 
-## Formula 1687 — source lines 11998-12000
+## Formula 1687 — source lines 11996-11998
 
 $$
 AC\leftrightarrow BDE,
 $$
 
-## Formula 1688 — source lines 12002-12004
+## Formula 1688 — source lines 12000-12002
 
 $$
 AD\leftrightarrow BCE,
 $$
 
-## Formula 1689 — source lines 12006-12008
+## Formula 1689 — source lines 12004-12006
 
 $$
 AE\leftrightarrow BCD.
 $$
 
-## Formula 1690 — source lines 12012-12016
+## Formula 1690 — source lines 12010-12014
 
 $$
 S_1^{(3)}\leftrightarrow S_2^{(3)},
@@ -10849,7 +10847,7 @@ S_1^{(3)}\leftrightarrow S_2^{(3)},
 3\leftrightarrow3.
 $$
 
-## Formula 1691 — source lines 12020-12024
+## Formula 1691 — source lines 12018-12022
 
 $$
 S_2^{(5)}\leftrightarrow S_3^{(5)},
@@ -10857,145 +10855,145 @@ S_2^{(5)}\leftrightarrow S_3^{(5)},
 10\leftrightarrow10.
 $$
 
-## Formula 1692 — source lines 12028-12030
+## Formula 1692 — source lines 12026-12028
 
 $$
 \text{pair interaction} \leftrightarrow \text{triple closure}.
 $$
 
-## Formula 1693 — source lines 12034-12036
+## Formula 1693 — source lines 12032-12034
 
 $$
 S_2^{(5)} \leftrightarrow S_3^{(5)} \text{ by }\kappa_5.
 $$
 
-## Formula 1694 — source lines 12041-12043
+## Formula 1694 — source lines 12039-12041
 
 $$
 \kappa_5:S_2^{(5)}\to S_3^{(5)}.
 $$
 
-## Formula 1695 — source lines 12048-12050
+## Formula 1695 — source lines 12046-12048
 
 $$
 \Box
 $$
 
-## Formula 1696 — source lines 12058-12060
+## Formula 1696 — source lines 12056-12058
 
 $$
 P^{(5)}=\mathbb{F}_2^5\setminus\{00000\}
 $$
 
-## Formula 1697 — source lines 12064-12066
+## Formula 1697 — source lines 12062-12064
 
 $$
 \mathsf H_k^{(5)} = \{(x,y)\in P^{(5)}\times P^{(5)}: x\neq y,\ d_H(x,y)=k\},
 $$
 
-## Formula 1698 — source lines 12070-12072
+## Formula 1698 — source lines 12068-12070
 
 $$
 k=1,2,3,4,5.
 $$
 
-## Formula 1699 — source lines 12077-12079
+## Formula 1699 — source lines 12075-12077
 
 $$
 |\mathsf H_1^{(5)}|=75,
 $$
 
-## Formula 1700 — source lines 12081-12083
+## Formula 1700 — source lines 12079-12081
 
 $$
 |\mathsf H_2^{(5)}|=150,
 $$
 
-## Formula 1701 — source lines 12085-12087
+## Formula 1701 — source lines 12083-12085
 
 $$
 |\mathsf H_3^{(5)}|=150,
 $$
 
-## Formula 1702 — source lines 12089-12091
+## Formula 1702 — source lines 12087-12089
 
 $$
 |\mathsf H_4^{(5)}|=75,
 $$
 
-## Formula 1703 — source lines 12093-12095
+## Formula 1703 — source lines 12091-12093
 
 $$
 |\mathsf H_5^{(5)}|=15.
 $$
 
-## Formula 1704 — source lines 12100-12102
+## Formula 1704 — source lines 12098-12100
 
 $$
 2^{5-1}\binom{5}{k} = 16\binom{5}{k}.
 $$
 
-## Formula 1705 — source lines 12106-12108
+## Formula 1705 — source lines 12104-12106
 
 $$
 \binom{5}{k}.
 $$
 
-## Formula 1706 — source lines 12112-12114
+## Formula 1706 — source lines 12110-12112
 
 $$
 |\mathsf H_k^{(5)}| = 16\binom{5}{k}-\binom{5}{k} = 15\binom{5}{k}.
 $$
 
-## Formula 1707 — source lines 12118-12120
+## Formula 1707 — source lines 12116-12118
 
 $$
 75,\quad150,\quad150,\quad75,\quad15.
 $$
 
-## Formula 1708 — source lines 12122-12124
+## Formula 1708 — source lines 12120-12122
 
 $$
 \Box
 $$
 
-## Formula 1709 — source lines 12128-12130
+## Formula 1709 — source lines 12126-12128
 
 $$
 \kappa_5(P_{31})=00000\notin P^{(5)}.
 $$
 
-## Formula 1710 — source lines 12137-12139
+## Formula 1710 — source lines 12135-12137
 
 $$
 V(L(G))=E(G),
 $$
 
-## Formula 1711 — source lines 12146-12148
+## Formula 1711 — source lines 12144-12146
 
 $$
 T(5)
 $$
 
-## Formula 1712 — source lines 12152-12154
+## Formula 1712 — source lines 12150-12152
 
 $$
 T(5)=L(K_5).
 $$
 
-## Formula 1713 — source lines 12161-12163
+## Formula 1713 — source lines 12159-12161
 
 $$
 KG(5,2)
 $$
 
-## Formula 1714 — source lines 12173-12175
+## Formula 1714 — source lines 12171-12173
 
 $$
 S_2^{(5)}
 $$
 
-## Formula 1715 — source lines 12181-12185
+## Formula 1715 — source lines 12179-12183
 
 $$
 X\sim_{\cap}Y
@@ -11003,31 +11001,31 @@ X\sim_{\cap}Y
 |X\cap Y|=1.
 $$
 
-## Formula 1716 — source lines 12189-12191
+## Formula 1716 — source lines 12187-12189
 
 $$
 T(5)=L(K_5).
 $$
 
-## Formula 1717 — source lines 12195-12197
+## Formula 1717 — source lines 12193-12195
 
 $$
 |V(T(5))|=10,
 $$
 
-## Formula 1718 — source lines 12199-12201
+## Formula 1718 — source lines 12197-12199
 
 $$
 |E(T(5))|=30,
 $$
 
-## Formula 1719 — source lines 12203-12205
+## Formula 1719 — source lines 12201-12203
 
 $$
 \deg=6.
 $$
 
-## Formula 1720 — source lines 12209-12213
+## Formula 1720 — source lines 12207-12211
 
 $$
 X\sim_{\perp}Y
@@ -11035,79 +11033,79 @@ X\sim_{\perp}Y
 X\cap Y=\varnothing.
 $$
 
-## Formula 1721 — source lines 12217-12219
+## Formula 1721 — source lines 12215-12217
 
 $$
 KG(5,2),
 $$
 
-## Formula 1722 — source lines 12225-12227
+## Formula 1722 — source lines 12223-12225
 
 $$
 |V(KG(5,2))|=10,
 $$
 
-## Formula 1723 — source lines 12229-12231
+## Formula 1723 — source lines 12227-12229
 
 $$
 |E(KG(5,2))|=15,
 $$
 
-## Formula 1724 — source lines 12233-12235
+## Formula 1724 — source lines 12231-12233
 
 $$
 \deg=3.
 $$
 
-## Formula 1725 — source lines 12239-12241
+## Formula 1725 — source lines 12237-12239
 
 $$
 |X\triangle Y|=2
 $$
 
-## Formula 1726 — source lines 12245-12247
+## Formula 1726 — source lines 12243-12245
 
 $$
 |X\cap Y|=1.
 $$
 
-## Formula 1727 — source lines 12251-12253
+## Formula 1727 — source lines 12249-12251
 
 $$
 \mathsf H_2^{(5)}|_{S_2} \cong T(5).
 $$
 
-## Formula 1728 — source lines 12257-12259
+## Formula 1728 — source lines 12255-12257
 
 $$
 |X\triangle Y|=4
 $$
 
-## Formula 1729 — source lines 12263-12265
+## Formula 1729 — source lines 12261-12263
 
 $$
 X\cap Y=\varnothing.
 $$
 
-## Formula 1730 — source lines 12269-12271
+## Formula 1730 — source lines 12267-12269
 
 $$
 \mathsf H_4^{(5)}|_{S_2} \cong KG(5,2).
 $$
 
-## Formula 1731 — source lines 12275-12277
+## Formula 1731 — source lines 12273-12275
 
 $$
 T(5)=\text{two pair-interactions share one coordinate}.
 $$
 
-## Formula 1732 — source lines 12279-12281
+## Formula 1732 — source lines 12277-12279
 
 $$
 KG(5,2)=\text{two pair-interactions are disjoint}.
 $$
 
-## Formula 1733 — source lines 12286-12290
+## Formula 1733 — source lines 12284-12288
 
 $$
 \mathsf H_2^{(5)}|_{S_2}\cong T(5),
@@ -11115,7 +11113,7 @@ $$
 \mathsf H_4^{(5)}|_{S_2}\cong KG(5,2).
 $$
 
-## Formula 1734 — source lines 12294-12300
+## Formula 1734 — source lines 12292-12298
 
 $$
 |V(T(5))|=10,
@@ -11125,7 +11123,7 @@ $$
 \deg_{T(5)}=6,
 $$
 
-## Formula 1735 — source lines 12302-12308
+## Formula 1735 — source lines 12300-12306
 
 $$
 |V(KG(5,2))|=10,
@@ -11135,79 +11133,79 @@ $$
 \deg_{KG(5,2)}=3.
 $$
 
-## Formula 1736 — source lines 12315-12317
+## Formula 1736 — source lines 12313-12315
 
 $$
 |E(T(5))|=\frac{10\cdot6}{2}=30.
 $$
 
-## Formula 1737 — source lines 12321-12323
+## Formula 1737 — source lines 12319-12321
 
 $$
 |E(KG(5,2))|=\frac{10\cdot3}{2}=15.
 $$
 
-## Formula 1738 — source lines 12325-12327
+## Formula 1738 — source lines 12323-12325
 
 $$
 \Box
 $$
 
-## Formula 1739 — source lines 12333-12335
+## Formula 1739 — source lines 12331-12333
 
 $$
 \kappa_5:S_2^{(5)}\to S_3^{(5)}
 $$
 
-## Formula 1740 — source lines 12339-12341
+## Formula 1740 — source lines 12337-12339
 
 $$
 d_H(x,y)=d_H(\kappa_5(x),\kappa_5(y)).
 $$
 
-## Formula 1741 — source lines 12347-12349
+## Formula 1741 — source lines 12345-12347
 
 $$
 U,V\in S_3^{(5)},
 $$
 
-## Formula 1742 — source lines 12351-12353
+## Formula 1742 — source lines 12349-12351
 
 $$
 d_H(U,V)=2
 $$
 
-## Formula 1743 — source lines 12359-12361
+## Formula 1743 — source lines 12357-12359
 
 $$
 \mathsf H_2^{(5)}|_{S_3} \cong T(5).
 $$
 
-## Formula 1744 — source lines 12365-12367
+## Formula 1744 — source lines 12363-12365
 
 $$
 d_H(U,V)=4
 $$
 
-## Formula 1745 — source lines 12373-12375
+## Formula 1745 — source lines 12371-12373
 
 $$
 \mathsf H_4^{(5)}|_{S_3} \cong KG(5,2).
 $$
 
-## Formula 1746 — source lines 12379-12381
+## Formula 1746 — source lines 12377-12379
 
 $$
 S_3^{(5)}=\text{triple-closure shell}.
 $$
 
-## Formula 1747 — source lines 12385-12387
+## Formula 1747 — source lines 12383-12385
 
 $$
 S_3^{(5)}
 $$
 
-## Formula 1748 — source lines 12394-12398
+## Formula 1748 — source lines 12392-12396
 
 $$
 \mathsf H_2^{(5)}|_{S_3}\cong T(5),
@@ -11215,13 +11213,13 @@ $$
 \mathsf H_4^{(5)}|_{S_3}\cong KG(5,2).
 $$
 
-## Formula 1749 — source lines 12403-12405
+## Formula 1749 — source lines 12401-12403
 
 $$
 \Box
 $$
 
-## Formula 1750 — source lines 12411-12415
+## Formula 1750 — source lines 12409-12413
 
 $$
 X\in S_2^{(5)},
@@ -11229,19 +11227,19 @@ X\in S_2^{(5)},
 Y\in S_3^{(5)}.
 $$
 
-## Formula 1751 — source lines 12419-12421
+## Formula 1751 — source lines 12417-12419
 
 $$
 d_H(X,Y) = |X\triangle Y| = |X|+|Y|-2|X\cap Y| = 5-2|X\cap Y|.
 $$
 
-## Formula 1752 — source lines 12427-12429
+## Formula 1752 — source lines 12425-12427
 
 $$
 X\subset Y.
 $$
 
-## Formula 1753 — source lines 12433-12437
+## Formula 1753 — source lines 12431-12435
 
 $$
 |X\cap Y|=2,
@@ -11249,196 +11247,196 @@ $$
 d_H(X,Y)=1.
 $$
 
-## Formula 1754 — source lines 12443-12445
+## Formula 1754 — source lines 12441-12443
 
 $$
 10\cdot3=30.
 $$
 
-## Formula 1755 — source lines 12449-12451
+## Formula 1755 — source lines 12447-12449
 
 $$
 |X\cap Y|=1.
 $$
 
-## Formula 1756 — source lines 12455-12457
+## Formula 1756 — source lines 12453-12455
 
 $$
 d_H(X,Y)=3.
 $$
 
-## Formula 1757 — source lines 12461-12463
+## Formula 1757 — source lines 12459-12461
 
 $$
 10\cdot6=60
 $$
 
-## Formula 1758 — source lines 12469-12471
+## Formula 1758 — source lines 12467-12469
 
 $$
 X\cap Y=\varnothing.
 $$
 
-## Formula 1759 — source lines 12475-12477
+## Formula 1759 — source lines 12473-12475
 
 $$
 Y=\kappa_5(X),
 $$
 
-## Formula 1760 — source lines 12481-12483
+## Formula 1760 — source lines 12479-12481
 
 $$
 d_H(X,Y)=5.
 $$
 
-## Formula 1761 — source lines 12487-12489
+## Formula 1761 — source lines 12485-12487
 
 $$
 S_2^{(5)}\leftrightarrow S_3^{(5)}.
 $$
 
-## Formula 1762 — source lines 12493-12495
+## Formula 1762 — source lines 12491-12493
 
 $$
 M_5=S_2^{(5)}\sqcup S_3^{(5)}
 $$
 
-## Formula 1763 — source lines 12499-12502
+## Formula 1763 — source lines 12497-12500
 
 $$
 \mathsf H_1:
 \text{pair contained in triple},
 $$
 
-## Formula 1764 — source lines 12504-12507
+## Formula 1764 — source lines 12502-12505
 
 $$
 \mathsf H_3:
 \text{pair meets triple in one coordinate},
 $$
 
-## Formula 1765 — source lines 12509-12512
+## Formula 1765 — source lines 12507-12510
 
 $$
 \mathsf H_5:
 \text{pair complementary to triple}.
 $$
 
-## Formula 1766 — source lines 12516-12518
+## Formula 1766 — source lines 12514-12516
 
 $$
 30+60+10=100,
 $$
 
-## Formula 1767 — source lines 12522-12524
+## Formula 1767 — source lines 12520-12522
 
 $$
 |S_2^{(5)}|\cdot|S_3^{(5)}|=10\cdot10.
 $$
 
-## Formula 1768 — source lines 12529-12531
+## Formula 1768 — source lines 12527-12529
 
 $$
 \mathsf H_1:\ X\subset Y,
 $$
 
-## Formula 1769 — source lines 12533-12535
+## Formula 1769 — source lines 12531-12533
 
 $$
 \mathsf H_3:\ |X\cap Y|=1,
 $$
 
-## Formula 1770 — source lines 12537-12539
+## Formula 1770 — source lines 12535-12537
 
 $$
 \mathsf H_5:\ X\cap Y=\varnothing.
 $$
 
-## Formula 1771 — source lines 12543-12545
+## Formula 1771 — source lines 12541-12543
 
 $$
 30,\quad60,\quad10.
 $$
 
-## Formula 1772 — source lines 12550-12552
+## Formula 1772 — source lines 12548-12550
 
 $$
 d_H(X,Y)=5-2|X\cap Y|.
 $$
 
-## Formula 1773 — source lines 12556-12558
+## Formula 1773 — source lines 12554-12556
 
 $$
 \Box
 $$
 
-## Formula 1774 — source lines 12568-12570
+## Formula 1774 — source lines 12566-12568
 
 $$
 I_5=\{I_A,I_B,I_C,I_D,I_E\}.
 $$
 
-## Formula 1775 — source lines 12576-12578
+## Formula 1775 — source lines 12574-12576
 
 $$
 i\in J_5,
 $$
 
-## Formula 1776 — source lines 12582-12584
+## Formula 1776 — source lines 12580-12582
 
 $$
 I_i^-=\{i\}\in S_1^{(5)},
 $$
 
-## Formula 1777 — source lines 12586-12588
+## Formula 1777 — source lines 12584-12586
 
 $$
 I_i^+=J_5\setminus\{i\}\in S_4^{(5)}.
 $$
 
-## Formula 1778 — source lines 12592-12594
+## Formula 1778 — source lines 12590-12592
 
 $$
 V_5\cong I_5\times\{-,+\}.
 $$
 
-## Formula 1779 — source lines 12598-12600
+## Formula 1779 — source lines 12596-12598
 
 $$
 H_i^{(5)}=\{I_i^-,I_i^+\}.
 $$
 
-## Formula 1780 — source lines 12604-12606
+## Formula 1780 — source lines 12602-12604
 
 $$
 V_5 = H_A^{(5)} \sqcup H_B^{(5)} \sqcup H_C^{(5)} \sqcup H_D^{(5)} \sqcup H_E^{(5)}.
 $$
 
-## Formula 1781 — source lines 12610-12612
+## Formula 1781 — source lines 12608-12610
 
 $$
 I_i^-\leftrightarrow I_i^+.
 $$
 
-## Formula 1782 — source lines 12616-12618
+## Formula 1782 — source lines 12614-12616
 
 $$
 (V_5,\mathsf H_5^{(5)}|_{V_5}) \cong 5K_2.
 $$
 
-## Formula 1783 — source lines 12623-12625
+## Formula 1783 — source lines 12621-12623
 
 $$
 V_5\cong I_5\times\{-,+\},
 $$
 
-## Formula 1784 — source lines 12629-12631
+## Formula 1784 — source lines 12627-12629
 
 $$
 (V_5,\mathsf H_5^{(5)}|_{V_5})\cong 5K_2.
 $$
 
-## Formula 1785 — source lines 12636-12640
+## Formula 1785 — source lines 12634-12638
 
 $$
 I_i^-=\{i\}\in S_1^{(5)},
@@ -11446,25 +11444,25 @@ I_i^-=\{i\}\in S_1^{(5)},
 I_i^+=J_5\setminus\{i\}\in S_4^{(5)}.
 $$
 
-## Formula 1786 — source lines 12644-12646
+## Formula 1786 — source lines 12642-12644
 
 $$
 \Box
 $$
 
-## Formula 1787 — source lines 12652-12654
+## Formula 1787 — source lines 12650-12652
 
 $$
 \Omega_5 = \{(x,y)\in V_5\times V_5: x\neq y,\ y\neq \kappa_5(x)\}.
 $$
 
-## Formula 1788 — source lines 12660-12662
+## Formula 1788 — source lines 12658-12660
 
 $$
 (V_5,\Omega_5)\cong K_{2,2,2,2,2}.
 $$
 
-## Formula 1789 — source lines 12666-12672
+## Formula 1789 — source lines 12664-12670
 
 $$
 |V(V_5)|=10,
@@ -11474,115 +11472,115 @@ $$
 |E(K_{2,2,2,2,2})|=40.
 $$
 
-## Formula 1790 — source lines 12677-12679
+## Formula 1790 — source lines 12675-12677
 
 $$
 H_A^{(5)},H_B^{(5)},H_C^{(5)},H_D^{(5)},H_E^{(5)}.
 $$
 
-## Formula 1791 — source lines 12685-12687
+## Formula 1791 — source lines 12683-12685
 
 $$
 K_{2,2,2,2,2}.
 $$
 
-## Formula 1792 — source lines 12691-12693
+## Formula 1792 — source lines 12689-12691
 
 $$
 |V(V_5)|=10,
 $$
 
-## Formula 1793 — source lines 12695-12697
+## Formula 1793 — source lines 12693-12695
 
 $$
 \deg(x)=8,
 $$
 
-## Formula 1794 — source lines 12699-12701
+## Formula 1794 — source lines 12697-12699
 
 $$
 |E(K_{2,2,2,2,2})| = \binom{5}{2}\cdot2\cdot2 = 40.
 $$
 
-## Formula 1795 — source lines 12703-12705
+## Formula 1795 — source lines 12701-12703
 
 $$
 \Box
 $$
 
-## Formula 1796 — source lines 12711-12713
+## Formula 1796 — source lines 12709-12711
 
 $$
 \Omega_5 = \left(\mathsf H_2^{(5)}|_{S_1}\right) \cup \left(\mathsf H_2^{(5)}|_{S_4}\right) \cup \left(\mathsf H_3^{(5)}|_{S_1\times S_4,\ \mathrm{noncomp}}\right).
 $$
 
-## Formula 1797 — source lines 12717-12719
+## Formula 1797 — source lines 12715-12717
 
 $$
 \mathsf H_2^{(5)}|_{S_1}
 $$
 
-## Formula 1798 — source lines 12723-12725
+## Formula 1798 — source lines 12721-12723
 
 $$
 \mathsf H_2^{(5)}|_{S_4}
 $$
 
-## Formula 1799 — source lines 12729-12731
+## Formula 1799 — source lines 12727-12729
 
 $$
 \mathsf H_3^{(5)}|_{S_1\times S_4,\ \mathrm{noncomp}}
 $$
 
-## Formula 1800 — source lines 12737-12739
+## Formula 1800 — source lines 12735-12737
 
 $$
 I_i^-\leftrightarrow I_i^+.
 $$
 
-## Formula 1801 — source lines 12744-12746
+## Formula 1801 — source lines 12742-12744
 
 $$
 \Omega_5 = \left(\mathsf H_2^{(5)}|_{S_1}\right) \cup \left(\mathsf H_2^{(5)}|_{S_4}\right) \cup \left(\mathsf H_3^{(5)}|_{S_1\times S_4,\ \mathrm{noncomp}}\right).
 $$
 
-## Formula 1802 — source lines 12753-12755
+## Formula 1802 — source lines 12751-12753
 
 $$
 \Box
 $$
 
-## Formula 1803 — source lines 12762-12764
+## Formula 1803 — source lines 12760-12762
 
 $$
 \mathrm{Spec}(L) = \{0,\ 8^{\times5},\ 10^{\times4}\}.
 $$
 
-## Formula 1804 — source lines 12769-12771
+## Formula 1804 — source lines 12767-12769
 
 $$
 K_{n_1,\ldots,n_r}
 $$
 
-## Formula 1805 — source lines 12775-12777
+## Formula 1805 — source lines 12773-12775
 
 $$
 0,
 $$
 
-## Formula 1806 — source lines 12779-12781
+## Formula 1806 — source lines 12777-12779
 
 $$
 N-n_i
 $$
 
-## Formula 1807 — source lines 12785-12787
+## Formula 1807 — source lines 12783-12785
 
 $$
 N
 $$
 
-## Formula 1808 — source lines 12793-12799
+## Formula 1808 — source lines 12791-12797
 
 $$
 r=5,
@@ -11592,606 +11590,606 @@ n_i=2,
 N=10.
 $$
 
-## Formula 1809 — source lines 12803-12805
+## Formula 1809 — source lines 12801-12803
 
 $$
 N-n_i=8
 $$
 
-## Formula 1810 — source lines 12809-12811
+## Formula 1810 — source lines 12807-12809
 
 $$
 5\cdot(2-1)=5,
 $$
 
-## Formula 1811 — source lines 12815-12817
+## Formula 1811 — source lines 12813-12815
 
 $$
 N=10
 $$
 
-## Formula 1812 — source lines 12821-12823
+## Formula 1812 — source lines 12819-12821
 
 $$
 5-1=4.
 $$
 
-## Formula 1813 — source lines 12827-12829
+## Formula 1813 — source lines 12825-12827
 
 $$
 \mathrm{Spec}(L) = \{0,\ 8^{\times5},\ 10^{\times4}\}.
 $$
 
-## Formula 1814 — source lines 12831-12833
+## Formula 1814 — source lines 12829-12831
 
 $$
 \Box
 $$
 
-## Formula 1815 — source lines 12839-12841
+## Formula 1815 — source lines 12837-12839
 
 $$
 E_5=E(K_{2,2,2,2,2}).
 $$
 
-## Formula 1816 — source lines 12845-12847
+## Formula 1816 — source lines 12843-12845
 
 $$
 |E_5|=40.
 $$
 
-## Formula 1817 — source lines 12851-12853
+## Formula 1817 — source lines 12849-12851
 
 $$
 L_5=L(K_{2,2,2,2,2})
 $$
 
-## Formula 1818 — source lines 12857-12859
+## Formula 1818 — source lines 12855-12857
 
 $$
 |V(L_5)|=40.
 $$
 
-## Formula 1819 — source lines 12863-12865
+## Formula 1819 — source lines 12861-12863
 
 $$
 (8-1)+(8-1)=14.
 $$
 
-## Formula 1820 — source lines 12869-12871
+## Formula 1820 — source lines 12867-12869
 
 $$
 |E(L_5)| = \frac{40\cdot14}{2} = 280.
 $$
 
-## Formula 1821 — source lines 12875-12877
+## Formula 1821 — source lines 12873-12875
 
 $$
 L_5
 $$
 
-## Formula 1822 — source lines 12883-12885
+## Formula 1822 — source lines 12881-12883
 
 $$
 \text{line-vertices as operator-vertices}.
 $$
 
-## Formula 1823 — source lines 12895-12897
+## Formula 1823 — source lines 12893-12895
 
 $$
 |E(L_5)|=\frac{40\cdot14}{2}=280.
 $$
 
-## Formula 1824 — source lines 12899-12901
+## Formula 1824 — source lines 12897-12899
 
 $$
 \Box
 $$
 
-## Formula 1825 — source lines 12910-12912
+## Formula 1825 — source lines 12908-12910
 
 $$
 \mathcal C_5 = (C_{10},C_{31},\mathcal C_{5C_8}),
 $$
 
-## Formula 1826 — source lines 12922-12924
+## Formula 1826 — source lines 12920-12922
 
 $$
 (V_5,\Omega_5)\cong K_{2,2,2,2,2}
 $$
 
-## Formula 1827 — source lines 12930-12932
+## Formula 1827 — source lines 12928-12930
 
 $$
 A^-\to B^-\to C^-\to D^-\to E^-\to A^+\to B^+\to C^+\to D^+\to E^+\to A^-.
 $$
 
-## Formula 1828 — source lines 12936-12939
+## Formula 1828 — source lines 12934-12937
 
 $$
 P_1\to P_2\to P_4\to P_8\to P_{16}
 \to P_{30}\to P_{29}\to P_{27}\to P_{23}\to P_{15}\to P_1.
 $$
 
-## Formula 1829 — source lines 12953-12955
+## Formula 1829 — source lines 12951-12953
 
 $$
 \Box
 $$
 
-## Formula 1830 — source lines 12961-12963
+## Formula 1830 — source lines 12959-12961
 
 $$
 |E(K_{2,2,2,2})|=24=4\cdot6,
 $$
 
-## Formula 1831 — source lines 12967-12969
+## Formula 1831 — source lines 12965-12967
 
 $$
 |E(K_{2,2,2,2,2})|=40=5\cdot8.
 $$
 
-## Formula 1832 — source lines 12973-12975
+## Formula 1832 — source lines 12971-12973
 
 $$
 E(K_{2,2,2,2,2}) = 5C_8.
 $$
 
-## Formula 1833 — source lines 12979-12982
+## Formula 1833 — source lines 12977-12980
 
 $$
 \Gamma_1:
 A^-\to B^-\to A^+\to B^+\to E^+\to C^-\to D^-\to C^+\to A^-,
 $$
 
-## Formula 1834 — source lines 12984-12987
+## Formula 1834 — source lines 12982-12985
 
 $$
 \Gamma_2:
 A^-\to B^+\to C^-\to A^+\to C^+\to B^-\to D^+\to E^-\to A^-,
 $$
 
-## Formula 1835 — source lines 12989-12992
+## Formula 1835 — source lines 12987-12990
 
 $$
 \Gamma_3:
 A^-\to C^-\to B^-\to D^-\to E^-\to A^+\to D^+\to E^+\to A^-,
 $$
 
-## Formula 1836 — source lines 12994-12997
+## Formula 1836 — source lines 12992-12995
 
 $$
 \Gamma_4:
 A^-\to D^-\to E^+\to B^-\to E^-\to B^+\to C^+\to D^+\to A^-,
 $$
 
-## Formula 1837 — source lines 12999-13002
+## Formula 1837 — source lines 12997-13000
 
 $$
 \Gamma_5:
 A^+\to D^-\to B^+\to D^+\to C^-\to E^-\to C^+\to E^+\to A^+.
 $$
 
-## Formula 1838 — source lines 13006-13008
+## Formula 1838 — source lines 13004-13006
 
 $$
 \mathcal C_{5C_8} = \{\Gamma_1,\Gamma_2,\Gamma_3,\Gamma_4,\Gamma_5\}.
 $$
 
-## Formula 1839 — source lines 13018-13021
+## Formula 1839 — source lines 13016-13019
 
 $$
 \Gamma_1:
 A^-B^-,\ B^-A^+,\ A^+B^+,\ B^+E^+,\ E^+C^-,\ C^-D^-,\ D^-C^+,\ C^+A^-;
 $$
 
-## Formula 1840 — source lines 13023-13026
+## Formula 1840 — source lines 13021-13024
 
 $$
 \Gamma_2:
 A^-B^+,\ B^+C^-,\ C^-A^+,\ A^+C^+,\ C^+B^-,\ B^-D^+,\ D^+E^-,\ E^-A^-;
 $$
 
-## Formula 1841 — source lines 13028-13031
+## Formula 1841 — source lines 13026-13029
 
 $$
 \Gamma_3:
 A^-C^-,\ C^-B^-,\ B^-D^-,\ D^-E^-,\ E^-A^+,\ A^+D^+,\ D^+E^+,\ E^+A^-;
 $$
 
-## Formula 1842 — source lines 13033-13036
+## Formula 1842 — source lines 13031-13034
 
 $$
 \Gamma_4:
 A^-D^-,\ D^-E^+,\ E^+B^-,\ B^-E^-,\ E^-B^+,\ B^+C^+,\ C^+D^+,\ D^+A^-;
 $$
 
-## Formula 1843 — source lines 13038-13041
+## Formula 1843 — source lines 13036-13039
 
 $$
 \Gamma_5:
 A^+D^-,\ D^-B^+,\ B^+D^+,\ D^+C^-,\ C^-E^-,\ E^-C^+,\ C^+E^+,\ E^+A^+.
 $$
 
-## Formula 1844 — source lines 13045-13047
+## Formula 1844 — source lines 13043-13045
 
 $$
 |E|=\binom52\cdot2\cdot2=40
 $$
 
-## Formula 1845 — source lines 13051-13053
+## Formula 1845 — source lines 13049-13051
 
 $$
 \Box
 $$
 
-## Formula 1846 — source lines 13059-13061
+## Formula 1846 — source lines 13057-13059
 
 $$
 E(K_{2,2,2,2,2})=5C_8
 $$
 
-## Formula 1847 — source lines 13071-13073
+## Formula 1847 — source lines 13069-13071
 
 $$
 P^{(5)}=\mathbb{F}_2^5\setminus\{00000\}
 $$
 
-## Formula 1848 — source lines 13079-13081
+## Formula 1848 — source lines 13077-13079
 
 $$
 \mathbb{F}_{32} = \mathbb{F}_2[t]/(t^5+t^2+1).
 $$
 
-## Formula 1849 — source lines 13085-13087
+## Formula 1849 — source lines 13083-13085
 
 $$
 t^5+t^2+1
 $$
 
-## Formula 1850 — source lines 13095-13097
+## Formula 1850 — source lines 13093-13095
 
 $$
 P_1\to P_2\to P_4\to P_8\to P_{16}
 $$
 
-## Formula 1851 — source lines 13099-13101
+## Formula 1851 — source lines 13097-13099
 
 $$
 \to P_5\to P_{10}\to P_{20}\to P_{13}\to P_{26}
 $$
 
-## Formula 1852 — source lines 13103-13105
+## Formula 1852 — source lines 13101-13103
 
 $$
 \to P_{17}\to P_7\to P_{14}\to P_{28}\to P_{29}
 $$
 
-## Formula 1853 — source lines 13107-13109
+## Formula 1853 — source lines 13105-13107
 
 $$
 \to P_{31}\to P_{27}\to P_{19}\to P_3\to P_6
 $$
 
-## Formula 1854 — source lines 13111-13113
+## Formula 1854 — source lines 13109-13111
 
 $$
 \to P_{12}\to P_{24}\to P_{21}\to P_{15}\to P_{30}
 $$
 
-## Formula 1855 — source lines 13115-13117
+## Formula 1855 — source lines 13113-13115
 
 $$
 \to P_{25}\to P_{23}\to P_{11}\to P_{22}\to P_9
 $$
 
-## Formula 1856 — source lines 13119-13121
+## Formula 1856 — source lines 13117-13119
 
 $$
 \to P_{18}\to P_1.
 $$
 
-## Formula 1857 — source lines 13125-13127
+## Formula 1857 — source lines 13123-13125
 
 $$
 00001\to00010\to00100\to01000\to10000
 $$
 
-## Formula 1858 — source lines 13129-13131
+## Formula 1858 — source lines 13127-13129
 
 $$
 \to00101\to01010\to10100\to01101\to11010
 $$
 
-## Formula 1859 — source lines 13133-13135
+## Formula 1859 — source lines 13131-13133
 
 $$
 \to10001\to00111\to01110\to11100\to11101
 $$
 
-## Formula 1860 — source lines 13137-13139
+## Formula 1860 — source lines 13135-13137
 
 $$
 \to11111\to11011\to10011\to00011\to00110
 $$
 
-## Formula 1861 — source lines 13141-13143
+## Formula 1861 — source lines 13139-13141
 
 $$
 \to01100\to11000\to10101\to01111\to11110
 $$
 
-## Formula 1862 — source lines 13145-13147
+## Formula 1862 — source lines 13143-13145
 
 $$
 \to11001\to10111\to01011\to10110\to01001
 $$
 
-## Formula 1863 — source lines 13149-13151
+## Formula 1863 — source lines 13147-13149
 
 $$
 \to10010\to00001.
 $$
 
-## Formula 1864 — source lines 13157-13159
+## Formula 1864 — source lines 13155-13157
 
 $$
 C_{31}
 $$
 
-## Formula 1865 — source lines 13163-13165
+## Formula 1865 — source lines 13161-13163
 
 $$
 C_6=(X_{\mathrm{adm}},R_1),
 $$
 
-## Formula 1866 — source lines 13175-13177
+## Formula 1866 — source lines 13173-13175
 
 $$
 \Box
 $$
 
-## Formula 1867 — source lines 13183-13185
+## Formula 1867 — source lines 13181-13183
 
 $$
 \tau^2=\mathrm{id}
 $$
 
-## Formula 1868 — source lines 13191-13193
+## Formula 1868 — source lines 13189-13191
 
 $$
 (X_{\mathrm{adm}},R_1)\cong C_6.
 $$
 
-## Formula 1869 — source lines 13197-13199
+## Formula 1869 — source lines 13195-13197
 
 $$
 T^6=\mathrm{id},
 $$
 
-## Formula 1870 — source lines 13201-13203
+## Formula 1870 — source lines 13199-13201
 
 $$
 T^3(x)=x+111.
 $$
 
-## Formula 1871 — source lines 13209-13211
+## Formula 1871 — source lines 13207-13209
 
 $$
 C_{10}
 $$
 
-## Formula 1872 — source lines 13215-13217
+## Formula 1872 — source lines 13213-13215
 
 $$
 K_{2,2,2,2,2};
 $$
 
-## Formula 1873 — source lines 13219-13221
+## Formula 1873 — source lines 13217-13219
 
 $$
 C_{31}
 $$
 
-## Formula 1874 — source lines 13225-13227
+## Formula 1874 — source lines 13223-13225
 
 $$
 5C_8
 $$
 
-## Formula 1875 — source lines 13235-13237
+## Formula 1875 — source lines 13233-13235
 
 $$
 \text{cycle atlas}.
 $$
 
-## Formula 1876 — source lines 13245-13247
+## Formula 1876 — source lines 13243-13245
 
 $$
 n=2m+1,
 $$
 
-## Formula 1877 — source lines 13251-13253
+## Formula 1877 — source lines 13249-13251
 
 $$
 S_m^{(n)} \leftrightarrow S_{m+1}^{(n)}.
 $$
 
-## Formula 1878 — source lines 13257-13259
+## Formula 1878 — source lines 13255-13257
 
 $$
 m=1,
 $$
 
-## Formula 1879 — source lines 13261-13263
+## Formula 1879 — source lines 13259-13261
 
 $$
 S_1^{(3)} \leftrightarrow S_2^{(3)}.
 $$
 
-## Formula 1880 — source lines 13267-13269
+## Formula 1880 — source lines 13265-13267
 
 $$
 1+2 \leftrightarrow 2+1.
 $$
 
-## Formula 1881 — source lines 13273-13275
+## Formula 1881 — source lines 13271-13273
 
 $$
 m=2,
 $$
 
-## Formula 1882 — source lines 13277-13279
+## Formula 1882 — source lines 13275-13277
 
 $$
 S_2^{(5)} \leftrightarrow S_3^{(5)}.
 $$
 
-## Formula 1883 — source lines 13283-13285
+## Formula 1883 — source lines 13281-13283
 
 $$
 2+3 \leftrightarrow 3+2.
 $$
 
-## Formula 1884 — source lines 13295-13297
+## Formula 1884 — source lines 13293-13295
 
 $$
 q=\mathrm{id}.
 $$
 
-## Formula 1885 — source lines 13301-13303
+## Formula 1885 — source lines 13299-13301
 
 $$
 q^{-1}(x)=\{x\}.
 $$
 
-## Formula 1886 — source lines 13307-13309
+## Formula 1886 — source lines 13305-13307
 
 $$
 \mathrm{rec}_{\mathrm{id}}(x) = (\{x\},\varnothing).
 $$
 
-## Formula 1887 — source lines 13317-13319
+## Formula 1887 — source lines 13315-13317
 
 $$
 P^{(5)}\setminus\{P_{31}\}
 $$
 
-## Formula 1888 — source lines 13323-13325
+## Formula 1888 — source lines 13321-13323
 
 $$
 B_{15} = \{\{x,\kappa_5(x)\}:x\neq P_{31}\}.
 $$
 
-## Formula 1889 — source lines 13331-13333
+## Formula 1889 — source lines 13329-13331
 
 $$
 \pi_{\kappa}:P^{(5)}\setminus\{P_{31}\}\to B_{15},
 $$
 
-## Formula 1890 — source lines 13335-13337
+## Formula 1890 — source lines 13333-13335
 
 $$
 \pi_{\kappa}(x)=\{x,\kappa_5(x)\}.
 $$
 
-## Formula 1891 — source lines 13341-13343
+## Formula 1891 — source lines 13339-13341
 
 $$
 \mathrm{rec}_{\kappa}(\{x,\kappa_5(x)\}) = (\{x,\kappa_5(x)\},\mathsf H_5^{(5)}|_{\{x,\kappa_5(x)\}}).
 $$
 
-## Formula 1892 — source lines 13347-13349
+## Formula 1892 — source lines 13345-13347
 
 $$
 \Pi_{\kappa}^{(5)} = \left( P^{(5)}\setminus\{P_{31}\}, \mathsf H_5^{(5)}|_{P^{(5)}\setminus\{P_{31}\}}, \pi_{\kappa}, \mathrm{rec}_{\kappa} \right).
 $$
 
-## Formula 1893 — source lines 13357-13359
+## Formula 1893 — source lines 13355-13357
 
 $$
 V_5\cong I_5\times\{-,+\}.
 $$
 
-## Formula 1894 — source lines 13363-13365
+## Formula 1894 — source lines 13361-13363
 
 $$
 H_i^{(5)}=\{I_i^-,I_i^+\}.
 $$
 
-## Formula 1895 — source lines 13369-13371
+## Formula 1895 — source lines 13367-13369
 
 $$
 \pi_i^{(5)}:H_i^{(5)}\to\{I_i\}.
 $$
 
-## Formula 1896 — source lines 13375-13377
+## Formula 1896 — source lines 13373-13375
 
 $$
 \mathrm{rec}_i^{(5)}(I_i) = (H_i^{(5)},\mathsf H_5^{(5)}|_{H_i^{(5)}}).
 $$
 
-## Formula 1897 — source lines 13381-13383
+## Formula 1897 — source lines 13379-13381
 
 $$
 \Pi_i^{\mathrm{ax},(5)} = \left( H_i^{(5)}, \mathsf H_5^{(5)}|_{H_i^{(5)}}, \pi_i^{(5)}, \mathrm{rec}_i^{(5)} \right).
 $$
 
-## Formula 1898 — source lines 13387-13389
+## Formula 1898 — source lines 13385-13387
 
 $$
 X_{\mathrm{adm}}\cong I_3\times\{-,+\}.
 $$
 
-## Formula 1899 — source lines 13395-13397
+## Formula 1899 — source lines 13393-13395
 
 $$
 P^{(5)}=\mathbb{F}_2^5\setminus\{00000\},
 $$
 
-## Formula 1900 — source lines 13401-13403
+## Formula 1900 — source lines 13399-13401
 
 $$
 31=5+10+10+5+1,
 $$
 
-## Formula 1901 — source lines 13407-13409
+## Formula 1901 — source lines 13405-13407
 
 $$
 S_2^{(5)}\leftrightarrow S_3^{(5)},
 $$
 
-## Formula 1902 — source lines 13413-13415
+## Formula 1902 — source lines 13411-13413
 
 $$
 V_5\cong I_5\times\{-,+\},
 $$
 
-## Formula 1903 — source lines 13419-13421
+## Formula 1903 — source lines 13417-13419
 
 $$
 (V_5,\Omega_5)\cong K_{2,2,2,2,2},
 $$
 
-## Formula 1904 — source lines 13425-13427
+## Formula 1904 — source lines 13423-13425
 
 $$
 L(K_{2,2,2,2,2}),
 $$
 
-## Formula 1905 — source lines 13431-13433
+## Formula 1905 — source lines 13429-13431
 
 $$
 \mathcal C_5=(C_{10},C_{31},\mathcal C_{5C_8}).
 $$
 
-## Formula 1906 — source lines 13437-13439
+## Formula 1906 — source lines 13435-13437
 
 $$
 \mathfrak A_5 = \left( P^{(5)}, \{S_k^{(5)}\}_{k=1}^5, \mathsf H_1^{(5)},\ldots,\mathsf H_5^{(5)}, M_5, V_5, \Omega_5, L(K_{2,2,2,2,2}), \mathcal C_5, \Pi_\kappa^{(5)}, \{\Pi_i^{\mathrm{ax},(5)}\}_{i\in J_5} \right).
 $$
 
-## Formula 1907 — source lines 13454-13458
+## Formula 1907 — source lines 13452-13456
 
 $$
 \mathcal Q=\{Q_n\}_{n\geq1},
@@ -12199,7 +12197,7 @@ $$
 Q_n=\mathbb{F}_2^n.
 $$
 
-## Formula 1908 — source lines 13462-13466
+## Formula 1908 — source lines 13460-13464
 
 $$
 0^n=(0,\ldots,0),
@@ -12207,13 +12205,13 @@ $$
 1^n=(1,\ldots,1)
 $$
 
-## Formula 1909 — source lines 13470-13472
+## Formula 1909 — source lines 13468-13470
 
 $$
 U_n=Q_n\setminus\{0^n,1^n\}
 $$
 
-## Formula 1910 — source lines 13483-13488
+## Formula 1910 — source lines 13481-13486
 
 $$
 \varepsilon\,|\,x
@@ -12222,7 +12220,7 @@ $$
 \in Q_{n+1}.
 $$
 
-## Formula 1911 — source lines 13492-13496
+## Formula 1911 — source lines 13490-13494
 
 $$
 0\,|\,0^n=0^{n+1},
@@ -12230,7 +12228,7 @@ $$
 1\,|\,1^n=1^{n+1},
 $$
 
-## Formula 1912 — source lines 13498-13502
+## Formula 1912 — source lines 13496-13500
 
 $$
 1\,|\,0^n=10^n,
@@ -12238,19 +12236,19 @@ $$
 0\,|\,1^n=01^n.
 $$
 
-## Formula 1913 — source lines 13509-13511
+## Formula 1913 — source lines 13507-13509
 
 $$
 \Lambda_n:\mathbb{F}_2 \times Q_n \to Q_{n+1}, \qquad \Lambda_n(\varepsilon, x)=\varepsilon\,|\,x.
 $$
 
-## Formula 1914 — source lines 13519-13521
+## Formula 1914 — source lines 13517-13519
 
 $$
 \Lambda_n^{-1}(y)=(y_{n+1},(y_n,\ldots,y_1)).
 $$
 
-## Formula 1915 — source lines 13525-13529
+## Formula 1915 — source lines 13523-13527
 
 $$
 \Lambda_n\circ\Lambda_n^{-1}=\mathrm{id}_{Q_{n+1}},
@@ -12258,31 +12256,31 @@ $$
 \Lambda_n^{-1}\circ\Lambda_n=\mathrm{id}_{\mathbb{F}_2\times Q_n}.
 $$
 
-## Formula 1916 — source lines 13531-13533
+## Formula 1916 — source lines 13529-13531
 
 $$
 \Box
 $$
 
-## Formula 1917 — source lines 13537-13539
+## Formula 1917 — source lines 13535-13537
 
 $$
 Q_{n+1}=(0\,|\,Q_n)\sqcup(1\,|\,Q_n).
 $$
 
-## Formula 1918 — source lines 13548-13550
+## Formula 1918 — source lines 13546-13548
 
 $$
 Q_{n+1}^* = (0\,|\,Q_n^*) \sqcup \{1\,|\,0^n\} \sqcup (1\,|\,Q_n^*).
 $$
 
-## Formula 1919 — source lines 13555-13557
+## Formula 1919 — source lines 13553-13555
 
 $$
 \Box
 $$
 
-## Formula 1920 — source lines 13564-13568
+## Formula 1920 — source lines 13562-13566
 
 $$
 0\,|\,x\in S_k^{(n+1)},
@@ -12290,43 +12288,43 @@ $$
 1\,|\,x\in S_{k+1}^{(n+1)}.
 $$
 
-## Formula 1921 — source lines 13573-13575
+## Formula 1921 — source lines 13571-13573
 
 $$
 |0\,|\,x|=|x|=k.
 $$
 
-## Formula 1922 — source lines 13579-13581
+## Formula 1922 — source lines 13577-13579
 
 $$
 |1\,|\,x|=|x|+1=k+1.
 $$
 
-## Formula 1923 — source lines 13583-13585
+## Formula 1923 — source lines 13581-13583
 
 $$
 \Box
 $$
 
-## Formula 1924 — source lines 13589-13591
+## Formula 1924 — source lines 13587-13589
 
 $$
 S_k^{(n)}\leadsto S_k^{(n+1)}\sqcup S_{k+1}^{(n+1)}.
 $$
 
-## Formula 1925 — source lines 13598-13600
+## Formula 1925 — source lines 13596-13598
 
 $$
 \{0^n,1^n\} \leadsto \{0^{n+1},1^{n+1}\} \sqcup H_{\mathrm{new}}^{(n+1)},
 $$
 
-## Formula 1926 — source lines 13604-13606
+## Formula 1926 — source lines 13602-13604
 
 $$
 H_{\mathrm{new}}^{(n+1)} = \{1\,|\,0^n,\ 0\,|\,1^n\}.
 $$
 
-## Formula 1927 — source lines 13611-13616
+## Formula 1927 — source lines 13609-13614
 
 $$
 0\,|\,0^n,\quad
@@ -12335,19 +12333,19 @@ $$
 1\,|\,1^n.
 $$
 
-## Formula 1928 — source lines 13620-13622
+## Formula 1928 — source lines 13618-13620
 
 $$
 (1\,|\,0^n)+(0\,|\,1^n)=1\,|\,1^n=1^{n+1}.
 $$
 
-## Formula 1929 — source lines 13626-13628
+## Formula 1929 — source lines 13624-13626
 
 $$
 \Box
 $$
 
-## Formula 1930 — source lines 13635-13639
+## Formula 1930 — source lines 13633-13637
 
 $$
 \kappa_n:Q_n\to Q_n,
@@ -12355,67 +12353,67 @@ $$
 \kappa_n(x)=x+1^n.
 $$
 
-## Formula 1931 — source lines 13643-13645
+## Formula 1931 — source lines 13641-13643
 
 $$
 \kappa_{n+1}(\varepsilon\,|\,x) = (1+\varepsilon)\,|\,\kappa_n(x).
 $$
 
-## Formula 1932 — source lines 13649-13651
+## Formula 1932 — source lines 13647-13649
 
 $$
 \kappa_{n+1}(\varepsilon\,|\,x) = (\varepsilon\,|\,x)+1^{n+1} = (\varepsilon+1)\,|\,(x+1^n) = (1+\varepsilon)\,|\,\kappa_n(x).
 $$
 
-## Formula 1933 — source lines 13653-13655
+## Formula 1933 — source lines 13651-13653
 
 $$
 \Box
 $$
 
-## Formula 1934 — source lines 13659-13661
+## Formula 1934 — source lines 13657-13659
 
 $$
 \kappa_n:S_k^{(n)}\xrightarrow{\cong}S_{n-k}^{(n)}.
 $$
 
-## Formula 1935 — source lines 13666-13668
+## Formula 1935 — source lines 13664-13666
 
 $$
 |\kappa_n(x)|=n-k.
 $$
 
-## Formula 1936 — source lines 13672-13674
+## Formula 1936 — source lines 13670-13672
 
 $$
 \Box
 $$
 
-## Formula 1937 — source lines 13681-13683
+## Formula 1937 — source lines 13679-13681
 
 $$
 S_m^{(n)}\leftrightarrow S_{m+1}^{(n)}.
 $$
 
-## Formula 1938 — source lines 13687-13689
+## Formula 1938 — source lines 13685-13687
 
 $$
 S_m^{(n)}\leftrightarrow S_m^{(n)}.
 $$
 
-## Formula 1939 — source lines 13694-13696
+## Formula 1939 — source lines 13692-13694
 
 $$
 \Box
 $$
 
-## Formula 1940 — source lines 13702-13704
+## Formula 1940 — source lines 13700-13702
 
 $$
 V_n=S_1^{(n)}\sqcup S_{n-1}^{(n)}.
 $$
 
-## Formula 1941 — source lines 13709-13713
+## Formula 1941 — source lines 13707-13711
 
 $$
 U_n=V_n
@@ -12423,7 +12421,7 @@ U_n=V_n
 n=3.
 $$
 
-## Formula 1942 — source lines 13717-13721
+## Formula 1942 — source lines 13715-13719
 
 $$
 U_n=\bigsqcup_{k=1}^{n-1}S_k^{(n)},
@@ -12431,55 +12429,55 @@ U_n=\bigsqcup_{k=1}^{n-1}S_k^{(n)},
 V_n=S_1^{(n)}\sqcup S_{n-1}^{(n)}.
 $$
 
-## Formula 1943 — source lines 13725-13727
+## Formula 1943 — source lines 13723-13725
 
 $$
 |S_2^{(n)}|=\binom n2>0.
 $$
 
-## Formula 1944 — source lines 13731-13733
+## Formula 1944 — source lines 13729-13731
 
 $$
 \Box
 $$
 
-## Formula 1945 — source lines 13741-13743
+## Formula 1945 — source lines 13739-13741
 
 $$
 0\,|\,Q_n,\quad 1\,|\,Q_n
 $$
 
-## Formula 1946 — source lines 13747-13749
+## Formula 1946 — source lines 13745-13747
 
 $$
 \{0\,|\,x,\ 1\,|\,x\}
 $$
 
-## Formula 1947 — source lines 13753-13755
+## Formula 1947 — source lines 13751-13753
 
 $$
 0^n,1^n
 $$
 
-## Formula 1948 — source lines 13759-13761
+## Formula 1948 — source lines 13757-13759
 
 $$
 H_{\mathrm{new}}^{(n+1)}
 $$
 
-## Formula 1949 — source lines 13765-13767
+## Formula 1949 — source lines 13763-13765
 
 $$
 S_k^{(n)}\leadsto S_k^{(n+1)}\sqcup S_{k+1}^{(n+1)}
 $$
 
-## Formula 1950 — source lines 13771-13773
+## Formula 1950 — source lines 13769-13771
 
 $$
 \kappa_{n+1}(\varepsilon\,|\,x)=(1+\varepsilon)\,|\,\kappa_n(x)
 $$
 
-## Formula 1951 — source lines 13779-13783
+## Formula 1951 — source lines 13777-13781
 
 $$
 \boxed{
@@ -12487,25 +12485,25 @@ $$
 }
 $$
 
-## Formula 1952 — source lines 13789-13791
+## Formula 1952 — source lines 13787-13789
 
 $$
 \mathfrak N = \left( \mathcal Q, \Lambda_n, \varepsilon\,|\,x, \kappa_n, S_k^{(n)}\leadsto S_k^{(n+1)}\sqcup S_{k+1}^{(n+1)}, H_{\mathrm{new}}^{(n+1)} \right)_{n\geq1}.
 $$
 
-## Formula 1953 — source lines 13802-13804
+## Formula 1953 — source lines 13800-13802
 
 $$
 V_n=S_1^{(n)}\sqcup S_{n-1}^{(n)}.
 $$
 
-## Formula 1954 — source lines 13808-13810
+## Formula 1954 — source lines 13806-13808
 
 $$
 |V_n|=2n.
 $$
 
-## Formula 1955 — source lines 13814-13818
+## Formula 1955 — source lines 13812-13816
 
 $$
 |S_1^{(n)}|=\binom n1=n,
@@ -12513,49 +12511,49 @@ $$
 |S_{n-1}^{(n)}|=\binom n{n-1}=n.
 $$
 
-## Formula 1956 — source lines 13822-13824
+## Formula 1956 — source lines 13820-13822
 
 $$
 \Box
 $$
 
-## Formula 1957 — source lines 13831-13833
+## Formula 1957 — source lines 13829-13831
 
 $$
 H_i^{(n)}=\{e_i,\kappa_n(e_i)\} = \{e_i,1^n-e_i\}\subset V_n.
 $$
 
-## Formula 1958 — source lines 13837-13839
+## Formula 1958 — source lines 13835-13837
 
 $$
 V_n=\bigsqcup_{i=1}^n H_i^{(n)}.
 $$
 
-## Formula 1959 — source lines 13844-13846
+## Formula 1959 — source lines 13842-13844
 
 $$
 \Box
 $$
 
-## Formula 1960 — source lines 13850-13852
+## Formula 1960 — source lines 13848-13850
 
 $$
 (V_n,\mathsf H_n^{(n)}|_{V_n})\cong nK_2.
 $$
 
-## Formula 1961 — source lines 13859-13861
+## Formula 1961 — source lines 13857-13859
 
 $$
 I_n=\{I_1^{(n)},\ldots,I_n^{(n)}\}.
 $$
 
-## Formula 1962 — source lines 13865-13867
+## Formula 1962 — source lines 13863-13865
 
 $$
 \Sigma=\{-,+\}.
 $$
 
-## Formula 1963 — source lines 13871-13875
+## Formula 1963 — source lines 13869-13873
 
 $$
 I_i^{(n),-}=e_i,
@@ -12563,73 +12561,73 @@ I_i^{(n),-}=e_i,
 I_i^{(n),+}=1^n-e_i.
 $$
 
-## Formula 1964 — source lines 13879-13881
+## Formula 1964 — source lines 13877-13879
 
 $$
 V_n\cong I_n\times\Sigma.
 $$
 
-## Formula 1965 — source lines 13886-13888
+## Formula 1965 — source lines 13884-13886
 
 $$
 (I_i^{(n)},\eta)\mapsto I_i^{(n),\eta}.
 $$
 
-## Formula 1966 — source lines 13890-13892
+## Formula 1966 — source lines 13888-13890
 
 $$
 \Box
 $$
 
-## Formula 1967 — source lines 13899-13901
+## Formula 1967 — source lines 13897-13899
 
 $$
 \pi_i:H_i^{(n)}\to\{I_i^{(n)}\}
 $$
 
-## Formula 1968 — source lines 13905-13907
+## Formula 1968 — source lines 13903-13905
 
 $$
 \pi_i(I_i^{(n),-})=\pi_i(I_i^{(n),+})=I_i^{(n)}.
 $$
 
-## Formula 1969 — source lines 13911-13913
+## Formula 1969 — source lines 13909-13911
 
 $$
 \mathrm{rec}_i(I_i^{(n)}) = (H_i^{(n)},\mathsf H_n^{(n)}|_{H_i^{(n)}}).
 $$
 
-## Formula 1970 — source lines 13917-13919
+## Formula 1970 — source lines 13915-13917
 
 $$
 \Pi_i^{\mathrm{ax},(n)} = (H_i^{(n)},\mathsf H_n^{(n)}|_{H_i^{(n)}},\pi_i,\mathrm{rec}_i).
 $$
 
-## Formula 1971 — source lines 13927-13929
+## Formula 1971 — source lines 13925-13927
 
 $$
 \Box
 $$
 
-## Formula 1972 — source lines 13936-13938
+## Formula 1972 — source lines 13934-13936
 
 $$
 \Omega_n=\{(x,y)\in V_n\times V_n:x\neq y,\ y\neq\kappa_n(x)\}.
 $$
 
-## Formula 1973 — source lines 13942-13944
+## Formula 1973 — source lines 13940-13942
 
 $$
 (V_n,\Omega_n)\cong K_{\underbrace{2,\ldots,2}_{n}}.
 $$
 
-## Formula 1974 — source lines 13949-13951
+## Formula 1974 — source lines 13947-13949
 
 $$
 \Box
 $$
 
-## Formula 1975 — source lines 13958-13964
+## Formula 1975 — source lines 13956-13962
 
 $$
 |V|=2n,
@@ -12639,85 +12637,85 @@ $$
 |E|=2n(n-1).
 $$
 
-## Formula 1976 — source lines 13969-13971
+## Formula 1976 — source lines 13967-13969
 
 $$
 |E|=\frac{2n\cdot2(n-1)}{2}=2n(n-1).
 $$
 
-## Formula 1977 — source lines 13973-13975
+## Formula 1977 — source lines 13971-13973
 
 $$
 \Box
 $$
 
-## Formula 1978 — source lines 13979-13981
+## Formula 1978 — source lines 13977-13979
 
 $$
 K_{\underbrace{2,\ldots,2}_{3}}=K_{2,2,2}\cong O_3^{(1)}.
 $$
 
-## Formula 1979 — source lines 13985-13987
+## Formula 1979 — source lines 13983-13985
 
 $$
 K_{\underbrace{2,\ldots,2}_{5}}=K_{2,2,2,2,2}.
 $$
 
-## Formula 1980 — source lines 13994-13996
+## Formula 1980 — source lines 13992-13994
 
 $$
 E_n=E(K_{\underbrace{2,\ldots,2}_{n}}).
 $$
 
-## Formula 1981 — source lines 14000-14002
+## Formula 1981 — source lines 13998-14000
 
 $$
 L_n=L(K_{\underbrace{2,\ldots,2}_{n}}).
 $$
 
-## Formula 1982 — source lines 14006-14008
+## Formula 1982 — source lines 14004-14006
 
 $$
 |V(L_n)|=2n(n-1),
 $$
 
-## Formula 1983 — source lines 14010-14012
+## Formula 1983 — source lines 14008-14010
 
 $$
 \deg(L_n)=4n-6,
 $$
 
-## Formula 1984 — source lines 14014-14016
+## Formula 1984 — source lines 14012-14014
 
 $$
 |E(L_n)|=2n(n-1)(2n-3).
 $$
 
-## Formula 1985 — source lines 14021-14023
+## Formula 1985 — source lines 14019-14021
 
 $$
 |V(L_n)|=2n(n-1).
 $$
 
-## Formula 1986 — source lines 14027-14029
+## Formula 1986 — source lines 14025-14027
 
 $$
 (2(n-1)-1)+(2(n-1)-1)=4n-6
 $$
 
-## Formula 1987 — source lines 14033-14035
+## Formula 1987 — source lines 14031-14033
 
 $$
 |E(L_n)| = \frac{2n(n-1)(4n-6)}{2} = 2n(n-1)(2n-3).
 $$
 
-## Formula 1988 — source lines 14037-14039
+## Formula 1988 — source lines 14035-14037
 
 $$
 \Box
 $$
 
-## Formula 1989 — source lines 14043-14049
+## Formula 1989 — source lines 14041-14047
 
 $$
 |V(L_5)|=40,
@@ -12727,67 +12725,67 @@ $$
 |E(L_5)|=280.
 $$
 
-## Formula 1990 — source lines 14053-14055
+## Formula 1990 — source lines 14051-14053
 
 $$
 \mathfrak V = \left( V_n, I_n, \Sigma, \{H_i^{(n)}\}_{i=1}^n, \{\Pi_i^{\mathrm{ax},(n)}\}_{i=1}^n, \Omega_n, K_{\underbrace{2,\ldots,2}_{n}}, L_n \right)_{n\geq3}.
 $$
 
-## Formula 1991 — source lines 14066-14068
+## Formula 1991 — source lines 14064-14066
 
 $$
 \mathfrak R_{\leq 5}^{\mathrm{fin}} = (\Pi_1, \mathfrak C_2, \mathfrak C_3, \mathfrak C_4, \mathfrak A_5).
 $$
 
-## Formula 1992 — source lines 14072-14074
+## Formula 1992 — source lines 14070-14072
 
 $$
 \Pi_1
 $$
 
-## Formula 1993 — source lines 14078-14080
+## Formula 1993 — source lines 14076-14078
 
 $$
 \mathfrak C_2
 $$
 
-## Formula 1994 — source lines 14084-14086
+## Formula 1994 — source lines 14082-14084
 
 $$
 \mathfrak C_3
 $$
 
-## Formula 1995 — source lines 14090-14092
+## Formula 1995 — source lines 14088-14090
 
 $$
 \mathfrak C_4
 $$
 
-## Formula 1996 — source lines 14096-14098
+## Formula 1996 — source lines 14094-14096
 
 $$
 \mathfrak A_5
 $$
 
-## Formula 1997 — source lines 14106-14108
+## Formula 1997 — source lines 14104-14106
 
 $$
 \mathfrak S_{\mathrm{law}} = (\mathfrak N, \mathfrak V),
 $$
 
-## Formula 1998 — source lines 14114-14116
+## Formula 1998 — source lines 14112-14114
 
 $$
 \mathfrak R_{\leq 5} = (\mathfrak R_{\leq 5}^{\mathrm{fin}}, \mathfrak S_{\mathrm{law}}).
 $$
 
-## Formula 1999 — source lines 14132-14134
+## Formula 1999 — source lines 14130-14132
 
 $$
 \Box
 $$
 
-## Formula 2000 — source lines 14140-14144
+## Formula 2000 — source lines 14138-14142
 
 $$
 |Q_n|=2^n:
@@ -12795,7 +12793,7 @@ $$
 2,4,8,16,32,\ldots
 $$
 
-## Formula 2001 — source lines 14146-14150
+## Formula 2001 — source lines 14144-14148
 
 $$
 |Q_n^*|=2^n-1:
@@ -12803,7 +12801,7 @@ $$
 1,3,7,15,31,\ldots
 $$
 
-## Formula 2002 — source lines 14152-14156
+## Formula 2002 — source lines 14150-14154
 
 $$
 |U_n|=2^n-2:
@@ -12811,7 +12809,7 @@ $$
 0,2,6,14,30,\ldots
 $$
 
-## Formula 2003 — source lines 14158-14162
+## Formula 2003 — source lines 14156-14160
 
 $$
 |V_n|=2n:
@@ -12819,7 +12817,7 @@ $$
 6,8,10,\ldots
 $$
 
-## Formula 2004 — source lines 14166-14170
+## Formula 2004 — source lines 14164-14168
 
 $$
 |E(K_{\underbrace{2,\ldots,2}_{n}})|=2n(n-1):
@@ -12827,85 +12825,85 @@ $$
 12,24,40,\ldots
 $$
 
-## Formula 2005 — source lines 14180-14182
+## Formula 2005 — source lines 14178-14180
 
 $$
 \Pi_1 \to \mathfrak C_2 \to \mathfrak C_3 \to \mathfrak C_4 \to \mathfrak A_5 = \mathfrak R_{\leq 5}^{\mathrm{fin}}.
 $$
 
-## Formula 2006 — source lines 14186-14188
+## Formula 2006 — source lines 14184-14186
 
 $$
 \mathfrak S_{\mathrm{law}} = (\mathfrak N, \mathfrak V).
 $$
 
-## Formula 2007 — source lines 14192-14194
+## Formula 2007 — source lines 14190-14192
 
 $$
 \mathfrak R_{\leq 5} = (\mathfrak R_{\leq 5}^{\mathrm{fin}}, \mathfrak S_{\mathrm{law}}).
 $$
 
-## Formula 2008 — source lines 14206-14208
+## Formula 2008 — source lines 14204-14206
 
 $$
 (\mathfrak R_{\leq 5}^{\mathrm{fin}}, \mathfrak S_{\mathrm{law}}) \to \mathfrak R_{\leq n}^{\mathrm{fin}}, \qquad n\geq 6.
 $$
 
-## Formula 2009 — source lines 14214-14216
+## Formula 2009 — source lines 14212-14214
 
 $$
 \mathfrak R_{\leq 5}^{\mathrm{fin}} \to \text{bridge protocol}.
 $$
 
-## Formula 2010 — source lines 14224-14226
+## Formula 2010 — source lines 14222-14224
 
 $$
 Q_n,\quad Q_n^*,\quad U_n,\quad V_n,
 $$
 
-## Formula 2011 — source lines 14230-14232
+## Formula 2011 — source lines 14228-14230
 
 $$
 Q_n^*=\bigsqcup_{k=1}^n S_k^{(n)},
 $$
 
-## Formula 2012 — source lines 14238-14240
+## Formula 2012 — source lines 14236-14238
 
 $$
 (V_n,\Omega_n)\cong K_{\underbrace{2,\ldots,2}_{n}},
 $$
 
-## Formula 2013 — source lines 14244-14246
+## Formula 2013 — source lines 14242-14244
 
 $$
 L_n=L(K_{\underbrace{2,\ldots,2}_{n}}),
 $$
 
-## Formula 2014 — source lines 14264-14266
+## Formula 2014 — source lines 14262-14264
 
 $$
 \mathfrak R_{\leq 5}^{\mathrm{fin}} = (\Pi_1, \mathfrak C_2, \mathfrak C_3, \mathfrak C_4, \mathfrak A_5).
 $$
 
-## Formula 2015 — source lines 14272-14274
+## Formula 2015 — source lines 14270-14272
 
 $$
 \mathfrak S_{\mathrm{law}} = (\mathfrak N, \mathfrak V)
 $$
 
-## Formula 2016 — source lines 14280-14282
+## Formula 2016 — source lines 14278-14280
 
 $$
 \text{higher finite ranks}
 $$
 
-## Formula 2017 — source lines 14286-14288
+## Formula 2017 — source lines 14284-14286
 
 $$
 \text{bridge protocol}.
 $$
 
-## Formula 2018 — source lines 14296-14298
+## Formula 2018 — source lines 14294-14296
 
 $$
 \mathfrak R_{\leq 5}^{\mathrm{fin}} = (\Pi_1, \mathfrak C_2, \mathfrak C_3, \mathfrak C_4, \mathfrak A_5).

@@ -4706,9 +4706,7 @@ $$
 После фиксации маркировки камер
 
 $$
-C_{\varepsilon_3\varepsilon_2\varepsilon_1},
-\qquad
-\varepsilon_i\in\{0,1\},
+C_{\varepsilon_3\varepsilon_2\varepsilon_1},\quad \varepsilon_i \in \{0,1\}.
 $$
 
 incidence relation можно записать булевой матрицей.
