@@ -1,4 +1,2071 @@
 
+# §4. Ранг 2: первый carrier сравнения
+
+## §4.1. Relation-reading
+
+В §0 reading был определён как отображение
+
+$$
+q:X\to Y.
+$$
+
+На ранге $2$ используется чтение carrier-а через выбранное отношение $R$. Для этого вводится отдельный термин.
+
+**Определение 4.1.**
+Relation-reading на carrier-е $X$ есть presentation
+
+$$
+\Pi=(X,R,q,\mathrm{rec}),
+$$
+
+в которой структурное различие между чтениями задаётся выбором отношения $R$.
+
+Relation-reading сохраняет общее определение presentation и выделяет relation-компоненту как основной носитель чтения.
+
+
+## §4.2. Graph-reading
+
+**Определение 4.2.**
+Graph-reading называется relation-reading
+
+$$
+\Pi=(X,R,q,\mathrm{rec}),
+$$
+
+в котором:
+
+$$
+R
+$$
+
+является графовым отношением смежности на $X$.
+
+Если дополнительно
+
+$$
+q=\mathrm{id}_X,
+$$
+
+то graph-reading называется identity graph-reading.
+
+В identity graph-reading-е все волокна отображения $q$ одноточечны. Структурная нагрузка находится в $R$.
+
+
+## §4.3. Exact recovery для identity graph-reading
+
+Далее в graph-reading-ах $C_4$, $2K_2$, $K_4$, $K_4-e$ используется один и тот же recovery datum для identity-reading-а.
+
+Пусть
+
+$$
+q=\mathrm{id}_X.
+$$
+
+Тогда для каждого $x\in X$
+
+$$
+q^{-1}(x)=\lbrace x\rbrace.
+$$
+
+Если $R$ иррефлексивно, то
+
+$$
+R|_{\lbrace x\rbrace} = R\cap(\lbrace x\rbrace\times\lbrace x\rbrace) = \varnothing.
+$$
+
+Поэтому exact recovery для identity graph-reading-а задаётся формулой
+
+$$
+\mathrm{rec}_{\mathrm{id}}(x)=(\lbrace x\rbrace,\varnothing).
+$$
+
+Это соглашение применяется ниже к graph-reading-ам
+
+$$
+C_4,\qquad 2K_2,\qquad K_4,\qquad K_4-e.
+$$
+
+
+## §4.4. Двухбитный carrier
+
+**Определение 4.3.**
+Двухбитный carrier есть
+
+$$
+Q_2=\mathbb{F}_2^2 = \lbrace 00,01,10,11\rbrace.
+$$
+
+<p align="center">
+  <a href="../assets/figures/1.2-2_bits_Q_2.png">
+    <img src="../assets/figures/1.2-2_bits_Q_2.png" width="500" alt="Двухбитный носитель $Q_2$">
+  </a>
+</p>
+
+Запись
+
+$$
+b_2b_1
+$$
+
+означает кортеж
+
+$$
+(x_2,x_1)=(b_2,b_1).
+$$
+
+Запись согласована с §3.6: новый разряд $x_2$ занимает старшую позицию слева, старая координата $x_1$ — младшую позицию справа.
+
+Координата $x_1$ — старая координата ранга $1$.
+Координата $x_2$ — новый разряд, добавленный rank-lift-ом.
+
+По emergence-разложению:
+
+$$
+Q_2^* = Q_1^* \sqcup \lbrace e_2\rbrace \sqcup (e_2+Q_1^*).
+$$
+
+В битовой записи:
+
+$$
+Q_2^* = \lbrace 01\rbrace \sqcup \lbrace 10\rbrace \sqcup \lbrace 11\rbrace.
+$$
+
+Здесь
+
+$$
+01
+$$
+
+— старый проявленный слой,
+
+$$
+10
+$$
+
+— новый разряд,
+
+$$
+11
+$$
+
+— старый слой с новой координатной нагрузкой.
+
+
+## §4.5. Coordinate swap-ы
+
+Пусть
+
+$$
+e_1=01,
+\qquad
+e_2=10.
+$$
+
+**Определение 4.4.**
+Первый coordinate swap:
+
+$$
+\sigma_1(x)=x+e_1.
+$$
+
+Второй coordinate swap:
+
+$$
+\sigma_2(x)=x+e_2.
+$$
+
+В развёрнутой записи:
+
+$$
+\sigma_1:
+00\leftrightarrow 01,
+\qquad
+10\leftrightarrow 11.
+$$
+
+$$
+\sigma_2:
+00\leftrightarrow 10,
+\qquad
+01\leftrightarrow 11.
+$$
+Оба swap-а продолжают локальный закон ранга $1$:
+$$
+x\mapsto x+1.
+$$
+
+На ранге $2$ этот закон имеет две независимые координатные реализации.
+
+
+## §4.6. Координатная коммутативность
+
+**Утверждение 4.5.**
+
+$$
+\sigma_1\sigma_2=\sigma_2\sigma_1.
+$$
+
+Их произведение равно complement-переходу:
+
+$$
+\sigma_1\sigma_2(x)=x+11.
+$$
+
+**Проверка.**
+Для любого $x\in Q_2$:
+
+$$
+\sigma_1\sigma_2(x) = \sigma_1(x+10) = x+10+01 = x+11.
+$$
+
+Аналогично,
+
+$$
+\sigma_2\sigma_1(x) = \sigma_2(x+01) = x+01+10 = x+11.
+$$
+
+Следовательно,
+
+$$
+\sigma_1\sigma_2=\sigma_2\sigma_1.
+$$
+
+
+## §4.7. Hamming-отношения на $Q_2$
+
+В §3 был введён вес Хэмминга
+
+$$
+|x|.
+$$
+
+На $Q_2$ расстояние Хэмминга задаётся через этот вес.
+
+**Определение 4.6.**
+Для $x,y\in Q_2$
+
+$$
+d_H(x,y)=|x+y|.
+$$
+
+Вектор $x+y$ отмечает координаты, в которых $x$ и $y$ различаются.
+
+На $Q_2$ есть два нетривиальных Hamming-отношения:
+
+$$
+H_1^{(2)} = \lbrace (x,y)\in Q_2^2:x\neq y,\ d_H(x,y)=1\rbrace,
+$$
+
+$$
+H_2^{(2)} = \lbrace (x,y)\in Q_2^2:x\neq y,\ d_H(x,y)=2\rbrace.
+$$
+
+**Утверждение 4.7.**
+
+$$
+H_1^{(2)} = \lbrace (x,x+e_i):x\in Q_2,\ i=1,2\rbrace.
+$$
+
+$$
+H_2^{(2)} = \lbrace (x,x+11):x\in Q_2\rbrace.
+$$
+
+**Проверка.**
+Если
+
+$$
+d_H(x,y)=1,
+$$
+
+то
+
+$$
+|x+y|=1.
+$$
+
+В $Q_2$ это означает
+
+$$
+x+y=e_i
+$$
+
+для единственного $i\in\lbrace 1,2\rbrace$. Следовательно,
+
+$$
+y=x+e_i.
+$$
+
+Обратно, если
+
+$$
+y=x+e_i,
+$$
+
+то
+
+$$
+x+y=e_i
+$$
+
+и потому
+
+$$
+d_H(x,y)=1.
+$$
+
+Для расстояния $2$ имеем
+
+$$
+|x+y|=2.
+$$
+
+В $Q_2$ единственный вектор веса $2$ есть
+
+$$
+11.
+$$
+
+Значит,
+
+$$
+x+y=11,
+$$
+
+откуда
+
+$$
+y=x+11.
+$$
+
+Иными словами,
+
+$$
+H_1^{(2)}
+$$
+
+есть рёберная структура, порождённая coordinate swap-ами
+
+$$
+\sigma_1,\sigma_2.
+$$
+
+Переходы $H_1^{(2)}$ — это ровно переходы вида
+
+$$
+x\mapsto \sigma_i(x)=x+e_i.
+$$
+
+
+## §4.8. Graph-reading $C_4$
+
+**Определение 4.8.**
+Graph-reading $C_4$ на $Q_2$ есть presentation
+
+$$
+\Pi_2^{C_4} = (Q_2,H_1^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}),
+$$
+
+где
+
+$$
+\mathrm{rec}_{\mathrm{id}}(x)=(\lbrace x\rbrace,\varnothing).
+$$
+
+**Утверждение 4.9.**
+
+$$
+(Q_2,H_1^{(2)})\cong C_4.
+$$
+
+**Проверка.**
+Отношение $H_1^{(2)}$ связывает состояния, отличающиеся ровно в одной координате:
+
+$$
+00\leftrightarrow 01,
+$$
+
+$$
+01\leftrightarrow 11,
+$$
+
+$$
+11\leftrightarrow 10,
+$$
+
+$$
+10\leftrightarrow 00.
+$$
+
+Каждая вершина имеет степень $2$:
+
+$$
+\deg(00)=2,
+\quad
+\deg(01)=2,
+\quad
+\deg(10)=2,
+\quad
+\deg(11)=2.
+$$
+
+Граф связен: из любой вершины можно попасть в любую другую по указанным рёбрам.
+
+Связный граф на четырёх вершинах, в котором каждая вершина имеет степень $2$, является циклом длины $4$. Следовательно,
+
+$$
+(Q_2,H_1^{(2)})\cong C_4.
+$$
+
+Orientation и path-composition здесь не заданы.
+
+<p align="center">
+  <a href="../assets/figures/1.3-C_4.png">
+    <img src="../assets/figures/1.3-C_4.png" width="500" alt="Graph-reading $C_4$ на $Q_2$">
+  </a>
+</p>
+
+
+## §4.9. Graph-reading $2K_2$
+
+**Определение 4.10.**
+Graph-reading $2K_2$ на $Q_2$ есть presentation
+
+$$
+\Pi_2^{2K_2} = (Q_2,H_2^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
+$$
+
+**Утверждение 4.11.**
+
+$$
+(Q_2,H_2^{(2)})\cong 2K_2.
+$$
+
+**Проверка.**
+Отношение $H_2^{(2)}$ связывает каждое состояние с его complement-состоянием:
+
+$$
+x\mapsto x+11.
+$$
+
+Получаются две пары:
+
+$$
+00\leftrightarrow 11,
+$$
+
+$$
+01\leftrightarrow 10.
+$$
+
+Каждая вершина имеет степень $1$. Компонент связности ровно две:
+
+$$
+\lbrace 00,11\rbrace,
+\qquad
+\lbrace 01,10\rbrace.
+$$
+Каждая компонента является полным графом на двух вершинах, то есть $K_2$. Следовательно,
+$$
+(Q_2,H_2^{(2)})\cong K_2\sqcup K_2=2K_2.
+$$
+
+<p align="center">
+  <a href="../assets/figures/1.4-2K_2.png">
+    <img src="../assets/figures/1.4-2K_2.png" width="500" alt="Graph-reading $2K_2$ на $Q_2$">
+  </a>
+</p>
+
+
+## §4.10. Компаратор $\chi$
+
+Ранг $1$ содержит одну полярную координату. Сравнение двух координат начинается на ранге $2$.
+
+На ранге $2$ состояние
+
+$$
+x=(x_2,x_1)
+$$
+
+содержит две координаты. Поэтому вводится comparison-reading.
+
+**Определение 4.12.**
+Компаратором ранга $2$ называется отображение
+
+$$
+\chi:Q_2\to\mathbb{F}_2
+$$
+
+по формуле
+
+$$
+\chi(x_2,x_1)=x_2+x_1.
+$$
+
+Значения:
+
+$$
+\chi(00)=0,
+$$
+
+$$
+\chi(11)=0,
+$$
+
+$$
+\chi(01)=1,
+$$
+
+$$
+\chi(10)=1.
+$$
+
+Значение $0$ означает совпадение координат.
+Значение $1$ означает различие координат.
+
+Для $Q_2$
+
+$$
+\chi(x)=|x|\pmod 2.
+$$
+
+Эта формула относится именно к двухбитному carrier-у. Обобщение parity-reading-а на $Q_n$ требует отдельного определения.
+
+
+## §4.11. Волокна компаратора и comparison-presentation
+
+Компаратор $\chi$ имеет два волокна:
+
+$$
+\mathrm{Eq} = \chi^{-1}(0) = \lbrace 00,11\rbrace,
+$$
+
+$$
+\mathrm{Opp} = \chi^{-1}(1) = \lbrace 01,10\rbrace.
+$$
+
+Для comparison-presentation выбирается отношение
+
+$$
+H_2^{(2)}.
+$$
+
+Причина выбора: $H_2^{(2)}$ является минимальным нетривиальным Hamming-отношением на $Q_2$, рёбра которого лежат внутри волокон $\chi$.
+
+Действительно,
+
+$$
+H_2^{(2)} = \lbrace 00\leftrightarrow 11,\ 01\leftrightarrow 10\rbrace.
+$$
+
+Обе связи находятся внутри волокон:
+
+$$
+00,11\in \chi^{-1}(0),
+$$
+
+$$
+01,10\in \chi^{-1}(1).
+$$
+
+Напротив, отношение
+
+$$
+H_1^{(2)}
+$$
+
+связывает состояния из разных волокон $\chi$, поскольку изменение одной координаты меняет значение
+
+$$
+x_2+x_1.
+$$
+
+Поэтому $H_2^{(2)}$ — естественный relation-компонент для comparison-presentation: он сохраняет внутреннюю структуру каждого волокна.
+
+**Определение 4.13.**
+Comparison-presentation ранга $2$ есть
+
+$$
+\Pi_2^\chi = (Q_2,H_2^{(2)},\chi,\mathrm{rec}_\chi),
+$$
+
+где
+
+$$
+\mathrm{rec}_\chi(0) = (\lbrace 00,11\rbrace,H_2^{(2)}|_{\lbrace 00,11\rbrace}),
+$$
+
+$$
+\mathrm{rec}_\chi(1) = (\lbrace 01,10\rbrace,H_2^{(2)}|_{\lbrace 01,10\rbrace}).
+$$
+
+**Утверждение 4.14.**
+Presentation
+
+$$
+\Pi_2^\chi
+$$
+
+является exact.
+
+**Проверка.**
+Имеем
+
+$$
+\chi^{-1}(0)=\lbrace 00,11\rbrace,
+$$
+
+$$
+\chi^{-1}(1)=\lbrace 01,10\rbrace.
+$$
+
+Recovery datum на каждом волокне совпадает с индуцированным отношением $H_2^{(2)}$:
+
+$$
+\mathrm{rec}_\chi(0) = (\chi^{-1}(0),H_2^{(2)}|_{\chi^{-1}(0)}),
+$$
+
+$$
+\mathrm{rec}_\chi(1) = (\chi^{-1}(1),H_2^{(2)}|_{\chi^{-1}(1)}).
+$$
+
+Следовательно, $\Pi_2^\chi$ exact.
+
+Reading $\chi$ сводит $Q_2$ к двум режимам:
+
+совпадение и различие.
+
+Recovery datum сохраняет complement-пары, на которых эти режимы реализуются.
+
+
+## §4.12. Инвариантность comparison-reading-а
+
+**Утверждение 4.15.**
+Компаратор $\chi$ инвариантен относительно complement-перехода
+
+$$
+x\mapsto x+11.
+$$
+
+То есть
+
+$$
+\chi(x+11)=\chi(x).
+$$
+
+**Проверка.**
+Пусть
+
+$$
+x=(x_2,x_1).
+$$
+
+Тогда
+
+$$
+x+11=(x_2+1,x_1+1).
+$$
+
+Следовательно,
+
+$$
+\chi(x+11) = (x_2+1)+(x_1+1) = x_2+x_1+1+1 = x_2+x_1 = \chi(x).
+$$
+
+Значит, complement сохраняет режим сравнения: совпадение остаётся совпадением, различие остаётся различием.
+
+
+
+## §4.13. Total poles и puncture на ранге 2
+
+Total poles задаются структурным свойством.
+
+**Определение 4.16.**
+Total pole в $Q_n$ называется состояние, в котором все $n$ координат совпадают.
+
+Таких состояний ровно два:
+
+$$
+0^n=(0,\ldots,0),
+$$
+
+$$
+1^n=(1,\ldots,1).
+$$
+
+Для ранга $2$ total poles имеют вид
+
+$$
+00,
+\qquad
+11.
+$$
+Иными словами, в $Q_2$ это состояния
+$$
+x_2=x_1.
+$$
+
+**Определение 4.17.**
+Punctured coordinate subset ранга $2$ есть подмножество
+
+$$
+Q_2^\circ = Q_2\setminus\lbrace 00,11\rbrace.
+$$
+
+То есть
+
+$$
+Q_2^\circ=\lbrace 01,10\rbrace.
+$$
+
+**Определение 4.18.**
+Rank-2 puncture называется переход от полного coordinate carrier-а $Q_2$ к подмножеству $Q_2^\circ$, полученному исключением total poles:
+
+$$
+Q_2 \rightsquigarrow Q_2^\circ = Q_2\setminus\lbrace 00,11\rbrace.
+$$
+
+Puncture здесь означает переход от полного координатного carrier-а к выделенному подмножеству.
+
+Полный carrier $Q_2$ сохраняет total poles
+
+$$
+00,\qquad 11,
+$$
+
+а $Q_2^\circ$ фиксирует active mixed-остаток ранга $2$.
+
+После выбора relation на $Q_2^\circ$ соответствующая пара становится relational subcarrier.
+
+## §4.14. Центральный шов
+
+**Определение 4.19.**
+Центральным швом ранга $2$ называется подноситель
+
+$$
+A_2 = (\lbrace 01,10\rbrace,H_2^{(2)}|_{\lbrace 01,10\rbrace}).
+$$
+
+В графовой записи:
+
+$$
+01\leftrightarrow 10.
+$$
+
+То есть
+
+$$
+A_2
+$$
+
+есть punctured coordinate subset $Q_2^\circ$, оснащённый complement-отношением.
+
+**Утверждение 4.20.**
+Центральный шов $A_2$ имеет тип $K_2$.
+
+**Проверка.**
+Под $K_2$ понимается полный граф на двух вершинах.
+
+Carrier шва:
+
+$$
+\lbrace 01,10\rbrace
+$$
+
+содержит две вершины. Между ними есть единственное неориентированное ребро:
+
+$$
+01\leftrightarrow 10.
+$$
+
+Следовательно,
+
+$$
+A_2\cong K_2.
+$$
+
+В rank $2$ puncture задаёт двухточечную ось. В rank $3$ puncture total poles в $Q_3$ задаёт шеститочечный mixed carrier.
+
+
+## §4.15. Полное graph-reading $K_4$
+
+**Определение 4.21.**
+Полное relation-reading на $Q_2$ задаётся отношением
+
+$$
+R_{K_4}^{(2)} = \lbrace (x,y)\in Q_2^2:x\neq y\rbrace.
+$$
+
+Соответствующая presentation:
+
+$$
+\Pi_2^{K_4} = (Q_2,R_{K_4}^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
+$$
+
+**Утверждение 4.22.**
+
+$$
+(Q_2,R_{K_4}^{(2)})\cong K_4.
+$$
+
+**Проверка.**
+В $R_{K_4}^{(2)}$ каждая вершина $Q_2$ связана с каждой другой вершиной:
+
+$$
+x\neq y
+\quad\Longrightarrow\quad
+(x,y)\in R_{K_4}^{(2)}.
+$$
+У carrier-а $Q_2$ четыре состояния. Полный граф на четырёх вершинах есть $K_4$. Следовательно,
+$$
+(Q_2,R_{K_4}^{(2)})\cong K_4.
+$$
+
+<p align="center">
+  <a href="../assets/figures/1.5-K_4.png">
+    <img src="../assets/figures/1.5-K_4.png" width="500" alt="Полное graph-reading $K_4$ на $Q_2$">
+  </a>
+</p>
+
+
+## §4.16. Симплексные секторы
+
+Фиксируются два трёхточечных carrier-подмножества, которые содержат центральный шов и ровно один total pole. Их relation-структура задаётся partial closure $R_{K_4-e}^{(2)}$.
+
+**Определение 4.23.**
+Нижний сектор:
+
+$$
+\Delta_{\wedge} = \lbrace 00,01,10\rbrace.
+$$
+
+Верхний сектор:
+
+$$
+\Delta_{\vee} = \lbrace 11,01,10\rbrace.
+$$
+
+Их пересечение:
+
+$$
+\Delta_{\wedge}\cap\Delta_{\vee} = \lbrace 01,10\rbrace.
+$$
+
+Следовательно, оба сектора имеют общий центральный шов
+
+$$
+A_2=\lbrace 01,10\rbrace.
+$$
+
+**Утверждение 4.24.**
+Среди трёхточечных подмножеств $Q_2$ ровно два содержат центральный шов $A_2$.
+
+Это
+
+$$
+\Delta_{\wedge} = A_2\cup\lbrace 00\rbrace,
+$$
+
+$$
+\Delta_{\vee} = A_2\cup\lbrace 11\rbrace.
+$$
+
+**Проверка.**
+Трёхточечное подмножество, содержащее
+
+$$
+A_2=\lbrace 01,10\rbrace,
+$$
+
+должно иметь вид
+
+$$
+A_2\cup\lbrace z\rbrace,
+$$
+
+где
+
+$$
+z\in Q_2\setminus A_2.
+$$
+
+Но
+
+$$
+Q_2\setminus A_2=\lbrace 00,11\rbrace.
+$$
+
+Поэтому возможны ровно два выбора:
+
+$$
+z=00
+$$
+
+или
+
+$$
+z=11.
+$$
+
+Они дают $\Delta_{\wedge}$ и $\Delta_{\vee}$.
+
+Каждый из этих двух секторов содержит ровно один total pole; carrier шва $A_2$ состоит из $01$ и $10$.
+
+
+## §4.17. Partial closure $K_4-e$
+
+**Определение 4.25.**
+Отношение
+
+$$
+R_{K_4-e}^{(2)}
+$$
+
+задаётся удалением total-pole diagonal из полного relation-reading-а $K_4$:
+
+$$
+R_{K_4-e}^{(2)} = R_{K_4}^{(2)} \setminus \lbrace (00,11),(11,00)\rbrace.
+$$
+
+Соответствующая presentation:
+
+$$
+\Pi_2^{K_4-e} = (Q_2,R_{K_4-e}^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
+$$
+
+**Утверждение 4.26.**
+
+$$
+(Q_2,R_{K_4-e}^{(2)})\cong K_4-e.
+$$
+
+**Проверка.**
+Граф $K_4$ имеет шесть неориентированных рёбер между четырьмя вершинами.
+
+Из него удаляется одно неориентированное ребро:
+
+$$
+00\leftrightarrow 11.
+$$
+
+Остаются пять рёбер:
+
+$$
+00\leftrightarrow 01,
+$$
+
+$$
+00\leftrightarrow 10,
+$$
+
+$$
+11\leftrightarrow 01,
+$$
+
+$$
+11\leftrightarrow 10,
+$$
+
+$$
+01\leftrightarrow 10.
+$$
+
+Это полный граф на четырёх вершинах без одного ребра. Следовательно,
+
+$$
+(Q_2,R_{K_4-e}^{(2)})\cong K_4-e.
+$$
+
+**Следствие 4.27.**
+В graph-reading-е $K_4-e$ carrier $Q_2$ читается как две треугольные сцены, склеенные по центральному шву.
+
+**Проверка.**
+Удалённое ребро в $R_{K_4-e}^{(2)}$ только одно:
+
+$$
+00\leftrightarrow 11.
+$$
+
+Нижний сектор
+
+$$
+\Delta_{\wedge}=\lbrace 00,01,10\rbrace.
+$$
+
+Пара $\lbrace 00,11\rbrace$ отсутствует в $\Delta_{\wedge}$. Все три пары его вершин остаются связанными:
+
+$$
+00\leftrightarrow 01,
+$$
+
+$$
+00\leftrightarrow 10,
+$$
+
+$$
+01\leftrightarrow 10.
+$$
+
+Значит, $\Delta_{\wedge}$ является треугольником.
+
+Верхний сектор
+
+$$
+\Delta_{\vee}=\lbrace 11,01,10\rbrace.
+$$
+
+Пара $\lbrace 00,11\rbrace$ отсутствует в $\Delta_{\vee}$. Все три пары его вершин остаются связанными:
+
+$$
+11\leftrightarrow 01,
+$$
+
+$$
+11\leftrightarrow 10,
+$$
+
+$$
+01\leftrightarrow 10.
+$$
+
+Значит, $\Delta_{\vee}$ является треугольником.
+
+Общее ребро двух треугольников:
+
+$$
+01\leftrightarrow 10.
+$$
+
+Это центральный шов $A_2$.
+
+Relation на симплексных секторах берётся индуцированным из partial closure:
+
+$$
+R_{\Delta_{\wedge}} = R_{K_4-e}^{(2)} \cap (\Delta_{\wedge}\times\Delta_{\wedge}),
+$$
+
+$$
+R_{\Delta_{\vee}} = R_{K_4-e}^{(2)} \cap (\Delta_{\vee}\times\Delta_{\vee}).
+$$
+
+Тем самым симплексные секторы как relation-carriers имеют вид
+
+$$
+(\Delta_{\wedge},R_{\Delta_{\wedge}}),
+\qquad
+(\Delta_{\vee},R_{\Delta_{\vee}}).
+$$
+
+<p align="center">
+  <a href="../assets/figures/1.6-K_4-e.png">
+    <img src="../assets/figures/1.6-K_4-e.png" width="500" alt="Partial closure $K_4-e$ на $Q_2$">
+  </a>
+</p>
+
+
+## §4.18. Relation-readings ранга 2
+
+На одном carrier-е
+
+$$
+Q_2=\lbrace 00,01,10,11\rbrace
+$$
+
+получены разные relation-readings:
+
+$$
+C_4,
+$$
+
+$$
+2K_2,
+$$
+
+$$
+K_4,
+$$
+
+$$
+K_4-e.
+$$
+
+Они имеют один carrier, но разные отношения.
+
+$$
+C_4
+$$
+
+читает $Q_2$ через изменение одной координаты.
+
+$$
+2K_2
+$$
+
+читает $Q_2$ через complement-пары.
+
+$$
+K_4
+$$
+
+читает $Q_2$ как полную связность четырёх состояний.
+
+$$
+K_4-e
+$$
+
+читает $Q_2$ как две треугольные сцены, склеенные по центральному шву.
+
+Эти чтения являются разными relation-presentations одного carrier-а.
+
+## §4.19. Closure package rank $2$
+
+Rank-2 comparison package фиксирует все relation-presentations, построенные на $Q_2$:
+
+$$
+\mathfrak C_2 = \left( Q_2, \Pi_2^{C_4}, \Pi_2^{2K_2}, \Pi_2^\chi, \Pi_2^{K_4}, \Pi_2^{K_4-e}, A_2 \right).
+$$
+
+Здесь $A_2=\lbrace 01,10\rbrace$ — центральный шов §4.14.
+
+$\mathfrak C_2$ имеет статус structure/package. В смысле §0.5 presentation имеет форму $(X,R,q,\mathrm{rec})$; $\mathfrak C_2$ даёт closure-name rank-2 comparison layer-а для пяти уже построенных presentations.
+
+
+# §5. Ранг 3: admissible carrier
+
+## §5.1. Трёхбитный carrier
+
+**Определение 5.1.**
+Трёхбитный carrier есть
+
+$$
+Q_3=\mathbb{F}_2^3.
+$$
+
+В развёрнутой записи:
+
+$$
+Q_3=
+\lbrace 000,001,010,011,100,101,110,111\rbrace.
+$$
+
+<p align="center">
+  <a href="../assets/figures/2.1-Q_3.png">
+    <img src="../assets/figures/2.1-Q_3.png" width="500" alt="Трёхбитный carrier $Q_3$">
+  </a>
+</p>
+
+Запись
+
+$$
+b_3b_2b_1
+$$
+
+означает кортеж
+
+$$
+(x_3,x_2,x_1)=(b_3,b_2,b_1).
+$$
+
+Запись согласована с §3.6 для rank-lift-а: новый разряд $x_3$ занимает старшую позицию слева, координаты $x_2,x_1$ наследуются от $Q_2$.
+
+
+## §5.2. Emergence-разложение ранга 3
+
+По Утверждению 3.4 (§3.7) для rank-lift при $n=3$:
+
+$$
+Q_3^* = Q_2^* \sqcup \lbrace e_3\rbrace \sqcup (e_3+Q_2^*).
+$$
+
+Здесь
+
+$$
+e_3=100.
+$$
+
+Так как
+
+$$
+Q_2^*=\lbrace 01,10,11\rbrace,
+$$
+
+в трёхбитной записи получаем:
+
+$$
+Q_3^* = \lbrace 001,010,011\rbrace \sqcup \lbrace 100\rbrace \sqcup \lbrace 101,110,111\rbrace.
+$$
+
+Первый блок — старый проявленный слой:
+
+$$
+\lbrace 001,010,011\rbrace.
+$$
+
+Второй блок — новый разряд:
+
+$$
+\lbrace 100\rbrace.
+$$
+
+Третий блок — старый слой с новой координатной нагрузкой:
+
+$$
+\lbrace 101,110,111\rbrace.
+$$
+
+Это emergence-order. Он показывает порядок появления координатных ролей; shell-role состояний задаётся после сборки carrier-а.
+
+
+## §5.3. Total poles в $Q_3$
+
+По Определению 4.16 (§4.13) total pole в $Q_n$ — состояние, в котором все $n$ координат совпадают.
+
+В $Q_3$ таких состояний два:
+
+$$
+0^3=000,
+$$
+
+$$
+1^3=111.
+$$
+
+Они называются total poles ранга $3$.
+
+Состояние
+
+$$
+000
+$$
+
+является нижним total pole.
+
+Состояние
+
+$$
+111
+$$
+
+является верхним total pole.
+
+Оба состояния однородны: в них нет mixed-распределения координат.
+
+
+## §5.4. Mixed-состояния
+
+На ранге $2$ mixed-состояния формально составляли punctured carrier $Q_2^\circ = \lbrace 01, 10\rbrace$. На ранге $3$ это множество перестаёт быть простой двухточечной осью.
+
+**Определение 5.2.**
+Состояние
+
+$$
+x\in Q_n
+$$
+
+называется mixed-состоянием, если оно лежит вне total-pole pair.
+
+Множество mixed-состояний ранга $3$:
+
+$$
+Q_3\setminus\lbrace 000,111\rbrace.
+$$
+
+В развёрнутой записи:
+
+$$
+\lbrace 001,010,011,100,101,110\rbrace.
+$$
+
+
+
+## §5.5. Admissible carrier
+
+В §4.13 puncture был введён как переход от полного coordinate carrier-а к подмножеству, полученному исключением total poles. Теперь фиксируется общий вид этого перехода.
+
+**Определение 5.3.**
+Punctured coordinate subset ранга $n$ есть подмножество
+
+$$
+Q_n^\circ = Q_n\setminus\lbrace 0^n,1^n\rbrace.
+$$
+
+Rank-$n$ puncture называется переход
+
+$$
+Q_n \rightsquigarrow Q_n^\circ
+$$
+
+от полного coordinate carrier-а к подмножеству, полученному исключением двух total poles.
+
+Полный carrier $Q_n$ сохраняется как coordinate carrier ранга $n$. Подмножество $Q_n^\circ$ фиксирует active mixed-остаток данного ранга.
+
+После выбора relation $R$ на $Q_n^\circ$ пара
+
+$$
+(Q_n^\circ,R)
+$$
+
+становится relational carrier-ом. До выбора relation $Q_n^\circ$ является только выделенным координатным подмножеством.
+
+**Определение 5.4.**
+Admissible carrier ранга $3$ есть punctured coordinate subset ранга $3$:
+
+$$
+X_{\mathrm{adm}} = Q_3^\circ = Q_3\setminus\lbrace 000,111\rbrace.
+$$
+
+То есть
+
+$$
+X_{\mathrm{adm}} = \lbrace 001,010,011,100,101,110\rbrace.
+$$
+
+<p align="center">
+  <a href="../assets/figures/2.2-X_adm.png">
+    <img src="../assets/figures/2.2-X_adm.png" width="500" alt="Admissible carrier $X_{\mathrm{adm}}$">
+  </a>
+</p>
+
+В §5 $X_{\mathrm{adm}}$ вводится как carrier-множество.
+
+Полный carrier
+
+$$
+Q_3
+$$
+
+остаётся полным coordinate carrier-ом ранга $3$. Подмножество $X_{\mathrm{adm}}$ является его active mixed-остатком.
+
+## §5.6. Shell-разложение $X_{\mathrm{adm}}$
+
+По Определению 3.5 (§3.9) shell ранга $n$ задаётся как $S_k^{(n)}=\lbrace x\in Q_n:\ |x|=k\rbrace$. Для $n=3$:
+
+$$
+S_k^{(3)}=\lbrace x\in Q_3:|x|=k\rbrace.
+$$
+
+Полное shell-разложение $Q_3$:
+
+$$
+S_0^{(3)}=\lbrace 000\rbrace,
+$$
+
+$$
+S_1^{(3)}=\lbrace 001,010,100\rbrace,
+$$
+
+$$
+S_2^{(3)}=\lbrace 011,101,110\rbrace,
+$$
+
+$$
+S_3^{(3)}=\lbrace 111\rbrace.
+$$
+
+Total poles — это крайние shell-и:
+
+$$
+S_0^{(3)}=\lbrace 000\rbrace,
+\qquad
+S_3^{(3)}=\lbrace 111\rbrace.
+$$
+После puncture остаются средние shell-и:
+$$
+X_{\mathrm{adm}} = S_1^{(3)} \sqcup S_2^{(3)}.
+$$
+То есть
+$$
+X_{\mathrm{adm}} = \lbrace 001,010,100\rbrace \sqcup \lbrace 011,101,110\rbrace.
+$$
+
+
+
+## §5.7. Rank 2 puncture и rank 3 puncture
+
+Rank-2 puncture:
+
+$$
+Q_2\setminus\lbrace 00,11\rbrace = \lbrace 01,10\rbrace.
+$$
+
+Остаток имеет два состояния и возвращает carrier типа $K_2$.
+
+Rank-3 puncture:
+
+$$
+Q_3\setminus\lbrace 000,111\rbrace = \lbrace 001,010,011,100,101,110\rbrace.
+$$
+
+**Утверждение 5.5.**
+Мощность admissible carrier-а ранга $3$ равна $6$:
+
+$$
+|X_{\mathrm{adm}}| = 2^3 - 2 = 6.
+$$
+
+На ранге $2$ мощность punctured coordinate subset равна $2$.
+
+**Проверка.**
+Для rank $2$:
+
+$$
+2^2-2=2.
+$$
+
+После удаления total poles остаются два состояния.
+
+Для rank $3$:
+
+$$
+2^3-2=6.
+$$
+
+После удаления total poles остаются шесть состояний.
+
+**Замечание.**
+В отличие от ранга $2$, где после puncture остаётся двухточечное подмножество, ранг $3$ впервые даёт шеститочечный mixed-carrier:
+
+$$
+X_{\mathrm{adm}} = Q_3\setminus\lbrace 000,111\rbrace.
+$$
+
+В §5 фиксируется carrier-слой.
+
+## §5.8. Complement на $X_{\mathrm{adm}}$
+
+На $Q_3$ есть побитовый complement:
+
+$$
+\overline{x}=x+111.
+$$
+
+Он переводит total poles друг в друга:
+
+$$
+000\leftrightarrow 111.
+$$
+
+Он также сохраняет admissible carrier:
+
+$$
+x\in X_{\mathrm{adm}}
+\quad\Longrightarrow\quad
+\overline{x}\in X_{\mathrm{adm}}.
+$$
+
+**Утверждение 5.6.**
+Complement переводит shell $S_1^{(3)}$ в shell $S_2^{(3)}$, и обратно:
+
+$$
+\overline{S_1^{(3)}}=S_2^{(3)},
+$$
+
+$$
+\overline{S_2^{(3)}}=S_1^{(3)}.
+$$
+
+**Проверка.**
+В общем случае complement в $Q_n$ меняет вес $x$ на $n - |x|$. Для $n = 3$ это означает, что если
+
+$$
+|x|=1,
+$$
+
+то $|\overline{x}| = 3 - 1 = 2$. Если
+
+$$
+|x|=2,
+$$
+
+то $|\overline{x}| = 3 - 2 = 1$. Следовательно,
+
+$$
+S_1^{(3)}\leftrightarrow S_2^{(3)}.
+$$
+
+В развёрнутой записи:
+
+$$
+001\leftrightarrow 110,
+$$
+
+$$
+010\leftrightarrow 101,
+$$
+
+$$
+100\leftrightarrow 011.
+$$
+
+<p align="center">
+  <a href="../assets/figures/3.3-R_3-3K_2.png">
+    <img src="../assets/figures/3.3-R_3-3K_2.png" width="500" alt="Complement-пары на $X_{\mathrm{adm}}$">
+  </a>
+</p>
+
+На этом уровне complement является инволюцией ($x \mapsto \overline{x} \mapsto x$), продолжая complement-переход, введённый в §4.
+
+
+
+# §6. Relation-грамматика admissible carrier-а
+
+## §6.1. Carrier §6
+
+В §6 используется carrier, построенный в §5:
+
+$$
+X_{\mathrm{adm}} = Q_3\setminus\lbrace 000,111\rbrace = S_1^{(3)}\sqcup S_2^{(3)}.
+$$
+
+Carrier §6 равен $X_{\mathrm{adm}}$. Новый слой задаёт отношения между уже построенными admissible-состояниями.
+
+
+## §6.2. Hamming-distance на $X_{\mathrm{adm}}$
+
+По аналогии с Определением 4.6 (§4.7), Hamming-distance на $Q_n$ задаётся формулой
+
+$$
+d_H(x,y)=|x+y|,
+$$
+
+где сложение берётся в $\mathbb{F}_2^n$, а $|x+y|$ означает Hamming-вес. В §6 используется случай $n=3$.
+
+Для различных
+
+$$
+x,y\in X_{\mathrm{adm}}
+$$
+
+возможны ровно три значения:
+
+$$
+d_H(x,y)=1,
+\qquad
+d_H(x,y)=2,
+\qquad
+d_H(x,y)=3.
+$$
+
+**Определение 6.1.**
+Для
+
+$$
+k\in\lbrace 1,2,3\rbrace
+$$
+
+отношение $R_k$ на $X_{\mathrm{adm}}$ задаётся формулой
+
+$$
+R_k = \lbrace (x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}: x\neq y,\ d_H(x,y)=k\rbrace.
+$$
+
+Каждое $R_k$ симметрично и иррефлексивно.
+
+
+## §6.3. Presentation для Hamming graph-readings
+
+Для каждого
+
+$$
+k\in\lbrace 1,2,3\rbrace
+$$
+
+рассматривается identity graph-reading
+
+$$
+\Pi_{3,k} = \bigl( X_{\mathrm{adm}}, R_k, \mathrm{id}_{X_{\mathrm{adm}}}, \mathrm{rec}_{\mathrm{id}} \bigr).
+$$
+
+По §4.3, для identity graph-reading-а с иррефлексивным отношением $R$ recovery datum имеет вид
+
+$$
+\mathrm{rec}_{\mathrm{id}}(x) = (\lbrace x\rbrace,\varnothing).
+$$
+
+Поскольку $R_k$ иррефлексивно, эта формула применима к каждому $\Pi_{3,k}$. Поэтому все
+
+$$
+\Pi_{3,1},
+\qquad
+\Pi_{3,2},
+\qquad
+\Pi_{3,3}
+$$
+
+являются exact identity graph-readings.
+
+
+## §6.4. Relation $R_1$: одношаговое Hamming-отношение
+
+Отношение $R_1$ связывает состояния, различающиеся ровно одной координатой:
+
+$$
+(x,y)\in R_1
+\quad\Longleftrightarrow\quad
+d_H(x,y)=1.
+$$
+Неориентированные рёбра $R_1$:
+$$
+001\leftrightarrow 011,
+$$
+
+$$
+011\leftrightarrow 010,
+$$
+
+$$
+010\leftrightarrow 110,
+$$
+
+$$
+110\leftrightarrow 100,
+$$
+
+$$
+100\leftrightarrow 101,
+$$
+
+$$
+101\leftrightarrow 001.
+$$
+
+Эти рёбра образуют шестичленный цикл:
+
+$$
+001 \leftrightarrow 011 \leftrightarrow 010 \leftrightarrow 110 \leftrightarrow 100 \leftrightarrow 101 \leftrightarrow 001.
+$$
+
+**Утверждение 6.2.**
+
+$$
+(X_{\mathrm{adm}},R_1)\cong C_6.
+$$
+
+**Проверка.**
+Выписанная последовательность проходит через все шесть вершин $X_{\mathrm{adm}}$ и возвращается в начальную вершину. Каждая вершина имеет ровно две $R_1$-смежные вершины. Поэтому graph-reading $(X_{\mathrm{adm}},R_1)$ является связным $2$-регулярным графом на шести вершинах. Следовательно,
+
+$$
+(X_{\mathrm{adm}},R_1)\cong C_6.
+$$
+
+<p align="center">
+  <a href="../assets/figures/3.1-R_1-C_6.png">
+    <img src="../assets/figures/3.1-R_1-C_6.png" width="500" alt="Graph-reading $R_1\cong C_6$ на $X_{\mathrm{adm}}$">
+  </a>
+</p>
+
+**Замечание.**
+В полном $Q_3$ каждая вершина имеет три одношаговых Hamming-соседа. При переходе к $X_{\mathrm{adm}}$ вершины из $S_1^{(3)}$ теряют соседство с $000$, а вершины из $S_2^{(3)}$ теряют соседство с $111$. Оставшаяся одношаговая смежность даёт $C_6$.
+
+В §6 $C_6$ является только graph-reading-ом на $X_{\mathrm{adm}}$. Orientation и transport на этом цикле не вводятся.
+
+
+## §6.5. Relation $R_2$: двухшаговое Hamming-отношение
+
+Отношение $R_2$ связывает состояния, различающиеся ровно двумя координатами:
+
+$$
+(x,y)\in R_2
+\quad\Longleftrightarrow\quad
+d_H(x,y)=2.
+$$
+**Утверждение 6.3.**
+$$
+(X_{\mathrm{adm}},R_2) \cong K_3\sqcup K_3.
+$$
+
+**Проверка.**
+Пусть
+
+$$
+x,y\in S_1^{(3)},
+\qquad
+x\neq y.
+$$
+Оба состояния имеют вес $1$, и их единицы стоят в разных координатах. Поэтому $x+y$ имеет вес $2$, то есть
+$$
+d_H(x,y)=2.
+$$
+
+Значит, все различные пары внутри $S_1^{(3)}$ связаны отношением $R_2$, и $S_1^{(3)}$ даёт компоненту $K_3$.
+
+Теперь пусть
+
+$$
+x,y\in S_2^{(3)},
+\qquad
+x\neq y.
+$$
+Оба состояния имеют вес $2$, и их нули стоят в разных координатах. При сложении $x+y$ остаются ровно две единицы. Поэтому
+$$
+d_H(x,y)=2.
+$$
+
+Значит, $S_2^{(3)}$ даёт вторую компоненту $K_3$.
+
+Если
+
+$$
+x\in S_1^{(3)},
+\qquad
+y\in S_2^{(3)},
+$$
+то возможны только значения
+$$
+d_H(x,y)=1
+$$
+или
+$$
+d_H(x,y)=3.
+$$
+Значение $2$ между shell-ами не возникает. Следовательно,
+$$
+(X_{\mathrm{adm}},R_2) \cong K_3\sqcup K_3.
+$$
+Каждый $K_3$ содержит $3$ ребра, поэтому
+$$
+|E(R_2)|=6.
+$$
+
+<p align="center">
+  <a href="../assets/figures/3.2-R_2-2_triangles.png">
+    <img src="../assets/figures/3.2-R_2-2_triangles.png" width="500" alt="Graph-reading $R_2\cong K_3\sqcup K_3$ на $X_{\mathrm{adm}}$">
+  </a>
+</p>
+
+
+## §6.6. Relation $R_3$: complement-отношение
+
+Отношение $R_3$ связывает состояния, различающиеся во всех трёх координатах:
+
+$$
+(x,y)\in R_3
+\quad\Longleftrightarrow\quad
+d_H(x,y)=3.
+$$
+Для трёхбитных состояний это равносильно
+$$
+y=x+111.
+$$
+По Утверждению 5.6 (§5.8), complement-инволюция переводит
+$$
+S_1^{(3)} \leftrightarrow S_2^{(3)}.
+$$
+Она разбивает $X_{\mathrm{adm}}$ на три complement-пары:
+$$
+001\leftrightarrow110,
+$$
+
+$$
+010\leftrightarrow101,
+$$
+
+$$
+100\leftrightarrow011.
+$$
+
+**Утверждение 6.4.**
+
+$$
+(X_{\mathrm{adm}},R_3)\cong 3K_2.
+$$
+
+**Проверка.**
+Для каждого
+
+$$
+x\in X_{\mathrm{adm}}
+$$
+
+состояние
+
+$$
+x+111
+$$
+
+также принадлежит $X_{\mathrm{adm}}$, и
+
+$$
+d_H(x,x+111)=3.
+$$
+
+Так как
+
+$$
+(x+111)+111=x,
+$$
+
+complement является инволюцией. Поэтому $X_{\mathrm{adm}}$ разбивается на три непересекающиеся пары:
+
+$$
+\lbrace 001,110\rbrace,
+\qquad
+\lbrace 010,101\rbrace,
+\qquad
+\lbrace 100,011\rbrace.
+$$
+Каждая пара имеет тип $K_2$, а между разными complement-парами relation $R_3$ рёбер не задаёт. Следовательно,
+$$
+(X_{\mathrm{adm}},R_3)\cong 3K_2.
+$$
+
+<p align="center">
+  <a href="../assets/figures/3.3-R_3-3K_2.png">
+    <img src="../assets/figures/3.3-R_3-3K_2.png" width="500" alt="Graph-reading $R_3\cong 3K_2$ на $X_{\mathrm{adm}}$">
+  </a>
+</p>
+
+**Замечание.**
+$R_1$ и $R_3$ используют один и тот же carrier $X_{\mathrm{adm}}$, но задают разные relation-readings. $R_1$ связывает одношаговых Hamming-соседей, а $R_3$ связывает complement-пары.
+
+
+## §6.7. Relation-грамматика как разбиение пар
+
+**Утверждение 6.5.**
+Hamming-отношения
+
+$$
+R_1,\quad R_2,\quad R_3
+$$
+
+разбивают множество всех неориентированных пар различных состояний $X_{\mathrm{adm}}$.
+
+**Проверка.**
+Для любых различных
+
+$$
+x,y\in X_{\mathrm{adm}}\subset Q_3
+$$
+
+расстояние $d_H(x,y)$ принимает одно из значений
+
+$$
+1,\quad 2,\quad 3.
+$$
+
+Других положительных Hamming-distance в $Q_3$ нет.
+
+Пара $\lbrace x,y\rbrace$ принадлежит ровно одному relation $R_k$, поскольку значение $d_H(x,y)$ единственно. Значит, отношения $R_1, R_2, R_3$ попарно не пересекаются и вместе покрывают все пары различных состояний.
+
+Контрольный подсчёт:
+
+$$
+\binom{|X_{\mathrm{adm}}|}{2} = \binom{6}{2} = 15.
+$$
+
+Из Утверждений 6.2–6.4:
+
+$$
+|E(R_1)|=6,
+$$
+
+$$
+|E(R_2)|=6,
+$$
+
+$$
+|E(R_3)|=3.
+$$
+
+Итого:
+
+$$
+6+6+3=15.
+$$
+
+Следовательно,
+
+$$
+\mathcal R_{\mathrm{adm}}^{(3)} = \lbrace R_1, R_2, R_3\rbrace
+$$
+
+является полной static Hamming relation-грамматикой $X_{\mathrm{adm}}$.
+
+
+## §6.8. Emergence-order, shell-order и relation-order
+
+В §5 emergence-order описывал, как $Q_3^*$ возникает из rank-lift-а
+
+$$
+Q_2\to Q_3.
+$$
+
+В §5 shell-order описывал роль состояний внутри уже собранного $Q_3$:
+
+$$
+S_1^{(3)},
+\qquad
+S_2^{(3)}.
+$$
+В §6 используется relation-order, задаваемый Hamming-distance:
+$$
+d_H=1,
+\qquad
+d_H=2,
+\qquad
+d_H=3.
+$$
+Relation $R_1$ чередует shell-и и даёт
+$$
+C_6.
+$$
+Relation $R_2$ читает каждый shell отдельно и даёт
+$$
+K_3\sqcup K_3.
+$$
+Relation $R_3$ связывает shell-и complement-парами и даёт
+$$
+3K_2.
+$$
+
+Emergence-order ранга $3$ остаётся фиксированным. §6 строит relation-readings на уже собранном carrier-е.
+
+
+# §7. Октаэдральный relation-carrier
+
+## §7.1. Complement-пары как блоки несмежности
+
+По §6 relation $R_3$ задаёт три complement-пары:
+
+$$
+001\leftrightarrow110,
+$$
+
+$$
+010\leftrightarrow101,
+$$
+
+$$
+100\leftrightarrow011.
+$$
+
+Для различения с emergence-блоками $B_n$ из §3.6 обозначим эти пары через
+
+$$
+\beta_1,\quad \beta_2,\quad \beta_3.
+$$
+
+**Определение 7.1.**
+Complement-pair partition carrier-а $X_{\mathrm{adm}}$ есть разбиение
+
+$$
+X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3,
+$$
+
+где
+
+$$
+\beta_1=\lbrace 001,110\rbrace,
+$$
+
+$$
+\beta_2=\lbrace 010,101\rbrace,
+$$
+
+$$
+\beta_3=\lbrace 100,011\rbrace.
+$$
+
+Каждая $\beta_i$ является одной компонентой graph-reading-а
+
+$$
+(X_{\mathrm{adm}},R_3)\cong 3K_2.
+$$
+
+В §7 эти пары задают доли complete tripartite graph-reading-а. В relation $R_{12}$ внутри каждой $\beta_i$ рёбра отсутствуют; между разными $\beta_i$ рёбра присутствуют.
+
+
+## §7.2. Union-relation $R_{12}$
+
+**Определение 7.2.**
+На $X_{\mathrm{adm}}$ задаётся relation
+
+$$
+R_{12} = R_1\cup R_2.
+$$
+
+То есть для
+
+$$
+x,y\in X_{\mathrm{adm}},
+\qquad
+x\neq y,
+$$
+имеем
+$$
+(x,y)\in R_{12}
+$$
+тогда и только тогда, когда
+$$
+d_H(x,y)=1
+$$
+или
+$$
+d_H(x,y)=2.
+$$
+
+По Утверждению 6.5, отношения $R_1, R_2, R_3$ разбивают все пары различных состояний $X_{\mathrm{adm}}$. Поэтому $R_{12}$ можно читать как остаток относительно complement-отношения $R_3$: оно содержит ровно те пары, которые не являются complement-парами.
+
+Эквивалентно, поскольку для $x\neq y$ в $Q_3$
+
+$$
+d_H(x,y)\in\lbrace 1,2,3\rbrace,
+$$
+
+а условие
+
+$$
+d_H(x,y)=3
+$$
+
+равносильно
+
+$$
+y=x+111,
+$$
+
+имеем:
+
+$$
+(x,y)\in R_{12}
+\quad\Longleftrightarrow\quad
+x\neq y \land y\neq x+111.
+$$
+
+Иными словами, $R_{12}$ соединяет все различные admissible-состояния, кроме complement-состояния данного $x$.
+
+
+## §7.3. Presentation для $R_{12}$
+
+На relation
+
+$$
+R_{12}
+$$
+
+задаётся identity graph-reading
+
+$$
+\Pi_{12} = \bigl( X_{\mathrm{adm}}, R_{12}, \mathrm{id}_{X_{\mathrm{adm}}}, \mathrm{rec}_{\mathrm{id}} \bigr).
+$$
+
+Отношения $R_1$ и $R_2$ симметричны и иррефлексивны. Поэтому их объединение
+
+$$
+R_{12}=R_1\cup R_2
+$$
+
+также симметрично и иррефлексивно.
+
+По §4.3, для identity graph-reading-а с иррефлексивным отношением $R$ recovery datum имеет вид
+
+$$
+\mathrm{rec}_{\mathrm{id}}(x) = (\lbrace x\rbrace,\varnothing).
+$$
+
+Поскольку $R_{12}$ иррефлексивно, эта формула применима к $\Pi_{12}$. Поэтому $\Pi_{12}$ является exact identity graph-reading-ом.
+
+Структурный объект §7 — presentation $\Pi_{12}$. Граф $K_{2,2,2}$ и октаэдральный $1$-скелет являются graph-readings этой presentation.
+
 ## §7.4. Граф $K_{2,2,2}$
 
 Перед формулировкой утверждения зафиксируем целевой graph-reading.
