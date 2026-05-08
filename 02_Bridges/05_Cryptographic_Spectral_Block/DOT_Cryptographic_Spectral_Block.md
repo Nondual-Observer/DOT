@@ -40,14 +40,6 @@ Important:
 - this is a theorem-package on the **full cube–cross-polytope composite**;
 - it is mathematically self-contained and should be read on its own terms as a spectral theorem about an explicit composite graph.
 
-The goal of this document is simple:
-
-1. build the composite graph and compute its spectrum;
-2. show that low-weight Walsh data of Boolean functions becomes a spectral stratification on this graph;
-3. deduce exact criteria for:
-   - correlation immunity,
-   - balancedness,
-   - resilience.
 
 ---
 
