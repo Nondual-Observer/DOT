@@ -1120,15 +1120,6 @@ The verification is:
 
 ---
 
-## 14. Final Summary
-
-This document assembles one connected theorem-package:
-
-1. **Spectrum of the block graph** $O_n + Q_n + B$;
-2. **Correlation immunity** as vanishing on the weight-1 and weight-$k\ge 2$ sectors;
-3. **Balancedness** as vanishing on the nontrivial weight-0 coupled line;
-4. **Resilience** as the combined vanishing of the full low-weight package.
-
 In short:
 
 > the low-weight Walsh structure of a Boolean function can be read as a spectral stratification on a single explicit cross-polytope–hypercube composite.
