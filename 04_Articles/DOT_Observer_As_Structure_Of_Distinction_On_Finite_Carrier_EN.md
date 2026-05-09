@@ -12,6 +12,8 @@ Thinking about what is needed for a process of distinction to persist, I arrived
 
 Somewhere here the Theory of Observable Distinction began.
 
+![White and black](../assets/bw.png)
+
 ## 2. From Idea to Theory
 
 The usual intuition places the observer at the beginning: first there is someone who distinguishes, and only then there is what is distinguished.
@@ -141,27 +143,9 @@ The first distinction in DOT contains two levels: polarity and invariant. They a
 
 Without reading, there would be only a pair. Without recovery, there would be only gluing, and the pair would disappear. The polar invariant is the minimal form in which the pair and its holding coexist as structurally different layers.
 
-## 7. Minimal Package of Distinction
+The polar invariant gives the minimal cell of distinction. The next step is to understand how several such distinctions are held together. For this, DOT introduces rank: a finite carrier on which several binary distinctions receive a common form.
 
-The minimal technical record of such a distinction is called a **presentation**. It specifies carrier, relation, reading, and recoverability:
-
-$$
-\begin{aligned}
-\Pi &= (X,R,q,\mathrm{rec}).
-\end{aligned}
-$$
-
-Here $X$ is the carrier, the set of elements on which distinction is given. $R$ is the relation on this carrier, fixing which elements are connected and how. $q$ is the reading, sending the structure to another form of description and possibly gluing elements. $\mathrm{rec}$ is the recovery data: the part of the initial structure that returns after the reading.
-
-In this record, distinction has four roles: domain, connection, presentation, and returned part. If one of the roles is absent, what remains is a set, a graph, a function, or an image, but not a complete structure of distinction.
-
-Recoverability separates readings from one another. One and the same carrier may admit many different transitions to description; the difference between them is given by what exactly returns.
-
-The polar invariant returns the whole pair. The color reading of the six-point scene (which appears later) returns the structure of relations, but loses the purely discrete character. The Lie-algebraic reading (a separate bridge) returns root data through a chosen linear realization. Each reading has its own degree of loss and its own content of recovery.
-
-A presentation records one act of distinction in full form. Next comes a structure in which several such acts are held simultaneously and receive mutual position.
-
-## 8. Rank as a Form of Growth
+## 7. Rank as a Form of Growth
 
 The polar invariant describes one act of distinction. Real systems — physical, cognitive, computational — contain many distinctions at once, and these distinctions are connected with one another. The structure that holds their complexity is called rank in DOT.
 
@@ -192,7 +176,7 @@ Already constructed distinctions receive a new place inside a wider carrier. The
 
 Here, as in the case of the polar invariant, the alternation of the discrete and the extended appears. Each rank by itself is discrete: a finite set of states with a finite set of relations. But the ladder of ranks is a process of growth in which, at every step, the discrete is extended by adding a new coordinate.
 
-## 9. Puncture of the Carrier
+## 8. Puncture of the Carrier
 
 The carrier $Q_n$ by itself is only an enumeration of possible states. Before passing to connections between them, one must decide which states participate in the active scene of distinction.
 
@@ -216,7 +200,7 @@ At rank $1$ the full carrier has two points, and both are poles. After puncture 
 
 Six is the first structure in which three levels of closure exist simultaneously: pair, cycle, and three-axis wholeness. The central figure of DOT appears precisely here.
 
-## 10. Octahedron as the First Complete Figure
+## 9. Octahedron as the First Complete Figure
 
 For the six points
 
@@ -264,7 +248,7 @@ At this level the cube $Q_3$, after puncture, gives a six-point scene; the same 
 
 The cube after puncture produces the octahedron; the chambers of the octahedron return the cube. Rank $3$ closes back on itself for the first time as a geometric structure.
 
-## 11. Mobius Strip and Closed Transport
+## 10. Mobius Strip and Closed Transport
 
 The cycle $C_6$, which appears at rank $3$, opens the structure of closed transport. Before the cycle appears, the question of transport has no sense: there is nowhere to transport. Now it becomes strict.
 
@@ -278,7 +262,7 @@ At the level of DOT this is an associated bundle over a nontrivial $\mathbb{Z}_2
 
 In the Mobius strip the discrete and the extended enter one construction. The discrete is given as local polarity. The extended is given as the closed carrier of transport. A distinction that locally seems purely binary becomes, when transport is included, one body with nontrivial topology.
 
-## 12. Multiprojectivity
+## 11. Multiprojectivity
 
 In mathematics, one and the same structure is often revealed through different representations. A geometric figure can be given by coordinates, a graph of connections, a matrix, a symmetry group, a coloring, an algorithm of construction, or a set of invariants. Usually these are different languages for an already given object.
 
@@ -286,7 +270,7 @@ In DOT this move enters the construction itself. The stability of distinction is
 
 The six-point scene of rank $3$ gives a compact example. One and the same carrier is read as a color body, as arithmetic of divisors, as topological transport, and as a bridge to the root system $A_2$. These readings remain different and converge on one finite structure.
 
-### 12.1. Color Projection
+### 11.1. Color Projection
 
 The color reading places the six vertices of the active scene in the $RGB$ cube as saturated chromatic vertices. The total poles $000$ and $111$ become black and white: the limits of brightness between which the chromatic body unfolds.
 
@@ -300,7 +284,7 @@ The relation $R_2$ gives the $RGB/CMY$ split. The relation $R_3$ gives complemen
 
 The color reading has two aspects. The first is colors on vertices: each vertex corresponds to one saturated color. The second is colors on the chambers of the octahedron: the eight chambers correspond to eight regions of the color cube. In ordinary presentations the color wheel is often introduced almost informally; here it appears as a reading of the six-point scene.
 
-### 12.2. Arithmetic Projection
+### 11.2. Arithmetic Projection
 
 The arithmetic reading begins with divisors.
 
@@ -420,7 +404,7 @@ $$
 
 At rank three the whole proper carrier already is the outer octahedral layer. At rank four and above the outer cross-polytope layer becomes only part of a wider punctured carrier.
 
-### 12.3. Topological Projection
+### 11.3. Topological Projection
 
 The topological reading returns the Borromean motive not as an initial intuition, but as a structure of axes.
 
@@ -430,7 +414,7 @@ The half-return of transport, which in the previous section gave the Mobius stri
 
 The strict topological layer adds embedding space, curves, and invariants. The finite scene gives its initial data: three pairs, a cycle, half-return, and axial connectedness.
 
-### 12.4. Lie-Algebraic Bridge
+### 11.4. Lie-Algebraic Bridge
 
 The six-point carrier of rank three also has a bridge to the root system of type $A_2$. The two triples of the relation $R_2$ are read as weight diagrams of the fundamental and dual representations $\mathbf{3}$ and $\overline{\mathbf{3}}$ of the algebra $\mathfrak{sl}_3(\mathbb{C})$. The complement $R_3$ gives their involutive exchange.
 
@@ -440,7 +424,7 @@ Multiprojectivity depends on this discipline of boundaries. The color projection
 
 Color, arithmetic, topology, and Lie algebra remain different languages. What becomes common is the finite node on which they are compared without dissolving into one another: one small carrier withstands several independent ways of reading.
 
-## 13. Observer as Recoverable Distinction
+## 12. Observer as Recoverable Distinction
 
 Distinction begins as polarity, but becomes observation only when polarity is held, leaves a trace, and is recoverable when the reading changes.
 
@@ -450,7 +434,7 @@ In this architecture the observer arises as a structure of recoverable distincti
 
 When we say that a system "observes" something, we usually mean one of four things: it has a carrier on which distinctions are fixed; it has relations between distinctions; it has a reading that sends the structure to another form; and it has recoverability, that is, memory of what exactly was distinguished.
 
-All four slots at once:
+All four roles are gathered in one record:
 
 $$
 \begin{aligned}
@@ -458,6 +442,6 @@ $$
 \end{aligned}
 $$
 
-Observerhood is given by the completeness of these four slots. A system begins to be observational exactly when distinction in it is held, read, and recoverable.
+Here $X$ is the carrier, $R$ is the relation, $q$ is the reading, and $\mathrm{rec}$ is the recoverable part after reading. Observerhood is given by the completeness of these four roles. A system becomes observational when distinction in it arises, is held on a carrier, is connected by relations, is read, and remains recoverable.
 
 This architecture can then unfold in different directions: color, arithmetic of divisors, topology, spectrum, Lie algebras, neural-network representations. But all these branches descend from one common place: the moment when distinction ceased to be an instantaneous act and became a recoverable structure.
