@@ -3093,6 +3093,99 @@ $$
 
 These three objects cannot be glued together.
 
+### 3.4.5. Outer-shell axis law
+
+The equality
+
+$$
+\begin{aligned}
+U_3 &= V_3
+\end{aligned}
+$$
+
+is exceptional. It is the reason why the whole proper divisor carrier \(D^\circ(30)\) can already be read as the octahedral outer shell.
+
+For \(n\geq4\), the proper carrier and the outer shell separate:
+
+$$
+\begin{aligned}
+V_n &\subset U_n.
+\end{aligned}
+$$
+
+Let
+
+$$
+\begin{aligned}
+N_n &= p_1p_2\cdots p_n.
+\end{aligned}
+$$
+
+Then the outer shell is the atom/coatom layer
+
+$$
+\begin{aligned}
+V_n &= \{p_i:1\leq i\leq n\}\ \sqcup\ \{N_n/p_i:1\leq i\leq n\}.
+\end{aligned}
+$$
+
+It is organized into \(n\) complement axes:
+
+$$
+\begin{aligned}
+(p_i,\prod_{j\neq i}p_j).
+\end{aligned}
+$$
+
+The left side is one manifested prime coordinate. The right side is the complementary divisor holding all remaining prime coordinates.
+
+For \(210=2\cdot3\cdot5\cdot7\), this gives
+
+$$
+\begin{aligned}
+2 &\mid 3\cdot5\cdot7 = 105,\\
+3 &\mid 2\cdot5\cdot7 = 70,\\
+5 &\mid 2\cdot3\cdot7 = 42,\\
+7 &\mid 2\cdot3\cdot5 = 30.
+\end{aligned}
+$$
+
+Thus
+
+$$
+\begin{aligned}
+V_4 &= \{2,3,5,7,105,70,42,30\},
+\end{aligned}
+$$
+
+with complement pairs
+
+$$
+\begin{aligned}
+(2,105),\qquad (3,70),\qquad (5,42),\qquad (7,30).
+\end{aligned}
+$$
+
+The interpair reading on this layer gives
+
+$$
+\begin{aligned}
+(V_4,R_{\mathrm{noncomp}}) &\cong K_{2,2,2,2},
+\end{aligned}
+$$
+
+the graph of the \(4\)-dimensional cross-polytope, also called the \(16\)-cell. The name \(16\)-cell refers to its cells; the vertex layer has \(8\) vertices.
+
+Thus the principle visible at \(30\) continues:
+
+```text
+one prime coordinate is manifested;
+all other prime coordinates are held by the complementary divisor;
+the pair forms one axis of the outer shell.
+```
+
+For \(n=3\), this law fills the whole proper carrier. For \(n\geq4\), it lives only on the outer shell \(V_n\), not on the whole punctured carrier \(U_n\).
+
 ---
 
 ## §3.5. Relation to (P1\text{–}P15)
