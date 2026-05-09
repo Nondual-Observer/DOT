@@ -345,6 +345,8 @@ $$
 \end{aligned}
 $$
 
+This notation echoes the triple of prohibitions and resolutions. In the resolutions, two prohibitions are active while the third holds the limit. In the divisor notation one sees a similar permutation of roles: one prime factor is selected as a coordinate, while the product of the other two gives its complementary side. Thus an axis $(p_i,\prod_{j\ne i}p_j)$ can be read as an arithmetic form of three-part holding.
+
 The ordinary divisor lattice by itself gives the divisibility order. The octahedral graph arises under another reading: all distinct vertices are connected except the pairs $d\leftrightarrow30/d$. Then one obtains $K_{2,2,2}$.
 
 At rank $4$ the same law continues, but no longer on the whole proper carrier. For
