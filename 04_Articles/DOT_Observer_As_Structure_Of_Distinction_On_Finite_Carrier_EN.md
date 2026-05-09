@@ -12,6 +12,8 @@ Thinking about what is needed for a process of distinction to persist, I arrived
 
 Somewhere here the Theory of Observable Distinction began.
 
+This article is an introductory route into the DOT corpus on GitHub. The strict finite construction is built in the [main English manuscript](../00_Theory/DOT_main_EN.md).
+
 ![White and black](../assets/bw.png)
 
 ## 2. From Idea to Theory
@@ -274,6 +276,8 @@ The six-point scene of rank $3$ gives a compact example. One and the same carrie
 
 The color reading places the six vertices of the active scene in the $RGB$ cube as saturated chromatic vertices. The total poles $000$ and $111$ become black and white: the limits of brightness between which the chromatic body unfolds.
 
+The full version of this projection is developed in the [RGB / CMY / Kuhn / HSV color bridge](../02_Bridges/01_Color_RGB_Kuhn/DOT_RGB_Kuhn_Color_Bridge_EN.md).
+
 The triple of weight-one states corresponds to primary colors $R,G,B$. The triple of weight-two states corresponds to secondary colors $C,M,Y$. The cycle $R_1$ becomes the hue cycle:
 
 ```text
@@ -287,6 +291,8 @@ The color reading has two aspects. The first is colors on vertices: each vertex 
 ### 11.2. Arithmetic Projection
 
 The arithmetic reading begins with divisors.
+
+The strict divisor branch of this construction is developed in [AMR-DC: divisor carrier and chain extension](../01_Mathematical_Start/03B_DOT_AMR_Divisor_Carrier_and_Chain_Extension_EN.md). The separate scale/residue AMR line is given in [03A AMR-SR](../01_Mathematical_Start/03A_DOT_AMR_Scale_Residue_Line_EN.md); its carrier is different, so it is not identified with the divisor branch.
 
 If a natural number $N$ is decomposed into a product of distinct prime factors, then each of its divisors corresponds to the choice of some subset of primes. For square-free $N$ with $n$ prime factors, the divisor lattice is Boolean:
 
@@ -408,6 +414,8 @@ At rank three the whole proper carrier already is the outer octahedral layer. At
 
 The topological reading returns the Borromean motive not as an initial intuition, but as a structure of axes.
 
+This line is developed in the [Hopf / Borromean bridge](../02_Bridges/04_Hopf_Borromean/DOT_Principles_Hopf_2x3_Full_2026-04-24_EN.md).
+
 The three complementary pairs of the six-point scene become three axial blocks. Each block can be read as a pair of circles with Hopf linking. The three blocks together form a Borromean triad: no pair gives the whole, but the whole triple holds the structure.
 
 The half-return of transport, which in the previous section gave the Mobius strip, here becomes the monodromy holding the axial triple.
@@ -417,6 +425,8 @@ The strict topological layer adds embedding space, curves, and invariants. The f
 ### 11.4. Lie-Algebraic Bridge
 
 The six-point carrier of rank three also has a bridge to the root system of type $A_2$. The two triples of the relation $R_2$ are read as weight diagrams of the fundamental and dual representations $\mathbf{3}$ and $\overline{\mathbf{3}}$ of the algebra $\mathfrak{sl}_3(\mathbb{C})$. The complement $R_3$ gives their involutive exchange.
+
+The full version is given in the [$A_2/\mathfrak{sl}_3/\mathfrak{su}(3)$ bridge](../02_Bridges/03_A2_sl3_su3/DOT_Six_State_A2_sl3_su3_EN.md). In physical language, the same $\mathfrak{su}(3)$ symmetry stands behind quark color; in DOT it enters as a bridge reading of the six-point carrier, not as an initial physical hypothesis.
 
 To pass to the root system one chooses a linear realization of one triangle in the Euclidean plane. Because of this, the Lie-algebraic layer has the status of a bridge. After such a choice, the finite combinatorics of the six-point scene coincides with root data of type $A_2$.
 
@@ -445,3 +455,13 @@ $$
 Here $X$ is the carrier, $R$ is the relation, $q$ is the reading, and $\mathrm{rec}$ is the recoverable part after reading. Observerhood is given by the completeness of these four roles. A system becomes observational when distinction in it arises, is held on a carrier, is connected by relations, is read, and remains recoverable.
 
 This architecture can then unfold in different directions: color, arithmetic of divisors, topology, spectrum, Lie algebras, neural-network representations. But all these branches descend from one common place: the moment when distinction ceased to be an instantaneous act and became a recoverable structure.
+
+## 13. Where to Read Next
+
+The main strict text is the [DOT manuscript](../00_Theory/DOT_main_EN.md). It builds the finite core up to rank $5$: from the polar pair and two-bit carrier to the six-point octahedral scene, then to ranks $4$ and $5$, the general law of growth, and the universal outer layer.
+
+The [Mathematical Start](../01_Mathematical_Start) folder contains entrances into the strict part. [01A](../01_Mathematical_Start/01A_DOT_Mathematical_Bridge_EN.md) gives the mathematical bridge to the core. [02A](../01_Mathematical_Start/02A_DOT_Core_Foundation_And_Theorems_EN.md) fixes the basic definitions and theorems for the six-point scene. [02B](../01_Mathematical_Start/02B_DOT_Shell_Extension_And_Categorical_Packaging_EN.md) continues the construction through shells, operators, and rank-4 packaging.
+
+AMR is now separated into two branches. [03A AMR-SR](../01_Mathematical_Start/03A_DOT_AMR_Scale_Residue_Line_EN.md) works on the carrier of pairs of positive integers $\mathbb N_{>0}^2$ and studies scale, primitive rays, and the scalar residue $\mathrm{Res}_{\mathrm{sr}}$. [03B AMR-DC](../01_Mathematical_Start/03B_DOT_AMR_Divisor_Carrier_and_Chain_Extension_EN.md) works on the divisor carrier $D(N)$ and gives an arithmetic avatar of the Boolean core: for $30=2\cdot3\cdot5$, the proper divisors become the six-point octahedral scene.
+
+The [Bridge Notes](../02_Bridges) folder gathers external readings of the already constructed core: the color cube and chambers, binary growth, the bridge to $A_2/\mathfrak{sl}_3/\mathfrak{su}(3)$, the Hopf/Borromean layer, and the cryptographic spectral block. The [Appendix](../03_Appendix/DOT_Appendix_AF_Atlas_And_Glossary_EN.md) serves as an atlas of objects, notation, and figures.
