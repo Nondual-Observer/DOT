@@ -42,30 +42,30 @@ This is how the negative form of the beginning arose. Instead of immediately def
 
 These three cases are linked in a Borromean way. Borromean linkage shows a special type of wholeness: three elements form one whole even though there are no stable pairwise links between them. In knot theory this is the standard example of a link where the whole is linked while no pair is linked by itself. In three-body physics, a similar principle appears in Efimov states: the triple is bound, not the separate pairs. In DOT this form of linkage is transferred to the conditions of distinction: each prohibition closes one way of breakdown, and removing any one of them destroys the whole construction.
 
-**Z^D — prohibition of coincidence.**
+**P^D — prohibition of coincidence.**
 
 > A position of distinction in which the distinguisher and the distinguished coincide is impossible.
 
-The sense of the prohibition is that one cannot simultaneously assert distinction and occupy a position where difference is absent. If the logical distance between the distinguisher and the distinguished is zero, the direction of distinction disappears: one cannot indicate from where and toward what the act is directed. Distinction becomes indistinguishable from its absence. Therefore `Z^D` prohibits the reduction of distinction to nominal designation without real difference.
+The sense of the prohibition is that one cannot simultaneously assert distinction and occupy a position where difference is absent. If the logical distance between the distinguisher and the distinguished is zero, the direction of distinction disappears: one cannot indicate from where and toward what the act is directed. Distinction becomes indistinguishable from its absence. Therefore `P^D` prohibits the reduction of distinction to nominal designation without real difference.
 
-**Z^F — prohibition of tracelessness.**
+**P^F — prohibition of tracelessness.**
 
 > A position of distinction in which the act of distinction leaves no distinguishable trace is impossible.
 
-This prohibition fixes the need for a minimal structural remainder: distinction must be distinguishable as having occurred. If distinction leaves no trace, it cannot be recognized, held, repeated, or included in a structure; such an act is equivalent to the absence of distinction. Therefore `Z^F` prohibits the reduction of distinction to an act without distinguishability.
+This prohibition fixes the need for a minimal structural remainder: distinction must be distinguishable as having occurred. If distinction leaves no trace, it cannot be recognized, held, repeated, or included in a structure; such an act is equivalent to the absence of distinction. Therefore `P^F` prohibits the reduction of distinction to an act without distinguishability.
 
-**Z^C — prohibition of external closure.**
+**P^C — prohibition of external closure.**
 
 > A position of distinction in which distinction requires an external measure, external center, or external completion is impossible.
 
-This prohibition fixes the internal autonomy of distinction. External measures, rules, and observers may appear later, but the ground of primary distinction must be held inside the position of distinction itself. If distinction is considered to have occurred only thanks to an external criterion, its ground has been moved outside. Then a regress appears: observer for observer, measure for measure, ground for ground. Therefore `Z^C` prohibits the reduction of distinction to an external rule, external scale, or transcendent center.
+This prohibition fixes the internal autonomy of distinction. External measures, rules, and observers may appear later, but the ground of primary distinction must be held inside the position of distinction itself. If distinction is considered to have occurred only thanks to an external criterion, its ground has been moved outside. Then a regress appears: observer for observer, measure for measure, ground for ground. Therefore `P^C` prohibits the reduction of distinction to an external rule, external scale, or transcendent center.
 
 Removing any prohibition gives collapse:
 
 ```text
-removal of Z^D -> distinguisher = distinguished -> identity
-removal of Z^F -> distinction without trace -> invisibility
-removal of Z^C -> external ground -> regress
+removal of P^D -> distinguisher = distinguished -> identity
+removal of P^F -> distinction without trace -> invisibility
+removal of P^C -> external ground -> regress
 ```
 
 ## 4. Resolutions
@@ -78,7 +78,7 @@ In the shortest notation:
 
 $$
 \begin{aligned}
-R &\equiv (Z^a \circ Z^a\ ;\ Z^\ell).
+R &\equiv (P^a \circ P^a\ ;\ P^\ell).
 \end{aligned}
 $$
 
@@ -88,9 +88,9 @@ The three basic resolutions:
 
 $$
 \begin{aligned}
-R^D &\equiv (Z^F_a \circ Z^C_a\ ;\ Z^D_\ell),\\
-R^F &\equiv (Z^D_a \circ Z^C_a\ ;\ Z^F_\ell),\\
-R^C &\equiv (Z^D_a \circ Z^F_a\ ;\ Z^C_\ell).
+R^D &\equiv (P^F_a \circ P^C_a\ ;\ P^D_\ell),\\
+R^F &\equiv (P^D_a \circ P^C_a\ ;\ P^F_\ell),\\
+R^C &\equiv (P^D_a \circ P^F_a\ ;\ P^C_\ell).
 \end{aligned}
 $$
 
@@ -103,9 +103,9 @@ In the third case a regime of connectedness arises: distance and trace are activ
 Intuitively:
 
 ```text
-Z^D prohibits collapse          -> distance is held
-Z^F prohibits tracelessness     -> trace is held
-Z^C prohibits external ground   -> internal autonomy is held
+P^D prohibits collapse          -> distance is held
+P^F prohibits tracelessness     -> trace is held
+P^C prohibits external ground   -> internal autonomy is held
 ```
 
 Thus the prohibitions become not only negative conditions, but also sources of positive regimes.
