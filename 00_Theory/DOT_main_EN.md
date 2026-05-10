@@ -67,9 +67,7 @@ $$
 This law explains how carriers, shells, complement pairs, outer shells, and operator layers are transported. The finite part of the manuscript closes as the package
 
 $$
-\mathfrak{R}_{\leq 5}^{\mathrm{fin}}
-=
-(\Pi_1,\mathfrak{C}_2,\mathfrak{C}_3,\mathfrak{C}_4,\mathfrak{A}_5),
+\mathfrak{R}_{\leq 5}^{\mathrm{fin}} = (\Pi_1,\mathfrak{C}_2,\mathfrak{C}_3,\mathfrak{C}_4,\mathfrak{A}_5),
 $$
 
 which gathers the constructed ranks under one name.
@@ -293,17 +291,13 @@ in which this term has all four components.
 Recovery datum is called full over $y\in Y$ if
 
 $$
-\mathrm{rec}(y)
-=
-\bigl(q^{-1}(y),\ R|_{q^{-1}(y)}\bigr),
+\mathrm{rec}(y) = \bigl(q^{-1}(y),\ R|_{q^{-1}(y)}\bigr),
 $$
 
 where
 
 $$
-R|_{q^{-1}(y)}
-=
-R\cap(q^{-1}(y)\times q^{-1}(y)).
+R|_{q^{-1}(y)} = R\cap(q^{-1}(y)\times q^{-1}(y)).
 $$
 
 In this case, the entire fiber of the reading over $y$, together with the
@@ -506,9 +500,7 @@ $$
 and therefore
 
 $$
-\mathrm{rec}_P(I)=(P,R_P)
-=
-\bigl(\pi^{-1}(I),R_P|_{\pi^{-1}(I)}\bigr).
+\mathrm{rec}_P(I)=(P,R_P) = \bigl(\pi^{-1}(I),R_P|_{\pi^{-1}(I)}\bigr).
 $$
 
 Compressed notation:
@@ -796,9 +788,7 @@ $$
 This gives the coordinate presentation
 
 $$
-\Pi_1^{\mathrm{coord}}
-=
-(Q_1,R_1^{\mathrm{pol}},q_1,\mathrm{rec}_1).
+\Pi_1^{\mathrm{coord}} = (Q_1,R_1^{\mathrm{pol}},q_1,\mathrm{rec}_1).
 $$
 
 This notation is obtained from $\Pi_1$ by replacing the names of elements
@@ -996,9 +986,7 @@ $$
 For $n\geq 1$,
 
 $$
-Q_n^*
-=
-Q_{n-1}^*
+Q_n^* = Q_{n-1}^*
 \sqcup
 \{e_n\}
 \sqcup
@@ -1083,9 +1071,7 @@ $$
 The three cases are disjoint. Therefore
 
 $$
-Q_n^*
-=
-Q_{n-1}^*
+Q_n^* = Q_{n-1}^*
 \sqcup
 \{e_n\}
 \sqcup
@@ -1111,9 +1097,7 @@ $$
 In formula form:
 
 $$
-Q_n^*
-=
-Q_{n-1}^*
+Q_n^* = Q_{n-1}^*
 \sqcup
 {e_n}
 \sqcup
@@ -1166,9 +1150,7 @@ Q_2^*=\{01\}\sqcup\{10\}\sqcup\{11\},
 $$
 
 $$
-Q_3^*
-=
-\{001,010,011\}
+Q_3^* = \{001,010,011\}
 \sqcup
 \{100\}
 \sqcup
@@ -1209,9 +1191,7 @@ $$
 The shell of rank $n$ is
 
 $$
-S_k^{(n)}
-=
-{x\in Q_n:\ |x|=k}.
+S_k^{(n)} = {x\in Q_n:\ |x|=k}.
 $$
 
 Emergence order is responsible for the order in which bits appear.
@@ -1311,11 +1291,7 @@ $$
 If $R$ is irreflexive, then
 
 $$
-R|_{\{x\}}
-=
-R\cap(\{x\}\times\{x\})
-=
-\varnothing.
+R|_{\{x\}} = R\cap(\{x\}\times\{x\}) = \varnothing.
 $$
 
 Therefore exact recovery for an identity graph reading is given by
@@ -1336,9 +1312,7 @@ $$
 The two-bit carrier is
 
 $$
-Q_2=\mathbb{F}_2^2
-=
-\{00,01,10,11\}.
+Q_2=\mathbb{F}_2^2 = \{00,01,10,11\}.
 $$
 
 <p align="center">
@@ -1369,9 +1343,7 @@ The coordinate $x_2$ is the new bit added by rank lift.
 By the emergence decomposition,
 
 $$
-Q_2^*
-=
-Q_1^*
+Q_2^* = Q_1^*
 \sqcup
 \{e_2\}
 \sqcup
@@ -1381,9 +1353,7 @@ $$
 In bit notation:
 
 $$
-Q_2^*
-=
-\{01\}
+Q_2^* = \{01\}
 \sqcup
 \{10\}
 \sqcup
@@ -1475,25 +1445,13 @@ $$
 For any $x\in Q_2$:
 
 $$
-\sigma_1\sigma_2(x)
-=
-\sigma_1(x+10)
-=
-x+10+01
-=
-x+11.
+\sigma_1\sigma_2(x) = \sigma_1(x+10) = x+10+01 = x+11.
 $$
 
 Similarly,
 
 $$
-\sigma_2\sigma_1(x)
-=
-\sigma_2(x+01)
-=
-x+01+10
-=
-x+11.
+\sigma_2\sigma_1(x) = \sigma_2(x+01) = x+01+10 = x+11.
 $$
 
 Therefore
@@ -1526,29 +1484,21 @@ The vector $x+y$ marks the coordinates in which $x$ and $y$ differ.
 On $Q_2$, there are two nontrivial Hamming relations:
 
 $$
-H_1^{(2)}
-=
-\{(x,y)\in Q_2^2:x\neq y,\ d_H(x,y)=1\},
+H_1^{(2)} = \{(x,y)\in Q_2^2:x\neq y,\ d_H(x,y)=1\},
 $$
 
 $$
-H_2^{(2)}
-=
-\{(x,y)\in Q_2^2:x\neq y,\ d_H(x,y)=2\}.
+H_2^{(2)} = \{(x,y)\in Q_2^2:x\neq y,\ d_H(x,y)=2\}.
 $$
 
 **Statement 4.7.**
 
 $$
-H_1^{(2)}
-=
-\{(x,x+e_i):x\in Q_2,\ i=1,2\}.
+H_1^{(2)} = \{(x,x+e_i):x\in Q_2,\ i=1,2\}.
 $$
 
 $$
-H_2^{(2)}
-=
-\{(x,x+11):x\in Q_2\}.
+H_2^{(2)} = \{(x,x+11):x\in Q_2\}.
 $$
 
 **Check.**
@@ -1642,9 +1592,7 @@ $$
 The graph reading $C_4$ on $Q_2$ is the presentation
 
 $$
-\Pi_2^{C_4}
-=
-(Q_2,H_1^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}),
+\Pi_2^{C_4} = (Q_2,H_1^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}),
 $$
 
 where
@@ -1715,9 +1663,7 @@ Orientation and path composition are not specified here.
 The graph reading $2K_2$ on $Q_2$ is the presentation
 
 $$
-\Pi_2^{2K_2}
-=
-(Q_2,H_2^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
+\Pi_2^{2K_2} = (Q_2,H_2^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
 $$
 
 **Statement 4.11.**
@@ -1825,19 +1771,11 @@ reading to $Q_n$ requires a separate definition.
 The comparator $\chi$ has two fibers:
 
 $$
-\mathrm{Eq}
-=
-\chi^{-1}(0)
-=
-\{00,11\},
+\mathrm{Eq} = \chi^{-1}(0) = \{00,11\},
 $$
 
 $$
-\mathrm{Opp}
-=
-\chi^{-1}(1)
-=
-\{01,10\}.
+\mathrm{Opp} = \chi^{-1}(1) = \{01,10\}.
 $$
 
 For the comparison presentation, choose the relation
@@ -1852,9 +1790,7 @@ on $Q_2$ whose edges lie inside the fibers of $\chi$.
 Indeed,
 
 $$
-H_2^{(2)}
-=
-\{00\leftrightarrow 11,\ 01\leftrightarrow 10\}.
+H_2^{(2)} = \{00\leftrightarrow 11,\ 01\leftrightarrow 10\}.
 $$
 
 Both links lie inside fibers:
@@ -1887,23 +1823,17 @@ presentation: it preserves the internal structure of each fiber.
 The comparison presentation of rank $2$ is
 
 $$
-\Pi_2^\chi
-=
-(Q_2,H_2^{(2)},\chi,\mathrm{rec}_\chi),
+\Pi_2^\chi = (Q_2,H_2^{(2)},\chi,\mathrm{rec}_\chi),
 $$
 
 where
 
 $$
-\mathrm{rec}_\chi(0)
-=
-(\{00,11\},H_2^{(2)}|_{\{00,11\}}),
+\mathrm{rec}_\chi(0) = (\{00,11\},H_2^{(2)}|_{\{00,11\}}),
 $$
 
 $$
-\mathrm{rec}_\chi(1)
-=
-(\{01,10\},H_2^{(2)}|_{\{01,10\}}).
+\mathrm{rec}_\chi(1) = (\{01,10\},H_2^{(2)}|_{\{01,10\}}).
 $$
 
 **Statement 4.14.**
@@ -1930,15 +1860,11 @@ Recovery datum on each fiber coincides with the induced relation
 $H_2^{(2)}$:
 
 $$
-\mathrm{rec}_\chi(0)
-=
-(\chi^{-1}(0),H_2^{(2)}|_{\chi^{-1}(0)}),
+\mathrm{rec}_\chi(0) = (\chi^{-1}(0),H_2^{(2)}|_{\chi^{-1}(0)}),
 $$
 
 $$
-\mathrm{rec}_\chi(1)
-=
-(\chi^{-1}(1),H_2^{(2)}|_{\chi^{-1}(1)}).
+\mathrm{rec}_\chi(1) = (\chi^{-1}(1),H_2^{(2)}|_{\chi^{-1}(1)}).
 $$
 
 Therefore $\Pi_2^\chi$ is exact.
@@ -1985,15 +1911,7 @@ $$
 Therefore
 
 $$
-\chi(x+11)
-=
-(x_2+1)+(x_1+1)
-=
-x_2+x_1+1+1
-=
-x_2+x_1
-=
-\chi(x).
+\chi(x+11) = (x_2+1)+(x_1+1) = x_2+x_1+1+1 = x_2+x_1 = \chi(x).
 $$
 
 Thus complement preserves the comparison mode: coincidence remains
@@ -2034,9 +1952,7 @@ $$
 The punctured coordinate subset of rank $2$ is
 
 $$
-Q_2^\circ
-=
-Q_2\setminus\{00,11\}.
+Q_2^\circ = Q_2\setminus\{00,11\}.
 $$
 
 That is,
@@ -2052,9 +1968,7 @@ the subset $Q_2^\circ$, obtained by excluding total poles:
 $$
 Q_2
 \rightsquigarrow
-Q_2^\circ
-=
-Q_2\setminus\{00,11\}.
+Q_2^\circ = Q_2\setminus\{00,11\}.
 $$
 
 Here puncture means the transition from the full coordinate carrier to a
@@ -2077,9 +1991,7 @@ relational subcarrier.
 The central seam of rank $2$ is the subcarrier
 
 $$
-A_2
-=
-(\{01,10\},H_2^{(2)}|_{\{01,10\}}).
+A_2 = (\{01,10\},H_2^{(2)}|_{\{01,10\}}).
 $$
 
 In graph notation:
@@ -2130,17 +2042,13 @@ the total poles in $Q_3$ defines a six-point mixed carrier.
 The full relation reading on $Q_2$ is given by the relation
 
 $$
-R_{K_4}^{(2)}
-=
-\{(x,y)\in Q_2^2:x\neq y\}.
+R_{K_4}^{(2)} = \{(x,y)\in Q_2^2:x\neq y\}.
 $$
 
 The corresponding presentation is
 
 $$
-\Pi_2^{K_4}
-=
-(Q_2,R_{K_4}^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
+\Pi_2^{K_4} = (Q_2,R_{K_4}^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
 $$
 
 **Statement 4.22.**
@@ -2182,25 +2090,19 @@ $R_{K_4-e}^{(2)}$.
 The lower sector is
 
 $$
-\Delta_{\wedge}
-=
-\{00,01,10\}.
+\Delta_{\wedge} = \{00,01,10\}.
 $$
 
 The upper sector is
 
 $$
-\Delta_{\vee}
-=
-\{11,01,10\}.
+\Delta_{\vee} = \{11,01,10\}.
 $$
 
 Their intersection is
 
 $$
-\Delta_{\wedge}\cap\Delta_{\vee}
-=
-\{01,10\}.
+\Delta_{\wedge}\cap\Delta_{\vee} = \{01,10\}.
 $$
 
 Therefore both sectors have the same central seam
@@ -2216,15 +2118,11 @@ $A_2$.
 These are
 
 $$
-\Delta_{\wedge}
-=
-A_2\cup\{00\},
+\Delta_{\wedge} = A_2\cup\{00\},
 $$
 
 $$
-\Delta_{\vee}
-=
-A_2\cup\{11\}.
+\Delta_{\vee} = A_2\cup\{11\}.
 $$
 
 **Check.**
@@ -2282,9 +2180,7 @@ is defined by deleting the total-pole diagonal from the full relation reading
 $K_4$:
 
 $$
-R_{K_4-e}^{(2)}
-=
-R_{K_4}^{(2)}
+R_{K_4-e}^{(2)} = R_{K_4}^{(2)}
 \setminus
 \{(00,11),(11,00)\}.
 $$
@@ -2292,9 +2188,7 @@ $$
 The corresponding presentation is
 
 $$
-\Pi_2^{K_4-e}
-=
-(Q_2,R_{K_4-e}^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
+\Pi_2^{K_4-e} = (Q_2,R_{K_4-e}^{(2)},\mathrm{id}_{Q_2},\mathrm{rec}_{\mathrm{id}}).
 $$
 
 **Statement 4.26.**
@@ -2408,17 +2302,13 @@ This is the central seam $A_2$.
 The relation on the simplex sectors is induced from the partial closure:
 
 $$
-R_{\Delta_{\wedge}}
-=
-R_{K_4-e}^{(2)}
+R_{\Delta_{\wedge}} = R_{K_4-e}^{(2)}
 \cap
 (\Delta_{\wedge}\times\Delta_{\wedge}),
 $$
 
 $$
-R_{\Delta_{\vee}}
-=
-R_{K_4-e}^{(2)}
+R_{\Delta_{\vee}} = R_{K_4-e}^{(2)}
 \cap
 (\Delta_{\vee}\times\Delta_{\vee}).
 $$
@@ -2497,9 +2387,7 @@ The rank-2 comparison package fixes all relation presentations constructed on
 $Q_2$:
 
 $$
-\mathfrak C_2
-=
-\left(
+\mathfrak C_2 = \left(
 Q_2,
 \Pi_2^{C_4},
 \Pi_2^{2K_2},
@@ -2562,9 +2450,7 @@ inherited from $Q_2$.
 By Statement 3.4 (§3.7), for rank lift at $n=3$:
 
 $$
-Q_3^*
-=
-Q_2^*
+Q_3^* = Q_2^*
 \sqcup
 \{e_3\}
 \sqcup
@@ -2586,9 +2472,7 @@ $$
 in three-bit notation we obtain:
 
 $$
-Q_3^*
-=
-\{001,010,011\}
+Q_3^* = \{001,010,011\}
 \sqcup
 \{100\}
 \sqcup
@@ -2688,9 +2572,7 @@ of this transition is fixed.
 The punctured coordinate subset of rank $n$ is
 
 $$
-Q_n^\circ
-=
-Q_n\setminus\{0^n,1^n\}.
+Q_n^\circ = Q_n\setminus\{0^n,1^n\}.
 $$
 
 Rank-$n$ puncture is the transition
@@ -2721,19 +2603,13 @@ The admissible carrier of rank $3$ is the punctured coordinate subset of
 rank $3$:
 
 $$
-X_{\mathrm{adm}}
-=
-Q_3^\circ
-=
-Q_3\setminus\{000,111\}.
+X_{\mathrm{adm}} = Q_3^\circ = Q_3\setminus\{000,111\}.
 $$
 
 That is,
 
 $$
-X_{\mathrm{adm}}
-=
-\{001,010,011,100,101,110\}.
+X_{\mathrm{adm}} = \{001,010,011,100,101,110\}.
 $$
 
 <p align="center">
@@ -2791,9 +2667,7 @@ $$
 After puncture, the middle shells remain:
 
 $$
-X_{\mathrm{adm}}
-=
-S_1^{(3)}
+X_{\mathrm{adm}} = S_1^{(3)}
 \sqcup
 S_2^{(3)}.
 $$
@@ -2801,9 +2675,7 @@ $$
 That is,
 
 $$
-X_{\mathrm{adm}}
-=
-\{001,010,100\}
+X_{\mathrm{adm}} = \{001,010,100\}
 \sqcup
 \{011,101,110\}.
 $$
@@ -2813,9 +2685,7 @@ $$
 Rank-2 puncture:
 
 $$
-Q_2\setminus\{00,11\}
-=
-\{01,10\}.
+Q_2\setminus\{00,11\} = \{01,10\}.
 $$
 
 The residue has two states and returns a carrier of type $K_2$.
@@ -2823,9 +2693,7 @@ The residue has two states and returns a carrier of type $K_2$.
 Rank-3 puncture:
 
 $$
-Q_3\setminus\{000,111\}
-=
-\{001,010,011,100,101,110\}.
+Q_3\setminus\{000,111\} = \{001,010,011,100,101,110\}.
 $$
 
 **Statement 5.5.**
@@ -2859,9 +2727,7 @@ Unlike rank $2$, where puncture leaves a two-point subset, rank $3$ first
 gives a six-point mixed carrier:
 
 $$
-X_{\mathrm{adm}}
-=
-Q_3\setminus\{000,111\}.
+X_{\mathrm{adm}} = Q_3\setminus\{000,111\}.
 $$
 
 Section §5 fixes the carrier layer.
@@ -2950,11 +2816,7 @@ extending the complement transition introduced in §4.
 Section §6 uses the carrier constructed in §5:
 
 $$
-X_{\mathrm{adm}}
-=
-Q_3\setminus\{000,111\}
-=
-S_1^{(3)}\sqcup S_2^{(3)}.
+X_{\mathrm{adm}} = Q_3\setminus\{000,111\} = S_1^{(3)}\sqcup S_2^{(3)}.
 $$
 
 The carrier of §6 is $X_{\mathrm{adm}}$. The new layer defines relations
@@ -2997,9 +2859,7 @@ $$
 the relation $R_k$ on $X_{\mathrm{adm}}$ is defined by
 
 $$
-R_k
-=
-\{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:
+R_k = \{(x,y)\in X_{\mathrm{adm}}\times X_{\mathrm{adm}}:
 x\neq y,\ d_H(x,y)=k\}.
 $$
 
@@ -3016,9 +2876,7 @@ $$
 consider the identity graph reading
 
 $$
-\Pi_{3,k}
-=
-\bigl(
+\Pi_{3,k} = \bigl(
 X_{\mathrm{adm}},
 R_k,
 \mathrm{id}_{X_{\mathrm{adm}}},
@@ -3030,9 +2888,7 @@ By §4.3, for an identity graph reading with an irreflexive relation $R$, the
 recovery datum has the form
 
 $$
-\mathrm{rec}_{\mathrm{id}}(x)
-=
-(\{x\},\varnothing).
+\mathrm{rec}_{\mathrm{id}}(x) = (\{x\},\varnothing).
 $$
 
 Since $R_k$ is irreflexive, this formula applies to each $\Pi_{3,k}$.
@@ -3359,11 +3215,7 @@ disjoint and together cover all pairs of distinct states.
 Control count:
 
 $$
-\binom{|X_{\mathrm{adm}}|}{2}
-=
-\binom{6}{2}
-=
-15.
+\binom{|X_{\mathrm{adm}}|}{2} = \binom{6}{2} = 15.
 $$
 
 From Statements 6.2-6.4:
@@ -3389,9 +3241,7 @@ $$
 Therefore
 
 $$
-\mathcal R_{\mathrm{adm}}^{(3)}
-=
-\{R_1, R_2, R_3\}
+\mathcal R_{\mathrm{adm}}^{(3)} = \{R_1, R_2, R_3\}
 $$
 
 is the full static Hamming relation grammar of $X_{\mathrm{adm}}$.
@@ -3474,9 +3324,7 @@ The complement-pair partition of the carrier $X_{\mathrm{adm}}$ is the
 decomposition
 
 $$
-X_{\mathrm{adm}}
-=
-\beta_1\sqcup\beta_2\sqcup\beta_3,
+X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3,
 $$
 
 where
@@ -3509,9 +3357,7 @@ are present between distinct $\beta_i$.
 On $X_{\mathrm{adm}}$, define the relation
 
 $$
-R_{12}
-=
-R_1\cup R_2.
+R_{12} = R_1\cup R_2.
 $$
 
 Thus for
@@ -3587,9 +3433,7 @@ $$
 define the identity graph reading
 
 $$
-\Pi_{12}
-=
-\bigl(
+\Pi_{12} = \bigl(
 X_{\mathrm{adm}},
 R_{12},
 \mathrm{id}_{X_{\mathrm{adm}}},
@@ -3610,9 +3454,7 @@ By §4.3, for an identity graph reading with an irreflexive relation $R$, the
 recovery datum has the form
 
 $$
-\mathrm{rec}_{\mathrm{id}}(x)
-=
-(\{x\},\varnothing).
+\mathrm{rec}_{\mathrm{id}}(x) = (\{x\},\varnothing).
 $$
 
 Since $R_{12}$ is irreflexive, this formula applies to $\Pi_{12}$.
@@ -3637,9 +3479,7 @@ is the complete tripartite graph with three parts of size $2$. This means
 that the vertex set is decomposed as
 
 $$
-V
-=
-V_1\sqcup V_2\sqcup V_3,
+V = V_1\sqcup V_2\sqcup V_3,
 \qquad
 |V_1|=|V_2|=|V_3|=2,
 $$
@@ -3675,9 +3515,7 @@ from Definition 7.3.
 Use the decomposition
 
 $$
-X_{\mathrm{adm}}
-=
-\beta_1\sqcup\beta_2\sqcup\beta_3,
+X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3,
 $$
 
 where
@@ -3764,13 +3602,7 @@ $$
 By Statement 6.5, the relations $R_1$ and $R_2$ are disjoint. Therefore
 
 $$
-|E(R_{12})|
-=
-|E(R_1)|+|E(R_2)|
-=
-6+6
-=
-12.
+|E(R_{12})| = |E(R_1)|+|E(R_2)| = 6+6 = 12.
 $$
 
 On the other hand, in $K_{2,2,2}$ there are three pairs of parts, and between
@@ -3783,11 +3615,7 @@ $$
 edges. Therefore
 
 $$
-|E(K_{2,2,2})|
-=
-3\cdot4
-=
-12.
+|E(K_{2,2,2})| = 3\cdot4 = 12.
 $$
 
 The count agrees with the structural check.
@@ -3917,9 +3745,7 @@ $$
 The octahedral graph reading package on $X_{\mathrm{adm}}$ is the structure
 
 $$
-\mathcal O_{12}
-=
-\bigl(
+\mathcal O_{12} = \bigl(
 \Pi_{12},
 [(X_{\mathrm{adm}},R_{12})\cong O_3^{(1)}]
 \bigr),
@@ -4106,9 +3932,7 @@ Section §7 uses another decomposition of the already assembled carrier.
 The shell order from §5 gives
 
 $$
-X_{\mathrm{adm}}
-=
-S_1^{(3)}
+X_{\mathrm{adm}} = S_1^{(3)}
 \sqcup
 S_2^{(3)}.
 $$
@@ -4124,9 +3948,7 @@ $$
 Section §7 uses a different decomposition:
 
 $$
-X_{\mathrm{adm}}
-=
-\beta_1\sqcup\beta_2\sqcup\beta_3.
+X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3.
 $$
 
 This is the octahedral partition. It is defined by complement pairing.
@@ -4176,9 +3998,7 @@ $$
 By §7.1, the admissible carrier is partitioned into complement pairs:
 
 $$
-X_{\mathrm{adm}}
-=
-\beta_1\sqcup\beta_2\sqcup\beta_3,
+X_{\mathrm{adm}} = \beta_1\sqcup\beta_2\sqcup\beta_3,
 $$
 
 where
@@ -4339,11 +4159,7 @@ $$
 Each pair gives two choices. Therefore
 
 $$
-|\mathrm{Cham}(O_3)|
-=
-2\cdot 2\cdot 2
-=
-8.
+|\mathrm{Cham}(O_3)| = 2\cdot 2\cdot 2 = 8.
 $$
 
 $$
@@ -4400,9 +4216,7 @@ $$
 define the chamber
 
 $$
-C_\varepsilon
-=
-\{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
+C_\varepsilon = \{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
 $$
 
 In agreement with the bit order of §3.6, the index of the chamber as a
@@ -4415,9 +4229,7 @@ $$
 That is,
 
 $$
-C_{\varepsilon_3\varepsilon_2\varepsilon_1}
-=
-\{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
+C_{\varepsilon_3\varepsilon_2\varepsilon_1} = \{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
 $$
 
 This gives a map
@@ -4629,9 +4441,7 @@ $$
 By §7,
 
 $$
-V_O
-=
-\{001,010,011,100,101,110\}.
+V_O = \{001,010,011,100,101,110\}.
 $$
 
 By §8.5 the marking of complement pairs is fixed as
@@ -4672,9 +4482,7 @@ isomorphism.
 A chamber has the form
 
 $$
-C_\varepsilon
-=
-\{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\},
+C_\varepsilon = \{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\},
 \qquad
 \varepsilon=(\varepsilon_1,\varepsilon_2,\varepsilon_3)\in\{0,1\}^3.
 $$
@@ -4797,9 +4605,7 @@ incident to exactly four chambers.
 Indeed, a chamber has the form
 
 $$
-C_\varepsilon
-=
-\{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
+C_\varepsilon = \{b_1^{\varepsilon_1},b_2^{\varepsilon_2},b_3^{\varepsilon_3}\}.
 $$
 
 It contains exactly one vertex from each complement pair, hence exactly
@@ -4833,19 +4639,11 @@ $$
 It is computed from both sides:
 
 $$
-|C_O|\cdot 3
-=
-8\cdot 3
-=
-24,
+|C_O|\cdot 3 = 8\cdot 3 = 24,
 $$
 
 $$
-|V_O|\cdot 4
-=
-6\cdot 4
-=
-24.
+|V_O|\cdot 4 = 6\cdot 4 = 24.
 $$
 
 
@@ -4861,9 +4659,7 @@ $$
 its incidence star is the set
 
 $$
-\mathrm{Star}(x)
-=
-\{C\in C_O:(x,C)\in\mathrm{Inc}_O\}.
+\mathrm{Star}(x) = \{C\in C_O:(x,C)\in\mathrm{Inc}_O\}.
 $$
 
 Thus $\mathrm{Star}(x)$ is the set of all chambers containing the
@@ -4878,9 +4674,7 @@ $$
 we obtain the coordinate formula
 
 $$
-\mathrm{Star}(b_i^\eta)
-=
-\{C_\varepsilon:\varepsilon_i=\eta\}.
+\mathrm{Star}(b_i^\eta) = \{C_\varepsilon:\varepsilon_i=\eta\}.
 $$
 
 By §9.4,
@@ -4893,9 +4687,7 @@ $$
 A coordinate face in $Q_3$ is a subset of the form
 
 $$
-F_i^\eta
-=
-\{\varepsilon\in Q_3:\varepsilon_i=\eta\},
+F_i^\eta = \{\varepsilon\in Q_3:\varepsilon_i=\eta\},
 $$
 
 where
@@ -4945,15 +4737,11 @@ be the two vertices of one complement pair.
 Then
 
 $$
-\mathrm{Star}(b_i^0)
-=
-\{C_\varepsilon:\varepsilon_i=0\},
+\mathrm{Star}(b_i^0) = \{C_\varepsilon:\varepsilon_i=0\},
 $$
 
 $$
-\mathrm{Star}(b_i^1)
-=
-\{C_\varepsilon:\varepsilon_i=1\}.
+\mathrm{Star}(b_i^1) = \{C_\varepsilon:\varepsilon_i=1\}.
 $$
 
 **Remark 9.5.**
@@ -4962,9 +4750,7 @@ These two sets are disjoint:
 $$
 \mathrm{Star}(b_i^0)
 \cap
-\mathrm{Star}(b_i^1)
-=
-\varnothing.
+\mathrm{Star}(b_i^1) = \varnothing.
 $$
 
 Their union is the whole chamber side:
@@ -4972,18 +4758,14 @@ Their union is the whole chamber side:
 $$
 \mathrm{Star}(b_i^0)
 \cup
-\mathrm{Star}(b_i^1)
-=
-C_O.
+\mathrm{Star}(b_i^1) = C_O.
 $$
 
 Therefore a complement pair of vertices of the octahedral skeleton is read
 on the chamber side as a pair of opposite coordinate faces in $Q_3$:
 
 $$
-\beta_i
-=
-\{b_i^0,b_i^1\}
+\beta_i = \{b_i^0,b_i^1\}
 \quad
 \longleftrightarrow
 \quad
@@ -5046,15 +4828,11 @@ $$
 Then
 
 $$
-\mathrm{Star}(x)
-=
-\{C_\varepsilon:\varepsilon_i=\eta\},
+\mathrm{Star}(x) = \{C_\varepsilon:\varepsilon_i=\eta\},
 $$
 
 $$
-\mathrm{Star}(y)
-=
-\{C_\varepsilon:\varepsilon_j=\mu\}.
+\mathrm{Star}(y) = \{C_\varepsilon:\varepsilon_j=\mu\}.
 $$
 
 If
@@ -5140,9 +4918,7 @@ $$
 denote its vertex support by
 
 $$
-\mathrm{Vert}(C)
-=
-\{x\in V_O:(x,C)\in\mathrm{Inc}_O\}.
+\mathrm{Vert}(C) = \{x\in V_O:(x,C)\in\mathrm{Inc}_O\}.
 $$
 
 By the definition of a chamber,
@@ -5185,9 +4961,7 @@ But in §8, $C$ and $D$ are already the vertex supports of the chambers,
 so
 
 $$
-C\cap D
-=
-\mathrm{Vert}(C)\cap\mathrm{Vert}(D).
+C\cap D = \mathrm{Vert}(C)\cap\mathrm{Vert}(D).
 $$
 
 Also by §8.6,
@@ -5272,9 +5046,7 @@ $$
 with entries
 
 $$
-(B_O)_{b_i^\eta,\varepsilon}
-=
-1
+(B_O)_{b_i^\eta,\varepsilon} = 1
 $$
 
 if and only if
@@ -5286,9 +5058,7 @@ $$
 By the formula of §9.2 this is equivalent to
 
 $$
-(B_O)_{b_i^\eta,\varepsilon}
-=
-1
+(B_O)_{b_i^\eta,\varepsilon} = 1
 \quad\Longleftrightarrow\quad
 \varepsilon_i=\eta.
 $$
@@ -5413,9 +5183,7 @@ This is a disjoint $14$-element carrier with two vertex types.
 To write incidence as a relation on one carrier, introduce the disjoint sum
 
 $$
-Z_O
-=
-V_O
+Z_O = V_O
 \sqcup
 C_O.
 $$
@@ -5423,9 +5191,7 @@ $$
 The elements of $Z_O$ have type
 
 $$
-\mathrm{type}(z)
-=
-\begin{cases}
+\mathrm{type}(z) = \begin{cases}
 \mathrm{v}, & z\in V_O,\
 \mathrm{c}, & z\in C_O.
 \end{cases}
@@ -5463,9 +5229,7 @@ $$
 is defined as the symmetrization of $\mathrm{Inc}_O$:
 
 $$
-R_{vc}
-=
-\{(x,C),(C,x):x\in V_O,
+R_{vc} = \{(x,C),(C,x):x\in V_O,
 \ C\in C_O,
 \ (x,C)\in\mathrm{Inc}_O\}.
 $$
@@ -5474,9 +5238,7 @@ $$
 The full relation package of §9 is
 
 $$
-R_O
-=
-R_{vv}
+R_O = R_{vv}
 \cup
 R_{cc}
 \cup
@@ -5498,9 +5260,7 @@ is the two-type incidence carrier of the octahedral layer.
 The incidence presentation of the octahedral layer is
 
 $$
-\Pi_O^{\mathrm{inc}}
-=
-\left(
+\Pi_O^{\mathrm{inc}} = \left(
 Z_O,
 R_O,
 \mathrm{id}_{Z_O},
@@ -5541,9 +5301,7 @@ $$
 The recovery datum is
 
 $$
-\mathrm{rec}_{\mathrm{id}}(z)
-=
-(\{z\},\varnothing).
+\mathrm{rec}_{\mathrm{id}}(z) = (\{z\},\varnothing).
 $$
 
 Since the reading is the identity reading, the presentation is exact.
@@ -5619,9 +5377,7 @@ $$
 on
 
 $$
-X_{\mathrm{adm}}
-=
-\{001,010,011,100,101,110\}
+X_{\mathrm{adm}} = \{001,010,011,100,101,110\}
 $$
 
 is defined by the rule
@@ -5834,17 +5590,13 @@ $$
 That is,
 
 $$
-\vec R_T
-=
-\{(x,T(x)):x\in X_{\mathrm{adm}}\}.
+\vec R_T = \{(x,T(x)):x\in X_{\mathrm{adm}}\}.
 $$
 
 Explicitly:
 
 $$
-\vec R_T
-=
-\{
+\vec R_T = \{
 (001,011),
 (011,010),
 (010,110),
@@ -5857,18 +5609,14 @@ $$
 The opposite directed relation is
 
 $$
-\vec R_T^{-1}
-=
-\{(T(x),x):x\in X_{\mathrm{adm}}\}.
+\vec R_T^{-1} = \{(T(x),x):x\in X_{\mathrm{adm}}\}.
 $$
 
 **Corollary 10.5.**
 Symmetrizing the directed transport relation recovers $R_1$:
 
 $$
-R_1
-=
-\vec R_T
+R_1 = \vec R_T
 \cup
 \vec R_T^{-1}.
 $$
@@ -5905,9 +5653,7 @@ relation layer $R_1$.
 The relation grammar of §6 was static:
 
 $$
-\mathcal R_{\mathrm{adm}}^{(3)}
-=
-\{R_1, R_2, R_3\}.
+\mathcal R_{\mathrm{adm}}^{(3)} = \{R_1, R_2, R_3\}.
 $$
 
 The transport layer adds direction, composition, paths, iteration, and
@@ -5946,9 +5692,7 @@ $$
 Its objects are
 
 $$
-\mathrm{Ob}(\mathrm{Path}_T(C_6))
-=
-X_{\mathrm{adm}}.
+\mathrm{Ob}(\mathrm{Path}_T(C_6)) = X_{\mathrm{adm}}.
 $$
 
 The generating arrows are
@@ -6210,9 +5954,7 @@ Thus the transport acts on the vertex side and on the incidence package.
 By §9 the two-type carrier was constructed:
 
 $$
-Z_O
-=
-V_O\sqcup C_O,
+Z_O = V_O\sqcup C_O,
 $$
 
 where
@@ -6265,9 +6007,7 @@ $$
 Here
 
 $$
-R_O
-=
-R_{vv}\cup R_{cc}\cup R_{vc}
+R_O = R_{vv}\cup R_{cc}\cup R_{vc}
 $$
 
 is the full relation package of §9.
@@ -6279,9 +6019,7 @@ is the full relation package of §9.
 The vertex transport presentation is the exact presentation
 
 $$
-\Pi_T^{V}
-=
-\left(
+\Pi_T^{V} = \left(
 X_{\mathrm{adm}},
 \vec R_T,
 \mathrm{id}_{X_{\mathrm{adm}}},
@@ -6292,17 +6030,13 @@ $$
 where
 
 $$
-\vec R_T
-=
-\{(x,T(x)):x\in X_{\mathrm{adm}}\}.
+\vec R_T = \{(x,T(x)):x\in X_{\mathrm{adm}}\}.
 $$
 
 The reading is the identity reading. The recovery datum is
 
 $$
-\mathrm{rec}_{\mathrm{id}}(x)
-=
-(\{x\},\varnothing),
+\mathrm{rec}_{\mathrm{id}}(x) = (\{x\},\varnothing),
 $$
 
 because $\vec R_T$ is irreflexive.
@@ -6312,9 +6046,7 @@ The incidence transport presentation is the exact incidence presentation of
 §9,
 
 $$
-\Pi_O^{\mathrm{inc}}
-=
-\left(
+\Pi_O^{\mathrm{inc}} = \left(
 Z_O,
 R_O,
 \mathrm{id}_{Z_O},
@@ -6472,9 +6204,7 @@ $$
 By §5,
 
 $$
-X_{\mathrm{adm}}
-=
-S_1^{(3)}
+X_{\mathrm{adm}} = S_1^{(3)}
 \sqcup
 S_2^{(3)},
 $$
@@ -6482,15 +6212,11 @@ $$
 where
 
 $$
-S_1^{(3)}
-=
-\{001,010,100\},
+S_1^{(3)} = \{001,010,100\},
 $$
 
 $$
-S_2^{(3)}
-=
-\{011,101,110\}.
+S_2^{(3)} = \{011,101,110\}.
 $$
 
 **Statement 11.2.**
@@ -6819,9 +6545,7 @@ $$
 **Corollary 11.7.**
 
 $$
-\langle T\rangle
-=
-\{
+\langle T\rangle = \{
 T^0,T^1,T^2,T^3,T^4,T^5
 \}
 $$
@@ -6881,9 +6605,7 @@ $$
 Here
 
 $$
-\vec R_{T^k}
-=
-\{(x,T^k(x)):x\in X_{\mathrm{adm}}\}.
+\vec R_{T^k} = \{(x,T^k(x)):x\in X_{\mathrm{adm}}\}.
 $$
 
 For $k=1$:
@@ -7042,9 +6764,7 @@ $$
 We obtain commutativity:
 
 $$
-p_\beta\circ T
-=
-\bar T\circ p_\beta.
+p_\beta\circ T = \bar T\circ p_\beta.
 $$
 
 That is, the transport $T$ on $X_{\mathrm{adm}}$ covers a $3$-cycle
@@ -7228,9 +6948,7 @@ The periodization package of rank $3$ is the structure, that is, the
 single record of all transport data of §§10-11 used for later references:
 
 $$
-\mathcal P_T^{(3)}
-=
-\left(
+\mathcal P_T^{(3)} = \left(
 X_{\mathrm{adm}},
 \vec R_T,
 T,
@@ -7340,17 +7058,13 @@ $$
 The proper nonempty support carrier of the coordinate set $J_3$ is
 
 $$
-\mathcal P^\circ(J_3)
-=
-\{A\subset J_3:A\neq\varnothing,\ A\neq J_3\}.
+\mathcal P^\circ(J_3) = \{A\subset J_3:A\neq\varnothing,\ A\neq J_3\}.
 $$
 
 In expanded form:
 
 $$
-\mathcal P^\circ(J_3)
-=
-\{\{1\},\{2\},\{3\},\{1,2\},\{1,3\},\{2,3\}\}.
+\mathcal P^\circ(J_3) = \{\{1\},\{2\},\{3\},\{1,2\},\{1,3\},\{2,3\}\}.
 $$
 
 **Definition 12.3.**
@@ -7471,9 +7185,7 @@ $$
 define
 
 $$
-\rho_k
-=
-\{(A,B):A\neq B,\ |A\triangle B|=k\},
+\rho_k = \{(A,B):A\neq B,\ |A\triangle B|=k\},
 \qquad
 k=1,2,3,
 $$
@@ -7538,17 +7250,13 @@ $$
 That is,
 
 $$
-\{i:x_i\neq y_i\}
-=
-\mathrm{supp}(x)\triangle\mathrm{supp}(y).
+\{i:x_i\neq y_i\} = \mathrm{supp}(x)\triangle\mathrm{supp}(y).
 $$
 
 Therefore
 
 $$
-d_H(x,y)
-=
-|\mathrm{supp}(x)\triangle\mathrm{supp}(y)|.
+d_H(x,y) = |\mathrm{supp}(x)\triangle\mathrm{supp}(y)|.
 $$
 
 By the definitions of $R_k$ and $\rho_k$, this gives the required
@@ -7859,9 +7567,7 @@ $$
 The recovery datum is defined by
 
 $$
-\mathrm{rec}_{\mathrm{supp}}(A)
-=
-(\{\chi_A\},\varnothing).
+\mathrm{rec}_{\mathrm{supp}}(A) = (\{\chi_A\},\varnothing).
 $$
 
 If the relation is taken to be any of
@@ -7882,9 +7588,7 @@ $$
 Moreover, the relation package is recovered by the formula
 
 $$
-R_k
-=
-(\mathrm{supp}\times\mathrm{supp})^{-1}(\rho_k),
+R_k = (\mathrm{supp}\times\mathrm{supp})^{-1}(\rho_k),
 \qquad
 k=1,2,3.
 $$
@@ -8210,9 +7914,7 @@ $$
 In vertex/edge language:
 
 $$
-R_1
-=
-\text{incidence between vertex and incident edge}.
+R_1 = \text{incidence between vertex and incident edge}.
 $$
 
 ## §13.4. Opposite-Edge Operator and Relation $R_3$
@@ -8274,9 +7976,7 @@ $$
 if and only if
 
 $$
-\mathrm{supp}(y)
-=
-J_3\setminus\mathrm{supp}(x).
+\mathrm{supp}(y) = J_3\setminus\mathrm{supp}(x).
 $$
 
 **Check.**
@@ -8292,9 +7992,7 @@ Bitwise addition of $111$ changes $1$ to $0$ and $0$ to $1$.
 Therefore
 
 $$
-\mathrm{supp}(x+111)
-=
-J_3\setminus\mathrm{supp}(x).
+\mathrm{supp}(x+111) = J_3\setminus\mathrm{supp}(x).
 $$
 
 Hence
@@ -8302,9 +8000,7 @@ Hence
 $$
 (x,y)\in R_3
 \quad\Longleftrightarrow\quad
-\mathrm{supp}(y)
-=
-J_3\setminus\mathrm{supp}(x).
+\mathrm{supp}(y) = J_3\setminus\mathrm{supp}(x).
 $$
 
 $$
@@ -8358,9 +8054,7 @@ The relation $R_2$ connects distinct vertices with each other and
 distinct edges with each other:
 
 $$
-R_2
-=
-R_2|_{S_1^{(3)}}\sqcup R_2|_{S_2^{(3)}}.
+R_2 = R_2|_{S_1^{(3)}}\sqcup R_2|_{S_2^{(3)}}.
 $$
 
 Through the support reading:
@@ -8560,17 +8254,13 @@ $$
 The recovery datum is defined as in §12.9:
 
 $$
-\mathrm{rec}_{v/e}(A)
-=
-(\{\chi_A\},\varnothing).
+\mathrm{rec}_{v/e}(A) = (\{\chi_A\},\varnothing).
 $$
 
 We obtain the exact relation reading
 
 $$
-\Pi_{v/e}^{(3)}
-=
-\left(
+\Pi_{v/e}^{(3)} = \left(
 X_{\mathrm{adm}},
 R_3,
 q_{v/e},
@@ -8896,17 +8586,13 @@ $$
 The recovery datum is
 
 $$
-\mathrm{rec}_i(I_i)
-=
-(H_i,R_3|_{H_i}).
+\mathrm{rec}_i(I_i) = (H_i,R_3|_{H_i}).
 $$
 
 We obtain the exact axial presentation
 
 $$
-\Pi_i^{\mathrm{ax}}
-=
-(H_i,R_3|_{H_i},\pi_i,\mathrm{rec}_i).
+\Pi_i^{\mathrm{ax}} = (H_i,R_3|_{H_i},\pi_i,\mathrm{rec}_i).
 $$
 
 This is the rank-3 repetition of the basic form of §1:
@@ -8964,9 +8650,7 @@ $$
 That is,
 
 $$
-R_3
-=
-\text{same axis / opposite polarity}.
+R_3 = \text{same axis / opposite polarity}.
 $$
 
 ### $R_2$: different axis, same sign
@@ -8986,9 +8670,7 @@ $$
 That is,
 
 $$
-R_2
-=
-\text{same shell / axis shift}.
+R_2 = \text{same shell / axis shift}.
 $$
 
 ### $R_1$: different axis, opposite sign
@@ -9008,9 +8690,7 @@ $$
 That is,
 
 $$
-R_1
-=
-\text{axis shift with polarity switch}.
+R_1 = \text{axis shift with polarity switch}.
 $$
 
 ## §14.8. Check of the Axial Relation Grammar
@@ -9239,9 +8919,7 @@ $$
 The assembled semantic package of block D can be written as
 
 $$
-\mathcal A^{(3)}
-=
-\left(
+\mathcal A^{(3)} = \left(
 X_{\mathrm{adm}},
 R_1, R_2, R_3,
 \mathrm{supp},
@@ -9713,9 +9391,7 @@ $X_{\mathrm{adm}}$. Its target lies in the limiting pair of the full
 carrier:
 
 $$
-P_{\mathrm{tot}}^{(3)}
-=
-Q_3\setminus X_{\mathrm{adm}}.
+P_{\mathrm{tot}}^{(3)} = Q_3\setminus X_{\mathrm{adm}}.
 $$
 
 On $P_{\mathrm{tot}}^{(2)}$ and $P_{\mathrm{tot}}^{(3)}$ the complete
@@ -9855,9 +9531,7 @@ unique two-point relation of the target:
 
 $$
 (\lambda_i^{\mathrm{pair}}\times\lambda_i^{\mathrm{pair}})
-(R_\circ^{(2)})
-=
-R_3|_{H_i}.
+(R_\circ^{(2)}) = R_3|_{H_i}.
 $$
 
 $$
@@ -10056,9 +9730,7 @@ $$
 the following commutative identity holds:
 
 $$
-T^3\circ \lambda_i^{\mathrm{pair}}
-=
-\lambda_i^{\mathrm{pair}}\circ \tau_2.
+T^3\circ \lambda_i^{\mathrm{pair}} = \lambda_i^{\mathrm{pair}}\circ \tau_2.
 $$
 
 **Check.**
@@ -10071,11 +9743,7 @@ $$
 Then
 
 $$
-T^3(\lambda_i^{\mathrm{pair}}(01))
-=
-T^3(I_i^-)
-=
-I_i^+.
+T^3(\lambda_i^{\mathrm{pair}}(01)) = T^3(I_i^-) = I_i^+.
 $$
 
 On the other side:
@@ -10085,11 +9753,7 @@ $$
 $$
 
 $$
-\lambda_i^{\mathrm{pair}}(\tau_2(01))
-=
-\lambda_i^{\mathrm{pair}}(10)
-=
-I_i^+.
+\lambda_i^{\mathrm{pair}}(\tau_2(01)) = \lambda_i^{\mathrm{pair}}(10) = I_i^+.
 $$
 
 The equality holds on $01$.
@@ -10235,9 +9899,7 @@ $$
 The recovery datum is
 
 $$
-\mathrm{rec}_i^{\mathrm{pair}}(u)
-=
-(\{\lambda_i^{\mathrm{pair}}(u)\},\varnothing)
+\mathrm{rec}_i^{\mathrm{pair}}(u) = (\{\lambda_i^{\mathrm{pair}}(u)\},\varnothing)
 $$
 
 for singleton fibers, if the reading is taken as an inverse bijection.
@@ -10252,9 +9914,7 @@ $$
 then the recovery datum has the form of §14:
 
 $$
-\mathrm{rec}_i(I_i)
-=
-(H_i,R_3|_{H_i}).
+\mathrm{rec}_i(I_i) = (H_i,R_3|_{H_i}).
 $$
 
 Both records are exact, but they correspond to different reading goals: in
@@ -10266,9 +9926,7 @@ second case one recovers the full polar fiber over the invariant.
 The rank-lift formula from §3 gives:
 
 $$
-Q_3^*
-=
-Q_2^*
+Q_3^* = Q_2^*
 \sqcup
 \{e_3\}
 \sqcup
@@ -10284,9 +9942,7 @@ $$
 we obtain:
 
 $$
-Q_3^*
-=
-\{001,010,011\}
+Q_3^* = \{001,010,011\}
 \sqcup
 \{100\}
 \sqcup
@@ -10296,9 +9952,7 @@ $$
 After puncturing the upper total pole $111$:
 
 $$
-X_{\mathrm{adm}}
-=
-\{001,010,011\}
+X_{\mathrm{adm}} = \{001,010,011\}
 \sqcup
 \{100\}
 \sqcup
@@ -10364,9 +10018,7 @@ $$
 is the structure/package
 
 $$
-\mathfrak L_{2\to3}
-=
-\left(
+\mathfrak L_{2\to3} = \left(
 \mathfrak L_{\mathrm{face}},
 \mathfrak L_{\mathrm{tot}},
 \mathfrak L_{\mathrm{pair}},
@@ -10380,33 +10032,23 @@ It is a collection of lift data with the status of a structure/package.
 The components are:
 
 $$
-\mathfrak L_{\mathrm{face}}
-=
-\{\iota_i^\varepsilon:Q_2\to F_i^\varepsilon\}_{i,\varepsilon},
+\mathfrak L_{\mathrm{face}} = \{\iota_i^\varepsilon:Q_2\to F_i^\varepsilon\}_{i,\varepsilon},
 $$
 
 $$
-\mathfrak L_{\mathrm{tot}}
-=
-\{\mathrm{tp}_{2\to3}:P_{\mathrm{tot}}^{(2)}\to P_{\mathrm{tot}}^{(3)}\},
+\mathfrak L_{\mathrm{tot}} = \{\mathrm{tp}_{2\to3}:P_{\mathrm{tot}}^{(2)}\to P_{\mathrm{tot}}^{(3)}\},
 $$
 
 $$
-\mathfrak L_{\mathrm{pair}}
-=
-\{\lambda_i^{\mathrm{pair}}:Q_2^\circ\to H_i\}_{i=1}^3,
+\mathfrak L_{\mathrm{pair}} = \{\lambda_i^{\mathrm{pair}}:Q_2^\circ\to H_i\}_{i=1}^3,
 $$
 
 $$
-\mathfrak L_{\mathrm{triad}}
-=
-\{\lambda_{\Delta,\eta,r}^{\mathrm{triad}}:\Delta\to S_\eta^{(3)}\},
+\mathfrak L_{\mathrm{triad}} = \{\lambda_{\Delta,\eta,r}^{\mathrm{triad}}:\Delta\to S_\eta^{(3)}\},
 $$
 
 $$
-\mathfrak L_{\mathrm{tr}}
-=
-\{(Q_2^\circ,\tau_2)\leadsto (X_{\mathrm{adm}},T)\}.
+\mathfrak L_{\mathrm{tr}} = \{(Q_2^\circ,\tau_2)\leadsto (X_{\mathrm{adm}},T)\}.
 $$
 
 ## §16.2. Carrier Side and Relation Side
@@ -10564,9 +10206,7 @@ $$
 by the commutative identity
 
 $$
-T^3\circ \lambda_i^{\mathrm{pair}}
-=
-\lambda_i^{\mathrm{pair}}\circ \tau_2.
+T^3\circ \lambda_i^{\mathrm{pair}} = \lambda_i^{\mathrm{pair}}\circ \tau_2.
 $$
 
 Therefore the source operator $\tau_2$ is recoverable inside the target
@@ -10725,9 +10365,7 @@ $$
 Target:
 
 $$
-P_{\mathrm{tot}}^{(3)}
-=
-Q_3\setminus X_{\mathrm{adm}}.
+P_{\mathrm{tot}}^{(3)} = Q_3\setminus X_{\mathrm{adm}}.
 $$
 
 Therefore the total-pole lift does not send source poles into the active
@@ -11043,9 +10681,7 @@ is used here as the name of this finite pattern.
 The closure package of strict rank $3$ is the structure/package
 
 $$
-\mathfrak C_3
-=
-\left(
+\mathfrak C_3 = \left(
 Q_3,
 X_{\mathrm{adm}},
 R_1, R_2, R_3,R_{12},
@@ -11199,9 +10835,7 @@ $$
 The chamber-layer package:
 
 $$
-O_3^{\leq \mathrm{ch}}
-=
-\bigl(
+O_3^{\leq \mathrm{ch}} = \bigl(
 X_{\mathrm{adm}},
 R_{12},
 \mathrm{Cham}(O_3),
@@ -11218,9 +10852,7 @@ $$
 The incidence presentation:
 
 $$
-\Pi_O^{\mathrm{inc}}
-=
-\left(
+\Pi_O^{\mathrm{inc}} = \left(
 Z_O,
 R_O,
 \mathrm{id}_{Z_O},
@@ -11296,9 +10928,7 @@ $$
 The internal semantic package:
 
 $$
-\mathcal A^{(3)}
-=
-\left(
+\mathcal A^{(3)} = \left(
 X_{\mathrm{adm}},
 R_1, R_2, R_3,
 \mathrm{supp},
@@ -11350,9 +10980,7 @@ $$
 is an exact presentation because identity reading is used on $Z_O$;
 
 $$
-\Pi_i^{\mathrm{ax}}
-=
-(H_i,R_3|_{H_i},\pi_i,\mathrm{rec}_i),
+\Pi_i^{\mathrm{ax}} = (H_i,R_3|_{H_i},\pi_i,\mathrm{rec}_i),
 $$
 
 where
@@ -11366,9 +10994,7 @@ total-pole, pair, and triad lifts. The transport lift recovers the rank-2
 local swap by the formula
 
 $$
-T^3\circ \lambda_i^{\mathrm{pair}}
-=
-\lambda_i^{\mathrm{pair}}\circ \tau_2.
+T^3\circ \lambda_i^{\mathrm{pair}} = \lambda_i^{\mathrm{pair}}\circ \tau_2.
 $$
 
 ## §17.5. Emergence Order and Shell Order
@@ -11378,9 +11004,7 @@ Rank $3$ uses two different orders.
 Emergence order:
 
 $$
-Q_3^*
-=
-Q_2^*
+Q_3^* = Q_2^*
 \sqcup
 \{e_3\}
 \sqcup
@@ -11390,9 +11014,7 @@ $$
 For $e_3=100$:
 
 $$
-Q_3^*
-=
-\{001,010,011\}
+Q_3^* = \{001,010,011\}
 \sqcup
 \{100\}
 \sqcup
@@ -11402,9 +11024,7 @@ $$
 After puncture:
 
 $$
-X_{\mathrm{adm}}
-=
-\{001,010,011\}
+X_{\mathrm{adm}} = \{001,010,011\}
 \sqcup
 \{100\}
 \sqcup
@@ -11482,9 +11102,7 @@ This is the image of the old rank-3 saturation point in the face $D=0$.
 By Statement 3.4, for rank $4$:
 
 $$
-Q_4^*
-=
-Q_3^*
+Q_4^* = Q_3^*
 \sqcup
 \{e_D\}
 \sqcup
@@ -11500,9 +11118,7 @@ $$
 In expanded form:
 
 $$
-Q_4^*
-=
-\{P_1,\ldots,P_7\}
+Q_4^* = \{P_1,\ldots,P_7\}
 \sqcup
 \{P_8\}
 \sqcup
@@ -11649,9 +11265,7 @@ $P_{31}^{(5)}=11111$.
 ## §18.5. Shell Order of Rank $4$
 
 $$
-\mathcal P_4
-=
-S_1^{(4)}
+\mathcal P_4 = S_1^{(4)}
 \sqcup
 S_2^{(4)}
 \sqcup
@@ -11727,21 +11341,13 @@ $$
 The second shell:
 
 $$
-S_2^{(4)}
-=
-\{P_3,P_5,P_6,P_9,P_{10},P_{12}\}
-=
-\{AB,AC,BC,AD,BD,CD\}.
+S_2^{(4)} = \{P_3,P_5,P_6,P_9,P_{10},P_{12}\} = \{AB,AC,BC,AD,BD,CD\}.
 $$
 
 The third shell:
 
 $$
-S_3^{(4)}
-=
-\{P_7,P_{11},P_{13},P_{14}\}
-=
-\{ABC,ABD,ACD,BCD\}.
+S_3^{(4)} = \{P_7,P_{11},P_{13},P_{14}\} = \{ABC,ABD,ACD,BCD\}.
 $$
 
 The fourth shell:
@@ -11846,9 +11452,7 @@ The complement involution $\kappa_4$ decomposes the middle shell
 $S_2^{(4)}$ into three complement pairs:
 
 $$
-S_2^{(4)}
-=
-\{P_3,P_{12}\}
+S_2^{(4)} = \{P_3,P_{12}\}
 \sqcup
 \{P_5,P_{10}\}
 \sqcup
@@ -11909,9 +11513,7 @@ $\iota_{3\to4}$.
 On $\mathcal P_4$, define the Hamming relations
 
 $$
-\mathsf H_k^{(4)}
-=
-\{(x,y)\in \mathcal P_4\times\mathcal P_4:x\neq y,\ d_H(x,y)=k\},
+\mathsf H_k^{(4)} = \{(x,y)\in \mathcal P_4\times\mathcal P_4:x\neq y,\ d_H(x,y)=k\},
 \qquad
 k=1,2,3,4.
 $$
@@ -12235,9 +11837,7 @@ $$
 The residual relation:
 
 $$
-\Omega_4
-=
-\{(x,y)\in V_4\times V_4:x\neq y,\ y\neq\kappa_4(x)\}.
+\Omega_4 = \{(x,y)\in V_4\times V_4:x\neq y,\ y\neq\kappa_4(x)\}.
 $$
 
 **Statement 20.2.**
@@ -12284,9 +11884,7 @@ $$
 **Statement 20.3.**
 
 $$
-\Omega_4
-=
-\mathsf H_2^{(4)}\cap(V_4\times V_4).
+\Omega_4 = \mathsf H_2^{(4)}\cap(V_4\times V_4).
 $$
 
 That is, all residual edges on $V_4$ are Hamming-distance $2$ edges.
@@ -12324,17 +11922,13 @@ $$
 Recovery:
 
 $$
-\mathrm{rec}_i^{(4)}(I_i)
-=
-(H_i^{(4)},\mathsf H_4^{(4)}|_{H_i^{(4)}}).
+\mathrm{rec}_i^{(4)}(I_i) = (H_i^{(4)},\mathsf H_4^{(4)}|_{H_i^{(4)}}).
 $$
 
 Presentation:
 
 $$
-\Pi_i^{\mathrm{ax},(4)}
-=
-\left(
+\Pi_i^{\mathrm{ax},(4)} = \left(
 H_i^{(4)},
 \mathsf H_4^{(4)}|_{H_i^{(4)}},
 \pi_i^{(4)},
@@ -12426,9 +12020,7 @@ on $V_4$.
 The rank-4 cycle atlas is the structure/package
 
 $$
-\mathcal C_4
-=
-(C_8^{(4)},C_6^{(4),\mathrm{mid}},C_{15}^{(4)}),
+\mathcal C_4 = (C_8^{(4)},C_6^{(4),\mathrm{mid}},C_{15}^{(4)}),
 $$
 
 where $C_8^{(4)}$ is the chosen Hamilton cycle on $V_4$,
@@ -12565,9 +12157,7 @@ $$
 The complement-pair reading on $\mathcal P_4\setminus\{P_{15}\}$:
 
 $$
-B_7^{(4)}
-=
-\{\{x,\kappa_4(x)\}:x\in\mathcal P_4\setminus\{P_{15}\}\}.
+B_7^{(4)} = \{\{x,\kappa_4(x)\}:x\in\mathcal P_4\setminus\{P_{15}\}\}.
 $$
 
 This is a set of $7$ complement pairs.
@@ -12583,17 +12173,13 @@ $$
 Recovery:
 
 $$
-\mathrm{rec}_\kappa^{(4)}(\{x,\kappa_4(x)\})
-=
-(\{x,\kappa_4(x)\},\mathsf H_4^{(4)}|_{\{x,\kappa_4(x)\}}).
+\mathrm{rec}_\kappa^{(4)}(\{x,\kappa_4(x)\}) = (\{x,\kappa_4(x)\},\mathsf H_4^{(4)}|_{\{x,\kappa_4(x)\}}).
 $$
 
 Presentation:
 
 $$
-\Pi_\kappa^{(4)}
-=
-\left(
+\Pi_\kappa^{(4)} = \left(
 \mathcal P_4\setminus\{P_{15}\},
 \mathsf H_4^{(4)}|_{\mathcal P_4\setminus\{P_{15}\}},
 \pi_\kappa^{(4)},
@@ -12629,15 +12215,11 @@ $$
 $$
 
 $$
-\mathrm{rec}_j^{\mathrm{mid}}(I_j^{\mathrm{mid}})
-=
-(H_j^{\mathrm{mid}},\mathsf H_4^{(4)}|_{H_j^{\mathrm{mid}}}).
+\mathrm{rec}_j^{\mathrm{mid}}(I_j^{\mathrm{mid}}) = (H_j^{\mathrm{mid}},\mathsf H_4^{(4)}|_{H_j^{\mathrm{mid}}}).
 $$
 
 $$
-\Pi_j^{\mathrm{mid-ax},(4)}
-=
-\left(
+\Pi_j^{\mathrm{mid-ax},(4)} = \left(
 H_j^{\mathrm{mid}},
 \mathsf H_4^{(4)}|_{H_j^{\mathrm{mid}}},
 \pi_j^{\mathrm{mid}},
@@ -12653,9 +12235,7 @@ presentations of §20.4.
 The rank-4 finite package:
 
 $$
-\mathfrak C_4
-=
-\left(
+\mathfrak C_4 = \left(
 \mathcal P_4,
 \{S_k^{(4)}\}_{k=1}^4,
 \mathsf H_1^{(4)},\mathsf H_2^{(4)},\mathsf H_3^{(4)},\mathsf H_4^{(4)},
@@ -12781,9 +12361,7 @@ This is the image of the old point in the coordinate face $E=0$.
 By the rank-lift formula of §3:
 
 $$
-Q_n^*
-=
-Q_{n-1}^*
+Q_n^* = Q_{n-1}^*
 \sqcup
 \{e_n\}
 \sqcup
@@ -12793,9 +12371,7 @@ $$
 For rank $5$:
 
 $$
-Q_5^*
-=
-Q_4^*
+Q_5^* = Q_4^*
 \sqcup
 \{e_E\}
 \sqcup
@@ -12831,9 +12407,7 @@ are the old rank-4 layer with new $E$-load.
 In expanded form:
 
 $$
-Q_5^*
-=
-\{P_1,\ldots,P_{15}\}
+Q_5^* = \{P_1,\ldots,P_{15}\}
 \sqcup
 \{P_{16}\}
 \sqcup
@@ -13016,9 +12590,7 @@ $$
 By shell order after assembling the carrier:
 
 $$
-P^{(5)}
-=
-S_1^{(5)}
+P^{(5)} = S_1^{(5)}
 \sqcup
 S_2^{(5)}
 \sqcup
@@ -13093,17 +12665,13 @@ This is the basis shell of rank $5$.
 ## §22.7. Second Shell $S_2^{(5)}$
 
 $$
-S_2^{(5)}
-=
-\{P_3,P_5,P_6,P_9,P_{10},P_{12},P_{17},P_{18},P_{20},P_{24}\}.
+S_2^{(5)} = \{P_3,P_5,P_6,P_9,P_{10},P_{12},P_{17},P_{18},P_{20},P_{24}\}.
 $$
 
 In support notation:
 
 $$
-S_2^{(5)}
-=
-\{AB,AC,BC,AD,BD,CD,AE,BE,CE,DE\}.
+S_2^{(5)} = \{AB,AC,BC,AD,BD,CD,AE,BE,CE,DE\}.
 $$
 
 This is the set of $2$-element subsets of $J_5$:
@@ -13121,17 +12689,13 @@ $$
 ## §22.8. Third Shell $S_3^{(5)}$
 
 $$
-S_3^{(5)}
-=
-\{P_7,P_{11},P_{13},P_{14},P_{19},P_{21},P_{22},P_{25},P_{26},P_{28}\}.
+S_3^{(5)} = \{P_7,P_{11},P_{13},P_{14},P_{19},P_{21},P_{22},P_{25},P_{26},P_{28}\}.
 $$
 
 In support notation:
 
 $$
-S_3^{(5)}
-=
-\{ABC,ABD,ACD,BCD,ABE,ACE,BCE,ADE,BDE,CDE\}.
+S_3^{(5)} = \{ABC,ABD,ACD,BCD,ABE,ACE,BCE,ADE,BDE,CDE\}.
 $$
 
 This is the set of $3$-element subsets of $J_5$:
@@ -13460,9 +13024,7 @@ $$
 we define:
 
 $$
-\mathsf H_k^{(5)}
-=
-\{(x,y)\in P^{(5)}\times P^{(5)}:
+\mathsf H_k^{(5)} = \{(x,y)\in P^{(5)}\times P^{(5)}:
 x\neq y,\ d_H(x,y)=k\},
 $$
 
@@ -13499,9 +13061,7 @@ $$
 In the full $Q_5$, the number of unordered Hamming-distance $k$ edges is:
 
 $$
-2^{5-1}\binom{5}{k}
-=
-16\binom{5}{k}.
+2^{5-1}\binom{5}{k} = 16\binom{5}{k}.
 $$
 
 Passing to $P^{(5)}$ removes $00000$. This removes the edges from
@@ -13514,11 +13074,7 @@ $$
 Therefore:
 
 $$
-|\mathsf H_k^{(5)}|
-=
-16\binom{5}{k}-\binom{5}{k}
-=
-15\binom{5}{k}.
+|\mathsf H_k^{(5)}| = 16\binom{5}{k}-\binom{5}{k} = 15\binom{5}{k}.
 $$
 
 This gives:
@@ -13845,13 +13401,7 @@ $$
 Then:
 
 $$
-d_H(X,Y)
-=
-|X\triangle Y|
-=
-|X|+|Y|-2|X\cap Y|
-=
-5-2|X\cap Y|.
+d_H(X,Y) = |X\triangle Y| = |X|+|Y|-2|X\cap Y| = 5-2|X\cap Y|.
 $$
 
 There are three cases.
@@ -14045,9 +13595,7 @@ $$
 Therefore:
 
 $$
-V_5
-=
-H_A^{(5)}
+V_5 = H_A^{(5)}
 \sqcup
 H_B^{(5)}
 \sqcup
@@ -14108,9 +13656,7 @@ $$
 Define the residual relation:
 
 $$
-\Omega_5
-=
-\{(x,y)\in V_5\times V_5:
+\Omega_5 = \{(x,y)\in V_5\times V_5:
 x\neq y,\ y\neq \kappa_5(x)\}.
 $$
 
@@ -14161,11 +13707,7 @@ $$
 $$
 
 $$
-|E(K_{2,2,2,2,2})|
-=
-\binom{5}{2}\cdot2\cdot2
-=
-40.
+|E(K_{2,2,2,2,2})| = \binom{5}{2}\cdot2\cdot2 = 40.
 $$
 
 $$
@@ -14177,9 +13719,7 @@ $$
 The residual relation $\Omega_5$ decomposes by Hamming-distance layers:
 
 $$
-\Omega_5
-=
-\left(\mathsf H_2^{(5)}|_{S_1}\right)
+\Omega_5 = \left(\mathsf H_2^{(5)}|_{S_1}\right)
 \cup
 \left(\mathsf H_2^{(5)}|_{S_4}\right)
 \cup
@@ -14216,9 +13756,7 @@ $$
 The residual relation $\Omega_5$ has Hamming decomposition:
 
 $$
-\Omega_5
-=
-\left(\mathsf H_2^{(5)}|_{S_1}\right)
+\Omega_5 = \left(\mathsf H_2^{(5)}|_{S_1}\right)
 \cup
 \left(\mathsf H_2^{(5)}|_{S_4}\right)
 \cup
@@ -14246,9 +13784,7 @@ $$
 The Laplacian spectrum of the graph $K_{2,2,2,2,2}$ is:
 
 $$
-\mathrm{Spec}(L)
-=
-\{0,\ 8^{\times5},\ 10^{\times4}\}.
+\mathrm{Spec}(L) = \{0,\ 8^{\times5},\ 10^{\times4}\}.
 $$
 
 **Check.**
@@ -14313,9 +13849,7 @@ $$
 Therefore:
 
 $$
-\mathrm{Spec}(L)
-=
-\{0,\ 8^{\times5},\ 10^{\times4}\}.
+\mathrm{Spec}(L) = \{0,\ 8^{\times5},\ 10^{\times4}\}.
 $$
 
 $$
@@ -14358,11 +13892,7 @@ $$
 Therefore:
 
 $$
-|E(L_5)|
-=
-\frac{40\cdot14}{2}
-=
-280.
+|E(L_5)| = \frac{40\cdot14}{2} = 280.
 $$
 
 Formal graph:
@@ -14409,9 +13939,7 @@ The rank-5 cycle atlas is the collection of chosen cycle readings on distinct
 rank-5 carriers:
 
 $$
-\mathcal C_5
-=
-(C_{10},C_{31},\mathcal C_{5C_8}),
+\mathcal C_5 = (C_{10},C_{31},\mathcal C_{5C_8}),
 $$
 
 where $C_{10}$ is a chosen Hamilton cycle on $V_5$, $C_{31}$ is a
@@ -14484,9 +14012,7 @@ $$
 Cover claim:
 
 $$
-E(K_{2,2,2,2,2})
-=
-5C_8.
+E(K_{2,2,2,2,2}) = 5C_8.
 $$
 
 On signed vertices $A^\pm,B^\pm,C^\pm,D^\pm,E^\pm$, define five cycles:
@@ -14519,9 +14045,7 @@ $$
 Put:
 
 $$
-\mathcal C_{5C_8}
-=
-\{\Gamma_1,\Gamma_2,\Gamma_3,\Gamma_4,\Gamma_5\}.
+\mathcal C_{5C_8} = \{\Gamma_1,\Gamma_2,\Gamma_3,\Gamma_4,\Gamma_5\}.
 $$
 
 **Statement 25.3.**
@@ -14601,9 +14125,7 @@ supports a projective cycle of length $31$, that is, a Singer cycle.
 For an explicit construction introduce:
 
 $$
-\mathbb{F}_{32}
-=
-\mathbb{F}_2[t]/(t^5+t^2+1).
+\mathbb{F}_{32} = \mathbb{F}_2[t]/(t^5+t^2+1).
 $$
 
 The polynomial
@@ -14854,9 +14376,7 @@ $$
 For irreflexive graph relations, recovery has the form:
 
 $$
-\mathrm{rec}_{\mathrm{id}}(x)
-=
-(\{x\},\varnothing).
+\mathrm{rec}_{\mathrm{id}}(x) = (\{x\},\varnothing).
 $$
 
 Therefore identity graph readings are exact.
@@ -14872,9 +14392,7 @@ $$
 define the set of complement pairs:
 
 $$
-B_{15}
-=
-\{\{x,\kappa_5(x)\}:x\neq P_{31}\}.
+B_{15} = \{\{x,\kappa_5(x)\}:x\neq P_{31}\}.
 $$
 
 There are exactly $15$ such pairs.
@@ -14892,17 +14410,13 @@ $$
 Recovery:
 
 $$
-\mathrm{rec}_{\kappa}(\{x,\kappa_5(x)\})
-=
-(\{x,\kappa_5(x)\},\mathsf H_5^{(5)}|_{\{x,\kappa_5(x)\}}).
+\mathrm{rec}_{\kappa}(\{x,\kappa_5(x)\}) = (\{x,\kappa_5(x)\},\mathsf H_5^{(5)}|_{\{x,\kappa_5(x)\}}).
 $$
 
 Complement-pair presentation:
 
 $$
-\Pi_{\kappa}^{(5)}
-=
-\left(
+\Pi_{\kappa}^{(5)} = \left(
 P^{(5)}\setminus\{P_{31}\},
 \mathsf H_5^{(5)}|_{P^{(5)}\setminus\{P_{31}\}},
 \pi_{\kappa},
@@ -14935,17 +14449,13 @@ $$
 Recovery:
 
 $$
-\mathrm{rec}_i^{(5)}(I_i)
-=
-(H_i^{(5)},\mathsf H_5^{(5)}|_{H_i^{(5)}}).
+\mathrm{rec}_i^{(5)}(I_i) = (H_i^{(5)},\mathsf H_5^{(5)}|_{H_i^{(5)}}).
 $$
 
 Presentation:
 
 $$
-\Pi_i^{\mathrm{ax},(5)}
-=
-\left(
+\Pi_i^{\mathrm{ax},(5)} = \left(
 H_i^{(5)},
 \mathsf H_5^{(5)}|_{H_i^{(5)}},
 \pi_i^{(5)},
@@ -15006,9 +14516,7 @@ $$
 The closure name of the rank-5 atlas is:
 
 $$
-\mathfrak A_5
-=
-\left(
+\mathfrak A_5 = \left(
 P^{(5)},
 \{S_k^{(5)}\}_{k=1}^5,
 \mathsf H_1^{(5)},\ldots,\mathsf H_5^{(5)},
@@ -15137,9 +14645,7 @@ Each part is a coordinate face isomorphic to $Q_n$.
 In notation through $\Lambda_n$:
 
 $$
-Q_{n+1}^*
-=
-(0\,|\,Q_n^*)
+Q_{n+1}^* = (0\,|\,Q_n^*)
 \sqcup
 \{1\,|\,0^n\}
 \sqcup
@@ -15209,9 +14715,7 @@ $$
 where
 
 $$
-H_{\mathrm{new}}^{(n+1)}
-=
-\{1\,|\,0^n,\ 0\,|\,1^n\}.
+H_{\mathrm{new}}^{(n+1)} = \{1\,|\,0^n,\ 0\,|\,1^n\}.
 $$
 
 **Check.**
@@ -15252,21 +14756,13 @@ $$
 **Statement 26.10.**
 
 $$
-\kappa_{n+1}(\varepsilon\,|\,x)
-=
-(1+\varepsilon)\,|\,\kappa_n(x).
+\kappa_{n+1}(\varepsilon\,|\,x) = (1+\varepsilon)\,|\,\kappa_n(x).
 $$
 
 **Check.**
 
 $$
-\kappa_{n+1}(\varepsilon\,|\,x)
-=
-(\varepsilon\,|\,x)+1^{n+1}
-=
-(\varepsilon+1)\,|\,(x+1^n)
-=
-(1+\varepsilon)\,|\,\kappa_n(x).
+\kappa_{n+1}(\varepsilon\,|\,x) = (\varepsilon\,|\,x)+1^{n+1} = (\varepsilon+1)\,|\,(x+1^n) = (1+\varepsilon)\,|\,\kappa_n(x).
 $$
 
 $$
@@ -15414,9 +14910,7 @@ defines the general mechanism of rank growth.
 The closure name of the general rank-growth layer is:
 
 $$
-\mathfrak N
-=
-\left(
+\mathfrak N = \left(
 \mathcal Q,
 \Lambda_n,
 \varepsilon\,|\,x,
@@ -15467,9 +14961,7 @@ $$
 For $i\in\{1,\ldots,n\}$:
 
 $$
-H_i^{(n)}=\{e_i,\kappa_n(e_i)\}
-=
-\{e_i,1^n-e_i\}\subset V_n.
+H_i^{(n)}=\{e_i,\kappa_n(e_i)\} = \{e_i,1^n-e_i\}\subset V_n.
 $$
 
 **Statement 27.4.**
@@ -15554,17 +15046,13 @@ $$
 Recovery datum:
 
 $$
-\mathrm{rec}_i(I_i^{(n)})
-=
-(H_i^{(n)},\mathsf H_n^{(n)}|_{H_i^{(n)}}).
+\mathrm{rec}_i(I_i^{(n)}) = (H_i^{(n)},\mathsf H_n^{(n)}|_{H_i^{(n)}}).
 $$
 
 Presentation:
 
 $$
-\Pi_i^{\mathrm{ax},(n)}
-=
-(H_i^{(n)},\mathsf H_n^{(n)}|_{H_i^{(n)}},\pi_i,\mathrm{rec}_i).
+\Pi_i^{\mathrm{ax},(n)} = (H_i^{(n)},\mathsf H_n^{(n)}|_{H_i^{(n)}},\pi_i,\mathrm{rec}_i).
 $$
 
 **Statement 27.9.**
@@ -15688,11 +15176,7 @@ $$
 other edges. Then:
 
 $$
-|E(L_n)|
-=
-\frac{2n(n-1)(4n-6)}{2}
-=
-2n(n-1)(2n-3).
+|E(L_n)| = \frac{2n(n-1)(4n-6)}{2} = 2n(n-1)(2n-3).
 $$
 
 $$
@@ -15712,9 +15196,7 @@ $$
 The closure name of the universal outer-shell layer is:
 
 $$
-\mathfrak V
-=
-\left(
+\mathfrak V = \left(
 V_n,
 I_n,
 \Sigma,
@@ -15737,9 +15219,7 @@ shell.
 The finite closure package up to rank $5$:
 
 $$
-\mathfrak R_{\leq5}^{\mathrm{fin}}
-=
-(\Pi_1,\mathfrak C_2,\mathfrak C_3,\mathfrak C_4,\mathfrak A_5).
+\mathfrak R_{\leq5}^{\mathrm{fin}} = (\Pi_1,\mathfrak C_2,\mathfrak C_3,\mathfrak C_4,\mathfrak A_5).
 $$
 
 Here:
@@ -15780,9 +15260,7 @@ block.
 General law packages:
 
 $$
-\mathfrak S_{\mathrm{law}}
-=
-(\mathfrak N,\mathfrak V),
+\mathfrak S_{\mathrm{law}} = (\mathfrak N,\mathfrak V),
 $$
 
 where $\mathfrak N$ is the rank-growth law of §26, and $\mathfrak V$ is
@@ -15791,9 +15269,7 @@ the universal outer shell package of §27.
 Full closure name:
 
 $$
-\mathfrak R_{\leq5}
-=
-(\mathfrak R_{\leq5}^{\mathrm{fin}},\mathfrak S_{\mathrm{law}}).
+\mathfrak R_{\leq5} = (\mathfrak R_{\leq5}^{\mathrm{fin}},\mathfrak S_{\mathrm{law}}).
 $$
 
 $\mathfrak R_{\leq5}^{\mathrm{fin}}$ is a finite combinatorial
@@ -15883,9 +15359,7 @@ $$
 \to
 \mathfrak C_4
 \to
-\mathfrak A_5
-=
-\mathfrak R_{\leq5}^{\mathrm{fin}}.
+\mathfrak A_5 = \mathfrak R_{\leq5}^{\mathrm{fin}}.
 $$
 
 Law packages:
@@ -15897,9 +15371,7 @@ $$
 Full closure name:
 
 $$
-\mathfrak R_{\leq5}
-=
-(\mathfrak R_{\leq5}^{\mathrm{fin}},\mathfrak S_{\mathrm{law}}).
+\mathfrak R_{\leq5} = (\mathfrak R_{\leq5}^{\mathrm{fin}},\mathfrak S_{\mathrm{law}}).
 $$
 
 $\mathfrak R_{\leq5}$ serves as the name for the already constructed finite
@@ -15988,9 +15460,7 @@ finite structure.
 The strict finite core of the document is:
 
 $$
-\mathfrak R_{\leq5}^{\mathrm{fin}}
-=
-(\Pi_1,\mathfrak C_2,\mathfrak C_3,\mathfrak C_4,\mathfrak A_5).
+\mathfrak R_{\leq5}^{\mathrm{fin}} = (\Pi_1,\mathfrak C_2,\mathfrak C_3,\mathfrak C_4,\mathfrak A_5).
 $$
 
 It contains finite carriers, relations, readings, recovery data, and operator
@@ -16029,9 +15499,7 @@ $X_{\mathrm{adm}}\subset Q_3$, the chamber layer of the octahedron, ranks
 $4$ and $5$, and then closes as the finite package
 
 $$
-\mathfrak R_{\leq5}^{\mathrm{fin}}
-=
-(\Pi_1,\mathfrak C_2,\mathfrak C_3,\mathfrak C_4,\mathfrak A_5).
+\mathfrak R_{\leq5}^{\mathrm{fin}} = (\Pi_1,\mathfrak C_2,\mathfrak C_3,\mathfrak C_4,\mathfrak A_5).
 $$
 
 The main result is that these objects are assembled not as a collection of

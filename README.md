@@ -2,8 +2,9 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Theory-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE-THEORY.md)
 [![License: Apache-2.0](https://img.shields.io/badge/Code-Apache--2.0-yellow.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059466.svg)](https://doi.org/10.5281/zenodo.20059466)
 
-[Русская версия](README_RU.md)
+DOI: [10.5281/zenodo.20059466](https://doi.org/10.5281/zenodo.20059466)
 
 The **Theory of Observable Distinction** is a finite combinatorial theory organized around one principle: **distinction is the primary structural fact, and objects arise as stable forms of held and presented distinction**. DOT starts from the conditions under which distinctions can be held and observed, and then shows which finite structures appear when these conditions are successively strengthened.
 
