@@ -222,9 +222,17 @@ $$
 \end{aligned}
 $$
 
+<p align="center">
+  <img src="../assets/figures/4.2-R_1-C_6.png" alt="The R1 cycle on the six-point scene" width="500">
+</p>
+
 The first cycle of the theory appears precisely here: there is no cycle on two points, and after puncture there is no cycle on four points either. Only on six points do one-step transitions first close into a finite law of return.
 
 The relation $R_2$ connects states that differ in two bits. The six points split into two triples: states of weight one $\{100,010,001\}$ and states of weight two $\{011,101,110\}$. Inside each triple all points are pairwise connected; between the triples there are no connections of this type. The result is $K_3\sqcup K_3$.
+
+<p align="center">
+  <img src="../assets/figures/4.3-R_2-K_3-U-K_3.png" alt="The two triples of the R2 relation" width="500">
+</p>
 
 The relation $R_3$ connects states that differ in all three bits. Each point is connected with its full complement. This gives three complementary pairs:
 
@@ -236,6 +244,10 @@ $$
 
 In graph notation this is $3K_2$.
 
+<p align="center">
+  <img src="../assets/figures/123.png" alt="The three complementary pairs of R3" width="500">
+</p>
+
 The first two relations can be united. The graph $R_1\cup R_2$ connects all pairs except complementary pairs. Structurally this is the complete tripartite graph:
 
 $$
@@ -245,6 +257,10 @@ $$
 $$
 
 The resulting graph is the one-dimensional skeleton of the octahedron. The six points of the active scene of rank $3$, equipped with the union of $R_1$ and $R_2$, form the vertices of the octahedron.
+
+<p align="center">
+  <img src="../assets/figures/4.1-R_12-octahedron.png" alt="The octahedral shell R1 union R2" width="500">
+</p>
 
 At this level the cube $Q_3$, after puncture, gives a six-point scene; the same scene gathers into an octahedron; the eight chambers of the octahedron — the eight ways of choosing one point from each complementary pair — again form a copy of the full cube $Q_3$, now as a chamber layer.
 
@@ -275,6 +291,10 @@ The six-point scene of rank $3$ gives a compact example. One and the same carrie
 ### 11.1. Color Projection
 
 The color reading places the six vertices of the active scene in the $RGB$ cube as saturated chromatic vertices. The total poles $000$ and $111$ become black and white: the limits of brightness between which the chromatic body unfolds.
+
+<p align="center">
+  <img src="../assets/figures/555.png" alt="Color and arithmetic readings of the six-point scene" width="500">
+</p>
 
 The full version of this projection is developed in the [RGB / CMY / Kuhn / HSV color bridge](../02_Bridges/01_Color_RGB_Kuhn/DOT_RGB_Kuhn_Color_Bridge_EN.md).
 
@@ -348,6 +368,10 @@ $$
 This notation echoes the triple of prohibitions and resolutions. In the resolutions, two prohibitions are active while the third holds the limit. In the divisor notation one sees a similar permutation of roles: one prime factor is selected as a coordinate, while the product of the other two gives its complementary side. Thus an axis $(p_i,\prod_{j\ne i}p_j)$ can be read as an arithmetic form of three-part holding.
 
 The ordinary divisor lattice by itself gives the divisibility order. The octahedral graph arises under another reading: all distinct vertices are connected except the pairs $d\leftrightarrow30/d$. Then one obtains $K_{2,2,2}$.
+
+<p align="center">
+  <img src="../assets/figures/365.png" alt="Proper divisors of 30 as an octahedral scene" width="500">
+</p>
 
 At rank $4$ the same law continues, but no longer on the whole proper carrier. For
 
