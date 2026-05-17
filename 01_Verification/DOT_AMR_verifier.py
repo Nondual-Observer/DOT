@@ -31,13 +31,13 @@ GLOSSARY = HERE / "Glossary_RU.md"
 TOOLS = HERE / "DOT_AMR_verifier.py"
 GOLDEN = Path(
     os.environ.get(
-        "TNR_GOLDEN_DIR",
+        "DOT_GOLDEN_DIR",
         str(PACKAGE_ROOT / "_external" / "O3_Ih_Golden_Bridge" / "5-30_structure" / "ver_4"),
     )
 )
 GOLDEN_FACE = Path(
     os.environ.get(
-        "TNR_GOLDEN_FACE_DIR",
+        "DOT_GOLDEN_FACE_DIR",
         str(PACKAGE_ROOT / "_external" / "O3_Ih_Golden_Bridge" / "5-30_structure" / "16-16"),
     )
 )

@@ -1,4 +1,4 @@
-# DOT: finite-rank theory and bridges
+# DOT: Distinction Observable Theory
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Theory-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE-THEORY.md)
 [![License: Apache-2.0](https://img.shields.io/badge/Code-Apache--2.0-yellow.svg)](LICENSE)
@@ -6,162 +6,401 @@
 
 DOI: [10.5281/zenodo.20059466](https://doi.org/10.5281/zenodo.20059466)
 
-The **Theory of Observable Distinction** is a finite combinatorial theory organized around one principle: **distinction is the primary structural fact, and objects arise as stable forms of held and presented distinction**. DOT starts from the conditions under which distinctions can be held and observed, and then shows which finite structures appear when these conditions are successively strengthened.
+**Distinction Observable Theory** is a theory of finite scenes of
+distinction with a strict combinatorial core. It is organized around one
+principle: **distinction is the primary structural fact, and objects arise
+as stable forms of held and presented distinction**.
 
-The guiding intuition is that observation participates in how a distinction becomes accessible, stable, and checkable. In quantum physics, artificial-intelligence architectures, logic, information theory, cognitive science, and complex systems, this appears as one broad question: which states are distinguishable, which relations hold their distinguishability, which maps make it observable, and what data are preserved under such a passage?
+DOT studies how a distinction can be given, held, read, and recovered when
+one passes between descriptions. The strict part of the theory works with
+finite carriers and finite relations, so its basic constructions can be
+checked directly.
 
-The strict part of DOT is finite combinatorics. Each claim is grounded in an explicitly given finite carrier, a relation on it, a reading of that relation, and recovery data for what remains available after the reading.
+## Distinction and Observer
 
-The objects of the theory are finite sets with fixed relations. Distinguishing between them is a finite check. Growth is a finite procedure: a new binary coordinate is added to an already constructed domain. This makes DOT constructive from the ground up, finitely checkable, and open to external projections through separately marked bridge constructions.
+In DOT, **distinction** is structurally held non-coincidence between
+positions. A distinction requires at least two positions, a way to separate
+one from the other, relations that hold this separation, and a trace by
+which the distinction can be read or recovered.
 
-## Main Principle
+The **observer** in DOT is the invariant side of a scene. It gives the
+condition under which different readings still refer to the same scene.
 
-Simple inequality only says that two positions are different. In DOT, distinction is not reduced to the statement "one is not equal to the other." A distinction must be **held** by a structure, **presented** in some description, and retain a **recoverable** part when passing between descriptions.
+In familiar analogies, the observer is close to a frame of reference, a
+standard of measurement, or an invariant. A frame of reference fixes a mode
+of description. A standard fixes the meaning of measurement. An invariant
+is preserved under admissible changes of description. In DOT, the observer
+plays the same structural role: it holds the stability of the scene's
+reading.
 
-Four roles are used for this: **carrier**, **relation**, **reading**, and **recovery**. The carrier gives the finite domain of positions. The relation specifies which positions are connected and how their distinguishability is held. The reading presents the distinction in another domain of description. Recovery specifies which part of the original positions and relations remains available after the reading.
+The guiding intuition is broad. Observation participates in the way a
+difference becomes accessible, stable, and checkable. In quantum physics,
+artificial intelligence architectures, logic, information theory,
+cognitive science, and complex systems, this intuition takes the form of
+one question: which states are distinguishable, which relations hold their
+distinguishability, which maps make it observable, and what remains
+preserved under such a passage?
 
-These four roles define a way to record finite data, not an external interpretation. The formal unit of this record is a **representation**.
+## Scene of Distinction
 
-$$
-(X, R, q, \mathrm{rec}).
-$$
+The objects of the theory are finite scenes. A scene has a carrier: a
+finite set of possible positions or states. Relations are fixed on the
+carrier: relations between positions, complementary pairs, cycles,
+boundaries, and transitions between layers.
 
-A representation gives every distinction a checkable finite form. Every statement in the theory reduces to checking properties of such a tuple on a finite carrier.
+One carrier can support several groups of relations. The six positions of
+rank \(3\), for example, can be read as a cycle, as two triads, and as
+three complementary pairs. The joint organization of these relations gives
+a held scene.
 
-Held distinction passes through three levels of closure. At the **pair level**, a position receives its role only together with its opposite. At the **cycle level**, several such distinctions are linked by transitions; when the traversal returns to the beginning, a cycle appears, and opposition can be read as the position reached halfway around the cycle. At the **whole-scene level**, several distinctions are held as one scene: admissible joint configurations, chambers, incidence relations, and a Borromean intuition of mutual three-axis holding appear.
+An object in DOT is a stable form inside such a scene. It appears where
+distinction is held, presented, and has a recoverable trace.
 
-The minimal complete scene contains three opposite pairs: six positions forming the first complete geometric configuration of the theory.
+## Rank Growth
+
+Rank is the number of independent binary distinctions from which the
+carrier of a scene is built. Each new rank adds a new binary coordinate and
+thereby expands the space of possible states.
+
+Rank \(1\) gives the minimal polar pair: two mutually opposite positions.
+Distinguishability and exchange between the sides of the pair are already
+present. This is the minimal scene of distinction.
+
+Rank \(2\) gives a square of four states. Two binary coordinates and the
+first closed traversal of the full carrier appear. The active part between
+the two limiting states again has the form of a pair. Rank \(2\) therefore
+shows the joint presence of two distinctions while the active scene still
+has a pair form.
+
+Rank \(3\) gives eight states. Two limiting positions give the lower and
+upper poles of the full carrier. After these limits are set apart, six
+active states remain. This six-state carrier supports three groups of
+relations: complementary pairs, triadic chambers, and a closed cycle.
+
+Completeness of a scene in DOT means the joint work of three modes of
+holding:
+
+- polar opposition;
+- triadic splitting;
+- cyclic closure.
+
+Ranks \(1\) and \(2\) give initial forms of distinguishability. Rank \(3\)
+gathers all three modes on one finite carrier.
+
+Formally, the full carrier of rank \(n\) is the set of binary states
+\(Q_n\). The active part is obtained after setting apart the two limiting
+states:
+
+\[
+U_n = Q_n \setminus \{0^n,1^n\}.
+\]
+
+In the simplicial language, the same active part is read as the boundary
+of a simplex: the domain of nonempty proper faces between the empty and
+the full limit.
+
+## First Complete Scene
+
+The first complete scene appears at rank \(3\). It contains six active
+positions. On this six-state carrier one obtains:
+
+- three complementary pairs;
+- two triadic chambers;
+- one closed six-step cycle.
+
+In the geometric reading, these relations form an octahedral scene.
 
 <p align="center">
   <a href="assets/figures/4.1-R_12-octahedron.png">
-    <img src="assets/figures/4.1-R_12-octahedron.png" width="500" alt="Rank-3 octahedral shell">
+    <img src="assets/figures/4.1-R_12-octahedron.png" width="500" alt="Rank-3 octahedral scene">
   </a>
 </p>
 
-## Tools and Result
+The octahedron appears as the minimal scene in which distinction is held in
+three ways at once: through opposition, through triadic splitting, and
+through the internal closure of a cycle.
 
-The basic tools remain finite at every step. Carriers are given by binary strings; relations are built from coordinate differences, weight, complement, incidence, and finite transitions. Every object is introduced through explicit data, so it can be checked by finite enumeration or finite proof.
+At this level the same six positions have several compatible readings. As
+a cycle, they give a traversal. As two triads, they give a chamber
+splitting. As three pairs, they give axes of opposition. Together these
+readings form the first complete scene of DOT.
 
-The point is not to collect familiar graphs. Cycles, the octahedron, the Petersen graph, multipartite graphs, and Singer cycles appear as different readings of one growing system of distinctions. One carrier can support several relations, and one relation can acquire a new role at the next rank.
+## Further Growth
 
-At the end of the strict part one obtains a finite core up to rank 5. It contains constructed carriers, relations, readings, recoveries, chambers, incidence relations, cycles, and transition operators. This core is closed as a coherent finite-rank package:
+Further growth in DOT is rank unfolding of scenes. A new rank creates a
+larger scene in which boundaries and reductions of the lower rank obtain
+internal carriers.
 
-$$
-\mathfrak{R}_{\leq 5}^{\mathrm{fin}}=(\Pi_1,\mathfrak{C}_2,\mathfrak{C}_3,\mathfrak{C}_4,\mathfrak{A}_5).
-$$
+At rank \(4\), the octahedral layer enters a tetrahedral boundary.
+Complementary pairs receive a projective reading related to the Fano
+plane. At rank \(5\), new middle layers, the Petersen graph, and the next
+level of projective architecture appear.
 
-The general growth law is then stated: the passage from rank $n$ to rank $n+1$ is given by adding a new binary coordinate. The construction up to rank 5 is therefore not just an example; it fixes a checkable finite pattern for how distinctions grow, are repackaged, and are read again inside larger structures.
+The theory then unfolds several connected lines: boundary operators, scene
+reductions, the operator tower, cycles, the circle, and topological
+avatars. These lines show how the first complete scene passes into more
+complex carriers and readings.
 
-## Main Manuscript
+## Main Corpus
 
-- [Main manuscript, English](00_Theory/DOT_main_EN.md)
+The reading order begins in [`00_Core`](00_Core).
 
-The main manuscript is the central document of the package. It builds DOT as a finite theory in which each object is specified by a carrier, relation, reading, and recovery. Rank $1$ introduces the polar pair. Rank $2$ builds the binary carrier $Q_2$ and several readings of it: a cycle, opposite pairs, complete connectivity, and partial closure.
+### Volume 0. Foundations
 
-Rank $3$ gives the first complete scene: two homogeneous positions are removed from $Q_3$, leaving the six-point carrier $X_{\mathrm{adm}}$. The relations $R_1, R_2, R_3$, the octahedral shell, chambers, incidence, and a six-step transport appear on this carrier. These constructions provide the basic form of later growth.
+[Open volume](00_Core/DOT_Volume_0_Foundations_EN.md)
 
-Ranks $4$ and $5$ develop the same scheme on larger carriers. In rank $4$, the rank-3 octahedral structure reappears inside the middle layer of a fifteen-position carrier. In rank $5$, a thirty-one-position carrier is built with shell decomposition $5+10+10+5+1$, middle layers, an outer layer, the Petersen graph, selected cycles, and a Singer cycle. The final part states the general rank-growth law and the universal outer layer.
+Volume 0 is the entry point into the theory. It introduces distinction,
+scene, observer, polar pair, rank, active boundary, and the first complete
+scene. It fixes the order of presentation: from the minimal pair to the
+rank carrier, from the carrier to the active boundary, and from the active
+boundary to the rank-3 octahedral scene.
 
-<p align="center">
-  <a href="assets/figures/5.4-S2_rank4_octahedral_graph.png">
-    <img src="assets/figures/5.4-S2_rank4_octahedral_graph.png" width="500" alt="Rank-4 middle-layer octahedral structure">
-  </a>
-</p>
+This volume also contains the main shift of the new version: former
+prohibitions are read as conditions of scene holding and as directions of
+reduction. Distinction receives a boundary meaning, and the observer is
+understood as an invariant of the scene.
 
-## Mathematical Start
+### Volume 1. Strict Rank-3 Core
 
-- [01A. Mathematical bridge to the strict core](01_Mathematical_Start/01A_DOT_Mathematical_Bridge_EN.md)
+[Open volume](00_Core/DOT_Volume_1_Strict_Rank_3_Core_EN.md)
 
-  Introductory mathematical text for the passage from the idea of distinction to strict notation. The basic unit is given by four data: carrier, relation, reading, and recovery. The document moves from a polar pair and a two-bit carrier to the six-point rank-3 structure.
+Volume 1 unfolds the first complete scene in strict finite form. It builds
+the six-position rank-3 carrier, fixes three relations on it, derives the
+octahedral skeleton, and describes chambers, cyclic transport, axes, and
+symmetries.
 
-- [02A. Core foundation and theorems](01_Mathematical_Start/02A_DOT_Core_Foundation_And_Theorems_EN.md)
+This volume presents the first complete scene as a checkable finite
+object. Each relation is explicitly fixed, each relation has a graph
+reading, and the three modes of distinction holding receive their first
+carriers of manifestation.
 
-  The first strict block of the theory. It fixes definitions and restrictions, then analyzes the rank-3 six-point structure as a finite object: a cycle, three complement pairs, two triangular components, an octahedron, chambers, spectra, and transport.
+### Volume 2. Higher Ranks and Projective Architecture
 
-- [02B. Shell extension and categorical/operator packaging](01_Mathematical_Start/02B_DOT_Shell_Extension_And_Categorical_Packaging_EN.md)
+[Open volume](00_Core/DOT_Volume_2_Higher_Ranks_Projective_Architecture_EN.md)
 
-  Continuation of the strict core toward rank $4$. The already built six-point scene appears inside a larger carrier through weight layers, the middle layer, the outer layer, and operator readings. The document fixes how previous structures are preserved, change role, and enter a wider layer.
+Volume 2 carries the construction beyond rank \(3\). It describes general
+active carriers, layers, limiting complementarity, axes as complementary
+cuts, and projective factors.
 
-- [03A. AMR-SR: scale/residue line](01_Mathematical_Start/03A_DOT_AMR_Scale_Residue_Line_EN.md)
+The main line of the volume is the passage from the homogeneous
+octahedral scene to higher scenes with different types of axes and
+different dimensions of cuts. Rank \(4\) gives the
+tetrahedral-octahedral architecture; rank \(5\) gives new middle layers,
+the Petersen graph, and the next projective space.
 
-  The first arithmetic AMR branch. Its carrier is the plane of pairs $\mathcal R=\mathbb N_{>0}^2$. The document analyzes a pair $(a,b)$ through the decomposition $(a,b)=g(p,q)$, where $g=\gcd(a,b)$ and $(p,q)$ is the primitive direction. This gives difference layers, primitive rays, local cells, and the scalar residue $\mathrm{Res}_{\mathrm{sr}}=(g-1)|p-q|$.
+### Volume 3. Boundary Operators and Scene Reductions
 
-  The role of 03A is to fix the scale/residue line and its partial bridge to the strict core: the arrows $\beta_3,\beta_4$ connect selected arithmetic cases with rank-3 relations. After 03B is separated, this document should not be read as the whole AMR package. It is the AMR-SR branch, not the divisor-carrier theory.
+[Open volume](00_Core/DOT_Volume_3_Boundary_Operators_Scene_Reductions_EN.md)
 
-- [03B. AMR-DC: divisor carrier and chain extension](01_Mathematical_Start/03B_DOT_AMR_Divisor_Carrier_and_Chain_Extension_EN.md)
+Volume 3 fixes the boundary side of DOT. It separates several levels of
+boundary: the boundary inside an already held scene, polar boundary,
+coboundary, cyclic boundary, and the boundary of the scene as a scene.
 
-  The second arithmetic AMR branch. Its carrier is the finite divisor lattice $D(N)=\{d:d\mid N\}$. The document shows that if $N=p_1^{a_1}\cdots p_r^{a_r}$, then $D(N)$ is read as the product of finite chains $\prod_i\{0,\ldots,a_i\}$. For square-free numbers this gives the Boolean carrier $Q_n$; after the lower and upper poles are removed, the proper carrier $D^\circ(N)\cong U_n$ appears.
+Here reductions receive their new status. They describe transitions from
+one scene configuration to another, while holding conditions show when a
+scene remains the same scene. The volume connects distinction with trace,
+recoverability, internal boundary, and transitions between layers.
 
-  The central example of 03B is $30=2\cdot3\cdot5$. Its proper carrier $D^\circ(30)=\{2,3,5,6,10,15\}$ is an arithmetic avatar of the six-point scene $X_{\mathrm{adm}}$. On the same carrier one builds the relations $C_6$, $K_3\sqcup K_3$, $3K_2$, and $K_{2,2,2}$. The document then develops chain extension, recovery discipline, the residue carrier connection, and bridge readings toward $A_2/\mathfrak{sl}_3/\mathfrak{su}(3)$, the Hopf/Borromean layer, and the Möbius function.
+### Volume 4. Operator Tower
 
-  The boundary between 03A and 03B is essential: $\mathrm{Res}_{\mathrm{sr}}$ from AMR-SR is not the relation $R_{\mathrm{oct}}$ in AMR-DC, and the carriers $\mathbb N_{>0}^2$ and $D(N)$ are not identified without a separate bridge map.
+[Open volume](00_Core/DOT_Volume_4_Operator_Tower_EN.md)
 
-## Bridge Notes
+Volume 4 shows how DOT structures begin to act on structures. It builds
+the operator tower: rank carriers are lifted to the operator level,
+self-dual functions appear, together with the Klein four-group and the
+affine subcarrier of rank \(8\).
 
-- [RGB / CMY / Kuhn / HSV color bridge](02_Bridges/01_Color_RGB_Kuhn/DOT_RGB_Kuhn_Color_Bridge_EN.md)
+The special role of the volume is the reappearance of the octahedral law
+at the operator level. The octahedron appears as a rank-3 scene and as a
+form repeated in operator layers.
 
-  A color projection of rank $3$. The carrier $Q_3$ is read as an RGB/CMY cube, while the six-point layer $X_{\mathrm{adm}}$ is read as the chromatic carrier without the black and white poles. The relations $R_1, R_2, R_3$ receive color forms: a cycle, two triads, and three complementary axes. The octahedral shell and the decomposition of the RGB cube into Kuhn sectors are fixed separately.
+### Volume 5. Fano, Tetrahedron, and Chamber Duality
 
-  <p align="center">
-    <a href="assets/figures/B7c_DOT_chambers_two_octahedron_views.png">
-      <img src="assets/figures/B7c_DOT_chambers_two_octahedron_views.png" width="500" alt="DOT chambers on the color octahedron">
-    </a>
-  </p>
+[Open volume](00_Core/DOT_Volume_5_Fano_Tetrahedron_Chamber_Duality_EN.md)
 
-  Figure from the color bridge: DOT chambers on the color octahedron and the two RGB/CMY sides.
+Volume 5 analyzes rank \(4\) as a tetrahedral scene. The full four-bit
+carrier receives a barycentric reading: vertices, edges, faces, and the
+center of the tetrahedron become layers of one finite structure.
 
-- [Binarity as a growth principle of DOT](02_Bridges/02_Binary_Growth/DOT_Binary_Growth_Principle_EN.md)
+The middle layer of rank \(4\) has an octahedral form. Factorization by
+complementarity gives the Fano plane. The three opposite axes of the
+octahedron receive a projective reading, and octahedral chambers are tied
+to tetrahedral duality.
 
-  A note on the binary mechanism of growth. A new rank is introduced by adding a new leading bit; previous states receive new positions, layers are lifted by weight, and complement connects opposite regions of the carrier. This is the general transition principle between ranks in the main manuscript.
+### Volume 6. Cycles, Circle, and Topological Avatars
 
-- [Binary coordinates in DOT](02_Bridges/02_Binary_Growth/DOT_Binary_Coordinate_Note_EN.md)
+[Open volume](00_Core/DOT_Volume_6_Cycles_Circle_Topological_Avatars_EN.md)
 
-  A technical coordinate note. It gathers conventions for binary carriers, string weight, layers, Hamming relations, complement, and rank growth. The file serves as a reference layer for consistent notation.
+Volume 6 unfolds the cyclic side of the first complete scene. The
+six-step rank-3 cycle is read as a discrete avatar of the circle. The
+half-period of the cycle gives complementarity, and the passage to a
+continuous reading connects the cycle with roots of unity and a Möbius
+type.
 
-- [Six-state A2 / sl3 / su(3) bridge](02_Bridges/03_A2_sl3_su3/DOT_Six_State_A2_sl3_su3_EN.md)
+The topological part of the volume presents Hopf pairs and a Borromean
+triad of blocks as external avatars of the same finite structure.
+Topology here acts as a separate reading of an already constructed scene.
 
-  An algebraic reading of the rank-3 six-point structure. The document connects the $3+3$ split, triangular relations, and opposite pairs with $A_2$ root data, the Cartan matrix, Chevalley realization, and action on a six-position module.
+## Bridges
 
-- [Hopf / Borromean bridge](02_Bridges/04_Hopf_Borromean/DOT_Principles_Hopf_2x3_Full_2026-04-24_EN.md)
+Bridges are located in [`02_Bridges`](02_Bridges). They show how the
+constructed scenes can be read in other languages. Their status is that of
+external projections and directions for further development.
 
-  A topological bridge for pairing, cyclic transport, and triple connectivity. It introduces axial pairs, finite holonomy, Hopf-type reading, the Borromean block triad, and the related name-status discipline. This is a separate map of topological readings for the already constructed finite layer.
+### RGB/CMY/HSV/Lab Color Projection
 
-- [Cryptographic spectral block](02_Bridges/05_Cryptographic_Spectral_Block/DOT_Cryptographic_Spectral_Block.md)
+The color bridge uses the intuitive material of the color cube. The full
+three-bit carrier is read as the RGB/CMY cube, and the active six-state
+carrier after setting apart the black and white limits is read as the
+chromatic octahedron.
 
-  A theorem package for the cross-polytope--hypercube composite graph. It computes the spectrum of a fixed block Laplacian and reads correlation immunity, balancedness, and resilience of Boolean functions as vanishing on explicit spectral sectors.
+In this reading, the two triads correspond to additive and subtractive
+structures, the cycle gives an active hue traversal, and complementary
+pairs approach opponent axes. The bridge is useful as visual support for
+rank \(3\); the foundation of the theory remains in the main corpus.
 
-## Appendix, Figures, and Glossary
+### Binary Growth
 
-- [Appendix AF. Object atlas and glossary](03_Appendix/DOT_Appendix_AF_Atlas_And_Glossary_EN.md) collects the main carriers, layers, relations, graphs, cycles, packages, term statuses, and figure map.
-- [Figure folder](assets/figures) contains diagrams used in the main manuscript and bridge notes.
+The binary growth materials fix the mechanism of rank lifting: a new rank
+is introduced by adding a new binary coordinate. Old states receive a new
+position, layers are reorganized, and complementarity relates opposite
+regions of the carrier.
 
-The appendix is useful as a navigation layer: it helps check notation, formulas on figures, and object statuses.
+This line enters Volumes 0 and 2 in revised form.
+
+### \(A_2/\mathfrak{sl}_3/\mathfrak{su}(3)\)
+
+The algebraic bridge reads the six-position rank-3 scene through the
+\(A_2\) root system, the structure \(\mathfrak{sl}_3\), and the compact
+reading \(\mathfrak{su}(3)\). The \(3+3\) split, triangular relations, and
+opposite pairs receive an external algebraic mirror.
+
+### Hopf and Borromean Line
+
+The topological bridge connects pairing, cycle, and triple irreducibility.
+The three opposite pairs of the octahedron are read as Hopf pairs, and
+their joint holding is read as a Borromean link.
+
+This line shows that the complete scene is held by a coordinated triad of
+modes. Its main revision enters Volume 6.
+
+### Cryptographic Spectral Block
+
+The cryptographic block is a separate theorem package for a
+spectral-graph reading of Boolean functions. Balancedness, resilience, and
+correlation immunity are read through explicitly given spectral sectors.
+
+This block is kept as an appendix and verification material.
+
+### Boundary Operator and Distinction
+
+This bridge became the basis of Volume 3. Its central topic is the
+several meanings of boundary: boundary of a position, boundary of a layer,
+polar boundary, cyclic boundary, and boundary of the scene as reduction.
+
+### Fano-Tetrahedral Reading
+
+The Fano-tetrahedral bridge was revised into Volume 5. It shows how rank
+\(4\) relates the tetrahedron, the middle octahedral layer, and the Fano
+plane. Projective geometry appears through factorization of the active
+scene by complementarity.
+
+### Logic-Operator Reading
+
+The logic-operator line was revised into Volume 4. It shows how DOT scenes
+are lifted to the operator level and how the octahedral law repeats in the
+operator tower.
+
+### AMR Arithmetic
+
+AMR materials are kept as a future arithmetic branch. They develop divisor
+carriers, square-free numbers, and arithmetic avatars of the six-position
+scene. At this stage this line is kept outside the main Volumes 0-6
+corpus.
+
+Detailed bridge map:
+
+- [02_Bridges/README.md](02_Bridges/README.md)
+
+## Appendices
+
+Appendices are located in [`03_Appendix`](03_Appendix). At this stage the
+old English object and notation atlas is kept there as a reference source.
+
+Planned English appendices:
+
+- atlas of carriers, layers, relations, and operators;
+- glossary of construction statuses;
+- figure map;
+- catalogue of verified claims and corresponding scripts;
+- table relating old DOT notation to the current DOT terminology.
+
+Detailed appendix map:
+
+- [03_Appendix/README.md](03_Appendix/README.md)
+
+## Articles
+
+Separate articles and external texts are located in
+[`04_Articles`](04_Articles). They do not set the reading order of the
+theory, but preserve standalone formulations of selected ideas and older
+publication versions.
+
+- [04_Articles/README.md](04_Articles/README.md)
 
 ## Verification
 
-Python dependencies are listed in [requirements.txt](requirements.txt).
+The verification layer is located in [`01_Verification`](01_Verification).
+
+Main commands:
+
+```bash
+python3 01_Verification/DOT_Core_verifier.py
+python3 01_Verification/DOT_AMR_verifier.py self-test
+python3 01_Verification/DOT_AMR_verifier.py core-check
+python3 01_Verification/verify_six_state_a2_sl3_su3.py
+python3 01_Verification/verify_cryptographic_spectral_block.py
+```
+
+The verification scripts accompany the finite part of the theory. They
+check graphs, relations, cycles, spectra, shell laws, and selected bridge
+packages. Their role is regression checking of finite claims; the reading
+of observer, reductions, and active boundary is fixed in the main corpus.
+
+Dependencies are listed in [`requirements.txt`](requirements.txt):
 
 ```bash
 python3 -m pip install -r requirements.txt
 ```
 
-Available verification scripts:
+Detailed verification map:
 
-```bash
-python3 01_Mathematical_Start/DOT_Core_verifier.py
-python3 01_Mathematical_Start/DOT_AMR_verifier.py
-python3 02_Bridges/03_A2_sl3_su3/verify_six_state_a2_sl3_su3.py
-python3 02_Bridges/05_Cryptographic_Spectral_Block/verify_cryptographic_spectral_block.py
+- [01_Verification/README.md](01_Verification/README.md)
+
+## Repository Structure
+
+```text
+00_Core/          main corpus, Volumes 0-6
+01_Verification/  verification scripts
+02_Bridges/       bridge readings and language-specific appendices
+03_Appendix/      atlases, glossaries, and reference materials
+04_Articles/      articles and external texts
+assets/figures/   figures from the earlier package and bridge documents
 ```
 
-These scripts check selected constructions from the finite core, AMR, the representation bridge, and the spectral block.
+Earlier English DOT documents are preserved as a historical layer in the
+Russian repository backup. The current reading order begins in
+[`00_Core`](00_Core).
 
 ## Licenses
 
-Theoretical texts, manuscripts, figures, and documentation are distributed under [CC BY-NC-SA 4.0](LICENSE-THEORY.md), unless a specific file states otherwise.
+Theory texts, figures, and documentation are distributed under
+[CC BY-NC-SA 4.0](LICENSE-THEORY.md), unless a specific file states
+otherwise.
 
 Executable source code is distributed under the [Apache License 2.0](LICENSE).
 
 ---
 
-© 2026 Igor M. Zhuk. Theory and documentation are distributed under the corresponding licenses listed above.
+© 2026 Igor M. Zhuk. Theory and documentation are distributed under the
+corresponding licenses listed above.

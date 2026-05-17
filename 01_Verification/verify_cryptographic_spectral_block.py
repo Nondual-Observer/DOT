@@ -5,7 +5,7 @@ Cryptographic Spectral Block — Unified Verification Suite
 =========================================================
 
 This script is the single minimal verifier for the connected theorem-package
-stored in:
+stored in the earlier bridge document:
 
   DOT_Cryptographic_Spectral_Block.md
 

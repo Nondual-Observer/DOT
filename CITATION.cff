@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "DOT: finite-rank theory and bridges"
+title: "DOT: Distinction Observable Theory"
 message: "If you use this work, please cite it using the metadata from this file."
 type: dataset
 authors:
@@ -8,5 +8,5 @@ authors:
 doi: 10.5281/zenodo.20059466
 url: "https://github.com/Nondual-Observer/DOTheory"
 repository-code: "https://github.com/Nondual-Observer/DOTheory"
-date-released: 2026-05-10
+date-released: 2026-05-17
 license: CC-BY-NC-SA-4.0

@@ -10,9 +10,9 @@ Then came the thought of threefoldness. Many basic structures in different domai
 
 Thinking about what is needed for a process of distinction to persist, I arrived at three short conditions. Distinction must not collapse into complete coincidence, otherwise distance itself disappears. It must not be traceless, otherwise one cannot even say that distinction occurred. And it must not depend on something external, otherwise it has no ground of its own.
 
-Somewhere here the Theory of Observable Distinction began.
+Somewhere here the Distinction Observable Theory began.
 
-This article is an introductory route into the DOT corpus on GitHub. The strict finite construction is built in the [main English manuscript](../00_Theory/DOT_main_EN.md).
+This article is an introductory route into the earlier DOT formulation. The current Russian DOT corpus is located in [00_Core](../00_Core); the earlier English DOT documents are preserved in the external repository backup as historical sources.
 
 ![White and black](../assets/bw.png)
 
@@ -312,7 +312,7 @@ The color reading has two aspects. The first is colors on vertices: each vertex 
 
 The arithmetic reading begins with divisors.
 
-The strict divisor branch of this construction is developed in [AMR-DC: divisor carrier and chain extension](../01_Mathematical_Start/03B_DOT_AMR_Divisor_Carrier_and_Chain_Extension_EN.md). The separate scale/residue AMR line is given in [03A AMR-SR](../01_Mathematical_Start/03A_DOT_AMR_Scale_Residue_Line_EN.md); its carrier is different, so it is not identified with the divisor branch.
+The strict divisor branch of this construction was developed in the earlier AMR materials. In the current repository AMR is preserved as a future arithmetic branch outside the main Volumes 0–6.
 
 If a natural number $N$ is decomposed into a product of distinct prime factors, then each of its divisors corresponds to the choice of some subset of primes. For square-free $N$ with $n$ prime factors, the divisor lattice is Boolean:
 
@@ -484,10 +484,10 @@ This architecture can then unfold in different directions: color, arithmetic of 
 
 ## 13. Where to Read Next
 
-The main strict text is the [DOT manuscript](../00_Theory/DOT_main_EN.md). It builds the finite core up to rank $5$: from the polar pair and two-bit carrier to the six-point octahedral scene, then to ranks $4$ and $5$, the general law of growth, and the universal outer layer.
+The main entry of the current repository is the [Russian DOT corpus, Volumes 0–6](../00_Core). It builds the finite core from the polar pair and active boundary to the six-point octahedral scene, then to higher ranks, boundary operators, the operator tower, Fano-tetrahedral reading, and cyclic-topological avatars.
 
-The [Mathematical Start](../01_Mathematical_Start) folder contains entrances into the strict part. [01A](../01_Mathematical_Start/01A_DOT_Mathematical_Bridge_EN.md) gives the mathematical bridge to the core. [02A](../01_Mathematical_Start/02A_DOT_Core_Foundation_And_Theorems_EN.md) fixes the basic definitions and theorems for the six-point scene. [02B](../01_Mathematical_Start/02B_DOT_Shell_Extension_And_Categorical_Packaging_EN.md) continues the construction through shells, operators, and rank-4 packaging.
+The [00_Core](../00_Core) folder contains the current main corpus. Volume 0 gives the beginning of the theory, Volume 1 unfolds the strict rank-3 core, and Volume 2 develops higher ranks and projective architecture.
 
-AMR is now separated into two branches. [03A AMR-SR](../01_Mathematical_Start/03A_DOT_AMR_Scale_Residue_Line_EN.md) works on the carrier of pairs of positive integers $\mathbb N_{>0}^2$ and studies scale, primitive rays, and the scalar residue $\mathrm{Res}_{\mathrm{sr}}$. [03B AMR-DC](../01_Mathematical_Start/03B_DOT_AMR_Divisor_Carrier_and_Chain_Extension_EN.md) works on the divisor carrier $D(N)$ and gives an arithmetic avatar of the Boolean core: for $30=2\cdot3\cdot5$, the proper divisors become the six-point octahedral scene.
+AMR is preserved as a future arithmetic branch. Its earlier materials remain in the backup of the old corpus; the current bridge map is given in [02_Bridges](../02_Bridges).
 
 The [Bridge Notes](../02_Bridges) folder gathers external readings of the already constructed core: the color cube and chambers, binary growth, the bridge to $A_2/\mathfrak{sl}_3/\mathfrak{su}(3)$, the Hopf/Borromean layer, and the cryptographic spectral block. The [Appendix](../03_Appendix/DOT_Appendix_AF_Atlas_And_Glossary_EN.md) serves as an atlas of objects, notation, and figures.

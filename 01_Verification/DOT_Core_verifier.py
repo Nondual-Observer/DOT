@@ -2479,7 +2479,7 @@ def strong_geometric_reduction_test():
 
 def main():
     print("=" * 72)
-    print("ЧИСТОВОЙ ВЕРИФИКАТОР DOT")
+    print("CLEAN DOT VERIFIER")
     print("Область: аксиоматический, комбинаторный, спектральный и Z₂-транспортный каркас")
     print("=" * 72)
 
