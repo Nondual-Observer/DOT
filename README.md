@@ -2,9 +2,9 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Theory-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE-THEORY.md)
 [![License: Apache-2.0](https://img.shields.io/badge/Code-Apache--2.0-yellow.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059466.svg)](https://doi.org/10.5281/zenodo.20059466)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20257220.svg)](https://doi.org/10.5281/zenodo.20257220)
 
-DOI: [10.5281/zenodo.20059466](https://doi.org/10.5281/zenodo.20059466)
+DOI: [10.5281/zenodo.20257220](https://doi.org/10.5281/zenodo.20257220)
 
 **Distinction Observable Theory** is a theory of finite scenes of
 distinction with a strict combinatorial core. It is organized around one
